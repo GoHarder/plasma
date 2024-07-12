@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30" height="30" viewBox="0 0 30 30" version="1.1" id="svg1"
+  inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)" sodipodi:docname="maximize.svg"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview id="namedview1" pagecolor="#808080" bordercolor="#666666" borderopacity="1.0"
+    inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="true" inkscape:deskcolor="#d1d1d1"
+    inkscape:document-units="px" showgrid="true" inkscape:zoom="3.132239" inkscape:cx="108.86781"
+    inkscape:cy="47.729436" inkscape:window-width="1920" inkscape:window-height="1057" inkscape:window-x="1912"
+    inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="layer1" />
+  <defs id="defs1" />
+  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
+    <style id="style1">
+      .ColorScheme-Text {
+        color: #e0e0e0;
+      }
+
+      .ColorScheme-Background {
+        color: #2e2e2e;
+      }
+
+      .ColorScheme-ButtonBackground {
+        color: #c4c4c4;
+      }
+    </style>
+    <g id="active-center">
+      <rect id="active-background" width="30" height="22" x="0" y="4" opacity="0" />
+      <path id="active-icon"
+        d="m 11.4,18.6 q -0.37125,0 -0.635625,-0.264375 Q 10.5,18.07125 10.5,17.7 v -5.4 q 0,-0.37125 0.264375,-0.635625 Q 11.02875,11.4 11.4,11.4 h 7.2 q 0.37125,0 0.635625,0.264375 Q 19.5,11.92875 19.5,12.3 v 5.4 q 0,0.37125 -0.264375,0.635625 Q 18.97125,18.6 18.6,18.6 Z m 0,-0.9 h 7.2 v -4.5 h -7.2 z"
+        class="ColorScheme-Text" fill="currentColor" />
+    </g>
+    <g id="inactive-center">
+      <rect id="inactive-background" width="30" height="22" x="40" y="4" opacity="0" />
+      <path id="inactive-icon"
+        d="m 51.4,18.6 q -0.37125,0 -0.635625,-0.264375 Q 50.5,18.07125 50.5,17.7 v -5.4 q 0,-0.37125 0.264375,-0.635625 Q 51.02875,11.4 51.4,11.4 h 7.2 q 0.37125,0 0.635625,0.264375 Q 59.5,11.92875 59.5,12.3 v 5.4 q 0,0.37125 -0.264375,0.635625 Q 58.97125,18.6 58.6,18.6 Z m 0,-0.9 h 7.2 v -4.5 h -7.2 z"
+        class="ColorScheme-Text" fill="currentColor" />
+    </g>
+    <g id="hover-center">
+      <rect id="hover-background" width="30" height="22" x="80" y="4" class="ColorScheme-Background"
+        fill="currentColor" />
+      <path id="hover-icon"
+        d="m 91.4,18.6 q -0.371251,0 -0.63562,-0.264375 Q 90.5,18.07125 90.5,17.7 v -5.4 q 0,-0.37125 0.264381,-0.635625 Q 91.02875,11.4 91.400001,11.4 h 7.2 q 0.37125,0 0.63563,0.264375 Q 99.5,11.92875 99.5,12.3 v 5.4 q 0,0.37125 -0.264369,0.635625 Q 98.971251,18.6 98.600001,18.6 Z m 0,-0.9 h 7.2 v -4.5 h -7.2 z"
+        class="ColorScheme-Text" fill="currentColor" />
+      <rect id="hover-state-layer" width="30" height="22" x="80" y="4" class="ColorScheme-ButtonBackground"
+        fill="currentColor" opacity="0.08" />
+    </g>
+    <g id="pressed-center">
+      <rect id="pressed-background" width="30" height="22" x="120" y="4" class="ColorScheme-Background"
+        fill="currentColor" />
+      <path id="pressed-icon"
+        d="m 131.4,18.6 q -0.37125,0 -0.63562,-0.264375 Q 130.5,18.07125 130.5,17.7 v -5.4 q 0,-0.37125 0.26438,-0.635625 Q 131.02875,11.4 131.4,11.4 h 7.2 q 0.37125,0 0.63563,0.264375 Q 139.5,11.92875 139.5,12.3 v 5.4 q 0,0.37125 -0.26437,0.635625 Q 138.97125,18.6 138.6,18.6 Z m 0,-0.9 h 7.2 v -4.5 h -7.2 z"
+        class="ColorScheme-Text" fill="currentColor" />
+      <rect id="pressed-state-layer" width="30" height="22" x="80" y="4" class="ColorScheme-ButtonBackground"
+        fill="currentColor" opacity="0.1" />
+    </g>
+    <g id="deactivated-center">
+      <rect id="deactivated-background" width="30" height="22" x="160" y="4" class="ColorScheme-Background"
+        fill="currentColor" opacity="0.12" />
+      <path id="deactivated-icon"
+        d="m 171.4,18.6 q -0.37125,0 -0.63562,-0.264375 Q 170.5,18.07125 170.5,17.7 v -5.4 q 0,-0.37125 0.26438,-0.635625 Q 171.02875,11.4 171.4,11.4 h 7.2 q 0.37125,0 0.63563,0.264375 Q 179.5,11.92875 179.5,12.3 v 5.4 q 0,0.37125 -0.26437,0.635625 Q 178.97125,18.6 178.6,18.6 Z m 0,-0.9 h 7.2 v -4.5 h -7.2 z"
+        class="ColorScheme-Text" fill="currentColor" opacity="0.38" />
+    </g>
+  </g>
+</svg>
