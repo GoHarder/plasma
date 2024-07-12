@@ -1,56 +1,43 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="30" height="30" viewBox="0 0 30 30" version="1.1" id="svg1"
-  inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)" sodipodi:docname="minimize.svg"
-  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
-  xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview id="namedview1" pagecolor="#808080" bordercolor="#666666" borderopacity="1.0"
-    inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="true" inkscape:deskcolor="#d1d1d1"
-    inkscape:document-units="px" showgrid="true" inkscape:zoom="4.4296549" inkscape:cx="115.6975"
-    inkscape:cy="8.2399196" inkscape:window-width="1920" inkscape:window-height="1057" inkscape:window-x="1912"
-    inkscape:window-y="-8" inkscape:window-maximized="1" inkscape:current-layer="layer1" />
-  <defs id="defs1" />
-  <g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1">
-    <style id="style1">
-      .ColorScheme-Text {
-        color: #e0e0e0;
-      }
+<svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 0 30 30" width="30">
+  <style>
+    .ColorScheme-Text {
+      color: #e0e0e0;
+    }
 
-      .ColorScheme-Background {
-        color: #2e2e2e;
-      }
+    .ColorScheme-Background {
+      color: #2e2e2e;
+    }
 
-      .ColorScheme-ButtonBackground {
-        color: #c4c4c4;
-      }
-    </style>
-    <g id="active-center">
-      <rect id="active-background" width="30" height="22" x="0" y="4" opacity="0" />
-      <path id="active-icon" d="m 10.5,15.5625 v -1.125 h 9 v 1.125 z" class="ColorScheme-Text" fill="currentColor" />
-    </g>
-    <g id="inactive-center">
-      <rect id="inactive-background" width="30" height="22" x="40" y="4" opacity="0" />
-      <path id="inactive-icon" d="m 50.5,15.5625 v -1.125 h 9 v 1.125 z" class="ColorScheme-Text" fill="currentColor" />
-    </g>
-    <g id="hover-center">
-      <rect id="hover-background" width="30" height="22" x="80" y="4" class="ColorScheme-Background"
-        fill="currentColor" />
-      <path id="hover-icon" d="m 90.5,15.5625 v -1.125 h 9 v 1.125 z" class="ColorScheme-Text" fill="currentColor" />
-      <rect id="hover-state-layer" width="30" height="22" x="80" y="4" class="ColorScheme-ButtonBackground"
-        fill="currentColor" opacity="0.08" />
-    </g>
-    <g id="pressed-center">
-      <rect id="pressed-background" width="30" height="22" x="120" y="4" class="ColorScheme-Background"
-        fill="currentColor" />
-      <path id="pressed-icon" d="m 130.5,15.5625 v -1.125 h 9 v 1.125 z" class="ColorScheme-Text" fill="currentColor" />
-      <rect id="pressed-state-layer" width="30" height="22" x="80" y="4" class="ColorScheme-ButtonBackground"
-        fill="currentColor" opacity="0.1" />
-    </g>
-    <g id="deactivated-center">
-      <rect id="deactivated-background" width="30" height="22" x="160" y="4" class="ColorScheme-Background"
-        fill="currentColor" opacity="0.12" />
-      <path id="deactivated-icon" d="m 170.5,15.5625 v -1.125 h 9 v 1.125 z" class="ColorScheme-Text"
-        fill="currentColor" opacity="0.38" />
-    </g>
+    .ColorScheme-ButtonBackground {
+      color: #c4c4c4;
+    }
+  </style>
+  <g id="active-center">
+    <rect id="active-background" width="30" height="22" x="0" y="4" opacity="0" />
+    <path id="active-icon" d="m 10.5,15.5625 v -1.125 h 9 v 1.125 z" class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="inactive-center">
+    <rect id="inactive-background" width="30" height="22" x="40" y="4" opacity="0" />
+    <path id="inactive-icon" d="m 50.5,15.5625 v -1.125 h 9 v 1.125 z" class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="hover-center">
+    <rect id="hover-background" width="30" height="22" x="80" y="4" class="ColorScheme-Background"
+      fill="currentColor" />
+    <path id="hover-icon" d="m 90.5,15.5625 v -1.125 h 9 v 1.125 z" class="ColorScheme-Text" fill="currentColor" />
+    <rect id="hover-state-layer" width="30" height="22" x="80" y="4" class="ColorScheme-ButtonBackground"
+      fill="currentColor" opacity="0.08" />
+  </g>
+  <g id="pressed-center">
+    <rect id="pressed-background" width="30" height="22" x="120" y="4" class="ColorScheme-Background"
+      fill="currentColor" />
+    <path id="pressed-icon" d="m 130.5,15.5625 v -1.125 h 9 v 1.125 z" class="ColorScheme-Text" fill="currentColor" />
+    <rect id="pressed-state-layer" width="30" height="22" x="80" y="4" class="ColorScheme-ButtonBackground"
+      fill="currentColor" opacity="0.1" />
+  </g>
+  <g id="deactivated-center">
+    <rect id="deactivated-background" width="30" height="22" x="160" y="4" class="ColorScheme-Background"
+      fill="currentColor" opacity="0.12" />
+    <path id="deactivated-icon" d="m 170.5,15.5625 v -1.125 h 9 v 1.125 z" class="ColorScheme-Text" fill="currentColor"
+      opacity="0.38" />
   </g>
 </svg>
