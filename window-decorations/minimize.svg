@@ -50,7 +50,7 @@
       <rect id="deactivated-background" width="30" height="22" x="160" y="4" class="ColorScheme-Background"
         fill="currentColor" opacity="0.12" />
       <path id="deactivated-icon" d="m 170.5,15.5625 v -1.125 h 9 v 1.125 z" class="ColorScheme-Text"
-        fill="currentColor" />
+        fill="currentColor" opacity="0.38" />
     </g>
   </g>
 </svg>
