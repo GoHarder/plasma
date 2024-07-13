@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Asguard
+Comment=Asguard window decorations
+Type=Application
+X-KDE-PluginInfo-Author=Gregory Harder
+X-KDE-PluginInfo-Email=goharder83@gmail.com
+X-KDE-PluginInfo-Name=Asguard
+X-KDE-PluginInfo-Version=1.2
+X-KDE-PluginInfo-License=GPL_V3
+X-KDE-PluginInfo-EnabledByDefault=true
+X-KDE-PluginInfo-blur=false

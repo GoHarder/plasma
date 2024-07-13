@@ -1,0 +1,21 @@
+{
+  "KPackageStructure": "KWin/Aurorae",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Email": "goharder83@gmail.com",
+        "Name": "Gregory Harder"
+      }
+    ],
+    "Category": "Plasma 6 Window Decorations",
+    "ServiceTypes": ["KWin/Aurorae"],
+    "EnabledByDefault": true,
+    "Name": "Asguard",
+    "Description": "Asguard window decorations",
+    "Id": "asguard",
+    "Version": "1.2",
+    "License": "GPL_V3",
+    "X-KDE-PluginInfo-blur": false,
+    "X-KPackage-Dependencies": []
+  }
+}
