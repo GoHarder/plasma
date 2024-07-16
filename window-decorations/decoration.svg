@@ -5,7 +5,7 @@
    xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
    <sodipodi:namedview id="namedview1" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0"
       inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#008080"
-      inkscape:zoom="3.0511658" inkscape:cx="71.775845" inkscape:cy="54.569307" inkscape:window-width="1920"
+      inkscape:zoom="6.1023315" inkscape:cx="139.94651" inkscape:cy="7.4561665" inkscape:window-width="1920"
       inkscape:window-height="1057" inkscape:window-x="1912" inkscape:window-y="-8" inkscape:window-maximized="1"
       inkscape:current-layer="svg1" showguides="true" />
    <defs id="defs1">
@@ -23,7 +23,7 @@
       <radialGradient xlink:href="#lgb1" id="rgb1-bl" cx="32" cy="72" r="12" gradientUnits="userSpaceOnUse" />
       <radialGradient xlink:href="#lgb1" id="rgb1-br" cx="68" cy="72" r="12" gradientUnits="userSpaceOnUse" />
       <!-- Linear Gradient After 1 -->
-      <linearGradient id="lga1" inkscape:collect="always">
+      <linearGradient id="lga1">
          <stop stop-color="#000000" stop-opacity="1" offset="0.25" id="stop3" />
          <stop stop-color="#000000" stop-opacity="0" offset="1" id="stop4" />
       </linearGradient>
@@ -36,6 +36,34 @@
       <radialGradient xlink:href="#lga1" id="rga1-tr" cx="68" cy="40" r="18" gradientUnits="userSpaceOnUse" />
       <radialGradient xlink:href="#lga1" id="rga1-bl" cx="32" cy="76" r="18" gradientUnits="userSpaceOnUse" />
       <radialGradient xlink:href="#lga1" id="rga1-br" cx="68" cy="76" r="18" gradientUnits="userSpaceOnUse" />
+      <!-- Linear Gradient Before 2 -->
+      <linearGradient id="lgb2">
+         <stop stop-color="#000000" stop-opacity="1" offset="0.75" id="stop5" />
+         <stop stop-color="#000000" stop-opacity="0" offset="1" id="stop6" />
+      </linearGradient>
+      <linearGradient xlink:href="#lgb2" id="lgb2-t" x1="150" y1="34" x2="150" y2="22" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lgb2" id="lgb2-l" x1="132" y1="52" x2="120" y2="52" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lgb2" id="lgb2-r" x1="168" y1="52" x2="180" y2="52" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lgb2" id="lgb2-b" x1="150" y1="70" x2="150" y2="82" gradientUnits="userSpaceOnUse" />
+      <!-- Radial Gradient Before 2 -->
+      <radialGradient xlink:href="#lgb2" id="rgb2-tl" cx="132" cy="34" r="12" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lgb2" id="rgb2-tr" cx="168" cy="34" r="12" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lgb2" id="rgb2-bl" cx="132" cy="70" r="12" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lgb2" id="rgb2-br" cx="168" cy="70" r="12" gradientUnits="userSpaceOnUse" />
+      <!-- Linear Gradient After 2 -->
+      <linearGradient id="lga2">
+         <stop stop-color="#000000" stop-opacity="1" offset="0.375" id="stop7" />
+         <stop stop-color="#000000" stop-opacity="0" offset="1" id="stop8" />
+      </linearGradient>
+      <linearGradient xlink:href="#lga2" id="lga2-t" x1="150" y1="38" x2="150" y2="22" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lga2" id="lga2-l" x1="132" y1="56" x2="116" y2="56" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lga2" id="lga2-r" x1="168" y1="56" x2="184" y2="56" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lga2" id="lga2-b" x1="150" y1="74" x2="150" y2="90" gradientUnits="userSpaceOnUse" />
+      <!-- Radial Gradient After 2 -->
+      <radialGradient xlink:href="#lga2" id="rga2-tl" cx="132" cy="38" r="16" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lga2" id="rga2-tr" cx="168" cy="38" r="16" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lga2" id="rga2-bl" cx="132" cy="74" r="16" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lga2" id="rga2-br" cx="168" cy="74" r="16" gradientUnits="userSpaceOnUse" />
    </defs>
    <style id="style1">
       .ColorScheme-Text {
@@ -52,82 +80,109 @@
    </style>
    <g id="decoration-topleft">
       <path d="m 32,24 c -6.531393,0 -10.394749,2.667608 -11.59375,8 H 24 c 0,-5.333328 2.666672,-8 8,-8 z"
-         fill="url(#rgb1-tl)" opacity="0.3" />
+         fill="url(#rgb1-tl)" opacity="0.3" id="path1" />
       <path d="M 32,22 C 23.056704,22 17.447999,25.334782 15.169922,32 H 24 c 0,-5.333328 2.666672,-8 8,-8 z"
-         fill="url(#rga1-tl)" opacity="0.15" />
+         fill="url(#rga1-tl)" opacity="0.15" id="path2" />
       <path d="M 32,20 Q 20,20 20,32 h 4 q 0,-8 8,-8 z" class="ColorScheme-Background" fill="currentColor"
-         opacity="0.75" />
-      <path d="m 32,24 q -8,0 -8,8 h 8 z" class="ColorScheme-Background" fill="currentColor" />
+         opacity="0.75" id="path3" />
+      <path d="m 32,24 q -8,0 -8,8 h 8 z" class="ColorScheme-Background" fill="currentColor" id="path4" />
    </g>
    <g id="decoration-top">
-      <path d="M 32 22 L 32 24 L 68 24 L 68 22 L 32 22 z" fill="url(#lga1-t)" opacity="0.15" />
-      <rect width="36" height="4" x="32" y="20" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
-      <rect width="36" height="8" x="32" y="24" class="ColorScheme-Background" fill="currentColor" />
+      <path d="M 32 22 L 32 24 L 68 24 L 68 22 L 32 22 z" fill="url(#lga1-t)" opacity="0.15" id="path5" />
+      <rect width="36" height="4" x="32" y="20" class="ColorScheme-Background" fill="currentColor" opacity="0.75"
+         id="rect5" />
+      <rect width="36" height="8" x="32" y="24" class="ColorScheme-Background" fill="currentColor" id="rect6" />
    </g>
    <g id="decoration-topright">
       <path d="M 68 24 C 73.333328 24 76 26.666672 76 32 L 79.59375 32 C 78.394749 26.667608 74.531393 24 68 24 z"
-         fill="url(#rgb1-tr)" opacity="0.3" />
+         fill="url(#rgb1-tr)" opacity="0.3" id="path6" />
       <path
          d="M 68 22 L 68 24 C 73.333328 24 76 26.666672 76 32 L 84.830078 32 C 82.552001 25.334782 76.943296 22 68 22 z"
-         fill="url(#rga1-tr)" opacity="0.15" />
+         fill="url(#rga1-tr)" opacity="0.15" id="path7" />
       <path d="m 68,20 q 12,0 12,12 h -4 q 0,-8 -8,-8 z" class="ColorScheme-Background" fill="currentColor"
-         opacity="0.75" />
-      <path d="m 68,24 q 8,0 8,8 h -8 z" class="ColorScheme-Background" fill="currentColor" />
+         opacity="0.75" id="path8" />
+      <path d="m 68,24 q 8,0 8,8 h -8 z" class="ColorScheme-Background" fill="currentColor" id="path9" />
    </g>
    <g id="decoration-left">
       <path d="M 20.40625 32 C 20.136652 33.199001 20 34.531401 20 36 L 24 36 L 24 32 L 20.40625 32 z"
-         fill="url(#rgb1-tl)" opacity="0.3" />
-      <path d="M 20 36 L 20 68 L 24 68 L 24 36 L 20 36 z" fill="url(#lgb1-l)" opacity="0.3" />
+         fill="url(#rgb1-tl)" opacity="0.3" id="path10" />
+      <path d="M 20 36 L 20 68 L 24 68 L 24 36 L 20 36 z" fill="url(#lgb1-l)" opacity="0.3" id="path11" />
       <path d="M 15.169922 32 C 14.391307 34.278078 14 36.943308 14 40 L 24 40 L 24 32 L 15.169922 32 z"
-         fill="url(#rga1-tl)" opacity="0.15" />
-      <path d="M 14 40 L 14 68 L 24 68 L 24 40 L 14 40 z" fill="url(#lga1-l)" opacity="0.15" />
-      <rect width="4" height="36" x="20" y="32" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
-      <rect width="8" height="36" x="24" y="32" class="ColorScheme-Background" fill="currentColor" />
+         fill="url(#rga1-tl)" opacity="0.15" id="path12" />
+      <path d="M 14 40 L 14 68 L 24 68 L 24 40 L 14 40 z" fill="url(#lga1-l)" opacity="0.15" id="path13" />
+      <rect width="4" height="36" x="20" y="32" class="ColorScheme-Background" fill="currentColor" opacity="0.75"
+         id="rect13" />
+      <rect width="8" height="36" x="24" y="32" class="ColorScheme-Background" fill="currentColor" id="rect14" />
    </g>
    <rect id="decoration-center" width="36" height="36" x="32" y="32" class="ColorScheme-Background"
       fill="currentColor" />
    <g id="decoration-right">
       <path d="M 76 32 L 76 36 L 80 36 C 80 34.531401 79.863348 33.199001 79.59375 32 L 76 32 z" fill="url(#rgb1-tr)"
-         opacity="0.3" />
-      <path d="M 76 36 L 76 68 L 80 68 L 80 36 L 76 36 z" fill="url(#lgb1-r)" opacity="0.3" />
+         opacity="0.3" id="path14" />
+      <path d="M 76 36 L 76 68 L 80 68 L 80 36 L 76 36 z" fill="url(#lgb1-r)" opacity="0.3" id="path15" />
       <path d="M 76 32 L 76 40 L 86 40 C 86 36.943308 85.608693 34.278078 84.830078 32 L 76 32 z" fill="url(#rga1-tr)"
-         opacity="0.15" />
-      <path d="M 76 40 L 76 68 L 86 68 L 86 40 L 76 40 z" fill="url(#lga1-r)" opacity="0.15" />
-      <rect width="4" height="36" x="76" y="32" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
-      <rect width="8" height="36" x="68" y="32" class="ColorScheme-Background" fill="currentColor" />
+         opacity="0.15" id="path16" />
+      <path d="M 76 40 L 76 68 L 86 68 L 86 40 L 76 40 z" fill="url(#lga1-r)" opacity="0.15" id="path17" />
+      <rect width="4" height="36" x="76" y="32" class="ColorScheme-Background" fill="currentColor" opacity="0.75"
+         id="rect17" />
+      <rect width="8" height="36" x="68" y="32" class="ColorScheme-Background" fill="currentColor" id="rect18" />
    </g>
    <g id="decoration-bottomleft">
       <path d="M 20 68 L 20 72 L 24.689453 72 C 24.231362 70.895033 24 69.563057 24 68 L 20 68 z" fill="url(#lgb1-l)"
-         opacity="0.3" />
+         opacity="0.3" id="path18" />
       <path
          d="M 20 72 C 20 79.999992 24.000008 84 32 84 L 32 76 C 28.229729 76 25.79442 74.665304 24.689453 72 L 20 72 z"
-         fill="url(#rgb1-bl)" opacity="0.3" />
-      <path d="M 14 68 L 14 76 L 32 76 C 26.666672 76 24 73.333328 24 68 L 14 68 z" fill="url(#lga1-l)"
-         opacity="0.15" />
-      <path d="M 14 76 C 14 87.999988 20.000012 94 32 94 L 32 76 L 14 76 z" fill="url(#rga1-bl)" opacity="0.15" />
-      <path d="M 32,80 Q 20,80 20,68 h 4 q 0,8 8,8 z" class="ColorScheme-Background" fill="currentColor"
-         opacity="0.75" />
-      <path d="m 32,76 q -8,0 -8,-8 h 8 z" class="ColorScheme-Background" fill="currentColor" />
+         fill="url(#rgb1-bl)" opacity="0.3" id="path19" />
+      <path d="M 14 68 L 14 76 L 32 76 C 26.666672 76 24 73.333328 24 68 L 14 68 z" fill="url(#lga1-l)" opacity="0.15"
+         id="path20" />
+      <path d="M 14 76 C 14 87.999988 20.000012 94 32 94 L 32 76 L 14 76 z" fill="url(#rga1-bl)" opacity="0.15"
+         id="path21" />
+      <path d="M 32,80 Q 20,80 20,68 h 4 q 0,8 8,8 z" class="ColorScheme-Background" fill="currentColor" opacity="0.75"
+         id="path22" />
+      <path d="m 32,76 q -8,0 -8,-8 h 8 z" class="ColorScheme-Background" fill="currentColor" id="path23" />
    </g>
    <g id="decoration-bottom">
-      <path d="M 32 76 L 32 84 L 68 84 L 68 76 L 32 76 z" fill="url(#lgb1-b)" opacity="0.3" />
-      <path d="M 32 76 L 32 94 L 68 94 L 68 76 L 32 76 z" fill="url(#lga-b)" opacity="0.15" />
-      <rect width="36" height="4" x="32" y="76" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
-      <rect width="36" height="8" x="32" y="68" class="ColorScheme-Background" fill="currentColor" />
+      <path d="M 32 76 L 32 84 L 68 84 L 68 76 L 32 76 z" fill="url(#lgb1-b)" opacity="0.3" id="path24" />
+      <path d="M 32 76 L 32 94 L 68 94 L 68 76 L 32 76 z" fill="url(#lga-b)" opacity="0.15" id="path25" />
+      <rect width="36" height="4" x="32" y="76" class="ColorScheme-Background" fill="currentColor" opacity="0.75"
+         id="rect25" />
+      <rect width="36" height="8" x="32" y="68" class="ColorScheme-Background" fill="currentColor" id="rect26" />
    </g>
    <g id="decoration-bottomright">
       <path d="M 76 68 C 76 69.563057 75.768638 70.895033 75.310547 72 L 80 72 L 80 68 L 76 68 z" fill="url(#lgb1-r)"
-         opacity="0.3" />
+         opacity="0.3" id="path26" />
       <path
          d="M 75.310547 72 C 74.20558 74.665304 71.770271 76 68 76 L 68 84 C 75.999992 84 80 79.999992 80 72 L 75.310547 72 z"
-         fill="url(#rgb1-br)" opacity="0.3" />
-      <path d="M 76 68 C 76 73.333328 73.333328 76 68 76 L 86 76 L 86 68 L 76 68 z" fill="url(#lga1-r)"
-         opacity="0.15" />
-      <path d="M 68 76 L 68 94 C 79.999988 94 86 87.999988 86 76 L 68 76 z" fill="url(#rga1-br)" opacity="0.15" />
+         fill="url(#rgb1-br)" opacity="0.3" id="path27" />
+      <path d="M 76 68 C 76 73.333328 73.333328 76 68 76 L 86 76 L 86 68 L 76 68 z" fill="url(#lga1-r)" opacity="0.15"
+         id="path28" />
+      <path d="M 68 76 L 68 94 C 79.999988 94 86 87.999988 86 76 L 68 76 z" fill="url(#rga1-br)" opacity="0.15"
+         id="path29" />
       <path d="m 68,80 q 12,0 12,-12 h -4 q 0,8 -8,8 z" class="ColorScheme-Background" fill="currentColor"
-         opacity="0.75" />
-      <path d="m 68,76 q 8,0 8,-8 h -8 z" class="ColorScheme-Background" fill="currentColor" />
+         opacity="0.75" id="path30" />
+      <path d="m 68,76 q 8,0 8,-8 h -8 z" class="ColorScheme-Background" fill="currentColor" id="path31" />
    </g>
+   <!-- shadow before 0px 2px 3px 0px opacity 0.3 -->
+   <path id="before-tl" d="m 132,22 q -12,0 -12,12 h 12 z" fill="url(#rgb2-tl)" opacity="0.3" />
+   <rect id="before-t" width="36" height="12" x="132" y="22" fill="url(#lgb2-t)" opacity="0.3" />
+   <path id="before-tr" d="m 168,22 q 12,0 12,12 h -12 z" fill="url(#rgb2-tr)" opacity="0.3" />
+   <rect id="before-l" width="12" height="36" x="120" y="34" fill="url(#lgb2-l)" opacity="0.3" />
+   <rect id="before-c" width="36" height="36" x="132" y="34" opacity="0.3" />
+   <rect id="before-r" width="12" height="36" x="168" y="34" fill="url(#lgb2-r)" opacity="0.3" />
+   <path id="before-bl" d="m 132,82 q -12,0 -12,-12 h 12 z" fill="url(#rgb2-bl)" opacity="0.3" />
+   <rect id="before-b" width="36" height="12" x="132" y="70" fill="url(#lgb2-b)" opacity="0.3" />
+   <path id="before-br" d="m 168,82 q 12,0 12,-12 h -12 z" fill="url(#rgb2-br)" opacity="0.3" />
+   <!-- shadow after 0px 6px 10px 4px opacity 0.15 -->
+   <path id="after-tl" d="m 132,22 q -16,0 -16,16 h 16 z" fill="url(#rga2-tl)" opacity="0.15" />
+   <rect id="after-t" width="36" height="16" x="132" y="22" fill="url(#lga2-t)" opacity="0.15" />
+   <path id="after-tr" d="m 168,22 q 16,0 16,16 h -16 z" fill="url(#rga2-tr)" opacity="0.15" />
+   <rect id="after-l" width="16" height="36" x="116" y="38" fill="url(#lga2-l)" opacity="0.15" />
+   <rect id="after-c" width="36" height="36" x="132" y="38" opacity="0.15" />
+   <rect id="after-r" width="16" height="36" x="168" y="38" fill="url(#lga2-r)" opacity="0.15" />
+   <path id="after-bl" d="m 132,90 q -16,0 -16,-16 h 16 z" fill="url(#rga2-bl)" opacity="0.15" />
+   <rect id="after-b" width="36" height="16" x="132" y="74" fill="url(#lga2-b)" opacity="0.15" />
+   <path id="after-br" d="m 168,90 q 16,0 16,-16 h -16 z" fill="url(#rga2-br)" opacity="0.15" />
+   <!-- background -->
    <path id="topleft-border" d="m 132,20 q -12,0 -12,12 h 4 q 0,-8 8,-8 z" class="ColorScheme-Background"
       fill="currentColor" opacity="0.75" />
    <path id="topleft-background" d="m 132,24 q -8,0 -8,8 h 8 z" class="ColorScheme-Background" fill="currentColor" />
