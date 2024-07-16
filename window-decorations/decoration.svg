@@ -14,71 +14,28 @@
          <stop stop-color="#000000" stop-opacity="1" offset="0.66" id="stop1" />
          <stop stop-color="#000000" stop-opacity="0" offset="1" id="stop2" />
       </linearGradient>
-      <linearGradient xlink:href="#lgb1" id="lgb-t" x1="50" y1="36" x2="50" y2="24" gradientUnits="userSpaceOnUse" />
-      <linearGradient xlink:href="#lgb1" id="lgb-l" x1="32" y1="54" x2="20" y2="54" gradientUnits="userSpaceOnUse" />
-      <linearGradient xlink:href="#lgb1" id="lgb-r" x1="68" y1="54" x2="80" y2="54" gradientUnits="userSpaceOnUse" />
-      <linearGradient xlink:href="#lgb1" id="lgb-b" x1="50" y1="72" x2="50" y2="84" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lgb1" id="lgb1-l" x1="32" y1="54" x2="20" y2="54" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lgb1" id="lgb1-r" x1="68" y1="54" x2="80" y2="54" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lgb1" id="lgb1-b" x1="50" y1="72" x2="50" y2="84" gradientUnits="userSpaceOnUse" />
       <!-- Radial Gradient Before 1 -->
-      <radialGradient xlink:href="#lgb1" id="rgb-tl" cx="32" cy="36" r="12" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lgb1" id="rgb-tr" cx="68" cy="36" r="12" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lgb1" id="rgb-bl" cx="32" cy="72" r="12" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lgb1" id="rgb-br" cx="68" cy="72" r="12" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lgb1" id="rgb1-tl" cx="32" cy="36" r="12" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lgb1" id="rgb1-tr" cx="68" cy="36" r="12" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lgb1" id="rgb1-bl" cx="32" cy="72" r="12" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lgb1" id="rgb1-br" cx="68" cy="72" r="12" gradientUnits="userSpaceOnUse" />
       <!-- Linear Gradient After 1 -->
       <linearGradient id="lga1" inkscape:collect="always">
          <stop stop-color="#000000" stop-opacity="1" offset="0.25" id="stop3" />
          <stop stop-color="#000000" stop-opacity="0" offset="1" id="stop4" />
       </linearGradient>
-      <linearGradient xlink:href="#lga1" id="lga-t" x1="50" y1="40" x2="50" y2="22" gradientUnits="userSpaceOnUse" />
-      <linearGradient xlink:href="#lga1" id="lga-l" x1="32" y1="58" x2="14" y2="58" gradientUnits="userSpaceOnUse" />
-      <linearGradient xlink:href="#lga1" id="lga-r" x1="68" y1="58" x2="86" y2="58" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lga1" id="lga1-t" x1="50" y1="40" x2="50" y2="22" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lga1" id="lga1-l" x1="32" y1="58" x2="14" y2="58" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lga1" id="lga1-r" x1="68" y1="58" x2="86" y2="58" gradientUnits="userSpaceOnUse" />
       <linearGradient xlink:href="#lga1" id="lga-b" x1="50" y1="76" x2="50" y2="94" gradientUnits="userSpaceOnUse" />
       <!-- Radial Gradient After 1 -->
-      <radialGradient xlink:href="#lga1" id="rga-tl" cx="32" cy="40" r="18" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lga1" id="rga-tr" cx="68" cy="40" r="18" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lga1" id="rga-bl" cx="32" cy="76" r="18" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lga1" id="tga-br" cx="68" cy="76" r="18" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lgb1" id="rgb-tl-8" cx="32" cy="36" r="12" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lga1" id="rga-tl-8" cx="32" cy="40" r="18" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lgb1" id="rgb-tr-4" cx="68" cy="36" r="12" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lga1" id="rga-tr-2" cx="68" cy="40" r="18" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lgb1" id="radialGradient10" cx="32" cy="36" r="12" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lga1" id="radialGradient14" cx="32" cy="40" r="18" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lgb1" id="radialGradient18" cx="68" cy="36" r="12" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lga1" id="radialGradient22" cx="68" cy="40" r="18" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lgb1" id="rgb-bl-6" cx="32" cy="72" r="12" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lga1" id="rga-bl-0" cx="32" cy="76" r="18" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lgb1" id="rgb-br-2" cx="68" cy="72" r="12" gradientUnits="userSpaceOnUse" />
-      <radialGradient xlink:href="#lga1" id="tga-br-0" cx="68" cy="76" r="18" gradientUnits="userSpaceOnUse" />
-      <radialGradient inkscape:collect="always" xlink:href="#lgb1" id="radialGradient46" gradientUnits="userSpaceOnUse"
-         cx="32" cy="36" r="12" />
-      <radialGradient inkscape:collect="always" xlink:href="#lga1" id="radialGradient47" gradientUnits="userSpaceOnUse"
-         cx="32" cy="40" r="18" />
-      <radialGradient inkscape:collect="always" xlink:href="#lgb1" id="radialGradient48" gradientUnits="userSpaceOnUse"
-         cx="68" cy="36" r="12" />
-      <radialGradient inkscape:collect="always" xlink:href="#lga1" id="radialGradient49" gradientUnits="userSpaceOnUse"
-         cx="68" cy="40" r="18" />
-      <linearGradient inkscape:collect="always" xlink:href="#lga1" id="linearGradient2" gradientUnits="userSpaceOnUse"
-         x1="50" y1="40" x2="50" y2="22" gradientTransform="translate(100)" />
-      <linearGradient inkscape:collect="always" xlink:href="#lgb1" id="linearGradient3" gradientUnits="userSpaceOnUse"
-         x1="32" y1="54" x2="20" y2="54" />
-      <linearGradient inkscape:collect="always" xlink:href="#lga1" id="linearGradient4" gradientUnits="userSpaceOnUse"
-         x1="32" y1="58" x2="14" y2="58" />
-      <linearGradient inkscape:collect="always" xlink:href="#lgb1" id="linearGradient5" gradientUnits="userSpaceOnUse"
-         x1="68" y1="54" x2="80" y2="54" />
-      <linearGradient inkscape:collect="always" xlink:href="#lga1" id="linearGradient6" gradientUnits="userSpaceOnUse"
-         x1="68" y1="58" x2="86" y2="58" />
-      <linearGradient inkscape:collect="always" xlink:href="#lgb1" id="linearGradient7" gradientUnits="userSpaceOnUse"
-         x1="32" y1="54" x2="20" y2="54" />
-      <linearGradient inkscape:collect="always" xlink:href="#lga1" id="linearGradient8" gradientUnits="userSpaceOnUse"
-         x1="32" y1="58" x2="14" y2="58" />
-      <linearGradient inkscape:collect="always" xlink:href="#lgb1" id="linearGradient9" gradientUnits="userSpaceOnUse"
-         x1="50" y1="72" x2="50" y2="84" />
-      <linearGradient inkscape:collect="always" xlink:href="#lga1" id="linearGradient10" gradientUnits="userSpaceOnUse"
-         x1="50" y1="76" x2="50" y2="94" />
-      <linearGradient inkscape:collect="always" xlink:href="#lgb1" id="linearGradient11" gradientUnits="userSpaceOnUse"
-         x1="68" y1="54" x2="80" y2="54" />
-      <linearGradient inkscape:collect="always" xlink:href="#lga1" id="linearGradient12" gradientUnits="userSpaceOnUse"
-         x1="68" y1="58" x2="86" y2="58" />
+      <radialGradient xlink:href="#lga1" id="rga1-tl" cx="32" cy="40" r="18" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lga1" id="rga1-tr" cx="68" cy="40" r="18" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lga1" id="rga1-bl" cx="32" cy="76" r="18" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lga1" id="rga1-br" cx="68" cy="76" r="18" gradientUnits="userSpaceOnUse" />
    </defs>
    <style id="style1">
       .ColorScheme-Text {
@@ -93,155 +50,120 @@
          color: #c4c4c4;
       }
    </style>
-   <g id="layer1">
-      <g id="shadow-topleft">
-         <path id="shadow-before-tl"
-            d="m 32,24 c -6.531393,0 -10.394749,2.667608 -11.59375,8 H 24 c 0,-5.333328 2.666672,-8 8,-8 z"
-            fill="url(#rgb-tl)" opacity="0.3" />
-         <path id="shadow-after-tl"
-            d="M 32,22 C 23.056704,22 17.447999,25.334782 15.169922,32 H 24 c 0,-5.333328 2.666672,-8 8,-8 z"
-            fill="url(#rga-tl)" opacity="0.15" />
-      </g>
-      <path id="shadow-top" d="M 32 22 L 32 24 L 68 24 L 68 22 L 32 22 z" fill="url(#lga-t)" opacity="0.15" />
-      <g id="shadow-topright">
-         <path id="shadow-before-tr"
-            d="M 68 24 C 73.333328 24 76 26.666672 76 32 L 79.59375 32 C 78.394749 26.667608 74.531393 24 68 24 z"
-            fill="url(#rgb-tr)" opacity="0.3" />
-         <path id="shadow-after-tr"
-            d="M 68 22 L 68 24 C 73.333328 24 76 26.666672 76 32 L 84.830078 32 C 82.552001 25.334782 76.943296 22 68 22 z"
-            fill="url(#rga-tr)" opacity="0.15" />
-      </g>
-      <g id="shadow-left">
-         <path id="shadow-before-l-1"
-            d="M 20.40625 32 C 20.136652 33.199001 20 34.531401 20 36 L 24 36 L 24 32 L 20.40625 32 z"
-            fill="url(#rgb-tl)" opacity="0.3" />
-         <path id="shadow-before-l-2" d="M 20 36 L 20 68 L 24 68 L 24 36 L 20 36 z" fill="url(#lgb-l)" opacity="0.3" />
-         <path id="shadow-after-l-1"
-            d="M 15.169922 32 C 14.391307 34.278078 14 36.943308 14 40 L 24 40 L 24 32 L 15.169922 32 z"
-            fill="url(#rga-tl)" opacity="0.15" />
-         <path id="path1" d="M 14 40 L 14 68 L 24 68 L 24 40 L 14 40 z" fill="url(#lga-l)" opacity="0.15" />
-      </g>
-      <g id="shadow-right">
-         <path id="shadow-before-r-1"
-            d="M 76 32 L 76 36 L 80 36 C 80 34.531401 79.863348 33.199001 79.59375 32 L 76 32 z" fill="url(#rgb-tr)"
-            opacity="0.3" />
-         <path id="shadow-before-r-2" d="M 76 36 L 76 68 L 80 68 L 80 36 L 76 36 z" fill="url(#lgb-r)" opacity="0.3" />
-         <path id="shadow-after-r-1"
-            d="M 76 32 L 76 40 L 86 40 C 86 36.943308 85.608693 34.278078 84.830078 32 L 76 32 z" fill="url(#rga-tr)"
-            opacity="0.15" />
-         <path id="shadow-after-r-2" d="M 76 40 L 76 68 L 86 68 L 86 40 L 76 40 z" fill="url(#lga-r)" opacity="0.15" />
-      </g>
-      <g id="shadow-bottomleft">
-         <path id="shadow-before-bl-1"
-            d="M 20 68 L 20 72 L 24.689453 72 C 24.231362 70.895033 24 69.563057 24 68 L 20 68 z" fill="url(#lgb-l)"
-            opacity="0.3" />
-         <path id="shadow-before-bl-2"
-            d="M 20 72 C 20 79.999992 24.000008 84 32 84 L 32 76 C 28.229729 76 25.79442 74.665304 24.689453 72 L 20 72 z"
-            fill="url(#rgb-bl)" opacity="0.3" />
-         <path id="shadow-after-bl-1" d="M 14 68 L 14 76 L 32 76 C 26.666672 76 24 73.333328 24 68 L 14 68 z"
-            fill="url(#lga-l)" opacity="0.15" />
-         <path id="shadow-after-bl-2" d="M 14 76 C 14 87.999988 20.000012 94 32 94 L 32 76 L 14 76 z"
-            fill="url(#rga-bl)" opacity="0.15" />
-      </g>
-      <g id="shadow-bottom">
-         <path id="shadow-before-b" d="M 32 76 L 32 84 L 68 84 L 68 76 L 32 76 z" fill="url(#lgb-b)" opacity="0.3" />
-         <path id="shadow-after-b" d="M 32 76 L 32 94 L 68 94 L 68 76 L 32 76 z" fill="url(#lga-b)" opacity="0.15" />
-      </g>
-      <g id="shadow-bottomright">
-         <path id="shadow-before-br-1"
-            d="M 76 68 C 76 69.563057 75.768638 70.895033 75.310547 72 L 80 72 L 80 68 L 76 68 z" fill="url(#lgb-r)"
-            opacity="0.3" />
-         <path id="shadow-before-br-2"
-            d="M 75.310547 72 C 74.20558 74.665304 71.770271 76 68 76 L 68 84 C 75.999992 84 80 79.999992 80 72 L 75.310547 72 z"
-            fill="url(#rgb-br)" opacity="0.3" />
-         <path id="shadow-after-br-1" d="M 76 68 C 76 73.333328 73.333328 76 68 76 L 86 76 L 86 68 L 76 68 z"
-            fill="url(#lga-r)" opacity="0.15" />
-         <path id="shadow-after-br-2" d="M 68 76 L 68 94 C 79.999988 94 86 87.999988 86 76 L 68 76 z"
-            fill="url(#tga-br)" opacity="0.15" />
-      </g>
-      <path id="topleft-border" d="M 32,20 Q 20,20 20,32 h 4 q 0,-8 8,-8 z" class="ColorScheme-Background"
-         fill="currentColor" opacity="0.75" />
-      <path id="topleft-background" d="m 32,24 q -8,0 -8,8 h 8 z" class="ColorScheme-Background" fill="currentColor" />
-      <rect id="top-border" width="36" height="4" x="32" y="20" class="ColorScheme-Background" fill="currentColor"
+   <g id="decoration-topleft">
+      <path d="m 32,24 c -6.531393,0 -10.394749,2.667608 -11.59375,8 H 24 c 0,-5.333328 2.666672,-8 8,-8 z"
+         fill="url(#rgb1-tl)" opacity="0.3" />
+      <path d="M 32,22 C 23.056704,22 17.447999,25.334782 15.169922,32 H 24 c 0,-5.333328 2.666672,-8 8,-8 z"
+         fill="url(#rga1-tl)" opacity="0.15" />
+      <path d="M 32,20 Q 20,20 20,32 h 4 q 0,-8 8,-8 z" class="ColorScheme-Background" fill="currentColor"
          opacity="0.75" />
-      <rect id="top-background" width="36" height="8" x="32" y="24" class="ColorScheme-Background"
-         fill="currentColor" />
-      <path id="topright-border" d="m 68,20 q 12,0 12,12 h -4 q 0,-8 -8,-8 z" class="ColorScheme-Background"
-         fill="currentColor" opacity="0.75" />
-      <path id="topright-background" d="m 68,24 q 8,0 8,8 h -8 z" class="ColorScheme-Background" fill="currentColor" />
-      <rect id="left-border" width="4" height="36" x="20" y="32" class="ColorScheme-Background" fill="currentColor"
-         opacity="0.75" />
-      <rect id="left-background" width="8" height="36" x="24" y="32" class="ColorScheme-Background"
-         fill="currentColor" />
-      <rect id="center" width="36" height="36" x="32" y="32" class="ColorScheme-Background" fill="currentColor" />
-      <path id="bottomleft-border" d="M 32,80 Q 20,80 20,68 h 4 q 0,8 8,8 z" class="ColorScheme-Background"
-         fill="currentColor" opacity="0.75" />
-      <path id="bottomleft-background" d="m 32,76 q -8,0 -8,-8 h 8 z" class="ColorScheme-Background"
-         fill="currentColor" />
-      <rect id="right-border" width="4" height="36" x="76" y="32" class="ColorScheme-Background" fill="currentColor"
-         opacity="0.75" />
-      <rect id="right-background" width="8" height="36" x="68" y="32" class="ColorScheme-Background"
-         fill="currentColor" />
-      <rect id="bottom-border" width="36" height="4" x="32" y="76" class="ColorScheme-Background" fill="currentColor"
-         opacity="0.75" />
-      <rect id="bottom-background" width="36" height="8" x="32" y="68" class="ColorScheme-Background"
-         fill="currentColor" />
-      <path id="bottomright-border" d="m 68,80 q 12,0 12,-12 h -4 q 0,8 -8,8 z" class="ColorScheme-Background"
-         fill="currentColor" opacity="0.75" />
-      <path id="bottomright-background" d="m 68,76 q 8,0 8,-8 h -8 z" class="ColorScheme-Background"
-         fill="currentColor" />
-      <path id="base-tl" d="M 32,20 q -12,0 -12,12 h 12 z" fill="#808080" />
-      <rect id="base-t" width="36" height="12" x="32" y="20" fill="#808080" />
-      <path id="base-tr" d="m 68,20 q 12,0 12,12 h -12 z" fill="#808080" />
-      <rect id="base-l" width="12" height="36" x="20" y="32" fill="#808080" />
-      <rect id="base-c" width="36" height="36" x="32" y="32" fill="#808080" />
-      <rect id="base-r" width="12" height="36" x="68" y="32" fill="#808080" />
-      <path id="base-bl" d="M 32,80 q -12,0 -12,-12 h 12 z" fill="#808080" />
-      <rect id="base-b" width="36" height="12" x="32" y="68" fill="#808080" />
-      <path id="base-br" d="m 68,80 q 12,0 12,-12 h -12 z" fill="#808080" />
+      <path d="m 32,24 q -8,0 -8,8 h 8 z" class="ColorScheme-Background" fill="currentColor" />
    </g>
-
-   <path id="topleft-border-0" d="m 132,20 q -12,0 -12,12 h 4 q 0,-8 8,-8 z" class="ColorScheme-Background"
-      fill="currentColor" opacity="0.75" style="color:#2e2e2e" />
-   <path id="topleft-background-7" d="m 132,24 q -8,0 -8,8 h 8 z" class="ColorScheme-Background" fill="currentColor"
-      style="color:#2e2e2e" />
-   <rect id="top-border-3" width="36" height="4" x="132" y="20" class="ColorScheme-Background" fill="currentColor"
-      opacity="0.75" style="color:#2e2e2e" />
-   <rect id="top-background-9" width="36" height="8" x="132" y="24" class="ColorScheme-Background" fill="currentColor"
-      style="color:#2e2e2e" />
-   <path id="topright-border-2" d="m 168,20 q 12,0 12,12 h -4 q 0,-8 -8,-8 z" class="ColorScheme-Background"
-      fill="currentColor" opacity="0.75" style="color:#2e2e2e" />
-   <path id="topright-background-2" d="m 168,24 q 8,0 8,8 h -8 z" class="ColorScheme-Background" fill="currentColor"
-      style="color:#2e2e2e" />
-   <rect id="left-border-9" width="4" height="36" x="120" y="32" class="ColorScheme-Background" fill="currentColor"
-      opacity="0.75" style="color:#2e2e2e" />
-   <rect id="left-background-7" width="8" height="36" x="124" y="32" class="ColorScheme-Background" fill="currentColor"
-      style="color:#2e2e2e" />
-   <rect id="center-9" width="36" height="36" x="132" y="32" class="ColorScheme-Background" fill="currentColor"
-      style="color:#2e2e2e" />
-   <path id="bottomleft-border-4" d="m 132,80 q -12,0 -12,-12 h 4 q 0,8 8,8 z" class="ColorScheme-Background"
-      fill="currentColor" opacity="0.75" style="color:#2e2e2e" />
-   <path id="bottomleft-background-7" d="m 132,76 q -8,0 -8,-8 h 8 z" class="ColorScheme-Background" fill="currentColor"
-      style="color:#2e2e2e" />
-   <rect id="right-border-2" width="4" height="36" x="176" y="32" class="ColorScheme-Background" fill="currentColor"
-      opacity="0.75" style="color:#2e2e2e" />
-   <rect id="right-background-4" width="8" height="36" x="168" y="32" class="ColorScheme-Background" fill="currentColor"
-      style="color:#2e2e2e" />
-   <rect id="bottom-border-5" width="36" height="4" x="132" y="76" class="ColorScheme-Background" fill="currentColor"
-      opacity="0.75" style="color:#2e2e2e" />
-   <rect id="bottom-background-3" width="36" height="8" x="132" y="68" class="ColorScheme-Background"
-      fill="currentColor" style="color:#2e2e2e" />
-   <path id="bottomright-border-2" d="m 168,80 q 12,0 12,-12 h -4 q 0,8 -8,8 z" class="ColorScheme-Background"
-      fill="currentColor" opacity="0.75" style="color:#2e2e2e" />
-   <path id="bottomright-background-3" d="m 168,76 q 8,0 8,-8 h -8 z" class="ColorScheme-Background" fill="currentColor"
-      style="color:#2e2e2e" />
-   <path id="base-tl-9" d="m 132,20 q -12,0 -12,12 h 12 z" fill="#808080" />
-   <rect id="base-t-4" width="36" height="12" x="132" y="20" fill="#808080" />
-   <path id="base-tr-0" d="m 168,20 q 12,0 12,12 h -12 z" fill="#808080" />
-   <rect id="base-l-2" width="12" height="36" x="120" y="32" fill="#808080" />
-   <rect id="base-c-0" width="36" height="36" x="132" y="32" fill="#808080" />
-   <rect id="base-r-7" width="12" height="36" x="168" y="32" fill="#808080" />
-   <path id="base-bl-0" d="m 132,80 q -12,0 -12,-12 h 12 z" fill="#808080" />
-   <rect id="base-b-1" width="36" height="12" x="132" y="68" fill="#808080" />
-   <path id="base-br-2" d="m 168,80 q 12,0 12,-12 h -12 z" fill="#808080" />
+   <g id="decoration-top">
+      <path d="M 32 22 L 32 24 L 68 24 L 68 22 L 32 22 z" fill="url(#lga1-t)" opacity="0.15" />
+      <rect width="36" height="4" x="32" y="20" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
+      <rect width="36" height="8" x="32" y="24" class="ColorScheme-Background" fill="currentColor" />
+   </g>
+   <g id="decoration-topright">
+      <path d="M 68 24 C 73.333328 24 76 26.666672 76 32 L 79.59375 32 C 78.394749 26.667608 74.531393 24 68 24 z"
+         fill="url(#rgb1-tr)" opacity="0.3" />
+      <path
+         d="M 68 22 L 68 24 C 73.333328 24 76 26.666672 76 32 L 84.830078 32 C 82.552001 25.334782 76.943296 22 68 22 z"
+         fill="url(#rga1-tr)" opacity="0.15" />
+      <path d="m 68,20 q 12,0 12,12 h -4 q 0,-8 -8,-8 z" class="ColorScheme-Background" fill="currentColor"
+         opacity="0.75" />
+      <path d="m 68,24 q 8,0 8,8 h -8 z" class="ColorScheme-Background" fill="currentColor" />
+   </g>
+   <g id="decoration-left">
+      <path d="M 20.40625 32 C 20.136652 33.199001 20 34.531401 20 36 L 24 36 L 24 32 L 20.40625 32 z"
+         fill="url(#rgb1-tl)" opacity="0.3" />
+      <path d="M 20 36 L 20 68 L 24 68 L 24 36 L 20 36 z" fill="url(#lgb1-l)" opacity="0.3" />
+      <path d="M 15.169922 32 C 14.391307 34.278078 14 36.943308 14 40 L 24 40 L 24 32 L 15.169922 32 z"
+         fill="url(#rga1-tl)" opacity="0.15" />
+      <path d="M 14 40 L 14 68 L 24 68 L 24 40 L 14 40 z" fill="url(#lga1-l)" opacity="0.15" />
+      <rect width="4" height="36" x="20" y="32" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
+      <rect width="8" height="36" x="24" y="32" class="ColorScheme-Background" fill="currentColor" />
+   </g>
+   <rect id="decoration-center" width="36" height="36" x="32" y="32" class="ColorScheme-Background"
+      fill="currentColor" />
+   <g id="decoration-right">
+      <path d="M 76 32 L 76 36 L 80 36 C 80 34.531401 79.863348 33.199001 79.59375 32 L 76 32 z" fill="url(#rgb1-tr)"
+         opacity="0.3" />
+      <path d="M 76 36 L 76 68 L 80 68 L 80 36 L 76 36 z" fill="url(#lgb1-r)" opacity="0.3" />
+      <path d="M 76 32 L 76 40 L 86 40 C 86 36.943308 85.608693 34.278078 84.830078 32 L 76 32 z" fill="url(#rga1-tr)"
+         opacity="0.15" />
+      <path d="M 76 40 L 76 68 L 86 68 L 86 40 L 76 40 z" fill="url(#lga1-r)" opacity="0.15" />
+      <rect width="4" height="36" x="76" y="32" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
+      <rect width="8" height="36" x="68" y="32" class="ColorScheme-Background" fill="currentColor" />
+   </g>
+   <g id="decoration-bottomleft">
+      <path d="M 20 68 L 20 72 L 24.689453 72 C 24.231362 70.895033 24 69.563057 24 68 L 20 68 z" fill="url(#lgb1-l)"
+         opacity="0.3" />
+      <path
+         d="M 20 72 C 20 79.999992 24.000008 84 32 84 L 32 76 C 28.229729 76 25.79442 74.665304 24.689453 72 L 20 72 z"
+         fill="url(#rgb1-bl)" opacity="0.3" />
+      <path d="M 14 68 L 14 76 L 32 76 C 26.666672 76 24 73.333328 24 68 L 14 68 z" fill="url(#lga1-l)"
+         opacity="0.15" />
+      <path d="M 14 76 C 14 87.999988 20.000012 94 32 94 L 32 76 L 14 76 z" fill="url(#rga1-bl)" opacity="0.15" />
+      <path d="M 32,80 Q 20,80 20,68 h 4 q 0,8 8,8 z" class="ColorScheme-Background" fill="currentColor"
+         opacity="0.75" />
+      <path d="m 32,76 q -8,0 -8,-8 h 8 z" class="ColorScheme-Background" fill="currentColor" />
+   </g>
+   <g id="decoration-bottom">
+      <path d="M 32 76 L 32 84 L 68 84 L 68 76 L 32 76 z" fill="url(#lgb1-b)" opacity="0.3" />
+      <path d="M 32 76 L 32 94 L 68 94 L 68 76 L 32 76 z" fill="url(#lga-b)" opacity="0.15" />
+      <rect width="36" height="4" x="32" y="76" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
+      <rect width="36" height="8" x="32" y="68" class="ColorScheme-Background" fill="currentColor" />
+   </g>
+   <g id="decoration-bottomright">
+      <path d="M 76 68 C 76 69.563057 75.768638 70.895033 75.310547 72 L 80 72 L 80 68 L 76 68 z" fill="url(#lgb1-r)"
+         opacity="0.3" />
+      <path
+         d="M 75.310547 72 C 74.20558 74.665304 71.770271 76 68 76 L 68 84 C 75.999992 84 80 79.999992 80 72 L 75.310547 72 z"
+         fill="url(#rgb1-br)" opacity="0.3" />
+      <path d="M 76 68 C 76 73.333328 73.333328 76 68 76 L 86 76 L 86 68 L 76 68 z" fill="url(#lga1-r)"
+         opacity="0.15" />
+      <path d="M 68 76 L 68 94 C 79.999988 94 86 87.999988 86 76 L 68 76 z" fill="url(#rga1-br)" opacity="0.15" />
+      <path d="m 68,80 q 12,0 12,-12 h -4 q 0,8 -8,8 z" class="ColorScheme-Background" fill="currentColor"
+         opacity="0.75" />
+      <path d="m 68,76 q 8,0 8,-8 h -8 z" class="ColorScheme-Background" fill="currentColor" />
+   </g>
+   <path id="topleft-border" d="m 132,20 q -12,0 -12,12 h 4 q 0,-8 8,-8 z" class="ColorScheme-Background"
+      fill="currentColor" opacity="0.75" />
+   <path id="topleft-background" d="m 132,24 q -8,0 -8,8 h 8 z" class="ColorScheme-Background" fill="currentColor" />
+   <rect id="top-border" width="36" height="4" x="132" y="20" class="ColorScheme-Background" fill="currentColor"
+      opacity="0.75" />
+   <rect id="top-background" width="36" height="8" x="132" y="24" class="ColorScheme-Background" fill="currentColor" />
+   <path id="topright-border" d="m 168,20 q 12,0 12,12 h -4 q 0,-8 -8,-8 z" class="ColorScheme-Background"
+      fill="currentColor" opacity="0.75" />
+   <path id="topright-background" d="m 168,24 q 8,0 8,8 h -8 z" class="ColorScheme-Background" fill="currentColor" />
+   <rect id="left-border" width="4" height="36" x="120" y="32" class="ColorScheme-Background" fill="currentColor"
+      opacity="0.75" />
+   <rect id="left-background" width="8" height="36" x="124" y="32" class="ColorScheme-Background" fill="currentColor" />
+   <rect id="center" width="36" height="36" x="132" y="32" class="ColorScheme-Background" fill="currentColor" />
+   <path id="bottomleft-border" d="m 132,80 q -12,0 -12,-12 h 4 q 0,8 8,8 z" class="ColorScheme-Background"
+      fill="currentColor" opacity="0.75" />
+   <path id="bottomleft-background" d="m 132,76 q -8,0 -8,-8 h 8 z" class="ColorScheme-Background"
+      fill="currentColor" />
+   <rect id="right-border" width="4" height="36" x="176" y="32" class="ColorScheme-Background" fill="currentColor"
+      opacity="0.75" />
+   <rect id="right-background" width="8" height="36" x="168" y="32" class="ColorScheme-Background"
+      fill="currentColor" />
+   <rect id="bottom-border" width="36" height="4" x="132" y="76" class="ColorScheme-Background" fill="currentColor"
+      opacity="0.75" />
+   <rect id="bottom-background" width="36" height="8" x="132" y="68" class="ColorScheme-Background"
+      fill="currentColor" />
+   <path id="bottomright-border" d="m 168,80 q 12,0 12,-12 h -4 q 0,8 -8,8 z" class="ColorScheme-Background"
+      fill="currentColor" opacity="0.75" />
+   <path id="bottomright-background" d="m 168,76 q 8,0 8,-8 h -8 z" class="ColorScheme-Background"
+      fill="currentColor" />
+   <path id="base-tl" d="m 132,20 q -12,0 -12,12 h 12 z" fill="#808080" />
+   <rect id="base-t" width="36" height="12" x="132" y="20" fill="#808080" />
+   <path id="base-tr" d="m 168,20 q 12,0 12,12 h -12 z" fill="#808080" />
+   <rect id="base-l" width="12" height="36" x="120" y="32" fill="#808080" />
+   <rect id="base-c" width="36" height="36" x="132" y="32" fill="#808080" />
+   <rect id="base-r" width="12" height="36" x="168" y="32" fill="#808080" />
+   <path id="base-bl" d="m 132,80 q -12,0 -12,-12 h 12 z" fill="#808080" />
+   <rect id="base-b" width="36" height="12" x="132" y="68" fill="#808080" />
+   <path id="base-br" d="m 168,80 q 12,0 12,-12 h -12 z" fill="#808080" />
 </svg>
