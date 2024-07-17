@@ -148,7 +148,7 @@ TitleHeight=20
 ButtonWidth=20
 
 # (default: 20)
-ButtonWidthMinimize=20
+ButtonWidthMinimize=42
 
 # (default: 20)
 ButtonWidthMaximizeRestore=20

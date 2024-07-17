@@ -1,43 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 0 30 30" width="30">
-  <style>
-    .ColorScheme-Text {
-      color: #e0e0e0;
-    }
+<svg xmlns="http://www.w3.org/2000/svg" height="42" viewBox="0 0 42 42" width="42">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Background {
+        color: #2e2e2e;
+      }
 
-    .ColorScheme-Background {
-      color: #2e2e2e;
-    }
+      .ColorScheme-Highlight {
+        color: #95ccff;
+      }
 
-    .ColorScheme-ButtonBackground {
-      color: #c4c4c4;
-    }
-  </style>
-  <g id="active-center">
-    <rect id="active-background" width="30" height="22" x="0" y="4" opacity="0" />
-    <path id="active-icon" d="m 10.5,15.5625 v -1.125 h 9 v 1.125 z" class="ColorScheme-Text" fill="currentColor" />
+      .ColorScheme-Text {
+        color: #e0e0e0;
+      }
+    </style>
+  </defs>
+  <!-- <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" /> -->
+  <g id="active-center" transform="translate(0)">
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" opacity="0" />
+    <path d="m 14.752,21.781 v -1.562 h 12.496 v 1.562 z" class="ColorScheme-Text" fill="currentColor" />
   </g>
-  <g id="inactive-center">
-    <rect id="inactive-background" width="30" height="22" x="40" y="4" opacity="0" />
-    <path id="inactive-icon" d="m 50.5,15.5625 v -1.125 h 9 v 1.125 z" class="ColorScheme-Text" fill="currentColor" />
+  <g id="inactive-center" transform="translate(42)">
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" opacity="0" />
+    <path d="m 14.752,21.781 v -1.562 h 12.496 v 1.562 z" class="ColorScheme-Text" fill="currentColor" />
   </g>
-  <g id="hover-center">
-    <rect id="hover-background" width="30" height="22" x="80" y="4" class="ColorScheme-Background"
-      fill="currentColor" />
-    <path id="hover-icon" d="m 90.5,15.5625 v -1.125 h 9 v 1.125 z" class="ColorScheme-Text" fill="currentColor" />
-    <rect id="hover-state-layer" width="30" height="22" x="80" y="4" class="ColorScheme-ButtonBackground"
+  <g id="hover-center" transform="translate(84)">
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" opacity="0" />
+    <path d="m 14.752,21.781 v -1.562 h 12.496 v 1.562 z" class="ColorScheme-Text" fill="currentColor" />
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" class="ColorScheme-Highlight"
       fill="currentColor" opacity="0.08" />
   </g>
-  <g id="pressed-center">
-    <rect id="pressed-background" width="30" height="22" x="120" y="4" class="ColorScheme-Background"
-      fill="currentColor" />
-    <path id="pressed-icon" d="m 130.5,15.5625 v -1.125 h 9 v 1.125 z" class="ColorScheme-Text" fill="currentColor" />
-    <rect id="pressed-state-layer" width="30" height="22" x="80" y="4" class="ColorScheme-ButtonBackground"
+  <g id="pressed-center" transform="translate(126)">
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" opacity="0" />
+    <path d="m 14.752,21.781 v -1.562 h 12.496 v 1.562 z" class="ColorScheme-Text" fill="currentColor" />
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" class="ColorScheme-Highlight"
       fill="currentColor" opacity="0.1" />
   </g>
-  <g id="deactivated-center">
-    <rect id="deactivated-background" width="30" height="22" x="160" y="4" class="ColorScheme-Background"
+  <g id="deactivated-center" transform="translate(168)">
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" class="ColorScheme-Background"
       fill="currentColor" opacity="0.12" />
-    <path id="deactivated-icon" d="m 170.5,15.5625 v -1.125 h 9 v 1.125 z" class="ColorScheme-Text" fill="currentColor"
-      opacity="0.38" />
+    <path d="m 14.752,21.781 v -1.562 h 12.496 v 1.562 z" class="ColorScheme-Text" fill="currentColor" opacity="0.38" />
   </g>
 </svg>
