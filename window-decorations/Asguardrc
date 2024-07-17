@@ -169,7 +169,7 @@ ButtonWidthKeepbelow=20
 ButtonWidthShade=20
 
 # (default: 20)
-ButtonWidthHelp=20
+ButtonWidthHelp=30
 
 # (default: 20)
 ButtonWidthMenu=20
