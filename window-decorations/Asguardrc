@@ -151,7 +151,7 @@ ButtonWidth=20
 ButtonWidthMinimize=42
 
 # (default: 20)
-ButtonWidthMaximizeRestore=20
+ButtonWidthMaximizeRestore=42
 
 # (default: 20)
 ButtonWidthClose=42
