@@ -1,34 +1,50 @@
 [General]
+
 # Horizontal alignment of the window title (default: Left)
 TitleAlignment=Center
+
 # Vertical alignment of the window title (default: Center)
 TitleVerticalAlignment=Center
+
 # Animation duration in msec when hovering a button and on active/inactive change (default: 0)
 Animation=0
+
 # Title text color of active windows (default: 0,0,0,255)
 ActiveTextColor=0,0,0,255
+
 # Title text color of inactive windows (default: 0,0,0,255)
 InactiveTextColor=0,0,0,255
+
 # Draw a shadow behind the title text (default: false)
 UseTextShadow=false
+
 # Shadow text color of active windows (default: 255,255,255,255)
 ActiveTextShadowColor=255,255,255,255
+
 # Shadow text color of inactive windows (default: 255,255,255,255)
 InactiveTextShadowColor=255,255,255,255
+
 # Offset of shadow in x direction (default: 0)
 TextShadowOffsetX=0
+
 # Offset of shadow in y direction (default: 0)
 TextShadowOffsetY=0
+
 # Draw a halo behind the title of active windows (default: false)
 HaloActive=false
+
 # Draw a halo behind the title of inactive windows (default: false)
 HaloInactive=false
+
 # Buttons in the left button group (default: MS)
 LeftButtons=MS
+
 # Buttons in the right button group (default: HIAX)
 RightButtons=HIAX
+
 # Decoration provides shadows (default: true)
 Shadow=true
+
 # Decoration on top (0), left (1), right (2), or bottom (3) (default: 0)
 DecorationPositon=0
 
@@ -56,35 +72,51 @@ DecorationPositon=0
 
 # (default: 0)
 PaddingTop=0
+
 # (default: 0)
 PaddingBottom=0
+
 # (default: 0)
 PaddingRight=0
+
 # (default: 0)
 PaddingLeft=0
+
 # (default: 5)
 TitleEdgeTop=5
+
 # (default: 5)
 TitleEdgeBottom=5
+
 # (default: 5)
 TitleEdgeLeft=5
+
 # (default: 5)
 TitleEdgeRight=5
+
 # (default: 5)
 BorderLeft=5
+
 # (default: 5)
 BorderRight=5
+
 # (default: 5)
 BorderBottom=5
+
 # (default: 0)
 BorderTop=0
 
+# Maximized
+
 # (default: 0)
 TitleEdgeTopMaximized=0
+
 # (default: 0)
 TitleEdgeBottomMaximized=0
+
 # (default: 0)
 TitleEdgeLeftMaximized=0
+
 # (default: 0)
 TitleEdgeRightMaximized=0
 
@@ -105,7 +137,7 @@ TitleBorderLeft=5
 TitleBorderRight=5
 
 # (default: 20)
-TitleHeight=22
+TitleHeight=20
 
 # Buttons
 # ┌────────┬─────────┬────────┬─────────┬─────────────────┬─────────┬────────┬─────────┬────────┐
@@ -113,37 +145,37 @@ TitleHeight=22
 # └────────┴─────────┴────────┴─────────┴─────────────────┴─────────┴────────┴─────────┴────────┘
 
 # (default: 20)
-ButtonWidth=22
+ButtonWidth=30
 
 # (default: 20)
-ButtonWidthMinimize=30
+ButtonWidthMinimize=42
 
 # (default: 20)
-ButtonWidthMaximizeRestore=30
+ButtonWidthMaximizeRestore=42
 
 # (default: 20)
-ButtonWidthClose=30
+ButtonWidthClose=42
 
 # (default: 20)
-ButtonWidthAlldesktops=22
+ButtonWidthAlldesktops=30
 
 # (default: 20)
-ButtonWidthKeepabove=22
+ButtonWidthKeepabove=30
 
 # (default: 20)
-ButtonWidthKeepbelow=22
+ButtonWidthKeepbelow=30
 
 # (default: 20)
-ButtonWidthShade=22
+ButtonWidthShade=30
 
 # (default: 20)
-ButtonWidthHelp=22
+ButtonWidthHelp=30
 
 # (default: 20)
-ButtonWidthMenu=22
+ButtonWidthMenu=30
 
 # (default: 20)
-ButtonHeight=22
+ButtonHeight=30
 
 # (default: 5)
 ButtonSpacing=5

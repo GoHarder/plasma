@@ -1,52 +1,47 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 0 30 30" width="30">
-  <style>
-    .ColorScheme-Text {
-      color: #e0e0e0;
-    }
+<svg xmlns="http://www.w3.org/2000/svg" height="42" viewBox="0 0 42 42" width="42">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Background {
+        color: #2e2e2e;
+      }
 
-    .ColorScheme-Background {
-      color: #2e2e2e;
-    }
+      .ColorScheme-Highlight {
+        color: #95ccff;
+      }
 
-    .ColorScheme-ButtonBackground {
-      color: #c4c4c4;
-    }
-  </style>
-  <g id="active-center">
-    <rect id="active-background" width="30" height="22" x="0" y="4" opacity="0" />
-    <path id="active-icon"
-      d="m 11.4,18.6 q -0.37125,0 -0.635625,-0.264375 Q 10.5,18.07125 10.5,17.7 v -5.4 q 0,-0.37125 0.264375,-0.635625 Q 11.02875,11.4 11.4,11.4 h 7.2 q 0.37125,0 0.635625,0.264375 Q 19.5,11.92875 19.5,12.3 v 5.4 q 0,0.37125 -0.264375,0.635625 Q 18.97125,18.6 18.6,18.6 Z m 0,-0.9 h 7.2 v -4.5 h -7.2 z"
-      class="ColorScheme-Text" fill="currentColor" />
-  </g>
-  <g id="inactive-center">
-    <rect id="inactive-background" width="30" height="22" x="40" y="4" opacity="0" />
-    <path id="inactive-icon"
-      d="m 51.4,18.6 q -0.37125,0 -0.635625,-0.264375 Q 50.5,18.07125 50.5,17.7 v -5.4 q 0,-0.37125 0.264375,-0.635625 Q 51.02875,11.4 51.4,11.4 h 7.2 q 0.37125,0 0.635625,0.264375 Q 59.5,11.92875 59.5,12.3 v 5.4 q 0,0.37125 -0.264375,0.635625 Q 58.97125,18.6 58.6,18.6 Z m 0,-0.9 h 7.2 v -4.5 h -7.2 z"
-      class="ColorScheme-Text" fill="currentColor" />
-  </g>
-  <g id="hover-center">
-    <rect id="hover-background" width="30" height="22" x="80" y="4" class="ColorScheme-Background"
+      .ColorScheme-Text {
+        color: #e0e0e0;
+      }
+    </style>
+  </defs>
+  <g id="active-center" transform="translate(0)">
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" opacity="0" />
+    <path d="M 14.75,26 V 16 h 12.5 V 26 Z M 16,24.75 H 26 V 18.5 H 16 Z" class="ColorScheme-Text"
       fill="currentColor" />
-    <path id="hover-icon"
-      d="m 91.4,18.6 q -0.371251,0 -0.63562,-0.264375 Q 90.5,18.07125 90.5,17.7 v -5.4 q 0,-0.37125 0.264381,-0.635625 Q 91.02875,11.4 91.400001,11.4 h 7.2 q 0.37125,0 0.63563,0.264375 Q 99.5,11.92875 99.5,12.3 v 5.4 q 0,0.37125 -0.264369,0.635625 Q 98.971251,18.6 98.600001,18.6 Z m 0,-0.9 h 7.2 v -4.5 h -7.2 z"
-      class="ColorScheme-Text" fill="currentColor" />
-    <rect id="hover-state-layer" width="30" height="22" x="80" y="4" class="ColorScheme-ButtonBackground"
+  </g>
+  <g id="inactive-center" transform="translate(42)">
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" opacity="0" />
+    <path d="M 14.75,26 V 16 h 12.5 V 26 Z M 16,24.75 H 26 V 18.5 H 16 Z" class="ColorScheme-Text"
+      fill="currentColor" />
+  </g>
+  <g id="hover-center" transform="translate(84)">
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" opacity="0" />
+    <path d="M 14.75,26 V 16 h 12.5 V 26 Z M 16,24.75 H 26 V 18.5 H 16 Z" class="ColorScheme-Text"
+      fill="currentColor" />
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" class="ColorScheme-Highlight"
       fill="currentColor" opacity="0.08" />
   </g>
-  <g id="pressed-center">
-    <rect id="pressed-background" width="30" height="22" x="120" y="4" class="ColorScheme-Background"
+  <g id="pressed-center" transform="translate(126)">
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" opacity="0" />
+    <path d="M 14.75,26 V 16 h 12.5 V 26 Z M 16,24.75 H 26 V 18.5 H 16 Z" class="ColorScheme-Text"
       fill="currentColor" />
-    <path id="pressed-icon"
-      d="m 131.4,18.6 q -0.37125,0 -0.63562,-0.264375 Q 130.5,18.07125 130.5,17.7 v -5.4 q 0,-0.37125 0.26438,-0.635625 Q 131.02875,11.4 131.4,11.4 h 7.2 q 0.37125,0 0.63563,0.264375 Q 139.5,11.92875 139.5,12.3 v 5.4 q 0,0.37125 -0.26437,0.635625 Q 138.97125,18.6 138.6,18.6 Z m 0,-0.9 h 7.2 v -4.5 h -7.2 z"
-      class="ColorScheme-Text" fill="currentColor" />
-    <rect id="pressed-state-layer" width="30" height="22" x="80" y="4" class="ColorScheme-ButtonBackground"
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" class="ColorScheme-Highlight"
       fill="currentColor" opacity="0.1" />
   </g>
-  <g id="deactivated-center">
-    <rect id="deactivated-background" width="30" height="22" x="160" y="4" class="ColorScheme-Background"
+  <g id="deactivated-center" transform="translate(168)">
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" class="ColorScheme-Background"
       fill="currentColor" opacity="0.12" />
-    <path id="deactivated-icon"
-      d="m 171.4,18.6 q -0.37125,0 -0.63562,-0.264375 Q 170.5,18.07125 170.5,17.7 v -5.4 q 0,-0.37125 0.26438,-0.635625 Q 171.02875,11.4 171.4,11.4 h 7.2 q 0.37125,0 0.63563,0.264375 Q 179.5,11.92875 179.5,12.3 v 5.4 q 0,0.37125 -0.26437,0.635625 Q 178.97125,18.6 178.6,18.6 Z m 0,-0.9 h 7.2 v -4.5 h -7.2 z"
-      class="ColorScheme-Text" fill="currentColor" opacity="0.38" />
+    <path d="M 14.75,26 V 16 h 12.5 V 26 Z M 16,24.75 H 26 V 18.5 H 16 Z" class="ColorScheme-Text" fill="currentColor"
+      opacity="0.38" />
   </g>
 </svg>
