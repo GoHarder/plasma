@@ -1,52 +1,52 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 0 30 30" width="30">
-  <style>
-    .ColorScheme-Text {
-      color: #e0e0e0;
-    }
+<svg xmlns="http://www.w3.org/2000/svg" height="42" viewBox="0 0 42 42" width="42">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Background {
+        color: #2e2e2e;
+      }
 
-    .ColorScheme-Background {
-      color: #2e2e2e;
-    }
+      .ColorScheme-Highlight {
+        color: #95ccff;
+      }
 
-    .ColorScheme-ButtonBackground {
-      color: #c4c4c4;
-    }
-  </style>
-  <g id="active-center">
-    <rect id="active-background" width="30" height="22" x="0" y="4" opacity="0" />
-    <path id="active-icon"
-      d="m 11.4,19.5 q -0.37125,0 -0.635625,-0.264375 Q 10.5,18.97125 10.5,18.6 v -4.05 q 0,-0.37125 0.264375,-0.635625 Q 11.02875,13.65 11.4,13.65 h 0.9 V 11.4 q 0,-0.37125 0.264375,-0.635625 Q 12.82875,10.5 13.2,10.5 h 5.4 q 0.37125,0 0.635625,0.264375 Q 19.5,11.02875 19.5,11.4 v 4.05 q 0,0.37125 -0.264375,0.635625 Q 18.97125,16.35 18.6,16.35 h -0.9 v 2.25 q 0,0.37125 -0.264375,0.635625 Q 17.17125,19.5 16.8,19.5 Z m 0,-0.9 h 5.4 v -3.15 h -5.4 z m 6.3,-3.15 h 0.9 V 12.3 h -5.4 v 1.35 h 3.6 q 0.37125,0 0.635625,0.264375 Q 17.7,14.17875 17.7,14.55 Z"
+      .ColorScheme-Text {
+        color: #e0e0e0;
+      }
+    </style>
+  </defs>
+  <g id="active-center" transform="translate(0)">
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" opacity="0" />
+    <path
+      d="m 14.75,27.25 v -8.125 h 2.5 V 14.75 h 10 v 8.125 h -2.5 V 27.25 Z M 16,26 h 7.5 V 21.625 H 16 Z m 8.75,-4.375 H 26 V 17.25 h -7.5 v 1.875 h 6.25 z"
       class="ColorScheme-Text" fill="currentColor" />
   </g>
-  <g id="inactive-center">
-    <rect id="inactive-background" width="30" height="22" x="40" y="4" opacity="0" />
-    <path id="inactive-icon"
-      d="m 51.4,19.5 q -0.37125,0 -0.635625,-0.264375 Q 50.5,18.97125 50.5,18.6 v -4.05 q 0,-0.37125 0.264375,-0.635625 Q 51.02875,13.65 51.4,13.65 h 0.9 V 11.4 q 0,-0.37125 0.264375,-0.635625 Q 52.82875,10.5 53.2,10.5 h 5.4 q 0.37125,0 0.63563,0.264375 Q 59.5,11.02875 59.5,11.4 v 4.05 q 0,0.37125 -0.26437,0.635625 Q 58.97125,16.35 58.6,16.35 h -0.9 v 2.25 q 0,0.37125 -0.26438,0.635625 Q 57.17125,19.5 56.8,19.5 Z m 0,-0.9 h 5.4 v -3.15 h -5.4 z m 6.3,-3.15 h 0.9 V 12.3 h -5.4 v 1.35 h 3.6 q 0.37125,0 0.63562,0.264375 Q 57.7,14.17875 57.7,14.55 Z"
+  <g id="inactive-center" transform="translate(42)">
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" opacity="0" />
+    <path
+      d="m 14.75,27.25 v -8.125 h 2.5 V 14.75 h 10 v 8.125 h -2.5 V 27.25 Z M 16,26 h 7.5 V 21.625 H 16 Z m 8.75,-4.375 H 26 V 17.25 h -7.5 v 1.875 h 6.25 z"
       class="ColorScheme-Text" fill="currentColor" />
   </g>
-  <g id="hover-center">
-    <rect id="hover-background" width="30" height="22" x="80" y="4" class="ColorScheme-Background"
-      fill="currentColor" />
-    <path id="hover-icon"
-      d="m 91.4,19.5 q -0.37125,0 -0.635625,-0.264375 Q 90.5,18.97125 90.5,18.6 v -4.05 q 0,-0.37125 0.264375,-0.635625 Q 91.02875,13.65 91.4,13.65 h 0.9 V 11.4 q 0,-0.37125 0.264375,-0.635625 Q 92.82875,10.5 93.2,10.5 h 5.4 q 0.37125,0 0.63563,0.264375 Q 99.5,11.02875 99.5,11.4 v 4.05 q 0,0.37125 -0.26437,0.635625 Q 98.97125,16.35 98.6,16.35 h -0.9 v 2.25 q 0,0.37125 -0.26438,0.635625 Q 97.17125,19.5 96.8,19.5 Z m 0,-0.9 h 5.4 v -3.15 h -5.4 z m 6.3,-3.15 h 0.9 V 12.3 h -5.4 v 1.35 h 3.6 q 0.37125,0 0.63562,0.264375 Q 97.7,14.17875 97.7,14.55 Z"
+  <g id="hover-center" transform="translate(84)">
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" opacity="0" />
+    <path
+      d="m 14.75,27.25 v -8.125 h 2.5 V 14.75 h 10 v 8.125 h -2.5 V 27.25 Z M 16,26 h 7.5 V 21.625 H 16 Z m 8.75,-4.375 H 26 V 17.25 h -7.5 v 1.875 h 6.25 z"
       class="ColorScheme-Text" fill="currentColor" />
-    <rect id="hover-state-layer" width="30" height="22" x="80" y="4" class="ColorScheme-ButtonBackground"
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" class="ColorScheme-Highlight"
       fill="currentColor" opacity="0.08" />
   </g>
-  <g id="pressed-center">
-    <rect id="pressed-background" width="30" height="22" x="120" y="4" class="ColorScheme-Background"
-      fill="currentColor" />
-    <path id="pressed-icon"
-      d="m 131.4,19.5 q -0.37125,0 -0.63563,-0.264375 Q 130.5,18.97125 130.5,18.6 v -4.05 q 0,-0.37125 0.26437,-0.635625 Q 131.02875,13.65 131.4,13.65 h 0.9 V 11.4 q 0,-0.37125 0.26437,-0.635625 Q 132.82875,10.5 133.2,10.5 h 5.4 q 0.37125,0 0.63563,0.264375 Q 139.5,11.02875 139.5,11.4 v 4.05 q 0,0.37125 -0.26437,0.635625 Q 138.97125,16.35 138.6,16.35 h -0.9 v 2.25 q 0,0.37125 -0.26438,0.635625 Q 137.17125,19.5 136.8,19.5 Z m 0,-0.9 h 5.4 v -3.15 h -5.4 z m 6.3,-3.15 h 0.9 V 12.3 h -5.4 v 1.35 h 3.6 q 0.37125,0 0.63562,0.264375 Q 137.7,14.17875 137.7,14.55 Z"
+  <g id="pressed-center" transform="translate(126)">
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" opacity="0" />
+    <path
+      d="m 14.75,27.25 v -8.125 h 2.5 V 14.75 h 10 v 8.125 h -2.5 V 27.25 Z M 16,26 h 7.5 V 21.625 H 16 Z m 8.75,-4.375 H 26 V 17.25 h -7.5 v 1.875 h 6.25 z"
       class="ColorScheme-Text" fill="currentColor" />
-    <rect id="pressed-state-layer" width="30" height="22" x="80" y="4" class="ColorScheme-ButtonBackground"
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" class="ColorScheme-Highlight"
       fill="currentColor" opacity="0.1" />
   </g>
-  <g id="deactivated-center">
-    <rect id="deactivated-background" width="30" height="22" x="160" y="4" class="ColorScheme-Background"
+  <g id="deactivated-center" transform="translate(168)">
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" class="ColorScheme-Background"
       fill="currentColor" opacity="0.12" />
-    <path id="deactivated-icon"
-      d="m 171.4,19.5 q -0.37125,0 -0.63563,-0.264375 Q 170.5,18.97125 170.5,18.6 v -4.05 q 0,-0.37125 0.26437,-0.635625 Q 171.02875,13.65 171.4,13.65 h 0.9 V 11.4 q 0,-0.37125 0.26437,-0.635625 Q 172.82875,10.5 173.2,10.5 h 5.4 q 0.37125,0 0.63563,0.264375 Q 179.5,11.02875 179.5,11.4 v 4.05 q 0,0.37125 -0.26437,0.635625 Q 178.97125,16.35 178.6,16.35 h -0.9 v 2.25 q 0,0.37125 -0.26438,0.635625 Q 177.17125,19.5 176.8,19.5 Z m 0,-0.9 h 5.4 v -3.15 h -5.4 z m 6.3,-3.15 h 0.9 V 12.3 h -5.4 v 1.35 h 3.6 q 0.37125,0 0.63562,0.264375 Q 177.7,14.17875 177.7,14.55 Z"
+    <path
+      d="m 14.75,27.25 v -8.125 h 2.5 V 14.75 h 10 v 8.125 h -2.5 V 27.25 Z M 16,26 h 7.5 V 21.625 H 16 Z m 8.75,-4.375 H 26 V 17.25 h -7.5 v 1.875 h 6.25 z"
       class="ColorScheme-Text" fill="currentColor" opacity="0.38" />
   </g>
 </svg>

@@ -14,7 +14,6 @@
       }
     </style>
   </defs>
-  <!-- <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" /> -->
   <g id="active-center" transform="translate(0)">
     <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" opacity="0" />
     <path d="m 14.752,21.781 v -1.562 h 12.496 v 1.562 z" class="ColorScheme-Text" fill="currentColor" />
