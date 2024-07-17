@@ -157,7 +157,7 @@ ButtonWidthMaximizeRestore=42
 ButtonWidthClose=42
 
 # (default: 20)
-ButtonWidthAlldesktops=20
+ButtonWidthAlldesktops=30
 
 # (default: 20)
 ButtonWidthKeepabove=20
