@@ -145,7 +145,7 @@ TitleHeight=20
 # └────────┴─────────┴────────┴─────────┴─────────────────┴─────────┴────────┴─────────┴────────┘
 
 # (default: 20)
-ButtonWidth=20
+ButtonWidth=30
 
 # (default: 20)
 ButtonWidthMinimize=42
@@ -160,19 +160,19 @@ ButtonWidthClose=42
 ButtonWidthAlldesktops=30
 
 # (default: 20)
-ButtonWidthKeepabove=20
+ButtonWidthKeepabove=30
 
 # (default: 20)
-ButtonWidthKeepbelow=20
+ButtonWidthKeepbelow=30
 
 # (default: 20)
-ButtonWidthShade=20
+ButtonWidthShade=30
 
 # (default: 20)
 ButtonWidthHelp=30
 
 # (default: 20)
-ButtonWidthMenu=20
+ButtonWidthMenu=30
 
 # (default: 20)
 ButtonHeight=30
