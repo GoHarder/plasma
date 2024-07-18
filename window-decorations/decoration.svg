@@ -1,98 +1,100 @@
 <svg xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 0 100 100" width="100">
-  <defs>
-    <style id="current-color-scheme" type="text/css">
-      .ColorScheme-Background {
-        color: #2e2e2e;
-      }
+   <defs>
+      <style id="current-color-scheme" type="text/css">
+         .ColorScheme-Background {
+            color: #2e2e2e;
+         }
 
-      .ColorScheme-Highlight {
-        color: #95ccff;
-      }
+         .ColorScheme-Highlight {
+            color: #95ccff;
+         }
 
-      .ColorScheme-Text {
-        color: #e0e0e0;
-      }
-    </style>
-  </defs>
-  <g id="decoration-group">
-    <path id="innerborder-topleft" d="M 32,20 Q 20,20 20,32 h 4 q 0,-8 8,-8 z" class="ColorScheme-Background"
-      fill="currentColor" opacity="0.75" />
-    <path id="decoration-topleft" d="m 32,24 q -8,0 -8,8 h 8 z" class="ColorScheme-Background" fill="currentColor" />
-    <rect id="innerborder-top" width="36" height="4" x="32" y="20" class="ColorScheme-Background" fill="currentColor"
-      opacity="0.75" />
-    <rect id="decoration-top" width="36" height="8" x="32" y="24" class="ColorScheme-Background" fill="currentColor" />
-    <path id="innerborder-topright" d="m 68,20 q 12,0 12,12 h -4 q 0,-8 -8,-8 z" class="ColorScheme-Background"
-      fill="currentColor" opacity="0.75" />
-    <path id="decoration-topright" d="m 68,24 q 8,0 8,8 h -8 z" class="ColorScheme-Background" fill="currentColor" />
-    <rect id="innerborder-left" width="4" height="36" x="20" y="32" class="ColorScheme-Background" fill="currentColor"
-      opacity="0.75" />
-    <rect id="decoration-left" width="8" height="36" x="24" y="32" class="ColorScheme-Background" fill="currentColor" />
-    <rect id="decoration-center" width="36" height="36" x="32" y="32" class="ColorScheme-Background"
-      fill="currentColor" />
-    <rect id="innerborder-right" width="4" height="36" x="76" y="32" class="ColorScheme-Background" fill="currentColor"
-      opacity="0.75" />
-    <rect id="decoration-right" width="8" height="36" x="68" y="32" class="ColorScheme-Background"
-      fill="currentColor" />
-    <path id="innerborder-bottomleft" d="M 32,80 Q 20,80 20,68 h 4 q 0,8 8,8 z" class="ColorScheme-Background"
-      fill="currentColor" opacity="0.75" />
-    <path id="decoration-bottomleft" d="m 32,76 q -8,0 -8,-8 h 8 z" class="ColorScheme-Background"
-      fill="currentColor" />
-    <rect id="innerborder-bottom" width="36" height="4" x="32" y="76" class="ColorScheme-Background" fill="currentColor"
-      opacity="0.75" />
-    <rect id="decoration-bottom" width="36" height="8" x="32" y="68" class="ColorScheme-Background"
-      fill="currentColor" />
-    <path id="innerborder-bottomright" d="m 68,80 q 12,0 12,-12 h -4 q 0,8 -8,8 z" class="ColorScheme-Background"
-      fill="currentColor" opacity="0.75" />
-    <path id="decoration-bottomright" d="m 68,76 q 8,0 8,-8 h -8 z" class="ColorScheme-Background"
-      fill="currentColor" />
-  </g>
-  <g id="decoration-inactive-group" transform="translate(100)">
-    <path id="innerborder-inactive-topleft" d="M 32,20 Q 20,20 20,32 h 4 q 0,-8 8,-8 z" class="ColorScheme-Background"
-      fill="currentColor" opacity="0.75" />
-    <path id="decoration-inactive-topleft" d="m 32,24 q -8,0 -8,8 h 8 z" class="ColorScheme-Background"
-      fill="currentColor" />
-    <rect id="innerborder-inactive-top" width="36" height="4" x="32" y="20" class="ColorScheme-Background"
-      fill="currentColor" opacity="0.75" />
-    <rect id="decoration-inactive-top" width="36" height="8" x="32" y="24" class="ColorScheme-Background"
-      fill="currentColor" />
-    <path id="innerborder-inactive-topright" d="m 68,20 q 12,0 12,12 h -4 q 0,-8 -8,-8 z" class="ColorScheme-Background"
-      fill="currentColor" opacity="0.75" />
-    <path id="decoration-inactive-topright" d="m 68,24 q 8,0 8,8 h -8 z" class="ColorScheme-Background"
-      fill="currentColor" />
-    <rect id="innerborder-inactive-left" width="4" height="36" x="20" y="32" class="ColorScheme-Background"
-      fill="currentColor" opacity="0.75" />
-    <rect id="decoration-inactive-left" width="8" height="36" x="24" y="32" class="ColorScheme-Background"
-      fill="currentColor" />
-    <rect id="decoration-inactive-center" width="36" height="36" x="32" y="32" class="ColorScheme-Background"
-      fill="currentColor" />
-    <rect id="innerborder-inactive-right" width="4" height="36" x="76" y="32" class="ColorScheme-Background"
-      fill="currentColor" opacity="0.75" />
-    <rect id="decoration-inactive-right" width="8" height="36" x="68" y="32" class="ColorScheme-Background"
-      fill="currentColor" />
-    <path id="innerborder-inactive-bottomleft" d="M 32,80 Q 20,80 20,68 h 4 q 0,8 8,8 z" class="ColorScheme-Background"
-      fill="currentColor" opacity="0.75" />
-    <path id="decoration-inactive-bottomleft" d="m 32,76 q -8,0 -8,-8 h 8 z" class="ColorScheme-Background"
-      fill="currentColor" />
-    <rect id="innerborder-inactive-bottom" width="36" height="4" x="32" y="76" class="ColorScheme-Background"
-      fill="currentColor" opacity="0.75" />
-    <rect id="decoration-inactive-bottom" width="36" height="8" x="32" y="68" class="ColorScheme-Background"
-      fill="currentColor" />
-    <path id="innerborder-inactive-bottomright" d="m 68,80 q 12,0 12,-12 h -4 q 0,8 -8,8 z"
-      class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
-    <path id="decoration-inactive-bottomright" d="m 68,76 q 8,0 8,-8 h -8 z" class="ColorScheme-Background"
-      fill="currentColor" />
-  </g>
-  <g id="mask-group" transform="translate(200)">
-    <path id="mask-topleft" d="m 32,24 q -8,0 -8,8 h 8 z" />
-    <rect id="mask-top" width="36" height="8" x="32" y="24" />
-    <path id="mask-topright" d="m 68,24 q 8,0 8,8 h -8 z" />
-    <rect id="mask-left" width="8" height="36" x="24" y="32" />
-    <rect id="mask-center" width="36" height="36" x="32" y="32" />
-    <rect id="mask-right" width="8" height="36" x="68" y="32" />
-    <path id="mask-bottomleft" d="m 32,76 q -8,0 -8,-8 h 8 z" />
-    <rect id="mask-bottom" width="36" height="8" x="32" y="68" />
-    <path id="mask-bottomright" d="m 68,76 q 8,0 8,-8 h -8 z" />
-  </g>
-  <rect fill="#008000" id="innerborder" width="4" height="36" x="0" y="-46" />
-  <rect fill="#008080" id="innerborder-inactive" width="4" height="36" x="8" y="-46" />
+         .ColorScheme-Text {
+            color: #e0e0e0;
+         }
+      </style>
+   </defs>
+   <g id="decoration-group">
+      <path id="innerborder-topleft" d="M 32,20 Q 20,20 20,32 h 4 q 0,-8 8,-8 z" class="ColorScheme-Background"
+         fill="currentColor" opacity="0.75" />
+      <path id="decoration-topleft" d="m 32,24 q -8,0 -8,8 h 8 z" class="ColorScheme-Background" fill="currentColor" />
+      <rect id="innerborder-top" width="36" height="4" x="32" y="20" class="ColorScheme-Background" fill="currentColor"
+         opacity="0.75" />
+      <rect id="decoration-top" width="36" height="8" x="32" y="24" class="ColorScheme-Background"
+         fill="currentColor" />
+      <path id="innerborder-topright" d="m 68,20 q 12,0 12,12 h -4 q 0,-8 -8,-8 z" class="ColorScheme-Background"
+         fill="currentColor" opacity="0.75" />
+      <path id="decoration-topright" d="m 68,24 q 8,0 8,8 h -8 z" class="ColorScheme-Background" fill="currentColor" />
+      <rect id="innerborder-left" width="4" height="36" x="20" y="32" class="ColorScheme-Background" fill="currentColor"
+         opacity="0.75" />
+      <rect id="decoration-left" width="8" height="36" x="24" y="32" class="ColorScheme-Background"
+         fill="currentColor" />
+      <rect id="decoration-center" width="36" height="36" x="32" y="32" class="ColorScheme-Background"
+         fill="currentColor" />
+      <rect id="innerborder-right" width="4" height="36" x="76" y="32" class="ColorScheme-Background"
+         fill="currentColor" opacity="0.75" />
+      <rect id="decoration-right" width="8" height="36" x="68" y="32" class="ColorScheme-Background"
+         fill="currentColor" />
+      <path id="innerborder-bottomleft" d="M 32,80 Q 20,80 20,68 h 4 q 0,8 8,8 z" class="ColorScheme-Background"
+         fill="currentColor" opacity="0.75" />
+      <path id="decoration-bottomleft" d="m 32,76 q -8,0 -8,-8 h 8 z" class="ColorScheme-Background"
+         fill="currentColor" />
+      <rect id="innerborder-bottom" width="36" height="4" x="32" y="76" class="ColorScheme-Background"
+         fill="currentColor" opacity="0.75" />
+      <rect id="decoration-bottom" width="36" height="8" x="32" y="68" class="ColorScheme-Background"
+         fill="currentColor" />
+      <path id="innerborder-bottomright" d="m 68,80 q 12,0 12,-12 h -4 q 0,8 -8,8 z" class="ColorScheme-Background"
+         fill="currentColor" opacity="0.75" />
+      <path id="decoration-bottomright" d="m 68,76 q 8,0 8,-8 h -8 z" class="ColorScheme-Background"
+         fill="currentColor" />
+   </g>
+   <g id="decoration-inactive-group" transform="translate(100)">
+      <path id="innerborder-inactive-topleft" d="M 32,20 Q 20,20 20,32 h 4 q 0,-8 8,-8 z" class="ColorScheme-Background"
+         fill="currentColor" opacity="0.75" />
+      <path id="decoration-inactive-topleft" d="m 32,24 q -8,0 -8,8 h 8 z" class="ColorScheme-Background"
+         fill="currentColor" />
+      <rect id="innerborder-inactive-top" width="36" height="4" x="32" y="20" class="ColorScheme-Background"
+         fill="currentColor" opacity="0.75" />
+      <rect id="decoration-inactive-top" width="36" height="8" x="32" y="24" class="ColorScheme-Background"
+         fill="currentColor" />
+      <path id="innerborder-inactive-topright" d="m 68,20 q 12,0 12,12 h -4 q 0,-8 -8,-8 z"
+         class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
+      <path id="decoration-inactive-topright" d="m 68,24 q 8,0 8,8 h -8 z" class="ColorScheme-Background"
+         fill="currentColor" />
+      <rect id="innerborder-inactive-left" width="4" height="36" x="20" y="32" class="ColorScheme-Background"
+         fill="currentColor" opacity="0.75" />
+      <rect id="decoration-inactive-left" width="8" height="36" x="24" y="32" class="ColorScheme-Background"
+         fill="currentColor" />
+      <rect id="decoration-inactive-center" width="36" height="36" x="32" y="32" class="ColorScheme-Background"
+         fill="currentColor" />
+      <rect id="innerborder-inactive-right" width="4" height="36" x="76" y="32" class="ColorScheme-Background"
+         fill="currentColor" opacity="0.75" />
+      <rect id="decoration-inactive-right" width="8" height="36" x="68" y="32" class="ColorScheme-Background"
+         fill="currentColor" />
+      <path id="innerborder-inactive-bottomleft" d="M 32,80 Q 20,80 20,68 h 4 q 0,8 8,8 z"
+         class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
+      <path id="decoration-inactive-bottomleft" d="m 32,76 q -8,0 -8,-8 h 8 z" class="ColorScheme-Background"
+         fill="currentColor" />
+      <rect id="innerborder-inactive-bottom" width="36" height="4" x="32" y="76" class="ColorScheme-Background"
+         fill="currentColor" opacity="0.75" />
+      <rect id="decoration-inactive-bottom" width="36" height="8" x="32" y="68" class="ColorScheme-Background"
+         fill="currentColor" />
+      <path id="innerborder-inactive-bottomright" d="m 68,80 q 12,0 12,-12 h -4 q 0,8 -8,8 z"
+         class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
+      <path id="decoration-inactive-bottomright" d="m 68,76 q 8,0 8,-8 h -8 z" class="ColorScheme-Background"
+         fill="currentColor" />
+   </g>
+   <g id="mask-group" transform="translate(200)">
+      <path id="mask-topleft" d="m 32,24 q -8,0 -8,8 h 8 z" />
+      <rect id="mask-top" width="36" height="8" x="32" y="24" />
+      <path id="mask-topright" d="m 68,24 q 8,0 8,8 h -8 z" />
+      <rect id="mask-left" width="8" height="36" x="24" y="32" />
+      <rect id="mask-center" width="36" height="36" x="32" y="32" />
+      <rect id="mask-right" width="8" height="36" x="68" y="32" />
+      <path id="mask-bottomleft" d="m 32,76 q -8,0 -8,-8 h 8 z" />
+      <rect id="mask-bottom" width="36" height="8" x="32" y="68" />
+      <path id="mask-bottomright" d="m 68,76 q 8,0 8,-8 h -8 z" />
+   </g>
+   <rect fill="#008000" id="innerborder" width="4" height="36" x="0" y="-46" />
+   <rect fill="#008080" id="innerborder-inactive" width="4" height="36" x="8" y="-46" />
 </svg>
