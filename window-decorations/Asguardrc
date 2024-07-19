@@ -10,10 +10,10 @@ TitleVerticalAlignment=Center
 Animation=0
 
 # Title text color of active windows (default: 0,0,0,255)
-ActiveTextColor=0,0,0,255
+ActiveTextColor=226,226,229,255
 
 # Title text color of inactive windows (default: 0,0,0,255)
-InactiveTextColor=0,0,0,255
+InactiveTextColor=194,199,207,255
 
 # Draw a shadow behind the title text (default: false)
 UseTextShadow=false
@@ -107,7 +107,6 @@ BorderBottom=4
 BorderTop=4
 
 # Maximized
-
 # (default: 0)
 TitleEdgeTopMaximized=0
 
