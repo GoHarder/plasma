@@ -1,3 +1,25 @@
-elevation 1
-before #000000 0px 1px 2px 0px   x 0 y 1 blur 2 spread 0 opacity 0.3
-after  #000000 0px 1px 3px 1px   x 0 y 1 blur 3 spread 1 opacity 0.15
+# Elevations
+
+## Before
+
+opacity 0.3
+
+| Elevation | x   | y   | blur | spread |
+| --------- | --- | --- | ---- | ------ |
+| 1         | 0px | 1px | 2px  | 0px    |
+| 2         | 0px | 1px | 2px  | 0px    |
+| 3         | 0px | 1px | 3px  | 0px    |
+| 4         | 0px | 2px | 3px  | 0px    |
+| 5         | 0px | 4px | 4px  | 0px    |
+
+## After
+
+opacity 0.15
+
+| Elevation | x   | y   | blur | spread |
+| --------- | --- | --- | ---- | ------ |
+| 1         | 0px | 1px | 3px  | 1px    |
+| 2         | 0px | 2px | 6px  | 2px    |
+| 3         | 0px | 4px | 8px  | 3px    |
+| 4         | 0px | 6px | 10px | 4px    |
+| 5         | 0px | 8px | 12px | 6px    |
