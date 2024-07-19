@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="100" viewBox="0 0 100 100" width="100">
-   <defs>
+<svg id="svg1" height="100" viewBox="0 0 100 100" width="100" xmlns="http://www.w3.org/2000/svg">
+   <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" />
+   <defs id="defs1">
       <style id="current-color-scheme" type="text/css">
          .ColorScheme-Background {
             color: #2e2e2e;
@@ -13,88 +14,188 @@
             color: #e0e0e0;
          }
       </style>
+      <linearGradient id="lgb1">
+         <stop id="stop1" offset="0.66" stop-color="#000000" stop-opacity="1" />
+         <stop id="stop2" offset="1" stop-color="#000000" stop-opacity="0" />
+      </linearGradient>
+      <linearGradient xlink:href="#lgb1" id="lgb1-t" x1="50" y1="36" x2="50" y2="24" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lgb1" id="lgb1-l" x1="32" y1="54" x2="20" y2="54" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lgb1" id="lgb1-r" x1="68" y1="54" x2="80" y2="54" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lgb1" id="lgb1-b" x1="50" y1="72" x2="50" y2="84" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lgb1" id="rgb1-tl" cx="32" cy="36" r="12" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lgb1" id="rgb1-tr" cx="68" cy="36" r="12" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lgb1" id="rgb1-bl" cx="32" cy="72" r="12" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lgb1" id="rgb1-br" cx="68" cy="72" r="12" gradientUnits="userSpaceOnUse" />
+      <linearGradient id="lga1">
+         <stop id="stop3" offset="0.33" stop-color="#000000" stop-opacity="1" />
+         <stop id="stop4" offset="1" stop-color="#000000" stop-opacity="0" />
+      </linearGradient>
+      <linearGradient xlink:href="#lga1" id="lga1-t" x1="50" y1="40" x2="50" y2="22" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lga1" id="lga1-l" x1="32" y1="58" x2="14" y2="58" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lga1" id="lga1-r" x1="68" y1="58" x2="86" y2="58" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lga1" id="lga1-b" x1="50" y1="76" x2="50" y2="94" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lga1" id="rga1-tl" cx="32" cy="40" r="18" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lga1" id="rga1-tr" cx="68" cy="40" r="18" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lga1" id="rga1-bl" cx="32" cy="76" r="18" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lga1" id="rga1-br" cx="68" cy="76" r="18" gradientUnits="userSpaceOnUse" />
+      <linearGradient id="lgb2">
+         <stop id="stop5" offset="0.75" stop-color="#000000" stop-opacity="1" />
+         <stop id="stop6" offset="1" stop-color="#000000" stop-opacity="0" />
+      </linearGradient>
+      <linearGradient xlink:href="#lgb2" id="lgb2-t" x1="50" y1="34" x2="50" y2="22" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lgb2" id="lgb2-l" x1="32" y1="52" x2="20" y2="52" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lgb2" id="lgb2-r" x1="68" y1="52" x2="80" y2="52" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lgb2" id="lgb2-b" x1="50" y1="70" x2="50" y2="82" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lgb2" id="rgb2-tl" cx="32" cy="34" r="12" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lgb2" id="rgb2-tr" cx="68" cy="34" r="12" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lgb2" id="rgb2-bl" cx="32" cy="70" r="12" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lgb2" id="rgb2-br" cx="68" cy="70" r="12" gradientUnits="userSpaceOnUse" />
+      <linearGradient id="lga2">
+         <stop id="stop7" offset="0.375" stop-color="#000000" stop-opacity="1" />
+         <stop id="stop8" offset="1" stop-color="#000000" stop-opacity="0" />
+      </linearGradient>
+      <linearGradient xlink:href="#lga2" id="lga2-t" x1="50" y1="38" x2="50" y2="22" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lga2" id="lga2-l" x1="32" y1="56" x2="16" y2="56" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lga2" id="lga2-r" x1="68" y1="56" x2="84" y2="56" gradientUnits="userSpaceOnUse" />
+      <linearGradient xlink:href="#lga2" id="lga2-b" x1="50" y1="74" x2="50" y2="90" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lga2" id="rga2-tl" cx="32" cy="38" r="16" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lga2" id="rga2-tr" cx="68" cy="38" r="16" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lga2" id="rga2-bl" cx="32" cy="74" r="16" gradientUnits="userSpaceOnUse" />
+      <radialGradient xlink:href="#lga2" id="rga2-br" cx="68" cy="74" r="16" gradientUnits="userSpaceOnUse" />
    </defs>
    <g id="decoration-group">
-      <path id="innerborder-topleft" d="M 32,20 Q 20,20 20,32 h 4 q 0,-8 8,-8 z" class="ColorScheme-Background"
-         fill="currentColor" opacity="0.75" />
-      <path id="decoration-topleft" d="m 32,24 q -8,0 -8,8 h 8 z" class="ColorScheme-Background" fill="currentColor" />
-      <rect id="innerborder-top" width="36" height="4" x="32" y="20" class="ColorScheme-Background" fill="currentColor"
-         opacity="0.75" />
-      <rect id="decoration-top" width="36" height="8" x="32" y="24" class="ColorScheme-Background"
-         fill="currentColor" />
-      <path id="innerborder-topright" d="m 68,20 q 12,0 12,12 h -4 q 0,-8 -8,-8 z" class="ColorScheme-Background"
-         fill="currentColor" opacity="0.75" />
-      <path id="decoration-topright" d="m 68,24 q 8,0 8,8 h -8 z" class="ColorScheme-Background" fill="currentColor" />
-      <rect id="innerborder-left" width="4" height="36" x="20" y="32" class="ColorScheme-Background" fill="currentColor"
-         opacity="0.75" />
-      <rect id="decoration-left" width="8" height="36" x="24" y="32" class="ColorScheme-Background"
-         fill="currentColor" />
+      <path id="sb1-tl" d="m 32,24 q -12,0 -12,12 h 12 z" fill="url(#rgb1-tl)" opacity="0.3" />
+      <rect id="sb1-t" width="36" height="12" x="32" y="24" fill="url(#lgb1-t)" opacity="0.3" />
+      <path id="sb1-tr" d="m 68,24q 12,0 12,12 h -12 z" fill="url(#rgb1-tr)" opacity="0.3" />
+      <rect id="sb1-l" width="12" height="36" x="20" y="36" fill="url(#lgb1-l)" opacity="0.3" />
+      <rect id="sb1-c" width="36" height="36" x="32" y="36" opacity="0.3" />
+      <rect id="sb1-r" width="12" height="36" x="68" y="36" fill="url(#lgb1-r)" opacity="0.3" />
+      <path id="sb1-bl" d="m 32,84 q -12,0 -12,-12 h 12 z" fill="url(#rgb1-bl)" opacity="0.3" />
+      <rect id="sb1-b" width="36" height="12" x="32" y="72" fill="url(#lgb1-b)" opacity="0.3" />
+      <path id="sb1-br" d="m 68,84 q 12,0 12,-12 h -12 z" fill="url(#rgb1-br)" opacity="0.3" />
+      <path id="sa1-tl" d="m 32,22 q -18,0 -18,18 h 18 z" fill="url(#rga1-tl)" opacity="0.15" />
+      <rect id="sa1-t" width="36" height="18" x="32" y="22" fill="url(#lga1-t) " opacity="0.15" />
+      <path id="sa1-tr" d="m 68,22 q 18,0 18,18 h -18 z" fill="url(#rga1-tr)" opacity="0.15" />
+      <rect id="sa1-l" width="18" height="36" x="14" y="40" fill="url(#lga1-l) " opacity="0.15" />
+      <rect id="sa1-c" width="36" height="36" x="32" y="40" opacity="0.15" />
+      <rect id="sa1-r" width="18" height="36" x="68" y="40" fill="url(#lga1-r) " opacity="0.15" />
+      <path id="sa1-bl" d="m 32,94 q -18,0 -18,-18 h 18 z" fill="url(#rga1-bl)" opacity="0.15" />
+      <rect id="sa1-b" width="36" height="18" x="32" y="76" fill="url(#lga1-b) " opacity="0.15" />
+      <path id="sa1-br" d="m 68,94 q 18,0 18,-18 h -18 z" fill="url(#rga1-br)" opacity="0.15" />
+      <g id="decoration-topleft">
+         <path id="dtl-bo" d="M 32,20 Q 20,20 20,32 h 4 q 0,-8 8,-8 z" class="ColorScheme-Background"
+            fill="currentColor" opacity="0.66" />
+         <path id="dtl-ba" d="m 32,24 q -8,0 -8,8 h 8 z" class="ColorScheme-Background" fill="currentColor" />
+      </g>
+      <g id="decoration-top">
+         <rect id="dt-bo" width="36" height="4" x="32" y="20" class="ColorScheme-Background" fill="currentColor"
+            opacity="0.66" />
+         <rect id="dt-ba" width="36" height="8" x="32" y="24" class="ColorScheme-Background" fill="currentColor" />
+      </g>
+      <g id="decoration-topright">
+         <path id="dtr-bo" d="m 68,20 q 12,0 12,12 h -4 q 0,-8 -8,-8 z" class="ColorScheme-Background"
+            fill="currentColor" opacity="0.66" />
+         <path id="dtr-ba" d="m 68,24 q 8,0 8,8 h -8 z" class="ColorScheme-Background" fill="currentColor" />
+      </g>
+      <g id="decoration-left">
+         <rect id="dl-bo" width="4" height="36" x="20" y="32" class="ColorScheme-Background" fill="currentColor"
+            opacity="0.66" />
+         <rect id="dl-ba" width="8" height="36" x="24" y="32" class="ColorScheme-Background" fill="currentColor" />
+      </g>
       <rect id="decoration-center" width="36" height="36" x="32" y="32" class="ColorScheme-Background"
          fill="currentColor" />
-      <rect id="innerborder-right" width="4" height="36" x="76" y="32" class="ColorScheme-Background"
-         fill="currentColor" opacity="0.75" />
-      <rect id="decoration-right" width="8" height="36" x="68" y="32" class="ColorScheme-Background"
-         fill="currentColor" />
-      <path id="innerborder-bottomleft" d="M 32,80 Q 20,80 20,68 h 4 q 0,8 8,8 z" class="ColorScheme-Background"
-         fill="currentColor" opacity="0.75" />
-      <path id="decoration-bottomleft" d="m 32,76 q -8,0 -8,-8 h 8 z" class="ColorScheme-Background"
-         fill="currentColor" />
-      <rect id="innerborder-bottom" width="36" height="4" x="32" y="76" class="ColorScheme-Background"
-         fill="currentColor" opacity="0.75" />
-      <rect id="decoration-bottom" width="36" height="8" x="32" y="68" class="ColorScheme-Background"
-         fill="currentColor" />
-      <path id="innerborder-bottomright" d="m 68,80 q 12,0 12,-12 h -4 q 0,8 -8,8 z" class="ColorScheme-Background"
-         fill="currentColor" opacity="0.75" />
-      <path id="decoration-bottomright" d="m 68,76 q 8,0 8,-8 h -8 z" class="ColorScheme-Background"
-         fill="currentColor" />
+      <g id="decoration-right">
+         <rect id="dr-bo" width="4" height="36" x="76" y="32" class="ColorScheme-Background" fill="currentColor"
+            opacity="0.66" />
+         <rect id="dr-ba" width="8" height="36" x="68" y="32" class="ColorScheme-Background" fill="currentColor" />
+      </g>
+      <g id="decoration-bottomleft">
+         <path id="dbl-bo" d="M 32,80 Q 20,80 20,68 h 4 q 0,8 8,8 z" class="ColorScheme-Background" fill="currentColor"
+            opacity="0.66" />
+         <path id="dbl-ba" d="m 32,76 q -8,0 -8,-8 h 8 z" class="ColorScheme-Background" fill="currentColor" />
+      </g>
+      <g id="decoration-bottom">
+         <rect id="db-bo" width="36" height="4" x="32" y="76" class="ColorScheme-Background" fill="currentColor"
+            opacity="0.66" />
+         <rect id="db-ba" width="36" height="8" x="32" y="68" class="ColorScheme-Background" fill="currentColor" />
+      </g>
+      <g id="decoration-bottomright">
+         <path id="dbr-bo" d="m 68,80 q 12,0 12,-12 h -4 q 0,8 -8,8 z" class="ColorScheme-Background"
+            fill="currentColor" opacity="0.66" />
+         <path id="dbr-ba" d="m 68,76 q 8,0 8,-8 h -8 z" class="ColorScheme-Background" fill="currentColor" />
+      </g>
    </g>
    <g id="decoration-inactive-group" transform="translate(100)">
-      <path id="innerborder-inactive-topleft" d="M 32,20 Q 20,20 20,32 h 4 q 0,-8 8,-8 z" class="ColorScheme-Background"
-         fill="currentColor" opacity="0.75" />
-      <path id="decoration-inactive-topleft" d="m 32,24 q -8,0 -8,8 h 8 z" class="ColorScheme-Background"
-         fill="currentColor" />
-      <rect id="innerborder-inactive-top" width="36" height="4" x="32" y="20" class="ColorScheme-Background"
-         fill="currentColor" opacity="0.75" />
-      <rect id="decoration-inactive-top" width="36" height="8" x="32" y="24" class="ColorScheme-Background"
-         fill="currentColor" />
-      <path id="innerborder-inactive-topright" d="m 68,20 q 12,0 12,12 h -4 q 0,-8 -8,-8 z"
-         class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
-      <path id="decoration-inactive-topright" d="m 68,24 q 8,0 8,8 h -8 z" class="ColorScheme-Background"
-         fill="currentColor" />
-      <rect id="innerborder-inactive-left" width="4" height="36" x="20" y="32" class="ColorScheme-Background"
-         fill="currentColor" opacity="0.75" />
-      <rect id="decoration-inactive-left" width="8" height="36" x="24" y="32" class="ColorScheme-Background"
-         fill="currentColor" />
+      <path id="sb2-tl" d="m 32,22 q -12,0 -12,12 h 12 z" fill="url(#rgb2-tl)" opacity="0.3" />
+      <rect id="sb2-t" width="36" height="12" x="32" y="22" fill="url(#lgb2-t) " opacity="0.3" />
+      <path id="sb2-tr" d="m 68,22 q 12,0 12,12 h -12 z" fill="url(#rgb2-tr)" opacity="0.3" />
+      <rect id="sb2-l" width="12" height="36" x="20" y="34" fill="url(#lgb2-l) " opacity="0.3" />
+      <rect id="sb2-c" width="36" height="36" x="32" y="34" opacity="0.3" />
+      <rect id="sb2-r" width="12" height="36" x="68" y="34" fill="url(#lgb2-r) " opacity="0.3" />
+      <path id="sb2-bl" d="m 32,82 q -12,0 -12,-12 h 12 z" fill="url(#rgb2-bl)" opacity="0.3" />
+      <rect id="sb2-b" width="36" height="12" x="32" y="70" fill="url(#lgb2-b) " opacity="0.3" />
+      <path id="sb2-br" d="m 68,82 q 12,0 12,-12 h -12 z" fill="url(#rgb2-br)" opacity="0.3" />
+      <path id="sa2-tl" d="m 32,22 q -16,0 -16,16 h 16 z" fill="url(#rga2-tl)" opacity="0.15" />
+      <rect id="sa2-t" width="36" height="16" x="32" y="22" fill="url(#lga2-t) " opacity="0.15" />
+      <path id="sa2-tr" d="m 68,22 q 16,0 16,16 h -16 z" fill="url(#rga2-tr)" opacity="0.15" />
+      <rect id="sa2-l" width="16" height="36" x="16" y="38" fill="url(#lga2-l) " opacity="0.15" />
+      <rect id="sa2-c" width="36" height="36" x="32" y="38" opacity="0.15" />
+      <rect id="sa2-r" width="16" height="36" x="68" y="38" fill="url(#lga2-r) " opacity="0.15" />
+      <path id="sa2-bl" d="m 32,90 q -16,0 -16,-16 h 16 z" fill="url(#rga2-bl)" opacity="0.15" />
+      <rect id="sa2-b" width="36" height="16" x="32" y="74" fill="url(#lga2-b) " opacity="0.15" />
+      <path id="sa2-br" d="m 68,90 q 16,0 16,-16 h -16 z" fill="url(#rga2-br)" opacity="0.15" />
+      <g id="decoration-inactive-topleft">
+         <path id="ditl-bo" d="M 32,20 Q 20,20 20,32 h 4 q 0,-8 8,-8 z" class="ColorScheme-Background"
+            fill="currentColor" opacity="0.86" />
+         <path id="ditl-ba" d="m 32,24 q -8,0 -8,8 h 8 z" class="ColorScheme-Background" fill="currentColor" />
+      </g>
+      <g id="decoration-inactive-top">
+         <rect id="dit-bo" width="36" height="4" x="32" y="20" class="ColorScheme-Background" fill="currentColor"
+            opacity="0.86" />
+         <rect id="dit-ba" width="36" height="8" x="32" y="24" class="ColorScheme-Background" fill="currentColor" />
+      </g>
+      <g id="decoration-inactive-topright">
+         <path id="ditr-bo" d="m 68,20 q 12,0 12,12 h -4 q 0,-8 -8,-8 z" class="ColorScheme-Background"
+            fill="currentColor" opacity="0.86" />
+         <path id="ditr-ba" d="m 68,24 q 8,0 8,8 h -8 z" class="ColorScheme-Background" fill="currentColor" />
+      </g>
+      <g id="decoration-inactive-left">
+         <rect id="dil-bo" width="4" height="36" x="20" y="32" class="ColorScheme-Background" fill="currentColor"
+            opacity="0.86" />
+         <rect id="dil0ba" width="8" height="36" x="24" y="32" class="ColorScheme-Background" fill="currentColor" />
+      </g>
       <rect id="decoration-inactive-center" width="36" height="36" x="32" y="32" class="ColorScheme-Background"
          fill="currentColor" />
-      <rect id="innerborder-inactive-right" width="4" height="36" x="76" y="32" class="ColorScheme-Background"
-         fill="currentColor" opacity="0.75" />
-      <rect id="decoration-inactive-right" width="8" height="36" x="68" y="32" class="ColorScheme-Background"
-         fill="currentColor" />
-      <path id="innerborder-inactive-bottomleft" d="M 32,80 Q 20,80 20,68 h 4 q 0,8 8,8 z"
-         class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
-      <path id="decoration-inactive-bottomleft" d="m 32,76 q -8,0 -8,-8 h 8 z" class="ColorScheme-Background"
-         fill="currentColor" />
-      <rect id="innerborder-inactive-bottom" width="36" height="4" x="32" y="76" class="ColorScheme-Background"
-         fill="currentColor" opacity="0.75" />
-      <rect id="decoration-inactive-bottom" width="36" height="8" x="32" y="68" class="ColorScheme-Background"
-         fill="currentColor" />
-      <path id="innerborder-inactive-bottomright" d="m 68,80 q 12,0 12,-12 h -4 q 0,8 -8,8 z"
-         class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
-      <path id="decoration-inactive-bottomright" d="m 68,76 q 8,0 8,-8 h -8 z" class="ColorScheme-Background"
-         fill="currentColor" />
+      <g id="decoration-inactive-right">
+         <rect id="dir-bo" width="4" height="36" x="76" y="32" class="ColorScheme-Background" fill="currentColor"
+            opacity="0.86" />
+         <rect id="dir-ba" width="8" height="36" x="68" y="32" class="ColorScheme-Background" fill="currentColor" />
+      </g>
+      <g id="decoration-inactive-bottomleft">
+         <path id="dibl-bo" d="M 32,80 Q 20,80 20,68 h 4 q 0,8 8,8 z" class="ColorScheme-Background" fill="currentColor"
+            opacity="0.86" />
+         <path id="dibl-ba" d="m 32,76 q -8,0 -8,-8 h 8 z" class="ColorScheme-Background" fill="currentColor" />
+      </g>
+      <g id="decoration-inactive-bottom">
+         <rect id="dib-bo" width="36" height="4" x="32" y="76" class="ColorScheme-Background" fill="currentColor"
+            opacity="0.86" />
+         <rect id="dib-ba" width="36" height="8" x="32" y="68" class="ColorScheme-Background" fill="currentColor" />
+      </g>
+      <g id="decoration-inactive-bottomright">
+         <path id="dibr-bo" d="m 68,80 q 12,0 12,-12 h -4 q 0,8 -8,8 z" class="ColorScheme-Background"
+            fill="currentColor" opacity="0.86" />
+         <path id="dibr-ba" d="m 68,76 q 8,0 8,-8 h -8 z" class="ColorScheme-Background" fill="currentColor" />
+      </g>
    </g>
    <g id="mask-group" transform="translate(200)">
-      <path id="mask-topleft" d="m 32,24 q -8,0 -8,8 h 8 z" />
-      <rect id="mask-top" width="36" height="8" x="32" y="24" />
-      <path id="mask-topright" d="m 68,24 q 8,0 8,8 h -8 z" />
-      <rect id="mask-left" width="8" height="36" x="24" y="32" />
+      <path id="mask-topleft" d="m 32,20 q -12,0 -12,12 h 12 z" />
+      <rect id="mask-top" width="36" height="12" x="32" y="20" />
+      <path id="mask-topright" d="m 68,20 q 12,0 12,12 h -12 z" />
+      <rect id="mask-left" width="12" height="36" x="20" y="32" />
       <rect id="mask-center" width="36" height="36" x="32" y="32" />
-      <rect id="mask-right" width="8" height="36" x="68" y="32" />
-      <path id="mask-bottomleft" d="m 32,76 q -8,0 -8,-8 h 8 z" />
-      <rect id="mask-bottom" width="36" height="8" x="32" y="68" />
-      <path id="mask-bottomright" d="m 68,76 q 8,0 8,-8 h -8 z" />
+      <rect id="mask-right" width="12" height="36" x="68" y="32" />
+      <path id="mask-bottomleft" d="m 32,80 q -12,0 -12,-12 h 12 z" />
+      <rect id="mask-bottom" width="36" height="12" x="32" y="68" />
+      <path id="mask-bottomright" d="m 68,80 q 12,0 12,-12 h -12 z" />
    </g>
-   <rect fill="#008000" id="innerborder" width="4" height="36" x="0" y="-46" />
-   <rect fill="#008080" id="innerborder-inactive" width="4" height="36" x="8" y="-46" />
 </svg>
