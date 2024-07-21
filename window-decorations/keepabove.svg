@@ -5,10 +5,6 @@
             color: #2e2e2e;
          }
 
-         .ColorScheme-Highlight {
-            color: #95ccff;
-         }
-
          .ColorScheme-Text {
             color: #e0e0e0;
          }
@@ -31,7 +27,7 @@
       <path
          d="M 11.527778,18.472222 V 8.75 H 21.25 v 9.722222 z m 1.388889,-1.388889 h 6.944444 V 10.138889 H 12.916667 Z M 8.75,21.25 v -1.388889 h 1.388889 V 21.25 Z m 0,-2.777778 v -1.388889 h 1.388889 v 1.388889 z m 0,-2.777777 v -1.38889 h 1.388889 v 1.38889 z m 0,-2.777778 v -1.388889 h 1.388889 v 1.388889 z M 11.527778,21.25 v -1.388889 h 1.388889 V 21.25 Z m 2.777777,0 v -1.388889 h 1.38889 V 21.25 Z m 2.777778,0 v -1.388889 h 1.388889 V 21.25 Z"
          class="ColorScheme-Text" fill="currentColor" />
-      <path d="m 13,2 h 11 q 4,0 4,4 v 18 q 0,4 -4,4 H 6 Q 2,28 2,24 V 6 Q 2,2 6,2 Z" class="ColorScheme-Highlight"
+      <path d="m 13,2 h 11 q 4,0 4,4 v 18 q 0,4 -4,4 H 6 Q 2,28 2,24 V 6 Q 2,2 6,2 Z" class="ColorScheme-Text"
          fill="currentColor" opacity="0.08" />
    </g>
    <g id="pressed-center" transform="translate(126)">
@@ -39,7 +35,7 @@
       <path
          d="M 11.527778,18.472222 V 8.75 H 21.25 v 9.722222 z m 1.388889,-1.388889 h 6.944444 V 10.138889 H 12.916667 Z M 8.75,21.25 v -1.388889 h 1.388889 V 21.25 Z m 0,-2.777778 v -1.388889 h 1.388889 v 1.388889 z m 0,-2.777777 v -1.38889 h 1.388889 v 1.38889 z m 0,-2.777778 v -1.388889 h 1.388889 v 1.388889 z M 11.527778,21.25 v -1.388889 h 1.388889 V 21.25 Z m 2.777777,0 v -1.388889 h 1.38889 V 21.25 Z m 2.777778,0 v -1.388889 h 1.388889 V 21.25 Z"
          class="ColorScheme-Text" fill="currentColor" />
-      <path d="m 13,2 h 11 q 4,0 4,4 v 18 q 0,4 -4,4 H 6 Q 2,28 2,24 V 6 Q 2,2 6,2 Z" class="ColorScheme-Highlight"
+      <path d="m 13,2 h 11 q 4,0 4,4 v 18 q 0,4 -4,4 H 6 Q 2,28 2,24 V 6 Q 2,2 6,2 Z" class="ColorScheme-Text"
          fill="currentColor" opacity="0.1" />
    </g>
    <g id="deactivated-center" transform="translate(168)">

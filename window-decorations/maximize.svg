@@ -5,10 +5,6 @@
         color: #2e2e2e;
       }
 
-      .ColorScheme-Highlight {
-        color: #95ccff;
-      }
-
       .ColorScheme-Text {
         color: #e0e0e0;
       }
@@ -28,14 +24,14 @@
     <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" opacity="0" />
     <path d="M 14.75,26 V 16 h 12.5 V 26 Z M 16,24.75 H 26 V 18.5 H 16 Z" class="ColorScheme-Text"
       fill="currentColor" />
-    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" class="ColorScheme-Highlight"
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" class="ColorScheme-Text"
       fill="currentColor" opacity="0.08" />
   </g>
   <g id="pressed-center" transform="translate(126)">
     <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" opacity="0" />
     <path d="M 14.75,26 V 16 h 12.5 V 26 Z M 16,24.75 H 26 V 18.5 H 16 Z" class="ColorScheme-Text"
       fill="currentColor" />
-    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" class="ColorScheme-Highlight"
+    <path d="m 21,6 h13 q8,0 8,8 v 14 q 0,8 -8,8 h -26 q -8,0 -8,-8 v -14 q 0,-8 8,-8 z" class="ColorScheme-Text"
       fill="currentColor" opacity="0.1" />
   </g>
   <g id="deactivated-center" transform="translate(168)">
