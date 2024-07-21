@@ -134,8 +134,8 @@
          <path id="dbr-ba" d="m 68,76 q 8,0 8,-8 h -8 z" class="ColorScheme-Background" fill="currentColor" />
       </g>
    </g>
-   <!-- <g id="decoration-inactive-group" transform="translate(100)">
-      <path id="sb2-tl" d="m 32,22 q -12,0 -12,12 h 12 z" fill="url(#rgb2-tl)" opacity="0.3" />
+   <g id="decoration-inactive-group" transform="translate(100)">
+      <!-- <path id="sb2-tl" d="m 32,22 q -12,0 -12,12 h 12 z" fill="url(#rgb2-tl)" opacity="0.3" />
       <rect id="sb2-t" width="36" height="12" x="32" y="22" fill="url(#lgb2-t) " opacity="0.3" />
       <path id="sb2-tr" d="m 68,22 q 12,0 12,12 h -12 z" fill="url(#rgb2-tr)" opacity="0.3" />
       <rect id="sb2-l" width="12" height="36" x="20" y="34" fill="url(#lgb2-l) " opacity="0.3" />
@@ -152,7 +152,7 @@
       <rect id="sa2-r" width="16" height="36" x="68" y="38" fill="url(#lga2-r) " opacity="0.15" />
       <path id="sa2-bl" d="m 32,90 q -16,0 -16,-16 h 16 z" fill="url(#rga2-bl)" opacity="0.15" />
       <rect id="sa2-b" width="36" height="16" x="32" y="74" fill="url(#lga2-b) " opacity="0.15" />
-      <path id="sa2-br" d="m 68,90 q 16,0 16,-16 h -16 z" fill="url(#rga2-br)" opacity="0.15" />
+      <path id="sa2-br" d="m 68,90 q 16,0 16,-16 h -16 z" fill="url(#rga2-br)" opacity="0.15" /> -->
       <g id="decoration-inactive-topleft">
          <path id="ditl-bo" d="M 32,20 Q 20,20 20,32 h 4 q 0,-8 8,-8 z" class="ColorScheme-Background"
             fill="currentColor" opacity="0.86" />
@@ -195,7 +195,7 @@
             fill="currentColor" opacity="0.86" />
          <path id="dibr-ba" d="m 68,76 q 8,0 8,-8 h -8 z" class="ColorScheme-Background" fill="currentColor" />
       </g>
-   </g> -->
+   </g>
    <g id="mask-group" transform="translate(200)">
       <path id="mask-topleft" d="m 32,20 q -12,0 -12,12 h 12 z" />
       <rect id="mask-top" width="36" height="12" x="32" y="20" />
