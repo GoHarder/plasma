@@ -43,7 +43,7 @@ LeftButtons=MS
 RightButtons=HIAX
 
 # Decoration provides shadows (default: true)
-Shadow=false
+Shadow=true
 
 # Decoration on top (0), left (1), right (2), or bottom (3) (default: 0)
 DecorationPositon=0
@@ -71,16 +71,16 @@ DecorationPositon=0
 # └───────────────────────────────────────────────────────────────────┘
 
 # (default: 0)
-PaddingTop=0
+PaddingTop=14
 
 # (default: 0)
-PaddingBottom=0
+PaddingBottom=14
 
 # (default: 0)
-PaddingRight=0
+PaddingRight=14
 
 # (default: 0)
-PaddingLeft=0
+PaddingLeft=14
 
 # (default: 5)
 TitleEdgeTop=5
