@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="32" viewBox="0 0 32 32" width="32">
+   <defs>
+      <style id="current-color-scheme" type="text/css">
+         .ColorScheme-Text {
+            color: #e0e0e0;
+         }
+      </style>
+   </defs>
+   <g id="edit-delete">
+      <rect width="32" height="32" x="0" y="0" opacity="0" />
+      <path
+         d="m 9.333,28 q -1.1,0 -1.883,-0.783 Q 6.667,26.433 6.667,25.333 V 8 H 5.333 V 5.333 H 12 V 4 h 8 v 1.333 h 6.667 V 8 H 25.333 V 25.333 q 0,1.1 -0.783,1.883 -0.783,0.783 -1.883,0.783 z M 22.667,8 H 9.333 V 25.333 H 22.667 Z M 12,22.667 h 2.667 V 10.666 H 12 Z m 5.333,0 h 2.667 V 10.667 H 17.333 Z M 9.333,8 V 25.333 Z"
+         class="ColorScheme-Text" fill="currentColor" />
+   </g>
+   <g id="22-22-edit-delete">
+      <rect width="22" height="22" x="37" y="5" opacity="0" />
+      <path
+         d="m 43.417,24.25 q -0.756,0 -1.295,-0.539 -0.539,-0.539 -0.539,-1.295 V 10.5 H 40.667 V 8.667 H 45.25 V 7.75 h 5.5 v 0.917 h 4.583 V 10.5 h -0.917 v 11.917 q 0,0.756 -0.539,1.295 Q 53.34,24.25 52.583,24.25 Z M 52.583,10.5 h -9.167 v 11.917 h 9.167 z M 45.25,20.583 h 1.833 v -8.25 H 45.25 Z m 3.667,0 H 50.75 v -8.25 H 48.917 Z M 43.417,10.5 v 11.917 z"
+         class="ColorScheme-Text" fill="currentColor" />
+   </g>
+   <g id="16-16-edit-delete">
+      <rect width="16" height="16" x="72" y="8" opacity="0" />
+      <path
+         d="m 76.667,22 q -0.55,0 -0.942,-0.392 -0.392,-0.392 -0.392,-0.942 V 12 H 74.667 V 10.667 H 78 V 10 h 4 v 0.667 h 3.333 v 1.333 h -0.667 v 8.667 q 0,0.55 -0.392,0.942 Q 83.883,22 83.333,22 Z m 6.667,-10 h -6.667 v 8.667 h 6.667 z M 78,19.333 h 1.333 V 13.333 H 78 Z m 2.667,0 H 82 v -6 h -1.333 z m -4,-7.333 v 8.667 z"
+         class="ColorScheme-Text" fill="currentColor" />
+   </g>
+
+</svg>
