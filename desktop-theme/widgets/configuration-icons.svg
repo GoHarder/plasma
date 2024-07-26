@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg height="48" viewBox="0 0 112 48" width="112" id="svg1" version="1.1" sodipodi:docname="configuration-icons.svg"
-  inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
   xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview id="namedview11" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0"
     inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1"
-    inkscape:zoom="7.3236059" inkscape:cx="73.734169" inkscape:cy="17.409457" inkscape:window-width="1904"
-    inkscape:window-height="1041" inkscape:window-x="2083" inkscape:window-y="0" inkscape:window-maximized="0"
+    inkscape:zoom="10.357143" inkscape:cx="55.806897" inkscape:cy="22.062069" inkscape:window-width="1904"
+    inkscape:window-height="1041" inkscape:window-x="644" inkscape:window-y="45" inkscape:window-maximized="0"
     inkscape:current-layer="svg1" />
   <defs id="defs1">
     <style id="current-color-scheme" type="text/css">
@@ -30,6 +31,45 @@
     <rect id="rect3" width="16" height="16" x="32" y="0" opacity="0" />
     <path id="path3"
       d="m 40.683,14.983 v -1.367 q 0.567,-0.083 1.108,-0.3 Q 42.333,13.1 42.817,12.75 L 43.75,13.716 Q 43.05,14.25 42.283,14.575 q -0.767,0.325 -1.6,0.408 z m -1.333,0 q -2.3,-0.3 -3.817,-1.992 Q 34.017,11.3 34.017,9.017 q 0,-1.25 0.475,-2.342 0.475,-1.092 1.283,-1.9 0.808,-0.808 1.9,-1.283 1.092,-0.475 2.342,-0.475 h 0.1 L 39.083,1.983 40.016,1.016 42.683,3.683 40.017,6.35 39.083,5.417 40.15,4.35 h -0.133 q -1.95,0 -3.308,1.358 Q 35.35,7.067 35.35,9.017 35.35,10.75 36.483,12.058 37.617,13.367 39.35,13.617 Z M 44.717,12.75 43.75,11.817 q 0.35,-0.483 0.567,-1.025 0.217,-0.542 0.3,-1.108 h 1.367 Q 45.9,10.517 45.575,11.283 45.25,12.05 44.717,12.75 Z m 1.267,-4.4 h -1.367 q -0.083,-0.567 -0.3,-1.108 Q 44.1,6.7 43.75,6.217 l 0.967,-0.933 q 0.533,0.65 0.85,1.433 0.317,0.783 0.417,1.633 z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="move">
+    <rect width="16" height="16" x="48" y="0" opacity="0" />
+    <path
+      d="m 56,14.667 -2.833,-2.833 0.95,-0.95 L 55.333,12.1 V 9.333 h 1.333 v 2.75 l 1.2,-1.217 0.967,0.967 z M 52.167,10.833 49.333,8 52.15,5.183 l 0.95,0.95 -1.2,1.2 h 2.767 v 1.333 h -2.75 l 1.217,1.2 z m 7.667,0 -0.95,-0.95 L 60.1,8.667 H 57.333 V 7.333 h 2.75 l -1.217,-1.2 0.967,-0.967 2.833,2.833 z m -4.5,-4.167 V 3.9 l -1.217,1.217 -0.95,-0.95 L 56,1.333 l 2.833,2.833 -0.95,0.95 -1.217,-1.217 v 2.767 z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="size-vertical">
+    <rect width="16" height="16" x="64" y="0" opacity="0" />
+    <path
+      d="m 72,14.667 -2.833,-2.833 0.95,-0.95 L 71.333,12.1 V 9.333 h 1.333 v 2.75 l 1.2,-1.217 0.967,0.967 z M 71.334,6.666 V 3.9 l -1.217,1.217 -0.95,-0.95 L 72,1.333 l 2.833,2.833 -0.95,0.95 -1.217,-1.217 v 2.767 z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="size-horizontal">
+    <rect width="16" height="16" x="80" y="0" opacity="0" />
+    <path
+      d="m 84.167,10.834 -2.833,-2.833 2.817,-2.817 0.95,0.95 -1.2,1.2 h 2.767 v 1.333 h -2.75 l 1.217,1.2 z m 7.667,0 -0.95,-0.95 1.217,-1.217 H 89.333 V 7.333 h 2.75 l -1.217,-1.2 0.967,-0.967 2.833,2.833 z "
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="status">
+    <rect width="16" height="16" x="48" y="16" opacity="0" />
+    <path
+      d="m 48.667,24.667 v -1.333 h 3.8 L 54,27.4 l 4,-10.55 2.467,6.483 h 2.867 v 1.333 h -3.8 L 58,20.6 l -4,10.55 -2.467,-6.483 z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="return-to-source">
+    <rect width="16" height="16" x="64" y="16" opacity="0" />
+    <path d="m 70,28 -4,-4 4,-4 0.933,0.933 -2.4,2.4 h 8.133 v -2.667 h 1.333 v 4 h -9.467 l 2.4,2.4 z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="collapse">
+    <rect width="16" height="16" x="80" y="16" opacity="0" />
+    <path d="m 87.333,24.667 v 4 H 86 V 26 H 83.333 v -1.333 z m 2.667,-5.333 v 2.667 h 2.667 v 1.333 h -4 v -4 z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="restore">
+    <rect width="16" height="16" x="96" y="16" opacity="0" />
+    <path d="m 99.333,28.667 v -4 h 1.333 v 2.667 h 2.667 v 1.333 z m 8,-5.333 v -2.667 h -2.667 v -1.333 h 4 v 4 z"
       class="ColorScheme-Text" fill="currentColor" />
   </g>
   <g id="help">
@@ -58,49 +98,16 @@
     <path d="m 70.667,45.333 v -4.667 l -4.7,-6 h 12.067 l -4.7,6 v 4.667 z m 1.333,-5.133 3.3,-4.2 h -6.6 z"
       class="ColorScheme-Text" fill="currentColor" id="path11" />
   </g>
-  <rect style="fill:#008080;fill-rule:evenodd;stroke-width:0.499999" id="rect12" width="16" height="16" x="80" y="32" />
-  <path
-    d="M 84.266666,44.666667 83.333333,43.733333 87.066666,40 l -3.733333,-3.733333 0.933333,-0.933334 3.733333,3.733334 3.733334,-3.733334 0.933333,0.933334 L 88.933333,40 l 3.733333,3.733333 -0.933333,0.933334 -3.733334,-3.733334 z"
-    id="path1-3" style="stroke-width:0.025" />
-  <rect style="fill:#008080;fill-rule:evenodd;stroke-width:0.499999" id="rect13" width="16" height="16" x="96" y="32" />
-  <path
-    d="m 97.999997,46 v -5.333333 h 1.333333 v 4 h 4 V 46 Z m 6.666663,0 v -1.333333 h 4 v -4 H 110 V 46 Z M 99.999997,43.333333 102,40.666667 l 1.5,2 2,-2.666667 2.5,3.333333 z m -2,-4 V 34 h 5.333333 v 1.333333 h -4 v 4 z m 10.666663,0 v -4 h -4 V 34 H 110 v 5.333333 z m -2.33333,-0.666666 q -0.43333,0 -0.71667,-0.283334 -0.28333,-0.283333 -0.28333,-0.716666 0,-0.433334 0.28333,-0.716667 0.28334,-0.283333 0.71667,-0.283333 0.43333,0 0.71667,0.283333 0.28333,0.283333 0.28333,0.716667 0,0.433333 -0.28333,0.716666 -0.28334,0.283334 -0.71667,0.283334 z"
-    id="path1-4" style="stroke-width:0.025" />
-  <rect style="fill:#008080;fill-rule:evenodd;stroke-width:0.499999" id="rect14" width="16" height="16" x="48"
-    y="3.4909797e-07" />
-  <path
-    d="m 56,14.666667 -2.833333,-2.833333 0.95,-0.95 L 55.333334,12.1 V 9.3333336 h 1.333333 v 2.7500004 l 1.2,-1.216667 0.966667,0.966667 z M 52.166667,10.833334 49.333334,8.0000002 52.15,5.1833335 l 0.95,0.95 -1.2,1.2 h 2.766667 v 1.3333334 h -2.75 l 1.216667,1.2 z m 7.666667,0 -0.95,-0.9500004 L 60.1,8.6666669 H 57.333334 V 7.3333335 h 2.75 l -1.216667,-1.2 0.966667,-0.9666666 2.833333,2.8333333 z m -4.5,-4.1666671 V 3.9000002 l -1.216667,1.2166667 -0.95,-0.95 L 56,1.3333335 l 2.833334,2.8333334 -0.95,0.95 -1.216667,-1.2166667 v 2.7666667 z"
-    id="path1-7" style="stroke-width:0.025" />
-  <rect style="fill:#008080;fill-rule:evenodd;stroke-width:0.499999" id="rect14-7" width="16" height="16" x="64"
-    y="3.4909797e-07" />
-  <path
-    d="m 72,14.666667 -2.833333,-2.833333 0.95,-0.95 L 71.333334,12.1 V 9.3333336 h 1.333333 v 2.7500004 l 1.2,-1.216667 0.966667,0.966667 z M 68.166667,10.833334 65.333334,8.0000002 68.15,5.1833335 l 0.95,0.95 -1.2,1.2 h 2.766667 v 1.3333334 h -2.75 l 1.216667,1.2 z m 7.666667,0 -0.95,-0.9500004 L 76.1,8.6666669 H 73.333334 V 7.3333335 h 2.75 l -1.216667,-1.2 0.966667,-0.9666666 2.833333,2.8333333 z m -4.5,-4.1666671 V 3.9000002 l -1.216667,1.2166667 -0.95,-0.95 L 72,1.3333335 l 2.833334,2.8333334 -0.95,0.95 -1.216667,-1.2166667 v 2.7666667 z"
-    id="path1-7-1" style="stroke-width:0.025" />
-  <rect style="fill:#008080;fill-rule:evenodd;stroke-width:0.499999" id="rect14-9" width="16" height="16" x="80.000008"
-    y="3.4909797e-07" />
-  <path
-    d="m 88.000005,14.666667 -2.833333,-2.833333 0.95,-0.95 L 87.333339,12.1 V 9.3333336 h 1.333333 v 2.7500004 l 1.2,-1.216667 0.966667,0.966667 z m -3.833333,-3.833333 -2.833333,-2.8333338 2.816666,-2.8166667 0.95,0.95 -1.2,1.2 h 2.766667 v 1.3333334 h -2.75 l 1.216667,1.2 z m 7.666667,0 -0.95,-0.9500004 1.216666,-1.2166667 H 89.333339 V 7.3333335 h 2.75 l -1.216667,-1.2 0.966667,-0.9666666 2.833333,2.8333333 z m -4.5,-4.1666671 V 3.9000002 l -1.216667,1.2166667 -0.95,-0.95 2.833333,-2.8333334 2.833334,2.8333334 -0.95,0.95 -1.216667,-1.2166667 v 2.7666667 z"
-    id="path1-7-9" style="stroke-width:0.025" />
-  <g id="g15" transform="matrix(0.66666667,0,0,0.66666667,65.204639,41.761445)" style="stroke-width:1.49999">
-    <rect style="fill:#008080;fill-rule:evenodd;stroke-width:0.749999" id="rect15" width="24" height="24" x="-25.806959"
-      y="-38.642166" />
+  <g id="close">
+    <rect width="16" height="16" x="80" y="32" opacity="0" />
     <path
-      d="m -24.806959,-25.642166 v -2 h 5.7 l 2.3,6.1 6,-15.825 3.6999998,9.725 h 4.3 v 2 h -5.7 l -2.2999998,-6.1 -6,15.825 -3.7,-9.725 z"
-      id="path1-8" style="stroke-width:0.0375" />
+      d="M 84.267,44.667 83.333,43.733 87.067,40 l -3.733,-3.733 0.933,-0.933 3.733,3.733 3.733,-3.733 0.933,0.933 L 88.933,40 l 3.733,3.733 -0.933,0.933 -3.733,-3.733 z"
+      class="ColorScheme-Text" fill="currentColor" />
   </g>
-  <rect style="fill:#008080;fill-rule:evenodd;stroke-width:0.499999" id="rect16" width="16" height="16" x="80.000008"
-    y="16" />
-  <path
-    d="m 87.33334,24.666667 v 4 H 86.000007 V 26.000001 H 83.33334 v -1.333334 z m 2.666666,-5.333333 v 2.666667 h 2.666667 v 1.333333 h -4 v -4 z"
-    id="path1-74" style="stroke-width:0.025" />
-  <rect style="fill:#008080;fill-rule:evenodd;stroke-width:0.499999" id="rect17" width="16" height="16" x="96.000008"
-    y="16" />
-  <path
-    d="m 99.33334,28.666666 v -4 h 1.33333 v 2.666667 h 2.66667 v 1.333333 z m 8,-5.333333 v -2.666667 h -2.66667 v -1.333333 h 4 v 4 z"
-    id="path1-1" style="stroke-width:0.025" />
-  <rect style="fill:#008080;fill-rule:evenodd;stroke-width:0.499999" id="rect18" width="16" height="16" x="64.000008"
-    y="16" />
-  <path
-    d="m 70.000007,28 -3.999999,-4 3.999999,-4 0.933334,0.933333 -2.4,2.4 h 8.133332 v -2.666666 h 1.333334 v 4 h -9.466666 l 2.4,2.4 z"
-    id="path1-0" style="stroke-width:0.025" />
+  <g id="showbackground">
+    <rect width="16" height="16" x="96" y="32" opacity="0" />
+    <path
+      d="m 98,46 v -5.333 h 1.333 v 4 h 4 V 46 Z m 6.667,0 v -1.333 h 4 v -4 H 110 V 46 Z M 100,43.333 102,40.667 l 1.5,2 2,-2.667 2.5,3.333 z m -2,-4 V 34 h 5.333 v 1.333 h -4 v 4 z m 10.667,0 v -4 h -4 V 34 H 110 v 5.333 z m -2.333,-0.667 q -0.433,0 -0.717,-0.283 -0.283,-0.283 -0.283,-0.717 0,-0.433 0.283,-0.717 0.283,-0.283 0.717,-0.283 0.433,0 0.717,0.283 0.283,0.283 0.283,0.717 0,0.433 -0.283,0.717 -0.283,0.283 -0.717,0.283 z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
 </svg>
