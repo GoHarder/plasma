@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg height="184" width="192" viewBox="0 0 30 30" id="svg1" version="1.1" sodipodi:docname="GoHarder.svg"
+<svg height="184" width="192" viewBox="0 0 192 184" id="svg1" version="1.1" sodipodi:docname="GoHarder.svg"
   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" pagecolor="#ffffff" bordercolor="#666666"
     borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0"
-    inkscape:deskcolor="#d1d1d1" inkscape:zoom="3.378" inkscape:cx="47.663" inkscape:cy="54.028"
+    inkscape:deskcolor="#d1d1d1" inkscape:zoom="19.109" inkscape:cx="10.519" inkscape:cy="15.569"
     inkscape:window-width="1920" inkscape:window-height="1057" inkscape:window-x="-8" inkscape:window-y="-8"
-    inkscape:window-maximized="1" />
+    inkscape:window-maximized="1" showguides="true" />
   <defs id="defs1">
     <style id="style1">
       .fill-primary {
@@ -50,34 +50,34 @@
       <stop id="stop1" stop-color="#000000" stop-opacity="1" offset="0.66" />
       <stop id="stop2" stop-color="#000000" stop-opacity="0" offset="1" />
     </linearGradient>
-    <linearGradient xlink:href="#menu-shadow-before" id="msb-t" x1="28" y1="5" x2="28" y2="1"
+    <linearGradient xlink:href="#menu-shadow-before" id="msb-t" x1="28" y1="7" x2="28" y2="3"
       gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#menu-shadow-before" id="msb-l" x1="6" y1="13" x2="2" y2="13"
+    <linearGradient xlink:href="#menu-shadow-before" id="msb-l" x1="6" y1="15" x2="2" y2="15"
       gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#menu-shadow-before" id="msb-r" x1="22" y1="13" x2="26" y2="13"
+    <linearGradient xlink:href="#menu-shadow-before" id="msb-r" x1="22" y1="15" x2="26" y2="15"
       gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#menu-shadow-before" id="msb-b" x1="28" y1="21" x2="28" y2="25"
+    <linearGradient xlink:href="#menu-shadow-before" id="msb-b" x1="28" y1="23" x2="28" y2="27"
       gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#menu-shadow-before" id="msb-tl" cx="6" cy="5" r="4" gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#menu-shadow-before" id="msb-tr" cx="22" cy="5" r="4" gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#menu-shadow-before" id="msb-bl" cx="6" cy="21" r="4" gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#menu-shadow-before" id="msb-br" cx="22" cy="21" r="4" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-shadow-before" id="msb-tl" cx="6" cy="7" r="4" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-shadow-before" id="msb-tr" cx="22" cy="7" r="4" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-shadow-before" id="msb-bl" cx="6" cy="23" r="4" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-shadow-before" id="msb-br" cx="22" cy="23" r="4" gradientUnits="userSpaceOnUse" />
     <linearGradient id="menu-shadow-after">
       <stop id="stop3" stop-color="#000000" stop-opacity="1" offset="0" />
       <stop id="stop4" stop-color="#000000" stop-opacity="0" offset="1" />
     </linearGradient>
-    <linearGradient xlink:href="#menu-shadow-after" id="msa-t" x1="28" y1="6" x2="28" y2="0"
+    <linearGradient xlink:href="#menu-shadow-after" id="msa-t" x1="28" y1="8" x2="28" y2="2"
       gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#menu-shadow-after" id="msa-l" x1="6" y1="14" x2="0" y2="14"
+    <linearGradient xlink:href="#menu-shadow-after" id="msa-l" x1="6" y1="16" x2="0" y2="16"
       gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#menu-shadow-after" id="msa-r" x1="22" y1="14" x2="28" y2="14"
+    <linearGradient xlink:href="#menu-shadow-after" id="msa-r" x1="22" y1="16" x2="28" y2="16"
       gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#menu-shadow-after" id="msa-b" x1="28" y1="22" x2="28" y2="28"
+    <linearGradient xlink:href="#menu-shadow-after" id="msa-b" x1="28" y1="24" x2="28" y2="30"
       gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#menu-shadow-after" id="msa-tl" cx="6" cy="6" r="6" gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#menu-shadow-after" id="msa-tr" cx="22" cy="6" r="6" gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#menu-shadow-after" id="msa-bl" cx="6" cy="22" r="6" gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#menu-shadow-after" id="msa-br" cx="22" cy="22" r="6" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-shadow-after" id="msa-tl" cx="6" cy="8" r="6" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-shadow-after" id="msa-tr" cx="22" cy="8" r="6" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-shadow-after" id="msa-bl" cx="6" cy="24" r="6" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-shadow-after" id="msa-br" cx="22" cy="24" r="6" gradientUnits="userSpaceOnUse" />
   </defs>
   <!-- <g id="lineedit-group">
     <g id="lineedit-normal-topleft">
@@ -325,62 +325,54 @@
       <path d="M 0.999,13.571 V 10.428 H 23 v 3.143 z" class="fill-on-surface" opacity="0.38" />
     </g>
   </g>
-  <!-- <g id="menu-group">
-    <path id="menu-normal-topleft" d="M 0,4 q 0,-4 4,-4 v 4 z" class="fill-surface-container" />
-    <rect id="menu-normal-top" width="16" height="4" x="4" y="0" class="fill-surface-container" />
-    <path id="menu-normal-topright" d="M 24,4 q 0,-4 -4,-4 v 4 z" class="fill-surface-container" />
-    <rect id="menu-normal-left" width="4" height="16" x="0" y="4" class="fill-surface-container" />
-    <rect id="menu-normal" width="16" height="16" x="4" y="4" class="fill-surface-container" />
-    <rect id="menu-normal-right" width="4" height="16" x="20" y="4" class="fill-surface-container" />
-    <path id="menu-normal-bottomleft" d="M 0,20 q 0,4 4,4 v -4 z" class="fill-surface-container" />
-    <rect id="menu-normal-bottom" width="16" height="4" x="4" y="20" class="fill-surface-container" />
-    <path id="menu-normal-bottomright" d="M 24,20 q 0,4 -4,4 v -4 z" class="fill-surface-container" />
-  </g> -->
   <g id="menu-group" transform="translate(0,0)">
-    <path id="menu-normal-topleft" d="M 2,4 q 0,-4 4,-4 v 4 z" class="fill-surface-container" />
-    <rect id="menu-normal-top" width="16" height="4" x="6" y="0" class="fill-surface-container" />
-    <path id="menu-normal-topright" d="M 26,4 q 0,-4 -4,-4 v 4 z" class="fill-surface-container" />
-    <rect id="menu-normal-left" width="4" height="16" x="2" y="4" class="fill-surface-container" />
-    <rect id="menu-normal" width="16" height="16" x="6" y="4" class="fill-surface-container" />
-    <rect id="menu-normal-right" width="4" height="16" x="22" y="4" class="fill-surface-container" />
-    <path id="menu-normal-bottomleft" d="M 2,20 q 0,4 4,4 v -4 z" class="fill-surface-container" />
-    <rect id="menu-normal-bottom" width="16" height="4" x="6" y="20" class="fill-surface-container" />
-    <path id="menu-normal-bottomright" d="M 26,20 q 0,4 -4,4 v -4 z" class="fill-surface-container" />
+    <path id="menu-normal-topleft" d="M 2,6 q 0,-4 4,-4 v 4 z" class="fill-surface-container" />
+    <rect id="menu-normal-top" width="16" height="4" x="6" y="2" class="fill-surface-container" />
+    <path id="menu-normal-topright" d="M 26,6 q 0,-4 -4,-4 v 4 z" class="fill-surface-container" />
+    <rect id="menu-normal-left" width="4" height="16" x="2" y="6" class="fill-surface-container" />
+    <rect id="menu-normal" width="16" height="16" x="6" y="6" class="fill-surface-container" />
+    <rect id="menu-normal-right" width="4" height="16" x="22" y="6" class="fill-surface-container" />
+    <path id="menu-normal-bottomleft" d="M 2,22 q 0,4 4,4 v -4 z" class="fill-surface-container" />
+    <rect id="menu-normal-bottom" width="16" height="4" x="6" y="22" class="fill-surface-container" />
+    <path id="menu-normal-bottomright" d="M 26,22 q 0,4 -4,4 v -4 z" class="fill-surface-container" />
+    <rect id="menu-shadow-hint-top" width="1" height="2" x="13.5" y="0" fill="#008080" />
+    <rect id="menu-shadow-hint-left" width="2" height="1" x="0" y="13.5" fill="#008080" />
+    <rect id="menu-shadow-hint-right" width="2" height="1" x="26" y="13.5" fill="#008080" />
+    <rect id="menu-shadow-hint-bottom" width="1" height="4" x="13.5" y="26" fill="#008080" />
   </g>
-  <path d="M 2,5 q 0,-4 4,-4 v 4 z" fill="url(#msb-tl)" opacity="0.3" />
-  <rect width="16" height="4" x="6" y="1" fill="url(#msb-t)" opacity="0.3" />
-  <path d="M 26,5 q 0,-4 -4,-4 v 4 z" fill="url(#msb-tr)" opacity="0.3" />
-  <rect width="4" height="16" x="2" y="5" fill="url(#msb-l)" opacity="0.3" />
-  <rect width="16" height="16" x="6" y="5" opacity="0.3" />
-  <rect width="4" height="16" x="22" y="5" fill="url(#msb-r)" opacity="0.3" />
-  <path d="M 2,21 q 0,4 4,4 v -4 z" fill="url(#msb-bl)" opacity="0.3" />
-  <rect width="16" height="4" x="6" y="21" fill="url(#msb-b)" opacity="0.3" />
-  <path d="M 26,21 q 0,4 -4,4 v -4 z" fill="url(#msb-br)" opacity="0.3" />
+  <g id="menu-shadow-topleft" transform="translate(28,0)">
+    <path d="M 2,7 q 0,-4 4,-4 v 4 z" fill="url(#msb-tl)" opacity="0.3" />
+    <path d="M 0,8 q 0,-6 6,-6 v 6 z" fill="url(#msa-tl)" opacity="0.15" />
+  </g>
+  <g id="menu-shadow-top" transform="translate(28,0)">
+    <rect width="16" height="4" x="6" y="3" fill="url(#msb-t)" opacity="0.3" />
+    <rect width="16" height="6" x="6" y="2" fill="url(#msa-t)" opacity="0.15" />
+  </g>
+  <g id="menu-shadow-topright" transform="translate(28,0)">
+    <path d="M 28,8 q 0,-6 -6,-6 v 6 z" fill="url(#msa-tr)" opacity="0.15" />
+    <path d="M 26,7 q 0,-4 -4,-4 v 4 z" fill="url(#msb-tr)" opacity="0.3" />
+  </g>
+  <g id="menu-shadow-left" transform="translate(28,0)">
+    <rect width="6" height="16" x="0" y="8" fill="url(#msa-l)" opacity="0.15" />
+    <rect width="4" height="16" x="2" y="7" fill="url(#msb-l)" opacity="0.3" />
+  </g>
+  <g id="menu-shadow-right" transform="translate(28,0)">
+    <rect width="6" height="16" x="22" y="8" fill="url(#msa-r)" opacity="0.15" />
+    <rect width="4" height="16" x="22" y="7" fill="url(#msb-r)" opacity="0.3" />
+  </g>
+  <g id="menu-shadow-bottomleft" transform="translate(28,0)">
+    <path d="M 0,24 q 0,6 6,6 v -6 z" fill="url(#msa-bl)" opacity="0.15" />
+    <path d="M 2,23 q 0,4 4,4 v -4 z" fill="url(#msb-bl)" opacity="0.3" />
+  </g>
+  <g id="menu-shadow-bottom" transform="translate(28,0)">
+    <rect width="16" height="6" x="6" y="24" fill="url(#msa-b)" opacity="0.15" />
+    <rect width="16" height="4" x="6" y="23" fill="url(#msb-b)" opacity="0.3" />
+  </g>
+  <g id="menu-shadow-bottomright" transform="translate(28,0)">
+    <path d="M 28,24 q 0,6 -6,6 v -6 z" fill="url(#msa-br)" opacity="0.15" />
+    <path d="M 26,23 q 0,4 -4,4 v -4 z" fill="url(#msb-br)" opacity="0.3" />
+  </g>
 
-  <path d="M 0,6 q 0,-6 6,-6 v 6 z" fill="url(#msa-tl)" opacity="0.15" />
-  <rect width="16" height="6" x="6" y="0" fill="url(#msa-t)" opacity="0.15" />
-  <path d="M 28,6 q 0,-6 -6,-6 v 6 z" fill="url(#msa-tr)" opacity="0.15" />
-  <rect width="6" height="16" x="0" y="6" fill="url(#msa-l)" opacity="0.15" />
-  <rect width="6" height="16" x="22" y="6" fill="url(#msa-r)" opacity="0.15" />
-  <path d="M 0,22 q 0,6 6,6 v -6 z" fill="url(#msa-bl)" opacity="0.15" />
-  <rect width="16" height="6" x="6" y="22" fill="url(#msa-b)" opacity="0.15" />
-  <path d="M 28,22 q 0,6 -6,6 v -6 z" fill="url(#msa-br)" opacity="0.15" />
-  <!-- before2 | 0px | 1px | 2px | 0px | opacity 0.3 -->
-  <!-- after2 | 0px | 2px | 6px | 2px | opacity 0.15 -->
-  <!-- <g id="menu-shadow-topleft" />
-  <g id="menu-shadow-top" />
-  <g id="menu-shadow-topright" />
-  <g id="menu-shadow-left" />
-  <g id="menu-shadow-right" />
-  <g id="menu-shadow-bottomleft" />
-  <g id="menu-shadow-bottom" />
-  <g id="menu-shadow-bottomright" /> -->
-  <!-- 
-  id="menu-shadow-hint-bottom"
-  id="menu-shadow-hint-top"
-  id="menu-shadow-hint-right"
-  id="menu-shadow-hint-left"
-  -->
   <!-- 
   <path id="button-normal-topleft" d="M 0,8 q 0,-8 8,-8 v 8 z" class="fill-surface-container-low" />
   <rect id="button-normal-top" width="8" height="8" x="8" y="0" class="fill-surface-container-low" />
