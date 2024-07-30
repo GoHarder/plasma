@@ -1,4 +1,4 @@
-<svg height="184" width="192" viewBox="0 0 192 184" id="svg1" xmlns="http://www.w3.org/2000/svg">
+<svg height="184" width="192" viewBox="0 0 100 100" id="svg1" xmlns="http://www.w3.org/2000/svg">
   <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" />
   <defs id="defs1">
     <style id="style1">
@@ -8,6 +8,18 @@
 
       .fill-on-primary {
         fill: #003353;
+      }
+
+      .fill-secondary-container {
+        fill: #3a4857;
+      }
+
+      .fill-surface-container-low {
+        fill: #1a1c1e;
+      }
+
+      .fill-surface-container {
+        fill: #1e2022;
       }
 
       .fill-surface-container-highest {
@@ -273,4 +285,111 @@
       <path d="M 0.999,13.571 V 10.428 H 23 v 3.143 z" class="fill-on-surface" opacity="0.38" />
     </g>
   </g>
+  <!-- <g id="menu-group">
+    <path id="menu-normal-topleft" d="M 0,4 q 0,-4 4,-4 v 4 z" class="fill-surface-container" />
+    <rect id="menu-normal-top" width="16" height="4" x="4" y="0" class="fill-surface-container" />
+    <path id="menu-normal-topright" d="M 24,4 q 0,-4 -4,-4 v 4 z" class="fill-surface-container" />
+    <rect id="menu-normal-left" width="4" height="16" x="0" y="4" class="fill-surface-container" />
+    <rect id="menu-normal" width="16" height="16" x="4" y="4" class="fill-surface-container" />
+    <rect id="menu-normal-right" width="4" height="16" x="20" y="4" class="fill-surface-container" />
+    <path id="menu-normal-bottomleft" d="M 0,20 q 0,4 4,4 v -4 z" class="fill-surface-container" />
+    <rect id="menu-normal-bottom" width="16" height="4" x="4" y="20" class="fill-surface-container" />
+    <path id="menu-normal-bottomright" d="M 24,20 q 0,4 -4,4 v -4 z" class="fill-surface-container" />
+  </g> -->
+  <path id="button-normal-topleft" d="M 0,8 q 0,-8 8,-8 v 8 z" class="fill-surface-container-low" />
+  <rect id="button-normal-top" width="8" height="8" x="8" y="0" class="fill-surface-container-low" />
+  <path id="button-normal-topright" d="M 24,8 q 0,-8 -8,-8 v 8 z" class="fill-surface-container-low" />
+  <rect id="button-normal-left" width="8" height="8" x="0" y="8" class="fill-surface-container-low" />
+  <rect id="button-normal" width="8" height="8" x="8" y="8" class="fill-surface-container-low" />
+  <rect id="button-normal-right" width="8" height="8" x="16" y="8" class="fill-surface-container-low" />
+  <path id="button-normal-bottomleft" d="M 0,16 q 0,8 8,8 v -8 z" class="fill-surface-container-low" />
+  <rect id="button-normal-bottom" width="8" height="8" x="8" y="16" class="fill-surface-container-low" />
+  <path id="button-normal-bottomright" d="M 24,16 q 0,8 -8,8 v -8 z" class="fill-surface-container-low" />
+  <g id="button-focused-topleft" transform="translate(24,0)">
+    <path d="M 0,8 q 0,-8 8,-8 v 8 z" class="fill-surface-container-low" />
+    <path d="M 0,8 q 0,-8 8,-8 v 8 z" class="fill-primary" opacity="0.08" />
+  </g>
+  <g id="button-focused-top" transform="translate(24,0)">
+    <rect width="8" height="8" x="8" y="0" class="fill-surface-container-low" />
+    <rect width="8" height="8" x="8" y="0" class="fill-primary" opacity="0.08" />
+  </g>
+  <g id="button-focused-topright" transform="translate(24,0)">
+    <path d="M 24,8 q 0,-8 -8,-8 v 8 z" class="fill-surface-container-low" />
+    <path d="M 24,8 q 0,-8 -8,-8 v 8 z" class="fill-primary" opacity="0.08" />
+  </g>
+  <g id="button-focused-left" transform="translate(24,0)">
+    <rect width="8" height="8" x="0" y="8" class="fill-surface-container-low" />
+    <rect width="8" height="8" x="0" y="8" class="fill-primary" opacity="0.08" />
+  </g>
+  <g id="button-focused" transform="translate(24,0)">
+    <rect width="8" height="8" x="8" y="8" class="fill-surface-container-low" />
+    <rect width="8" height="8" x="8" y="8" class="fill-primary" opacity="0.08" />
+  </g>
+  <g id="button-focused-right" transform="translate(24,0)">
+    <rect width="8" height="8" x="16" y="8" class="fill-surface-container-low" />
+    <rect width="8" height="8" x="16" y="8" class="fill-primary" opacity="0.08" />
+  </g>
+  <g id="button-focused-bottomleft" transform="translate(24,0)">
+    <path d="M 0,16 q 0,8 8,8 v -8 z" class="fill-surface-container-low" />
+    <path d="M 0,16 q 0,8 8,8 v -8 z" class="fill-primary" opacity="0.08" />
+  </g>
+  <g id="button-focused-bottom" transform="translate(24,0)">
+    <rect width="8" height="8" x="8" y="16" class="fill-surface-container-low" />
+    <rect width="8" height="8" x="8" y="16" class="fill-primary" opacity="0.08" />
+  </g>
+  <g id="button-focused-bottomright" transform="translate(24,0)">
+    <path d="M 24,16 q 0,8 -8,8 v -8 z" class="fill-surface-container-low" />
+    <path d="M 24,16 q 0,8 -8,8 v -8 z" class="fill-primary" opacity="0.08" />
+  </g>
+
+  <g id="button-pressed-topleft" transform="translate(48,0)">
+    <path d="M 0,8 q 0,-8 8,-8 v 8 z" class="fill-surface-container-low" />
+    <path d="M 0,8 q 0,-8 8,-8 v 8 z" class="fill-primary" opacity="0.1" />
+  </g>
+  <g id="button-pressed-top" transform="translate(48,0)">
+    <rect width="8" height="8" x="8" y="0" class="fill-surface-container-low" />
+    <rect width="8" height="8" x="8" y="0" class="fill-primary" opacity="0.1" />
+  </g>
+  <g id="button-pressed-topright" transform="translate(48,0)">
+    <path d="M 24,8 q 0,-8 -8,-8 v 8 z" class="fill-surface-container-low" />
+    <path d="M 24,8 q 0,-8 -8,-8 v 8 z" class="fill-primary" opacity="0.1" />
+  </g>
+  <g id="button-pressed-left" transform="translate(48,0)">
+    <rect width="8" height="8" x="0" y="8" class="fill-surface-container-low" />
+    <rect width="8" height="8" x="0" y="8" class="fill-primary" opacity="0.1" />
+  </g>
+  <g id="button-pressed" transform="translate(48,0)">
+    <rect width="8" height="8" x="8" y="8" class="fill-surface-container-low" />
+    <rect width="8" height="8" x="8" y="8" class="fill-primary" opacity="0.1" />
+  </g>
+  <g id="button-pressed-right" transform="translate(48,0)">
+    <rect width="8" height="8" x="16" y="8" class="fill-surface-container-low" />
+    <rect width="8" height="8" x="16" y="8" class="fill-primary" opacity="0.1" />
+  </g>
+  <g id="button-pressed-bottomleft" transform="translate(48,0)">
+    <path d="M 0,16 q 0,8 8,8 v -8 z" class="fill-surface-container-low" />
+    <path d="M 0,16 q 0,8 8,8 v -8 z" class="fill-primary" opacity="0.1" />
+  </g>
+  <g id="button-pressed-bottom" transform="translate(48,0)">
+    <rect width="8" height="8" x="8" y="16" class="fill-surface-container-low" />
+    <rect width="8" height="8" x="8" y="16" class="fill-primary" opacity="0.1" />
+  </g>
+  <g id="button-pressed-bottomright" transform="translate(48,0)">
+    <path d="M 24,16 q 0,8 -8,8 v -8 z" class="fill-surface-container-low" />
+    <path d="M 24,16 q 0,8 -8,8 v -8 z" class="fill-primary" opacity="0.1" />
+  </g>
+
+  <path id="button-toggled-topleft" d="M 72,8 q 0,-8 8,-8 v 8 z" class="fill-secondary-container" />
+  <rect id="button-toggled-top" width="8" height="8" x="80" y="0" class="fill-secondary-container" />
+  <path id="button-toggled-topright" d="M 96,8 q 0,-8 -8,-8 v 8 z" class="fill-secondary-container" />
+  <rect id="button-toggled-left" width="8" height="8" x="72" y="8" class="fill-secondary-container" />
+  <rect id="button-toggled" width="8" height="8" x="80" y="8" class="fill-secondary-container" />
+  <rect id="button-toggled-right" width="8" height="8" x="88" y="8" class="fill-secondary-container" />
+  <path id="button-toggled-bottomleft" d="M 72,16 q 0,8 8,8 v -8 z" class="fill-secondary-container" />
+  <rect id="button-toggled-bottom" width="8" height="8" x="80" y="16" class="fill-secondary-container" />
+  <path id="button-toggled-bottomright" d="M 96,16 q 0,8 -8,8 v -8 z" class="fill-secondary-container" />
+
+  <!-- 
+  id="button-default-indicator"  
+  -->
 </svg>
