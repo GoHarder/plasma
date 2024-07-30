@@ -1,5 +1,13 @@
-<svg height="184" width="192" viewBox="0 0 100 100" id="svg1" xmlns="http://www.w3.org/2000/svg">
-  <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" />
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg height="184" width="192" viewBox="0 0 30 30" id="svg1" version="1.1" sodipodi:docname="GoHarder.svg"
+  inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" pagecolor="#ffffff" bordercolor="#666666"
+    borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0"
+    inkscape:deskcolor="#d1d1d1" inkscape:zoom="3.378" inkscape:cx="47.663" inkscape:cy="54.028"
+    inkscape:window-width="1920" inkscape:window-height="1057" inkscape:window-x="-8" inkscape:window-y="-8"
+    inkscape:window-maximized="1" />
   <defs id="defs1">
     <style id="style1">
       .fill-primary {
@@ -38,8 +46,40 @@
         fill: #8c9198;
       }
     </style>
+    <linearGradient id="menu-shadow-before">
+      <stop id="stop1" stop-color="#000000" stop-opacity="1" offset="0.66" />
+      <stop id="stop2" stop-color="#000000" stop-opacity="0" offset="1" />
+    </linearGradient>
+    <linearGradient xlink:href="#menu-shadow-before" id="msb-t" x1="28" y1="5" x2="28" y2="1"
+      gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-shadow-before" id="msb-l" x1="6" y1="13" x2="2" y2="13"
+      gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-shadow-before" id="msb-r" x1="22" y1="13" x2="26" y2="13"
+      gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-shadow-before" id="msb-b" x1="28" y1="21" x2="28" y2="25"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-shadow-before" id="msb-tl" cx="6" cy="5" r="4" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-shadow-before" id="msb-tr" cx="22" cy="5" r="4" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-shadow-before" id="msb-bl" cx="6" cy="21" r="4" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-shadow-before" id="msb-br" cx="22" cy="21" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient id="menu-shadow-after">
+      <stop id="stop3" stop-color="#000000" stop-opacity="1" offset="0" />
+      <stop id="stop4" stop-color="#000000" stop-opacity="0" offset="1" />
+    </linearGradient>
+    <linearGradient xlink:href="#menu-shadow-after" id="msa-t" x1="28" y1="6" x2="28" y2="0"
+      gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-shadow-after" id="msa-l" x1="6" y1="14" x2="0" y2="14"
+      gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-shadow-after" id="msa-r" x1="22" y1="14" x2="28" y2="14"
+      gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-shadow-after" id="msa-b" x1="28" y1="22" x2="28" y2="28"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-shadow-after" id="msa-tl" cx="6" cy="6" r="6" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-shadow-after" id="msa-tr" cx="22" cy="6" r="6" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-shadow-after" id="msa-bl" cx="6" cy="22" r="6" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-shadow-after" id="msa-br" cx="22" cy="22" r="6" gradientUnits="userSpaceOnUse" />
   </defs>
-  <g id="lineedit-group">
+  <!-- <g id="lineedit-group">
     <g id="lineedit-normal-topleft">
       <rect width="4" height="4" x="0" y="0" opacity="0" />
       <path d="M 1,4 Q 1,1 4,1 v 3 z" class="fill-surface-container-highest" opacity="0" />
@@ -115,8 +155,8 @@
       <path d="M 3,0 Q 3,3 0,3 V 0 Z" class="fill-surface-container-highest" opacity="0" />
       <path d="M 4,0 Q 4,4 0,4 V 2 Q 2,2 2,0 Z" class="fill-primary" />
     </g>
-  </g>
-  <g id="radio-group" transform="translate(0,24)">
+  </g> -->
+  <!-- <g id="radio-group" transform="translate(0,24)">
     <g id="radio-normal">
       <circle cx="11" cy="11" r="11" opacity="0" />
       <path
@@ -141,7 +181,7 @@
         d="m 11,16 q 2.075,0 3.538,-1.463 Q 16,13.075 16,11 16,8.925 14.538,7.463 13.075,6 11,6 8.925,6 7.463,7.463 6,8.925 6,11 6,13.075 7.463,14.538 8.925,16 11,16 Z m 0,5 Q 8.925,21 7.1,20.213 5.275,19.425 3.925,18.075 2.575,16.725 1.788,14.9 1,13.075 1,11 1,8.925 1.788,7.1 2.575,5.275 3.925,3.925 5.275,2.575 7.1,1.788 8.925,1 11,1 q 2.075,0 3.9,0.788 1.825,0.787 3.175,2.137 1.35,1.35 2.138,3.175 Q 21,8.925 21,11 q 0,2.075 -0.788,3.9 -0.788,1.825 -2.138,3.175 -1.35,1.35 -3.175,2.138 Q 13.075,21 11,21 Z m 0,-2 q 3.35,0 5.675,-2.325 Q 19,14.35 19,11 19,7.65 16.675,5.325 14.35,3 11,3 7.65,3 5.325,5.325 3,7.65 3,11 3,14.35 5.325,16.675 7.65,19 11,19 Z m 0,-8 z"
         class="fill-primary" />
     </g>
-  </g>
+  </g> -->
   <g id="checkbox-group" transform="translate(0,68)">
     <g id="checkbox-normal">
       <path d="M 0,4 Q 0,0 4,0 h 14 q 4,0 4,4 v 14 q 0,4 -4,4 H 4 Q 0,22 0,18 Z" opacity="0" />
@@ -296,6 +336,52 @@
     <rect id="menu-normal-bottom" width="16" height="4" x="4" y="20" class="fill-surface-container" />
     <path id="menu-normal-bottomright" d="M 24,20 q 0,4 -4,4 v -4 z" class="fill-surface-container" />
   </g> -->
+  <g id="menu-group" transform="translate(0,0)">
+    <path id="menu-normal-topleft" d="M 2,4 q 0,-4 4,-4 v 4 z" class="fill-surface-container" />
+    <rect id="menu-normal-top" width="16" height="4" x="6" y="0" class="fill-surface-container" />
+    <path id="menu-normal-topright" d="M 26,4 q 0,-4 -4,-4 v 4 z" class="fill-surface-container" />
+    <rect id="menu-normal-left" width="4" height="16" x="2" y="4" class="fill-surface-container" />
+    <rect id="menu-normal" width="16" height="16" x="6" y="4" class="fill-surface-container" />
+    <rect id="menu-normal-right" width="4" height="16" x="22" y="4" class="fill-surface-container" />
+    <path id="menu-normal-bottomleft" d="M 2,20 q 0,4 4,4 v -4 z" class="fill-surface-container" />
+    <rect id="menu-normal-bottom" width="16" height="4" x="6" y="20" class="fill-surface-container" />
+    <path id="menu-normal-bottomright" d="M 26,20 q 0,4 -4,4 v -4 z" class="fill-surface-container" />
+  </g>
+  <path d="M 2,5 q 0,-4 4,-4 v 4 z" fill="url(#msb-tl)" opacity="0.3" />
+  <rect width="16" height="4" x="6" y="1" fill="url(#msb-t)" opacity="0.3" />
+  <path d="M 26,5 q 0,-4 -4,-4 v 4 z" fill="url(#msb-tr)" opacity="0.3" />
+  <rect width="4" height="16" x="2" y="5" fill="url(#msb-l)" opacity="0.3" />
+  <rect width="16" height="16" x="6" y="5" opacity="0.3" />
+  <rect width="4" height="16" x="22" y="5" fill="url(#msb-r)" opacity="0.3" />
+  <path d="M 2,21 q 0,4 4,4 v -4 z" fill="url(#msb-bl)" opacity="0.3" />
+  <rect width="16" height="4" x="6" y="21" fill="url(#msb-b)" opacity="0.3" />
+  <path d="M 26,21 q 0,4 -4,4 v -4 z" fill="url(#msb-br)" opacity="0.3" />
+
+  <path d="M 0,6 q 0,-6 6,-6 v 6 z" fill="url(#msa-tl)" opacity="0.15" />
+  <rect width="16" height="6" x="6" y="0" fill="url(#msa-t)" opacity="0.15" />
+  <path d="M 28,6 q 0,-6 -6,-6 v 6 z" fill="url(#msa-tr)" opacity="0.15" />
+  <rect width="6" height="16" x="0" y="6" fill="url(#msa-l)" opacity="0.15" />
+  <rect width="6" height="16" x="22" y="6" fill="url(#msa-r)" opacity="0.15" />
+  <path d="M 0,22 q 0,6 6,6 v -6 z" fill="url(#msa-bl)" opacity="0.15" />
+  <rect width="16" height="6" x="6" y="22" fill="url(#msa-b)" opacity="0.15" />
+  <path d="M 28,22 q 0,6 -6,6 v -6 z" fill="url(#msa-br)" opacity="0.15" />
+  <!-- before2 | 0px | 1px | 2px | 0px | opacity 0.3 -->
+  <!-- after2 | 0px | 2px | 6px | 2px | opacity 0.15 -->
+  <!-- <g id="menu-shadow-topleft" />
+  <g id="menu-shadow-top" />
+  <g id="menu-shadow-topright" />
+  <g id="menu-shadow-left" />
+  <g id="menu-shadow-right" />
+  <g id="menu-shadow-bottomleft" />
+  <g id="menu-shadow-bottom" />
+  <g id="menu-shadow-bottomright" /> -->
+  <!-- 
+  id="menu-shadow-hint-bottom"
+  id="menu-shadow-hint-top"
+  id="menu-shadow-hint-right"
+  id="menu-shadow-hint-left"
+  -->
+  <!-- 
   <path id="button-normal-topleft" d="M 0,8 q 0,-8 8,-8 v 8 z" class="fill-surface-container-low" />
   <rect id="button-normal-top" width="8" height="8" x="8" y="0" class="fill-surface-container-low" />
   <path id="button-normal-topright" d="M 24,8 q 0,-8 -8,-8 v 8 z" class="fill-surface-container-low" />
@@ -304,92 +390,6 @@
   <rect id="button-normal-right" width="8" height="8" x="16" y="8" class="fill-surface-container-low" />
   <path id="button-normal-bottomleft" d="M 0,16 q 0,8 8,8 v -8 z" class="fill-surface-container-low" />
   <rect id="button-normal-bottom" width="8" height="8" x="8" y="16" class="fill-surface-container-low" />
-  <path id="button-normal-bottomright" d="M 24,16 q 0,8 -8,8 v -8 z" class="fill-surface-container-low" />
-  <g id="button-focused-topleft" transform="translate(24,0)">
-    <path d="M 0,8 q 0,-8 8,-8 v 8 z" class="fill-surface-container-low" />
-    <path d="M 0,8 q 0,-8 8,-8 v 8 z" class="fill-primary" opacity="0.08" />
-  </g>
-  <g id="button-focused-top" transform="translate(24,0)">
-    <rect width="8" height="8" x="8" y="0" class="fill-surface-container-low" />
-    <rect width="8" height="8" x="8" y="0" class="fill-primary" opacity="0.08" />
-  </g>
-  <g id="button-focused-topright" transform="translate(24,0)">
-    <path d="M 24,8 q 0,-8 -8,-8 v 8 z" class="fill-surface-container-low" />
-    <path d="M 24,8 q 0,-8 -8,-8 v 8 z" class="fill-primary" opacity="0.08" />
-  </g>
-  <g id="button-focused-left" transform="translate(24,0)">
-    <rect width="8" height="8" x="0" y="8" class="fill-surface-container-low" />
-    <rect width="8" height="8" x="0" y="8" class="fill-primary" opacity="0.08" />
-  </g>
-  <g id="button-focused" transform="translate(24,0)">
-    <rect width="8" height="8" x="8" y="8" class="fill-surface-container-low" />
-    <rect width="8" height="8" x="8" y="8" class="fill-primary" opacity="0.08" />
-  </g>
-  <g id="button-focused-right" transform="translate(24,0)">
-    <rect width="8" height="8" x="16" y="8" class="fill-surface-container-low" />
-    <rect width="8" height="8" x="16" y="8" class="fill-primary" opacity="0.08" />
-  </g>
-  <g id="button-focused-bottomleft" transform="translate(24,0)">
-    <path d="M 0,16 q 0,8 8,8 v -8 z" class="fill-surface-container-low" />
-    <path d="M 0,16 q 0,8 8,8 v -8 z" class="fill-primary" opacity="0.08" />
-  </g>
-  <g id="button-focused-bottom" transform="translate(24,0)">
-    <rect width="8" height="8" x="8" y="16" class="fill-surface-container-low" />
-    <rect width="8" height="8" x="8" y="16" class="fill-primary" opacity="0.08" />
-  </g>
-  <g id="button-focused-bottomright" transform="translate(24,0)">
-    <path d="M 24,16 q 0,8 -8,8 v -8 z" class="fill-surface-container-low" />
-    <path d="M 24,16 q 0,8 -8,8 v -8 z" class="fill-primary" opacity="0.08" />
-  </g>
-
-  <g id="button-pressed-topleft" transform="translate(48,0)">
-    <path d="M 0,8 q 0,-8 8,-8 v 8 z" class="fill-surface-container-low" />
-    <path d="M 0,8 q 0,-8 8,-8 v 8 z" class="fill-primary" opacity="0.1" />
-  </g>
-  <g id="button-pressed-top" transform="translate(48,0)">
-    <rect width="8" height="8" x="8" y="0" class="fill-surface-container-low" />
-    <rect width="8" height="8" x="8" y="0" class="fill-primary" opacity="0.1" />
-  </g>
-  <g id="button-pressed-topright" transform="translate(48,0)">
-    <path d="M 24,8 q 0,-8 -8,-8 v 8 z" class="fill-surface-container-low" />
-    <path d="M 24,8 q 0,-8 -8,-8 v 8 z" class="fill-primary" opacity="0.1" />
-  </g>
-  <g id="button-pressed-left" transform="translate(48,0)">
-    <rect width="8" height="8" x="0" y="8" class="fill-surface-container-low" />
-    <rect width="8" height="8" x="0" y="8" class="fill-primary" opacity="0.1" />
-  </g>
-  <g id="button-pressed" transform="translate(48,0)">
-    <rect width="8" height="8" x="8" y="8" class="fill-surface-container-low" />
-    <rect width="8" height="8" x="8" y="8" class="fill-primary" opacity="0.1" />
-  </g>
-  <g id="button-pressed-right" transform="translate(48,0)">
-    <rect width="8" height="8" x="16" y="8" class="fill-surface-container-low" />
-    <rect width="8" height="8" x="16" y="8" class="fill-primary" opacity="0.1" />
-  </g>
-  <g id="button-pressed-bottomleft" transform="translate(48,0)">
-    <path d="M 0,16 q 0,8 8,8 v -8 z" class="fill-surface-container-low" />
-    <path d="M 0,16 q 0,8 8,8 v -8 z" class="fill-primary" opacity="0.1" />
-  </g>
-  <g id="button-pressed-bottom" transform="translate(48,0)">
-    <rect width="8" height="8" x="8" y="16" class="fill-surface-container-low" />
-    <rect width="8" height="8" x="8" y="16" class="fill-primary" opacity="0.1" />
-  </g>
-  <g id="button-pressed-bottomright" transform="translate(48,0)">
-    <path d="M 24,16 q 0,8 -8,8 v -8 z" class="fill-surface-container-low" />
-    <path d="M 24,16 q 0,8 -8,8 v -8 z" class="fill-primary" opacity="0.1" />
-  </g>
-
-  <path id="button-toggled-topleft" d="M 72,8 q 0,-8 8,-8 v 8 z" class="fill-secondary-container" />
-  <rect id="button-toggled-top" width="8" height="8" x="80" y="0" class="fill-secondary-container" />
-  <path id="button-toggled-topright" d="M 96,8 q 0,-8 -8,-8 v 8 z" class="fill-secondary-container" />
-  <rect id="button-toggled-left" width="8" height="8" x="72" y="8" class="fill-secondary-container" />
-  <rect id="button-toggled" width="8" height="8" x="80" y="8" class="fill-secondary-container" />
-  <rect id="button-toggled-right" width="8" height="8" x="88" y="8" class="fill-secondary-container" />
-  <path id="button-toggled-bottomleft" d="M 72,16 q 0,8 8,8 v -8 z" class="fill-secondary-container" />
-  <rect id="button-toggled-bottom" width="8" height="8" x="80" y="16" class="fill-secondary-container" />
-  <path id="button-toggled-bottomright" d="M 96,16 q 0,8 -8,8 v -8 z" class="fill-secondary-container" />
-
-  <!-- 
-  id="button-default-indicator"  
+  <path id="button-normal-bottomright" d="M 24,16 q 0,8 -8,8 v -8 z" class="fill-surface-container-low" /> 
   -->
 </svg>
