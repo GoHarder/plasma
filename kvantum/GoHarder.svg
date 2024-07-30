@@ -400,4 +400,12 @@
   <rect id="button-normal-bottom" width="8" height="8" x="8" y="16" class="fill-surface-container-low" />
   <path id="button-normal-bottomright" d="M 24,16 q 0,8 -8,8 v -8 z" class="fill-surface-container-low" /> 
   -->
+  <!-- <rect id="menuitem-pressed" width="30" height="10" x="0" y="0" class="fill-secondary-container" /> -->
+  <rect id="menuitem-pressed" width="30" height="10" x="0" y="0" fill="#800000" />
+  <rect id="menuitem-toggled" width="30" height="10" x="0" y="10" fill="#008080" />
+  <!-- 
+  id="menuitem-separator"
+  id="menuitem-tearoff-normal"
+  id="menuitem-tearoff-focused"
+  -->
 </svg>
