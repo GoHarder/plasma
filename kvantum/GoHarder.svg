@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg height="160" width="200" viewBox="0 0 200 160" version="1.1" id="svg41" sodipodi:docname="GoHarder.svg"
-  inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
   xmlns:svg="http://www.w3.org/2000/svg">
   <sodipodi:namedview id="namedview41" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0"
     inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:deskcolor="#d1d1d1"
-    inkscape:zoom="5.3802274" inkscape:cx="63.937818" inkscape:cy="-10.687281" inkscape:window-width="1920"
-    inkscape:window-height="1057" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:window-maximized="1"
+    inkscape:zoom="30.435162" inkscape:cx="16.461223" inkscape:cy="18.087632" inkscape:window-width="2560"
+    inkscape:window-height="1357" inkscape:window-x="0" inkscape:window-y="45" inkscape:window-maximized="1"
     inkscape:current-layer="svg41" />
   <defs id="defs1">
     <style id="style1">
@@ -36,153 +36,135 @@
     </style>
   </defs>
   <g id="checkbox-normal">
-    <circle cx="20" cy="20" r="20" opacity="0" id="circle1" />
+    <path d="m 9,13 q 0,-4 4,-4 h 14 q 4,0 4,4 v 14 q 0,4 -4,4 h -14 q -4,0 -4,-4 v -14 z" opacity="0" />
     <path d="m 11,13 q 0,-2 2,-2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 h -14 q -2,0 -2,-2 v -14 h 2 v 14 h 14 v -14 z"
-      class="fill-on-surface-variant" id="path1" />
+      class="fill-on-surface-variant" />
   </g>
   <g id="checkbox-focused" transform="translate(0,40)">
-    <circle cx="20" cy="20" r="20" class="fill-on-surface" opacity="0.1" id="circle2" />
+    <path d="m 9,13 q 0,-4 4,-4 h 14 q 4,0 4,4 v 14 q 0,4 -4,4 h -14 q -4,0 -4,-4 v -14 z" class="fill-on-surface"
+      opacity="0.1" />
     <path d="m 11,13 q 0,-2 2,-2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 h -14 q -2,0 -2,-2 v -14 h 2 v 14 h 14 v -14 z"
-      class="fill-on-surface" id="path2" />
+      class="fill-on-surface" />
   </g>
   <g id="checkbox-checked-normal" transform="translate(40,0)">
-    <circle cx="20" cy="20" r="20" opacity="0" id="circle3" />
-    <path d="m 11,13 q 0,-2 2,-2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 h -14 q -2,0 -2,-2 v -14 z" class="fill-primary"
-      id="path3" />
-    <path d="m 18.6,24.2 7.05,-7.05 -1.4,-1.4 -5.65,5.65 -2.85,-2.85 -1.4,1.4 z" class="fill-on-primary" id="path4" />
+    <path d="m 9,13 q 0,-4 4,-4 h 14 q 4,0 4,4 v 14 q 0,4 -4,4 h -14 q -4,0 -4,-4 v -14 z" opacity="0" />
+    <path d="m 11,13 q 0,-2 2,-2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 h -14 q -2,0 -2,-2 v -14 z" class="fill-primary" />
+    <path d="m 18.6,24.2 7.05,-7.05 -1.4,-1.4 -5.65,5.65 -2.85,-2.85 -1.4,1.4 z" class="fill-on-primary" />
   </g>
   <g id="checkbox-checked-focused" transform="translate(40,40)">
-    <circle cx="20" cy="20" r="20" class="fill-primary" opacity="0.1" id="circle4" />
-    <path d="m 11,13 q 0,-2 2,-2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 h -14 q -2,0 -2,-2 v -14 z" class="fill-primary"
-      id="path5" />
-    <path d="m 18.6,24.2 7.05,-7.05 -1.4,-1.4 -5.65,5.65 -2.85,-2.85 -1.4,1.4 z" class="fill-on-primary" id="path6" />
+    <path d="m 9,13 q 0,-4 4,-4 h 14 q 4,0 4,4 v 14 q 0,4 -4,4 h -14 q -4,0 -4,-4 v -14 z" class="fill-primary"
+      opacity="0.1" />
+    <path d="m 11,13 q 0,-2 2,-2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 h -14 q -2,0 -2,-2 v -14 z" class="fill-primary" />
+    <path d="m 18.6,24.2 7.05,-7.05 -1.4,-1.4 -5.65,5.65 -2.85,-2.85 -1.4,1.4 z" class="fill-on-primary" />
   </g>
   <g id="checkbox-tristate-normal" transform="translate(80,0)">
-    <circle cx="20" cy="20" r="20" opacity="0" id="circle6" />
-    <path d="m 11,13 q 0,-2 2,-2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 h -14 q -2,0 -2,-2 v -14 z" class="fill-primary"
-      id="path7" />
-    <path d="M 15,21 h 10 v -2 h -10 Z" class="fill-on-primary" id="path8" />
+    <path d="m 9,13 q 0,-4 4,-4 h 14 q 4,0 4,4 v 14 q 0,4 -4,4 h -14 q -4,0 -4,-4 v -14 z" opacity="0" />
+    <path d="m 11,13 q 0,-2 2,-2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 h -14 q -2,0 -2,-2 v -14 z" class="fill-primary" />
+    <path d="M 15,21 h 10 v -2 h -10 Z" class="fill-on-primary" />
   </g>
   <g id="checkbox-tristate-focused" transform="translate(80,40)">
-    <circle cx="20" cy="20" r="20" class="fill-primary" opacity="0.1" id="circle8" />
-    <path d="m 11,13 q 0,-2 2,-2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 h -14 q -2,0 -2,-2 v -14 z" class="fill-primary"
-      id="path9" />
-    <path d="M 15,21 h 10 v -2 h -10 Z" class="fill-on-primary" id="path10" />
+    <path d="m 9,13 q 0,-4 4,-4 h 14 q 4,0 4,4 v 14 q 0,4 -4,4 h -14 q -4,0 -4,-4 v -14 z" class="fill-primary"
+      opacity="0.1" />
+    <path d="m 11,13 q 0,-2 2,-2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 h -14 q -2,0 -2,-2 v -14 z" class="fill-primary" />
+    <path d="M 15,21 h 10 v -2 h -10 Z" class="fill-on-primary" />
   </g>
+
   <g id="radio-normal" transform="translate(120,0)">
-    <circle cx="20" cy="20" r="20" opacity="0" id="circle10" />
+    <circle cx="20" cy="20" r="11" opacity="0" />
     <path
       d="M 20,30 Q 17.925,30 16.1,29.2125 14.275,28.425 12.925,27.075 11.575,25.725 10.7875,23.9 10,22.075 10,20 10,17.925 10.7875,16.1 11.575,14.275 12.925,12.925 14.275,11.575 16.1,10.7875 17.925,10 20,10 q 2.075,0 3.9,0.7875 1.825,0.7875 3.175,2.1375 1.35,1.35 2.1375,3.175 Q 30,17.925 30,20 q 0,2.075 -0.7875,3.9 -0.7875,1.825 -2.1375,3.175 -1.35,1.35 -3.175,2.1375 Q 22.075,30 20,30 Z m 0,-2 q 3.35,0 5.675,-2.325 Q 28,23.35 28,20 28,16.65 25.675,14.325 23.35,12 20,12 16.65,12 14.325,14.325 12,16.65 12,20 12,23.35 14.325,25.675 16.65,28 20,28 Z m 0,-8 z"
-      class="fill-on-surface-variant" id="path11" />
+      class="fill-on-surface-variant" />
   </g>
   <g id="radio-focused" transform="translate(120,40)">
-    <circle cx="20" cy="20" r="20" class="fill-primary" opacity="0.1" id="circle11" />
+    <circle cx="20" cy="20" r="11" class="fill-on-surface" opacity="0.1" />
     <path
       d="M 20,30 Q 17.925,30 16.1,29.2125 14.275,28.425 12.925,27.075 11.575,25.725 10.7875,23.9 10,22.075 10,20 10,17.925 10.7875,16.1 11.575,14.275 12.925,12.925 14.275,11.575 16.1,10.7875 17.925,10 20,10 q 2.075,0 3.9,0.7875 1.825,0.7875 3.175,2.1375 1.35,1.35 2.1375,3.175 Q 30,17.925 30,20 q 0,2.075 -0.7875,3.9 -0.7875,1.825 -2.1375,3.175 -1.35,1.35 -3.175,2.1375 Q 22.075,30 20,30 Z m 0,-2 q 3.35,0 5.675,-2.325 Q 28,23.35 28,20 28,16.65 25.675,14.325 23.35,12 20,12 16.65,12 14.325,14.325 12,16.65 12,20 12,23.35 14.325,25.675 16.65,28 20,28 Z m 0,-8 z"
-      class="fill-on-surface" id="path12" />
+      class="fill-on-surface" />
   </g>
   <g id="radio-checked-normal" transform="translate(160,0)">
-    <circle cx="20" cy="20" r="20" opacity="0" id="circle12" />
+    <circle cx="20" cy="20" r="11" opacity="0" />
     <path
       d="m 20,25 q 2.075,0 3.5375,-1.4625 Q 25,22.075 25,20 25,17.925 23.5375,16.4625 22.075,15 20,15 17.925,15 16.4625,16.4625 15,17.925 15,20 15,22.075 16.4625,23.5375 17.925,25 20,25 Z m 0,5 Q 17.925,30 16.1,29.2125 14.275,28.425 12.925,27.075 11.575,25.725 10.7875,23.9 10,22.075 10,20 10,17.925 10.7875,16.1 11.575,14.275 12.925,12.925 14.275,11.575 16.1,10.7875 17.925,10 20,10 q 2.075,0 3.9,0.7875 1.825,0.7875 3.175,2.1375 1.35,1.35 2.1375,3.175 Q 30,17.925 30,20 q 0,2.075 -0.7875,3.9 -0.7875,1.825 -2.1375,3.175 -1.35,1.35 -3.175,2.1375 Q 22.075,30 20,30 Z m 0,-2 q 3.35,0 5.675,-2.325 Q 28,23.35 28,20 28,16.65 25.675,14.325 23.35,12 20,12 16.65,12 14.325,14.325 12,16.65 12,20 12,23.35 14.325,25.675 16.65,28 20,28 Z m 0,-8 z"
-      class="fill-primary" id="path13" />
+      class="fill-primary" />
   </g>
   <g id="radio-checked-focused" transform="translate(160,40)">
-    <circle cx="20" cy="20" r="20" class="fill-primary" opacity="0.1" id="circle13" />
+    <circle cx="20" cy="20" r="11" class="fill-primary" opacity="0.1" />
     <path
       d="m 20,25 q 2.075,0 3.5375,-1.4625 Q 25,22.075 25,20 25,17.925 23.5375,16.4625 22.075,15 20,15 17.925,15 16.4625,16.4625 15,17.925 15,20 15,22.075 16.4625,23.5375 17.925,25 20,25 Z m 0,5 Q 17.925,30 16.1,29.2125 14.275,28.425 12.925,27.075 11.575,25.725 10.7875,23.9 10,22.075 10,20 10,17.925 10.7875,16.1 11.575,14.275 12.925,12.925 14.275,11.575 16.1,10.7875 17.925,10 20,10 q 2.075,0 3.9,0.7875 1.825,0.7875 3.175,2.1375 1.35,1.35 2.1375,3.175 Q 30,17.925 30,20 q 0,2.075 -0.7875,3.9 -0.7875,1.825 -2.1375,3.175 -1.35,1.35 -3.175,2.1375 Q 22.075,30 20,30 Z m 0,-2 q 3.35,0 5.675,-2.325 Q 28,23.35 28,20 28,16.65 25.675,14.325 23.35,12 20,12 16.65,12 14.325,14.325 12,16.65 12,20 12,23.35 14.325,25.675 16.65,28 20,28 Z m 0,-8 z"
-      class="fill-primary" id="path14" />
+      class="fill-primary" />
   </g>
   <g id="lineedit-normal-topleft" transform="translate(0,80)">
-    <rect width="4" height="4" x="0" y="0" opacity="0" id="rect14" />
-    <path d="m 1,4 q 0,-3 3,-3 v 3 z" class="fill-surface-container-highest" opacity="0" id="path15" />
-    <path d="m 0.5,4 q 0,-3.5 3.5,-3.5 v 1 q -2.5,0 -2.5,2.5 z" class="fill-outline" id="path16" />
+    <rect width="4" height="4" x="0" y="0" opacity="0" />
+    <path d="m 1,4 q 0,-3 3,-3 v 3 z" class="fill-surface-container-highest" opacity="0" />
+    <path d="m 0.5,4 q 0,-3.5 3.5,-3.5 v 1 q -2.5,0 -2.5,2.5 z" class="fill-outline" />
   </g>
   <g id="lineedit-normal-top" transform="translate(4,80)">
-    <rect width="32" height="4" x="0" y="0" opacity="0" id="rect16" />
-    <rect width="32" height="3" x="0" y="1" class="fill-surface-container-highest" opacity="0" id="rect17" />
-    <rect width="32" height="1" x="0" y="0.5" class="fill-outline" id="rect18" />
+    <rect width="32" height="4" x="0" y="0" opacity="0" />
+    <rect width="32" height="3" x="0" y="1" class="fill-surface-container-highest" opacity="0" />
+    <rect width="32" height="1" x="0" y="0.5" class="fill-outline" />
   </g>
   <g id="lineedit-normal-topright" transform="translate(36,80)">
-    <rect width="4" height="4" x="0" y="0" opacity="0" id="rect19" />
-    <path d="m 3,4 q 0,-3 -3,-3 v 3 z" class="fill-surface-container-highest" opacity="0" id="path19" />
-    <path d="m 3.5,4 q 0,-3.5 -3.5,-3.5 v 1 q 2.5,0 2.5,2.5 z" class="fill-outline" id="path20" />
+    <rect width="4" height="4" x="0" y="0" opacity="0" />
+    <path d="m 3,4 q 0,-3 -3,-3 v 3 z" class="fill-surface-container-highest" opacity="0" />
+    <path d="m 3.5,4 q 0,-3.5 -3.5,-3.5 v 1 q 2.5,0 2.5,2.5 z" class="fill-outline" />
   </g>
   <g id="lineedit-normal-left" transform="translate(0,84)">
-    <rect width="4" height="32" x="0" y="0" opacity="0" id="rect20" />
-    <rect width="3" height="32" x="1" y="0" class="fill-surface-container-highest" opacity="0" id="rect21" />
-    <rect width="1" height="32" x="0.5" y="0" class="fill-outline" id="rect22" />
+    <rect width="4" height="32" x="0" y="0" opacity="0" />
+    <rect width="3" height="32" x="1" y="0" class="fill-surface-container-highest" opacity="0" />
+    <rect width="1" height="32" x="0.5" y="0" class="fill-outline" />
   </g>
   <rect id="lineedit-normal" width="32" height="32" x="4" y="84" class="fill-surface-container-highest" opacity="0" />
   <g id="lineedit-normal-right" transform="translate(36,84)">
-    <rect width="4" height="32" x="0" y="0" opacity="0" id="rect23" />
-    <rect width="3" height="32" x="0" y="0" class="fill-surface-container-highest" opacity="0" id="rect24" />
-    <rect width="1" height="32" x="2.5" y="0" class="fill-outline" id="rect25" />
+    <rect width="4" height="32" x="0" y="0" opacity="0" />
+    <rect width="3" height="32" x="0" y="0" class="fill-surface-container-highest" opacity="0" />
+    <rect width="1" height="32" x="2.5" y="0" class="fill-outline" />
   </g>
   <g id="lineedit-normal-bottomleft" transform="translate(0,116)">
-    <rect width="4" height="4" x="0" y="0" opacity="0" id="rect26" />
-    <path d="m 1,0 q 0,3 3,3 v -3 z" class="fill-surface-container-highest" opacity="0" id="path26" />
-    <path d="m 0.5,0 q 0,3.5 3.5,3.5 v -1 q -2.5,0 -2.5,-2.5 z" class="fill-outline" id="path27" />
+    <rect width="4" height="4" x="0" y="0" opacity="0" />
+    <path d="m 1,0 q 0,3 3,3 v -3 z" class="fill-surface-container-highest" opacity="0" />
+    <path d="m 0.5,0 q 0,3.5 3.5,3.5 v -1 q -2.5,0 -2.5,-2.5 z" class="fill-outline" />
   </g>
   <g id="lineedit-normal-bottom" transform="translate(4,116)">
-    <rect width="32" height="4" x="0" y="0" opacity="0" id="rect27" />
-    <rect width="32" height="3" x="0" y="0" class="fill-surface-container-highest" opacity="0" id="rect28" />
-    <rect width="32" height="1" x="0" y="2.5" class="fill-outline" id="rect29" />
+    <rect width="32" height="4" x="0" y="0" opacity="0" />
+    <rect width="32" height="3" x="0" y="0" class="fill-surface-container-highest" opacity="0" />
+    <rect width="32" height="1" x="0" y="2.5" class="fill-outline" />
   </g>
   <g id="lineedit-normal-bottomright" transform="translate(36,116)">
-    <rect width="4" height="4" x="0" y="0" opacity="0" id="rect30" />
-    <path d="m 3,0 q 0,3 -3,3 v -3 z" class="fill-surface-container-highest" opacity="0" id="path30" />
-    <path d="m 3.5,0 q 0,3.5 -3.5,3.5 v -1 q 2.5,0 2.5,-2.5 z" class="fill-outline" id="path31" />
+    <rect width="4" height="4" x="0" y="0" opacity="0" />
+    <path d="m 3,0 q 0,3 -3,3 v -3 z" class="fill-surface-container-highest" opacity="0" />
+    <path d="m 3.5,0 q 0,3.5 -3.5,3.5 v -1 q 2.5,0 2.5,-2.5 z" class="fill-outline" />
   </g>
   <g id="lineedit-focused-topleft" transform="translate(0,120)">
-    <path d="m 1,4 q 0,-3 3,-3 v 3 z" class="fill-surface-container-highest" opacity="0" id="path32" />
-    <path d="m 0,4 q 0,-4 4,-4 v 2 q -2,0 -2,2 z" class="fill-primary" id="path33" />
+    <path d="m 1,4 q 0,-3 3,-3 v 3 z" class="fill-surface-container-highest" opacity="0" />
+    <path d="m 0,4 q 0,-4 4,-4 v 2 q -2,0 -2,2 z" class="fill-primary" />
   </g>
   <g id="lineedit-focused-top" transform="translate(4,120)">
-    <rect width="32" height="3" x="0" y="1" class="fill-surface-container-highest" opacity="0" id="rect33" />
-    <rect width="32" height="2" x="0" y="00" class="fill-primary" id="rect34" />
+    <rect width="32" height="3" x="0" y="1" class="fill-surface-container-highest" opacity="0" />
+    <rect width="32" height="2" x="0" y="00" class="fill-primary" />
   </g>
   <g id="lineedit-focused-topright" transform="translate(36,120)">
-    <path d="m 3,4 q 0,-3 -3,-3 v 3 z" class="fill-surface-container-highest" opacity="0" id="path34" />
-    <path d="m 4,4 q 0,-4 -4,-4 v 2 q 2,0 2,2 z" class="fill-primary" id="path35" />
+    <path d="m 3,4 q 0,-3 -3,-3 v 3 z" class="fill-surface-container-highest" opacity="0" />
+    <path d="m 4,4 q 0,-4 -4,-4 v 2 q 2,0 2,2 z" class="fill-primary" />
   </g>
   <g id="lineedit-focused-left" transform="translate(0,124)">
-    <rect width="3" height="32" x="1" y="0" class="fill-surface-container-highest" opacity="0" id="rect35" />
-    <rect width="2" height="32" x="0" y="0" class="fill-primary" id="rect36" />
+    <rect width="3" height="32" x="1" y="0" class="fill-surface-container-highest" opacity="0" />
+    <rect width="2" height="32" x="0" y="0" class="fill-primary" />
   </g>
   <rect id="lineedit-focused" width="32" height="32" x="4" y="124" class="fill-surface-container-highest" opacity="0" />
   <g id="lineedit-focused-right" transform="translate(36,124)">
-    <rect width="3" height="32" x="0" y="0" class="fill-surface-container-highest" opacity="0" id="rect37" />
-    <rect width="2" height="32" x="2" y="0" class="fill-primary" id="rect38" />
+    <rect width="3" height="32" x="0" y="0" class="fill-surface-container-highest" opacity="0" />
+    <rect width="2" height="32" x="2" y="0" class="fill-primary" />
   </g>
   <g id="lineedit-focused-bottomleft" transform="translate(0,156)">
-    <path d="m 1,0 q 0,3 3,3 v -3 z" class="fill-surface-container-highest" opacity="0" id="path38" />
-    <path d="m 0,0 q 0,4 4,4 v -2 q -2,0 -2,-2 z" class="fill-primary" id="path39" />
+    <path d="m 1,0 q 0,3 3,3 v -3 z" class="fill-surface-container-highest" opacity="0" />
+    <path d="m 0,0 q 0,4 4,4 v -2 q -2,0 -2,-2 z" class="fill-primary" />
   </g>
   <g id="lineedit-focused-bottom" transform="translate(4,156)">
-    <rect width="32" height="3" x="0" y="0" class="fill-surface-container-highest" opacity="0" id="rect39" />
-    <rect width="32" height="2" x="0" y="2" class="fill-primary" id="rect40" />
+    <rect width="32" height="3" x="0" y="0" class="fill-surface-container-highest" opacity="0" />
+    <rect width="32" height="2" x="0" y="2" class="fill-primary" />
   </g>
   <g id="lineedit-focused-bottomright" transform="translate(36,156)">
-    <path d="m 3,0 q 0,3 -3,3 v -3 z" class="fill-surface-container-highest" opacity="0" id="path40" />
-    <path d="m 4,0 q 0,4 -4,4 v -2 q 2,0 2,-2 z" class="fill-primary" id="path41" />
+    <path d="m 3,0 q 0,3 -3,3 v -3 z" class="fill-surface-container-highest" opacity="0" />
+    <path d="m 4,0 q 0,4 -4,4 v -2 q 2,0 2,-2 z" class="fill-primary" />
   </g>
-  <rect style="fill:#008080;fill-rule:evenodd;stroke-width:0.5" id="rect41" width="24" height="24" x="0" y="-24" />
-  <path d="M 11,-11 H 5 v -2 h 6 v -6 h 2 v 6 h 6 v 2 h -6 v 6 h -2 z" id="path1-2" style="stroke-width:0.025" />
-  <rect style="fill:#008080;fill-rule:evenodd;stroke-width:0.5" id="rect42" width="24" height="24" x="24" y="-24" />
-  <rect style="fill:#008080;fill-rule:evenodd;stroke-width:0.5" id="rect43" width="24" height="24" x="48" y="-24" />
-  <path d="m 29,-11 v -2 h 14 v 2 z" id="path1-1" style="stroke-width:0.025" />
-  <rect style="fill:#008080;fill-rule:evenodd;stroke-width:0.5" id="rect44" width="24" height="24" x="72" y="-24" />
-  <rect style="fill:#008080;fill-rule:evenodd;stroke-width:0.499999" id="rect45" width="24" height="24" x="96"
-    y="-24" />
-  <rect style="fill:#008080;fill-rule:evenodd;stroke-width:0.499999" id="rect46" width="24" height="24" x="120"
-    y="-24" />
-  <path d="m 59,-5.5 v -9.2 l -3.6,3.6 -1.4,-1.4 6,-6 6,6 -1.4,1.4 -3.6,-3.6 v 9.2 z" id="path1-3"
-    style="stroke-width:0.025" />
-  <path d="m 84,-5.5 -6,-6 1.4,-1.4 3.6,3.6 v -9.2 h 2 v 9.2 l 3.6,-3.6 1.4,1.4 z" id="path1-18"
-    style="stroke-width:0.025" />
-  <path d="m 106,-6 -6,-6 6,-6 1.4,1.45 -3.55,3.55 H 116 v 2 h -12.15 l 3.55,3.55 z" id="path1-0"
-    style="stroke-width:0.025" />
-  <path d="m 134,-6 -1.4,-1.45 3.55,-3.55 H 124 v -2 h 12.15 l -3.55,-3.55 1.4,-1.45 6,6 z" id="path1-5"
-    style="stroke-width:0.025" />
 </svg>
