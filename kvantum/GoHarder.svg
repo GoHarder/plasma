@@ -73,98 +73,116 @@
     <linearGradient inkscape:collect="always" xlink:href="#menu-shadow-after" id="linearGradient90"
       gradientUnits="userSpaceOnUse" x1="22" y1="16" x2="28" y2="16" />
   </defs>
-  <path id="button-normal-topleft" d="M 0,4 q 0,-4 4,-4 v 4 z" class="surface-container-highest" />
-  <rect id="button-normal-top" width="16" height="4" x="4" y="0" class="surface-container-highest" />
-  <path id="button-normal-topright" d="M 24,4 q 0,-4 -4,-4 v 4 z" class="surface-container-highest" />
-  <rect id="button-normal-left" width="4" height="16" x="0" y="4" class="surface-container-highest" />
-  <rect id="button-normal" width="16" height="16" x="4" y="4" class="surface-container-highest" />
-  <rect id="button-normal-right" width="4" height="16" x="20" y="4" class="surface-container-highest" />
-  <path id="button-normal-bottomleft" d="M 0,20 q 0,4 4,4 v -4 z" class="surface-container-highest" />
-  <rect id="button-normal-bottom" width="16" height="4" x="4" y="20" class="surface-container-highest" />
-  <path id="button-normal-bottomright" d="M 24,20 q 0,4 -4,4 v -4 z" class="surface-container-highest" />
-  <g id="button-focused-topleft" transform="translate(24)">
-    <path d="M 0,4 q 0,-4 4,-4 v 4 z" class="surface-container-highest" />
-    <path d="M 0,4 q 0,-4 4,-4 v 4 z" class="primary" opacity="0.08" />
+  <g id="button-group">
+    <path id="button-normal-topleft" d="M 0,4 q 0,-4 4,-4 v 4 z" class="surface-container-highest" />
+    <rect id="button-normal-top" width="16" height="4" x="4" y="0" class="surface-container-highest" />
+    <path id="button-normal-topright" d="M 24,4 q 0,-4 -4,-4 v 4 z" class="surface-container-highest" />
+    <rect id="button-normal-left" width="4" height="16" x="0" y="4" class="surface-container-highest" />
+    <rect id="button-normal" width="16" height="16" x="4" y="4" class="surface-container-highest" />
+    <rect id="button-normal-right" width="4" height="16" x="20" y="4" class="surface-container-highest" />
+    <path id="button-normal-bottomleft" d="M 0,20 q 0,4 4,4 v -4 z" class="surface-container-highest" />
+    <rect id="button-normal-bottom" width="16" height="4" x="4" y="20" class="surface-container-highest" />
+    <path id="button-normal-bottomright" d="M 24,20 q 0,4 -4,4 v -4 z" class="surface-container-highest" />
+    <g id="button-focused-topleft" transform="translate(24)">
+      <path d="M 0,4 q 0,-4 4,-4 v 4 z" class="surface-container-highest" />
+      <path d="M 0,4 q 0,-4 4,-4 v 4 z" class="primary" opacity="0.08" />
+    </g>
+    <g id="button-focused-top" transform="translate(24)">
+      <rect width="16" height="4" x="4" y="0" class="surface-container-highest" />
+      <rect width="16" height="4" x="4" y="0" class="primary" opacity="0.08" />
+    </g>
+    <g id="button-focused-topright" transform="translate(24)">
+      <path d="M 24,4 q 0,-4 -4,-4 v 4 z" class="surface-container-highest" />
+      <path d="M 24,4 q 0,-4 -4,-4 v 4 z" class="primary" opacity="0.08" />
+    </g>
+    <g id="button-focused-left" transform="translate(24)">
+      <rect width="4" height="16" x="0" y="4" class="surface-container-highest" />
+      <rect width="4" height="16" x="0" y="4" class="primary" opacity="0.08" />
+    </g>
+    <g id="button-focused" transform="translate(24)">
+      <rect width="16" height="16" x="4" y="4" class="surface-container-highest" />
+      <rect width="16" height="16" x="4" y="4" class="primary" opacity="0.08" />
+    </g>
+    <g id="button-focused-right" transform="translate(24)">
+      <rect width="4" height="16" x="20" y="4" class="surface-container-highest" />
+      <rect width="4" height="16" x="20" y="4" class="primary" opacity="0.08" />
+    </g>
+    <g id="button-focused-bottomleft" transform="translate(24)">
+      <path d="M 0,20 q 0,4 4,4 v -4 z" class="surface-container-highest" />
+      <path d="M 0,20 q 0,4 4,4 v -4 z" class="primary" opacity="0.08" />
+    </g>
+    <g id="button-focused-bottom" transform="translate(24)">
+      <rect width="16" height="4" x="4" y="20" class="surface-container-highest" />
+      <rect width="16" height="4" x="4" y="20" class="primary" opacity="0.08" />
+    </g>
+    <g id="button-focused-bottomright" transform="translate(24)">
+      <path d="M 24,20 q 0,4 -4,4 v -4 z" class="surface-container-highest" />
+      <path d="M 24,20 q 0,4 -4,4 v -4 z" class="primary" opacity="0.08" />
+    </g>
+    <g id="button-pressed-topleft" transform="translate(48)">
+      <path d="M 0,4 q 0,-4 4,-4 v 4 z" class="surface-container-highest" />
+      <path d="M 0,4 q 0,-4 4,-4 v 4 z" class="primary" opacity="0.1" />
+    </g>
+    <g id="button-pressed-top" transform="translate(48)">
+      <rect width="16" height="4" x="4" y="0" class="surface-container-highest" />
+      <rect width="16" height="4" x="4" y="0" class="primary" opacity="0.1" />
+    </g>
+    <g id="button-pressed-topright" transform="translate(48)">
+      <path d="M 24,4 q 0,-4 -4,-4 v 4 z" class="surface-container-highest" />
+      <path d="M 24,4 q 0,-4 -4,-4 v 4 z" class="primary" opacity="0.1" />
+    </g>
+    <g id="button-pressed-left" transform="translate(48)">
+      <rect width="4" height="16" x="0" y="4" class="surface-container-highest" />
+      <rect width="4" height="16" x="0" y="4" class="primary" opacity="0.1" />
+    </g>
+    <g id="button-pressed" transform="translate(48)">
+      <rect width="16" height="16" x="4" y="4" class="surface-container-highest" />
+      <rect width="16" height="16" x="4" y="4" class="primary" opacity="0.1" />
+    </g>
+    <g id="button-pressed-right" transform="translate(48)">
+      <rect width="4" height="16" x="20" y="4" class="surface-container-highest" />
+      <rect width="4" height="16" x="20" y="4" class="primary" opacity="0.1" />
+    </g>
+    <g id="button-pressed-bottomleft" transform="translate(48)">
+      <path d="M 0,20 q 0,4 4,4 v -4 z" class="surface-container-highest" />
+      <path d="M 0,20 q 0,4 4,4 v -4 z" class="primary" opacity="0.1" />
+    </g>
+    <g id="button-pressed-bottom" transform="translate(48)">
+      <rect width="16" height="4" x="4" y="20" class="surface-container-highest" />
+      <rect width="16" height="4" x="4" y="20" class="primary" opacity="0.1" />
+    </g>
+    <g id="button-pressed-bottomright" transform="translate(48)">
+      <path d="M 24,20 q 0,4 -4,4 v -4 z" class="surface-container-highest" />
+      <path d="M 24,20 q 0,4 -4,4 v -4 z" class="primary" opacity="0.1" />
+    </g>
+    <path id="button-toggled-topleft" d="M 0,4 q 0,-4 4,-4 v 4 z" class="primary" transform="translate(72)" />
+    <rect id="button-toggled-top" width="16" height="4" x="4" y="0" class="primary" transform="translate(72)" />
+    <path id="button-toggled-topright" d="M 24,4 q 0,-4 -4,-4 v 4 z" class="primary" transform="translate(72)" />
+    <rect id="button-toggled-left" width="4" height="16" x="0" y="4" class="primary" transform="translate(72)" />
+    <rect id="button-toggled" width="16" height="16" x="4" y="4" class="primary" transform="translate(72)" />
+    <rect id="button-toggled-right" width="4" height="16" x="20" y="4" class="primary" transform="translate(72)" />
+    <path id="button-toggled-bottomleft" d="M 0,20 q 0,4 4,4 v -4 z" class="primary" transform="translate(72)" />
+    <rect id="button-toggled-bottom" width="16" height="4" x="4" y="20" class="primary" transform="translate(72)" />
+    <path id="button-toggled-bottomright" d="M 24,20 q 0,4 -4,4 v -4 z" class="primary" transform="translate(72)" />
+    <rect id="button-default-indicator" width="12" height="12" x="0" y="0" opacity="0" transform="translate(96)" />
   </g>
-  <g id="button-focused-top" transform="translate(24)">
-    <rect width="16" height="4" x="4" y="0" class="surface-container-highest" />
-    <rect width="16" height="4" x="4" y="0" class="primary" opacity="0.08" />
+  <g id="toolbar-group" transform="translate(108,0)">
+    <rect id="toolbar-normal-topleft" width="4" height="4" x="0" y="0" fill="#008080" />
+    <rect id="toolbar-normal-top" width="16" height="4" x="4" y="0" fill="#008080" />
+    <rect id="toolbar-normal-topright" width="4" height="4" x="20" y="0" fill="#008080" />
+    <rect id="toolbar-normal-left" width="4" height="16" x="0" y="4" fill="#008080" />
+    <rect id="toolbar-normal" width="16" height="16" x="4" y="4" fill="#008080" />
+    <rect id="toolbar-normal-right" width="4" height="16" x="20" y="4" fill="#008080" />
+    <rect id="toolbar-normal-bottomleft" width="4" height="4" x="0" y="20" fill="#008080" />
+    <rect id="toolbar-normal-bottom" width="16" height="4" x="4" y="20" fill="#008080" />
+    <rect id="toolbar-normal-bottomright" width="4" height="4" x="20" y="20" fill="#008080" />
+    <rect id="toolbar-separator" width="7.5" height="10" x="24" y="0" fill="#800080" />
+    <g id="toolbar-handle">
+      <rect width="8" height="10" x="32" y="0" opacity="0" />
+      <rect width="2" height="8" x="35" y="1" fill="#808000" />
+    </g>
   </g>
-  <g id="button-focused-topright" transform="translate(24)">
-    <path d="M 24,4 q 0,-4 -4,-4 v 4 z" class="surface-container-highest" />
-    <path d="M 24,4 q 0,-4 -4,-4 v 4 z" class="primary" opacity="0.08" />
-  </g>
-  <g id="button-focused-left" transform="translate(24)">
-    <rect width="4" height="16" x="0" y="4" class="surface-container-highest" />
-    <rect width="4" height="16" x="0" y="4" class="primary" opacity="0.08" />
-  </g>
-  <g id="button-focused" transform="translate(24)">
-    <rect width="16" height="16" x="4" y="4" class="surface-container-highest" />
-    <rect width="16" height="16" x="4" y="4" class="primary" opacity="0.08" />
-  </g>
-  <g id="button-focused-right" transform="translate(24)">
-    <rect width="4" height="16" x="20" y="4" class="surface-container-highest" />
-    <rect width="4" height="16" x="20" y="4" class="primary" opacity="0.08" />
-  </g>
-  <g id="button-focused-bottomleft" transform="translate(24)">
-    <path d="M 0,20 q 0,4 4,4 v -4 z" class="surface-container-highest" />
-    <path d="M 0,20 q 0,4 4,4 v -4 z" class="primary" opacity="0.08" />
-  </g>
-  <g id="button-focused-bottom" transform="translate(24)">
-    <rect width="16" height="4" x="4" y="20" class="surface-container-highest" />
-    <rect width="16" height="4" x="4" y="20" class="primary" opacity="0.08" />
-  </g>
-  <g id="button-focused-bottomright" transform="translate(24)">
-    <path d="M 24,20 q 0,4 -4,4 v -4 z" class="surface-container-highest" />
-    <path d="M 24,20 q 0,4 -4,4 v -4 z" class="primary" opacity="0.08" />
-  </g>
-  <g id="button-pressed-topleft" transform="translate(48)">
-    <path d="M 0,4 q 0,-4 4,-4 v 4 z" class="surface-container-highest" />
-    <path d="M 0,4 q 0,-4 4,-4 v 4 z" class="primary" opacity="0.1" />
-  </g>
-  <g id="button-pressed-top" transform="translate(48)">
-    <rect width="16" height="4" x="4" y="0" class="surface-container-highest" />
-    <rect width="16" height="4" x="4" y="0" class="primary" opacity="0.1" />
-  </g>
-  <g id="button-pressed-topright" transform="translate(48)">
-    <path d="M 24,4 q 0,-4 -4,-4 v 4 z" class="surface-container-highest" />
-    <path d="M 24,4 q 0,-4 -4,-4 v 4 z" class="primary" opacity="0.1" />
-  </g>
-  <g id="button-pressed-left" transform="translate(48)">
-    <rect width="4" height="16" x="0" y="4" class="surface-container-highest" />
-    <rect width="4" height="16" x="0" y="4" class="primary" opacity="0.1" />
-  </g>
-  <g id="button-pressed" transform="translate(48)">
-    <rect width="16" height="16" x="4" y="4" class="surface-container-highest" />
-    <rect width="16" height="16" x="4" y="4" class="primary" opacity="0.1" />
-  </g>
-  <g id="button-pressed-right" transform="translate(48)">
-    <rect width="4" height="16" x="20" y="4" class="surface-container-highest" />
-    <rect width="4" height="16" x="20" y="4" class="primary" opacity="0.1" />
-  </g>
-  <g id="button-pressed-bottomleft" transform="translate(48)">
-    <path d="M 0,20 q 0,4 4,4 v -4 z" class="surface-container-highest" />
-    <path d="M 0,20 q 0,4 4,4 v -4 z" class="primary" opacity="0.1" />
-  </g>
-  <g id="button-pressed-bottom" transform="translate(48)">
-    <rect width="16" height="4" x="4" y="20" class="surface-container-highest" />
-    <rect width="16" height="4" x="4" y="20" class="primary" opacity="0.1" />
-  </g>
-  <g id="button-pressed-bottomright" transform="translate(48)">
-    <path d="M 24,20 q 0,4 -4,4 v -4 z" class="surface-container-highest" />
-    <path d="M 24,20 q 0,4 -4,4 v -4 z" class="primary" opacity="0.1" />
-  </g>
-  <path id="button-toggled-topleft" d="M 0,4 q 0,-4 4,-4 v 4 z" class="primary" transform="translate(72)" />
-  <rect id="button-toggled-top" width="16" height="4" x="4" y="0" class="primary" transform="translate(72)" />
-  <path id="button-toggled-topright" d="M 24,4 q 0,-4 -4,-4 v 4 z" class="primary" transform="translate(72)" />
-  <rect id="button-toggled-left" width="4" height="16" x="0" y="4" class="primary" transform="translate(72)" />
-  <rect id="button-toggled" width="16" height="16" x="4" y="4" class="primary" transform="translate(72)" />
-  <rect id="button-toggled-right" width="4" height="16" x="20" y="4" class="primary" transform="translate(72)" />
-  <path id="button-toggled-bottomleft" d="M 0,20 q 0,4 4,4 v -4 z" class="primary" transform="translate(72)" />
-  <rect id="button-toggled-bottom" width="16" height="4" x="4" y="20" class="primary" transform="translate(72)" />
-  <path id="button-toggled-bottomright" d="M 24,20 q 0,4 -4,4 v -4 z" class="primary" transform="translate(72)" />
-  <rect id="button-default-indicator" width="12" height="12" x="0" y="0" opacity="0" transform="translate(96)" />
-  <g id="lineedit-group">
+  <g id="lineedit-group" transform="translate(0,24)">
     <g id="lineedit-normal-topleft">
       <rect width="4" height="4" x="0" y="0" opacity="0" />
       <path d="M 1,4 Q 1,1 4,1 v 3 z" class="surface-container-highest" opacity="0" />
