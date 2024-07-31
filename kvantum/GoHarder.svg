@@ -2,11 +2,11 @@
   <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" />
   <defs>
     <style>
-      .fill-primary {
+      .primary {
         fill: #95ccff;
       }
 
-      .fill-on-primary {
+      .on-primary {
         fill: #003353;
       }
 
@@ -22,7 +22,7 @@
         fill: #1e2022;
       }
 
-      .fill-surface-container-highest {
+      .surface-container-highest {
         fill: #333538;
       }
 
@@ -73,81 +73,171 @@
     <linearGradient inkscape:collect="always" xlink:href="#menu-shadow-after" id="linearGradient90"
       gradientUnits="userSpaceOnUse" x1="22" y1="16" x2="28" y2="16" />
   </defs>
+  <path id="button-normal-topleft" d="M 0,4 q 0,-4 4,-4 v 4 z" class="surface-container-highest" />
+  <rect id="button-normal-top" width="16" height="4" x="4" y="0" class="surface-container-highest" />
+  <path id="button-normal-topright" d="M 24,4 q 0,-4 -4,-4 v 4 z" class="surface-container-highest" />
+  <rect id="button-normal-left" width="4" height="16" x="0" y="4" class="surface-container-highest" />
+  <rect id="button-normal" width="16" height="16" x="4" y="4" class="surface-container-highest" />
+  <rect id="button-normal-right" width="4" height="16" x="20" y="4" class="surface-container-highest" />
+  <path id="button-normal-bottomleft" d="M 0,20 q 0,4 4,4 v -4 z" class="surface-container-highest" />
+  <rect id="button-normal-bottom" width="16" height="4" x="4" y="20" class="surface-container-highest" />
+  <path id="button-normal-bottomright" d="M 24,20 q 0,4 -4,4 v -4 z" class="surface-container-highest" />
+  <g id="button-focused-topleft" transform="translate(24)">
+    <path d="M 0,4 q 0,-4 4,-4 v 4 z" class="surface-container-highest" />
+    <path d="M 0,4 q 0,-4 4,-4 v 4 z" class="primary" opacity="0.08" />
+  </g>
+  <g id="button-focused-top" transform="translate(24)">
+    <rect width="16" height="4" x="4" y="0" class="surface-container-highest" />
+    <rect width="16" height="4" x="4" y="0" class="primary" opacity="0.08" />
+  </g>
+  <g id="button-focused-topright" transform="translate(24)">
+    <path d="M 24,4 q 0,-4 -4,-4 v 4 z" class="surface-container-highest" />
+    <path d="M 24,4 q 0,-4 -4,-4 v 4 z" class="primary" opacity="0.08" />
+  </g>
+  <g id="button-focused-left" transform="translate(24)">
+    <rect width="4" height="16" x="0" y="4" class="surface-container-highest" />
+    <rect width="4" height="16" x="0" y="4" class="primary" opacity="0.08" />
+  </g>
+  <g id="button-focused" transform="translate(24)">
+    <rect width="16" height="16" x="4" y="4" class="surface-container-highest" />
+    <rect width="16" height="16" x="4" y="4" class="primary" opacity="0.08" />
+  </g>
+  <g id="button-focused-right" transform="translate(24)">
+    <rect width="4" height="16" x="20" y="4" class="surface-container-highest" />
+    <rect width="4" height="16" x="20" y="4" class="primary" opacity="0.08" />
+  </g>
+  <g id="button-focused-bottomleft" transform="translate(24)">
+    <path d="M 0,20 q 0,4 4,4 v -4 z" class="surface-container-highest" />
+    <path d="M 0,20 q 0,4 4,4 v -4 z" class="primary" opacity="0.08" />
+  </g>
+  <g id="button-focused-bottom" transform="translate(24)">
+    <rect width="16" height="4" x="4" y="20" class="surface-container-highest" />
+    <rect width="16" height="4" x="4" y="20" class="primary" opacity="0.08" />
+  </g>
+  <g id="button-focused-bottomright" transform="translate(24)">
+    <path d="M 24,20 q 0,4 -4,4 v -4 z" class="surface-container-highest" />
+    <path d="M 24,20 q 0,4 -4,4 v -4 z" class="primary" opacity="0.08" />
+  </g>
+  <g id="button-pressed-topleft" transform="translate(48)">
+    <path d="M 0,4 q 0,-4 4,-4 v 4 z" class="surface-container-highest" />
+    <path d="M 0,4 q 0,-4 4,-4 v 4 z" class="primary" opacity="0.1" />
+  </g>
+  <g id="button-pressed-top" transform="translate(48)">
+    <rect width="16" height="4" x="4" y="0" class="surface-container-highest" />
+    <rect width="16" height="4" x="4" y="0" class="primary" opacity="0.1" />
+  </g>
+  <g id="button-pressed-topright" transform="translate(48)">
+    <path d="M 24,4 q 0,-4 -4,-4 v 4 z" class="surface-container-highest" />
+    <path d="M 24,4 q 0,-4 -4,-4 v 4 z" class="primary" opacity="0.1" />
+  </g>
+  <g id="button-pressed-left" transform="translate(48)">
+    <rect width="4" height="16" x="0" y="4" class="surface-container-highest" />
+    <rect width="4" height="16" x="0" y="4" class="primary" opacity="0.1" />
+  </g>
+  <g id="button-pressed" transform="translate(48)">
+    <rect width="16" height="16" x="4" y="4" class="surface-container-highest" />
+    <rect width="16" height="16" x="4" y="4" class="primary" opacity="0.1" />
+  </g>
+  <g id="button-pressed-right" transform="translate(48)">
+    <rect width="4" height="16" x="20" y="4" class="surface-container-highest" />
+    <rect width="4" height="16" x="20" y="4" class="primary" opacity="0.1" />
+  </g>
+  <g id="button-pressed-bottomleft" transform="translate(48)">
+    <path d="M 0,20 q 0,4 4,4 v -4 z" class="surface-container-highest" />
+    <path d="M 0,20 q 0,4 4,4 v -4 z" class="primary" opacity="0.1" />
+  </g>
+  <g id="button-pressed-bottom" transform="translate(48)">
+    <rect width="16" height="4" x="4" y="20" class="surface-container-highest" />
+    <rect width="16" height="4" x="4" y="20" class="primary" opacity="0.1" />
+  </g>
+  <g id="button-pressed-bottomright" transform="translate(48)">
+    <path d="M 24,20 q 0,4 -4,4 v -4 z" class="surface-container-highest" />
+    <path d="M 24,20 q 0,4 -4,4 v -4 z" class="primary" opacity="0.1" />
+  </g>
+  <path id="button-toggled-topleft" d="M 0,4 q 0,-4 4,-4 v 4 z" class="primary" transform="translate(72)" />
+  <rect id="button-toggled-top" width="16" height="4" x="4" y="0" class="primary" transform="translate(72)" />
+  <path id="button-toggled-topright" d="M 24,4 q 0,-4 -4,-4 v 4 z" class="primary" transform="translate(72)" />
+  <rect id="button-toggled-left" width="4" height="16" x="0" y="4" class="primary" transform="translate(72)" />
+  <rect id="button-toggled" width="16" height="16" x="4" y="4" class="primary" transform="translate(72)" />
+  <rect id="button-toggled-right" width="4" height="16" x="20" y="4" class="primary" transform="translate(72)" />
+  <path id="button-toggled-bottomleft" d="M 0,20 q 0,4 4,4 v -4 z" class="primary" transform="translate(72)" />
+  <rect id="button-toggled-bottom" width="16" height="4" x="4" y="20" class="primary" transform="translate(72)" />
+  <path id="button-toggled-bottomright" d="M 24,20 q 0,4 -4,4 v -4 z" class="primary" transform="translate(72)" />
+  <rect id="button-default-indicator" width="12" height="12" x="0" y="0" opacity="0" transform="translate(96)" />
   <g id="lineedit-group">
     <g id="lineedit-normal-topleft">
       <rect width="4" height="4" x="0" y="0" opacity="0" />
-      <path d="M 1,4 Q 1,1 4,1 v 3 z" class="fill-surface-container-highest" opacity="0" />
+      <path d="M 1,4 Q 1,1 4,1 v 3 z" class="surface-container-highest" opacity="0" />
       <path d="M 0.5,4 Q 0.5,0.5 4,0.5 v 1 Q 1.5,1.5 1.5,4 Z" class="fill-outline" />
     </g>
     <g id="lineedit-normal-top" transform="translate(4)">
       <rect width="16" height="4" x="0" y="0" opacity="0" />
-      <rect width="16" height="3" x="0" y="1" class="fill-surface-container-highest" opacity="0" />
+      <rect width="16" height="3" x="0" y="1" class="surface-container-highest" opacity="0" />
       <rect width="16" height="1" x="0" y="0.5" class="fill-outline" />
     </g>
     <g id="lineedit-normal-topright" transform="translate(20)">
       <rect width="4" height="4" x="0" y="0" opacity="0" />
-      <path d="M 3,4 Q 3,1 0,1 v 3 z" class="fill-surface-container-highest" opacity="0" />
+      <path d="M 3,4 Q 3,1 0,1 v 3 z" class="surface-container-highest" opacity="0" />
       <path d="M 3.5,4 Q 3.5,0.5 0,0.5 v 1 q 2.5,0 2.5,2.5 z" class="fill-outline" />
     </g>
     <g id="lineedit-normal-left" transform="translate(0,4)">
       <rect width="4" height="16" x="0" y="0" opacity="0" />
-      <rect width="3" height="16" x="1" y="0" class="fill-surface-container-highest" opacity="0" />
+      <rect width="3" height="16" x="1" y="0" class="surface-container-highest" opacity="0" />
       <rect width="1" height="16" x="0.5" y="0" class="fill-outline" />
     </g>
-    <rect id="lineedit-normal" width="16" height="16" x="4" y="4" class="fill-surface-container-highest" opacity="0" />
+    <rect id="lineedit-normal" width="16" height="16" x="4" y="4" class="surface-container-highest" opacity="0" />
     <g id="lineedit-normal-right" transform="translate(20,4)">
       <rect width="4" height="16" x="0" y="0" opacity="0" />
-      <rect width="3" height="16" x="0" y="0" class="fill-surface-container-highest" opacity="0" />
+      <rect width="3" height="16" x="0" y="0" class="surface-container-highest" opacity="0" />
       <rect width="1" height="16" x="2.5" y="0" class="fill-outline" />
     </g>
     <g id="lineedit-normal-bottomleft" transform="translate(0,20)">
       <rect width="4" height="4" x="0" y="0" opacity="0" />
-      <path d="M 1,0 Q 1,3 4,3 V 0 Z" class="fill-surface-container-highest" opacity="0" />
+      <path d="M 1,0 Q 1,3 4,3 V 0 Z" class="surface-container-highest" opacity="0" />
       <path d="m 0.5,0 q 0,3.5 3.5,3.5 v -1 Q 1.5,2.5 1.5,0 Z" class="fill-outline" />
     </g>
     <g id="lineedit-normal-bottom" transform="translate(4,20)">
       <rect width="16" height="4" x="0" y="0" opacity="0" />
-      <rect width="16" height="3" x="0" y="0" class="fill-surface-container-highest" opacity="0" />
+      <rect width="16" height="3" x="0" y="0" class="surface-container-highest" opacity="0" />
       <rect width="16" height="1" x="0" y="2.5" class="fill-outline" />
     </g>
     <g id="lineedit-normal-bottomright" transform="translate(20,20)">
       <rect width="4" height="4" x="0" y="0" opacity="0" />
-      <path d="M 3,0 Q 3,3 0,3 V 0 Z" class="fill-surface-container-highest" opacity="0" />
+      <path d="M 3,0 Q 3,3 0,3 V 0 Z" class="surface-container-highest" opacity="0" />
       <path d="M 3.5,0 Q 3.5,3.5 0,3.5 v -1 Q 2.5,2.5 2.5,0 Z" class="fill-outline" />
     </g>
     <g id="lineedit-focused-topleft" transform="translate(24)">
-      <path d="M 1,4 Q 1,1 4,1 v 3 z" class="fill-surface-container-highest" opacity="0" />
-      <path d="M 0,4 Q 0,0 4,0 V 2 Q 2,2 2,4 Z" class="fill-primary" />
+      <path d="M 1,4 Q 1,1 4,1 v 3 z" class="surface-container-highest" opacity="0" />
+      <path d="M 0,4 Q 0,0 4,0 V 2 Q 2,2 2,4 Z" class="primary" />
     </g>
     <g id="lineedit-focused-top" transform="translate(28)">
-      <rect width="16" height="3" x="0" y="1" class="fill-surface-container-highest" opacity="0" />
-      <rect width="16" height="2" x="0" y="0" class="fill-primary" />
+      <rect width="16" height="3" x="0" y="1" class="surface-container-highest" opacity="0" />
+      <rect width="16" height="2" x="0" y="0" class="primary" />
     </g>
     <g id="lineedit-focused-topright" transform="translate(44)">
-      <path d="M 3,4 Q 3,1 0,1 v 3 z" class="fill-surface-container-highest" opacity="0" />
-      <path d="M 4,4 Q 4,0 0,0 v 2 q 2,0 2,2 z" class="fill-primary" />
+      <path d="M 3,4 Q 3,1 0,1 v 3 z" class="surface-container-highest" opacity="0" />
+      <path d="M 4,4 Q 4,0 0,0 v 2 q 2,0 2,2 z" class="primary" />
     </g>
     <g id="lineedit-focused-left" transform="translate(24,4)">
-      <rect width="3" height="16" x="1" y="0" class="fill-surface-container-highest" opacity="0" />
-      <rect width="2" height="16" x="0" y="0" class="fill-primary" />
+      <rect width="3" height="16" x="1" y="0" class="surface-container-highest" opacity="0" />
+      <rect width="2" height="16" x="0" y="0" class="primary" />
     </g>
-    <rect id="lineedit-focused" width="16" height="16" x="28" y="4" class="fill-surface-container-highest"
-      opacity="0" />
+    <rect id="lineedit-focused" width="16" height="16" x="28" y="4" class="surface-container-highest" opacity="0" />
     <g id="lineedit-focused-right" transform="translate(44,4)">
-      <rect width="3" height="16" x="0" y="0" class="fill-surface-container-highest" opacity="0" />
-      <rect width="2" height="16" x="2" y="0" class="fill-primary" />
+      <rect width="3" height="16" x="0" y="0" class="surface-container-highest" opacity="0" />
+      <rect width="2" height="16" x="2" y="0" class="primary" />
     </g>
     <g id="lineedit-focused-bottomleft" transform="translate(24,20)">
-      <path d="M 1,0 Q 1,3 4,3 V 0 Z" class="fill-surface-container-highest" opacity="0" />
-      <path d="M 0,0 Q 0,4 4,4 V 2 Q 2,2 2,0 Z" class="fill-primary" />
+      <path d="M 1,0 Q 1,3 4,3 V 0 Z" class="surface-container-highest" opacity="0" />
+      <path d="M 0,0 Q 0,4 4,4 V 2 Q 2,2 2,0 Z" class="primary" />
     </g>
     <g id="lineedit-focused-bottom" transform="translate(28,20)">
-      <rect width="16" height="3" x="0" y="0" class="fill-surface-container-highest" opacity="0" />
-      <rect width="16" height="2" x="0" y="2" class="fill-primary" />
+      <rect width="16" height="3" x="0" y="0" class="surface-container-highest" opacity="0" />
+      <rect width="16" height="2" x="0" y="2" class="primary" />
     </g>
     <g id="lineedit-focused-bottomright" transform="translate(44,20)">
-      <path d="M 3,0 Q 3,3 0,3 V 0 Z" class="fill-surface-container-highest" opacity="0" />
-      <path d="M 4,0 Q 4,4 0,4 V 2 Q 2,2 2,0 Z" class="fill-primary" />
+      <path d="M 3,0 Q 3,3 0,3 V 0 Z" class="surface-container-highest" opacity="0" />
+      <path d="M 4,0 Q 4,4 0,4 V 2 Q 2,2 2,0 Z" class="primary" />
     </g>
   </g>
   <g id="radio-group" transform="translate(0,24)">
@@ -167,13 +257,13 @@
       <circle cx="11" cy="11" r="11" opacity="0" />
       <path
         d="m 11,16 q 2.075,0 3.538,-1.463 Q 16,13.075 16,11 16,8.925 14.538,7.463 13.075,6 11,6 8.925,6 7.463,7.463 6,8.925 6,11 6,13.075 7.463,14.538 8.925,16 11,16 Z m 0,5 Q 8.925,21 7.1,20.213 5.275,19.425 3.925,18.075 2.575,16.725 1.788,14.9 1,13.075 1,11 1,8.925 1.788,7.1 2.575,5.275 3.925,3.925 5.275,2.575 7.1,1.788 8.925,1 11,1 q 2.075,0 3.9,0.788 1.825,0.787 3.175,2.137 1.35,1.35 2.138,3.175 Q 21,8.925 21,11 q 0,2.075 -0.788,3.9 -0.788,1.825 -2.138,3.175 -1.35,1.35 -3.175,2.138 Q 13.075,21 11,21 Z m 0,-2 q 3.35,0 5.675,-2.325 Q 19,14.35 19,11 19,7.65 16.675,5.325 14.35,3 11,3 7.65,3 5.325,5.325 3,7.65 3,11 3,14.35 5.325,16.675 7.65,19 11,19 Z m 0,-8 z"
-        class="fill-primary" />
+        class="primary" />
     </g>
     <g id="radio-checked-focused" transform="translate(22,22)">
-      <circle cx="11" cy="11" r="11" class="fill-primary" opacity="0.1" />
+      <circle cx="11" cy="11" r="11" class="primary" opacity="0.1" />
       <path
         d="m 11,16 q 2.075,0 3.538,-1.463 Q 16,13.075 16,11 16,8.925 14.538,7.463 13.075,6 11,6 8.925,6 7.463,7.463 6,8.925 6,11 6,13.075 7.463,14.538 8.925,16 11,16 Z m 0,5 Q 8.925,21 7.1,20.213 5.275,19.425 3.925,18.075 2.575,16.725 1.788,14.9 1,13.075 1,11 1,8.925 1.788,7.1 2.575,5.275 3.925,3.925 5.275,2.575 7.1,1.788 8.925,1 11,1 q 2.075,0 3.9,0.788 1.825,0.787 3.175,2.137 1.35,1.35 2.138,3.175 Q 21,8.925 21,11 q 0,2.075 -0.788,3.9 -0.788,1.825 -2.138,3.175 -1.35,1.35 -3.175,2.138 Q 13.075,21 11,21 Z m 0,-2 q 3.35,0 5.675,-2.325 Q 19,14.35 19,11 19,7.65 16.675,5.325 14.35,3 11,3 7.65,3 5.325,5.325 3,7.65 3,11 3,14.35 5.325,16.675 7.65,19 11,19 Z m 0,-8 z"
-        class="fill-primary" />
+        class="primary" />
     </g>
   </g>
   <g id="checkbox-group" transform="translate(0,68)">
@@ -190,23 +280,23 @@
     </g>
     <g id="checkbox-checked-normal" transform="translate(22)">
       <path d="M 0,4 Q 0,0 4,0 h 14 q 4,0 4,4 v 14 q 0,4 -4,4 H 4 Q 0,22 0,18 Z" opacity="0" />
-      <path d="M 2,4 Q 2,2 4,2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 H 4 Q 2,20 2,18 Z" class="fill-primary" />
-      <path d="M 9.6,15.2 16.65,8.15 15.25,6.75 9.6,12.4 6.75,9.55 l -1.4,1.4 z" class="fill-on-primary" />
+      <path d="M 2,4 Q 2,2 4,2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 H 4 Q 2,20 2,18 Z" class="primary" />
+      <path d="M 9.6,15.2 16.65,8.15 15.25,6.75 9.6,12.4 6.75,9.55 l -1.4,1.4 z" class="on-primary" />
     </g>
     <g id="checkbox-checked-focused" transform="translate(22,22)">
-      <path d="M 0,4 Q 0,0 4,0 h 14 q 4,0 4,4 v 14 q 0,4 -4,4 H 4 Q 0,22 0,18 Z" class="fill-primary" opacity="0.1" />
-      <path d="M 2,4 Q 2,2 4,2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 H 4 Q 2,20 2,18 Z" class="fill-primary" />
-      <path d="M 9.6,15.2 16.65,8.15 15.25,6.75 9.6,12.4 6.75,9.55 l -1.4,1.4 z" class="fill-on-primary" />
+      <path d="M 0,4 Q 0,0 4,0 h 14 q 4,0 4,4 v 14 q 0,4 -4,4 H 4 Q 0,22 0,18 Z" class="primary" opacity="0.1" />
+      <path d="M 2,4 Q 2,2 4,2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 H 4 Q 2,20 2,18 Z" class="primary" />
+      <path d="M 9.6,15.2 16.65,8.15 15.25,6.75 9.6,12.4 6.75,9.55 l -1.4,1.4 z" class="on-primary" />
     </g>
     <g id="checkbox-tristate-normal" transform="translate(44)">
       <path d="M 0,4 Q 0,0 4,0 h 14 q 4,0 4,4 v 14 q 0,4 -4,4 H 4 Q 0,22 0,18 Z" opacity="0" />
-      <path d="M 2,4 Q 2,2 4,2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 H 4 Q 2,20 2,18 Z" class="fill-primary" />
-      <path d="M 6,12 H 16 V 10 H 6 Z" class="fill-on-primary" />
+      <path d="M 2,4 Q 2,2 4,2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 H 4 Q 2,20 2,18 Z" class="primary" />
+      <path d="M 6,12 H 16 V 10 H 6 Z" class="on-primary" />
     </g>
     <g id="checkbox-tristate-focused" transform="translate(44,22)">
-      <path d="M 0,4 Q 0,0 4,0 h 14 q 4,0 4,4 v 14 q 0,4 -4,4 H 4 Q 0,22 0,18 Z" class="fill-primary" opacity="0.1" />
-      <path d="M 2,4 Q 2,2 4,2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 H 4 Q 2,20 2,18 Z" class="fill-primary" />
-      <path d="M 6,12 H 16 V 10 H 6 Z" class="fill-on-primary" />
+      <path d="M 0,4 Q 0,0 4,0 h 14 q 4,0 4,4 v 14 q 0,4 -4,4 H 4 Q 0,22 0,18 Z" class="primary" opacity="0.1" />
+      <path d="M 2,4 Q 2,2 4,2 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 H 4 Q 2,20 2,18 Z" class="primary" />
+      <path d="M 6,12 H 16 V 10 H 6 Z" class="on-primary" />
     </g>
   </g>
   <g id="arrow-group" transform="translate(0,112)">
@@ -216,11 +306,11 @@
     </g>
     <g id="arrow-up-focused" transform="translate(24)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="m 1,17.5 11,-11 11,11 z" class="fill-primary" />
+      <path d="m 1,17.5 11,-11 11,11 z" class="primary" />
     </g>
     <g id="arrow-up-pressed" transform="translate(48)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="m 1,17.5 11,-11 11,11 z" class="fill-primary" />
+      <path d="m 1,17.5 11,-11 11,11 z" class="primary" />
     </g>
     <g id="arrow-up-disabled" transform="translate(72)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
@@ -232,11 +322,11 @@
     </g>
     <g id="arrow-down-focused" transform="translate(24,24)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 12,17.5 1,6.5 h 22 z" class="fill-primary" />
+      <path d="M 12,17.5 1,6.5 h 22 z" class="primary" />
     </g>
     <g id="arrow-down-pressed" transform="translate(48,24)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 12,17.5 1,6.5 h 22 z" class="fill-primary" />
+      <path d="M 12,17.5 1,6.5 h 22 z" class="primary" />
     </g>
     <g id="arrow-down-disabled" transform="translate(72,24)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
@@ -250,12 +340,12 @@
     <g id="arrow-plus-focused" transform="translate(24,48)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
       <path d="M 10.429,13.571 H 1 v -3.143 h 9.429 V 1 h 3.143 v 9.429 H 23 v 3.143 H 13.571 V 23 h -3.143 z"
-        class="fill-primary" />
+        class="primary" />
     </g>
     <g id="arrow-plus-pressed" transform="translate(48,48)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
       <path d="M 10.429,13.571 H 1 v -3.143 h 9.429 V 1 h 3.143 v 9.429 H 23 v 3.143 H 13.571 V 23 h -3.143 z"
-        class="fill-primary" />
+        class="primary" />
     </g>
     <g id="arrow-plus-disabled" transform="translate(72,48)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
@@ -270,12 +360,12 @@
     <g id="arrow-left-focused" transform="translate(120)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
       <path d="M 9.25,20.25 1,12 9.25,3.75 11.175,5.744 6.294,10.625 H 23 v 2.75 H 6.294 l 4.881,4.881 z"
-        class="fill-primary" />
+        class="primary" />
     </g>
     <g id="arrow-left-pressed" transform="translate(144)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
       <path d="M 9.25,20.25 1,12 9.25,3.75 11.175,5.744 6.294,10.625 H 23 v 2.75 H 6.294 l 4.881,4.881 z"
-        class="fill-primary" />
+        class="primary" />
     </g>
     <g id="arrow-left-disabled" transform="translate(168)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
@@ -290,12 +380,12 @@
     <g id="arrow-right-focused" transform="translate(120,24)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
       <path d="m 14.75,20.25 -1.925,-1.994 4.881,-4.881 H 1 v -2.75 H 17.706 L 12.825,5.744 14.75,3.75 23,12 Z"
-        class="fill-primary" />
+        class="primary" />
     </g>
     <g id="arrow-right-pressed" transform="translate(144,24)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
       <path d="m 14.75,20.25 -1.925,-1.994 4.881,-4.881 H 1 v -2.75 H 17.706 L 12.825,5.744 14.75,3.75 23,12 Z"
-        class="fill-primary" />
+        class="primary" />
     </g>
     <g id="arrow-right-disabled" transform="translate(168,24)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
@@ -308,11 +398,11 @@
     </g>
     <g id="arrow-minus-focused" transform="translate(120,48)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 0.999,13.571 V 10.428 H 23 v 3.143 z" class="fill-primary" />
+      <path d="M 0.999,13.571 V 10.428 H 23 v 3.143 z" class="primary" />
     </g>
     <g id="arrow-minus-pressed" transform="translate(144,48)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 0.999,13.571 V 10.428 H 23 v 3.143 z" class="fill-primary" />
+      <path d="M 0.999,13.571 V 10.428 H 23 v 3.143 z" class="primary" />
     </g>
     <g id="arrow-minus-disabled" transform="translate(168,48)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
@@ -388,68 +478,10 @@
     <rect id="menu-shadow-hint-left" width="2" height="1" x="0" y="13.5" fill="#008080" transform="translate(28)" />
     <rect id="menu-shadow-hint-right" width="2" height="1" x="26" y="13.5" fill="#008080" transform="translate(28)" />
     <rect id="menu-shadow-hint-bottom" width="1" height="4" x="13.5" y="26" fill="#008080" transform="translate(28)" />
+    <rect id="menuitem-toggled" width="30" height="10" x="56" y="10" class="fill-secondary-container" />
+    <g id="menuitem-pressed" transform="translate(56,0)">
+      <rect width="30" height="10" x="0" y="0" class="fill-secondary-container" />
+      <rect width="30" height="10" x="0" y="0" class="fill-on-surface" opacity="0.08" />
+    </g>
   </g>
-  <!-- 
-  <path id="button-normal-topleft" d="M 0,8 q 0,-8 8,-8 v 8 z" class="fill-surface-container-low" />
-  <rect id="button-normal-top" width="8" height="8" x="8" y="0" class="fill-surface-container-low" />
-  <path id="button-normal-topright" d="M 24,8 q 0,-8 -8,-8 v 8 z" class="fill-surface-container-low" />
-  <rect id="button-normal-left" width="8" height="8" x="0" y="8" class="fill-surface-container-low" />
-  <rect id="button-normal" width="8" height="8" x="8" y="8" class="fill-surface-container-low" />
-  <rect id="button-normal-right" width="8" height="8" x="16" y="8" class="fill-surface-container-low" />
-  <path id="button-normal-bottomleft" d="M 0,16 q 0,8 8,8 v -8 z" class="fill-surface-container-low" />
-  <rect id="button-normal-bottom" width="8" height="8" x="8" y="16" class="fill-surface-container-low" />
-  <path id="button-normal-bottomright" d="M 24,16 q 0,8 -8,8 v -8 z" class="fill-surface-container-low" /> 
-  -->
-  <rect id="menuitem-toggled" width="30" height="10" x="0" y="10" class="fill-secondary-container" />
-  <g id="menuitem-pressed">
-    <rect width="30" height="10" x="0" y="10" class="fill-secondary-container" />
-    <rect width="30" height="10" x="0" y="0" class="fill-on-surface" />
-  </g>
-  <!-- 
-  id="menuitem-separator"
-  id="menuitem-tearoff-normal"
-  id="menuitem-tearoff-focused"
-  -->
-  <!-- 
-  id="tabframe-normal-right"
-  id="tabframe-normal-left"
-  id="tabframe-normal-bottom"
-  id="tabframe-normal-top"
-  id="tabframe-normal-topright"
-  id="tabframe-normal-bottomleft"
-  id="tabframe-normal-bottomright"
-  id="tabframe-normal-topleft"
-  id="tab-close-normal"
-  id="tab-normal-top"
-  id="tab-normal-left"
-  id="tab-normal-topleft"
-  id="tab-normal-bottom"
-  id="tab-normal-bottomleft"
-  id="tab-normal-bottomright"
-  id="tab-normal-topright"
-  id="tab-normal-right"
-  id="tab-normal"
-  id="tab-focused-top"  
-  id="tab-focused-left"  
-  id="tab-focused-topleft"  
-  id="tab-focused-bottom"  
-  id="tab-focused-bottomleft" 
-  id="tab-focused-bottomright" 
-  id="tab-focused-topright"  
-  id="tab-focused-right"  
-  id="tab-focused"
-  id="tab-toggled-topleft"
-  id="tab-toggled-topright"
-  id="tab-toggled-top"
-  id="tab-toggled-bottom"
-  id="tab-toggled-bottomleft"
-  id="tab-toggled-bottomright"
-  id="tab-toggled"
-  id="tab-toggled-left"
-  id="tab-toggled-right"
-  id="tab-close-pressed"
-  id="tab-close-focused"
-  id="tab-close-disabled"
-  id="tab-tear"
-  -->
 </svg>
