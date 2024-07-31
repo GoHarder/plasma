@@ -1,7 +1,6 @@
 [%General]
-author=Tsu Jan
-comment=A theme inspired by Enlightenment
-comment[eo]=Etoso inspirita de Enlightenment
+author=Gregory Harder
+comment=Official Go Harder theme for Kvantum
 respect_DE=true
 x11drag=true
 alt_mnemonic=true

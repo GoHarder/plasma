@@ -400,12 +400,56 @@
   <rect id="button-normal-bottom" width="8" height="8" x="8" y="16" class="fill-surface-container-low" />
   <path id="button-normal-bottomright" d="M 24,16 q 0,8 -8,8 v -8 z" class="fill-surface-container-low" /> 
   -->
-  <!-- <rect id="menuitem-pressed" width="30" height="10" x="0" y="0" class="fill-secondary-container" /> -->
-  <rect id="menuitem-pressed" width="30" height="10" x="0" y="0" fill="#800000" />
-  <rect id="menuitem-toggled" width="30" height="10" x="0" y="10" fill="#008080" />
+  <rect id="menuitem-toggled" width="30" height="10" x="0" y="10" class="fill-secondary-container" />
+  <g id="menuitem-pressed">
+    <rect width="30" height="10" x="0" y="10" class="fill-secondary-container" />
+    <rect width="30" height="10" x="0" y="0" class="fill-on-surface" />
+  </g>
   <!-- 
   id="menuitem-separator"
   id="menuitem-tearoff-normal"
   id="menuitem-tearoff-focused"
+  -->
+  <!-- 
+  id="tabframe-normal-right"
+  id="tabframe-normal-left"
+  id="tabframe-normal-bottom"
+  id="tabframe-normal-top"
+  id="tabframe-normal-topright"
+  id="tabframe-normal-bottomleft"
+  id="tabframe-normal-bottomright"
+  id="tabframe-normal-topleft"
+  id="tab-close-normal"
+  id="tab-normal-top"
+  id="tab-normal-left"
+  id="tab-normal-topleft"
+  id="tab-normal-bottom"
+  id="tab-normal-bottomleft"
+  id="tab-normal-bottomright"
+  id="tab-normal-topright"
+  id="tab-normal-right"
+  id="tab-normal"
+  id="tab-focused-top"  
+  id="tab-focused-left"  
+  id="tab-focused-topleft"  
+  id="tab-focused-bottom"  
+  id="tab-focused-bottomleft" 
+  id="tab-focused-bottomright" 
+  id="tab-focused-topright"  
+  id="tab-focused-right"  
+  id="tab-focused"
+  id="tab-toggled-topleft"
+  id="tab-toggled-topright"
+  id="tab-toggled-top"
+  id="tab-toggled-bottom"
+  id="tab-toggled-bottomleft"
+  id="tab-toggled-bottomright"
+  id="tab-toggled"
+  id="tab-toggled-left"
+  id="tab-toggled-right"
+  id="tab-close-pressed"
+  id="tab-close-focused"
+  id="tab-close-disabled"
+  id="tab-tear"
   -->
 </svg>
