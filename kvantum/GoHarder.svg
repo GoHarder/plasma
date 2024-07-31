@@ -1,6 +1,9 @@
 <svg height="266" width="192" viewBox="0 0 192 266" id="svg1" xmlns="http://www.w3.org/2000/svg">
   <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" />
   <defs>
+    <!--
+    MARK: Style
+    -->
     <style>
       .primary {
         fill: #95ccff;
@@ -38,6 +41,29 @@
         fill: #8c9198;
       }
     </style>
+    <!--
+    MARK: Shapes
+    -->
+    <path id="topleft-4" d="M 0,4 q 0,-4 4,-4 v 4 z" />
+    <rect id="top-4" width="16" height="4" x="4" y="0" />
+    <path id="topright-4" d="M 24,4 q 0,-4 -4,-4 v 4 z" />
+    <rect id="left-4" width="4" height="16" x="0" y="4" />
+    <rect id="center-4" width="16" height="16" x="4" y="4" />
+    <rect id="right-4" width="4" height="16" x="20" y="4" />
+    <path id="bottomleft-4" d="m 0,20 q 0,4 4,4 v -4 z" />
+    <rect id="bottom-4" width="16" height="4" x="4" y="20" />
+    <path id="bottomright-4" d="m 24,20 q 0,4 -4,4 v -4 z" />
+    <path id="maximize-icon-24" d="M 2,20 V 4 H 22 V 20 Z M 4,18 H 20 V 8 H 4 Z" />
+    <path id="restore-icon-24"
+      d="M 2,22 V 9 H 6 V 2 h 16 v 13 h -4 v 7 z M 4,20 H 16 V 13 H 4 Z m 14,-7 h 2 V 6 H 8 v 3 h 10 z" />
+    <path id="minimize-icon-24" d="m 4,13 v -2 h 16 v 2 z" />
+    <path id="close-icon-24"
+      d="M 6.4,19 5,17.6 10.6,12 5,6.4 6.4,5 12,10.6 17.6,5 19,6.4 13.4,12 19,17.6 17.6,19 12,13.4 Z" />
+    <path id="shade-icon-24"
+      d="M 4,5 V 3 h 16 v 2 z m 7,16 V 10.8 L 8.4,13.4 7,12 12,7 17,12 15.6,13.4 13,10.8 V 21 Z" />
+    <!--
+    MARK: Gradients
+    -->
     <linearGradient id="menu-shadow-before">
       <stop id="stop1" stop-color="#000000" stop-opacity="1" offset="0.66" />
       <stop id="stop2" stop-color="#000000" stop-opacity="0" offset="1" />
@@ -64,111 +90,103 @@
     <radialGradient xlink:href="#menu-shadow-after" id="msa-tr" cx="22" cy="8" r="6" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#menu-shadow-after" id="msa-bl" cx="6" cy="24" r="6" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#menu-shadow-after" id="msa-br" cx="22" cy="24" r="6" gradientUnits="userSpaceOnUse" />
-    <radialGradient inkscape:collect="always" xlink:href="#menu-shadow-after" id="radialGradient88"
-      gradientUnits="userSpaceOnUse" cx="6" cy="8" r="6" />
-    <radialGradient inkscape:collect="always" xlink:href="#menu-shadow-after" id="radialGradient89"
-      gradientUnits="userSpaceOnUse" cx="22" cy="8" r="6" />
-    <linearGradient inkscape:collect="always" xlink:href="#menu-shadow-after" id="linearGradient89"
-      gradientUnits="userSpaceOnUse" x1="6" y1="16" x2="0" y2="16" />
-    <linearGradient inkscape:collect="always" xlink:href="#menu-shadow-after" id="linearGradient90"
-      gradientUnits="userSpaceOnUse" x1="22" y1="16" x2="28" y2="16" />
   </defs>
   <g id="button-group">
-    <path id="button-normal-topleft" d="M 0,4 Q 0,0 4,0 v 4 z" class="surface-container-highest" />
-    <rect id="button-normal-top" width="16" height="4" x="4" y="0" class="surface-container-highest" />
-    <path id="button-normal-topright" d="M 24,4 Q 24,0 20,0 v 4 z" class="surface-container-highest" />
-    <rect id="button-normal-left" width="4" height="16" x="0" y="4" class="surface-container-highest" />
-    <rect id="button-normal" width="16" height="16" x="4" y="4" class="surface-container-highest" />
-    <rect id="button-normal-right" width="4" height="16" x="20" y="4" class="surface-container-highest" />
-    <path id="button-normal-bottomleft" d="m 0,20 q 0,4 4,4 v -4 z" class="surface-container-highest" />
-    <rect id="button-normal-bottom" width="16" height="4" x="4" y="20" class="surface-container-highest" />
-    <path id="button-normal-bottomright" d="m 24,20 q 0,4 -4,4 v -4 z" class="surface-container-highest" />
+    <use id="button-normal-topleft" href="#topleft-4" class="surface-container-highest" />
+    <use id="button-normal-top" href="#top-4" class="surface-container-highest" />
+    <use id="button-normal-topright" href="#topright-4" class="surface-container-highest" />
+    <use id="button-normal-left" href="#left-4" class="surface-container-highest" />
+    <use id="button-normal" href="#center-4" class="surface-container-highest" />
+    <use id="button-normal-right" href="#right-4" class="surface-container-highest" />
+    <use id="button-normal-bottomleft" href="#bottomleft-4" class="surface-container-highest" />
+    <use id="button-normal-bottom" href="#bottom-4" class="surface-container-highest" />
+    <use id="button-normal-bottomright" href="#bottomright-4" class="surface-container-highest" />
     <g id="button-focused-topleft" transform="translate(24)">
-      <path d="M 0,4 Q 0,0 4,0 v 4 z" class="surface-container-highest" />
-      <path d="M 0,4 Q 0,0 4,0 v 4 z" class="primary" opacity="0.08" />
+      <use href="#topleft-4" class="surface-container-highest" />
+      <use href="#topleft-4" class="primary" opacity="0.08" />
     </g>
     <g id="button-focused-top" transform="translate(24)">
-      <rect width="16" height="4" x="4" y="0" class="surface-container-highest" />
-      <rect width="16" height="4" x="4" y="0" class="primary" opacity="0.08" />
+      <use href="#top-4" class="surface-container-highest" />
+      <use href="#top-4" class="primary" opacity="0.08" />
     </g>
     <g id="button-focused-topright" transform="translate(24)">
-      <path d="M 24,4 Q 24,0 20,0 v 4 z" class="surface-container-highest" />
-      <path d="M 24,4 Q 24,0 20,0 v 4 z" class="primary" opacity="0.08" />
+      <use href="#topright-4" class="surface-container-highest" />
+      <use href="#topright-4" class="primary" opacity="0.08" />
     </g>
     <g id="button-focused-left" transform="translate(24)">
-      <rect width="4" height="16" x="0" y="4" class="surface-container-highest" />
-      <rect width="4" height="16" x="0" y="4" class="primary" opacity="0.08" />
+      <use href="#left-4" class="surface-container-highest" />
+      <use href="#left-4" class="primary" opacity="0.08" />
     </g>
     <g id="button-focused" transform="translate(24)">
-      <rect width="16" height="16" x="4" y="4" class="surface-container-highest" />
-      <rect width="16" height="16" x="4" y="4" class="primary" opacity="0.08" />
+      <use href="#center-4" class="surface-container-highest" />
+      <use href="#center-4" class="primary" opacity="0.08" />
     </g>
     <g id="button-focused-right" transform="translate(24)">
-      <rect width="4" height="16" x="20" y="4" class="surface-container-highest" />
-      <rect width="4" height="16" x="20" y="4" class="primary" opacity="0.08" />
+      <use href="#right-4" class="surface-container-highest" />
+      <use href="#right-4" class="primary" opacity="0.08" />
     </g>
     <g id="button-focused-bottomleft" transform="translate(24)">
-      <path d="m 0,20 q 0,4 4,4 v -4 z" class="surface-container-highest" />
-      <path d="m 0,20 q 0,4 4,4 v -4 z" class="primary" opacity="0.08" />
+      <use href="#bottomleft-4" class="surface-container-highest" />
+      <use href="#bottomleft-4" class="primary" opacity="0.08" />
     </g>
     <g id="button-focused-bottom" transform="translate(24)">
-      <rect width="16" height="4" x="4" y="20" class="surface-container-highest" />
-      <rect width="16" height="4" x="4" y="20" class="primary" opacity="0.08" />
+      <use href="#bottom-4" class="surface-container-highest" />
+      <use href="#bottom-4" class="primary" opacity="0.08" />
     </g>
     <g id="button-focused-bottomright" transform="translate(24)">
-      <path d="m 24,20 q 0,4 -4,4 v -4 z" class="surface-container-highest" />
-      <path d="m 24,20 q 0,4 -4,4 v -4 z" class="primary" opacity="0.08" />
+      <use href="#bottomright-4" class="surface-container-highest" />
+      <use href="#bottomright-4" class="primary" opacity="0.08" />
     </g>
     <g id="button-pressed-topleft" transform="translate(48)">
-      <path d="M 0,4 Q 0,0 4,0 v 4 z" class="surface-container-highest" />
-      <path d="M 0,4 Q 0,0 4,0 v 4 z" class="primary" opacity="0.1" />
+      <use href="#topleft-4" class="surface-container-highest" />
+      <use href="#topleft-4" class="primary" opacity="0.1" />
     </g>
     <g id="button-pressed-top" transform="translate(48)">
-      <rect width="16" height="4" x="4" y="0" class="surface-container-highest" />
-      <rect width="16" height="4" x="4" y="0" class="primary" opacity="0.1" />
+      <use href="#top-4" class="surface-container-highest" />
+      <use href="#top-4" class="primary" opacity="0.1" />
     </g>
     <g id="button-pressed-topright" transform="translate(48)">
-      <path d="M 24,4 Q 24,0 20,0 v 4 z" class="surface-container-highest" />
-      <path d="M 24,4 Q 24,0 20,0 v 4 z" class="primary" opacity="0.1" />
+      <use href="#topright-4" class="surface-container-highest" />
+      <use href="#topright-4" class="primary" opacity="0.1" />
     </g>
     <g id="button-pressed-left" transform="translate(48)">
-      <rect width="4" height="16" x="0" y="4" class="surface-container-highest" />
-      <rect width="4" height="16" x="0" y="4" class="primary" opacity="0.1" />
+      <use href="#left-4" class="surface-container-highest" />
+      <use href="#left-4" class="primary" opacity="0.1" />
     </g>
     <g id="button-pressed" transform="translate(48)">
-      <rect width="16" height="16" x="4" y="4" class="surface-container-highest" />
-      <rect width="16" height="16" x="4" y="4" class="primary" opacity="0.1" />
+      <use href="#center-4" class="surface-container-highest" />
+      <use href="#center-4" class="primary" opacity="0.1" />
     </g>
     <g id="button-pressed-right" transform="translate(48)">
-      <rect width="4" height="16" x="20" y="4" class="surface-container-highest" />
-      <rect width="4" height="16" x="20" y="4" class="primary" opacity="0.1" />
+      <use href="#right-4" class="surface-container-highest" />
+      <use href="#right-4" class="primary" opacity="0.1" />
     </g>
     <g id="button-pressed-bottomleft" transform="translate(48)">
-      <path d="m 0,20 q 0,4 4,4 v -4 z" class="surface-container-highest" />
-      <path d="m 0,20 q 0,4 4,4 v -4 z" class="primary" opacity="0.1" />
+      <use href="#bottomleft-4" class="surface-container-highest" />
+      <use href="#bottomleft-4" class="primary" opacity="0.1" />
     </g>
     <g id="button-pressed-bottom" transform="translate(48)">
-      <rect width="16" height="4" x="4" y="20" class="surface-container-highest" />
-      <rect width="16" height="4" x="4" y="20" class="primary" opacity="0.1" />
+      <use href="#bottom-4" class="surface-container-highest" />
+      <use href="#bottom-4" class="primary" opacity="0.1" />
     </g>
     <g id="button-pressed-bottomright" transform="translate(48)">
-      <path d="m 24,20 q 0,4 -4,4 v -4 z" class="surface-container-highest" />
-      <path d="m 24,20 q 0,4 -4,4 v -4 z" class="primary" opacity="0.1" />
+      <use href="#bottomright-4" class="surface-container-highest" />
+      <use href="#bottomright-4" class="primary" opacity="0.1" />
     </g>
-    <path id="button-toggled-topleft" d="M 0,4 Q 0,0 4,0 v 4 z" class="primary" transform="translate(72)" />
-    <rect id="button-toggled-top" width="16" height="4" x="4" y="0" class="primary" transform="translate(72)" />
-    <path id="button-toggled-topright" d="M 24,4 Q 24,0 20,0 v 4 z" class="primary" transform="translate(72)" />
-    <rect id="button-toggled-left" width="4" height="16" x="0" y="4" class="primary" transform="translate(72)" />
-    <rect id="button-toggled" width="16" height="16" x="4" y="4" class="primary" transform="translate(72)" />
-    <rect id="button-toggled-right" width="4" height="16" x="20" y="4" class="primary" transform="translate(72)" />
-    <path id="button-toggled-bottomleft" d="m 0,20 q 0,4 4,4 v -4 z" class="primary" transform="translate(72)" />
-    <rect id="button-toggled-bottom" width="16" height="4" x="4" y="20" class="primary" transform="translate(72)" />
-    <path id="button-toggled-bottomright" d="m 24,20 q 0,4 -4,4 v -4 z" class="primary" transform="translate(72)" />
+    <use id="button-toggled-topleft" href="#topleft-4" class="primary" transform="translate(72)" />
+    <use id="button-toggled-top" href="#top-4" class="primary" transform="translate(72)" />
+    <use id="button-toggled-topright" href="#topright-4" class="primary" transform="translate(72)" />
+    <use id="button-toggled-left" href="#left-4" class="primary" transform="translate(72)" />
+    <use id="button-toggled" href="#center-4" class="primary" transform="translate(72)" />
+    <use id="button-toggled-right" href="#right-4" class="primary" transform="translate(72)" />
+    <use id="button-toggled-bottomleft" href="#bottomleft-4" class="primary" transform="translate(72)" />
+    <use id="button-toggled-bottom" href="#bottom-4" class="primary" transform="translate(72)" />
+    <use id="button-toggled-bottomright" href="#bottomright-4" class="primary" transform="translate(72)" />
     <rect id="button-default-indicator" width="12" height="12" x="0" y="0" opacity="0" transform="translate(96)" />
   </g>
   <g id="toolbar-group" transform="translate(108)">
     <rect id="toolbar-normal-topleft" width="4" height="4" x="0" y="0" fill="#008080" />
-    <rect id="toolbar-normal-top" width="16" height="4" x="4" y="0" fill="#008080" />
+    <use id="toolbar-normal-top" href="#top-4" fill="#008080" />
     <rect id="toolbar-normal-topright" width="4" height="4" x="20" y="0" fill="#008080" />
     <rect id="toolbar-normal-left" width="4" height="16" x="0" y="4" fill="#008080" />
     <rect id="toolbar-normal" width="16" height="16" x="4" y="4" fill="#008080" />
@@ -388,43 +406,35 @@
     </g>
     <g id="arrow-left-normal" transform="translate(96)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 9.25,20.25 1,12 9.25,3.75 11.175,5.744 6.294,10.625 H 23 v 2.75 H 6.294 l 4.881,4.881 z"
-        class="on-surface-variant" />
+      <path d="m 16.113,22 -10,-10 10,-10 1.775,1.775 -8.225,8.225 8.225,8.225 z" class="on-surface-variant" />
     </g>
     <g id="arrow-left-focused" transform="translate(120)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 9.25,20.25 1,12 9.25,3.75 11.175,5.744 6.294,10.625 H 23 v 2.75 H 6.294 l 4.881,4.881 z"
-        class="primary" />
+      <path d="m 16.113,22 -10,-10 10,-10 1.775,1.775 -8.225,8.225 8.225,8.225 z" class="primary" />
     </g>
     <g id="arrow-left-pressed" transform="translate(144)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 9.25,20.25 1,12 9.25,3.75 11.175,5.744 6.294,10.625 H 23 v 2.75 H 6.294 l 4.881,4.881 z"
-        class="primary" />
+      <path d="m 16.113,22 -10,-10 10,-10 1.775,1.775 -8.225,8.225 8.225,8.225 z" class="primary" />
     </g>
     <g id="arrow-left-disabled" transform="translate(168)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 9.25,20.25 1,12 9.25,3.75 11.175,5.744 6.294,10.625 H 23 v 2.75 H 6.294 l 4.881,4.881 z"
-        class="on-surface" opacity="0.38" />
+      <path d="m 16.113,22 -10,-10 10,-10 1.775,1.775 -8.225,8.225 8.225,8.225 z" class="on-surface" opacity="0.38" />
     </g>
     <g id="arrow-right-normal" transform="translate(96,24)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="m 14.75,20.25 -1.925,-1.994 4.881,-4.881 H 1 v -2.75 H 17.706 L 12.825,5.744 14.75,3.75 23,12 Z"
-        class="on-surface-variant" />
+      <path d="M 7.888,22 6.113,20.225 14.338,12 6.113,3.775 7.888,2 l 10,10 z" class="on-surface-variant" />
     </g>
     <g id="arrow-right-focused" transform="translate(120,24)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="m 14.75,20.25 -1.925,-1.994 4.881,-4.881 H 1 v -2.75 H 17.706 L 12.825,5.744 14.75,3.75 23,12 Z"
-        class="primary" />
+      <path d="M 7.888,22 6.113,20.225 14.338,12 6.113,3.775 7.888,2 l 10,10 z" class="primary" />
     </g>
     <g id="arrow-right-pressed" transform="translate(144,24)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="m 14.75,20.25 -1.925,-1.994 4.881,-4.881 H 1 v -2.75 H 17.706 L 12.825,5.744 14.75,3.75 23,12 Z"
-        class="primary" />
+      <path d="M 7.888,22 6.113,20.225 14.338,12 6.113,3.775 7.888,2 l 10,10 z" class="primary" />
     </g>
     <g id="arrow-right-disabled" transform="translate(168,24)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="m 14.75,20.25 -1.925,-1.994 4.881,-4.881 H 1 v -2.75 H 17.706 L 12.825,5.744 14.75,3.75 23,12 Z"
-        class="on-surface" opacity="0.38" />
+      <path d="M 7.888,22 6.113,20.225 14.338,12 6.113,3.775 7.888,2 l 10,10 z" class="on-surface" opacity="0.38" />
     </g>
     <g id="arrow-minus-normal" transform="translate(96,48)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
@@ -447,7 +457,7 @@
     <g id="menu-shadow-topleft" transform="translate(28)">
       <rect width="6" height="6" x="0" y="0" opacity="0" />
       <path d="M 5.754,2.004 C 2.638,2.07 0.787,3.402 0.203,6 H 2 C 2,3.417 3.251,2.085 5.754,2.004 Z"
-        fill="url(#msa-tl)" opacity="0.15" style="fill:url(#radialGradient88)" />
+        fill="url(#msa-tl)" opacity="0.15" />
       <path d="M 2,6 Q 2,2 6,2 v 4 z" class="fill-surface-container" />
     </g>
     <g id="menu-shadow-top" transform="translate(28)">
@@ -457,19 +467,19 @@
     <g id="menu-shadow-topright" transform="translate(28)">
       <rect width="6" height="6" x="22" y="0" opacity="0" />
       <path d="M 22.246,2.004 C 24.749,2.085 26,3.417 26,6 h 1.797 C 27.213,3.402 25.362,2.07 22.246,2.004 Z"
-        fill="url(#msa-tr)" opacity="0.15" style="fill:url(#radialGradient89)" />
+        fill="url(#msa-tr)" opacity="0.15" />
       <path d="M 26,6 Q 26,2 22,2 v 4 z" class="fill-surface-container" />
     </g>
     <g id="menu-shadow-left" transform="translate(28)">
       <path d="M 0.203,6 C 0.068,6.6 0,7.266 0,8 H 2 V 6 Z" fill="url(#msa-tl)" opacity="0.15"
         style="fill:url(#msa-tl)" />
-      <rect width="2" height="14" x="0" y="8" fill="url(#msa-l)" opacity="0.15" style="fill:url(#linearGradient89)" />
+      <rect width="2" height="14" x="0" y="8" fill="url(#msa-l)" opacity="0.15" />
       <rect width="4" height="16" x="2" y="6" class="fill-surface-container" />
     </g>
     <g id="menu-shadow-right" transform="translate(28)">
-      <path id="msa-r-1" d="m 26,6 v 2 h 2 C 28,7.266 27.932,6.6 27.797,6 Z" fill="url(#msa-tr)" opacity="0.15"
+      <path d="m 26,6 v 2 h 2 C 28,7.266 27.932,6.6 27.797,6 Z" fill="url(#msa-tr)" opacity="0.15"
         style="fill:url(#msa-tr)" />
-      <rect width="2" height="14" x="26" y="8" fill="url(#msa-r)" opacity="0.15" style="fill:url(#linearGradient90)" />
+      <rect width="2" height="14" x="26" y="8" fill="url(#msa-r)" opacity="0.15" />
       <rect width="4" height="16" x="22" y="6" class="fill-surface-container" />
     </g>
     <g id="menu-shadow-bottomleft" transform="translate(28)">
@@ -521,87 +531,114 @@
   <g id="mdi-group" transform="translate(0,170)">
     <g id="mdi-maximize-normal">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 2,20 V 4 H 22 V 20 Z M 4,18 H 20 V 8 H 4 Z" />
+      <use href="#maximize-icon-24" />
     </g>
     <g id="mdi-maximize-focused" transform="translate(0,24)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 2,20 V 4 H 22 V 20 Z M 4,18 H 20 V 8 H 4 Z" />
+      <use href="#maximize-icon-24" />
     </g>
     <g id="mdi-maximize-pressed" transform="translate(0,48)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 2,20 V 4 H 22 V 20 Z M 4,18 H 20 V 8 H 4 Z" />
+      <use href="#maximize-icon-24" />
     </g>
     <g id="mdi-maximize-disabled" transform="translate(0,72)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 2,20 V 4 H 22 V 20 Z M 4,18 H 20 V 8 H 4 Z" />
+      <use href="#maximize-icon-24" />
     </g>
     <g id="mdi-restore-normal" transform="translate(24)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 2,22 V 9 H 6 V 2 h 16 v 13 h -4 v 7 z M 4,20 H 16 V 13 H 4 Z m 14,-7 h 2 V 6 H 8 v 3 h 10 z" />
+      <use href="#restore-icon-24" />
     </g>
     <g id="mdi-restore-focused" transform="translate(24,24)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 2,22 V 9 H 6 V 2 h 16 v 13 h -4 v 7 z M 4,20 H 16 V 13 H 4 Z m 14,-7 h 2 V 6 H 8 v 3 h 10 z" />
+      <use href="#restore-icon-24" />
     </g>
     <g id="mdi-restore-pressed" transform="translate(24,48)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 2,22 V 9 H 6 V 2 h 16 v 13 h -4 v 7 z M 4,20 H 16 V 13 H 4 Z m 14,-7 h 2 V 6 H 8 v 3 h 10 z" />
+      <use href="#restore-icon-24" />
     </g>
     <g id="mdi-restore-disabled" transform="translate(24,72)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 2,22 V 9 H 6 V 2 h 16 v 13 h -4 v 7 z M 4,20 H 16 V 13 H 4 Z m 14,-7 h 2 V 6 H 8 v 3 h 10 z" />
+      <use href="#restore-icon-24" />
     </g>
     <g id="mdi-minimize-normal" transform="translate(48)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="m 4,13 v -2 h 16 v 2 z" />
+      <use href="#minimize-icon-24" />
     </g>
     <g id="mdi-minimize-focused" transform="translate(48,24)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="m 4,13 v -2 h 16 v 2 z" />
+      <use href="#minimize-icon-24" />
     </g>
     <g id="mdi-minimize-pressed" transform="translate(48,48)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="m 4,13 v -2 h 16 v 2 z" />
+      <use href="#minimize-icon-24" />
     </g>
     <g id="mdi-minimize-disabled" transform="translate(48,72)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="m 4,13 v -2 h 16 v 2 z" />
+      <use href="#minimize-icon-24" />
     </g>
     <g id="mdi-close-normal" transform="translate(72)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 6.4,19 5,17.6 10.6,12 5,6.4 6.4,5 12,10.6 17.6,5 19,6.4 13.4,12 19,17.6 17.6,19 12,13.4 Z" />
+      <use href="#close-icon-24" />
     </g>
     <g id="mdi-close-focused" transform="translate(72,24)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 6.4,19 5,17.6 10.6,12 5,6.4 6.4,5 12,10.6 17.6,5 19,6.4 13.4,12 19,17.6 17.6,19 12,13.4 Z" />
+      <use href="#close-icon-24" />
     </g>
     <g id="mdi-close-pressed" transform="translate(72,48)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 6.4,19 5,17.6 10.6,12 5,6.4 6.4,5 12,10.6 17.6,5 19,6.4 13.4,12 19,17.6 17.6,19 12,13.4 Z" />
+      <use href="#close-icon-24" />
     </g>
     <g id="mdi-close-disabled" transform="translate(72,72)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 6.4,19 5,17.6 10.6,12 5,6.4 6.4,5 12,10.6 17.6,5 19,6.4 13.4,12 19,17.6 17.6,19 12,13.4 Z" />
+      <use href="#close-icon-24" />
     </g>
     <g id="mdi-shade-normal" transform="translate(96)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 4,5 V 3 h 16 v 2 z m 7,16 V 10.8 L 8.4,13.4 7,12 12,7 17,12 15.6,13.4 13,10.8 V 21 Z" />
+      <use href="#shade-icon-24" />
     </g>
     <g id="mdi-shade-focused" transform="translate(96,24)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 4,5 V 3 h 16 v 2 z m 7,16 V 10.8 L 8.4,13.4 7,12 12,7 17,12 15.6,13.4 13,10.8 V 21 Z" />
+      <use href="#shade-icon-24" />
     </g>
     <g id="mdi-shade-pressed" transform="translate(96,48)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 4,5 V 3 h 16 v 2 z m 7,16 V 10.8 L 8.4,13.4 7,12 12,7 17,12 15.6,13.4 13,10.8 V 21 Z" />
+      <use href="#shade-icon-24" />
     </g>
     <g id="mdi-shade-disabled" transform="translate(96,72)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="M 4,5 V 3 h 16 v 2 z m 7,16 V 10.8 L 8.4,13.4 7,12 12,7 17,12 15.6,13.4 13,10.8 V 21 Z" />
+      <use href="#shade-icon-24" />
     </g>
     <g id="mdi-menu-normal" transform="translate(120)">
       <rect width="24" height="24" x="0" y="0" opacity="0" />
-      <path d="m 3,18 v -2 h 18 v 2 z m 0,-5 v -2 h 18 v 2 z M 3,8 V 6 h 18 v 2 z" style="stroke-width:0.025" />
+      <path d="m 3,18 v -2 h 18 v 2 z m 0,-5 v -2 h 18 v 2 z M 3,8 V 6 h 18 v 2 z" />
     </g>
   </g>
+  <path id="itemview-focused-topleft" d="M 0,8 q 0,-8 8,-8 v 8 z" class="fill-secondary-container" />
+  <rect id="itemview-focused-top" width="8" height="8" x="8" y="0" class="fill-secondary-container" />
+  <path id="itemview-focused-topright" d="M 24,8 q 0,-8 -8,-8 v 8 z" class="fill-secondary-container" />
+  <rect id="itemview-focused-left" width="8" height="8" x="0" y="8" class="fill-secondary-container" />
+  <rect id="itemview-focused" width="8" height="8" x="8" y="8" class="fill-secondary-container" />
+  <rect id="itemview-focused-right" width="8" height="8" x="16" y="8" class="fill-secondary-container" />
+  <path id="itemview-focused-bottomright" d="M 0,16 q 0,8 8,8 v -8 z" class="fill-secondary-container" />
+  <rect id="itemview-focused-bottom" width="8" height="8" x="8" y="16" class="fill-secondary-container" />
+  <path id="itemview-focused-bottomleft" d="M 24,16 q 0,8 -8,8 v -8 z" class="fill-secondary-container" />
+  <path id="itemview-pressed-topleft" d="M 0,8 q 0,-8 8,-8 v 8 z" fill="#800000" transform="translate(24,0)" />
+  <rect id="itemview-pressed-top" width="8" height="8" x="8" y="0" fill="#800000" transform="translate(24,0)" />
+  <path id="itemview-pressed-topright" d="M 24,8 q 0,-8 -8,-8 v 8 z" fill="#800000" transform="translate(24,0)" />
+  <rect id="itemview-pressed-left" width="8" height="8" x="0" y="8" fill="#800000" transform="translate(24,0)" />
+  <rect id="itemview-pressed" width="8" height="8" x="8" y="8" fill="#800000" transform="translate(24,0)" />
+  <rect id="itemview-pressed-right" width="8" height="8" x="16" y="8" fill="#800000" transform="translate(24,0)" />
+  <path id="itemview-pressed-bottomright" d="M 0,16 q 0,8 8,8 v -8 z" fill="#800000" transform="translate(24,0)" />
+  <rect id="itemview-pressed-bottom" width="8" height="8" x="8" y="16" fill="#800000" transform="translate(24,0)" />
+  <path id="itemview-pressed-bottomleft" d="M 24,16 q 0,8 -8,8 v -8 z" fill="#800000" transform="translate(24,0)" />
+  <path id="itemview-toggled-topleft" d="M 0,8 q 0,-8 8,-8 v 8 z" fill="#008000" transform="translate(48,0)" />
+  <rect id="itemview-toggled-top" width="8" height="8" x="8" y="0" fill="#008000" transform="translate(48,0)" />
+  <path id="itemview-toggled-topright" d="M 24,8 q 0,-8 -8,-8 v 8 z" fill="#008000" transform="translate(48,0)" />
+  <rect id="itemview-toggled-left" width="8" height="8" x="0" y="8" fill="#008000" transform="translate(48,0)" />
+  <rect id="itemview-toggled" width="8" height="8" x="8" y="8" fill="#008000" transform="translate(48,0)" />
+  <rect id="itemview-toggled-right" width="8" height="8" x="16" y="8" fill="#008000" transform="translate(48,0)" />
+  <path id="itemview-toggled-bottomright" d="M 0,16 q 0,8 8,8 v -8 z" fill="#008000" transform="translate(48,0)" />
+  <rect id="itemview-toggled-bottom" width="8" height="8" x="8" y="16" fill="#008000" transform="translate(48,0)" />
+  <path id="itemview-toggled-bottomleft" d="M 24,16 q 0,8 -8,8 v -8 z" fill="#008000" transform="translate(48,0)" />
 </svg>
