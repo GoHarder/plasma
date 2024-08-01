@@ -53,6 +53,18 @@
     <path id="bottomleft-4" d="m 0,20 q 0,4 4,4 v -4 z" />
     <rect id="bottom-4" width="16" height="4" x="4" y="20" />
     <path id="bottomright-4" d="m 24,20 q 0,4 -4,4 v -4 z" />
+    <path id="topleft-8" d="M 0,8 q 0,-8 8,-8 v 8 z" />
+    <rect id="top-8" width="8" height="8" x="8" y="0" />
+    <path id="topright-8" d="M 24,8 q 0,-8 -8,-8 v 8 z" />
+    <rect id="left-8" width="8" height="8" x="0" y="8" />
+    <rect id="center-8" width="8" height="8" x="8" y="8" />
+    <rect id="right-8" width="8" height="8" x="16" y="8" />
+    <path id="bottomright-8" d="M 0,16 q 0,8 8,8 v -8 z" />
+    <rect id="bottom-8" width="8" height="8" x="8" y="16" />
+    <path id="bottomleft-8" d="M 24,16 q 0,8 -8,8 v -8 z" />
+    <!--
+    MARK: Icons
+    -->
     <path id="maximize-icon-24" d="M 2,20 V 4 H 22 V 20 Z M 4,18 H 20 V 8 H 4 Z" />
     <path id="restore-icon-24"
       d="M 2,22 V 9 H 6 V 2 h 16 v 13 h -4 v 7 z M 4,20 H 16 V 13 H 4 Z m 14,-7 h 2 V 6 H 8 v 3 h 10 z" />
@@ -92,96 +104,96 @@
     <radialGradient xlink:href="#menu-shadow-after" id="msa-br" cx="22" cy="24" r="6" gradientUnits="userSpaceOnUse" />
   </defs>
   <g id="button-group">
-    <use id="button-normal-topleft" href="#topleft-4" class="surface-container-highest" />
-    <use id="button-normal-top" href="#top-4" class="surface-container-highest" />
-    <use id="button-normal-topright" href="#topright-4" class="surface-container-highest" />
-    <use id="button-normal-left" href="#left-4" class="surface-container-highest" />
-    <use id="button-normal" href="#center-4" class="surface-container-highest" />
-    <use id="button-normal-right" href="#right-4" class="surface-container-highest" />
-    <use id="button-normal-bottomleft" href="#bottomleft-4" class="surface-container-highest" />
-    <use id="button-normal-bottom" href="#bottom-4" class="surface-container-highest" />
-    <use id="button-normal-bottomright" href="#bottomright-4" class="surface-container-highest" />
+    <use id="button-normal-topleft" href="#topleft-8" class="surface-container-highest" />
+    <use id="button-normal-top" href="#top-8" class="surface-container-highest" />
+    <use id="button-normal-topright" href="#topright-8" class="surface-container-highest" />
+    <use id="button-normal-left" href="#left-8" class="surface-container-highest" />
+    <use id="button-normal" href="#center-8" class="surface-container-highest" />
+    <use id="button-normal-right" href="#right-8" class="surface-container-highest" />
+    <use id="button-normal-bottomleft" href="#bottomleft-8" class="surface-container-highest" />
+    <use id="button-normal-bottom" href="#bottom-8" class="surface-container-highest" />
+    <use id="button-normal-bottomright" href="#bottomright-8" class="surface-container-highest" />
     <g id="button-focused-topleft" transform="translate(24)">
-      <use href="#topleft-4" class="surface-container-highest" />
-      <use href="#topleft-4" class="primary" opacity="0.08" />
+      <use href="#topleft-8" class="surface-container-highest" />
+      <use href="#topleft-8" class="primary" opacity="0.08" />
     </g>
     <g id="button-focused-top" transform="translate(24)">
-      <use href="#top-4" class="surface-container-highest" />
-      <use href="#top-4" class="primary" opacity="0.08" />
+      <use href="#top-8" class="surface-container-highest" />
+      <use href="#top-8" class="primary" opacity="0.08" />
     </g>
     <g id="button-focused-topright" transform="translate(24)">
-      <use href="#topright-4" class="surface-container-highest" />
-      <use href="#topright-4" class="primary" opacity="0.08" />
+      <use href="#topright-8" class="surface-container-highest" />
+      <use href="#topright-8" class="primary" opacity="0.08" />
     </g>
     <g id="button-focused-left" transform="translate(24)">
-      <use href="#left-4" class="surface-container-highest" />
-      <use href="#left-4" class="primary" opacity="0.08" />
+      <use href="#left-8" class="surface-container-highest" />
+      <use href="#left-8" class="primary" opacity="0.08" />
     </g>
     <g id="button-focused" transform="translate(24)">
-      <use href="#center-4" class="surface-container-highest" />
-      <use href="#center-4" class="primary" opacity="0.08" />
+      <use href="#center-8" class="surface-container-highest" />
+      <use href="#center-8" class="primary" opacity="0.08" />
     </g>
     <g id="button-focused-right" transform="translate(24)">
-      <use href="#right-4" class="surface-container-highest" />
-      <use href="#right-4" class="primary" opacity="0.08" />
+      <use href="#right-8" class="surface-container-highest" />
+      <use href="#right-8" class="primary" opacity="0.08" />
     </g>
     <g id="button-focused-bottomleft" transform="translate(24)">
-      <use href="#bottomleft-4" class="surface-container-highest" />
-      <use href="#bottomleft-4" class="primary" opacity="0.08" />
+      <use href="#bottomleft-8" class="surface-container-highest" />
+      <use href="#bottomleft-8" class="primary" opacity="0.08" />
     </g>
     <g id="button-focused-bottom" transform="translate(24)">
-      <use href="#bottom-4" class="surface-container-highest" />
-      <use href="#bottom-4" class="primary" opacity="0.08" />
+      <use href="#bottom-8" class="surface-container-highest" />
+      <use href="#bottom-8" class="primary" opacity="0.08" />
     </g>
     <g id="button-focused-bottomright" transform="translate(24)">
-      <use href="#bottomright-4" class="surface-container-highest" />
-      <use href="#bottomright-4" class="primary" opacity="0.08" />
+      <use href="#bottomright-8" class="surface-container-highest" />
+      <use href="#bottomright-8" class="primary" opacity="0.08" />
     </g>
     <g id="button-pressed-topleft" transform="translate(48)">
-      <use href="#topleft-4" class="surface-container-highest" />
-      <use href="#topleft-4" class="primary" opacity="0.1" />
+      <use href="#topleft-8" class="surface-container-highest" />
+      <use href="#topleft-8" class="primary" opacity="0.1" />
     </g>
     <g id="button-pressed-top" transform="translate(48)">
-      <use href="#top-4" class="surface-container-highest" />
-      <use href="#top-4" class="primary" opacity="0.1" />
+      <use href="#top-8" class="surface-container-highest" />
+      <use href="#top-8" class="primary" opacity="0.1" />
     </g>
     <g id="button-pressed-topright" transform="translate(48)">
-      <use href="#topright-4" class="surface-container-highest" />
-      <use href="#topright-4" class="primary" opacity="0.1" />
+      <use href="#topright-8" class="surface-container-highest" />
+      <use href="#topright-8" class="primary" opacity="0.1" />
     </g>
     <g id="button-pressed-left" transform="translate(48)">
-      <use href="#left-4" class="surface-container-highest" />
-      <use href="#left-4" class="primary" opacity="0.1" />
+      <use href="#left-8" class="surface-container-highest" />
+      <use href="#left-8" class="primary" opacity="0.1" />
     </g>
     <g id="button-pressed" transform="translate(48)">
-      <use href="#center-4" class="surface-container-highest" />
-      <use href="#center-4" class="primary" opacity="0.1" />
+      <use href="#center-8" class="surface-container-highest" />
+      <use href="#center-8" class="primary" opacity="0.1" />
     </g>
     <g id="button-pressed-right" transform="translate(48)">
-      <use href="#right-4" class="surface-container-highest" />
-      <use href="#right-4" class="primary" opacity="0.1" />
+      <use href="#right-8" class="surface-container-highest" />
+      <use href="#right-8" class="primary" opacity="0.1" />
     </g>
     <g id="button-pressed-bottomleft" transform="translate(48)">
-      <use href="#bottomleft-4" class="surface-container-highest" />
-      <use href="#bottomleft-4" class="primary" opacity="0.1" />
+      <use href="#bottomleft-8" class="surface-container-highest" />
+      <use href="#bottomleft-8" class="primary" opacity="0.1" />
     </g>
     <g id="button-pressed-bottom" transform="translate(48)">
-      <use href="#bottom-4" class="surface-container-highest" />
-      <use href="#bottom-4" class="primary" opacity="0.1" />
+      <use href="#bottom-8" class="surface-container-highest" />
+      <use href="#bottom-8" class="primary" opacity="0.1" />
     </g>
     <g id="button-pressed-bottomright" transform="translate(48)">
-      <use href="#bottomright-4" class="surface-container-highest" />
-      <use href="#bottomright-4" class="primary" opacity="0.1" />
+      <use href="#bottomright-8" class="surface-container-highest" />
+      <use href="#bottomright-8" class="primary" opacity="0.1" />
     </g>
-    <use id="button-toggled-topleft" href="#topleft-4" class="primary" transform="translate(72)" />
-    <use id="button-toggled-top" href="#top-4" class="primary" transform="translate(72)" />
-    <use id="button-toggled-topright" href="#topright-4" class="primary" transform="translate(72)" />
-    <use id="button-toggled-left" href="#left-4" class="primary" transform="translate(72)" />
-    <use id="button-toggled" href="#center-4" class="primary" transform="translate(72)" />
-    <use id="button-toggled-right" href="#right-4" class="primary" transform="translate(72)" />
-    <use id="button-toggled-bottomleft" href="#bottomleft-4" class="primary" transform="translate(72)" />
-    <use id="button-toggled-bottom" href="#bottom-4" class="primary" transform="translate(72)" />
-    <use id="button-toggled-bottomright" href="#bottomright-4" class="primary" transform="translate(72)" />
+    <use id="button-toggled-topleft" href="#topleft-8" class="primary" transform="translate(72)" />
+    <use id="button-toggled-top" href="#top-8" class="primary" transform="translate(72)" />
+    <use id="button-toggled-topright" href="#topright-8" class="primary" transform="translate(72)" />
+    <use id="button-toggled-left" href="#left-8" class="primary" transform="translate(72)" />
+    <use id="button-toggled" href="#center-8" class="primary" transform="translate(72)" />
+    <use id="button-toggled-right" href="#right-8" class="primary" transform="translate(72)" />
+    <use id="button-toggled-bottomleft" href="#bottomleft-8" class="primary" transform="translate(72)" />
+    <use id="button-toggled-bottom" href="#bottom-8" class="primary" transform="translate(72)" />
+    <use id="button-toggled-bottomright" href="#bottomright-8" class="primary" transform="translate(72)" />
     <rect id="button-default-indicator" width="12" height="12" x="0" y="0" opacity="0" transform="translate(96)" />
   </g>
   <g id="toolbar-group" transform="translate(108)">
@@ -614,7 +626,7 @@
       <path d="m 3,18 v -2 h 18 v 2 z m 0,-5 v -2 h 18 v 2 z M 3,8 V 6 h 18 v 2 z" />
     </g>
   </g>
-  <path id="itemview-focused-topleft" d="M 0,8 q 0,-8 8,-8 v 8 z" class="fill-secondary-container" />
+  <!-- <path id="itemview-focused-topleft" d="M 0,8 q 0,-8 8,-8 v 8 z" class="fill-secondary-container" />
   <rect id="itemview-focused-top" width="8" height="8" x="8" y="0" class="fill-secondary-container" />
   <path id="itemview-focused-topright" d="M 24,8 q 0,-8 -8,-8 v 8 z" class="fill-secondary-container" />
   <rect id="itemview-focused-left" width="8" height="8" x="0" y="8" class="fill-secondary-container" />
@@ -640,5 +652,5 @@
   <rect id="itemview-toggled-right" width="8" height="8" x="16" y="8" fill="#008000" transform="translate(48,0)" />
   <path id="itemview-toggled-bottomright" d="M 0,16 q 0,8 8,8 v -8 z" fill="#008000" transform="translate(48,0)" />
   <rect id="itemview-toggled-bottom" width="8" height="8" x="8" y="16" fill="#008000" transform="translate(48,0)" />
-  <path id="itemview-toggled-bottomleft" d="M 24,16 q 0,8 -8,8 v -8 z" fill="#008000" transform="translate(48,0)" />
+  <path id="itemview-toggled-bottomleft" d="M 24,16 q 0,8 -8,8 v -8 z" fill="#008000" transform="translate(48,0)" /> -->
 </svg>
