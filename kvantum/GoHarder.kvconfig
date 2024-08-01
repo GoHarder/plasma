@@ -6,6 +6,7 @@ combo_as_lineedit=true
 left_tabs=true
 progressbar_thickness=4
 spread_menuitems=true
+spread_progressbar=true
 ; TODO: Check settings
 ; attach_active_tab=false
 ; joined_inactive_tabs=true
@@ -205,6 +206,7 @@ interior.element=slidercursor
 
 [Progressbar]
 inherits=PanelButtonCommand
+frame.expansion=0
 frame.element=progress
 interior.element=progress
 frame.top=2
@@ -218,6 +220,7 @@ text.bold=true
 inherits=PanelButtonCommand
 frame.element=progress-pattern
 interior.element=progress-pattern
+frame.expansion=0
 frame.top=2
 frame.bottom=2
 frame.left=2

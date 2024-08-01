@@ -323,18 +323,18 @@
     <use id="progress-normal-topleft" href="#topleft-2" class="secondary-container" />
     <use id="progress-normal-top" href="#top-2" class="secondary-container" />
     <use id="progress-normal-topright" href="#topright-2" class="secondary-container" />
-    <use id="progress-normal-left" href="#left-2" class="secondary-container" />
-    <use id="progress-normal" href="#center-2" class="secondary-container" />
-    <use id="progress-normal-right" href="#right-2" class="secondary-container" />
+    <!-- <use id="progress-normal-left" href="#left-2" class="secondary-container" /> -->
+    <!-- <use id="progress-normal" href="#center-2" class="secondary-container" /> -->
+    <!-- <use id="progress-normal-right" href="#right-2" class="secondary-container" /> -->
     <use id="progress-normal-bottomleft" href="#bottomleft-2" class="secondary-container" />
     <use id="progress-normal-bottom" href="#bottom-2" class="secondary-container" />
     <use id="progress-normal-bottomright" href="#bottomright-2" class="secondary-container" />
     <use id="progress-pattern-normal-topleft" href="#topleft-2" class="primary" transform="translate(24)" />
     <use id="progress-pattern-normal-top" href="#top-2" class="primary" transform="translate(24)" />
     <use id="progress-pattern-normal-topright" href="#topright-2" class="primary" transform="translate(24)" />
-    <use id="progress-pattern-normal-left" href="#left-2" class="primary" transform="translate(24)" />
-    <use id="progress-pattern-normal" href="#center-2" class="primary" transform="translate(24)" />
-    <use id="progress-pattern-normal-right" href="#right-2" class="primary" transform="translate(24)" />
+    <!-- <use id="progress-pattern-normal-left" href="#left-2" class="primary" transform="translate(24)" /> -->
+    <!-- <use id="progress-pattern-normal" href="#center-2" class="primary" transform="translate(24)" /> -->
+    <!-- <use id="progress-pattern-normal-right" href="#right-2" class="primary" transform="translate(24)" /> -->
     <use id="progress-pattern-normal-bottomleft" href="#bottomleft-2" class="primary" transform="translate(24)" />
     <use id="progress-pattern-normal-bottom" href="#bottom-2" class="primary" transform="translate(24)" />
     <use id="progress-pattern-normal-bottomright" href="#bottomright-2" class="primary" transform="translate(24)" />
@@ -344,12 +344,12 @@
       transform="translate(48)" />
     <use id="progress-pattern-disabled-topright" href="#topright-2" class="on-surface-variant" opacity="0.12"
       transform="translate(48)" />
-    <use id="progress-pattern-disabled-left" href="#left-2" class="on-surface-variant" opacity="0.12"
-      transform="translate(48)" />
-    <use id="progress-pattern-disabled" href="#center-2" class="on-surface-variant" opacity="0.12"
-      transform="translate(48)" />
-    <use id="progress-pattern-disabled-right" href="#right-2" class="on-surface-variant" opacity="0.12"
-      transform="translate(48)" />
+    <!-- <use id="progress-pattern-disabled-left" href="#left-2" class="on-surface-variant" opacity="0.12"
+      transform="translate(48)" /> -->
+    <!-- <use id="progress-pattern-disabled" href="#center-2" class="on-surface-variant" opacity="0.12"
+      transform="translate(48)" /> -->
+    <!-- <use id="progress-pattern-disabled-right" href="#right-2" class="on-surface-variant" opacity="0.12"
+      transform="translate(48)" /> -->
     <use id="progress-pattern-disabled-bottomleft" href="#bottomleft-2" class="on-surface-variant" opacity="0.12"
       transform="translate(48)" />
     <use id="progress-pattern-disabled-bottom" href="#bottom-2" class="on-surface-variant" opacity="0.12"
