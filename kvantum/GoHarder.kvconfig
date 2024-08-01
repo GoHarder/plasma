@@ -1,14 +1,15 @@
 [%General]
 author=Gregory Harder
 comment=Official Go Harder theme for Kvantum
-respect_DE=true
 vertical_spin_indicators=true
 combo_as_lineedit=true
 left_tabs=true
+progressbar_thickness=4
+spread_menuitems=true
 ; TODO: Check settings
-attach_active_tab=false
-joined_inactive_tabs=true
-group_toolbar_buttons=false
+; attach_active_tab=false
+; joined_inactive_tabs=true
+; group_toolbar_buttons=false
 composite=true
 menu_shadow_depth=6
 tooltip_shadow_depth=6
@@ -265,10 +266,7 @@ frame.right=4
 
 [MenuItem]
 inherits=PanelButtonCommand
-frame.top=4
-frame.bottom=4
-frame.left=4
-frame.right=4
+frame=false
 interior.element=menuitem
 indicator.element=menuitem
 min_height=22

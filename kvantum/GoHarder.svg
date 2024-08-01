@@ -534,45 +534,10 @@
     <rect id="menu-shadow-hint-left" width="2" height="1" x="0" y="13.5" fill="#008080" transform="translate(28)" />
     <rect id="menu-shadow-hint-right" width="2" height="1" x="26" y="13.5" fill="#008080" transform="translate(28)" />
     <rect id="menu-shadow-hint-bottom" width="1" height="4" x="13.5" y="26" fill="#008080" transform="translate(28)" />
-    <rect id="menuitem-toggled-topleft" width="4" height="4" x="0" y="0" transform="translate(56,2)" opacity="0" />
-    <use id="menuitem-toggled-top" href="#top-4" transform="translate(56,2)" opacity="0" />
-    <rect id="menuitem-toggled-topright" width="4" height="4" x="20" y="0" transform="translate(56,2)" opacity="0" />
-    <use id="menuitem-toggled-left" href="#left-4" transform="translate(56,2)" class="secondary-container" />
-    <use id="menuitem-toggled" href="#center-4" transform="translate(56,2)" class="secondary-container" />
-    <use id="menuitem-toggled-right" href="#right-4" transform="translate(56,2)" class="secondary-container" />
-    <rect id="menuitem-toggled-bottomleft" width="4" height="4" x="0" y="20" transform="translate(56,2)" opacity="0" />
-    <use id="menuitem-toggled-bottom" href="#bottom-4" transform="translate(56,2)" opacity="0" />
-    <rect id="menuitem-toggled-bottomright" width="4" height="4" x="20" y="20" transform="translate(56,2)"
-      opacity="0" />
-    <g id="menuitem-pressed-topleft" transform="translate(24)">
-      <use href="#menuitem-toggled-topleft" />
-    </g>
-    <g id="menuitem-pressed-top" transform="translate(24)">
-      <use href="#menuitem-toggled-top" />
-    </g>
-    <g id="menuitem-pressed-topright" transform="translate(24)">
-      <use href="#menuitem-toggled-topright" />
-    </g>
-    <g id="menuitem-pressed-left" transform="translate(24)">
-      <use href="#menuitem-toggled-left" />
-      <use href="#left-4" transform="translate(56,2)" class="on-surface" opacity="0.08" />
-    </g>
-    <g id="menuitem-pressed" transform="translate(24)">
+    <use id="menuitem-toggled" href="#center-4" transform="translate(52,2)" class="secondary-container" />
+    <g id="menuitem-pressed" transform="translate(16)">
       <use href="#menuitem-toggled" />
-      <use href="#center-4" transform="translate(56,2)" class="on-surface" opacity="0.08" />
-    </g>
-    <g id="menuitem-pressed-right" transform="translate(24)">
-      <use href="#menuitem-toggled-right" />
-      <use href="#right-4" transform="translate(56,2)" class="on-surface" opacity="0.08" />
-    </g>
-    <g id="menuitem-pressed-bottomleft" transform="translate(24)">
-      <use href="#menuitem-toggled-bottomleft" />
-    </g>
-    <g id="menuitem-pressed-bottom" transform="translate(24)">
-      <use href="#menuitem-toggled-bottom" />
-    </g>
-    <g id="menuitem-pressed-bottomright" transform="translate(24)">
-      <use href="#menuitem-toggled-bottomright" />
+      <use href="#center-4" transform="translate(52,2)" class="on-surface" opacity="0.08" />
     </g>
   </g>
   <g id="mdi-group" transform="translate(0,170)">
