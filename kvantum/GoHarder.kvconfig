@@ -216,8 +216,12 @@ text.bold=true
 
 [ProgressbarContents]
 inherits=PanelButtonCommand
-frame=false
+frame.element=progress-pattern
 interior.element=progress-pattern
+frame.top=2
+frame.bottom=2
+frame.left=2
+frame.right=2
 
 [ItemView]
 inherits=PanelButtonCommand
@@ -268,7 +272,7 @@ frame.right=4
 inherits=PanelButtonCommand
 frame=false
 interior.element=menuitem
-indicator.element=menuitem
+indicator.element=arrow
 min_height=22
 text.normal.color=#e2e2e5
 text.focus.color=#d5e4f6
@@ -290,10 +294,10 @@ text.margin.bottom=2
 
 [MenuBar]
 inherits=PanelButtonCommand
-frame.top=0
-frame.bottom=0
-frame.left=2
-frame.right=2
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
 frame.element=menuitem
 interior.element=menuitem
 
