@@ -347,15 +347,17 @@ text.shadow=false
 
 [ToolTip]
 inherits=GenericFrame
-frame.top=3
-frame.bottom=3
-frame.left=3
-frame.right=3
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
 interior=true
 text.shadow=false
 text.margin=0
 interior.element=tooltip
 frame.element=tooltip
+text.normal.color=#2f3033
+text.normal.inactive.color=#2f3033
 
 [Window]
 interior=false
