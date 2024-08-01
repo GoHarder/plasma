@@ -2,11 +2,12 @@
 author=Gregory Harder
 comment=Official Go Harder theme for Kvantum
 respect_DE=true
-x11drag=true
-alt_mnemonic=true
-left_tabs=false
-joined_inactive_tabs=true
+vertical_spin_indicators=true
+combo_as_lineedit=true
+left_tabs=true
+; TODO: Check settings
 attach_active_tab=false
+joined_inactive_tabs=true
 group_toolbar_buttons=false
 composite=true
 menu_shadow_depth=6
@@ -45,10 +46,10 @@ respect_darkness=true
 [PanelButtonCommand]
 frame=true
 frame.element=button
-frame.top=3
-frame.bottom=3
-frame.left=3
-frame.right=3
+frame.top=6
+frame.bottom=6
+frame.left=6
+frame.right=6
 interior=true
 interior.element=button
 indicator.size=9
@@ -264,11 +265,15 @@ frame.right=4
 
 [MenuItem]
 inherits=PanelButtonCommand
-frame=false
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
 interior.element=menuitem
 indicator.element=menuitem
 min_height=22
-text.focus.color=#e2e2e5
+text.normal.color=#e2e2e5
+text.focus.color=#d5e4f6
 text.margin.top=2
 text.margin.bottom=2
 text.margin.left=3

@@ -13,15 +13,15 @@
         fill: #003353;
       }
 
-      .fill-secondary-container {
+      .secondary-container {
         fill: #3a4857;
       }
 
-      .fill-surface-container-low {
+      .surface-container-low {
         fill: #1a1c1e;
       }
 
-      .fill-surface-container {
+      .surface-container {
         fill: #1e2022;
       }
 
@@ -206,7 +206,7 @@
     <rect id="toolbar-normal-bottomleft" width="4" height="4" x="0" y="20" fill="#008080" />
     <rect id="toolbar-normal-bottom" width="16" height="4" x="4" y="20" fill="#008080" />
     <rect id="toolbar-normal-bottomright" width="4" height="4" x="20" y="20" fill="#008080" />
-    <rect id="toolbar-separator" width="7.5" height="10" x="24" y="0" fill="#800080" />
+    <rect id="toolbar-separator" width="7.5" height="10" x="24" y="0" opacity="0" />
     <g id="toolbar-handle">
       <rect width="8" height="10" x="32" y="0" opacity="0" />
       <rect width="2" height="8" x="35" y="1" fill="#808000" />
@@ -466,33 +466,42 @@
     </g>
   </g>
   <g id="menu-group" transform="translate(0,140)">
+    <use id="menu-normal-topleft" href="#topleft-4" transform="translate(2,2)" class="surface-container" />
+    <use id="menu-normal-top" href="#top-4" transform="translate(2,2)" class="surface-container" />
+    <use id="menu-normal-topright" href="#topright-4" transform="translate(2,2)" class="surface-container" />
+    <use id="menu-normal-left" href="#left-4" transform="translate(2,2)" class="surface-container" />
+    <use id="menu-normal" width="16" href="#center-4" transform="translate(2,2)" class="surface-container" />
+    <use id="menu-normal-right" href="#right-4" transform="translate(2,2)" class="surface-container" />
+    <use id="menu-normal-bottomleft" href="#bottomleft-4" transform="translate(2,2)" class="surface-container" />
+    <use id="menu-normal-bottom" href="#bottom-4" transform="translate(2,2)" class="surface-container" />
+    <use id="menu-normal-bottomright" href="#bottomright-4" transform="translate(2,2)" class="surface-container" />
     <g id="menu-shadow-topleft" transform="translate(28)">
       <rect width="6" height="6" x="0" y="0" opacity="0" />
       <path d="M 5.754,2.004 C 2.638,2.07 0.787,3.402 0.203,6 H 2 C 2,3.417 3.251,2.085 5.754,2.004 Z"
         fill="url(#msa-tl)" opacity="0.15" />
-      <path d="M 2,6 Q 2,2 6,2 v 4 z" class="fill-surface-container" />
+      <use href="#menu-normal-topleft" />
     </g>
     <g id="menu-shadow-top" transform="translate(28)">
       <rect width="16" height="2" x="6" y="0" opacity="0" />
-      <rect width="16" height="4" x="6" y="2" class="fill-surface-container" />
+      <use href="#menu-normal-top" />
     </g>
     <g id="menu-shadow-topright" transform="translate(28)">
       <rect width="6" height="6" x="22" y="0" opacity="0" />
       <path d="M 22.246,2.004 C 24.749,2.085 26,3.417 26,6 h 1.797 C 27.213,3.402 25.362,2.07 22.246,2.004 Z"
         fill="url(#msa-tr)" opacity="0.15" />
-      <path d="M 26,6 Q 26,2 22,2 v 4 z" class="fill-surface-container" />
+      <use href="#menu-normal-topright" />
     </g>
     <g id="menu-shadow-left" transform="translate(28)">
       <path d="M 0.203,6 C 0.068,6.6 0,7.266 0,8 H 2 V 6 Z" fill="url(#msa-tl)" opacity="0.15"
         style="fill:url(#msa-tl)" />
       <rect width="2" height="14" x="0" y="8" fill="url(#msa-l)" opacity="0.15" />
-      <rect width="4" height="16" x="2" y="6" class="fill-surface-container" />
+      <use href="#menu-normal-left" />
     </g>
     <g id="menu-shadow-right" transform="translate(28)">
       <path d="m 26,6 v 2 h 2 C 28,7.266 27.932,6.6 27.797,6 Z" fill="url(#msa-tr)" opacity="0.15"
         style="fill:url(#msa-tr)" />
       <rect width="2" height="14" x="26" y="8" fill="url(#msa-r)" opacity="0.15" />
-      <rect width="4" height="16" x="22" y="6" class="fill-surface-container" />
+      <use href="#menu-normal-right" />
     </g>
     <g id="menu-shadow-bottomleft" transform="translate(28)">
       <path d="m 2,22 v 1 H 2.072 C 2.024,22.69 2,22.358 2,22 Z" fill="url(#msb-l)" opacity="0.3"
@@ -503,12 +512,12 @@
         style="fill:url(#msa-l)" />
       <path d="m 0,24 c 0,4 2,6 6,6 V 26 C 4.115,26 2.896,25.333 2.344,24 Z" fill="url(#msa-bl)" opacity="0.15"
         style="fill:url(#msa-bl)" />
-      <path d="m 2,22 q 0,4 4,4 v -4 z" class="fill-surface-container" />
+      <use href="#menu-normal-bottomleft" />
     </g>
     <g id="menu-shadow-bottom" transform="translate(28)">
       <rect width="16" height="1" x="6" y="26" fill="url(#msb-b)" opacity="0.3" style="fill:url(#msb-b)" />
       <rect width="16" height="4" x="6" y="26" fill="url(#msa-b)" opacity="0.15" style="fill:url(#msa-b)" />
-      <rect width="16" height="4" x="6" y="22" class="fill-surface-container" />
+      <use href="#menu-normal-bottom" />
     </g>
     <g id="menu-shadow-bottomright" transform="translate(28)">
       <path d="m 26,22 c 0,0.358 -0.024,0.69 -0.072,1 H 26 Z" fill="url(#msb-r)" opacity="0.3"
@@ -519,25 +528,51 @@
         style="fill:url(#msa-r)" />
       <path id="msa-br-2" d="M 25.656,24 C 25.104,25.333 23.885,26 22,26 v 4 c 4,0 6,-2 6,-6 z" fill="url(#msa-br)"
         opacity="0.15" style="fill:url(#msa-br)" />
-      <path d="m 26,22 q 0,4 -4,4 v -4 z" class="fill-surface-container" />
+      <use href="#menu-normal-bottomright" />
     </g>
-    <path id="menu-normal-topleft" d="M 2,6 Q 2,2 6,2 v 4 z" class="fill-surface-container" />
-    <rect id="menu-normal-top" width="16" height="4" x="6" y="2" class="fill-surface-container" />
-    <path id="menu-normal-topright" d="M 26,6 Q 26,2 22,2 v 4 z" class="fill-surface-container" />
-    <rect id="menu-normal-left" width="4" height="16" x="2" y="6" class="fill-surface-container" />
-    <rect id="menu-normal" width="16" height="16" x="6" y="6" class="fill-surface-container" />
-    <rect id="menu-normal-right" width="4" height="16" x="22" y="6" class="fill-surface-container" />
-    <path id="menu-normal-bottomleft" d="m 2,22 q 0,4 4,4 v -4 z" class="fill-surface-container" />
-    <rect id="menu-normal-bottom" width="16" height="4" x="6" y="22" class="fill-surface-container" />
-    <path id="menu-normal-bottomright" d="m 26,22 q 0,4 -4,4 v -4 z" class="fill-surface-container" />
     <rect id="menu-shadow-hint-top" width="1" height="2" x="13.5" y="0" fill="#008080" transform="translate(28)" />
     <rect id="menu-shadow-hint-left" width="2" height="1" x="0" y="13.5" fill="#008080" transform="translate(28)" />
     <rect id="menu-shadow-hint-right" width="2" height="1" x="26" y="13.5" fill="#008080" transform="translate(28)" />
     <rect id="menu-shadow-hint-bottom" width="1" height="4" x="13.5" y="26" fill="#008080" transform="translate(28)" />
-    <rect id="menuitem-toggled" width="30" height="10" x="56" y="10" class="fill-secondary-container" />
-    <g id="menuitem-pressed" transform="translate(56)">
-      <rect width="30" height="10" x="0" y="0" class="fill-secondary-container" />
-      <rect width="30" height="10" x="0" y="0" class="on-surface" opacity="0.08" />
+    <rect id="menuitem-toggled-topleft" width="4" height="4" x="0" y="0" transform="translate(56,2)" opacity="0" />
+    <use id="menuitem-toggled-top" href="#top-4" transform="translate(56,2)" opacity="0" />
+    <rect id="menuitem-toggled-topright" width="4" height="4" x="20" y="0" transform="translate(56,2)" opacity="0" />
+    <use id="menuitem-toggled-left" href="#left-4" transform="translate(56,2)" class="secondary-container" />
+    <use id="menuitem-toggled" href="#center-4" transform="translate(56,2)" class="secondary-container" />
+    <use id="menuitem-toggled-right" href="#right-4" transform="translate(56,2)" class="secondary-container" />
+    <rect id="menuitem-toggled-bottomleft" width="4" height="4" x="0" y="20" transform="translate(56,2)" opacity="0" />
+    <use id="menuitem-toggled-bottom" href="#bottom-4" transform="translate(56,2)" opacity="0" />
+    <rect id="menuitem-toggled-bottomright" width="4" height="4" x="20" y="20" transform="translate(56,2)"
+      opacity="0" />
+    <g id="menuitem-pressed-topleft" transform="translate(24)">
+      <use href="#menuitem-toggled-topleft" />
+    </g>
+    <g id="menuitem-pressed-top" transform="translate(24)">
+      <use href="#menuitem-toggled-top" />
+    </g>
+    <g id="menuitem-pressed-topright" transform="translate(24)">
+      <use href="#menuitem-toggled-topright" />
+    </g>
+    <g id="menuitem-pressed-left" transform="translate(24)">
+      <use href="#menuitem-toggled-left" />
+      <use href="#left-4" transform="translate(56,2)" class="on-surface" opacity="0.08" />
+    </g>
+    <g id="menuitem-pressed" transform="translate(24)">
+      <use href="#menuitem-toggled" />
+      <use href="#center-4" transform="translate(56,2)" class="on-surface" opacity="0.08" />
+    </g>
+    <g id="menuitem-pressed-right" transform="translate(24)">
+      <use href="#menuitem-toggled-right" />
+      <use href="#right-4" transform="translate(56,2)" class="on-surface" opacity="0.08" />
+    </g>
+    <g id="menuitem-pressed-bottomleft" transform="translate(24)">
+      <use href="#menuitem-toggled-bottomleft" />
+    </g>
+    <g id="menuitem-pressed-bottom" transform="translate(24)">
+      <use href="#menuitem-toggled-bottom" />
+    </g>
+    <g id="menuitem-pressed-bottomright" transform="translate(24)">
+      <use href="#menuitem-toggled-bottomright" />
     </g>
   </g>
   <g id="mdi-group" transform="translate(0,170)">
@@ -626,15 +661,15 @@
       <path d="m 3,18 v -2 h 18 v 2 z m 0,-5 v -2 h 18 v 2 z M 3,8 V 6 h 18 v 2 z" />
     </g>
   </g>
-  <!-- <path id="itemview-focused-topleft" d="M 0,8 q 0,-8 8,-8 v 8 z" class="fill-secondary-container" />
-  <rect id="itemview-focused-top" width="8" height="8" x="8" y="0" class="fill-secondary-container" />
-  <path id="itemview-focused-topright" d="M 24,8 q 0,-8 -8,-8 v 8 z" class="fill-secondary-container" />
-  <rect id="itemview-focused-left" width="8" height="8" x="0" y="8" class="fill-secondary-container" />
-  <rect id="itemview-focused" width="8" height="8" x="8" y="8" class="fill-secondary-container" />
-  <rect id="itemview-focused-right" width="8" height="8" x="16" y="8" class="fill-secondary-container" />
-  <path id="itemview-focused-bottomright" d="M 0,16 q 0,8 8,8 v -8 z" class="fill-secondary-container" />
-  <rect id="itemview-focused-bottom" width="8" height="8" x="8" y="16" class="fill-secondary-container" />
-  <path id="itemview-focused-bottomleft" d="M 24,16 q 0,8 -8,8 v -8 z" class="fill-secondary-container" />
+  <!-- <path id="itemview-focused-topleft" d="M 0,8 q 0,-8 8,-8 v 8 z" class="secondary-container" />
+  <rect id="itemview-focused-top" width="8" height="8" x="8" y="0" class="secondary-container" />
+  <path id="itemview-focused-topright" d="M 24,8 q 0,-8 -8,-8 v 8 z" class="secondary-container" />
+  <rect id="itemview-focused-left" width="8" height="8" x="0" y="8" class="secondary-container" />
+  <rect id="itemview-focused" width="8" height="8" x="8" y="8" class="secondary-container" />
+  <rect id="itemview-focused-right" width="8" height="8" x="16" y="8" class="secondary-container" />
+  <path id="itemview-focused-bottomright" d="M 0,16 q 0,8 8,8 v -8 z" class="secondary-container" />
+  <rect id="itemview-focused-bottom" width="8" height="8" x="8" y="16" class="secondary-container" />
+  <path id="itemview-focused-bottomleft" d="M 24,16 q 0,8 -8,8 v -8 z" class="secondary-container" />
   <path id="itemview-pressed-topleft" d="M 0,8 q 0,-8 8,-8 v 8 z" fill="#800000" transform="translate(24,0)" />
   <rect id="itemview-pressed-top" width="8" height="8" x="8" y="0" fill="#800000" transform="translate(24,0)" />
   <path id="itemview-pressed-topright" d="M 24,8 q 0,-8 -8,-8 v 8 z" fill="#800000" transform="translate(24,0)" />
