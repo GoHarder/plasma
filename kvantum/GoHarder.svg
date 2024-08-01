@@ -72,9 +72,9 @@
     <rect id="left-8" width="8" height="8" x="0" y="8" />
     <rect id="center-8" width="8" height="8" x="8" y="8" />
     <rect id="right-8" width="8" height="8" x="16" y="8" />
-    <path id="bottomright-8" d="m 0,16 q 0,8 8,8 v -8 z" />
+    <path id="bottomleft-8" d="m 0,16 q 0,8 8,8 v -8 z" />
     <rect id="bottom-8" width="8" height="8" x="8" y="16" />
-    <path id="bottomleft-8" d="m 24,16 q 0,8 -8,8 v -8 z" />
+    <path id="bottomright-8" d="m 24,16 q 0,8 -8,8 v -8 z" />
     <!--
     MARK: Icons
     -->
