@@ -46,7 +46,7 @@ async function main() {
     return rounded.toString();
   });
 
-  update = update.replace(/id="(path|circle|rect|group)[\d-]+"/g, '');
+  update = update.replace(/id="(use|path|circle|rect|group)[\d-]+"/g, '');
 
   await writeFile(filePath, update);
 }
