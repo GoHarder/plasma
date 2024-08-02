@@ -1,10 +1,18 @@
-<svg height="310" width="192" viewBox="0 0 192 310" id="svg1" xmlns="http://www.w3.org/2000/svg">
-  <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" />
-  <defs>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg height="310" width="192" viewBox="0 0 192 310" id="svg1" version="1.1" sodipodi:docname="GoHarder.svg"
+  inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" pagecolor="#ffffff" bordercolor="#666666"
+    borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0"
+    inkscape:deskcolor="#d1d1d1" inkscape:zoom="22.684" inkscape:cx="33.195" inkscape:cy="1.212"
+    inkscape:window-width="1920" inkscape:window-height="1057" inkscape:window-x="-8" inkscape:window-y="-8"
+    inkscape:window-maximized="1" />
+  <defs id="defs1">
     <!--
     MARK: Style
     -->
-    <style>
+    <style id="style1">
       .p {
         fill: #95ccff;
       }
@@ -376,23 +384,23 @@
       <rect id="tb-button-separator-bottom" width="36" height="1" x="0" y="35" class="outline" />
     </g>
   </g>
-  <g id="toolbar-group" transform="translate(108)">
-    <rect id="toolbar-normal-topleft" width="4" height="4" x="0" y="0" fill="#008080" />
-    <use id="toolbar-normal-top" href="#top-4" fill="#008080" />
-    <rect id="toolbar-normal-topright" width="4" height="4" x="20" y="0" fill="#008080" />
-    <rect id="toolbar-normal-left" width="4" height="16" x="0" y="4" fill="#008080" />
-    <rect id="toolbar-normal" width="16" height="16" x="4" y="4" fill="#008080" />
-    <rect id="toolbar-normal-right" width="4" height="16" x="20" y="4" fill="#008080" />
-    <rect id="toolbar-normal-bottomleft" width="4" height="4" x="0" y="20" fill="#008080" />
-    <rect id="toolbar-normal-bottom" width="16" height="4" x="4" y="20" fill="#008080" />
-    <rect id="toolbar-normal-bottomright" width="4" height="4" x="20" y="20" fill="#008080" />
+  <g id="toolbar-group" transform="translate(0,72)">
+    <rect id="toolbar-normal-topleft" width="4" height="4" x="0" y="0" fill="#282a2d" />
+    <use id="toolbar-normal-top" href="#top-4" fill="#282a2d" />
+    <rect id="toolbar-normal-topright" width="4" height="4" x="20" y="0" fill="#282a2d" />
+    <rect id="toolbar-normal-left" width="4" height="16" x="0" y="4" fill="#282a2d" />
+    <rect id="toolbar-normal" width="16" height="16" x="4" y="4" fill="#282a2d" />
+    <rect id="toolbar-normal-right" width="4" height="16" x="20" y="4" fill="#282a2d" />
+    <rect id="toolbar-normal-bottomleft" width="4" height="4" x="0" y="20" fill="#282a2d" />
+    <rect id="toolbar-normal-bottom" width="16" height="4" x="4" y="20" fill="#282a2d" />
+    <rect id="toolbar-normal-bottomright" width="4" height="4" x="20" y="20" fill="#282a2d" />
     <rect id="toolbar-separator" width="7.5" height="10" x="24" y="0" opacity="0" />
     <g id="toolbar-handle">
       <rect width="8" height="10" x="32" y="0" opacity="0" />
-      <rect width="2" height="8" x="35" y="1" fill="#808000" />
+      <path d="m 34.5,1 h 1 v 8 h -1 z m 2,0 h 1 v 8 h -1 z" class="on-surf" opacity="0.38" />
     </g>
   </g>
-  <g id="lineedit-group" transform="translate(0,24)">
+  <g id="lineedit-group" transform="translate(40,72)">
     <g id="lineedit-normal-topleft">
       <rect width="4" height="4" x="0" y="0" opacity="0" />
       <path d="M 1,4 Q 1,1 4,1 v 3 z" class="surf-cont-highest" opacity="0" />
@@ -468,7 +476,7 @@
       <path d="M 4,0 Q 4,4 0,4 V 2 Q 2,2 2,0 Z" class="p" />
     </g>
   </g>
-  <g id="progress-group" transform="translate(48,24)">
+  <g id="progress-group" transform="translate(88,72)">
     <use id="progress-normal-topleft" href="#topleft-2" class="s-cont" />
     <use id="progress-normal-top" href="#top-2" class="s-cont" />
     <use id="progress-normal-topright" href="#topright-2" class="s-cont" />
