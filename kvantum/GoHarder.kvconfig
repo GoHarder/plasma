@@ -47,6 +47,7 @@ respect_darkness=true
 
 [PanelButtonCommand]
 frame=true
+frame.expansion=40
 frame.element=button
 frame.top=6
 frame.bottom=6
@@ -75,14 +76,17 @@ text.shadow.depth=1
 
 [PanelButtonTool]
 inherits=PanelButtonCommand
+frame.expansion=0
 
 [Dock]
 inherits=PanelButtonCommand
+frame.expansion=0
 frame=false
 interior=false
 
 [DockTitle]
 inherits=PanelButtonCommand
+frame.expansion=0
 frame=false
 interior=true
 interior.element=dock
@@ -95,6 +99,7 @@ text.margin.right=3
 
 [IndicatorSpinBox]
 inherits=PanelButtonCommand
+frame.expansion=0
 indicator.element=arrow
 frame.element=spin
 interior.element=spin
@@ -106,6 +111,7 @@ indicator.size=9
 
 [RadioButton]
 inherits=PanelButtonCommand
+frame.expansion=0
 interior.element=radio
 text.margin.top=2
 text.margin.bottom=2
@@ -114,6 +120,7 @@ text.margin.right=3
 
 [CheckBox]
 inherits=PanelButtonCommand
+frame.expansion=0
 interior.element=checkbox
 text.margin.top=2
 text.margin.bottom=2
@@ -122,6 +129,7 @@ text.margin.right=3
 
 [Focus]
 inherits=PanelButtonCommand
+frame.expansion=0
 interior=false
 frame=true
 frame.element=focus
@@ -133,6 +141,7 @@ frame.patternsize=20
 
 [GenericFrame]
 inherits=PanelButtonCommand
+frame.expansion=0
 frame=true
 interior=false
 frame.element=common
@@ -140,11 +149,13 @@ interior.element=common
 
 [LineEdit]
 inherits=PanelButtonCommand
+frame.expansion=0
 frame.element=lineedit
 interior.element=lineedit
 
 [DropDownButton]
 inherits=PanelButtonCommand
+frame.expansion=0
 indicator.element=arrow-down
 
 [IndicatorArrow]
@@ -153,9 +164,11 @@ indicator.size=9
 
 [ToolboxTab]
 inherits=PanelButtonCommand
+frame.expansion=0
 
 [Tab]
 inherits=PanelButtonCommand
+frame.expansion=0
 interior.element=tab
 text.margin.left=8
 text.margin.right=8
@@ -168,23 +181,27 @@ frame.right=2
 
 [TabFrame]
 inherits=PanelButtonCommand
+frame.expansion=0
 frame.element=tabframe
 interior.element=common
 
 [TreeExpander]
 inherits=PanelButtonCommand
+frame.expansion=0
 frame=false
 interior=false
 indicator.size=9
 
 [HeaderSection]
 inherits=PanelButtonCommand
+frame.expansion=0
 
 [SizeGrip]
 indicator.element=sizegrip
 
 [Toolbar]
 inherits=PanelButtonCommand
+frame.expansion=0
 indicator.element=toolbar
 indicator.size=5
 frame.element=toolbar
@@ -192,6 +209,7 @@ interior.element=toolbar
 
 [Slider]
 inherits=PanelButtonCommand
+frame.expansion=0
 frame.element=slider
 interior.element=slider
 frame.top=2
@@ -201,6 +219,7 @@ frame.right=2
 
 [SliderCursor]
 inherits=PanelButtonCommand
+frame.expansion=0
 frame=false
 interior.element=slidercursor
 
@@ -228,6 +247,7 @@ frame.right=2
 
 [ItemView]
 inherits=PanelButtonCommand
+frame.expansion=0
 text.margin=0
 frame.element=itemview
 interior.element=itemview
@@ -238,6 +258,7 @@ frame.right=2
 
 [Splitter]
 inherits=PanelButtonCommand
+frame.expansion=0
 interior.element=splitter
 frame.element=splitter
 frame.top=0
@@ -249,10 +270,12 @@ indicator.size=16
 
 [Scrollbar]
 inherits=PanelButtonCommand
+frame.expansion=0
 indicator.size=8
 
 [ScrollbarSlider]
 inherits=PanelButtonCommand
+frame.expansion=0
 frame.element=scrollbarslider
 interior.element=scrollbarslider
 frame.top=2
@@ -264,6 +287,7 @@ indicator.size=13
 
 [ScrollbarGroove]
 inherits=PanelButtonCommand
+frame.expansion=0
 interior.element=slider
 frame.element=slider
 frame.top=0
@@ -273,6 +297,7 @@ frame.right=4
 
 [MenuItem]
 inherits=PanelButtonCommand
+frame.expansion=0
 frame=false
 interior.element=menuitem
 indicator.element=arrow
@@ -286,6 +311,7 @@ text.margin.right=3
 
 [MenuBarItem]
 inherits=PanelButtonCommand
+frame.expansion=0
 interior.element=menubaritem
 frame.element=menubaritem
 frame.top=2
@@ -297,6 +323,7 @@ text.margin.bottom=2
 
 [MenuBar]
 inherits=PanelButtonCommand
+frame.expansion=0
 frame.top=4
 frame.bottom=4
 frame.left=4
@@ -306,6 +333,7 @@ interior.element=menuitem
 
 [TitleBar]
 inherits=PanelButtonCommand
+frame.expansion=0
 frame=false
 interior.element=titlebar
 indicator.size=12
@@ -319,9 +347,11 @@ text.margin.right=3
 
 [ComboBox]
 inherits=PanelButtonCommand
+frame.expansion=0
 
 [Menu]
 inherits=PanelButtonCommand
+frame.expansion=0
 frame.top=3
 frame.bottom=3
 frame.left=3
