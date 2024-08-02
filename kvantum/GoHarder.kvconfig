@@ -10,7 +10,7 @@ spread_progressbar=true
 ; TODO: Check settings
 ; attach_active_tab=false
 ; joined_inactive_tabs=true
-; group_toolbar_buttons=false
+group_toolbar_buttons=true
 composite=true
 menu_shadow_depth=6
 tooltip_shadow_depth=6
@@ -49,17 +49,17 @@ respect_darkness=true
 frame=true
 frame.expansion=40
 frame.element=button
-frame.top=6
-frame.bottom=6
-frame.left=6
-frame.right=6
+frame.top=3
+frame.bottom=3
+frame.left=3
+frame.right=3
 interior=true
 interior.element=button
 indicator.size=9
-text.normal.color=#95ccff
-text.focus.color=#95ccff
-text.press.color=#95ccff
-text.toggle.color=#003353
+text.normal.color=#e2e2e5
+text.focus.color=#e2e2e5
+text.press.color=#e2e2e5
+text.toggle.color=#e2e2e5
 text.shadow=false
 text.margin=1
 text.iconspacing=4
@@ -73,6 +73,29 @@ text.shadow.yshift=1
 text.shadow.color=#000000
 text.shadow.alpha=255
 text.shadow.depth=1
+
+[PanelButtonTool]
+inherits=PanelButtonCommand
+frame.top=6
+frame.bottom=6
+frame.left=6
+frame.right=6
+text.normal.color=#003353
+text.focus.color=#003353
+text.press.color=#003353
+text.toggle.color=#95ccff
+
+[ToolbarButton]
+frame.element=tb-button
+interior.element=tb-button
+frame.top=6
+frame.bottom=6
+frame.left=6
+frame.right=6
+text.normal.color=#e2e2e5
+text.focus.color=#e2e2e5
+text.press.color=#e2e2e5
+text.toggle.color=#d5e4f6
 
 [PanelButtonTool]
 inherits=PanelButtonCommand
