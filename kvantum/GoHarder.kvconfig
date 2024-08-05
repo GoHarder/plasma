@@ -9,11 +9,20 @@ combo_as_lineedit=true
 left_tabs=true
 ; toolbar
 group_toolbar_buttons=true
-
+; progressbar
 spread_progressbar=true
 progressbar_thickness=4
+; slider
+slider_width=16
+slider_handle_width=4
+slider_handle_length=44
+; checkbox
+check_size=18
 
 ; rendering
+composite=true
+menu_shadow_depth=6
+tooltip_shadow_depth=6
 opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,VirtualBoxVM,trojita,dragon,digikam,lyx
 
 [GeneralColors]
@@ -102,3 +111,42 @@ frame.top=2
 frame.bottom=2
 frame.left=2
 frame.right=2
+
+[RadioButton]
+inherits=PanelButtonCommand
+interior.element=radio
+text.margin.top=2
+text.margin.bottom=2
+text.margin.left=3
+text.margin.right=3
+
+[CheckBox]
+inherits=PanelButtonCommand
+interior.element=checkbox
+text.margin.top=2
+text.margin.bottom=2
+text.margin.left=3
+text.margin.right=3
+
+[Slider]
+inherits=PanelButtonCommand
+frame.element=slider
+interior.element=slider
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
+
+[SliderCursor]
+inherits=PanelButtonCommand
+frame=false
+interior.element=slidercursor
+
+[Menu]
+inherits=PanelButtonCommand
+frame.top=2
+frame.bottom=2
+frame.left=2
+frame.right=2
+frame.element=menu
+interior.element=menu
