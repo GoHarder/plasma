@@ -1,13 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="126" height="188" viewBox="0 0 50 50" id="svg1" version="1.1" sodipodi:docname="GoHarder.svg"
-  inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" pagecolor="#ffffff" bordercolor="#666666"
-    borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0"
-    inkscape:deskcolor="#d1d1d1" inkscape:zoom="26.448" inkscape:cx="10.473" inkscape:cy="39.909"
-    inkscape:window-width="1920" inkscape:window-height="1057" inkscape:window-x="-8" inkscape:window-y="-8"
-    inkscape:window-maximized="1" />
+<svg width="126" height="188" viewBox="0 0 126 188" id="svg1" xmlns="http://www.w3.org/2000/svg">
+  <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" />
   <defs id="defs1">
     <!-- MARK: Style -->
     <style id="style1">
@@ -107,7 +99,7 @@
     <linearGradient xlink:href="#menu-ag" id="menu-ab" x1="5" y1="8" x2="5" y2="12" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#menu-ag" id="menu-abr" cx="6" cy="8" r="4" gradientUnits="userSpaceOnUse" />
   </defs>
-  <!-- <g id="button-group">
+  <g id="button-group">
     <g id="button-normal-group">
       <use id="button-normal-topleft" href="#tl-6" class="surf-cont-highest" />
       <use id="button-normal-top" href="#sq-6" x="6" y="0" class="surf-cont-highest" />
@@ -206,7 +198,7 @@
       <use id="button-toggled-bottom" href="#sq-6" x="6" y="12" class="pri" />
       <use id="button-toggled-bottomright" href="#br-6" x="12" y="12" class="pri" />
     </g>
-  </g> -->
+  </g>
   <g id="tb-btn-group" transform="translate(0,18)">
     <g id="tb-btn-normal-group">
       <path id="tb-btn-normal-topleft" d="M 0,6 q 0,-6 6,-6 v 1 q -5,0 -5,5 z" class="outline" />
@@ -592,68 +584,69 @@
     id="slider-bottomglow-normal"
     -->
   </g>
-  <!-- 
-  <rect width="2" height="2" x="2" y="5" fill="url(#menu-bl)" opacity="0.3" />
-  <rect width="2" height="2" x="6" y="5" fill="url(#menu-br)" opacity="0.3" />
-  <path d="M 2,7 q 0,2 2,2 v -2 z" fill="url(#menu-bbl)" opacity="0.3" />
-  <rect width="2" height="2" x="4" y="7" fill="url(#menu-bb)" opacity="0.3" />
-  <path d="M 8,7 q 0,2 -2,2 v -2 z" fill="url(#menu-bbr)" opacity="0.3" />
-  -->
-  <!-- 
-  <rect width="4" height="2" x="0" y="6" fill="url(#menu-al)" opacity="0.15" />
-  <rect width="4" height="2" x="6" y="6" fill="url(#menu-ar)" opacity="0.15" />
-  <path d="M 0,8 q 0,4 4,4 v -4 z" fill="url(#menu-abl)" opacity="0.15" />
-  <rect width="2" height="4" x="4" y="8" fill="url(#menu-ab)" opacity="0.15" />
-  <path d="M 10,8 q 0,4 -4,4 v -4 z" fill="url(#menu-abr)" opacity="0.15" /> 
-  -->
-  <g id="menu-shadow-topleft" transform="translate(8)">
-    <rect width="4" height="4" x="0" y="0" opacity="0" />
-    <path d="M 3.877 2.002 C 2.062 2.031 0.884 2.697 0.344 4 L 2 4 C 2 2.708 2.626 2.042 3.877 2.002 z"
-      fill="url(#menu-atl)" opacity="0.15" />
-    <use href="#menu-normal-topleft" />
+  <g id="menu-group" transform="translate(64,144)">
+    <use id="menu-normal-topleft" href="#tl-2" x="2" y="2" class="surf-cont" />
+    <use id="menu-normal-top" href="#sq-2" x="4" y="2" class="surf-cont" />
+    <use id="menu-normal-topright" href="#tr-2" x="6" y="2" class="surf-cont" />
+    <use id="menu-normal-left" href="#sq-2" x="2" y="4" class="surf-cont" />
+    <use id="menu-normal" href="#sq-2" x="4" y="4" class="surf-cont" />
+    <use id="menu-normal-right" href="#sq-2" x="6" y="4" class="surf-cont" />
+    <use id="menu-normal-bottomleft" href="#bl-2" x="2" y="6" class="surf-cont" />
+    <use id="menu-normal-bottom" href="#sq-2" x="4" y="6" class="surf-cont" />
+    <use id="menu-normal-bottomright" href="#br-2" x="6" y="6" class="surf-cont" />
+    <g id="menu-shadow-topleft" transform="translate(8)">
+      <rect width="4" height="4" x="0" y="0" opacity="0" />
+      <path d="M 3.877 2.002 C 2.062 2.031 0.884 2.697 0.344 4 L 2 4 C 2 2.708 2.626 2.042 3.877 2.002 z"
+        fill="url(#menu-atl)" opacity="0.15" />
+      <use href="#menu-normal-topleft" />
+    </g>
+    <g id="menu-shadow-top" transform="translate(8)">
+      <rect id="clip-t" width="2" height="2" x="4" y="0" opacity="0" />
+      <use href="#menu-normal-top" />
+    </g>
+    <g id="menu-shadow-topright" transform="translate(8)">
+      <rect width="4" height="4" x="6" y="0" opacity="0" />
+      <path d="M 6.123 2.002 C 7.374 2.042 8 2.708 8 4 L 9.656 4 C 9.115 2.697 7.938 2.031 6.123 2.002 z"
+        fill="url(#menu-atr)" opacity="0.15" />
+      <use href="#menu-normal-topright" />
+    </g>
+    <g id="menu-shadow-left" transform="translate(8)">
+      <path d="M 0.344 4 C 0.115 4.553 0 5.218 0 6 L 2 6 L 2 4 L 0.344 4 z" fill="url(#menu-atl)" opacity="0.15" />
+      <use href="#menu-normal-left" />
+    </g>
+    <g id="menu-shadow-right" transform="translate(8)">
+      <path d="M 8 4 L 8 6 L 10 6 C 10 5.218 9.885 4.553 9.656 4 L 8 4 z" fill="url(#menu-atr)" opacity="0.15" />
+      <use href="#menu-normal-right" />
+    </g>
+    <g id="menu-shadow-bottomleft" transform="translate(8)">
+      <path d="M 2 6 L 2 7 L 2.172 7 C 2.058 6.724 2 6.391 2 6 z" fill="url(#menu-bl)" opacity="0.3" />
+      <path d="M 2 7 C 2 8.334 2.667 9 4 9 L 4 8 C 3.058 8 2.449 7.666 2.172 7 L 2 7 z" fill="url(#menu-bbl)"
+        opacity="0.3" />
+      <path d="M 0 6 L 0 8 L 4 8 C 2.667 8 2 7.333 2 6 L 0 6 z" fill="url(#menu-al)" opacity="0.15" />
+      <path d="M 0 8 C 0 10.667 1.333 12 4 12 L 4 8 L 0 8 z" fill="url(#menu-abl)" opacity="0.15" />
+      <use href="#menu-normal-bottomleft" />
+    </g>
+    <g id="menu-shadow-bottom" transform="translate(8)">
+      <path d="M 4 8 L 4 9 L 6 9 L 6 8 L 4 8 z" fill="url(#menu-bb)" opacity="0.3" />
+      <path d="M 4 8 L 4 12 L 6 12 L 6 8 L 4 8 z" fill="url(#menu-ab)" opacity="0.15" />
+      <use href="#menu-normal-bottom" />
+    </g>
+    <g id="menu-shadow-bottomright" transform="translate(8)">
+      <path d="M 8 6 C 8 6.39 7.943 6.724 7.828 7 L 8 7 L 8 6 z" fill="url(#menu-br)" opacity="0.3" />
+      <path d="M 7.828 7 C 7.552 7.666 6.942 8 6 8 L 6 9 C 7.333 9 8 8.334 8 7 L 7.828 7 z" fill="url(#menu-bbr)"
+        opacity="0.3" />
+      <path d="M 8 6 C 8 7.333 7.333 8 6 8 L 10 8 L 10 6 L 8 6 z" fill="url(#menu-ar)" opacity="0.15" />
+      <path d="M 6 8 L 6 12 C 8.666 12 10 10.667 10 8 L 6 8 z" fill="url(#menu-abr)" opacity="0.15" />
+      <use href="#menu-normal-bottomright" />
+    </g>
+    <rect id="menu-shadow-hint-top" width="1" height="2" x="12.5" y="0" fill="#008080" />
+    <rect id="menu-shadow-hint-left" width="2" height="1" x="8" y="4.5" fill="#008080" />
+    <rect id="menu-shadow-hint-right" width="2" height="1" x="16" y="4.5" fill="#008080" />
+    <rect id="menu-shadow-hint-bottom" width="1" height="4" x="12.5" y="8" fill="#008080" />
+    <use id="menuitem-toggled" href="#sq-2" class="sec-cont" />
+    <g id="menuitem-pressed" transform="translate(0,2)">
+      <use href="#menuitem-toggled" />
+      <use href="#sq-2" class="on-surf" opacity="0.08" />
+    </g>
   </g>
-  <g id="menu-shadow-top" transform="translate(8)">
-    <rect id="clip-t" width="2" height="2" x="4" y="0" opacity="0" />
-    <use href="#menu-normal-top" />
-  </g>
-  <g id="menu-shadow-topright" transform="translate(8)">
-    <rect width="4" height="4" x="6" y="0" opacity="0" />
-    <path d="M 6.123 2.002 C 7.374 2.042 8 2.708 8 4 L 9.656 4 C 9.115 2.697 7.938 2.031 6.123 2.002 z"
-      fill="url(#menu-atr)" opacity="0.15" />
-    <use href="#menu-normal-topright" />
-  </g>
-  <g id="menu-shadow-left" transform="translate(8)">
-    <path d="M 0.344 4 C 0.115 4.553 0 5.218 0 6 L 2 6 L 2 4 L 0.344 4 z" fill="url(#menu-atl)" opacity="0.15" />
-    <use href="#menu-normal-left" />
-  </g>
-  <g id="menu-shadow-right" transform="translate(8)">
-    <path d="M 8 4 L 8 6 L 10 6 C 10 5.218 9.885 4.553 9.656 4 L 8 4 z" fill="url(#menu-atr)" opacity="0.15" />
-    <use href="#menu-normal-right" />
-  </g>
-  <g id="menu-shadow-bottomleft" transform="translate(8)">
-    <!--  -->
-    <use href="#menu-normal-bottomleft" />
-  </g>
-  <g id="menu-shadow-bottom" transform="translate(8)">
-    <!--  -->
-    <use href="#menu-normal-bottom" />
-  </g>
-  <g id="menu-shadow-bottomright" transform="translate(8)">
-    <!--  -->
-    <use href="#menu-normal-bottomright" />
-  </g>
-  <use id="menu-normal-topleft" href="#tl-2" x="2" y="2" class="surf-cont" />
-  <use id="menu-normal-top" href="#sq-2" x="4" y="2" class="surf-cont" />
-  <use id="menu-normal-topright" href="#tr-2" x="6" y="2" class="surf-cont" />
-  <use id="menu-normal-left" href="#sq-2" x="2" y="4" class="surf-cont" />
-  <use id="menu-normal" href="#sq-2" x="4" y="4" class="surf-cont" />
-  <use id="menu-normal-right" href="#sq-2" x="6" y="4" class="surf-cont" />
-  <use id="menu-normal-bottomleft" href="#bl-2" x="2" y="6" class="surf-cont" />
-  <use id="menu-normal-bottom" href="#sq-2" x="4" y="6" class="surf-cont" />
-  <use id="menu-normal-bottomright" href="#br-2" x="6" y="6" class="surf-cont" />
-  <!-- 
-  <path id="clip-bl" d="M 0,12 h 4 v -4 q -2,0 -2,-2 h -2 z" fill="#008080" />
-  <rect id="clip-b" width="2" height="4" x="4" y="8" fill="#008080" />
-  <path id="clip-br" d="M 10,12 h -4 v -4 q 2,0 2,-2 h 2 z" fill="#008080" /> 
-  -->
 </svg>

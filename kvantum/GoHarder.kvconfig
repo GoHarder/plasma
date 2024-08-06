@@ -14,8 +14,8 @@ spread_progressbar=true
 progressbar_thickness=4
 ; slider
 slider_width=16
-slider_handle_width=4
-slider_handle_length=44
+slider_handle_width=44
+slider_handle_length=4
 ; checkbox
 check_size=18
 
@@ -132,10 +132,10 @@ text.margin.right=3
 inherits=PanelButtonCommand
 frame.element=slider
 interior.element=slider
-frame.top=4
-frame.bottom=4
-frame.left=4
-frame.right=4
+frame.top=8
+frame.bottom=8
+frame.left=8
+frame.right=8
 
 [SliderCursor]
 inherits=PanelButtonCommand
