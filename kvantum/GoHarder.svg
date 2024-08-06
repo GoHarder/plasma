@@ -1,16 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="126" height="188" viewBox="0 0 50 50" id="svg1" version="1.1" sodipodi:docname="GoHarder.svg"
-  inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" pagecolor="#ffffff" bordercolor="#666666"
-    borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0"
-    inkscape:deskcolor="#d1d1d1" inkscape:zoom="26.448" inkscape:cx="10.473" inkscape:cy="39.909"
-    inkscape:window-width="1920" inkscape:window-height="1057" inkscape:window-x="-8" inkscape:window-y="-8"
-    inkscape:window-maximized="1" />
-  <defs id="defs1">
+<svg width="126" height="188" viewBox="0 0 50 50" id="svg1" xmlns="http://www.w3.org/2000/svg">
+  <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" />
+  <defs>
     <!-- MARK: Style -->
-    <style id="style1">
+    <style>
       .pri {
         fill: #95ccff;
       }
@@ -21,6 +13,14 @@
 
       .sec-cont {
         fill: #3a4857;
+      }
+
+      .on-sec-cont {
+        fill: #d5e4f6;
+      }
+
+      .surf {
+        fill: #121416
       }
 
       .surf-cont {
@@ -46,8 +46,14 @@
       .outline {
         fill: #8c9198;
       }
+
+      .outline-var {
+        fill: #42474e
+      }
     </style>
     <!-- MARK: Shapes -->
+    <rect id="sq-1" width="1" height="1" x="0" y="0" />
+    <rect id="sq-3" width="3" height="3" x="0" y="0" />
     <path id="tl-2" d="M 0,2 q 0,-2 2,-2 v 2 Z" />
     <path id="tr-2" d="M 2,2 q 0,-2 -2,-2 v 2 z" />
     <rect id="sq-2" width="2" height="2" x="0" y="0" />
@@ -80,7 +86,8 @@
     <path id="left" d="M 9.683,14 2.683,7 9.683,0 11.317,1.633 5.95,7 11.317,12.367 Z" />
     <path id="right" d="M 8.05,7 2.683,1.633 4.317,5e-8 11.317,7 4.317,14 2.683,12.367 Z" />
     <path id="minus" d="m 0,8 v -2 h 14 v 2 z" />
-    <path id="slide-hand" d="M 0,2 q 0,-2 2,-2 q 2,0, 2,2 v 40 q 0,2 -2,2 q -2,0 -2,-2 Z" />
+    <circle id="slide-hand" cx="10" cy="10" r="10" />
+    <path id="close" d="M 1.4,14 0,12.6 5.6,7 0,1.4 1.4,0 7,5.6 12.6,0 14,1.4 8.4,7 14,12.6 12.6,14 7,8.4 Z" />
     <!-- MARK: Gradients -->
     <linearGradient id="menu-bg">
       <stop id="stop1" stop-color="#000000" stop-opacity="1" offset="0" />
@@ -107,92 +114,92 @@
     <linearGradient xlink:href="#menu-ag" id="menu-ab" x1="5" y1="8" x2="5" y2="12" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#menu-ag" id="menu-abr" cx="6" cy="8" r="4" gradientUnits="userSpaceOnUse" />
   </defs>
-  <!-- <g id="button-group">
+  <g id="button-group">
     <g id="button-normal-group">
-      <use id="button-normal-topleft" href="#tl-6" class="surf-cont-highest" />
-      <use id="button-normal-top" href="#sq-6" x="6" y="0" class="surf-cont-highest" />
-      <use id="button-normal-topright" href="#tr-6" x="12" y="0" class="surf-cont-highest" />
-      <use id="button-normal-left" href="#sq-6" x="0" y="6" class="surf-cont-highest" />
-      <use id="button-normal" href="#sq-6" x="6" y="6" class="surf-cont-highest" />
-      <use id="button-normal-right" href="#sq-6" x="12" y="6" class="surf-cont-highest" />
-      <use id="button-normal-bottomleft" href="#bl-6" x="0" y="12" class="surf-cont-highest" />
-      <use id="button-normal-bottom" href="#sq-6" x="6" y="12" class="surf-cont-highest" />
-      <use id="button-normal-bottomright" href="#br-6" x="12" y="12" class="surf-cont-highest" />
+      <use id="button-normal-topleft" href="#tl-6" class="sec-cont" />
+      <use id="button-normal-top" href="#sq-6" x="6" y="0" class="sec-cont" />
+      <use id="button-normal-topright" href="#tr-6" x="12" y="0" class="sec-cont" />
+      <use id="button-normal-left" href="#sq-6" x="0" y="6" class="sec-cont" />
+      <use id="button-normal" href="#sq-6" x="6" y="6" class="sec-cont" />
+      <use id="button-normal-right" href="#sq-6" x="12" y="6" class="sec-cont" />
+      <use id="button-normal-bottomleft" href="#bl-6" x="0" y="12" class="sec-cont" />
+      <use id="button-normal-bottom" href="#sq-6" x="6" y="12" class="sec-cont" />
+      <use id="button-normal-bottomright" href="#br-6" x="12" y="12" class="sec-cont" />
     </g>
     <g id="button-focused-group" transform="translate(18)">
       <g id="button-focused-topleft">
         <use href="#button-normal-topleft" />
-        <use href="#tl-6" class="pri" opacity="0.08" />
+        <use href="#tl-6" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="button-focused-top">
         <use href="#button-normal-top" />
-        <use href="#sq-6" x="6" y="0" class="pri" opacity="0.08" />
+        <use href="#sq-6" x="6" y="0" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="button-focused-topright">
         <use href="#button-normal-topright" />
-        <use href="#tr-6" x="12" y="0" class="pri" opacity="0.08" />
+        <use href="#tr-6" x="12" y="0" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="button-focused-left">
         <use href="#button-normal-left" />
-        <use href="#sq-6" x="0" y="6" class="pri" opacity="0.08" />
+        <use href="#sq-6" x="0" y="6" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="button-focused">
         <use href="#button-normal" />
-        <use href="#sq-6" x="6" y="6" class="pri" opacity="0.08" />
+        <use href="#sq-6" x="6" y="6" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="button-focused-right">
         <use href="#button-normal-right" />
-        <use href="#sq-6" x="12" y="6" class="pri" opacity="0.08" />
+        <use href="#sq-6" x="12" y="6" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="button-focused-bottomleft">
         <use href="#button-normal-bottomleft" />
-        <use href="#bl-6" x="0" y="12" class="pri" opacity="0.08" />
+        <use href="#bl-6" x="0" y="12" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="button-focused-bottom">
         <use href="#button-normal-bottom" />
-        <use href="#sq-6" x="6" y="12" class="pri" opacity="0.08" />
+        <use href="#sq-6" x="6" y="12" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="button-focused-bottomright">
         <use href="#button-normal-bottomright" />
-        <use href="#br-6" x="12" y="12" class="pri" opacity="0.08" />
+        <use href="#br-6" x="12" y="12" class="on-sec-cont" opacity="0.08" />
       </g>
     </g>
     <g id="button-pressed-group" transform="translate(36)">
       <g id="button-pressed-topleft">
         <use href="#button-normal-topleft" />
-        <use href="#tl-6" class="pri" opacity="0.08" />
+        <use href="#tl-6" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="button-pressed-top">
         <use href="#button-normal-top" />
-        <use href="#sq-6" x="6" y="0" class="pri" opacity="0.08" />
+        <use href="#sq-6" x="6" y="0" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="button-pressed-topright">
         <use href="#button-normal-topright" />
-        <use href="#tr-6" x="12" y="0" class="pri" opacity="0.08" />
+        <use href="#tr-6" x="12" y="0" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="button-pressed-left">
         <use href="#button-normal-left" />
-        <use href="#sq-6" x="0" y="6" class="pri" opacity="0.08" />
+        <use href="#sq-6" x="0" y="6" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="button-pressed">
         <use href="#button-normal" />
-        <use href="#sq-6" x="6" y="6" class="pri" opacity="0.08" />
+        <use href="#sq-6" x="6" y="6" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="button-pressed-right">
         <use href="#button-normal-right" />
-        <use href="#sq-6" x="12" y="6" class="pri" opacity="0.08" />
+        <use href="#sq-6" x="12" y="6" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="button-pressed-bottomleft">
         <use href="#button-normal-bottomleft" />
-        <use href="#bl-6" x="0" y="12" class="pri" opacity="0.08" />
+        <use href="#bl-6" x="0" y="12" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="button-pressed-bottom">
         <use href="#button-normal-bottom" />
-        <use href="#sq-6" x="6" y="12" class="pri" opacity="0.08" />
+        <use href="#sq-6" x="6" y="12" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="button-pressed-bottomright">
         <use href="#button-normal-bottomright" />
-        <use href="#br-6" x="12" y="12" class="pri" opacity="0.08" />
+        <use href="#br-6" x="12" y="12" class="on-sec-cont" opacity="0.08" />
       </g>
     </g>
     <g id="button-toggled-group" transform="translate(54)">
@@ -206,8 +213,108 @@
       <use id="button-toggled-bottom" href="#sq-6" x="6" y="12" class="pri" />
       <use id="button-toggled-bottomright" href="#br-6" x="12" y="12" class="pri" />
     </g>
-  </g> -->
-  <g id="tb-btn-group" transform="translate(0,18)">
+  </g>
+  <g id="tl-btn-group" transform="translate(0,18)">
+    <g id="tl-btn-normal-group">
+      <use id="tl-btn-normal-topleft" href="#tl-6" class="surf-cont-highest" />
+      <use id="tl-btn-normal-top" href="#sq-6" x="6" y="0" class="surf-cont-highest" />
+      <use id="tl-btn-normal-topright" href="#tr-6" x="12" y="0" class="surf-cont-highest" />
+      <use id="tl-btn-normal-left" href="#sq-6" x="0" y="6" class="surf-cont-highest" />
+      <use id="tl-btn-normal" href="#sq-6" x="6" y="6" class="surf-cont-highest" />
+      <use id="tl-btn-normal-right" href="#sq-6" x="12" y="6" class="surf-cont-highest" />
+      <use id="tl-btn-normal-bottomleft" href="#bl-6" x="0" y="12" class="surf-cont-highest" />
+      <use id="tl-btn-normal-bottom" href="#sq-6" x="6" y="12" class="surf-cont-highest" />
+      <use id="tl-btn-normal-bottomright" href="#br-6" x="12" y="12" class="surf-cont-highest" />
+    </g>
+    <g id="tl-btn-focused-group" transform="translate(18)">
+      <g id="tl-btn-focused-topleft">
+        <use href="#tl-btn-normal-topleft" />
+        <use href="#tl-6" class="pri" opacity="0.08" />
+      </g>
+      <g id="tl-btn-focused-top">
+        <use href="#tl-btn-normal-top" />
+        <use href="#sq-6" x="6" y="0" class="pri" opacity="0.08" />
+      </g>
+      <g id="tl-btn-focused-topright">
+        <use href="#tl-btn-normal-topright" />
+        <use href="#tr-6" x="12" y="0" class="pri" opacity="0.08" />
+      </g>
+      <g id="tl-btn-focused-left">
+        <use href="#tl-btn-normal-left" />
+        <use href="#sq-6" x="0" y="6" class="pri" opacity="0.08" />
+      </g>
+      <g id="tl-btn-focused">
+        <use href="#tl-btn-normal" />
+        <use href="#sq-6" x="6" y="6" class="pri" opacity="0.08" />
+      </g>
+      <g id="tl-btn-focused-right">
+        <use href="#tl-btn-normal-right" />
+        <use href="#sq-6" x="12" y="6" class="pri" opacity="0.08" />
+      </g>
+      <g id="tl-btn-focused-bottomleft">
+        <use href="#tl-btn-normal-bottomleft" />
+        <use href="#bl-6" x="0" y="12" class="pri" opacity="0.08" />
+      </g>
+      <g id="tl-btn-focused-bottom">
+        <use href="#tl-btn-normal-bottom" />
+        <use href="#sq-6" x="6" y="12" class="pri" opacity="0.08" />
+      </g>
+      <g id="tl-btn-focused-bottomright">
+        <use href="#tl-btn-normal-bottomright" />
+        <use href="#br-6" x="12" y="12" class="pri" opacity="0.08" />
+      </g>
+    </g>
+    <g id="tl-btn-pressed-group" transform="translate(36)">
+      <g id="tl-btn-pressed-topleft">
+        <use href="#tl-btn-normal-topleft" />
+        <use href="#tl-6" class="pri" opacity="0.1" />
+      </g>
+      <g id="tl-btn-pressed-top">
+        <use href="#tl-btn-normal-top" />
+        <use href="#sq-6" x="6" y="0" class="pri" opacity="0.1" />
+      </g>
+      <g id="tl-btn-pressed-topright">
+        <use href="#tl-btn-normal-topright" />
+        <use href="#tr-6" x="12" y="0" class="pri" opacity="0.1" />
+      </g>
+      <g id="tl-btn-pressed-left">
+        <use href="#tl-btn-normal-left" />
+        <use href="#sq-6" x="0" y="6" class="pri" opacity="0.1" />
+      </g>
+      <g id="tl-btn-pressed">
+        <use href="#tl-btn-normal" />
+        <use href="#sq-6" x="6" y="6" class="pri" opacity="0.1" />
+      </g>
+      <g id="tl-btn-pressed-right">
+        <use href="#tl-btn-normal-right" />
+        <use href="#sq-6" x="12" y="6" class="pri" opacity="0.1" />
+      </g>
+      <g id="tl-btn-pressed-bottomleft">
+        <use href="#tl-btn-normal-bottomleft" />
+        <use href="#bl-6" x="0" y="12" class="pri" opacity="0.1" />
+      </g>
+      <g id="tl-btn-pressed-bottom">
+        <use href="#tl-btn-normal-bottom" />
+        <use href="#sq-6" x="6" y="12" class="pri" opacity="0.1" />
+      </g>
+      <g id="tl-btn-pressed-bottomright">
+        <use href="#tl-btn-normal-bottomright" />
+        <use href="#br-6" x="12" y="12" class="pri" opacity="0.1" />
+      </g>
+    </g>
+    <g id="tl-btn-toggled-group" transform="translate(54)">
+      <use id="tl-btn-toggled-topleft" href="#tl-6" class="pri" />
+      <use id="tl-btn-toggled-top" href="#sq-6" x="6" y="0" class="pri" />
+      <use id="tl-btn-toggled-topright" href="#tr-6" x="12" y="0" class="pri" />
+      <use id="tl-btn-toggled-left" href="#sq-6" x="0" y="6" class="pri" />
+      <use id="tl-btn-toggled" href="#sq-6" x="6" y="6" class="pri" />
+      <use id="tl-btn-toggled-right" href="#sq-6" x="12" y="6" class="pri" />
+      <use id="tl-btn-toggled-bottomleft" href="#bl-6" x="0" y="12" class="pri" />
+      <use id="tl-btn-toggled-bottom" href="#sq-6" x="6" y="12" class="pri" />
+      <use id="tl-btn-toggled-bottomright" href="#br-6" x="12" y="12" class="pri" />
+    </g>
+  </g>
+  <g id="tb-btn-group" transform="translate(0,36)">
     <g id="tb-btn-normal-group">
       <path id="tb-btn-normal-topleft" d="M 0,6 q 0,-6 6,-6 v 1 q -5,0 -5,5 z" class="outline" />
       <g id="tb-btn-normal-top">
@@ -337,7 +444,7 @@
       </g>
     </g>
   </g>
-  <g id="toolbar-group" transform="translate(0,36)">
+  <g id="toolbar-group" transform="translate(72)">
     <use id="toolbar-normal-topleft" href="#sq-6" class="surf-cont-high" />
     <use id="toolbar-normal-top" href="#sq-6" x="6" y="0" class="surf-cont-high" />
     <use id="toolbar-normal-topright" href="#sq-6" x="12" y="0" class="surf-cont-high" />
@@ -353,7 +460,7 @@
       <path d="m 26,1 h 1.5 v 8 h -1.5 z m 3,0 h 1.5 v 8 h -1.5 z" class="on-surf" opacity="0.38" />
     </g>
   </g>
-  <g id="lineedit-group" transform="translate(34,36)">
+  <g id="lineedit-group" transform="translate(72,18)">
     <g id="lineedit-normal-topleft">
       <use href="#sq-2" x="0" y="0" opacity="0" />
       <path d="M 0.5,2 q 0,-1.5 1.5,-1.5 v 1 q -0.5,0 -0.5,0.5 Z" class="outline" />
@@ -397,7 +504,7 @@
     <use id="lineedit-focused-bottom" href="#sq-2" x="8" y="4" class="pri" />
     <use id="lineedit-focused-bottomright" href="#br-2" x="10" y="4" class="pri" />
   </g>
-  <g id="progress-group" transform="translate(34,42)">
+  <g id="progress-group" transform="translate(72,24)">
     <use id="progress-normal-topleft" href="#tl-2" class="sec-cont" />
     <use id="progress-normal-top" href="#sq-2" x="2" y="0" class="sec-cont" />
     <use id="progress-normal-topright" href="#tr-2" x="4" y="0" class="sec-cont" />
@@ -564,24 +671,24 @@
     </g>
   </g>
   <g id="slider-group" transform="translate(0,144)">
-    <use id="slider-normal-topleft" href="#tl-8" class="sec-cont" />
-    <use id="slider-normal-top" href="#sq-8" x="8" y="0" class="sec-cont" />
-    <use id="slider-normal-topright" href="#tr-8" x="16" y="0" class="sec-cont" />
-    <use id="slider-normal-left" href="#sq-8" x="0" y="8" class="sec-cont" />
-    <use id="slider-normal" href="#sq-8" x="8" y="8" class="sec-cont" />
-    <use id="slider-normal-right" href="#sq-8" x="16" y="8" class="sec-cont" />
-    <use id="slider-normal-bottomleft" href="#bl-8" x="0" y="16" class="sec-cont" />
-    <use id="slider-normal-bottom" href="#sq-8" x="8" y="16" class="sec-cont" />
-    <use id="slider-normal-bottomright" href="#br-8" x="16" y="16" class="sec-cont" />
-    <use id="slider-toggled-topleft" href="#tl-8" x="24" y="0" class="pri" />
-    <use id="slider-toggled-top" href="#sq-8" x="32" y="0" class="pri" />
-    <use id="slider-toggled-topright" href="#tr-8" x="40" y="0" class="pri" />
-    <use id="slider-toggled-left" href="#sq-8" x="24" y="8" class="pri" />
-    <use id="slider-toggled" href="#sq-8" x="32" y="8" class="pri" />
-    <use id="slider-toggled-right" href="#sq-8" x="40" y="8" class="pri" />
-    <use id="slider-toggled-bottomleft" href="#bl-8" x="24" y="16" class="pri" />
-    <use id="slider-toggled-bottom" href="#sq-8" x="32" y="16" class="pri" />
-    <use id="slider-toggled-bottomright" href="#br-8" x="40" y="16" class="pri" />
+    <use id="slider-normal-topleft" href="#tl-2" class="sec-cont" />
+    <use id="slider-normal-top" href="#sq-2" x="2" y="0" class="sec-cont" />
+    <use id="slider-normal-topright" href="#tr-2" x="4" y="0" class="sec-cont" />
+    <!-- <use id="slider-normal-left" href="#sq-8" x="0" y="8" class="sec-cont" /> -->
+    <!-- <use id="slider-normal" href="#sq-8" x="8" y="8" class="sec-cont" /> -->
+    <!-- <use id="slider-normal-right" href="#sq-8" x="16" y="8" class="sec-cont" /> -->
+    <use id="slider-normal-bottomleft" href="#bl-2" x="0" y="2" class="sec-cont" />
+    <use id="slider-normal-bottom" href="#sq-2" x="2" y="2" class="sec-cont" />
+    <use id="slider-normal-bottomright" href="#br-2" x="4" y="2" class="sec-cont" />
+    <use id="slider-toggled-topleft" href="#tl-2" x="6" y="0" class="pri" />
+    <use id="slider-toggled-top" href="#sq-2" x="8" y="0" class="pri" />
+    <use id="slider-toggled-topright" href="#tr-2" x="10" y="0" class="pri" />
+    <!-- <use id="slider-toggled-left" href="#sq-2" x="24" y="8" class="pri" /> -->
+    <!-- <use id="slider-toggled" href="#sq-2" x="32" y="8" class="pri" /> -->
+    <!-- <use id="slider-toggled-right" href="#sq-2" x="40" y="8" class="pri" /> -->
+    <use id="slider-toggled-bottomleft" href="#bl-2" x="6" y="2" class="pri" />
+    <use id="slider-toggled-bottom" href="#sq-2" x="8" y="2" class="pri" />
+    <use id="slider-toggled-bottomright" href="#br-2" x="10" y="2" class="pri" />
     <use id="slidercursor-normal" href="#slide-hand" x="48" y="0" class="pri" />
     <use id="slidercursor-focused" href="#slide-hand" x="52" y="0" class="pri" />
     <use id="slidercursor-pressed" href="#slide-hand" x="56" y="0" class="pri" />
@@ -592,68 +699,118 @@
     id="slider-bottomglow-normal"
     -->
   </g>
-  <!-- 
-  <rect width="2" height="2" x="2" y="5" fill="url(#menu-bl)" opacity="0.3" />
-  <rect width="2" height="2" x="6" y="5" fill="url(#menu-br)" opacity="0.3" />
-  <path d="M 2,7 q 0,2 2,2 v -2 z" fill="url(#menu-bbl)" opacity="0.3" />
-  <rect width="2" height="2" x="4" y="7" fill="url(#menu-bb)" opacity="0.3" />
-  <path d="M 8,7 q 0,2 -2,2 v -2 z" fill="url(#menu-bbr)" opacity="0.3" />
-  -->
-  <!-- 
-  <rect width="4" height="2" x="0" y="6" fill="url(#menu-al)" opacity="0.15" />
-  <rect width="4" height="2" x="6" y="6" fill="url(#menu-ar)" opacity="0.15" />
-  <path d="M 0,8 q 0,4 4,4 v -4 z" fill="url(#menu-abl)" opacity="0.15" />
-  <rect width="2" height="4" x="4" y="8" fill="url(#menu-ab)" opacity="0.15" />
-  <path d="M 10,8 q 0,4 -4,4 v -4 z" fill="url(#menu-abr)" opacity="0.15" /> 
-  -->
-  <g id="menu-shadow-topleft" transform="translate(8)">
-    <rect width="4" height="4" x="0" y="0" opacity="0" />
-    <path d="M 3.877 2.002 C 2.062 2.031 0.884 2.697 0.344 4 L 2 4 C 2 2.708 2.626 2.042 3.877 2.002 z"
-      fill="url(#menu-atl)" opacity="0.15" />
-    <use href="#menu-normal-topleft" />
+  <g id="menu-group" transform="translate(64,144)">
+    <use id="menu-normal-topleft" href="#tl-2" x="2" y="2" class="surf-cont" />
+    <use id="menu-normal-top" href="#sq-2" x="4" y="2" class="surf-cont" />
+    <use id="menu-normal-topright" href="#tr-2" x="6" y="2" class="surf-cont" />
+    <use id="menu-normal-left" href="#sq-2" x="2" y="4" class="surf-cont" />
+    <use id="menu-normal" href="#sq-2" x="4" y="4" class="surf-cont" />
+    <use id="menu-normal-right" href="#sq-2" x="6" y="4" class="surf-cont" />
+    <use id="menu-normal-bottomleft" href="#bl-2" x="2" y="6" class="surf-cont" />
+    <use id="menu-normal-bottom" href="#sq-2" x="4" y="6" class="surf-cont" />
+    <use id="menu-normal-bottomright" href="#br-2" x="6" y="6" class="surf-cont" />
+    <g id="menu-shadow-topleft" transform="translate(8)">
+      <rect width="4" height="4" x="0" y="0" opacity="0" />
+      <path d="M 3.877 2.002 C 2.062 2.031 0.884 2.697 0.344 4 L 2 4 C 2 2.708 2.626 2.042 3.877 2.002 z"
+        fill="url(#menu-atl)" opacity="0.15" />
+      <use href="#menu-normal-topleft" />
+    </g>
+    <g id="menu-shadow-top" transform="translate(8)">
+      <rect id="clip-t" width="2" height="2" x="4" y="0" opacity="0" />
+      <use href="#menu-normal-top" />
+    </g>
+    <g id="menu-shadow-topright" transform="translate(8)">
+      <rect width="4" height="4" x="6" y="0" opacity="0" />
+      <path d="M 6.123 2.002 C 7.374 2.042 8 2.708 8 4 L 9.656 4 C 9.115 2.697 7.938 2.031 6.123 2.002 z"
+        fill="url(#menu-atr)" opacity="0.15" />
+      <use href="#menu-normal-topright" />
+    </g>
+    <g id="menu-shadow-left" transform="translate(8)">
+      <path d="M 0.344 4 C 0.115 4.553 0 5.218 0 6 L 2 6 L 2 4 L 0.344 4 z" fill="url(#menu-atl)" opacity="0.15" />
+      <use href="#menu-normal-left" />
+    </g>
+    <g id="menu-shadow-right" transform="translate(8)">
+      <path d="M 8 4 L 8 6 L 10 6 C 10 5.218 9.885 4.553 9.656 4 L 8 4 z" fill="url(#menu-atr)" opacity="0.15" />
+      <use href="#menu-normal-right" />
+    </g>
+    <g id="menu-shadow-bottomleft" transform="translate(8)">
+      <path d="M 2 6 L 2 7 L 2.172 7 C 2.058 6.724 2 6.391 2 6 z" fill="url(#menu-bl)" opacity="0.3" />
+      <path d="M 2 7 C 2 8.334 2.667 9 4 9 L 4 8 C 3.058 8 2.449 7.666 2.172 7 L 2 7 z" fill="url(#menu-bbl)"
+        opacity="0.3" />
+      <path d="M 0 6 L 0 8 L 4 8 C 2.667 8 2 7.333 2 6 L 0 6 z" fill="url(#menu-al)" opacity="0.15" />
+      <path d="M 0 8 C 0 10.667 1.333 12 4 12 L 4 8 L 0 8 z" fill="url(#menu-abl)" opacity="0.15" />
+      <use href="#menu-normal-bottomleft" />
+    </g>
+    <g id="menu-shadow-bottom" transform="translate(8)">
+      <path d="M 4 8 L 4 9 L 6 9 L 6 8 L 4 8 z" fill="url(#menu-bb)" opacity="0.3" />
+      <path d="M 4 8 L 4 12 L 6 12 L 6 8 L 4 8 z" fill="url(#menu-ab)" opacity="0.15" />
+      <use href="#menu-normal-bottom" />
+    </g>
+    <g id="menu-shadow-bottomright" transform="translate(8)">
+      <path d="M 8 6 C 8 6.39 7.943 6.724 7.828 7 L 8 7 L 8 6 z" fill="url(#menu-br)" opacity="0.3" />
+      <path d="M 7.828 7 C 7.552 7.666 6.942 8 6 8 L 6 9 C 7.333 9 8 8.334 8 7 L 7.828 7 z" fill="url(#menu-bbr)"
+        opacity="0.3" />
+      <path d="M 8 6 C 8 7.333 7.333 8 6 8 L 10 8 L 10 6 L 8 6 z" fill="url(#menu-ar)" opacity="0.15" />
+      <path d="M 6 8 L 6 12 C 8.666 12 10 10.667 10 8 L 6 8 z" fill="url(#menu-abr)" opacity="0.15" />
+      <use href="#menu-normal-bottomright" />
+    </g>
+    <rect id="menu-shadow-hint-top" width="1" height="2" x="12.5" y="0" fill="#008080" />
+    <rect id="menu-shadow-hint-left" width="2" height="1" x="8" y="4.5" fill="#008080" />
+    <rect id="menu-shadow-hint-right" width="2" height="1" x="16" y="4.5" fill="#008080" />
+    <rect id="menu-shadow-hint-bottom" width="1" height="4" x="12.5" y="8" fill="#008080" />
+    <use id="menuitem-toggled" href="#sq-2" class="sec-cont" />
+    <g id="menuitem-pressed" transform="translate(0,2)">
+      <use href="#menuitem-toggled" />
+      <use href="#sq-2" class="on-surf" opacity="0.08" />
+    </g>
   </g>
-  <g id="menu-shadow-top" transform="translate(8)">
-    <rect id="clip-t" width="2" height="2" x="4" y="0" opacity="0" />
-    <use href="#menu-normal-top" />
+  <g id="tab-group" transform="translate(64,144)">
+    <use id="tabframe-normal-topleft" href="#sq-1" x="9" y="9" class="surf" />
+    <use id="tabframe-normal-top" href="#sq-1" x="10" y="9" class="surf" />
+    <use id="tabframe-normal-topright" href="#sq-1" x="11" y="9" class="surf" />
+    <use id="tabframe-normal-left" href="#sq-1" x="9" y="10" class="surf" />
+    <use id="tabframe-normal-right" href="#sq-1" x="11" y="10" class="surf" />
+    <use id="tabframe-normal-bottomleft" href="#sq-1" x="9" y="11" class="outline-var" />
+    <use id="tabframe-normal-bottom" href="#sq-1" x="10" y="11" class="outline-var" />
+    <use id="tabframe-normal-bottomright" href="#sq-1" x="11" y="11" class="outline-var" />
+    <use id="tab-normal-topleft" href="#sq-3" x="0" y="0" opacity="0" />
+    <use id="tab-normal-top" href="#sq-3" x="3" y="0" opacity="0" />
+    <use id="tab-normal-topright" href="#sq-3" x="6" y="0" opacity="0" />
+    <use id="tab-normal-left" href="#sq-3" x="0" y="3" opacity="0" />
+    <use id="tab-normal" href="#sq-3" x="3" y="3" opacity="0" />
+    <use id="tab-normal-right" href="#sq-3" x="6" y="3" opacity="0" />
+    <use id="tab-normal-bottomleft" href="#sq-3" x="0" y="6" opacity="0" />
+    <use id="tab-normal-bottom" href="#sq-3" x="3" y="6" opacity="0" />
+    <use id="tab-normal-bottomright" href="#sq-3" x="6" y="6" opacity="0" />
+    <use id="tab-focused-topleft" href="#sq-3" x="9" y="0" class="pri" opacity="0.1" />
+    <use id="tab-focused-top" href="#sq-3" x="12" y="0" class="pri" opacity="0.1" />
+    <use id="tab-focused-topright" href="#sq-3" x="15" y="0" class="pri" opacity="0.1" />
+    <use id="tab-focused-left" href="#sq-3" x="9" y="3" class="pri" opacity="0.1" />
+    <use id="tab-focused" href="#sq-3" x="12" y="3" class="pri" opacity="0.1" />
+    <use id="tab-focused-right" href="#sq-3" x="15" y="3" class="pri" opacity="0.1" />
+    <use id="tab-focused-bottomleft" href="#sq-3" x="9" y="6" class="pri" opacity="0.1" />
+    <use id="tab-focused-bottom" href="#sq-3" x="12" y="6" class="pri" opacity="0.1" />
+    <use id="tab-focused-bottomright" href="#sq-3" x="15" y="6" class="pri" opacity="0.1" />
+    <use id="tab-toggled-topleft" href="#sq-3" x="0" y="9" opacity="0" />
+    <use id="tab-toggled-top" href="#sq-3" x="3" y="9" opacity="0" />
+    <use id="tab-toggled-topright" href="#sq-3" x="6" y="9" opacity="0" />
+    <use id="tab-toggled-left" href="#sq-3" x="0" y="12" opacity="0" />
+    <use id="tab-toggled" href="#sq-3" x="3" y="12" opacity="0" />
+    <use id="tab-toggled-right" href="#sq-3" x="6" y="12" opacity="0" />
+    <path id="tab-toggled-bottomleft" d="M 0,18 q 0,-3 3,-3 v 3 Z" class="pri" />
+    <use id="tab-toggled-bottom" href="#sq-3" x="3" y="15" class="pri" />
+    <path id="tab-toggled-bottomright" d="M 9,18 q 0,-3 -3,-3 v 3 z" class="pri" />
+    <use id="tab-close-normal" href="#close" x="0" y="0" class="on-surf-var" />
+    <use id="tab-close-focused" href="#close" x="14" y="0" class="pri" />
+    <use id="tab-close-pressed" href="#close" x="0" y="14" class="on-surf" />
+    <use id="tab-close-disabled" href="#close" x="14" y="14" class="on-surf" opacity="0.38" />
+    <!-- 
+    id="tab-tear"
+    -->
   </g>
-  <g id="menu-shadow-topright" transform="translate(8)">
-    <rect width="4" height="4" x="6" y="0" opacity="0" />
-    <path d="M 6.123 2.002 C 7.374 2.042 8 2.708 8 4 L 9.656 4 C 9.115 2.697 7.938 2.031 6.123 2.002 z"
-      fill="url(#menu-atr)" opacity="0.15" />
-    <use href="#menu-normal-topright" />
-  </g>
-  <g id="menu-shadow-left" transform="translate(8)">
-    <path d="M 0.344 4 C 0.115 4.553 0 5.218 0 6 L 2 6 L 2 4 L 0.344 4 z" fill="url(#menu-atl)" opacity="0.15" />
-    <use href="#menu-normal-left" />
-  </g>
-  <g id="menu-shadow-right" transform="translate(8)">
-    <path d="M 8 4 L 8 6 L 10 6 C 10 5.218 9.885 4.553 9.656 4 L 8 4 z" fill="url(#menu-atr)" opacity="0.15" />
-    <use href="#menu-normal-right" />
-  </g>
-  <g id="menu-shadow-bottomleft" transform="translate(8)">
-    <!--  -->
-    <use href="#menu-normal-bottomleft" />
-  </g>
-  <g id="menu-shadow-bottom" transform="translate(8)">
-    <!--  -->
-    <use href="#menu-normal-bottom" />
-  </g>
-  <g id="menu-shadow-bottomright" transform="translate(8)">
-    <!--  -->
-    <use href="#menu-normal-bottomright" />
-  </g>
-  <use id="menu-normal-topleft" href="#tl-2" x="2" y="2" class="surf-cont" />
-  <use id="menu-normal-top" href="#sq-2" x="4" y="2" class="surf-cont" />
-  <use id="menu-normal-topright" href="#tr-2" x="6" y="2" class="surf-cont" />
-  <use id="menu-normal-left" href="#sq-2" x="2" y="4" class="surf-cont" />
-  <use id="menu-normal" href="#sq-2" x="4" y="4" class="surf-cont" />
-  <use id="menu-normal-right" href="#sq-2" x="6" y="4" class="surf-cont" />
-  <use id="menu-normal-bottomleft" href="#bl-2" x="2" y="6" class="surf-cont" />
-  <use id="menu-normal-bottom" href="#sq-2" x="4" y="6" class="surf-cont" />
-  <use id="menu-normal-bottomright" href="#br-2" x="6" y="6" class="surf-cont" />
-  <!-- 
-  <path id="clip-bl" d="M 0,12 h 4 v -4 q -2,0 -2,-2 h -2 z" fill="#008080" />
-  <rect id="clip-b" width="2" height="4" x="4" y="8" fill="#008080" />
-  <path id="clip-br" d="M 10,12 h -4 v -4 q 2,0 2,-2 h 2 z" fill="#008080" /> 
-  -->
+  <!-- Before 1 | 0px | 1px | 2px  | 0px | 0.3 -->
+  <!-- After 1 | 0px | 1px | 3px  | 1px | 0.15 -->
+  <circle cx="12" cy="13" r="10" opacity="0.3" />
+  <circle cx="12" cy="13" r="11" opacity="0.15" />
+  <circle cx="12" cy="12" r="10" class="pri" />
 </svg>
