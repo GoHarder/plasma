@@ -79,6 +79,7 @@ text.toggle.color=#003353
 inherits=PanelButtonCommand
 frame.element=tl-btn
 interior.element=tl-btn
+indicator.element=arrow
 text.normal.color=#c2c7cf
 text.focus.color=#c2c7cf
 text.press.color=#c2c7cf
@@ -87,6 +88,7 @@ text.toggle.color=#d5e4f6
 [ToolbarButton]
 frame.element=tb-btn
 interior.element=tb-btn
+indicator.element=arrow
 text.normal.color=#c2c7cf
 text.focus.color=#c2c7cf
 text.press.color=#c2c7cf
