@@ -1,4 +1,4 @@
-<svg width="126" height="188" viewBox="0 100 80 80" id="svg1" xmlns="http://www.w3.org/2000/svg">
+<svg width="126" height="188" viewBox="0 0 126 188" id="svg1" xmlns="http://www.w3.org/2000/svg">
   <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" />
   <defs>
     <!-- MARK: Style -->
@@ -132,90 +132,90 @@
   </defs>
   <g id="button-group">
     <g id="button-normal-group">
-      <use id="button-normal-topleft" href="#tl-6" class="sec-cont" />
-      <use id="button-normal-top" href="#sq-6" x="6" y="0" class="sec-cont" />
-      <use id="button-normal-topright" href="#tr-6" x="12" y="0" class="sec-cont" />
-      <use id="button-normal-left" href="#sq-6" x="0" y="6" class="sec-cont" />
-      <use id="button-normal" href="#sq-6" x="6" y="6" class="sec-cont" />
-      <use id="button-normal-right" href="#sq-6" x="12" y="6" class="sec-cont" />
-      <use id="button-normal-bottomleft" href="#bl-6" x="0" y="12" class="sec-cont" />
-      <use id="button-normal-bottom" href="#sq-6" x="6" y="12" class="sec-cont" />
-      <use id="button-normal-bottomright" href="#br-6" x="12" y="12" class="sec-cont" />
+      <use id="button-normal-topleft" href="#tl-6" class="surf-cont-highest" />
+      <use id="button-normal-top" href="#sq-6" x="6" y="0" class="surf-cont-highest" />
+      <use id="button-normal-topright" href="#tr-6" x="12" y="0" class="surf-cont-highest" />
+      <use id="button-normal-left" href="#sq-6" x="0" y="6" class="surf-cont-highest" />
+      <use id="button-normal" href="#sq-6" x="6" y="6" class="surf-cont-highest" />
+      <use id="button-normal-right" href="#sq-6" x="12" y="6" class="surf-cont-highest" />
+      <use id="button-normal-bottomleft" href="#bl-6" x="0" y="12" class="surf-cont-highest" />
+      <use id="button-normal-bottom" href="#sq-6" x="6" y="12" class="surf-cont-highest" />
+      <use id="button-normal-bottomright" href="#br-6" x="12" y="12" class="surf-cont-highest" />
     </g>
     <g id="button-focused-group" transform="translate(18)">
       <g id="button-focused-topleft">
         <use href="#button-normal-topleft" />
-        <use href="#tl-6" class="on-sec-cont" opacity="0.08" />
+        <use href="#tl-6" class="pri" opacity="0.08" />
       </g>
       <g id="button-focused-top">
         <use href="#button-normal-top" />
-        <use href="#sq-6" x="6" y="0" class="on-sec-cont" opacity="0.08" />
+        <use href="#sq-6" x="6" y="0" class="pri" opacity="0.08" />
       </g>
       <g id="button-focused-topright">
         <use href="#button-normal-topright" />
-        <use href="#tr-6" x="12" y="0" class="on-sec-cont" opacity="0.08" />
+        <use href="#tr-6" x="12" y="0" class="pri" opacity="0.08" />
       </g>
       <g id="button-focused-left">
         <use href="#button-normal-left" />
-        <use href="#sq-6" x="0" y="6" class="on-sec-cont" opacity="0.08" />
+        <use href="#sq-6" x="0" y="6" class="pri" opacity="0.08" />
       </g>
       <g id="button-focused">
         <use href="#button-normal" />
-        <use href="#sq-6" x="6" y="6" class="on-sec-cont" opacity="0.08" />
+        <use href="#sq-6" x="6" y="6" class="pri" opacity="0.08" />
       </g>
       <g id="button-focused-right">
         <use href="#button-normal-right" />
-        <use href="#sq-6" x="12" y="6" class="on-sec-cont" opacity="0.08" />
+        <use href="#sq-6" x="12" y="6" class="pri" opacity="0.08" />
       </g>
       <g id="button-focused-bottomleft">
         <use href="#button-normal-bottomleft" />
-        <use href="#bl-6" x="0" y="12" class="on-sec-cont" opacity="0.08" />
+        <use href="#bl-6" x="0" y="12" class="pri" opacity="0.08" />
       </g>
       <g id="button-focused-bottom">
         <use href="#button-normal-bottom" />
-        <use href="#sq-6" x="6" y="12" class="on-sec-cont" opacity="0.08" />
+        <use href="#sq-6" x="6" y="12" class="pri" opacity="0.08" />
       </g>
       <g id="button-focused-bottomright">
         <use href="#button-normal-bottomright" />
-        <use href="#br-6" x="12" y="12" class="on-sec-cont" opacity="0.08" />
+        <use href="#br-6" x="12" y="12" class="pri" opacity="0.08" />
       </g>
     </g>
     <g id="button-pressed-group" transform="translate(36)">
       <g id="button-pressed-topleft">
         <use href="#button-normal-topleft" />
-        <use href="#tl-6" class="on-sec-cont" opacity="0.08" />
+        <use href="#tl-6" class="pri" opacity="0.1" />
       </g>
       <g id="button-pressed-top">
         <use href="#button-normal-top" />
-        <use href="#sq-6" x="6" y="0" class="on-sec-cont" opacity="0.08" />
+        <use href="#sq-6" x="6" y="0" class="pri" opacity="0.1" />
       </g>
       <g id="button-pressed-topright">
         <use href="#button-normal-topright" />
-        <use href="#tr-6" x="12" y="0" class="on-sec-cont" opacity="0.08" />
+        <use href="#tr-6" x="12" y="0" class="pri" opacity="0.1" />
       </g>
       <g id="button-pressed-left">
         <use href="#button-normal-left" />
-        <use href="#sq-6" x="0" y="6" class="on-sec-cont" opacity="0.08" />
+        <use href="#sq-6" x="0" y="6" class="pri" opacity="0.1" />
       </g>
       <g id="button-pressed">
         <use href="#button-normal" />
-        <use href="#sq-6" x="6" y="6" class="on-sec-cont" opacity="0.08" />
+        <use href="#sq-6" x="6" y="6" class="pri" opacity="0.1" />
       </g>
       <g id="button-pressed-right">
         <use href="#button-normal-right" />
-        <use href="#sq-6" x="12" y="6" class="on-sec-cont" opacity="0.08" />
+        <use href="#sq-6" x="12" y="6" class="pri" opacity="0.1" />
       </g>
       <g id="button-pressed-bottomleft">
         <use href="#button-normal-bottomleft" />
-        <use href="#bl-6" x="0" y="12" class="on-sec-cont" opacity="0.08" />
+        <use href="#bl-6" x="0" y="12" class="pri" opacity="0.1" />
       </g>
       <g id="button-pressed-bottom">
         <use href="#button-normal-bottom" />
-        <use href="#sq-6" x="6" y="12" class="on-sec-cont" opacity="0.08" />
+        <use href="#sq-6" x="6" y="12" class="pri" opacity="0.1" />
       </g>
       <g id="button-pressed-bottomright">
         <use href="#button-normal-bottomright" />
-        <use href="#br-6" x="12" y="12" class="on-sec-cont" opacity="0.08" />
+        <use href="#br-6" x="12" y="12" class="pri" opacity="0.1" />
       </g>
     </g>
     <g id="button-toggled-group" transform="translate(54)">
@@ -245,89 +245,89 @@
     <g id="tl-btn-focused-group" transform="translate(18)">
       <g id="tl-btn-focused-topleft">
         <use href="#tl-btn-normal-topleft" />
-        <use href="#tl-6" class="pri" opacity="0.08" />
+        <use href="#tl-6" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="tl-btn-focused-top">
         <use href="#tl-btn-normal-top" />
-        <use href="#sq-6" x="6" y="0" class="pri" opacity="0.08" />
+        <use href="#sq-6" x="6" y="0" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="tl-btn-focused-topright">
         <use href="#tl-btn-normal-topright" />
-        <use href="#tr-6" x="12" y="0" class="pri" opacity="0.08" />
+        <use href="#tr-6" x="12" y="0" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="tl-btn-focused-left">
         <use href="#tl-btn-normal-left" />
-        <use href="#sq-6" x="0" y="6" class="pri" opacity="0.08" />
+        <use href="#sq-6" x="0" y="6" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="tl-btn-focused">
         <use href="#tl-btn-normal" />
-        <use href="#sq-6" x="6" y="6" class="pri" opacity="0.08" />
+        <use href="#sq-6" x="6" y="6" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="tl-btn-focused-right">
         <use href="#tl-btn-normal-right" />
-        <use href="#sq-6" x="12" y="6" class="pri" opacity="0.08" />
+        <use href="#sq-6" x="12" y="6" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="tl-btn-focused-bottomleft">
         <use href="#tl-btn-normal-bottomleft" />
-        <use href="#bl-6" x="0" y="12" class="pri" opacity="0.08" />
+        <use href="#bl-6" x="0" y="12" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="tl-btn-focused-bottom">
         <use href="#tl-btn-normal-bottom" />
-        <use href="#sq-6" x="6" y="12" class="pri" opacity="0.08" />
+        <use href="#sq-6" x="6" y="12" class="on-sec-cont" opacity="0.08" />
       </g>
       <g id="tl-btn-focused-bottomright">
         <use href="#tl-btn-normal-bottomright" />
-        <use href="#br-6" x="12" y="12" class="pri" opacity="0.08" />
+        <use href="#br-6" x="12" y="12" class="on-sec-cont" opacity="0.08" />
       </g>
     </g>
     <g id="tl-btn-pressed-group" transform="translate(36)">
       <g id="tl-btn-pressed-topleft">
         <use href="#tl-btn-normal-topleft" />
-        <use href="#tl-6" class="pri" opacity="0.1" />
+        <use href="#tl-6" class="on-sec-cont" opacity="0.1" />
       </g>
       <g id="tl-btn-pressed-top">
         <use href="#tl-btn-normal-top" />
-        <use href="#sq-6" x="6" y="0" class="pri" opacity="0.1" />
+        <use href="#sq-6" x="6" y="0" class="on-sec-cont" opacity="0.1" />
       </g>
       <g id="tl-btn-pressed-topright">
         <use href="#tl-btn-normal-topright" />
-        <use href="#tr-6" x="12" y="0" class="pri" opacity="0.1" />
+        <use href="#tr-6" x="12" y="0" class="on-sec-cont" opacity="0.1" />
       </g>
       <g id="tl-btn-pressed-left">
         <use href="#tl-btn-normal-left" />
-        <use href="#sq-6" x="0" y="6" class="pri" opacity="0.1" />
+        <use href="#sq-6" x="0" y="6" class="on-sec-cont" opacity="0.1" />
       </g>
       <g id="tl-btn-pressed">
         <use href="#tl-btn-normal" />
-        <use href="#sq-6" x="6" y="6" class="pri" opacity="0.1" />
+        <use href="#sq-6" x="6" y="6" class="on-sec-cont" opacity="0.1" />
       </g>
       <g id="tl-btn-pressed-right">
         <use href="#tl-btn-normal-right" />
-        <use href="#sq-6" x="12" y="6" class="pri" opacity="0.1" />
+        <use href="#sq-6" x="12" y="6" class="on-sec-cont" opacity="0.1" />
       </g>
       <g id="tl-btn-pressed-bottomleft">
         <use href="#tl-btn-normal-bottomleft" />
-        <use href="#bl-6" x="0" y="12" class="pri" opacity="0.1" />
+        <use href="#bl-6" x="0" y="12" class="on-sec-cont" opacity="0.1" />
       </g>
       <g id="tl-btn-pressed-bottom">
         <use href="#tl-btn-normal-bottom" />
-        <use href="#sq-6" x="6" y="12" class="pri" opacity="0.1" />
+        <use href="#sq-6" x="6" y="12" class="on-sec-cont" opacity="0.1" />
       </g>
       <g id="tl-btn-pressed-bottomright">
         <use href="#tl-btn-normal-bottomright" />
-        <use href="#br-6" x="12" y="12" class="pri" opacity="0.1" />
+        <use href="#br-6" x="12" y="12" class="on-sec-cont" opacity="0.1" />
       </g>
     </g>
     <g id="tl-btn-toggled-group" transform="translate(54)">
-      <use id="tl-btn-toggled-topleft" href="#tl-6" class="pri" />
-      <use id="tl-btn-toggled-top" href="#sq-6" x="6" y="0" class="pri" />
-      <use id="tl-btn-toggled-topright" href="#tr-6" x="12" y="0" class="pri" />
-      <use id="tl-btn-toggled-left" href="#sq-6" x="0" y="6" class="pri" />
-      <use id="tl-btn-toggled" href="#sq-6" x="6" y="6" class="pri" />
-      <use id="tl-btn-toggled-right" href="#sq-6" x="12" y="6" class="pri" />
-      <use id="tl-btn-toggled-bottomleft" href="#bl-6" x="0" y="12" class="pri" />
-      <use id="tl-btn-toggled-bottom" href="#sq-6" x="6" y="12" class="pri" />
-      <use id="tl-btn-toggled-bottomright" href="#br-6" x="12" y="12" class="pri" />
+      <use id="tl-btn-toggled-topleft" href="#tl-6" class="sec-cont" />
+      <use id="tl-btn-toggled-top" href="#sq-6" x="6" y="0" class="sec-cont" />
+      <use id="tl-btn-toggled-topright" href="#tr-6" x="12" y="0" class="sec-cont" />
+      <use id="tl-btn-toggled-left" href="#sq-6" x="0" y="6" class="sec-cont" />
+      <use id="tl-btn-toggled" href="#sq-6" x="6" y="6" class="sec-cont" />
+      <use id="tl-btn-toggled-right" href="#sq-6" x="12" y="6" class="sec-cont" />
+      <use id="tl-btn-toggled-bottomleft" href="#bl-6" x="0" y="12" class="sec-cont" />
+      <use id="tl-btn-toggled-bottom" href="#sq-6" x="6" y="12" class="sec-cont" />
+      <use id="tl-btn-toggled-bottomright" href="#br-6" x="12" y="12" class="sec-cont" />
     </g>
   </g>
   <g id="tb-btn-group" transform="translate(0,36)">
@@ -730,10 +730,10 @@
     <!-- 
     id="slider-tick-normal"
     id="slider-topglow-normal"
-    id="slider-bottomglow-normal"
+    id="slider-bottomglow-normal" 
     -->
   </g>
-  <g id="menu-group" transform="translate(64,144)">
+  <g id="menu-group" transform="translate(40,144)">
     <use id="menu-normal-topleft" href="#tl-2" x="2" y="2" class="surf-cont" />
     <use id="menu-normal-top" href="#sq-2" x="4" y="2" class="surf-cont" />
     <use id="menu-normal-topright" href="#tr-2" x="6" y="2" class="surf-cont" />
@@ -798,33 +798,51 @@
       <use href="#sq-2" class="on-surf" opacity="0.08" />
     </g>
   </g>
-  <g id="tab-group" transform="translate(64,144)">
+  <g id="tab-group" transform="translate(58,144)">
     <use id="tabframe-normal-topleft" href="#sq-1" x="9" y="9" class="surf" />
     <use id="tabframe-normal-top" href="#sq-1" x="10" y="9" class="surf" />
     <use id="tabframe-normal-topright" href="#sq-1" x="11" y="9" class="surf" />
     <use id="tabframe-normal-left" href="#sq-1" x="9" y="10" class="surf" />
     <use id="tabframe-normal-right" href="#sq-1" x="11" y="10" class="surf" />
-    <use id="tabframe-normal-bottomleft" href="#sq-1" x="9" y="11" class="outline-var" />
-    <use id="tabframe-normal-bottom" href="#sq-1" x="10" y="11" class="outline-var" />
-    <use id="tabframe-normal-bottomright" href="#sq-1" x="11" y="11" class="outline-var" />
+    <use id="tabframe-normal-bottomleft" href="#sq-1" x="9" y="11" class="surf" />
+    <use id="tabframe-normal-bottom" href="#sq-1" x="10" y="11" class="surf" />
+    <use id="tabframe-normal-bottomright" href="#sq-1" x="11" y="11" class="surf" />
     <use id="tab-normal-topleft" href="#sq-3" x="0" y="0" opacity="0" />
     <use id="tab-normal-top" href="#sq-3" x="3" y="0" opacity="0" />
     <use id="tab-normal-topright" href="#sq-3" x="6" y="0" opacity="0" />
     <use id="tab-normal-left" href="#sq-3" x="0" y="3" opacity="0" />
     <use id="tab-normal" href="#sq-3" x="3" y="3" opacity="0" />
     <use id="tab-normal-right" href="#sq-3" x="6" y="3" opacity="0" />
-    <use id="tab-normal-bottomleft" href="#sq-3" x="0" y="6" opacity="0" />
-    <use id="tab-normal-bottom" href="#sq-3" x="3" y="6" opacity="0" />
-    <use id="tab-normal-bottomright" href="#sq-3" x="6" y="6" opacity="0" />
+    <g id="tab-normal-bottomleft">
+      <use href="#sq-3" x="0" y="6" opacity="0" />
+      <rect width="3" height="1" x="0" y="8" class="outline" />
+    </g>
+    <g id="tab-normal-bottom">
+      <use href="#sq-3" x="3" y="6" opacity="0" />
+      <rect width="3" height="1" x="3" y="8" class="outline" />
+    </g>
+    <g id="tab-normal-bottomright">
+      <use href="#sq-3" x="6" y="6" opacity="0" />
+      <rect width="3" height="1" x="6" y="8" class="outline" />
+    </g>
     <use id="tab-focused-topleft" href="#sq-3" x="9" y="0" class="pri" opacity="0.1" />
     <use id="tab-focused-top" href="#sq-3" x="12" y="0" class="pri" opacity="0.1" />
     <use id="tab-focused-topright" href="#sq-3" x="15" y="0" class="pri" opacity="0.1" />
     <use id="tab-focused-left" href="#sq-3" x="9" y="3" class="pri" opacity="0.1" />
     <use id="tab-focused" href="#sq-3" x="12" y="3" class="pri" opacity="0.1" />
     <use id="tab-focused-right" href="#sq-3" x="15" y="3" class="pri" opacity="0.1" />
-    <use id="tab-focused-bottomleft" href="#sq-3" x="9" y="6" class="pri" opacity="0.1" />
-    <use id="tab-focused-bottom" href="#sq-3" x="12" y="6" class="pri" opacity="0.1" />
-    <use id="tab-focused-bottomright" href="#sq-3" x="15" y="6" class="pri" opacity="0.1" />
+    <g id="tab-focused-bottomleft">
+      <use href="#sq-3" x="9" y="6" class="pri" opacity="0.1" />
+      <rect width="3" height="1" x="9" y="8" class="outline" />
+    </g>
+    <g id="tab-focused-bottom">
+      <use href="#sq-3" x="12" y="6" class="pri" opacity="0.1" />
+      <rect width="3" height="1" x="12" y="8" class="outline" />
+    </g>
+    <g id="tab-focused-bottomright">
+      <use href="#sq-3" x="15" y="6" class="pri" opacity="0.1" />
+      <rect width="3" height="1" x="15" y="8" class="outline" />
+    </g>
     <use id="tab-toggled-topleft" href="#sq-3" x="0" y="9" opacity="0" />
     <use id="tab-toggled-top" href="#sq-3" x="3" y="9" opacity="0" />
     <use id="tab-toggled-topright" href="#sq-3" x="6" y="9" opacity="0" />
@@ -834,12 +852,10 @@
     <path id="tab-toggled-bottomleft" d="M 0,18 q 0,-3 3,-3 v 3 Z" class="pri" />
     <use id="tab-toggled-bottom" href="#sq-3" x="3" y="15" class="pri" />
     <path id="tab-toggled-bottomright" d="M 9,18 q 0,-3 -3,-3 v 3 z" class="pri" />
-    <use id="tab-close-normal" href="#close" x="0" y="0" class="on-surf-var" />
-    <use id="tab-close-focused" href="#close" x="14" y="0" class="pri" />
-    <use id="tab-close-pressed" href="#close" x="0" y="14" class="on-surf" />
-    <use id="tab-close-disabled" href="#close" x="14" y="14" class="on-surf" opacity="0.38" />
-    <!-- 
-    id="tab-tear"
-    -->
+    <use id="tab-close-normal" href="#close" x="18" y="0" class="on-surf-var" />
+    <use id="tab-close-focused" href="#close" x="32" y="0" class="pri" />
+    <use id="tab-close-pressed" href="#close" x="18" y="14" class="on-surf" />
+    <use id="tab-close-disabled" href="#close" x="32" y="14" class="on-surf" opacity="0.38" />
+    <!-- id="tab-tear" -->
   </g>
 </svg>

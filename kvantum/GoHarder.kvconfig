@@ -53,26 +53,26 @@ text.margin.bottom=3
 text.margin.left=4
 text.margin.right=4
 text.iconspacing=4
-text.normal.color=#d5e4f6
-text.focus.color=#d5e4f6
-text.press.color=#d5e4f6
-text.toggle.color=#3a4857
+text.normal.color=#95ccff
+text.focus.color=#95ccff
+text.press.color=#95ccff
+text.toggle.color=#003353
 
 [PanelButtonTool]
 inherits=PanelButtonCommand
 frame.element=tl-btn
 interior.element=tl-btn
-text.normal.color=#d5e4f6
-text.focus.color=#d5e4f6
-text.press.color=#d5e4f6
-text.toggle.color=#003353
+text.normal.color=#c2c7cf
+text.focus.color=#c2c7cf
+text.press.color=#c2c7cf
+text.toggle.color=#d5e4f6
 
 [ToolbarButton]
 frame.element=tb-btn
 interior.element=tb-btn
-text.normal.color=#e2e2e5
-text.focus.color=#e2e2e5
-text.press.color=#e2e2e5
+text.normal.color=#c2c7cf
+text.focus.color=#c2c7cf
+text.press.color=#c2c7cf
 text.toggle.color=#d5e4f6
 
 [Toolbar]
@@ -90,7 +90,7 @@ frame.top=2
 frame.bottom=2
 frame.left=2
 frame.right=2
-text.normal.color=#c2c7cf
+text.normal.color=#e2e2e5
 text.focus.color=#e2e2e5
 text.press.color=#e2e2e5
 text.toggle.color=#e2e2e5
@@ -141,6 +141,10 @@ frame.top=2
 frame.bottom=2
 frame.left=2
 frame.right=2
+text.normal.color=#e2e2e5
+text.focus.color=#e2e2e5
+text.press.color=#e2e2e5
+text.toggle.color=#e2e2e5
 
 [SliderCursor]
 inherits=PanelButtonCommand
@@ -167,6 +171,10 @@ frame.top=3
 frame.bottom=3
 frame.left=3
 frame.right=3
+text.normal.color=#c2c7cf
+text.focus.color=#e2e2e5
+text.press.color=#e2e2e5
+text.toggle.color=#95ccff
 
 [TabFrame]
 inherits=PanelButtonCommand
