@@ -9,9 +9,13 @@ combo_as_lineedit=true
 left_tabs=true
 ; toolbar
 group_toolbar_buttons=true
+dialog_button_layout=4
 ; progressbar
 spread_progressbar=true
 progressbar_thickness=4
+; menu
+spread_menuitems=true
+
 ; slider
 slider_width=4
 slider_handle_width=17
@@ -24,13 +28,26 @@ menu_shadow_depth=6
 tooltip_shadow_depth=6
 opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,VirtualBoxVM,trojita,dragon,digikam,lyx
 
-spread_menuitems=true
-
 [GeneralColors]
 window.color=#1e2022
-inactive.window.color=#1a1c1e
 base.color=#1e2022
 alt.base.color=#1a1c1e
+button.color=#333538
+; light.color=#626262
+; mid.light.color=#555555
+; dark.color=#171717
+; mid.color=#3C3C3C
+; highlight.color=#737373
+; inactive.highlight.color=#4A4A4A
+; tooltip.base.color=black
+text.color=#e2e2e5
+window.text.color=#e2e2e5
+button.text.color=#c2c7cf
+disabled.text.color=#e2e2e560
+; tooltip.text.color=white
+; highlight.text.color=white
+; link.color=#2EB8E6
+; link.visited.color=#FF6666
 
 [Hacks]
 respect_darkness=true
@@ -78,7 +95,7 @@ text.toggle.color=#d5e4f6
 [Toolbar]
 inherits=PanelButtonCommand
 indicator.element=toolbar
-indicator.size=8
+indicator.size=4
 frame.element=toolbar
 interior.element=toolbar
 
