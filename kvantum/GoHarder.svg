@@ -1,4 +1,4 @@
-<svg width="126" height="188" viewBox="0 0 126 188" id="svg1" xmlns="http://www.w3.org/2000/svg">
+<svg width="126" height="188" viewBox="0 100 80 80" id="svg1" xmlns="http://www.w3.org/2000/svg">
   <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" />
   <defs>
     <!-- MARK: Style -->
@@ -90,8 +90,8 @@
     <path id="close" d="M 1.4,14 0,12.6 5.6,7 0,1.4 1.4,0 7,5.6 12.6,0 14,1.4 8.4,7 14,12.6 12.6,14 7,8.4 Z" />
     <!-- MARK: Gradients -->
     <linearGradient id="menu-bg">
-      <stop id="stop1" stop-color="#000000" stop-opacity="1" offset="0" />
-      <stop id="stop2" stop-color="#000000" stop-opacity="0" offset="1" />
+      <stop id="stop1" stop-opacity="1" offset="0" />
+      <stop id="stop2" stop-opacity="0" offset="1" />
     </linearGradient>
     <radialGradient xlink:href="#menu-bg" id="menu-btl" cx="4" cy="5" r="2" gradientUnits="userSpaceOnUse" />
     <linearGradient xlink:href="#menu-bg" id="menu-bt" x1="5" y1="5" x2="5" y2="3" gradientUnits="userSpaceOnUse" />
@@ -102,8 +102,8 @@
     <linearGradient xlink:href="#menu-bg" id="menu-bb" x1="5" y1="7" x2="5" y2="9" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#menu-bg" id="menu-bbr" cx="6" cy="7" r="2" gradientUnits="userSpaceOnUse" />
     <linearGradient id="menu-ag">
-      <stop id="stop3" stop-color="#000000" stop-opacity="0.66" offset="0" />
-      <stop id="stop4" stop-color="#000000" stop-opacity="0" offset="1" />
+      <stop id="stop3" stop-opacity="0.66" offset="0" />
+      <stop id="stop4" stop-opacity="0" offset="1" />
     </linearGradient>
     <radialGradient xlink:href="#menu-ag" id="menu-atl" cx="4" cy="6" r="4" gradientUnits="userSpaceOnUse" />
     <linearGradient xlink:href="#menu-ag" id="menu-at" x1="5" y1="6" x2="5" y2="2" gradientUnits="userSpaceOnUse" />
@@ -113,6 +113,22 @@
     <radialGradient xlink:href="#menu-ag" id="menu-abl" cx="4" cy="8" r="4" gradientUnits="userSpaceOnUse" />
     <linearGradient xlink:href="#menu-ag" id="menu-ab" x1="5" y1="8" x2="5" y2="12" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#menu-ag" id="menu-abr" cx="6" cy="8" r="4" gradientUnits="userSpaceOnUse" />
+    <radialGradient id="slider-bg1">
+      <stop id="stop5" stop-opacity="1" offset="0.875" />
+      <stop id="stop6" stop-opacity="0" offset="1" />
+    </radialGradient>
+    <radialGradient id="slider-ag1">
+      <stop id="stop7" stop-opacity="1" offset="0.8" />
+      <stop id="stop8" stop-opacity="0" offset="1" />
+    </radialGradient>
+    <radialGradient id="slider-bg2">
+      <stop id="stop9" stop-opacity="1" offset="0.833" />
+      <stop id="stop10" stop-opacity="0" offset="1" />
+    </radialGradient>
+    <radialGradient id="slider-ag2">
+      <stop id="stop11" stop-opacity="1" offset="0.769" />
+      <stop id="stop12" stop-opacity="0" offset="1" />
+    </radialGradient>
   </defs>
   <g id="button-group">
     <g id="button-normal-group">
@@ -671,30 +687,46 @@
     </g>
   </g>
   <g id="slider-group" transform="translate(0,144)">
-    <use id="slider-normal-topleft" href="#tl-2" class="sec-cont" />
-    <!-- <use id="slider-normal-top" href="#sq-2" x="2" y="0" class="sec-cont" /> -->
-    <use id="slider-normal-topright" href="#tr-2" x="2" y="0" class="sec-cont" />
-    <use id="slider-normal-left" href="#sq-2" x="0" y="2" class="sec-cont" />
-    <!-- <use id="slider-normal" href="#sq-8" x="8" y="8" class="sec-cont" /> -->
-    <use id="slider-normal-right" href="#sq-2" x="2" y="2" class="sec-cont" />
-    <use id="slider-normal-bottomleft" href="#bl-2" x="0" y="4" class="sec-cont" />
-    <!-- <use id="slider-normal-bottom" href="#sq-2" x="2" y="2" class="sec-cont" /> -->
-    <use id="slider-normal-bottomright" href="#br-2" x="2" y="4" class="sec-cont" />
-
-    <use id="slider-toggled-topleft" href="#tl-2" x="4" y="0" class="pri" />
-    <!-- <use id="slider-toggled-top" href="#sq-2" x="8" y="0" class="pri" /> -->
-    <use id="slider-toggled-topright" href="#tr-2" x="6" y="0" class="pri" />
-    <use id="slider-toggled-left" href="#sq-2" x="4" y="2" class="pri" />
-    <!-- <use id="slider-toggled" href="#sq-2" x="32" y="8" class="pri" /> -->
-    <use id="slider-toggled-right" href="#sq-2" x="6" y="2" class="pri" />
-    <use id="slider-toggled-bottomleft" href="#bl-2" x="4" y="4" class="pri" />
-    <!-- <use id="slider-toggled-bottom" href="#sq-2" x="8" y="2" class="pri" /> -->
-    <use id="slider-toggled-bottomright" href="#br-2" x="6" y="4" class="pri" />
-
-    <use id="slidercursor-normal" href="#slide-hand" x="48" y="0" class="pri" />
-    <use id="slidercursor-focused" href="#slide-hand" x="52" y="0" class="pri" />
-    <use id="slidercursor-pressed" href="#slide-hand" x="56" y="0" class="pri" />
-    <use id="slidercursor-disabled" href="#slide-hand" x="60" y="0" class="on-surf" opacity="0.38" />
+    <use id="slider-normal-topleft" href="#tl-2" x="34" y="0" class="sec-cont" />
+    <use id="slider-normal-top" href="#sq-2" x="36" y="0" class="sec-cont" />
+    <use id="slider-normal-topright" href="#tr-2" x="38" y="0" class="sec-cont" />
+    <use id="slider-normal-left" href="#sq-2" x="34" y="2" class="sec-cont" />
+    <use id="slider-normal" href="#sq-2" x="36" y="2" class="sec-cont" />
+    <use id="slider-normal-right" href="#sq-2" x="38" y="2" class="sec-cont" />
+    <use id="slider-normal-bottomleft" href="#bl-2" x="34" y="4" class="sec-cont" />
+    <use id="slider-normal-bottom" href="#sq-2" x="36" y="4" class="sec-cont" />
+    <use id="slider-normal-bottomright" href="#br-2" x="38" y="4" class="sec-cont" />
+    <use id="slider-toggled-topleft" href="#tl-2" x="34" y="6" class="pri" />
+    <use id="slider-toggled-top" href="#sq-2" x="36" y="6" class="pri" />
+    <use id="slider-toggled-topright" href="#tr-2" x="38" y="6" class="pri" />
+    <use id="slider-toggled-left" href="#sq-2" x="34" y="8" class="pri" />
+    <use id="slider-toggled" href="#sq-2" x="36" y="8" class="pri" />
+    <use id="slider-toggled-right" href="#sq-2" x="38" y="8" class="pri" />
+    <use id="slider-toggled-bottomleft" href="#bl-2" x="34" y="10" class="pri" />
+    <use id="slider-toggled-bottom" href="#sq-2" x="36" y="10" class="pri" />
+    <use id="slider-toggled-bottomright" href="#br-2" x="38" y="10" class="pri" />
+    <g id="slidercursor-normal">
+      <rect width="17" height="17" x="0" y="0" opacity="0" />
+      <circle cx="8.5" cy="9.5" r="7" fill="url(#slider-bg1)" opacity="0.3" />
+      <circle cx="8.5" cy="9.5" r="7.5" fill="url(#slider-ag1)" opacity="0.15" />
+      <circle cx="8.5" cy="8.5" r="7" class="pri" />
+    </g>
+    <g id="slidercursor-focused" transform="translate(17)">
+      <rect width="17" height="17" x="0" y="0" opacity="0" />
+      <circle cx="8.5" cy="9.5" r="6" fill="url(#slider-bg2)" opacity="0.3" />
+      <circle cx="8.5" cy="9.5" r="6.5" fill="url(#slider-ag2)" opacity="0.15" />
+      <circle cx="8.5" cy="8.5" r="6" class="pri" />
+    </g>
+    <g id="slidercursor-pressed" transform="translate(0,17)">
+      <rect width="17" height="17" x="0" y="0" opacity="0" />
+      <circle cx="8.5" cy="9.5" r="6" fill="url(#slider-bg2)" opacity="0.3" />
+      <circle cx="8.5" cy="9.5" r="6.5" fill="url(#slider-ag2)" opacity="0.15" />
+      <circle cx="8.5" cy="8.5" r="6" class="pri" />
+    </g>
+    <g id="slidercursor-disabled" transform="translate(17,17)">
+      <rect width="17" height="17" x="0" y="0" opacity="0" />
+      <circle cx="8.5" cy="8.5" r="7" class="pri" class="on-surf" opacity="0.38" />
+    </g>
     <!-- 
     id="slider-tick-normal"
     id="slider-topglow-normal"
@@ -810,9 +842,4 @@
     id="tab-tear"
     -->
   </g>
-  <!-- Before 1 | 0px | 1px | 2px  | 0px | 0.3 -->
-  <!-- After 1 | 0px | 1px | 3px  | 1px | 0.15 -->
-  <circle cx="12" cy="13" r="10" opacity="0.3" />
-  <circle cx="12" cy="13" r="11" opacity="0.15" />
-  <circle cx="12" cy="12" r="10" class="pri" />
 </svg>

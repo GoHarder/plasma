@@ -14,8 +14,8 @@ spread_progressbar=true
 progressbar_thickness=4
 ; slider
 slider_width=4
-slider_handle_width=20
-slider_handle_length=20
+slider_handle_width=17
+slider_handle_length=17
 ; checkbox
 check_size=20
 ; rendering
