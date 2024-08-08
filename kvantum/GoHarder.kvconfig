@@ -93,10 +93,6 @@ text.normal.color=#c2c7cf
 text.focus.color=#c2c7cf
 text.press.color=#c2c7cf
 text.toggle.color=#d5e4f6
-frame.expanded.top=6
-frame.expanded.bottom=6
-frame.expanded.left=6
-frame.expanded.right=6
 
 [Toolbar]
 inherits=PanelButtonCommand

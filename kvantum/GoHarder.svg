@@ -332,140 +332,6 @@
    </g>
    <g id="tb-btn-group" transform="translate(0,36)">
       <g id="tb-btn-normal-group">
-         <use id="border-tb-btn-normal-topleft" href="#tl-6" x="1" y="0" class="outline-var" />
-         <use id="border-tb-btn-normal-top" href="#sq-6" x="7" y="0" class="outline-var" />
-         <use id="border-tb-btn-normal-topright" href="#tr-6" x="13" y="0" class="outline-var" />
-         <use id="border-tb-btn-normal-left" href="#sq-6" x="1" y="6" class="outline-var" />
-         <use id="border-tb-btn-normal" href="#sq-6" x="7" y="6" class="outline-var" />
-         <use id="border-tb-btn-normal-right" href="#sq-6" x="13" y="6" class="outline-var" />
-         <use id="border-tb-btn-normal-bottomleft" href="#bl-6" x="1" y="12" class="outline-var" />
-         <use id="border-tb-btn-normal-bottom" href="#sq-6" x="7" y="12" class="outline-var" />
-         <use id="border-tb-btn-normal-bottomright" href="#br-6" x="13" y="12" class="outline-var" />
-         <use id="tb-btn-normal-topleft" href="#tl-6" class="surf-cont-high" />
-         <use id="tb-btn-normal-top" href="#sq-6" x="6" y="0" class="surf-cont-high" />
-         <use id="tb-btn-normal-topright" href="#tr-6" x="12" y="0" class="surf-cont-high" />
-         <use id="tb-btn-normal-left" href="#sq-6" x="0" y="6" class="surf-cont-high" />
-         <use id="tb-btn-normal" href="#sq-6" x="6" y="6" class="surf-cont-high" />
-         <use id="tb-btn-normal-right" href="#sq-6" x="12" y="6" class="surf-cont-high" />
-         <use id="tb-btn-normal-bottomleft" href="#bl-6" x="0" y="12" class="surf-cont-high" />
-         <use id="tb-btn-normal-bottom" href="#sq-6" x="6" y="12" class="surf-cont-high" />
-         <use id="tb-btn-normal-bottomright" href="#br-6" x="12" y="12" class="surf-cont-high" />
-      </g>
-      <g id="tb-btn-focused-group" transform="translate(19)">
-         <use id="border-tb-btn-focused-topleft" href="#tl-6" x="1" y="0" class="outline" />
-         <use id="border-tb-btn-focused-top" href="#sq-6" x="7" y="0" class="outline" />
-         <use id="border-tb-btn-focused-topright" href="#tr-6" x="13" y="0" class="outline" />
-         <use id="border-tb-btn-focused-left" href="#sq-6" x="1" y="6" class="outline" />
-         <use id="border-tb-btn-focused" href="#sq-6" x="7" y="6" class="outline" />
-         <use id="border-tb-btn-focused-right" href="#sq-6" x="13" y="6" class="outline" />
-         <use id="border-tb-btn-focused-bottomleft" href="#bl-6" x="1" y="12" class="outline" />
-         <use id="border-tb-btn-focused-bottom" href="#sq-6" x="7" y="12" class="outline" />
-         <use id="border-tb-btn-focused-bottomright" href="#br-6" x="13" y="12" class="outline" />
-         <g id="tb-btn-focused-topleft">
-            <use href="#tb-btn-normal-topleft" />
-            <use href="#tl-6" class="on-surf" opacity="0.08" />
-         </g>
-         <g id="tb-btn-focused-top">
-            <use href="#tb-btn-normal-top" />
-            <use href="#sq-6" x="6" y="0" class="on-surf" opacity="0.08" />
-         </g>
-         <g id="tb-btn-focused-topright">
-            <use href="#tb-btn-normal-topright" />
-            <use href="#tr-6" x="12" y="0" class="on-surf" opacity="0.08" />
-         </g>
-         <g id="tb-btn-focused-left">
-            <use href="#tb-btn-normal-left" />
-            <use href="#sq-6" x="0" y="6" class="on-surf" opacity="0.08" />
-         </g>
-         <g id="tb-btn-focused">
-            <use href="#tb-btn-normal" />
-            <use href="#sq-6" x="6" y="6" class="on-surf" opacity="0.08" />
-         </g>
-         <g id="tb-btn-focused-right">
-            <use href="#tb-btn-normal-right" />
-            <use href="#sq-6" x="12" y="6" class="on-surf" opacity="0.08" />
-         </g>
-         <g id="tb-btn-focused-bottomleft">
-            <use href="#tb-btn-normal-bottomleft" />
-            <use href="#bl-6" x="0" y="12" class="on-surf" opacity="0.08" />
-         </g>
-         <g id="tb-btn-focused-bottom">
-            <use href="#tb-btn-normal-bottom" />
-            <use href="#sq-6" x="6" y="12" class="on-surf" opacity="0.08" />
-         </g>
-         <g id="tb-btn-focused-bottomright">
-            <use href="#tb-btn-normal-bottomright" />
-            <use href="#br-6" x="12" y="12" class="on-surf" opacity="0.08" />
-         </g>
-      </g>
-      <g id="tb-btn-pressed-group" transform="translate(38)">
-         <use id="border-tb-btn-pressed-topleft" href="#tl-6" x="1" y="0" class="outline" />
-         <use id="border-tb-btn-pressed-top" href="#sq-6" x="7" y="0" class="outline" />
-         <use id="border-tb-btn-pressed-topright" href="#tr-6" x="13" y="0" class="outline" />
-         <use id="border-tb-btn-pressed-left" href="#sq-6" x="1" y="6" class="outline" />
-         <use id="border-tb-btn-pressed" href="#sq-6" x="7" y="6" class="outline" />
-         <use id="border-tb-btn-pressed-right" href="#sq-6" x="13" y="6" class="outline" />
-         <use id="border-tb-btn-pressed-bottomleft" href="#bl-6" x="1" y="12" class="outline" />
-         <use id="border-tb-btn-pressed-bottom" href="#sq-6" x="7" y="12" class="outline" />
-         <use id="border-tb-btn-pressed-bottomright" href="#br-6" x="13" y="12" class="outline" />
-         <g id="tb-btn-pressed-topleft">
-            <use href="#tb-btn-normal-topleft" />
-            <use href="#tl-6" class="on-surf" opacity="0.1" />
-         </g>
-         <g id="tb-btn-pressed-top">
-            <use href="#tb-btn-normal-top" />
-            <use href="#sq-6" x="6" y="0" class="on-surf" opacity="0.1" />
-         </g>
-         <g id="tb-btn-pressed-topright">
-            <use href="#tb-btn-normal-topright" />
-            <use href="#tr-6" x="12" y="0" class="on-surf" opacity="0.1" />
-         </g>
-         <g id="tb-btn-pressed-left">
-            <use href="#tb-btn-normal-left" />
-            <use href="#sq-6" x="0" y="6" class="on-surf" opacity="0.1" />
-         </g>
-         <g id="tb-btn-pressed">
-            <use href="#tb-btn-normal" />
-            <use href="#sq-6" x="6" y="6" class="on-surf" opacity="0.1" />
-         </g>
-         <g id="tb-btn-pressed-right">
-            <use href="#tb-btn-normal-right" />
-            <use href="#sq-6" x="12" y="6" class="on-surf" opacity="0.1" />
-         </g>
-         <g id="tb-btn-pressed-bottomleft">
-            <use href="#tb-btn-normal-bottomleft" />
-            <use href="#bl-6" x="0" y="12" class="on-surf" opacity="0.1" />
-         </g>
-         <g id="tb-btn-pressed-bottom">
-            <use href="#tb-btn-normal-bottom" />
-            <use href="#sq-6" x="6" y="12" class="on-surf" opacity="0.1" />
-         </g>
-         <g id="tb-btn-pressed-bottomright">
-            <use href="#tb-btn-normal-bottomright" />
-            <use href="#br-6" x="12" y="12" class="on-surf" opacity="0.1" />
-         </g>
-      </g>
-      <g id="tb-btn-toggled-group" transform="translate(57)">
-         <use id="border-tb-btn-toggled-topleft" href="#tl-6" x="1" y="0" class="outline" />
-         <use id="border-tb-btn-toggled-top" href="#sq-6" x="7" y="0" class="outline" />
-         <use id="border-tb-btn-toggled-topright" href="#tr-6" x="13" y="0" class="outline" />
-         <use id="border-tb-btn-toggled-left" href="#sq-6" x="1" y="6" class="outline" />
-         <use id="border-tb-btn-toggled" href="#sq-6" x="7" y="6" class="outline" />
-         <use id="border-tb-btn-toggled-right" href="#sq-6" x="13" y="6" class="outline" />
-         <use id="border-tb-btn-toggled-bottomleft" href="#bl-6" x="1" y="12" class="outline" />
-         <use id="border-tb-btn-toggled-bottom" href="#sq-6" x="7" y="12" class="outline" />
-         <use id="border-tb-btn-toggled-bottomright" href="#br-6" x="13" y="12" class="outline" />
-         <use id="tb-btn-toggled-topleft" href="#tl-6" class="sec-cont" />
-         <use id="tb-btn-toggled-top" href="#sq-6" x="6" y="0" class="sec-cont" />
-         <use id="tb-btn-toggled-topright" href="#tr-6" x="12" y="0" class="sec-cont" />
-         <use id="tb-btn-toggled-left" href="#sq-6" x="0" y="6" class="sec-cont" />
-         <use id="tb-btn-toggled" href="#sq-6" x="6" y="6" class="sec-cont" />
-         <use id="tb-btn-toggled-right" href="#sq-6" x="12" y="6" class="sec-cont" />
-         <use id="tb-btn-toggled-bottomleft" href="#bl-6" x="0" y="12" class="sec-cont" />
-         <use id="tb-btn-toggled-bottom" href="#sq-6" x="6" y="12" class="sec-cont" />
-         <use id="tb-btn-toggled-bottomright" href="#br-6" x="12" y="12" class="sec-cont" />
-      </g>
-      <!-- <g id="tb-btn-normal-group">
          <path id="tb-btn-normal-topleft" d="M 0,6 q 0,-6 6,-6 v 1 q -5,0 -5,5 z" class="outline" />
          <g id="tb-btn-normal-top">
             <use href="#sq-6" x="6" y="0" opacity="0" />
@@ -487,8 +353,8 @@
             <rect width="6" height="1" x="6" y="17" class="outline" />
          </g>
          <path id="tb-btn-normal-bottomright" d="M 18,12 q 0,6 -6,6 v -1 q 5,0 5,-5 z" class="outline" />
-      </g> -->
-      <!-- <g id="tb-btn-focused-group" transform="translate(18)">
+      </g>
+      <g id="tb-btn-focused-group" transform="translate(18)">
          <g id="tb-btn-focused-topleft">
             <use href="#tb-btn-normal-topleft" />
             <use href="#tl-6" class="on-surf" opacity="0.08" />
@@ -522,8 +388,8 @@
             <use href="#tb-btn-normal-bottomright" />
             <use href="#br-6" x="12" y="12" class="on-surf" opacity="0.08" />
          </g>
-      </g> -->
-      <!-- <g id="tb-btn-pressed-group" transform="translate(36)">
+      </g>
+      <g id="tb-btn-pressed-group" transform="translate(36)">
          <g id="tb-btn-pressed-topleft">
             <use href="#tb-btn-normal-topleft" />
             <use href="#tl-6" class="on-surf" opacity="0.1" />
@@ -557,8 +423,8 @@
             <use href="#tb-btn-normal-bottomright" />
             <use href="#br-6" x="12" y="12" class="on-surf" opacity="0.1" />
          </g>
-      </g> -->
-      <!-- <g id="tb-btn-toggled-group" transform="translate(54)">
+      </g>
+      <g id="tb-btn-toggled-group" transform="translate(54)">
          <g id="tb-btn-toggled-topleft">
             <use href="#tl-6" class="sec-cont" />
             <use href="#tb-btn-normal-topleft" />
@@ -592,7 +458,7 @@
             <use href="#br-6" x="12" y="12" class="sec-cont" />
             <use href="#tb-btn-normal-bottomright" />
          </g>
-      </g> -->
+      </g>
    </g>
    <g id="toolbar-group" transform="translate(72)">
       <use id="toolbar-normal-topleft" href="#sq-6" class="surf-cont-high" />
