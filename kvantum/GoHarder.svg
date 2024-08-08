@@ -1,18 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="126" height="188" viewBox="0 0 126 188" id="svg1" version="1.1" sodipodi:docname="GoHarder.svg"
-   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-   <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" pagecolor="#ffffff" bordercolor="#666666"
-      borderopacity="1.0" inkscape:showpageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0"
-      inkscape:deskcolor="#d1d1d1" showguides="true" inkscape:zoom="13.224" inkscape:cx="16.182" inkscape:cy="18.035"
-      inkscape:window-width="1920" inkscape:window-height="1057" inkscape:window-x="-8" inkscape:window-y="-8"
-      inkscape:window-maximized="1">
-      <sodipodi:guide position="45,165.5" orientation="0,-1" id="guide83" inkscape:locked="false" />
-   </sodipodi:namedview>
-   <defs id="defs1">
+<svg width="198" height="188" viewBox="0 0 198 188" id="svg1" xmlns="http://www.w3.org/2000/svg">
+   <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" />
+   <defs>
       <!-- MARK: Style -->
-      <style id="style1">
+      <style>
          .pri {
             fill: #95ccff;
          }
@@ -115,8 +105,8 @@
          <stop id="stop8" stop-opacity="0" offset="1" />
       </radialGradient>
       <linearGradient id="menu-gb">
-         <stop id="stop9" stop-color="#800000" stop-opacity="1" offset="0" />
-         <stop id="stop10" stop-color="#800000" stop-opacity="0" offset="1" />
+         <stop id="stop9" stop-opacity="1" offset="0" />
+         <stop id="stop10" stop-opacity="0" offset="1" />
       </linearGradient>
       <radialGradient xlink:href="#menu-gb" id="menu-btl" cx="3" cy="4" r="2" gradientUnits="userSpaceOnUse" />
       <linearGradient xlink:href="#menu-gb" id="menu-bt" x1="4" y1="4" x2="4" y2="2" gradientUnits="userSpaceOnUse" />
@@ -127,8 +117,8 @@
       <linearGradient xlink:href="#menu-gb" id="menu-bb" x1="4" y1="6" x2="4" y2="8" gradientUnits="userSpaceOnUse" />
       <radialGradient xlink:href="#menu-gb" id="menu-bbr" cx="5" cy="6" r="2" gradientUnits="userSpaceOnUse" />
       <linearGradient id="menu-ga">
-         <stop id="stop11" stop-color="#008000" stop-opacity="0.5" offset="0" />
-         <stop id="stop12" stop-color="#008000" stop-opacity="0" offset="1" />
+         <stop id="stop11" stop-opacity="0.5" offset="0" />
+         <stop id="stop12" stop-opacity="0" offset="1" />
       </linearGradient>
       <radialGradient xlink:href="#menu-ga" id="menu-atl" cx="3" cy="5" r="3" gradientUnits="userSpaceOnUse" />
       <linearGradient xlink:href="#menu-ga" id="menu-at" x1="4" y1="5" x2="4" y2="2" gradientUnits="userSpaceOnUse" />
@@ -238,6 +228,7 @@
          <use id="button-toggled-bottom" href="#sq-6" x="6" y="12" class="pri" />
          <use id="button-toggled-bottomright" href="#br-6" x="12" y="12" class="pri" />
       </g>
+      <rect id="button-default-indicator" width="25" height="25" x="0" y="0" opacity="0" />
    </g>
    <g id="tl-btn-group" transform="translate(0,18)">
       <g id="tl-btn-normal-group">
@@ -341,6 +332,140 @@
    </g>
    <g id="tb-btn-group" transform="translate(0,36)">
       <g id="tb-btn-normal-group">
+         <use id="border-tb-btn-normal-topleft" href="#tl-6" x="1" y="0" class="outline-var" />
+         <use id="border-tb-btn-normal-top" href="#sq-6" x="7" y="0" class="outline-var" />
+         <use id="border-tb-btn-normal-topright" href="#tr-6" x="13" y="0" class="outline-var" />
+         <use id="border-tb-btn-normal-left" href="#sq-6" x="1" y="6" class="outline-var" />
+         <use id="border-tb-btn-normal" href="#sq-6" x="7" y="6" class="outline-var" />
+         <use id="border-tb-btn-normal-right" href="#sq-6" x="13" y="6" class="outline-var" />
+         <use id="border-tb-btn-normal-bottomleft" href="#bl-6" x="1" y="12" class="outline-var" />
+         <use id="border-tb-btn-normal-bottom" href="#sq-6" x="7" y="12" class="outline-var" />
+         <use id="border-tb-btn-normal-bottomright" href="#br-6" x="13" y="12" class="outline-var" />
+         <use id="tb-btn-normal-topleft" href="#tl-6" class="surf-cont-high" />
+         <use id="tb-btn-normal-top" href="#sq-6" x="6" y="0" class="surf-cont-high" />
+         <use id="tb-btn-normal-topright" href="#tr-6" x="12" y="0" class="surf-cont-high" />
+         <use id="tb-btn-normal-left" href="#sq-6" x="0" y="6" class="surf-cont-high" />
+         <use id="tb-btn-normal" href="#sq-6" x="6" y="6" class="surf-cont-high" />
+         <use id="tb-btn-normal-right" href="#sq-6" x="12" y="6" class="surf-cont-high" />
+         <use id="tb-btn-normal-bottomleft" href="#bl-6" x="0" y="12" class="surf-cont-high" />
+         <use id="tb-btn-normal-bottom" href="#sq-6" x="6" y="12" class="surf-cont-high" />
+         <use id="tb-btn-normal-bottomright" href="#br-6" x="12" y="12" class="surf-cont-high" />
+      </g>
+      <g id="tb-btn-focused-group" transform="translate(19)">
+         <use id="border-tb-btn-focused-topleft" href="#tl-6" x="1" y="0" class="outline" />
+         <use id="border-tb-btn-focused-top" href="#sq-6" x="7" y="0" class="outline" />
+         <use id="border-tb-btn-focused-topright" href="#tr-6" x="13" y="0" class="outline" />
+         <use id="border-tb-btn-focused-left" href="#sq-6" x="1" y="6" class="outline" />
+         <use id="border-tb-btn-focused" href="#sq-6" x="7" y="6" class="outline" />
+         <use id="border-tb-btn-focused-right" href="#sq-6" x="13" y="6" class="outline" />
+         <use id="border-tb-btn-focused-bottomleft" href="#bl-6" x="1" y="12" class="outline" />
+         <use id="border-tb-btn-focused-bottom" href="#sq-6" x="7" y="12" class="outline" />
+         <use id="border-tb-btn-focused-bottomright" href="#br-6" x="13" y="12" class="outline" />
+         <g id="tb-btn-focused-topleft">
+            <use href="#tb-btn-normal-topleft" />
+            <use href="#tl-6" class="on-surf" opacity="0.08" />
+         </g>
+         <g id="tb-btn-focused-top">
+            <use href="#tb-btn-normal-top" />
+            <use href="#sq-6" x="6" y="0" class="on-surf" opacity="0.08" />
+         </g>
+         <g id="tb-btn-focused-topright">
+            <use href="#tb-btn-normal-topright" />
+            <use href="#tr-6" x="12" y="0" class="on-surf" opacity="0.08" />
+         </g>
+         <g id="tb-btn-focused-left">
+            <use href="#tb-btn-normal-left" />
+            <use href="#sq-6" x="0" y="6" class="on-surf" opacity="0.08" />
+         </g>
+         <g id="tb-btn-focused">
+            <use href="#tb-btn-normal" />
+            <use href="#sq-6" x="6" y="6" class="on-surf" opacity="0.08" />
+         </g>
+         <g id="tb-btn-focused-right">
+            <use href="#tb-btn-normal-right" />
+            <use href="#sq-6" x="12" y="6" class="on-surf" opacity="0.08" />
+         </g>
+         <g id="tb-btn-focused-bottomleft">
+            <use href="#tb-btn-normal-bottomleft" />
+            <use href="#bl-6" x="0" y="12" class="on-surf" opacity="0.08" />
+         </g>
+         <g id="tb-btn-focused-bottom">
+            <use href="#tb-btn-normal-bottom" />
+            <use href="#sq-6" x="6" y="12" class="on-surf" opacity="0.08" />
+         </g>
+         <g id="tb-btn-focused-bottomright">
+            <use href="#tb-btn-normal-bottomright" />
+            <use href="#br-6" x="12" y="12" class="on-surf" opacity="0.08" />
+         </g>
+      </g>
+      <g id="tb-btn-pressed-group" transform="translate(38)">
+         <use id="border-tb-btn-pressed-topleft" href="#tl-6" x="1" y="0" class="outline" />
+         <use id="border-tb-btn-pressed-top" href="#sq-6" x="7" y="0" class="outline" />
+         <use id="border-tb-btn-pressed-topright" href="#tr-6" x="13" y="0" class="outline" />
+         <use id="border-tb-btn-pressed-left" href="#sq-6" x="1" y="6" class="outline" />
+         <use id="border-tb-btn-pressed" href="#sq-6" x="7" y="6" class="outline" />
+         <use id="border-tb-btn-pressed-right" href="#sq-6" x="13" y="6" class="outline" />
+         <use id="border-tb-btn-pressed-bottomleft" href="#bl-6" x="1" y="12" class="outline" />
+         <use id="border-tb-btn-pressed-bottom" href="#sq-6" x="7" y="12" class="outline" />
+         <use id="border-tb-btn-pressed-bottomright" href="#br-6" x="13" y="12" class="outline" />
+         <g id="tb-btn-pressed-topleft">
+            <use href="#tb-btn-normal-topleft" />
+            <use href="#tl-6" class="on-surf" opacity="0.1" />
+         </g>
+         <g id="tb-btn-pressed-top">
+            <use href="#tb-btn-normal-top" />
+            <use href="#sq-6" x="6" y="0" class="on-surf" opacity="0.1" />
+         </g>
+         <g id="tb-btn-pressed-topright">
+            <use href="#tb-btn-normal-topright" />
+            <use href="#tr-6" x="12" y="0" class="on-surf" opacity="0.1" />
+         </g>
+         <g id="tb-btn-pressed-left">
+            <use href="#tb-btn-normal-left" />
+            <use href="#sq-6" x="0" y="6" class="on-surf" opacity="0.1" />
+         </g>
+         <g id="tb-btn-pressed">
+            <use href="#tb-btn-normal" />
+            <use href="#sq-6" x="6" y="6" class="on-surf" opacity="0.1" />
+         </g>
+         <g id="tb-btn-pressed-right">
+            <use href="#tb-btn-normal-right" />
+            <use href="#sq-6" x="12" y="6" class="on-surf" opacity="0.1" />
+         </g>
+         <g id="tb-btn-pressed-bottomleft">
+            <use href="#tb-btn-normal-bottomleft" />
+            <use href="#bl-6" x="0" y="12" class="on-surf" opacity="0.1" />
+         </g>
+         <g id="tb-btn-pressed-bottom">
+            <use href="#tb-btn-normal-bottom" />
+            <use href="#sq-6" x="6" y="12" class="on-surf" opacity="0.1" />
+         </g>
+         <g id="tb-btn-pressed-bottomright">
+            <use href="#tb-btn-normal-bottomright" />
+            <use href="#br-6" x="12" y="12" class="on-surf" opacity="0.1" />
+         </g>
+      </g>
+      <g id="tb-btn-toggled-group" transform="translate(57)">
+         <use id="border-tb-btn-toggled-topleft" href="#tl-6" x="1" y="0" class="outline" />
+         <use id="border-tb-btn-toggled-top" href="#sq-6" x="7" y="0" class="outline" />
+         <use id="border-tb-btn-toggled-topright" href="#tr-6" x="13" y="0" class="outline" />
+         <use id="border-tb-btn-toggled-left" href="#sq-6" x="1" y="6" class="outline" />
+         <use id="border-tb-btn-toggled" href="#sq-6" x="7" y="6" class="outline" />
+         <use id="border-tb-btn-toggled-right" href="#sq-6" x="13" y="6" class="outline" />
+         <use id="border-tb-btn-toggled-bottomleft" href="#bl-6" x="1" y="12" class="outline" />
+         <use id="border-tb-btn-toggled-bottom" href="#sq-6" x="7" y="12" class="outline" />
+         <use id="border-tb-btn-toggled-bottomright" href="#br-6" x="13" y="12" class="outline" />
+         <use id="tb-btn-toggled-topleft" href="#tl-6" class="sec-cont" />
+         <use id="tb-btn-toggled-top" href="#sq-6" x="6" y="0" class="sec-cont" />
+         <use id="tb-btn-toggled-topright" href="#tr-6" x="12" y="0" class="sec-cont" />
+         <use id="tb-btn-toggled-left" href="#sq-6" x="0" y="6" class="sec-cont" />
+         <use id="tb-btn-toggled" href="#sq-6" x="6" y="6" class="sec-cont" />
+         <use id="tb-btn-toggled-right" href="#sq-6" x="12" y="6" class="sec-cont" />
+         <use id="tb-btn-toggled-bottomleft" href="#bl-6" x="0" y="12" class="sec-cont" />
+         <use id="tb-btn-toggled-bottom" href="#sq-6" x="6" y="12" class="sec-cont" />
+         <use id="tb-btn-toggled-bottomright" href="#br-6" x="12" y="12" class="sec-cont" />
+      </g>
+      <!-- <g id="tb-btn-normal-group">
          <path id="tb-btn-normal-topleft" d="M 0,6 q 0,-6 6,-6 v 1 q -5,0 -5,5 z" class="outline" />
          <g id="tb-btn-normal-top">
             <use href="#sq-6" x="6" y="0" opacity="0" />
@@ -362,8 +487,8 @@
             <rect width="6" height="1" x="6" y="17" class="outline" />
          </g>
          <path id="tb-btn-normal-bottomright" d="M 18,12 q 0,6 -6,6 v -1 q 5,0 5,-5 z" class="outline" />
-      </g>
-      <g id="tb-btn-focused-group" transform="translate(18)">
+      </g> -->
+      <!-- <g id="tb-btn-focused-group" transform="translate(18)">
          <g id="tb-btn-focused-topleft">
             <use href="#tb-btn-normal-topleft" />
             <use href="#tl-6" class="on-surf" opacity="0.08" />
@@ -397,8 +522,8 @@
             <use href="#tb-btn-normal-bottomright" />
             <use href="#br-6" x="12" y="12" class="on-surf" opacity="0.08" />
          </g>
-      </g>
-      <g id="tb-btn-pressed-group" transform="translate(36)">
+      </g> -->
+      <!-- <g id="tb-btn-pressed-group" transform="translate(36)">
          <g id="tb-btn-pressed-topleft">
             <use href="#tb-btn-normal-topleft" />
             <use href="#tl-6" class="on-surf" opacity="0.1" />
@@ -432,8 +557,8 @@
             <use href="#tb-btn-normal-bottomright" />
             <use href="#br-6" x="12" y="12" class="on-surf" opacity="0.1" />
          </g>
-      </g>
-      <g id="tb-btn-toggled-group" transform="translate(54)">
+      </g> -->
+      <!-- <g id="tb-btn-toggled-group" transform="translate(54)">
          <g id="tb-btn-toggled-topleft">
             <use href="#tl-6" class="sec-cont" />
             <use href="#tb-btn-normal-topleft" />
@@ -467,7 +592,7 @@
             <use href="#br-6" x="12" y="12" class="sec-cont" />
             <use href="#tb-btn-normal-bottomright" />
          </g>
-      </g>
+      </g> -->
    </g>
    <g id="toolbar-group" transform="translate(72)">
       <use id="toolbar-normal-topleft" href="#sq-6" class="surf-cont-high" />
@@ -736,11 +861,9 @@
          <rect width="17" height="17" x="0" y="0" opacity="0" />
          <circle cx="8.5" cy="8.5" r="7" class="on-surf" opacity="0.38" />
       </g>
-      <!-- 
-    id="slider-tick-normal"
-    id="slider-topglow-normal"
-    id="slider-bottomglow-normal" 
-    -->
+      <circle cx="2.5" cy="2.5" r="2.5" class="on-surf" id="slider-tick-normal" />
+      <rect id="slider-topglow-normal" width="25" height="25" x="0" y="0" opacity="0" />
+      <rect id="slider-bottomglow-normal" width="25" height="25" x="0" y="0" opacity="0" />
    </g>
    <g id="menu-group" transform="translate(40,144)">
       <use id="menu-normal-topleft" href="#tl-2" x="1" y="1" class="surf-cont" />
@@ -801,11 +924,8 @@
       <rect id="menu-shadow-hint-left" width="1" height="1" x="7" y="3.5" fill="#008080" />
       <rect id="menu-shadow-hint-right" width="1" height="1" x="14" y="3.5" fill="#008080" />
       <rect id="menu-shadow-hint-bottom" width="1" height="3" x="10.5" y="7" fill="#008080" />
-      <use id="menuitem-toggled" href="#sq-2" class="sec-cont" />
-      <g id="menuitem-pressed" transform="translate(0,2)">
-         <use href="#menuitem-toggled" />
-         <use href="#sq-2" class="on-surf" opacity="0.08" />
-      </g>
+      <use id="menuitem-toggled" href="#sq-2" class="on-surf" opacity="0.08" />
+      <use id="menuitem-toggled" href="#sq-2" class="on-surf" y="2" opacity="0.1" />
    </g>
    <g id="tab-group" transform="translate(58,144)">
       <use id="tabframe-normal-topleft" href="#sq-1" x="9" y="9" class="surf" />
@@ -824,15 +944,15 @@
       <use id="tab-normal-right" href="#sq-3" x="6" y="3" opacity="0" />
       <g id="tab-normal-bottomleft">
          <use href="#sq-3" x="0" y="6" opacity="0" />
-         <rect width="3" height="1" x="0" y="8" class="outline" />
+         <rect width="3" height="1" x="0" y="8" class="on-surf-var" />
       </g>
       <g id="tab-normal-bottom">
          <use href="#sq-3" x="3" y="6" opacity="0" />
-         <rect width="3" height="1" x="3" y="8" class="outline" />
+         <rect width="3" height="1" x="3" y="8" class="on-surf-var" />
       </g>
       <g id="tab-normal-bottomright">
          <use href="#sq-3" x="6" y="6" opacity="0" />
-         <rect width="3" height="1" x="6" y="8" class="outline" />
+         <rect width="3" height="1" x="6" y="8" class="on-surf-var" />
       </g>
       <use id="tab-focused-topleft" href="#sq-3" x="9" y="0" class="pri" opacity="0.1" />
       <use id="tab-focused-top" href="#sq-3" x="12" y="0" class="pri" opacity="0.1" />
@@ -842,15 +962,15 @@
       <use id="tab-focused-right" href="#sq-3" x="15" y="3" class="pri" opacity="0.1" />
       <g id="tab-focused-bottomleft">
          <use href="#sq-3" x="9" y="6" class="pri" opacity="0.1" />
-         <rect width="3" height="1" x="9" y="8" class="outline" />
+         <rect width="3" height="1" x="9" y="8" class="on-surf-var" />
       </g>
       <g id="tab-focused-bottom">
          <use href="#sq-3" x="12" y="6" class="pri" opacity="0.1" />
-         <rect width="3" height="1" x="12" y="8" class="outline" />
+         <rect width="3" height="1" x="12" y="8" class="on-surf-var" />
       </g>
       <g id="tab-focused-bottomright">
          <use href="#sq-3" x="15" y="6" class="pri" opacity="0.1" />
-         <rect width="3" height="1" x="15" y="8" class="outline" />
+         <rect width="3" height="1" x="15" y="8" class="on-surf-var" />
       </g>
       <use id="tab-toggled-topleft" href="#sq-3" x="0" y="9" opacity="0" />
       <use id="tab-toggled-top" href="#sq-3" x="3" y="9" opacity="0" />
@@ -865,15 +985,62 @@
       <use id="tab-close-focused" href="#close" x="32" y="0" class="pri" />
       <use id="tab-close-pressed" href="#close" x="18" y="14" class="on-surf" />
       <use id="tab-close-disabled" href="#close" x="32" y="14" class="on-surf" opacity="0.38" />
-      <!-- id="tab-tear" -->
+      <use id="tab-tear" href="#sq-6" x="0" y="0" fill="#000080" />
    </g>
-   <rect id="group-normal-topleft" width="1" height="1" x="0" y="0" class="outline" />
-   <rect id="group-normal-top" width="6" height="1" x="1" y="0" class="outline" />
-   <rect id="group-normal-topright" width="1" height="1" x="7" y="0" class="outline" />
-   <rect id="group-normal-left" width="1" height="6" x="0" y="1" class="outline" />
-   <rect id="group-normal" width="6" height="6" x="1" y="1" class="surf" />
-   <rect id="group-normal-right" width="1" height="6" x="7" y="1" class="outline" />
-   <rect id="group-normal-bottomleft" width="1" height="1" x="0" y="7" class="outline" />
-   <rect id="group-normal-bottom" width="6" height="1" x="1" y="7" class="outline" />
-   <rect id="group-normal-bottomright" width="1" height="1" x="7" y="7" class="outline" />
+   <g id="g-group" transform="translate(104,144)">
+      <g id="group-normal-topleft">
+         <use href="#tl-6" class="surf" />
+         <path d="M 0,6 q 0,-6 6,-6 v 1 q -5,0 -5,5 Z" class="outline-var" />
+      </g>
+      <g id="group-normal-top">
+         <use href="#sq-6" x="6" y="0" class="surf" />
+         <rect width="6" height="1" x="6" y="0" class="outline-var" />
+      </g>
+      <g id="group-normal-topright">
+         <use href="#tr-6" x="12" y="0" class="surf" />
+         <path d="M 18,6 q 0,-6 -6,-6 v 1 q 5,0 5,5 Z" class="outline-var" />
+      </g>
+      <g id="group-normal-left">
+         <use href="#sq-6" x="0" y="6" class="surf" />
+         <rect width="1" height="6" x="0" y="6" class="outline-var" />
+      </g>
+      <use id="group-normal" href="#sq-6" x="6" y="6" class="surf" />
+      <g id="group-normal-right">
+         <use href="#sq-6" x="12" y="6" class="surf" />
+         <rect width="1" height="6" x="17" y="6" class="outline-var" />
+      </g>
+      <g id="group-normal-bottomleft">
+         <use href="#bl-6" x="0" y="12" class="surf" />
+         <path d="M 0,12 q 0,6 6,6 v -1 q -5,0 -5,-5 Z" class="outline-var" />
+      </g>
+      <g id="group-normal-bottom">
+         <use href="#sq-6" x="6" y="12" class="surf" />
+         <rect width="6" height="1" x="6" y="17" class="outline-var" />
+      </g>
+      <g id="group-normal-bottomright">
+         <use href="#br-6" x="12" y="12" class="surf" />
+         <path d="M 18,12 q 0,6 -6,6 v -1 q 5,0 5,-5 Z" class="outline-var" />
+      </g>
+   </g>
+   <g id="common-group" transform="translate(104,160)">
+      <use id="common-normal-topleft" href="#sq-6" x="0" y="0" fill="#800000" />
+      <use id="common-normal-top" href="#sq-6" x="6" y="0" fill="#800000" />
+      <use id="common-normal-topright" href="#sq-6" x="12" y="0" fill="#800000" />
+      <use id="common-normal-left" href="#sq-6" x="0" y="6" fill="#800000" />
+      <use id="common-normal" href="#sq-6" x="6" y="6" fill="#008000" />
+      <use id="common-normal-right" href="#sq-6" x="12" y="6" fill="#800000" />
+      <use id="common-normal-bottomleft" href="#sq-6" x="0" y="12" fill="#800000" />
+      <use id="common-normal-bottom" href="#sq-6" x="6" y="12" fill="#800000" />
+      <use id="common-normal-bottomright" href="#sq-6" x="12" y="12" fill="#800000" />
+   </g>
+   <g id="dial-group" transform="translate(126,0)">
+      <circle id="dial" cx="22.5" cy="22.5" r="22.5" class="surf-cont-highest" />
+      <g id="dial-notches">
+         <rect width="45" height="45" x="0" y="0" opacity="0" />
+         <path
+            d="M 12.116,42.486 L 14.366,38.589 L 12.634,37.589 L 10.384,41.486 z M 7.484,39.258 L 9.51,37.046 L 9.142,36.708 L 7.115,38.92 z M 4.213,35.61 L 6.67,33.89 L 6.383,33.48 L 3.926,35.201 z M 1.808,31.341 L 4.58,30.193 L 4.389,29.731 L 1.617,30.879 z M 0.385,26.653 L 3.34,26.132 L 3.253,25.64 L 0.298,26.161 z M 0.011,21.768 L 3.008,21.899 L 3.03,21.4 L 0.032,21.269 z M 0.508,17.643 L 4.855,18.807 L 5.372,16.875 L 1.026,15.711 z M 2.427,12.332 L 5.088,13.718 L 5.319,13.274 L 2.658,11.889 z M 5.103,8.229 L 7.401,10.157 L 7.723,9.774 L 5.425,7.846 z M 8.605,4.802 L 10.431,7.182 L 10.828,6.877 L 9.001,4.497 z M 12.765,2.214 L 14.032,4.933 L 14.486,4.721 L 13.218,2.002 z M 17.386,0.587 L 18.035,3.516 L 18.524,3.408 L 17.874,0.479 z M 21.5,0 L 21.5,4.5 L 23.5,4.5 L 23.5,0 z M 27.126,0.479 L 26.477,3.408 L 26.965,3.516 L 27.614,0.587 z M 31.782,2.002 L 30.515,4.721 L 30.968,4.933 L 32.236,2.214 z M 35.999,4.497 L 34.173,6.877 L 34.569,7.182 L 36.396,4.802 z M 39.575,7.846 L 37.277,9.774 L 37.599,10.157 L 39.897,8.229 z M 42.342,11.889 L 39.681,13.274 L 39.912,13.718 L 42.573,12.332 z M 43.975,15.711 L 39.628,16.875 L 40.146,18.807 L 44.492,17.643 z M 44.968,21.269 L 41.971,21.4 L 41.992,21.899 L 44.99,21.768 z M 44.702,26.161 L 41.747,25.64 L 41.66,26.132 L 44.615,26.653 z M 43.383,30.879 L 40.611,29.731 L 40.42,30.193 L 43.192,31.341 z M 41.074,35.201 L 38.617,33.48 L 38.33,33.89 L 40.788,35.61 z M 37.885,38.92 L 35.858,36.708 L 35.49,37.046 L 37.517,39.258 z M 34.616,41.486 L 32.366,37.589 L 30.634,38.589 L 32.884,42.486 z"
+            class="on-surf" />
+      </g>
+      <rect id="dial-handle" width="22.5" height="1" x="0" y="22" />
+   </g>
 </svg>
