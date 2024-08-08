@@ -948,15 +948,15 @@
       <use id="tab-normal-right" href="#sq-3" x="6" y="3" opacity="0" />
       <g id="tab-normal-bottomleft">
          <use href="#sq-3" x="0" y="6" opacity="0" />
-         <rect width="3" height="1" x="0" y="8" class="outline" />
+         <rect width="3" height="1" x="0" y="8" class="on-surf-var" />
       </g>
       <g id="tab-normal-bottom">
          <use href="#sq-3" x="3" y="6" opacity="0" />
-         <rect width="3" height="1" x="3" y="8" class="outline" />
+         <rect width="3" height="1" x="3" y="8" class="on-surf-var" />
       </g>
       <g id="tab-normal-bottomright">
          <use href="#sq-3" x="6" y="6" opacity="0" />
-         <rect width="3" height="1" x="6" y="8" class="outline" />
+         <rect width="3" height="1" x="6" y="8" class="on-surf-var" />
       </g>
       <use id="tab-focused-topleft" href="#sq-3" x="9" y="0" class="pri" opacity="0.1" />
       <use id="tab-focused-top" href="#sq-3" x="12" y="0" class="pri" opacity="0.1" />
@@ -966,15 +966,15 @@
       <use id="tab-focused-right" href="#sq-3" x="15" y="3" class="pri" opacity="0.1" />
       <g id="tab-focused-bottomleft">
          <use href="#sq-3" x="9" y="6" class="pri" opacity="0.1" />
-         <rect width="3" height="1" x="9" y="8" class="outline" />
+         <rect width="3" height="1" x="9" y="8" class="on-surf-var" />
       </g>
       <g id="tab-focused-bottom">
          <use href="#sq-3" x="12" y="6" class="pri" opacity="0.1" />
-         <rect width="3" height="1" x="12" y="8" class="outline" />
+         <rect width="3" height="1" x="12" y="8" class="on-surf-var" />
       </g>
       <g id="tab-focused-bottomright">
          <use href="#sq-3" x="15" y="6" class="pri" opacity="0.1" />
-         <rect width="3" height="1" x="15" y="8" class="outline" />
+         <rect width="3" height="1" x="15" y="8" class="on-surf-var" />
       </g>
       <use id="tab-toggled-topleft" href="#sq-3" x="0" y="9" opacity="0" />
       <use id="tab-toggled-top" href="#sq-3" x="3" y="9" opacity="0" />
@@ -991,13 +991,39 @@
       <use id="tab-close-disabled" href="#close" x="32" y="14" class="on-surf" opacity="0.38" />
       <!-- id="tab-tear" -->
    </g>
-   <rect id="group-normal-topleft" width="1" height="1" x="0" y="0" class="outline" />
-   <rect id="group-normal-top" width="6" height="1" x="1" y="0" class="outline" />
-   <rect id="group-normal-topright" width="1" height="1" x="7" y="0" class="outline" />
-   <rect id="group-normal-left" width="1" height="6" x="0" y="1" class="outline" />
-   <rect id="group-normal" width="6" height="6" x="1" y="1" class="surf" />
-   <rect id="group-normal-right" width="1" height="6" x="7" y="1" class="outline" />
-   <rect id="group-normal-bottomleft" width="1" height="1" x="0" y="7" class="outline" />
-   <rect id="group-normal-bottom" width="6" height="1" x="1" y="7" class="outline" />
-   <rect id="group-normal-bottomright" width="1" height="1" x="7" y="7" class="outline" />
+   <g id="g-group" transform="translate(104,144)">
+      <g id="group-normal-topleft">
+         <use href="#tl-6" class="surf" />
+         <path d="M 0,6 q 0,-6 6,-6 v 1 q -5,0 -5,5 Z" class="outline-var" />
+      </g>
+      <g id="group-normal-top">
+         <use href="#sq-6" x="6" y="0" class="surf" />
+         <rect width="6" height="1" x="6" y="0" class="outline-var" />
+      </g>
+      <g id="group-normal-topright">
+         <use href="#tr-6" x="12" y="0" class="surf" />
+         <path d="M 18,6 q 0,-6 -6,-6 v 1 q 5,0 5,5 Z" class="outline-var" />
+      </g>
+      <g id="group-normal-left">
+         <use href="#sq-6" x="0" y="6" class="surf" />
+         <rect width="1" height="6" x="0" y="6" class="outline-var" />
+      </g>
+      <use id="group-normal" href="#sq-6" x="6" y="6" class="surf" />
+      <g id="group-normal-right">
+         <use href="#sq-6" x="12" y="6" class="surf" />
+         <rect width="1" height="6" x="17" y="6" class="outline-var" />
+      </g>
+      <g id="group-normal-bottomleft">
+         <use href="#bl-6" x="0" y="12" class="surf" />
+         <path d="M 0,12 q 0,6 6,6 v -1 q -5,0 -5,-5 Z" class="outline-var" />
+      </g>
+      <g id="group-normal-bottom">
+         <use href="#sq-6" x="6" y="12" class="surf" />
+         <rect width="6" height="1" x="6" y="17" class="outline-var" />
+      </g>
+      <g id="group-normal-bottomright">
+         <use href="#br-6" x="12" y="12" class="surf" />
+         <path d="M 18,12 q 0,6 -6,6 v -1 q 5,0 5,-5 Z" class="outline-var" />
+      </g>
+   </g>
 </svg>
