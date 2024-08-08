@@ -228,6 +228,7 @@
          <use id="button-toggled-bottom" href="#sq-6" x="6" y="12" class="pri" />
          <use id="button-toggled-bottomright" href="#br-6" x="12" y="12" class="pri" />
       </g>
+      <rect id="button-default-indicator" width="25" height="25" x="0" y="0" opacity="0" />
    </g>
    <g id="tl-btn-group" transform="translate(0,18)">
       <g id="tl-btn-normal-group">
@@ -1025,5 +1026,16 @@
          <use href="#br-6" x="12" y="12" class="surf" />
          <path d="M 18,12 q 0,6 -6,6 v -1 q 5,0 5,-5 Z" class="outline-var" />
       </g>
+   </g>
+   <g id="common-group" transform="translate(104,160)">
+      <use id="common-normal-topleft" href="#sq-6" x="0" y="0" fill="#800000" />
+      <use id="common-normal-top" href="#sq-6" x="6" y="0" fill="#800000" />
+      <use id="common-normal-topright" href="#sq-6" x="12" y="0" fill="#800000" />
+      <use id="common-normal-left" href="#sq-6" x="0" y="6" fill="#800000" />
+      <use id="common-normal" href="#sq-6" x="6" y="6" fill="#808000" />
+      <use id="common-normal-right" href="#sq-6" x="12" y="6" fill="#800000" />
+      <use id="common-normal-bottomleft" href="#sq-6" x="0" y="12" fill="#800000" />
+      <use id="common-normal-bottom" href="#sq-6" x="6" y="12" fill="#800000" />
+      <use id="common-normal-bottomright" href="#sq-6" x="12" y="12" fill="#800000" />
    </g>
 </svg>
