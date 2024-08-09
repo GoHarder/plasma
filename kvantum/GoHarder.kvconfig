@@ -29,25 +29,25 @@ tooltip_shadow_depth=6
 opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,VirtualBoxVM,trojita,dragon,digikam,lyx
 
 [GeneralColors]
-window.color=#1e2022
+window.color=#282a2d
 base.color=#1e2022
-alt.base.color=#1a1c1e
+alt.base.color=#121416
 button.color=#333538
-; light.color=#626262
-; mid.light.color=#555555
-; dark.color=#171717
-; mid.color=#3C3C3C
-; highlight.color=#737373
-; inactive.highlight.color=#4A4A4A
-; tooltip.base.color=black
+light.color=#8c9198
+mid.light.color=#42474e
+dark.color=#121416
+mid.color=#424748
+highlight.color=#95ccff
+inactive.highlight.color=#95ccff61
+tooltip.base.color=#1e2022
 text.color=#e2e2e5
 window.text.color=#e2e2e5
-button.text.color=#c2c7cf
-disabled.text.color=#e2e2e560
-; tooltip.text.color=white
-; highlight.text.color=white
-; link.color=#2EB8E6
-; link.visited.color=#FF6666
+button.text.color=#95ccff
+disabled.text.color=#e2e2e561
+tooltip.text.color=#c2c7cf
+highlight.text.color=#003353
+link.color=#a7edff
+link.visited.color=#7eb0bd
 
 [Hacks]
 respect_darkness=true
