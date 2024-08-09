@@ -1,4 +1,4 @@
-<svg width="198" height="188" viewBox="0 0 198 188" id="svg1" xmlns="http://www.w3.org/2000/svg">
+<svg width="198" height="188" viewBox="90 140 50 50" id="svg1" xmlns="http://www.w3.org/2000/svg">
    <sodipodi:namedview id="namedview1" inkscape:current-layer="svg1" />
    <defs>
       <!-- MARK: Style -->
@@ -59,6 +59,11 @@
       <rect id="sq-2" width="2" height="2" x="0" y="0" />
       <path id="bl-2" d="M 0,0 q 0,2 2,2 v -2 z" />
       <path id="br-2" d="M 2,0 q 0,2 -2,2 v -2 z" />
+      <path id="tl-4" d="M 0,4 q 0,-4 4,-4 v 4 z" />
+      <path id="tr-4" d="M 4,4 q 0,-4 -4,-4 v 4 z" />
+      <rect id="sq-4" width="4" height="4" x="0" y="0" />
+      <path id="bl-4" d="M 0,0 q 0,4 4,4 v -4 z" />
+      <path id="br-4" d="M 4,0 q 0,4 -4,4 v -4 z" />
       <path id="tl-6" d="M 0,6 q 0,-6 6,-6 v 6 z" />
       <path id="tr-6" d="M 6,6 q 0,-6 -6,-6 v 6 z" />
       <rect id="sq-6" width="6" height="6" x="0" y="0" />
@@ -589,6 +594,23 @@
       </g>
    </g>
    <g id="arrow-group" transform="translate(0,102)">
+      <g id="button-down-normal">
+         <rect width="14" height="14" x="0" y="14" opacity="0" />
+         <use href="#down" x="0" y="14" class="pri" />
+      </g>
+      <g id="button-down-focused">
+         <rect width="14" height="14" x="14" y="14" opacity="0" />
+         <use href="#down" x="14" y="14" class="pri" />
+      </g>
+      <g id="button-down-pressed">
+         <rect width="14" height="14" x="28" y="14" opacity="0" />
+         <use href="#down" x="28" y="14" class="on-surf" />
+      </g>
+      <g id="button-down-disabled">
+         <rect width="14" height="14" x="42" y="14" opacity="0" />
+         <use href="#down" x="42" y="14" class="on-surf" opacity="0.38" />
+      </g>
+
       <g id="arrow-up-normal">
          <rect width="14" height="14" x="0" y="0" opacity="0" />
          <use href="#up" x="0" y="0" class="on-surf-var" />
@@ -605,7 +627,7 @@
          <rect width="14" height="14" x="42" y="0" opacity="0" />
          <use href="#up" x="42" y="0" class="on-surf" opacity="0.38" />
       </g>
-      <g id="arrow-down-normal">
+      <!-- <g id="arrow-down-normal">
          <rect width="14" height="14" x="0" y="14" opacity="0" />
          <use href="#down" x="0" y="14" class="on-surf-var" />
       </g>
@@ -620,8 +642,8 @@
       <g id="arrow-down-disabled">
          <rect width="14" height="14" x="42" y="14" opacity="0" />
          <use href="#down" x="42" y="14" class="on-surf" opacity="0.38" />
-      </g>
-      <g id="arrow-add-normal">
+      </g> -->
+      <!-- <g id="arrow-add-normal">
          <rect width="14" height="14" x="0" y="28" opacity="0" />
          <use href="#add" x="0" y="28" class="on-surf-var" />
       </g>
@@ -684,7 +706,7 @@
       <g id="arrow-minus-disabled">
          <rect width="14" height="14" x="98" y="28" opacity="0" />
          <use href="#minus" x="98" y="28" class="on-surf" opacity="0.38" />
-      </g>
+      </g> -->
    </g>
    <g id="slider-group" transform="translate(0,144)">
       <use id="slider-normal-topleft" href="#tl-2" x="34" y="0" class="sec-cont" />
@@ -889,15 +911,15 @@
       </g>
    </g>
    <g id="common-group" transform="translate(104,160)">
-      <use id="common-normal-topleft" href="#sq-6" x="0" y="0" fill="#800000" />
-      <use id="common-normal-top" href="#sq-6" x="6" y="0" fill="#800000" />
-      <use id="common-normal-topright" href="#sq-6" x="12" y="0" fill="#800000" />
-      <use id="common-normal-left" href="#sq-6" x="0" y="6" fill="#800000" />
-      <use id="common-normal" href="#sq-6" x="6" y="6" fill="#008000" />
-      <use id="common-normal-right" href="#sq-6" x="12" y="6" fill="#800000" />
-      <use id="common-normal-bottomleft" href="#sq-6" x="0" y="12" fill="#800000" />
-      <use id="common-normal-bottom" href="#sq-6" x="6" y="12" fill="#800000" />
-      <use id="common-normal-bottomright" href="#sq-6" x="12" y="12" fill="#800000" />
+      <use id="common-normal-topleft" href="#tl-4" x="0" y="0" class="surf-cont" />
+      <use id="common-normal-top" href="#sq-4" x="4" y="0" class="surf-cont" />
+      <use id="common-normal-topright" href="#tr-4" x="8" y="0" class="surf-cont" />
+      <use id="common-normal-left" href="#sq-4" x="0" y="4" class="surf-cont" />
+      <use id="common-normal" href="#sq-4" x="4" y="4" class="surf-cont" />
+      <use id="common-normal-right" href="#sq-4" x="8" y="4" class="surf-cont" />
+      <use id="common-normal-bottomleft" href="#bl-4" x="0" y="8" class="surf-cont" />
+      <use id="common-normal-bottom" href="#sq-4" x="4" y="8" class="surf-cont" />
+      <use id="common-normal-bottomright" href="#br-4" x="8" y="8" class="surf-cont" />
    </g>
    <g id="dial-group" transform="translate(126,0)">
       <circle id="dial" cx="22.5" cy="22.5" r="22.5" class="surf-cont-highest" />

@@ -41,5 +41,4 @@ opacity 0.15
 | extra-large | 28px          | 12px        |
 
 Center group border?.
-Fix common colors and border.
 Dial has to be a circle.
