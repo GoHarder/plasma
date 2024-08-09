@@ -75,6 +75,7 @@
       <path id="bl-8" d="M 0,0 q 0,8 8,8 v -8 z" />
       <path id="br-8" d="M 8,0 q 0,8 -8,8 v -8 z" />
       <!-- MARK: Icons -->
+      <rect id="icon-box" width="14" height="14" x="0" y="0" opacity="0" />
       <path id="radio-unchk"
          d="M 12,22 Q 9.925,22 8.1,21.213 6.275,20.425 4.925,19.075 3.575,17.725 2.788,15.9 2,14.075 2,12 2,9.925 2.788,8.1 3.575,6.275 4.925,4.925 6.275,3.575 8.1,2.788 9.925,2 12,2 14.075,2 15.9,2.788 17.725,3.575 19.075,4.925 20.425,6.275 21.213,8.1 22,9.925 22,12 q 0,2.075 -0.788,3.9 -0.788,1.825 -2.138,3.175 -1.35,1.35 -3.175,2.138 Q 14.075,22 12,22 Z m 0,-2 q 3.35,0 5.675,-2.325 Q 20,15.35 20,12 20,8.65 17.675,6.325 15.35,4 12,4 8.65,4 6.325,6.325 4,8.65 4,12 4,15.35 6.325,17.675 8.65,20 12,20 Z m 0,-8 z" />
       <path id="radio-chk"
@@ -92,6 +93,14 @@
       <path id="right" d="M 8.05,7 2.683,1.633 4.317,5e-8 11.317,7 4.317,14 2.683,12.367 Z" />
       <path id="minus" d="m 0,8 v -2 h 14 v 2 z" />
       <path id="close" d="M 1.4,14 0,12.6 5.6,7 0,1.4 1.4,0 7,5.6 12.6,0 14,1.4 8.4,7 14,12.6 12.6,14 7,8.4 Z" />
+      <path id="maximize" d="M 0,12.6 V 1.4 h 14 v 11.2 z m 1.4,-1.4 h 11.2 v -7 H 1.4 Z" />
+      <path id="minimize" d="m 0,8 v -2 h 14 v 2 z" />
+      <path id="restore"
+         d="M 0,14 V 4.9 H 2.8 V 0 H 14 V 9.1 H 11.2 V 14 Z M 1.4,12.6 H 9.8 V 7.7 H 1.4 Z m 9.8,-4.9 h 1.4 V 2.8 H 4.2 v 2.1 h 7 z" />
+      <path id="shade"
+         d="M 0.778,1.556 V 0 H 13.222 V 1.556 Z M 6.222,14 V 6.067 L 4.2,8.089 3.111,7 7,3.111 10.889,7 9.8,8.089 7.778,6.067 V 14 Z" />
+      <path id="menu"
+         d="M 0,11.667 V 10.111 H 14 v 1.556 z m 0,-3.889 V 6.222 H 14 V 7.778 Z m 0,-3.889 V 2.333 H 14 v 1.556 z" />
       <!-- MARK: Gradients -->
       <radialGradient id="slider-bg1">
          <stop id="stop1" stop-opacity="1" offset="0.875" />
@@ -594,117 +603,117 @@
       </g>
    </g>
    <g id="arrow-group" transform="translate(0,102)">
-      <g id="button-down-normal">
-         <rect width="14" height="14" x="0" y="14" opacity="0" />
-         <use href="#down" x="0" y="14" class="pri" />
+      <g id="button-down-normal" transform="translate(0,14)">
+         <use href="#icon-box" />
+         <use href="#down" class="pri" />
       </g>
-      <g id="button-down-focused">
-         <rect width="14" height="14" x="14" y="14" opacity="0" />
-         <use href="#down" x="14" y="14" class="pri" />
+      <g id="button-down-focused" transform="translate(14,14)">
+         <use href="#icon-box" />
+         <use href="#down" class="pri" />
       </g>
-      <g id="button-down-pressed">
-         <rect width="14" height="14" x="28" y="14" opacity="0" />
-         <use href="#down" x="28" y="14" class="pri" />
+      <g id="button-down-pressed" transform="translate(28,14)">
+         <use href="#icon-box" />
+         <use href="#down" class="pri" />
       </g>
-      <g id="button-down-disabled">
-         <rect width="14" height="14" x="42" y="14" opacity="0" />
-         <use href="#down" x="42" y="14" class="on-surf" opacity="0.38" />
+      <g id="button-down-disabled" transform="translate(42,14)">
+         <use href="#icon-box" />
+         <use href="#down" class="on-surf" opacity="0.38" />
       </g>
       <g id="arrow-up-normal">
-         <rect width="14" height="14" x="0" y="0" opacity="0" />
-         <use href="#up" x="0" y="0" class="on-surf-var" />
+         <use href="#icon-box" />
+         <use href="#up" class="on-surf-var" />
       </g>
-      <g id="arrow-up-focused">
-         <rect width="14" height="14" x="14" y="0" opacity="0" />
-         <use href="#up" x="14" y="0" class="on-surf" />
+      <g id="arrow-up-focused" transform="translate(14,0)">
+         <use href="#icon-box" />
+         <use href="#up" class="on-surf" />
       </g>
-      <g id="arrow-up-pressed">
-         <rect width="14" height="14" x="28" y="0" opacity="0" />
-         <use href="#up" x="28" y="0" class="on-sec-cont" />
+      <g id="arrow-up-pressed" transform="translate(28,0)">
+         <use href="#icon-box" />
+         <use href="#up" class="on-sec-cont" />
       </g>
-      <g id="arrow-up-disabled">
-         <rect width="14" height="14" x="42" y="0" opacity="0" />
-         <use href="#up" x="42" y="0" class="on-surf" opacity="0.38" />
+      <g id="arrow-up-disabled" transform="translate(42,0)">
+         <use href="#icon-box" />
+         <use href="#up" class="on-surf" opacity="0.38" />
       </g>
-      <g id="arrow-down-normal">
-         <rect width="14" height="14" x="0" y="14" opacity="0" />
-         <use href="#down" x="0" y="14" class="on-surf-var" />
+      <g id="arrow-down-normal" transform="translate(0,14)">
+         <use href="#icon-box" />
+         <use href="#down" class="on-surf-var" />
       </g>
-      <g id="arrow-down-focused">
-         <rect width="14" height="14" x="14" y="14" opacity="0" />
-         <use href="#down" x="14" y="14" class="on-surf" />
+      <g id="arrow-down-focused" transform="translate(14,14)">
+         <use href="#icon-box" />
+         <use href="#down" class="on-surf" />
       </g>
-      <g id="arrow-down-pressed">
-         <rect width="14" height="14" x="28" y="14" opacity="0" />
-         <use href="#down" x="28" y="14" class="on-sec-cont" />
+      <g id="arrow-down-pressed" transform="translate(28,14)">
+         <use href="#icon-box" />
+         <use href="#down" class="on-sec-cont" />
       </g>
-      <g id="arrow-down-disabled">
-         <rect width="14" height="14" x="42" y="14" opacity="0" />
-         <use href="#down" x="42" y="14" class="on-surf" opacity="0.38" />
+      <g id="arrow-down-disabled" transform="translate(42,14)">
+         <use href="#icon-box" />
+         <use href="#down" class="on-surf" opacity="0.38" />
       </g>
-      <g id="arrow-add-normal">
-         <rect width="14" height="14" x="0" y="28" opacity="0" />
-         <use href="#add" x="0" y="28" class="on-surf-var" />
+      <g id="arrow-add-normal" transform="translate(0,28)">
+         <use href="#icon-box" />
+         <use href="#add" class="on-surf-var" />
       </g>
-      <g id="arrow-add-focused">
-         <rect width="14" height="14" x="14" y="28" opacity="0" />
-         <use href="#add" x="14" y="28" class="on-surf" />
+      <g id="arrow-add-focused" transform="translate(14,28)">
+         <use href="#icon-box" />
+         <use href="#add" class="on-surf" />
       </g>
-      <g id="arrow-add-pressed">
-         <rect width="14" height="14" x="28" y="28" opacity="0" />
-         <use href="#add" x="28" y="28" class="on-sec-cont" />
+      <g id="arrow-add-pressed" transform="translate(28,28)">
+         <use href="#icon-box" />
+         <use href="#add" class="on-sec-cont" />
       </g>
-      <g id="arrow-add-disabled">
-         <rect width="14" height="14" x="42" y="28" opacity="0" />
-         <use href="#add" x="42" y="28" class="on-surf" opacity="0.38" />
+      <g id="arrow-add-disabled" transform="translate(42,28)">
+         <use href="#icon-box" />
+         <use href="#add" class="on-surf" opacity="0.38" />
       </g>
-      <g id="arrow-left-normal">
-         <rect width="14" height="14" x="56" y="0" opacity="0" />
-         <use href="#left" x="56" y="0" class="on-surf-var" />
+      <g id="arrow-left-normal" transform="translate(56,0)">
+         <use href="#icon-box" />
+         <use href="#left" class="on-surf-var" />
       </g>
-      <g id="arrow-left-focused">
-         <rect width="14" height="14" x="70" y="0" opacity="0" />
-         <use href="#left" x="70" y="0" class="on-surf" />
+      <g id="arrow-left-focused" transform="translate(70,0)">
+         <use href="#icon-box" />
+         <use href="#left" class="on-surf" />
       </g>
-      <g id="arrow-left-pressed">
-         <rect width="14" height="14" x="84" y="0" opacity="0" />
-         <use href="#left" x="84" y="0" class="on-sec-cont" />
+      <g id="arrow-left-pressed" transform="translate(84,0)">
+         <use href="#icon-box" />
+         <use href="#left" class="on-sec-cont" />
       </g>
-      <g id="arrow-left-disabled">
-         <rect width="14" height="14" x="98" y="0" opacity="0" />
-         <use href="#left" x="98" y="0" class="on-surf" opacity="0.38" />
+      <g id="arrow-left-disabled" transform="translate(98,0)">
+         <use href="#icon-box" />
+         <use href="#left" class="on-surf" opacity="0.38" />
       </g>
-      <g id="arrow-right-normal">
-         <rect width="14" height="14" x="56" y="14" opacity="0" />
-         <use href="#right" x="56" y="14" class="on-surf-var" />
+      <g id="arrow-right-normal" transform="translate(56,14)">
+         <use href="#icon-box" />
+         <use href="#right" class="on-surf-var" />
       </g>
-      <g id="arrow-right-focused">
-         <rect width="14" height="14" x="70" y="14" opacity="0" />
-         <use href="#right" x="70" y="14" class="on-surf" />
+      <g id="arrow-right-focused" transform="translate(70,14)">
+         <use href="#icon-box" />
+         <use href="#right" class="on-surf" />
       </g>
-      <g id="arrow-right-pressed">
-         <rect width="14" height="14" x="84" y="14" opacity="0" />
-         <use href="#right" x="84" y="14" class="on-sec-cont" />
+      <g id="arrow-right-pressed" transform="translate(84,14)">
+         <use href="#icon-box" />
+         <use href="#right" class="on-sec-cont" />
       </g>
-      <g id="arrow-right-disabled">
-         <rect width="14" height="14" x="98" y="14" opacity="0" />
-         <use href="#right" x="98" y="14" class="on-surf" opacity="0.38" />
+      <g id="arrow-right-disabled" transform="translate(98,14)">
+         <use href="#icon-box" />
+         <use href="#right" class="on-surf" opacity="0.38" />
       </g>
-      <g id="arrow-minus-normal">
-         <rect width="14" height="14" x="56" y="28" opacity="0" />
-         <use href="#minus" x="56" y="28" class="on-surf-var" />
+      <g id="arrow-minus-normal" transform="translate(56,28)">
+         <use href="#icon-box" />
+         <use href="#minus" class="on-surf-var" />
       </g>
-      <g id="arrow-minus-focused">
-         <rect width="14" height="14" x="70" y="28" opacity="0" />
-         <use href="#minus" x="70" y="28" class="on-surf" />
+      <g id="arrow-minus-focused" transform="translate(70,28)">
+         <use href="#icon-box" />
+         <use href="#minus" class="on-surf" />
       </g>
-      <g id="arrow-minus-pressed">
-         <rect width="14" height="14" x="84" y="28" opacity="0" />
-         <use href="#minus" x="84" y="28" class="on-sec-cont" />
+      <g id="arrow-minus-pressed" transform="translate(84,28)">
+         <use href="#icon-box" />
+         <use href="#minus" class="on-sec-cont" />
       </g>
-      <g id="arrow-minus-disabled">
-         <rect width="14" height="14" x="98" y="28" opacity="0" />
-         <use href="#minus" x="98" y="28" class="on-surf" opacity="0.38" />
+      <g id="arrow-minus-disabled" transform="translate(98,28)">
+         <use href="#icon-box" />
+         <use href="#minus" class="on-surf" opacity="0.38" />
       </g>
    </g>
    <g id="slider-group" transform="translate(0,144)">
@@ -812,7 +821,7 @@
       <rect id="menu-shadow-hint-right" width="1" height="1" x="14" y="3.5" fill="#008080" />
       <rect id="menu-shadow-hint-bottom" width="1" height="3" x="10.5" y="7" fill="#008080" />
       <use id="menuitem-toggled" href="#sq-2" class="on-surf" opacity="0.08" />
-      <use id="menuitem-toggled" href="#sq-2" class="on-surf" y="2" opacity="0.1" />
+      <use href="#sq-2" class="on-surf" y="2" opacity="0.1" />
    </g>
    <g id="tab-group" transform="translate(58,144)">
       <use id="tabframe-normal-topleft" href="#sq-1" x="9" y="9" fill="#ff0000" />
@@ -937,5 +946,103 @@
       <path id="sizegrip-focused"
          d="M 12,10 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m -3,-3 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m 0,-3 h 2 v 2 h -2 v -2 z"
          class="on-surf" opacity="0.38" />
+   </g>
+   <g id="mdi-group" transform="translate(126,65)">
+      <g id="mdi-maximize-normal">
+         <use href="#icon-box" />
+         <use href="#maximize" class="on-surf-var" />
+      </g>
+      <g id="mdi-maximize-focused" transform="translate(0,14)">
+         <use href="#icon-box" />
+         <use href="#maximize" class="on-surf" />
+      </g>
+      <g id="mdi-maximize-pressed" transform="translate(0,28)">
+         <use href="#icon-box" />
+         <use href="#maximize" class="on-sec-cont" />
+      </g>
+      <g id="mdi-maximize-disabled" transform="translate(0,42)">
+         <use href="#icon-box" />
+         <use href="#maximize" class="on-surf" opacity="0.38" />
+      </g>
+      <g id="mdi-restore-normal" transform="translate(14,0)">
+         <use href="#icon-box" />
+         <use href="#restore" class="on-surf-var" />
+      </g>
+      <g id="mdi-restore-focused" transform="translate(14,14)">
+         <use href="#icon-box" />
+         <use href="#restore" class="on-surf" />
+      </g>
+      <g id="mdi-restore-pressed" transform="translate(14,28)">
+         <use href="#icon-box" />
+         <use href="#restore" class="on-sec-cont" />
+      </g>
+      <g id="mdi-restore-disabled" transform="translate(14,42)">
+         <use href="#icon-box" />
+         <use href="#restore" class="on-surf" opacity="0.38" />
+      </g>
+      <g id="mdi-minimize-normal" transform="translate(28,0)">
+         <use href="#icon-box" />
+         <use href="#minimize" class="on-surf-var" />
+      </g>
+      <g id="mdi-minimize-focused" transform="translate(28,14)">
+         <use href="#icon-box" />
+         <use href="#minimize" class="on-surf" />
+      </g>
+      <g id="mdi-minimize-pressed" transform="translate(28,28)">
+         <use href="#icon-box" />
+         <use href="#minimize" class="on-sec-cont" />
+      </g>
+      <g id="mdi-minimize-disabled" transform="translate(28,42)">
+         <use href="#icon-box" />
+         <use href="#minimize" class="on-surf" opacity="0.38" />
+      </g>
+      <g id="mdi-close-normal" transform="translate(42,0)">
+         <use href="#icon-box" />
+         <use href="#close" class="on-surf-var" />
+      </g>
+      <g id="mdi-close-focused" transform="translate(42,14)">
+         <use href="#icon-box" />
+         <use href="#close" class="on-surf" />
+      </g>
+      <g id="mdi-close-pressed" transform="translate(42,28)">
+         <use href="#icon-box" />
+         <use href="#close" class="on-sec-cont" />
+      </g>
+      <g id="mdi-close-disabled" transform="translate(42,42)">
+         <use href="#icon-box" />
+         <use href="#close" class="on-surf" opacity="0.38" />
+      </g>
+      <g id="mdi-shade-normal" transform="translate(56,0)">
+         <use href="#icon-box" />
+         <use href="#shade" class="on-surf-var" />
+      </g>
+      <g id="mdi-shade-focused" transform="translate(56,14)">
+         <use href="#icon-box" />
+         <use href="#shade" class="on-surf" />
+      </g>
+      <g id="mdi-shade-pressed" transform="translate(56,28)">
+         <use href="#icon-box" />
+         <use href="#shade" class="on-sec-cont" />
+      </g>
+      <g id="mdi-shade-disabled" transform="translate(56,42)">
+         <use href="#icon-box" />
+         <use href="#shade" class="on-surf" opacity="0.38" />
+      </g>
+      <g id="mdi-menu-normal" transform="translate(74,0)">
+         <use href="#icon-box" />
+         <use href="#menu" class="on-surf-var" />
+      </g>
+      <g id="mdi-menu-focused" transform="translate(74,14)">
+         <use href="#icon-box" />
+         <use href="#menu" class="on-surf" />
+      </g>
+      <g id="mdi-menu-pressed" transform="translate(74,28)">
+         <use href="#icon-box" />
+         <use href="#menu" class="on-sec-cont" />
+      </g>
+      <g id="mdi-menu-disabled" transform="translate(74,42)">
+         <use href="#icon-box" />
+         <use href="#menu" class="on-surf" opacity="0.38" />
+      </g>
    </g>
 </svg>
