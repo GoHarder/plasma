@@ -594,7 +594,7 @@
       </g>
    </g>
    <g id="arrow-group" transform="translate(0,102)">
-      <g id="button-down-normal">
+      <!-- <g id="button-down-normal">
          <rect width="14" height="14" x="0" y="14" opacity="0" />
          <use href="#down" x="0" y="14" class="pri" />
       </g>
@@ -609,19 +609,18 @@
       <g id="button-down-disabled">
          <rect width="14" height="14" x="42" y="14" opacity="0" />
          <use href="#down" x="42" y="14" class="on-surf" opacity="0.38" />
-      </g>
-
+      </g> -->
       <g id="arrow-up-normal">
          <rect width="14" height="14" x="0" y="0" opacity="0" />
          <use href="#up" x="0" y="0" class="on-surf-var" />
       </g>
       <g id="arrow-up-focused">
          <rect width="14" height="14" x="14" y="0" opacity="0" />
-         <use href="#up" x="14" y="0" class="pri" />
+         <use href="#up" x="14" y="0" class="on-surf" />
       </g>
       <g id="arrow-up-pressed">
          <rect width="14" height="14" x="28" y="0" opacity="0" />
-         <use href="#up" x="28" y="0" class="on-surf" />
+         <use href="#up" x="28" y="0" class="on-sec-cont" />
       </g>
       <g id="arrow-up-disabled">
          <rect width="14" height="14" x="42" y="0" opacity="0" />
@@ -633,11 +632,11 @@
       </g>
       <g id="arrow-down-focused">
          <rect width="14" height="14" x="14" y="14" opacity="0" />
-         <use href="#down" x="14" y="14" class="pri" />
+         <use href="#down" x="14" y="14" class="on-surf" />
       </g>
       <g id="arrow-down-pressed">
          <rect width="14" height="14" x="28" y="14" opacity="0" />
-         <use href="#down" x="28" y="14" class="on-surf" />
+         <use href="#down" x="28" y="14" class="on-sec-cont" />
       </g>
       <g id="arrow-down-disabled">
          <rect width="14" height="14" x="42" y="14" opacity="0" />
@@ -649,11 +648,11 @@
       </g>
       <g id="arrow-add-focused">
          <rect width="14" height="14" x="14" y="28" opacity="0" />
-         <use href="#add" x="14" y="28" class="pri" />
+         <use href="#add" x="14" y="28" class="on-surf" />
       </g>
       <g id="arrow-add-pressed">
          <rect width="14" height="14" x="28" y="28" opacity="0" />
-         <use href="#add" x="28" y="28" class="on-surf" />
+         <use href="#add" x="28" y="28" class="on-sec-cont" />
       </g>
       <g id="arrow-add-disabled">
          <rect width="14" height="14" x="42" y="28" opacity="0" />
@@ -665,11 +664,11 @@
       </g>
       <g id="arrow-left-focused">
          <rect width="14" height="14" x="70" y="0" opacity="0" />
-         <use href="#left" x="70" y="0" class="pri" />
+         <use href="#left" x="70" y="0" class="on-surf" />
       </g>
       <g id="arrow-left-pressed">
          <rect width="14" height="14" x="84" y="0" opacity="0" />
-         <use href="#left" x="84" y="0" class="on-surf" />
+         <use href="#left" x="84" y="0" class="on-sec-cont" />
       </g>
       <g id="arrow-left-disabled">
          <rect width="14" height="14" x="98" y="0" opacity="0" />
@@ -681,11 +680,11 @@
       </g>
       <g id="arrow-right-focused">
          <rect width="14" height="14" x="70" y="14" opacity="0" />
-         <use href="#right" x="70" y="14" class="pri" />
+         <use href="#right" x="70" y="14" class="on-surf" />
       </g>
       <g id="arrow-right-pressed">
          <rect width="14" height="14" x="84" y="14" opacity="0" />
-         <use href="#right" x="84" y="14" class="on-surf" />
+         <use href="#right" x="84" y="14" class="on-sec-cont" />
       </g>
       <g id="arrow-right-disabled">
          <rect width="14" height="14" x="98" y="14" opacity="0" />
@@ -697,11 +696,11 @@
       </g>
       <g id="arrow-minus-focused">
          <rect width="14" height="14" x="70" y="28" opacity="0" />
-         <use href="#minus" x="70" y="28" class="pri" />
+         <use href="#minus" x="70" y="28" class="on-surf" />
       </g>
       <g id="arrow-minus-pressed">
          <rect width="14" height="14" x="84" y="28" opacity="0" />
-         <use href="#minus" x="84" y="28" class="on-surf" />
+         <use href="#minus" x="84" y="28" class="on-sec-cont" />
       </g>
       <g id="arrow-minus-disabled">
          <rect width="14" height="14" x="98" y="28" opacity="0" />
@@ -870,8 +869,8 @@
       <use id="tab-toggled-bottom" href="#sq-3" x="3" y="15" class="pri" />
       <path id="tab-toggled-bottomright" d="M 9,18 q 0,-3 -3,-3 v 3 z" class="pri" />
       <use id="tab-close-normal" href="#close" x="18" y="0" class="on-surf-var" />
-      <use id="tab-close-focused" href="#close" x="32" y="0" class="pri" />
-      <use id="tab-close-pressed" href="#close" x="18" y="14" class="on-surf" />
+      <use id="tab-close-focused" href="#close" x="32" y="0" class="on-surf" />
+      <use id="tab-close-pressed" href="#close" x="18" y="14" class="on-sec-cont" />
       <use id="tab-close-disabled" href="#close" x="32" y="14" class="on-surf" opacity="0.38" />
       <use id="tab-tear" href="#sq-6" x="0" y="0" fill="#000080" />
    </g>
