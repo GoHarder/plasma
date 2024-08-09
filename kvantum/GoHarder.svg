@@ -815,9 +815,9 @@
       <use id="menuitem-toggled" href="#sq-2" class="on-surf" y="2" opacity="0.1" />
    </g>
    <g id="tab-group" transform="translate(58,144)">
-      <use id="tabframe-normal-topleft" href="#sq-1" x="9" y="9" class="surf" />
-      <use id="tabframe-normal-top" href="#sq-1" x="10" y="9" class="surf" />
-      <use id="tabframe-normal-topright" href="#sq-1" x="11" y="9" class="surf" />
+      <use id="tabframe-normal-topleft" href="#sq-1" x="9" y="9" fill="#ff0000" />
+      <use id="tabframe-normal-top" href="#sq-1" x="10" y="9" fill="#ff0000" />
+      <use id="tabframe-normal-topright" href="#sq-1" x="11" y="9" fill="#ff0000" />
       <use id="tabframe-normal-left" href="#sq-1" x="9" y="10" class="surf" />
       <use id="tabframe-normal-right" href="#sq-1" x="11" y="10" class="surf" />
       <use id="tabframe-normal-bottomleft" href="#sq-1" x="9" y="11" class="surf" />
