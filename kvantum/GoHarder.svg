@@ -824,50 +824,32 @@
       <use href="#sq-2" class="on-surf" y="2" opacity="0.1" />
    </g>
    <g id="tab-group" transform="translate(58,144)">
-      <use id="tabframe-normal-topleft" href="#sq-1" x="9" y="9" fill="#ff0000" />
-      <use id="tabframe-normal-top" href="#sq-1" x="10" y="9" fill="#ff0000" />
-      <use id="tabframe-normal-topright" href="#sq-1" x="11" y="9" fill="#ff0000" />
-      <use id="tabframe-normal-left" href="#sq-1" x="9" y="10" class="surf" />
-      <use id="tabframe-normal-right" href="#sq-1" x="11" y="10" class="surf" />
-      <use id="tabframe-normal-bottomleft" href="#sq-1" x="9" y="11" class="surf" />
-      <use id="tabframe-normal-bottom" href="#sq-1" x="10" y="11" class="surf" />
-      <use id="tabframe-normal-bottomright" href="#sq-1" x="11" y="11" class="surf" />
+      <use id="tabframe-normal-topleft" href="#sq-1" x="9" y="9" class="on-surf-var" />
+      <use id="tabframe-normal-top" href="#sq-1" x="10" y="9" class="on-surf-var" />
+      <use id="tabframe-normal-topright" href="#sq-1" x="11" y="9" class="on-surf-var" />
+      <use id="tabframe-normal-left" href="#sq-1" x="9" y="10" class="on-surf-var" />
+      <use id="tabframe-normal-right" href="#sq-1" x="11" y="10" class="on-surf-var" />
+      <use id="tabframe-normal-bottomleft" href="#sq-1" x="9" y="11" class="on-surf-var" />
+      <use id="tabframe-normal-bottom" href="#sq-1" x="10" y="11" class="on-surf-var" />
+      <use id="tabframe-normal-bottomright" href="#sq-1" x="11" y="11" class="on-surf-var" />
       <use id="tab-normal-topleft" href="#sq-3" x="0" y="0" opacity="0" />
       <use id="tab-normal-top" href="#sq-3" x="3" y="0" opacity="0" />
       <use id="tab-normal-topright" href="#sq-3" x="6" y="0" opacity="0" />
       <use id="tab-normal-left" href="#sq-3" x="0" y="3" opacity="0" />
       <use id="tab-normal" href="#sq-3" x="3" y="3" opacity="0" />
       <use id="tab-normal-right" href="#sq-3" x="6" y="3" opacity="0" />
-      <g id="tab-normal-bottomleft">
-         <use href="#sq-3" x="0" y="6" opacity="0" />
-         <rect width="3" height="1" x="0" y="8" class="on-surf-var" />
-      </g>
-      <g id="tab-normal-bottom">
-         <use href="#sq-3" x="3" y="6" opacity="0" />
-         <rect width="3" height="1" x="3" y="8" class="on-surf-var" />
-      </g>
-      <g id="tab-normal-bottomright">
-         <use href="#sq-3" x="6" y="6" opacity="0" />
-         <rect width="3" height="1" x="6" y="8" class="on-surf-var" />
-      </g>
+      <use id="tab-normal-bottomleft" href="#sq-3" x="0" y="6" opacity="0" />
+      <use id="tab-normal-bottom" href="#sq-3" x="3" y="6" opacity="0" />
+      <use id="tab-normal-bottomright" href="#sq-3" x="6" y="6" opacity="0" />
       <use id="tab-focused-topleft" href="#sq-3" x="9" y="0" class="pri" opacity="0.1" />
       <use id="tab-focused-top" href="#sq-3" x="12" y="0" class="pri" opacity="0.1" />
       <use id="tab-focused-topright" href="#sq-3" x="15" y="0" class="pri" opacity="0.1" />
       <use id="tab-focused-left" href="#sq-3" x="9" y="3" class="pri" opacity="0.1" />
       <use id="tab-focused" href="#sq-3" x="12" y="3" class="pri" opacity="0.1" />
       <use id="tab-focused-right" href="#sq-3" x="15" y="3" class="pri" opacity="0.1" />
-      <g id="tab-focused-bottomleft">
-         <use href="#sq-3" x="9" y="6" class="pri" opacity="0.1" />
-         <rect width="3" height="1" x="9" y="8" class="on-surf-var" />
-      </g>
-      <g id="tab-focused-bottom">
-         <use href="#sq-3" x="12" y="6" class="pri" opacity="0.1" />
-         <rect width="3" height="1" x="12" y="8" class="on-surf-var" />
-      </g>
-      <g id="tab-focused-bottomright">
-         <use href="#sq-3" x="15" y="6" class="pri" opacity="0.1" />
-         <rect width="3" height="1" x="15" y="8" class="on-surf-var" />
-      </g>
+      <use id="tab-focused-bottomleft" href="#sq-3" x="9" y="6" class="pri" opacity="0.1" />
+      <use id="tab-focused-bottom" href="#sq-3" x="12" y="6" class="pri" opacity="0.1" />
+      <use id="tab-focused-bottomright" href="#sq-3" x="15" y="6" class="pri" opacity="0.1" />
       <use id="tab-toggled-topleft" href="#sq-3" x="0" y="9" opacity="0" />
       <use id="tab-toggled-top" href="#sq-3" x="3" y="9" opacity="0" />
       <use id="tab-toggled-topright" href="#sq-3" x="6" y="9" opacity="0" />

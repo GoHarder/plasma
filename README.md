@@ -39,3 +39,5 @@ opacity 0.15
 | medium      | 12px          | 6px         |
 | large       | 16px          | 8px         |
 | extra-large | 28px          | 12px        |
+
+Push button arrows colors didn't work.
