@@ -827,11 +827,11 @@
       <use id="tabframe-normal-topleft" href="#sq-1" x="9" y="9" class="on-surf-var" />
       <use id="tabframe-normal-top" href="#sq-1" x="10" y="9" class="on-surf-var" />
       <use id="tabframe-normal-topright" href="#sq-1" x="11" y="9" class="on-surf-var" />
-      <use id="tabframe-normal-left" href="#sq-1" x="9" y="10" class="on-surf-var" />
-      <use id="tabframe-normal-right" href="#sq-1" x="11" y="10" class="on-surf-var" />
-      <use id="tabframe-normal-bottomleft" href="#sq-1" x="9" y="11" class="on-surf-var" />
-      <use id="tabframe-normal-bottom" href="#sq-1" x="10" y="11" class="on-surf-var" />
-      <use id="tabframe-normal-bottomright" href="#sq-1" x="11" y="11" class="on-surf-var" />
+      <use id="tabframe-normal-left" href="#sq-1" x="9" y="10" opacity="0" />
+      <use id="tabframe-normal-right" href="#sq-1" x="11" y="10" opacity="0" />
+      <use id="tabframe-normal-bottomleft" href="#sq-1" x="9" y="11" opacity="0" />
+      <use id="tabframe-normal-bottom" href="#sq-1" x="10" y="11" opacity="0" />
+      <use id="tabframe-normal-bottomright" href="#sq-1" x="11" y="11" opacity="0" />
       <use id="tab-normal-topleft" href="#sq-3" x="0" y="0" opacity="0" />
       <use id="tab-normal-top" href="#sq-3" x="3" y="0" opacity="0" />
       <use id="tab-normal-topright" href="#sq-3" x="6" y="0" opacity="0" />
