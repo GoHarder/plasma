@@ -603,19 +603,19 @@
       </g>
    </g>
    <g id="arrow-group" transform="translate(0,102)">
-      <g id="button-down-normal" transform="translate(0,14)">
+      <g id="btn-ar-down-normal" transform="translate(0,14)">
          <use href="#icon-box" />
          <use href="#down" class="pri" />
       </g>
-      <g id="button-down-focused" transform="translate(14,14)">
+      <g id="btn-ar-down-focused" transform="translate(14,14)">
          <use href="#icon-box" />
          <use href="#down" class="pri" />
       </g>
-      <g id="button-down-pressed" transform="translate(28,14)">
+      <g id="btn-ar-down-pressed" transform="translate(28,14)">
          <use href="#icon-box" />
          <use href="#down" class="pri" />
       </g>
-      <g id="button-down-disabled" transform="translate(42,14)">
+      <g id="btn-ar-down-disabled" transform="translate(42,14)">
          <use href="#icon-box" />
          <use href="#down" class="on-surf" opacity="0.38" />
       </g>
