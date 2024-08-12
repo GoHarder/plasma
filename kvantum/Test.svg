@@ -1,4 +1,4 @@
-<svg width="64" height="32" viewBox="0 0 64 32" id="svg1" xmlns="http://www.w3.org/2000/svg">
+<svg width="128" height="128" viewBox="0 0 128 128" id="svg1" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- MARK: Style -->
     <style>
@@ -50,8 +50,216 @@
         fill: #42474e
       }
     </style>
+    <!-- MARK: Shapes -->
+    <path id="btn-1-tl" d="M 0,8 q 0,-8 8,-8 v 8 Z" />
+    <rect id="btn-1-t" width="16" height="8" x="8" />
+    <path id="btn-1-tr" d="M 32,8 q 0,-8 -8,-8 v 8 Z" />
+    <rect id="btn-1-l" width="8" height="16" y="8" />
+    <rect id="btn-1-c" width="16" height="16" x="8" y="8" />
+    <path id="btn-1-bl" d="M 0,24 q 0,8 8,8 v -8 Z" />
+    <path id="btn-1-br" d="M 32,24 q 0,8 -8,8 v -8 Z" />
   </defs>
-  <g id="lineedit-group" transform="translate(0,0)">
+  <g id="button-group">
+    <g id="button-normal-group">
+      <use id="button-normal-topleft" href="#btn-1-tl" class="surf-cont-highest" />
+      <use id="button-normal-top" href="#btn-1-t" class="surf-cont-highest" />
+      <use id="button-normal-topright" href="#btn-1-tr" class="surf-cont-highest" />
+      <use id="button-normal-left" href="#btn-1-l" class="surf-cont-highest" />
+      <use id="button-normal" href="#btn-1-c" class="surf-cont-highest" />
+      <use id="button-normal-right" href="#btn-1-l" x="24" class="surf-cont-highest" />
+      <use id="button-normal-bottomleft" href="#btn-1-bl" class="surf-cont-highest" />
+      <use id="button-normal-bottom" href="#btn-1-t" y="24" class="surf-cont-highest" />
+      <use id="button-normal-bottomright" href="#btn-1-br" class="surf-cont-highest" />
+    </g>
+    <g id="button-focused-group" transform="translate(32)">
+      <g id="button-focused-topleft">
+        <use href="#button-normal-topleft" />
+        <use href="#btn-1-tl" class="pri" opacity="0.08" />
+      </g>
+      <g id="button-focused-top">
+        <use href="#button-normal-top" />
+        <use href="#btn-1-t" class="pri" opacity="0.08" />
+      </g>
+      <g id="button-focused-topright">
+        <use href="#button-normal-topright" />
+        <use href="#btn-1-tr" class="pri" opacity="0.08" />
+      </g>
+      <g id="button-focused-left">
+        <use href="#button-normal-left" />
+        <use href="#btn-1-l" class="pri" opacity="0.08" />
+      </g>
+      <g id="button-focused">
+        <use href="#button-normal" />
+        <use href="#btn-1-c" class="pri" opacity="0.08" />
+      </g>
+      <g id="button-focused-right">
+        <use href="#button-normal-right" />
+        <use href="#btn-1-l" x="24" class="pri" opacity="0.08" />
+      </g>
+      <g id="button-focused-bottomleft">
+        <use href="#button-normal-bottomleft" />
+        <use href="#btn-1-bl" class="pri" opacity="0.08" />
+      </g>
+      <g id="button-focused-bottom">
+        <use href="#button-normal-bottom" />
+        <use href="#btn-1-t" y="24" class="pri" opacity="0.08" />
+      </g>
+      <g id="button-focused-bottomright">
+        <use href="#button-normal-bottomright" />
+        <use href="#btn-1-br" class="pri" opacity="0.08" />
+      </g>
+    </g>
+    <g id="button-pressed-group" transform="translate(64)">
+      <g id="button-pressed-topleft">
+        <use href="#button-normal-topleft" />
+        <use href="#btn-1-tl" class="pri" opacity="0.1" />
+      </g>
+      <g id="button-pressed-top">
+        <use href="#button-normal-top" />
+        <use href="#btn-1-t" class="pri" opacity="0.1" />
+      </g>
+      <g id="button-pressed-topright">
+        <use href="#button-normal-topright" />
+        <use href="#btn-1-tr" class="pri" opacity="0.1" />
+      </g>
+      <g id="button-pressed-left">
+        <use href="#button-normal-left" />
+        <use href="#btn-1-l" class="pri" opacity="0.1" />
+      </g>
+      <g id="button-pressed">
+        <use href="#button-normal" />
+        <use href="#btn-1-c" class="pri" opacity="0.1" />
+      </g>
+      <g id="button-pressed-right">
+        <use href="#button-normal-right" />
+        <use href="#btn-1-l" x="24" class="pri" opacity="0.1" />
+      </g>
+      <g id="button-pressed-bottomleft">
+        <use href="#button-normal-bottomleft" />
+        <use href="#btn-1-bl" class="pri" opacity="0.1" />
+      </g>
+      <g id="button-pressed-bottom">
+        <use href="#button-normal-bottom" />
+        <use href="#btn-1-t" y="24" class="pri" opacity="0.1" />
+      </g>
+      <g id="button-pressed-bottomright">
+        <use href="#button-normal-bottomright" />
+        <use href="#btn-1-br" class="pri" opacity="0.1" />
+      </g>
+    </g>
+    <g id="button-toggled-group" transform="translate(96)">
+      <use id="button-toggled-topleft" href="#btn-1-tl" class="pri" />
+      <use id="button-toggled-top" href="#btn-1-t" class="pri" />
+      <use id="button-toggled-topright" href="#btn-1-tr" class="pri" />
+      <use id="button-toggled-left" href="#btn-1-l" class="pri" />
+      <use id="button-toggled" href="#btn-1-c" class="pri" />
+      <use id="button-toggled-right" href="#btn-1-l" x="24" class="pri" />
+      <use id="button-toggled-bottomleft" href="#btn-1-bl" class="pri" />
+      <use id="button-toggled-bottom" href="#btn-1-t" y="24" class="pri" />
+      <use id="button-toggled-bottomright" href="#btn-1-br" class="pri" />
+    </g>
+  </g>
+  <g id="tool-button-group" transform="translate(0,32)">
+    <g id="tool-button-normal-group">
+      <use id="tool-button-normal-topleft" href="#btn-1-tl" class="surf-cont-highest" />
+      <use id="tool-button-normal-top" href="#btn-1-t" class="surf-cont-highest" />
+      <use id="tool-button-normal-topright" href="#btn-1-tr" class="surf-cont-highest" />
+      <use id="tool-button-normal-left" href="#btn-1-l" class="surf-cont-highest" />
+      <use id="tool-button-normal" href="#btn-1-c" class="surf-cont-highest" />
+      <use id="tool-button-normal-right" href="#btn-1-l" x="24" class="surf-cont-highest" />
+      <use id="tool-button-normal-bottomleft" href="#btn-1-bl" class="surf-cont-highest" />
+      <use id="tool-button-normal-bottom" href="#btn-1-t" y="24" class="surf-cont-highest" />
+      <use id="tool-button-normal-bottomright" href="#btn-1-br" class="surf-cont-highest" />
+    </g>
+    <g id="tool-button-focused-group" transform="translate(32)">
+      <g id="tool-button-focused-topleft">
+        <use href="#button-normal-topleft" />
+        <use href="#btn-1-tl" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-top">
+        <use href="#button-normal-top" />
+        <use href="#btn-1-t" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-topright">
+        <use href="#button-normal-topright" />
+        <use href="#btn-1-tr" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-left">
+        <use href="#button-normal-left" />
+        <use href="#btn-1-l" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused">
+        <use href="#button-normal" />
+        <use href="#btn-1-c" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-right">
+        <use href="#button-normal-right" />
+        <use href="#btn-1-l" x="24" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-bottomleft">
+        <use href="#button-normal-bottomleft" />
+        <use href="#btn-1-bl" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-bottom">
+        <use href="#button-normal-bottom" />
+        <use href="#btn-1-t" y="24" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-bottomright">
+        <use href="#button-normal-bottomright" />
+        <use href="#btn-1-br" class="on-sec-cont" opacity="0.08" />
+      </g>
+    </g>
+    <g id="tool-button-pressed-group" transform="translate(64)">
+      <g id="tool-button-pressed-topleft">
+        <use href="#button-normal-topleft" />
+        <use href="#btn-1-tl" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-top">
+        <use href="#button-normal-top" />
+        <use href="#btn-1-t" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-topright">
+        <use href="#button-normal-topright" />
+        <use href="#btn-1-tr" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-left">
+        <use href="#button-normal-left" />
+        <use href="#btn-1-l" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed">
+        <use href="#button-normal" />
+        <use href="#btn-1-c" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-right">
+        <use href="#button-normal-right" />
+        <use href="#btn-1-l" x="24" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-bottomleft">
+        <use href="#button-normal-bottomleft" />
+        <use href="#btn-1-bl" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-bottom">
+        <use href="#button-normal-bottom" />
+        <use href="#btn-1-t" y="24" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-bottomright">
+        <use href="#button-normal-bottomright" />
+        <use href="#btn-1-br" class="on-sec-cont" opacity="0.1" />
+      </g>
+    </g>
+    <g id="tool-button-toggled-group" transform="translate(96)">
+      <use id="tool-button-toggled-topleft" href="#btn-1-tl" class="sec-cont" />
+      <use id="tool-button-toggled-top" href="#btn-1-t" class="sec-cont" />
+      <use id="tool-button-toggled-topright" href="#btn-1-tr" class="sec-cont" />
+      <use id="tool-button-toggled-left" href="#btn-1-l" class="sec-cont" />
+      <use id="tool-button-toggled" href="#btn-1-c" class="sec-cont" />
+      <use id="tool-button-toggled-right" href="#btn-1-l" x="24" class="sec-cont" />
+      <use id="tool-button-toggled-bottomleft" href="#btn-1-bl" class="sec-cont" />
+      <use id="tool-button-toggled-bottom" href="#btn-1-t" y="24" class="sec-cont" />
+      <use id="tool-button-toggled-bottomright" href="#btn-1-br" class="sec-cont" />
+    </g>
+  </g>
+  <g id="lineedit-group" transform="translate(0,64)">
     <g id="lineedit-normal-group">
       <g id="lineedit-normal-topleft">
         <rect id="lineedit-normal-topleft-1" width="8" height="8" x="0" y="0" opacity="0" />
