@@ -1,0 +1,76 @@
+[%General]
+author=Gregory Harder
+comment=Official Go Harder theme for Kvantum
+; spin indicators
+vertical_spin_indicators=true
+; combo
+combo_as_lineedit=true
+; tab bar
+left_tabs=true
+; toolbar
+group_toolbar_buttons=true
+; progressbar
+spread_progressbar=true
+progressbar_thickness=4
+; menu
+spread_menuitems=true
+
+; slider
+slider_width=4
+slider_handle_width=17
+slider_handle_length=17
+; checkbox
+check_size=20
+; rendering
+composite=true
+menu_shadow_depth=6
+tooltip_shadow_depth=6
+opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,VirtualBoxVM,trojita,dragon,digikam,lyx
+
+[GeneralColors]
+window.color=#282a2d
+base.color=#1e2022
+alt.base.color=#121416
+button.color=#333538
+light.color=#8c9198
+mid.light.color=#42474e
+dark.color=#121416
+mid.color=#424748
+highlight.color=#95ccff
+inactive.highlight.color=#95ccff61
+tooltip.base.color=#1e2022
+text.color=#e2e2e5
+window.text.color=#e2e2e5
+button.text.color=#95ccff
+disabled.text.color=#e2e2e561
+tooltip.text.color=#c2c7cf
+highlight.text.color=#003353
+link.color=#a7edff
+link.visited.color=#7eb0bd
+
+[Hacks]
+respect_darkness=true
+
+[LineEdit]
+frame=true
+frame.element=lineedit
+frame.top=8
+frame.bottom=8
+frame.left=8
+frame.right=8
+interior=false
+indicator.element=arrow
+indicator.size=9
+text.margin=true
+text.margin.top=4
+text.margin.bottom=4
+text.margin.left=4
+text.margin.right=4
+text.iconspacing=4
+text.normal.color=#e2e2e5
+text.focus.color=#e2e2e5
+text.press.color=#e2e2e5
+text.toggle.color=#e2e2e5
+
+[ComboBox]
+inherits=LineEdit

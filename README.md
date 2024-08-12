@@ -32,12 +32,12 @@ opacity 0.15
 
 ### Shapes
 
-| Name        | original size | custom size |
-| ----------- | ------------- | ----------- |
-| extra-small | 4px           | 2px         |
-| small       | 8px           | 4px         |
-| medium      | 12px          | 6px         |
-| large       | 16px          | 8px         |
-| extra-large | 28px          | 12px        |
+| Name        | original size | custom size | test size |
+| ----------- | ------------- | ----------- | --------- |
+| extra-small | 4px           | 2px         | 4px       |
+| small       | 8px           | 4px         | 6px       |
+| medium      | 12px          | 6px         | 8px       |
+| large       | 16px          | 8px         | 10px      |
+| extra-large | 28px          | 12px        | 12px      |
 
 Push button arrows colors didn't work.

@@ -1,0 +1,112 @@
+<svg width="64" height="32" viewBox="0 0 64 32" id="svg1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- MARK: Style -->
+    <style>
+      .pri {
+        fill: #95ccff;
+      }
+
+      .on-pri {
+        fill: #003353;
+      }
+
+      .sec-cont {
+        fill: #3a4857;
+      }
+
+      .on-sec-cont {
+        fill: #d5e4f6;
+      }
+
+      .surf {
+        fill: #121416
+      }
+
+      .surf-cont {
+        fill: #1e2022;
+      }
+
+      .surf-cont-high {
+        fill: #282a2d;
+      }
+
+      .surf-cont-highest {
+        fill: #333538;
+      }
+
+      .on-surf {
+        fill: #e2e2e5;
+      }
+
+      .on-surf-var {
+        fill: #c2c7cf;
+      }
+
+      .outline {
+        fill: #8c9198;
+      }
+
+      .outline-var {
+        fill: #42474e
+      }
+    </style>
+  </defs>
+  <g id="lineedit-group" transform="translate(0,0)">
+    <g id="lineedit-normal-group">
+      <g id="lineedit-normal-topleft">
+        <rect id="lineedit-normal-topleft-1" width="8" height="8" x="0" y="0" opacity="0" />
+        <path d="M 0.5,4 q 0,-3.5 3.5,-3.5 h 4 v 1 h -4 q -2.5,0 -2.5,2.5 v 4 h -1 Z" class="outline" />
+      </g>
+      <g id="lineedit-normal-top">
+        <rect id="lineedit-normal-top-1" width="16" height="8" x="8" y="0" opacity="0" />
+        <rect id="lineedit-normal-top-2" width="16" height="1" x="8" y="0.5" class="outline" />
+      </g>
+      <g id="lineedit-normal-topright">
+        <use href="#lineedit-normal-topleft-1" x="24" />
+        <path d="M 31.5,4 q 0,-3.5 -3.5,-3.5 h -4 v 1 h 4 q 2.5,0 2.5,2.5 v 4 h 1 Z" class="outline" />
+      </g>
+      <g id="lineedit-normal-left">
+        <rect id="lineedit-normal-left-1" width="8" height="16" x="0" y="8" opacity="0" />
+        <rect id="lineedit-normal-left-2" width="1" height="16" x="0.5" y="8" class="outline" />
+      </g>
+      <g id="lineedit-normal-right">
+        <use href="#lineedit-normal-left-1" x="24" />
+        <use href="#lineedit-normal-left-2" x="30" />
+      </g>
+      <g id="lineedit-normal-bottomleft">
+        <use href="#lineedit-normal-topleft-1" x="0" y="24" />
+        <path d="M 0.5,28 q 0,3.5 3.5,3.5 h 4 v -1 h -4 q -2.5,0 -2.5,-2.5 v -4 h -1 Z" class="outline" />
+      </g>
+      <g id="lineedit-normal-bottom">
+        <use href="#lineedit-normal-top-1" y="24" />
+        <use href="#lineedit-normal-top-2" y="30" />
+      </g>
+      <g id="lineedit-normal-bottomright">
+        <use href="#lineedit-normal-topleft-1" x="24" y="24" />
+        <path d="M 31.5,28 q 0,3.5 -3.5,3.5 h -4 v -1 h 4 q 2.5,0 2.5,-2.5 v -4 h 1 Z" class="outline" />
+      </g>
+    </g>
+    <g id="lineedit-focused-group" transform="translate(32,0)">
+      <path id="lineedit-focused-topleft" d="M 0,4 q 0,-4 4,-4 h 4 v 2 h -4 q -2,0 -2,2 v 4 h -2 Z" class="pri" />
+      <g id="lineedit-focused-top">
+        <use href="#lineedit-normal-top-1" />
+        <rect id="lineedit-focused-top-1" width="16" height="2" x="8" y="0" class="pri" />
+      </g>
+      <path id="lineedit-focused-topright" d="M 32,4 q 0,-4 -4,-4 h -4 v 2 h 4 q 2,0 2,2 v 4 h 2 Z" class="pri" />
+      <g id="lineedit-focused-left">
+        <use href="#lineedit-normal-left-1" />
+        <rect id="lineedit-focused-left-1" width="2" height="16" x="0" y="8" class="pri" />
+      </g>
+      <g id="lineedit-focused-right">
+        <use href="#lineedit-normal-left-1" x="24" />
+        <use href="#lineedit-focused-left-1" x="30" />
+      </g>
+      <path id="lineedit-focused-bottomleft" d="M 0,28 q 0,4 4,4 h 4 v -2 h -4 q -2,0 -2,-2 v -4 h -2 Z" class="pri" />
+      <g id="lineedit-focused-bottom">
+        <use href="#lineedit-normal-top-1" y="24" />
+        <use href="#lineedit-focused-top-1" y="30" />
+      </g>
+      <path id="lineedit-focused-bottomright" d="M 32,28 q 0,4 -4,4 h -4 v -2 h 4 q 2,0 2,-2 v -4 h 2 Z" class="pri" />
+    </g>
+  </g>
+</svg>
