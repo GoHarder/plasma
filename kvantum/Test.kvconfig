@@ -60,7 +60,7 @@ frame.left=8
 frame.right=8
 interior=true
 interior.element=button
-indicator.element=arrow
+indicator.element=ar-1-down
 indicator.size=10
 text.shadow=false
 text.margin=true
@@ -88,7 +88,6 @@ text.toggle.color=#d5e4f6
 inherits=PanelButtonTool
 frame.element=toolbar-button
 interior.element=toolbar-button
-indicator.element=arrow
 
 [LineEdit]
 inherits=PanelButtonCommand
