@@ -11,7 +11,11 @@ const args = process.argv.slice(2);
 
 const filePath = args[0];
 
-const extras = [/id="(use|path|circle|rect|group|defs|style|svg)[\d-]+"/g, /inkscape:.+=".+"/g, '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n'];
+const extras = [
+  /id="(use|path|circle|rect|group|defs|style|svg|namedview)[\d-]+"/g,
+  /(inkscape|xmlns|sodipodi):.+=".+"/g,
+  '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n',
+];
 
 /** @param {PathLike | FileHandle} path */
 async function readFile(path) {
