@@ -11,6 +11,8 @@ const args = process.argv.slice(2);
 
 const filePath = args[0];
 
+const extras = [/id="(use|path|circle|rect|group|defs|style|svg)[\d-]+"/g, /inkscape:.+=".+"/g, '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n'];
+
 /** @param {PathLike | FileHandle} path */
 async function readFile(path) {
   try {
@@ -46,8 +48,12 @@ async function main() {
     return rounded.toString();
   });
 
-  update = update.replace(/id="(use|path|circle|rect|group)[\d-]+"/g, '');
+  extras.forEach((target) => {
+    update = update.replace(target, '');
+  });
 
+  // update = update.replace(/id="(use|path|circle|rect|group|defs|style)[\d-]+"/g, '');
+  // update = update.replace('<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n', '');
   await writeFile(filePath, update);
 }
 
