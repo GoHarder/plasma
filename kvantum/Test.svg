@@ -69,7 +69,13 @@
     <path id="btn-1-bl" d="M 0,24 q 0,8 8,8 v -8 Z" />
     <path id="btn-1-br" d="M 32,24 q 0,8 -8,8 v -8 Z" />
     <!-- MARK: Icons -->
-    <path id="down" d="M 5,5 0,0 h 10 z" />
+    <rect id="icon-box" width="10" height="10" opacity="0" />
+    <path id="add" d="M 4.286,5.714 H 0 V 4.286 H 4.286 V 0 H 5.714 V 4.286 H 10 V 5.714 H 5.714 V 10 H 4.286 Z" />
+    <path id="down" d="M 5,7.5 0,2.5 h 10 z" />
+    <path id="left" d="M 6.917,10 1.917,5 6.917,0 8.084,1.166 l -3.834,3.834 3.834,3.834 z" />
+    <path id="minus" d="M -0.002,5.715 V 4.286 H 10.002 v 1.429 z" />
+    <path id="right" d="M 5.75,5 1.917,1.167 3.083,0 l 5,5 -5,5 -1.167,-1.167 z" />
+    <path id="up" d="m 0,7.5 5,-5 5,5 z" />
   </defs>
   <g id="button-group">
     <g id="button-normal-group">
@@ -82,7 +88,10 @@
       <use id="button-normal-bottomleft" href="#btn-1-bl" class="surf-cont-highest" />
       <use id="button-normal-bottom" href="#btn-1-t" y="24" class="surf-cont-highest" />
       <use id="button-normal-bottomright" href="#btn-1-br" class="surf-cont-highest" />
-      <use id="ar-1-down-normal" href="#down" x="3" y="3" class="pri" />
+      <g id="ar-1-down-normal" transform="translate(3)">
+        <use href="#icon-box" />
+        <use href="#down" class="pri" />
+      </g>
     </g>
     <g id="button-focused-group" transform="translate(32)">
       <g id="button-focused-topleft">
@@ -121,7 +130,10 @@
         <use href="#button-normal-bottomright" />
         <use href="#btn-1-br" class="pri" opacity="0.08" />
       </g>
-      <use id="ar-1-down-focused" href="#down" x="3" y="3" class="pri" />
+      <g id="ar-1-down-focused" transform="translate(3)">
+        <use href="#icon-box" />
+        <use href="#down" class="pri" />
+      </g>
     </g>
     <g id="button-pressed-group" transform="translate(64)">
       <g id="button-pressed-topleft">
@@ -160,7 +172,10 @@
         <use href="#button-normal-bottomright" />
         <use href="#btn-1-br" class="pri" opacity="0.1" />
       </g>
-      <use id="ar-1-down-pressed" href="#down" x="3" y="3" class="pri" />
+      <g id="ar-1-down-pressed" transform="translate(3)">
+        <use href="#icon-box" />
+        <use href="#down" class="pri" />
+      </g>
     </g>
     <g id="button-toggled-group" transform="translate(96)">
       <use id="button-toggled-topleft" href="#btn-1-tl" class="pri" />
@@ -172,7 +187,10 @@
       <use id="button-toggled-bottomleft" href="#btn-1-bl" class="pri" />
       <use id="button-toggled-bottom" href="#btn-1-t" y="24" class="pri" />
       <use id="button-toggled-bottomright" href="#btn-1-br" class="pri" />
-      <use id="ar-1-down-disabled" href="#down" x="3" y="3" class="disabled-text" />
+      <g id="ar-1-down-disabled" transform="translate(3)">
+        <use href="#icon-box" />
+        <use href="#down" class="disabled-text" />
+      </g>
     </g>
   </g>
   <g id="tool-button-group" transform="translate(0,32)">
@@ -186,6 +204,30 @@
       <use id="tool-button-normal-bottomleft" href="#btn-1-bl" class="surf-cont-highest" />
       <use id="tool-button-normal-bottom" href="#btn-1-t" y="24" class="surf-cont-highest" />
       <use id="tool-button-normal-bottomright" href="#btn-1-br" class="surf-cont-highest" />
+      <g id="arrow-up-normal">
+        <use href="#icon-box" />
+        <use href="#up" class="on-surf-var" />
+      </g>
+      <g id="arrow-down-normal" transform="translate(6,0)">
+        <use href="#icon-box" />
+        <use href="#down" class="on-surf-var" />
+      </g>
+      <g id="arrow-left-normal" transform="translate(9.5,3.5)">
+        <use href="#icon-box" />
+        <use href="#left" class="on-surf-var" />
+      </g>
+      <g id="arrow-right-normal" transform="translate(16,3.5)">
+        <use href="#icon-box" />
+        <use href="#right" class="on-surf-var" />
+      </g>
+      <g id="arrow-add-normal" transform="translate(2,8.5)">
+        <use href="#icon-box" />
+        <use href="#add" class="on-surf-var" />
+      </g>
+      <g id="arrow-minus-normal" transform="translate(8,10.5)">
+        <use href="#icon-box" />
+        <use href="#minus" class="on-surf-var" />
+      </g>
     </g>
     <g id="tool-button-focused-group" transform="translate(32)">
       <g id="tool-button-focused-topleft">
@@ -223,6 +265,30 @@
       <g id="tool-button-focused-bottomright">
         <use href="#button-normal-bottomright" />
         <use href="#btn-1-br" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="arrow-up-focused">
+        <use href="#icon-box" />
+        <use href="#up" class="on-surf" />
+      </g>
+      <g id="arrow-down-focused" transform="translate(6)">
+        <use href="#icon-box" />
+        <use href="#down" class="on-surf" />
+      </g>
+      <g id="arrow-left-focused" transform="translate(9.5,3.5)">
+        <use href="#icon-box" />
+        <use href="#left" class="on-surf" />
+      </g>
+      <g id="arrow-right-focused" transform="translate(16,3.5)">
+        <use href="#icon-box" />
+        <use href="#right" class="on-surf" />
+      </g>
+      <g id="arrow-add-focused" transform="translate(2,8.5)">
+        <use href="#icon-box" />
+        <use href="#add" class="on-surf" />
+      </g>
+      <g id="arrow-minus-focused" transform="translate(8,10.5)">
+        <use href="#icon-box" />
+        <use href="#minus" class="on-surf" />
       </g>
     </g>
     <g id="tool-button-pressed-group" transform="translate(64)">
@@ -262,6 +328,30 @@
         <use href="#button-normal-bottomright" />
         <use href="#btn-1-br" class="on-sec-cont" opacity="0.1" />
       </g>
+      <g id="arrow-up-pressed">
+        <use href="#icon-box" />
+        <use href="#up" class="on-sec-cont" />
+      </g>
+      <g id="arrow-down-pressed" transform="translate(6)">
+        <use href="#icon-box" />
+        <use href="#down" class="on-sec-cont" />
+      </g>
+      <g id="arrow-left-pressed" transform="translate(9.5,3.5)">
+        <use href="#icon-box" />
+        <use href="#left" class="on-sec-cont" />
+      </g>
+      <g id="arrow-right-pressed" transform="translate(16,3.5)">
+        <use href="#icon-box" />
+        <use href="#right" class="on-sec-cont" />
+      </g>
+      <g id="arrow-add-pressed" transform="translate(2,8.5)">
+        <use href="#icon-box" />
+        <use href="#add" class="on-sec-cont" />
+      </g>
+      <g id="arrow-minus-pressed" transform="translate(8,10.5)">
+        <use href="#icon-box" />
+        <use href="#minus" class="on-sec-cont" />
+      </g>
     </g>
     <g id="tool-button-toggled-group" transform="translate(96)">
       <use id="tool-button-toggled-topleft" href="#btn-1-tl" class="sec-cont" />
@@ -273,6 +363,30 @@
       <use id="tool-button-toggled-bottomleft" href="#btn-1-bl" class="sec-cont" />
       <use id="tool-button-toggled-bottom" href="#btn-1-t" y="24" class="sec-cont" />
       <use id="tool-button-toggled-bottomright" href="#btn-1-br" class="sec-cont" />
+      <g id="arrow-up-disabled">
+        <use href="#icon-box" />
+        <use href="#up" class="disabled-text" />
+      </g>
+      <g id="arrow-down-disabled" transform="translate(6)">
+        <use href="#icon-box" />
+        <use href="#down" class="disabled-text" />
+      </g>
+      <g id="arrow-left-disabled" transform="translate(9.5,3.5)">
+        <use href="#icon-box" />
+        <use href="#left" class="disabled-text" />
+      </g>
+      <g id="arrow-right-disabled" transform="translate(16,3.5)">
+        <use href="#icon-box" />
+        <use href="#right" class="disabled-text" />
+      </g>
+      <g id="arrow-add-disabled" transform="translate(2,8.5)">
+        <use href="#icon-box" />
+        <use href="#add" class="disabled-text" />
+      </g>
+      <g id="arrow-minus-disabled" transform="translate(8,10.5)">
+        <use href="#icon-box" />
+        <use href="#minus" class="disabled-text" />
+      </g>
     </g>
   </g>
   <g id="toolbar-button-group" transform="translate(0,64)">
@@ -469,4 +583,5 @@
       <path id="lineedit-focused-bottomright" d="M 32,28 q 0,4 -4,4 h -4 v -2 h 4 q 2,0 2,-2 v -4 h 2 Z" class="pri" />
     </g>
   </g>
+
 </svg>
