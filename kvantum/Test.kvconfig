@@ -61,7 +61,7 @@ frame.right=8
 interior=true
 interior.element=button
 indicator.element=arrow
-indicator.size=9
+indicator.size=10
 text.shadow=false
 text.margin=true
 text.margin.top=4
@@ -83,6 +83,12 @@ text.normal.color=#c2c7cf
 text.focus.color=#c2c7cf
 text.press.color=#c2c7cf
 text.toggle.color=#d5e4f6
+
+[ToolbarButton]
+inherits=PanelButtonTool
+frame.element=toolbar-button
+interior.element=toolbar-button
+indicator.element=arrow
 
 [LineEdit]
 inherits=PanelButtonCommand
