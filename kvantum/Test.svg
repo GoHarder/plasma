@@ -261,14 +261,12 @@
   </g>
   <g id="toolbar-button-group" transform="translate(0,64)">
     <g id="toolbar-button-normal-group">
-      <path id="toolbar-button-normal-topleft" d="M 0,6 q 0,-6 6,-6 h 2 v 1 h -2 q -5,0 -5,5 v 2 h -1 z"
-        class="outline" />
+      <path id="toolbar-button-normal-topleft" d="M 0,8 q 0,-8 8,-8 v 1 q -7,0 -7,7 h -1 z" class="outline" />
       <g id="toolbar-button-normal-top">
         <use href="#btn-1-t" opacity="0" />
         <rect id="toolbar-button-normal-top-1" width="16" height="1" x="8" y="0" class="outline" />
       </g>
-      <path id="toolbar-button-normal-topright" d="M 32,6 q 0,-6 -6,-6 h -2 v 1 h 2 q 5,0 5,5 v 2 h 1 z"
-        class="outline" />
+      <path id="toolbar-button-normal-topright" d="M 32,8 q 0,-8 -8,-8 v 1 q 7,0 7,7 h 1 z" class="outline" />
       <g id="toolbar-button-normal-left">
         <use href="#btn-1-l" opacity="0" />
         <rect id="toolbar-button-normal-left-1" width="1" height="16" x="0" y="8" class="outline" />
@@ -278,14 +276,12 @@
         <use href="#btn-1-l" x="24" opacity="0" />
         <use href="#toolbar-button-normal-left-1" x="31" />
       </g>
-      <path id="toolbar-button-normal-bottomleft" d="M 0,26 q 0,6 6,6 h 2 v -1 h -2 q -5,0 -5,-5 v -2 h -1 z"
-        class="outline" />
+      <path id="toolbar-button-normal-bottomleft" d="M 0,24 q 0,8 8,8 v -1 q -7,0 -7,-7 h -1 z" class="outline" />
       <g id="toolbar-button-normal-bottom">
         <use href="#btn-1-t" y="24" opacity="0" />
         <use href="#toolbar-button-normal-top-1" y="31" />
       </g>
-      <path id="toolbar-button-normal-bottomright" d="M 32,26 q 0,6 -6,6 h -2 v -1 h 2 q 5,0 5,-5 v -2 h 1 z"
-        class="outline" />
+      <path id="toolbar-button-normal-bottomright" d="M 32,24 q 0,8 -8,8 v -1 q 7,0 7,-7 h 1 z" class="outline" />
     </g>
     <g id="toolbar-button-focused-group" transform="translate(32)">
       <g id="toolbar-button-focused-topleft">
