@@ -100,3 +100,12 @@ text.toggle.color=#e2e2e5
 
 [ComboBox]
 inherits=LineEdit
+
+[Menu]
+inherits=PanelButtonTool
+frame.element=menu
+interior.element=menu
+frame.top=4
+frame.bottom=4
+frame.left=8
+frame.right=8
