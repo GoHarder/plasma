@@ -6,7 +6,7 @@
 | ------------------------- | -------------------- | ---------------- | ----- |
 | acrobat                   |                      |                  |       |
 | acrobat-symbolic          |                      | ?                |       |
-| address-book-new          |                      |                  |       |
+| address-book-new          | import contacts      |                  | y     |
 | address-book-new-symbolic |                      | ?                |       |
 | application-exit          | close                |                  | y     |
 | application-exit-symbolic |                      | application-exit |       |
