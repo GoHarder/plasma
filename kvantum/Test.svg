@@ -1,4 +1,4 @@
-<svg width="128" height="176" viewBox="0 0 128 176" xmlns="http://www.w3.org/2000/svg">
+<svg width="160" height="176" viewBox="0 0 160 176" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- MARK: Style -->
     <style>
@@ -651,5 +651,16 @@
     <path id="menu-normal-bottomleft" d="M 0,20 q 0,4 4,4 h 4 v -4 Z" class="surf-cont" />
     <rect id="menu-normal-bottom" width="16" height="4" x="8" y="20" class="surf-cont" />
     <path id="menu-normal-bottomright" d="M 32,20 q 0,4 -4,4 h -4 v -4 Z" class="surf-cont" />
+  </g>
+  <g id="common-group" transform="translate(128)">
+    <use id="common-normal-topleft" href="#btn-1-tl" class="surf-cont" />
+    <use id="common-normal-top" href="#btn-1-t" class="surf-cont" />
+    <use id="common-normal-topright" href="#btn-1-tr" class="surf-cont" />
+    <use id="common-normal-left" href="#btn-1-l" class="surf-cont" />
+    <use id="common-normal" href="#btn-1-c" class="surf-cont" />
+    <use id="common-normal-right" href="#btn-1-l" x="24" class="surf-cont" />
+    <use id="common-normal-bottomleft" href="#btn-1-bl" class="surf-cont" />
+    <use id="common-normal-bottom" href="#btn-1-t" y="24" class="surf-cont" />
+    <use id="common-normal-bottomright" href="#btn-1-br" class="surf-cont" />
   </g>
 </svg>

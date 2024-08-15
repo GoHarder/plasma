@@ -117,3 +117,10 @@ interior.element=radio
 [CheckBox]
 inherits=PanelButtonTool
 interior.element=checkbox
+
+[GenericFrame]
+inherits=PanelButtonTool
+frame=true
+interior=true
+frame.element=common
+interior.element=common
