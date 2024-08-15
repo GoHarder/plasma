@@ -1,0 +1,15 @@
+<svg height="22" width="22" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css" id="current-color-scheme">
+    .ColorScheme-Text {
+      color: #e2e2e5;
+    }
+
+    .ColorScheme-Background {
+      color: #1e2022;
+    }
+  </style>
+  <rect width="22" height="22" rx="2" class="ColorScheme-Background" fill="currentColor" />
+  <path
+    d="M 11.917,17.417 V 4.583 h 5.5 V 17.417 Z m -7.333,0 V 4.583 H 10.083 V 17.417 Z M 13.75,15.583 h 1.833 V 6.417 H 13.75 Z m -7.333,0 H 8.25 V 6.417 H 6.417 Z m 0,-9.167 v 9.167 z m 7.333,0 v 9.167 z"
+    class="ColorScheme-Text" fill="currentColor" />
+</svg>

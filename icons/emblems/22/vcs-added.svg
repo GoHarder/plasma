@@ -1,0 +1,14 @@
+<svg height="22" width="22" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css" id="current-color-scheme">
+    .ColorScheme-Accent {
+      color: #95ccff;
+    }
+
+    .ColorScheme-Background {
+      color: #1e2022;
+    }
+  </style>
+  <rect width="22" height="22" rx="2" class="ColorScheme-Background" fill="currentColor" />
+  <path d="M 10.083,11.917 H 4.583 V 10.083 H 10.083 V 4.583 h 1.833 v 5.5 h 5.5 v 1.833 h -5.5 v 5.5 h -1.833 z"
+    class="ColorScheme-Accent" fill="currentColor" />
+</svg>
