@@ -109,3 +109,11 @@ frame.top=4
 frame.bottom=4
 frame.left=8
 frame.right=8
+
+[RadioButton]
+inherits=PanelButtonTool
+interior.element=radio
+
+[CheckBox]
+inherits=PanelButtonTool
+interior.element=checkbox
