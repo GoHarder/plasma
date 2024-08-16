@@ -1,43 +1,20 @@
 <svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
-
-  <!-- style definitions -->
   <defs>
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#232629;
-      }
       .ColorScheme-Accent {
-        color:#3daee9;
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #1e2022;
       }
     </style>
+    <path id="folder-back" d="M 8,80 V 16 h 34.1 l 6,6 H 88 v 58 z" />
   </defs>
-
-  <!-- folder bg -->
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path d="M 8,80 V 28 h 34.1 l 6,-6 H 88 v 58 z" class="ColorScheme-Accent" fill="currentColor" />
   <path
-    style="fill:currentColor"
-    class="ColorScheme-Accent"
-    d="m6 9v21h-1v57h86v-63h-1v-9h-42l-6-6z" />
-
-  <!-- folder fg -->
-  <path
-    d="m6 9v21h27l6-6h51v-9h-42l-6-6z"
-    fill-opacity=".33" />
-
-  <!-- folder highlight -->
-  <path
-    d="m42 9 5 7h43v-1h-42zm-3 15-6 6h-28v1h29z"
-    fill="#fff"
-    fill-opacity=".2" />
-
-  <!-- folder shadow -->
-  <path
-    d="m39 24-7 5h-26v1h27zm-34 62v1h86v-1z"
-    fill-opacity=".2" />
-
-  <!-- extension -->
-  <path
-    d="m36 44v5h-3v19h30v-19h-3v-5h-9v5h-6v-5zm1 1h7v5h8v-5h7v5h3v17h-28v-17h3z"
-    style="fill:currentColor;fill-opacity:0.6"
-    class="ColorScheme-Text" />
-
+    d="M 42.328,68 H 34 v -8.328 q 1.723,0 3.015,-1.095 1.292,-1.095 1.292,-2.782 0,-1.687 -1.292,-2.782 Q 35.723,51.918 34,51.918 v -8.328 h 8.615 q 0,-1.508 1.041,-2.549 Q 44.697,40 46.205,40 q 1.508,0 2.549,1.041 1.041,1.041 1.041,2.549 h 8.615 v 8.615 q 1.508,0 2.549,1.041 Q 62,54.287 62,55.795 q 0,1.508 -1.041,2.549 -1.041,1.041 -2.549,1.041 V 68 h -8.328 q 0,-1.795 -1.131,-3.051 -1.131,-1.256 -2.746,-1.256 -1.615,0 -2.746,1.256 -1.131,1.256 -1.131,3.051 z m -5.456,-2.872 h 3.051 q 0.862,-2.369 2.764,-3.338 1.903,-0.969 3.518,-0.969 1.615,0 3.518,0.969 1.903,0.969 2.764,3.338 h 3.051 V 56.513 h 2.872 q 0.287,0 0.503,-0.215 0.215,-0.215 0.215,-0.503 0,-0.287 -0.215,-0.503 -0.215,-0.215 -0.503,-0.215 h -2.872 v -8.615 h -8.615 v -2.872 q 0,-0.287 -0.215,-0.503 -0.215,-0.215 -0.503,-0.215 -0.287,0 -0.503,0.215 -0.215,0.215 -0.215,0.503 v 2.872 h -8.615 v 3.159 q 1.938,0.718 3.123,2.405 1.185,1.687 1.185,3.769 0,2.046 -1.185,3.733 -1.185,1.687 -3.123,2.441 z m 9.333,-9.333 z"
+    class="ColorScheme-Background" fill="currentColor" />
 </svg>

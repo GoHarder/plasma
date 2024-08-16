@@ -1,42 +1,20 @@
 <svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
-
-  <!-- style definitions -->
   <defs>
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#232629;
-      }
       .ColorScheme-Accent {
-        color:#3daee9;
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #1e2022;
       }
     </style>
+    <path id="folder-back" d="M 8,80 V 16 h 34.1 l 6,6 H 88 v 58 z" />
   </defs>
-
-  <!-- folder bg -->
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path d="M 8,80 V 28 h 34.1 l 6,-6 H 88 v 58 z" class="ColorScheme-Accent" fill="currentColor" />
   <path
-    fill="#f89406"
-    d="m6 9v21h-1v57h86v-63h-1v-9h-42l-6-6z" />
-
-  <!-- folder fg -->
-  <path
-    d="m6 9v21h27l6-6h51v-9h-42l-6-6z"
-    fill-opacity=".33" />
-
-  <!-- folder highlight -->
-  <path
-    d="m42 9 5 7h43v-1h-42zm-3 15-6 6h-28v1h29z"
-    fill="#fff"
-    fill-opacity=".2" />
-
-  <!-- folder shadow -->
-  <path
-    d="m39 24-7 5h-26v1h27zm-34 62v1h86v-1z"
-    fill-opacity=".2" />
-
-  <!-- rss icon -->
-  <path
-    d="m36.25 41v5c12.749987-.00096 22.75096 10.000013 22.75 22.75h5v-.75c0-15.999984-11.000016-27-27-27zm1 1c14.852098 0 25.75 10.897902 25.75 25.75h-3c0-11.999988-10.750012-22.75-22.75-22.75zm-1 9v5c7.999992 0 12.75 4.750008 12.75 12.75h5v-.75c0-10.499989-6.500011-17-17-17zm1 1c9.49999 0 15.75 6.25001 15.75 15.75h-3c0-7.499992-5.250008-12.75-12.75-12.75zm2.25 9a4.5 4.5 0 0 0 -4.5 4.5 4.5 4.5 0 0 0 4.5 4.5 4.5 4.5 0 0 0 4.5-4.5 4.5 4.5 0 0 0 -4.5-4.5zm0 1a3.5 3.5 0 0 1 3.5 3.5 3.5 3.5 0 0 1 -3.5 3.5 3.5 3.5 0 0 1 -3.5-3.5 3.5 3.5 0 0 1 3.5-3.5z"
-    style="fill:currentColor;fill-opacity:0.6"
-    class="ColorScheme-Text" />
-
+    d="M 37.294,68 Q 35.935,68 34.968,67.032 34,66.065 34,64.706 q 0,-1.359 0.968,-2.326 0.968,-0.968 2.326,-0.968 1.359,0 2.326,0.968 0.968,0.968 0.968,2.326 0,1.359 -0.968,2.326 Q 38.653,68 37.294,68 Z m 19.765,0 q 0,-4.818 -1.812,-8.997 Q 53.435,54.824 50.306,51.694 47.176,48.565 42.997,46.753 38.818,44.941 34,44.941 V 40 q 5.847,0 10.912,2.182 5.065,2.182 8.894,6.012 3.829,3.829 6.012,8.894 Q 62,62.153 62,68 Z m -9.882,0 q 0,-2.759 -1.029,-5.126 Q 45.118,60.506 43.306,58.694 41.494,56.882 39.126,55.853 36.759,54.824 34,54.824 v -4.941 q 3.788,0 7.062,1.421 3.274,1.421 5.744,3.891 2.471,2.471 3.891,5.744 Q 52.118,64.212 52.118,68 Z"
+    class="ColorScheme-Background" fill="currentColor" />
 </svg>

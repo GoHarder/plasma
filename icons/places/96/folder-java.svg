@@ -1,42 +1,20 @@
 <svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
-
-  <!-- style definitions -->
   <defs>
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#232629;
-      }
       .ColorScheme-Accent {
-        color:#3daee9;
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #1e2022;
       }
     </style>
+    <path id="folder-back" d="M 8,80 V 16 h 34.1 l 6,6 H 88 v 58 z" />
   </defs>
-
-  <!-- folder bg -->
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path d="M 8,80 V 28 h 34.1 l 6,-6 H 88 v 58 z" class="ColorScheme-Accent" fill="currentColor" />
   <path
-    fill="#ff8b23"
-    d="m6 9v21h-1v57h86v-63h-1v-9h-42l-6-6z" />
-
-  <!-- folder fg -->
-  <path
-    d="m6 9v21h27l6-6h51v-9h-42l-6-6z"
-    fill-opacity=".33" />
-
-  <!-- folder highlight -->
-  <path
-    d="m42 9 5 7h43v-1h-42zm-3 15-6 6h-28v1h29z"
-    fill="#fff"
-    fill-opacity=".2" />
-
-  <!-- folder shadow -->
-  <path
-    d="m39 24-7 5h-26v1h27zm-34 62v1h86v-1z"
-    fill-opacity=".2" />
-
-  <!-- coffee cup -->
-  <path
-    d="m47.5 41.5v7.5h1v-7.5zm6.833984 3.876953-1.224609 4.220703.966797.25586.96875-3.339844zm-12.664062.01367-.710938 1.138672.964844 3.326172.966797-.257813zm-4.669922 5.609377v6.5c0 6.497795 1.009414 11.496656 11 11.5 6.904533 0 9.517895-2.384773 10.474609-6h1.525391c3.999972 0 4-3.000008 4-4.5s-.000028-4.5-4-4.5h-1v-3zm11 18h-9.5v1h19v-1zm-10-17h20v5.5c0 3.198699-.287508 5.851869-1.558594 7.599609-1.271082 1.747745-3.608103 2.900391-8.441406 2.900391s-7.170324-1.152646-8.441406-2.900391c-1.271086-1.74774-1.558594-4.40091-1.558594-7.599609zm21 3h1c1.749998 0 3 .250003 3 3.5s-1.263735 3.48052-3 3.5h-1.306641c.244249-1.372708.306641-2.890078.306641-4.5z"
-    style="fill:currentColor;fill-opacity:0.6"
-    class="ColorScheme-Text" />
-
+    d="m 44.889,63.333 q -4.55,0 -7.719,-3.169 Q 34,56.994 34,52.444 V 40 h 22.556 q 2.256,0 3.85,1.594 Q 62,43.189 62,45.444 q 0,2.256 -1.594,3.85 -1.594,1.594 -3.85,1.594 h -0.778 v 1.556 q 0,4.55 -3.169,7.719 -3.169,3.169 -7.719,3.169 z M 37.111,47.778 H 52.667 V 43.111 H 37.111 Z m 7.778,12.444 q 3.228,0 5.503,-2.275 2.275,-2.275 2.275,-5.503 V 50.889 H 37.111 v 1.556 q 0,3.228 2.275,5.503 2.275,2.275 5.503,2.275 z M 55.778,47.778 h 0.778 q 0.972,0 1.653,-0.681 0.681,-0.681 0.681,-1.653 0,-0.972 -0.681,-1.653 -0.681,-0.681 -1.653,-0.681 H 55.778 Z M 34,68 V 64.889 H 58.889 V 68 Z M 44.889,50.889 Z"
+    class="ColorScheme-Background" fill="currentColor" />
 </svg>
