@@ -1,35 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
-  <defs id="defs3051">
+<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+  <defs>
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#232629;
-      }
       .ColorScheme-Accent {
-        color:#3daee9;
+        color: #95ccff;
       }
-      </style>
+
+      .ColorScheme-Background {
+        color: #1e2022;
+      }
+    </style>
+    <path id="folder-back" d="M 8,80 V 16 h 34.1 l 6,6 H 88 v 58 z" />
   </defs>
- <path 
-     style="fill:currentColor" 
-     d="M 6 9 L 6 30 L 5 30 L 5 87 L 91 87 L 91 24 L 90 24 L 90 15 L 48 15 L 42 9 L 6 9 z "
-     class="ColorScheme-Accent"
-     />
- <path 
-     style="fill-opacity:0.33"
-     d="M 6 9 L 6 30 L 33 30 L 39 24 L 90 24 L 90 15 L 48 15 L 42 9 L 6 9 z "
-     />
- <path 
-     style="fill:#ffffff;fill-opacity:0.2"
-     d="M 42 9 L 47 16 L 90 16 L 90 15 L 48 15 L 42 9 z M 39 24 L 33 30 L 5 30 L 5 31 L 34 31 L 39 24 z "
-     />
- <path 
-     style="fill-opacity:0.2;fill-rule:evenodd"
-     d="M 39 24 L 32 29 L 6 29 L 6 30 L 33 30 L 39 24 z M 5 86 L 5 87 L 91 87 L 91 86 L 5 86 z "
-     class="ColorScheme-Text"
-     />
- <path 
-     style="fill:currentColor;fill-opacity:0.6;stroke:none"  
-     d="M 48 40.994141 L 47.5625 41.925781 L 43.363281 50.873047 L 32.996094 52.457031 L 40.498047 60.146484 L 38.726562 71.003906 L 48 65.878906 L 57.273438 71.003906 L 55.501953 60.146484 L 63.003906 52.457031 L 52.636719 50.873047 L 48 40.994141 z M 48 43.310547 L 51.990234 51.810547 L 60.908203 53.173828 L 54.453125 59.789062 L 55.978516 69.128906 L 48 64.71875 L 40.023438 69.128906 L 41.544922 59.789062 L 35.091797 53.173828 L 44.011719 51.810547 L 48 43.310547 z "
-     class="ColorScheme-Text"
-     />
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path d="M 8,80 V 28 h 34.1 l 6,-6 H 88 v 58 z" class="ColorScheme-Accent" fill="currentColor" />
+  <path
+    d="M 43.59,61.455 48,58.795 52.41,61.49 51.255,56.45 55.14,53.09 50.03,52.635 48,47.875 45.97,52.6 40.86,53.055 44.745,56.45 Z M 39.355,67.3 41.63,57.465 34,50.85 44.08,49.975 48,40.7 51.92,49.975 62,50.85 54.37,57.465 56.645,67.3 48,62.085 Z M 48,55.05 Z"
+    class="ColorScheme-Background" fill="currentColor" />
 </svg>

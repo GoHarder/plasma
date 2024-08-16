@@ -1,44 +1,20 @@
 <svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
-
-  <!-- style definitions -->
   <defs>
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#232629;
-      }
       .ColorScheme-Accent {
-        color:#3daee9;
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #1e2022;
       }
     </style>
+    <path id="folder-back" d="M 8,80 V 16 h 34.1 l 6,6 H 88 v 58 z" />
   </defs>
-
-  <!-- folder bg -->
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path d="M 8,80 V 28 h 34.1 l 6,-6 H 88 v 58 z" class="ColorScheme-Accent" fill="currentColor" />
   <path
-    style="fill:currentColor"
-    class="ColorScheme-Accent"
-    d="m6 9v21h-1v57h86v-63h-1v-9h-42l-6-6z" />
-
-  <!-- folder fg -->
-  <path
-    d="m6 9v21h27l6-6h51v-9h-42l-6-6z"
-    fill-opacity=".33" />
-
-  <!-- folder highlight -->
-  <path
-    d="m42 9 5 7h43v-1h-42zm-3 15-6 6h-28v1h29z"
-    fill="#fff"
-    fill-opacity=".2" />
-
-  <!-- folder shadow -->
-  <path
-    d="m39 24-7 5h-26v1h27zm-34 62v1h86v-1z"
-    fill-opacity=".2" />
-
-
-  <!-- table -->
-  <path
-    d="m34 42v28h28v-28zm1 1h26v6h-26zm0 7h8v4h-8zm9 0h8v4h-8zm9 0h8v4h-8zm-18 5h8v4h-8zm9 0h8v4h-8zm9 0h8v4h-8zm-18 5h8v4h-8zm9 0h8v4h-8zm9 0h8v4h-8zm-18 5h8v4h-8zm9 0h8v4h-8zm9 0h8v4h-8z"
-    style="fill:currentColor;fill-opacity:0.6"
-    class="ColorScheme-Text" />
-
+    d="M 34,68 V 40 H 62 V 68 Z M 37.111,49.333 H 58.889 V 43.111 H 37.111 Z m 8.283,7.778 h 5.211 v -4.667 h -5.211 z m 0,7.778 h 5.211 v -4.667 h -5.211 z m -8.283,-7.778 h 5.172 v -4.667 h -5.172 z m 16.606,0 H 58.889 V 52.444 H 53.717 Z M 37.111,64.889 h 5.172 v -4.667 h -5.172 z m 16.606,0 h 5.172 v -4.667 h -5.172 z"
+    class="ColorScheme-Background" fill="currentColor" />
 </svg>

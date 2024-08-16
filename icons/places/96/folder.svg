@@ -1,10 +1,6 @@
 <svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color: #e2e2e5;
-      }
-
       .ColorScheme-Accent {
         color: #95ccff;
       }
@@ -18,4 +14,5 @@
   <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
   <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
   <path d="M 8,80 V 28 h 34.1 l 6,-6 H 88 v 58 z" class="ColorScheme-Accent" fill="currentColor" />
+  <!-- <rect style="fill:#ff00ff;fill-rule:evenodd;stroke-width:0.5" width="80" height="52" x="8" y="28" /> -->
 </svg>
