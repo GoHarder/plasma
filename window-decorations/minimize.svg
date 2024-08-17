@@ -9,30 +9,27 @@
         color: #e0e0e0;
       }
     </style>
+    <path id="icon" d="m 14.752,21.781 v -1.562 h 12.496 v 1.562 z" />
+    <rect id="border" width="42" height="30" x="0" y="6" rx="3.5" />
   </defs>
   <g id="active-center" transform="translate(0)">
-    <path d="m 21,6 h17 q4,0 4,4 v 22 q 0,4 -4,4 h -34 q -4,0 -4,-4 v -22 q 0,-4 4,-4 z" opacity="0" />
-    <path d="m 14.752,21.781 v -1.562 h 12.496 v 1.562 z" class="ColorScheme-Text" fill="currentColor" />
+    <use href="#border" opacity="0" />
+    <use href="#icon" class="ColorScheme-Text" fill="currentColor" />
   </g>
   <g id="inactive-center" transform="translate(42)">
-    <path d="m 21,6 h17 q4,0 4,4 v 22 q 0,4 -4,4 h -34 q -4,0 -4,-4 v -22 q 0,-4 4,-4 z" opacity="0" />
-    <path d="m 14.752,21.781 v -1.562 h 12.496 v 1.562 z" class="ColorScheme-Text" fill="currentColor" />
+    <use href="#border" opacity="0" />
+    <use href="#icon" class="ColorScheme-Text" fill="currentColor" />
   </g>
   <g id="hover-center" transform="translate(84)">
-    <path d="m 21,6 h17 q4,0 4,4 v 22 q 0,4 -4,4 h -34 q -4,0 -4,-4 v -22 q 0,-4 4,-4 z" opacity="0" />
-    <path d="m 14.752,21.781 v -1.562 h 12.496 v 1.562 z" class="ColorScheme-Text" fill="currentColor" />
-    <path d="m 21,6 h17 q4,0 4,4 v 22 q 0,4 -4,4 h -34 q -4,0 -4,-4 v -22 q 0,-4 4,-4 z" class="ColorScheme-Text"
-      fill="currentColor" opacity="0.08" />
+    <use href="#border" class="ColorScheme-Text" fill="currentColor" opacity="0.08" />
+    <use href="#icon" class="ColorScheme-Text" fill="currentColor" />
   </g>
   <g id="pressed-center" transform="translate(126)">
-    <path d="m 21,6 h17 q4,0 4,4 v 22 q 0,4 -4,4 h -34 q -4,0 -4,-4 v -22 q 0,-4 4,-4 z" opacity="0" />
-    <path d="m 14.752,21.781 v -1.562 h 12.496 v 1.562 z" class="ColorScheme-Text" fill="currentColor" />
-    <path d="m 21,6 h17 q4,0 4,4 v 22 q 0,4 -4,4 h -34 q -4,0 -4,-4 v -22 q 0,-4 4,-4 z" class="ColorScheme-Text"
-      fill="currentColor" opacity="0.1" />
+    <use href="#border" class="ColorScheme-Text" fill="currentColor" opacity="0.1" />
+    <use href="#icon" class="ColorScheme-Text" fill="currentColor" />
   </g>
   <g id="deactivated-center" transform="translate(168)">
-    <path d="m 21,6 h17 q4,0 4,4 v 22 q 0,4 -4,4 h -34 q -4,0 -4,-4 v -22 q 0,-4 4,-4 z" class="ColorScheme-Background"
-      fill="currentColor" opacity="0.12" />
-    <path d="m 14.752,21.781 v -1.562 h 12.496 v 1.562 z" class="ColorScheme-Text" fill="currentColor" opacity="0.38" />
+    <use href="#border" class="ColorScheme-Background" fill="currentColor" opacity="0.12" />
+    <use href="#icon" class="ColorScheme-Text" fill="currentColor" opacity="0.38" />
   </g>
 </svg>
