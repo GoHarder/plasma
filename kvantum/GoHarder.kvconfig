@@ -143,6 +143,6 @@ interior.element=tab
 frame.element=tab
 indicator.element=tab
 text.normal.color=#c2c7cf
-text.focus.color=#e2e2e5
+text.focus.color=#95ccff
 text.press.color=#e2e2e5
 text.toggle.color=#95ccff
