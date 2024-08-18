@@ -136,3 +136,9 @@ interior.element=toolbar
 
 [SizeGrip]
 indicator.element=sizegrip
+
+[Tab]
+inherits=PanelButtonTool
+interior.element=tab
+frame.element=tab
+indicator.element=tab

@@ -680,4 +680,40 @@
     <use id="sizegrip-normal" href="#sizegrip" class="on-surf-var" opacity="0.38" />
     <use id="sizegrip-focused" href="#sizegrip" x="10" class="on-surf" opacity="0.38" />
   </g>
+  <rect id="tab-normal-topleft" width="8" height="8" opacity="0" />
+  <rect id="tab-normal-top" width="16" height="8" x="8" opacity="0" />
+  <rect id="tab-normal-topright" width="8" height="8" x="24" opacity="0" />
+  <rect id="tab-normal-left" width="8" height="16" y="8" opacity="0" />
+  <rect id="tab-normal" width="16" height="16" x="8" y="8" opacity="0" />
+  <rect id="tab-normal-right" width="8" height="16" x="24" y="8" opacity="0" />
+  <rect id="tab-normal-bottomleft" width="8" height="8" x="0" y="24" opacity="0" />
+  <rect id="tab-normal-bottom" width="16" height="8" x="8" y="24" opacity="0" />
+  <rect id="tab-normal-bottomright" width="8" height="8" x="24" y="24" opacity="0" />
+  <rect id="tab-focused-topleft" width="8" height="8" class="pri" opacity="0.1" />
+  <rect id="tab-focused-top" width="16" height="8" x="8" class="pri" opacity="0.1" />
+  <rect id="tab-focused-topright" width="8" height="8" x="24" class="pri" opacity="0.1" />
+  <rect id="tab-focused-left" width="8" height="16" y="8" class="pri" opacity="0.1" />
+  <rect id="tab-focused" width="16" height="16" x="8" y="8" class="pri" opacity="0.1" />
+  <rect id="tab-focused-right" width="8" height="16" x="24" y="8" class="pri" opacity="0.1" />
+  <rect id="tab-focused-bottomleft" width="8" height="8" x="0" y="24" class="pri" opacity="0.1" />
+  <rect id="tab-focused-bottom" width="16" height="8" x="8" y="24" class="pri" opacity="0.1" />
+  <rect id="tab-focused-bottomright" width="8" height="8" x="24" y="24" class="pri" opacity="0.1" />
+  <use id="tab-toggled-topleft" href="#tab-normal-topleft" x="32" />
+  <use id="tab-toggled-top" href="#tab-normal-top" x="32" />
+  <use id="tab-toggled-topright" href="#tab-normal-topright" x="32" />
+  <use id="tab-toggled-left" href="#tab-normal-left" x="32" />
+  <use id="tab-toggled" href="#tab-normal" x="32" />
+  <use id="tab-toggled-right" href="#tab-normal-right" x="32" />
+  <g id="tab-toggled-bottomleft">
+    <use href="#tab-normal-bottomleft" x="32" />
+    <path id="btn-1-tl" d="M 32,32 q 0,-3 3,-3 h 5 v 3 Z" class="pri" />
+  </g>
+  <g id="tab-toggled-bottom">
+    <use href="#tab-normal-bottom" x="32" />
+    <rect width="16" height="3" x="40" y="29" class="pri" />
+  </g>
+  <g id="tab-toggled-bottomright">
+    <use href="#tab-normal-bottomright" x="32" />
+    <path id="btn-1-tr" d="M 64,32 q 0,-3 -3,-3 h -5 v 3 Z" class="pri" />
+  </g>
 </svg>
