@@ -133,3 +133,6 @@ indicator.element=toolbar
 indicator.size=5
 frame=false
 interior.element=toolbar
+
+[SizeGrip]
+indicator.element=sizegrip
