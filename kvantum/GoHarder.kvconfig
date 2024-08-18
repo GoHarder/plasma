@@ -88,6 +88,8 @@ text.toggle.color=#d5e4f6
 inherits=PanelButtonTool
 frame.element=toolbar-button
 interior.element=toolbar-button
+frame.top=12
+frame.bottom=12
 
 [LineEdit]
 inherits=PanelButtonCommand
