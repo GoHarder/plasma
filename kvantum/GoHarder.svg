@@ -10,6 +10,10 @@
         fill: #003353;
       }
 
+      .sec {
+        fill: #b9c8da;
+      }
+
       .sec-cont {
         fill: #3a4857;
       }
@@ -724,7 +728,6 @@
       <path id="r-8-tr" d="M 64,32 q 0,-3 -3,-3 h -5 v 3 Z" class="pri" />
     </g>
   </g>
-
   <g id="dial-group" transform="translate(120,96)">
     <circle id="dial" cx="22.5" cy="22.5" r="22.5" class="surf-cont-highest" />
     <g id="dial-notches">
@@ -735,6 +738,12 @@
     </g>
     <circle id="dial-handle" cx="10" cy="22.5" r="5" class="pri" />
   </g>
+  <g id="itemview-group" transform="translate(0,0)">
+    <use id="itemview-focused" x="-8" y="-8" href="#sq-8-c" class="on-surf" opacity="0.08" />
+    <use id="itemview-pressed" x="8" y="-8" href="#sq-8-c" class="sec" />
+    <use id="itemview-toggled" x="-8" y="8" href="#sq-8-c" class="on-surf" opacity="0.1" />
+  </g>
+
   <!-- 
   id="toolbar-handle"
   id="toolbar-separator"
@@ -892,36 +901,6 @@
   id="splitter-focused"
   id="splitter-pressed"  
 
-  id="itemview-focused-left"
-  id="itemview-focused-right"
-  id="itemview-focused-topright"
-  id="itemview-focused-bottomright"
-  id="itemview-focused-bottomleft"
-  id="itemview-focused-topleft"
-  id="itemview-focused-top"
-  id="itemview-focused-bottom"
-  id="itemview-focused"
-  
-  id="itemview-pressed-top"
-  id="itemview-pressed-bottom"
-  id="itemview-pressed"
-  id="itemview-pressed-left"
-  id="itemview-pressed-right"
-  id="itemview-pressed-topright"
-  id="itemview-pressed-bottomright"
-  id="itemview-pressed-topleft"
-  id="itemview-pressed-bottomleft"
-
-  id="itemview-toggled-top"
-  id="itemview-toggled-bottom"
-  id="itemview-toggled"
-  id="itemview-toggled-topright"
-  id="itemview-toggled-topleft"
-  id="itemview-toggled-left"
-  id="itemview-toggled-bottomleft"
-  id="itemview-toggled-bottomright"
-  id="itemview-toggled-right"
-  
   id="grip-normal"
   id="grip-focused"
   id="grip-pressed"

@@ -146,3 +146,13 @@ text.normal.color=#c2c7cf
 text.focus.color=#95ccff
 text.press.color=#e2e2e5
 text.toggle.color=#95ccff
+
+[ItemView]
+inherits=PanelButtonTool
+text.margin=0
+frame=false
+interior.element=itemview
+text.normal.color=#c2c7cf
+text.focus.color=#e2e2e5
+text.press.color=#233240
+text.toggle.color=#e2e2e5
