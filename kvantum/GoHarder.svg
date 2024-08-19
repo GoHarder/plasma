@@ -735,11 +735,11 @@
     <rect id="tabframe-normal-topleft" width="1" height="1" x="32" class="surf-var" />
     <rect id="tabframe-normal-top" width="16" height="1" x="33" class="surf-var" />
     <rect id="tabframe-normal-topright" width="1" height="1" x="49" class="surf-var" />
-    <rect id="tabframe-normal-left" width="1" height="16" x="32" y="1" opacity="0" />
-    <rect id="tabframe-normal-right" width="1" height="16" x="49" y="1" opacity="0" />
-    <rect id="tabframe-normal-bottomleft" width="1" height="1" x="32" y="17" opacity="0" />
-    <rect id="tabframe-normal-bottom" width="16" height="1" x="33" y="17" opacity="0" />
-    <rect id="tabframe-normal-bottomright" width="1" height="1" x="49" y="17" opacity="0" />
+    <rect id="tabframe-normal-left" width="1" height="16" x="32" y="1" class="surf-var" />
+    <rect id="tabframe-normal-right" width="1" height="16" x="49" y="1" class="surf-var" />
+    <rect id="tabframe-normal-bottomleft" width="1" height="1" x="32" y="17" class="surf-var" />
+    <rect id="tabframe-normal-bottom" width="16" height="1" x="33" y="17" class="surf-var" />
+    <rect id="tabframe-normal-bottomright" width="1" height="1" x="49" y="17" class="surf-var" />
   </g>
   <g id="dial-group" transform="translate(120,96)">
     <circle id="dial" cx="22.5" cy="22.5" r="22.5" class="surf-cont-highest" />

@@ -151,6 +151,10 @@ text.toggle.color=#95ccff
 inherits=PanelButtonTool
 frame.element=tabframe
 interior.element=common
+frame.top=1
+frame.bottom=1
+frame.left=1
+frame.right=1
 
 [ItemView]
 inherits=PanelButtonTool
