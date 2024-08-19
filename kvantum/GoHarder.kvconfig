@@ -147,6 +147,11 @@ text.focus.color=#95ccff
 text.press.color=#e2e2e5
 text.toggle.color=#95ccff
 
+[TabFrame]
+inherits=PanelButtonTool
+frame.element=tabframe
+interior.element=common
+
 [ItemView]
 inherits=PanelButtonTool
 text.margin=0
