@@ -1,43 +1,20 @@
 <svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
-
-  <!-- style definitions -->
   <defs>
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#232629;
-      }
       .ColorScheme-Accent {
-        color:#3daee9;
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #1e2022;
       }
     </style>
+    <path id="folder-back" d="M 8,80 V 16 h 34.1 l 6,6 H 88 v 58 z" />
   </defs>
-
-  <!-- folder bg -->
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path d="M 8,80 V 28 h 34.1 l 6,-6 H 88 v 58 z" class="ColorScheme-Accent" fill="currentColor" />
   <path
-    style="fill:currentColor"
-    class="ColorScheme-Accent"
-    d="m6 9v21h-1v57h86v-63h-1v-9h-42l-6-6z" />
-
-  <!-- folder fg -->
-  <path
-    d="m6 9v21h27l6-6h51v-9h-42l-6-6z"
-    fill-opacity=".33" />
-
-  <!-- folder highlight -->
-  <path
-    d="m42 9 5 7h43v-1h-42zm-3 15-6 6h-28v1h29z"
-    fill="#fff"
-    fill-opacity=".2" />
-
-  <!-- folder shadow -->
-  <path
-    d="m39 24-7 5h-26v1h27zm-34 62v1h86v-1z"
-    fill-opacity=".2" />
-
-  <!-- git branches -->
-  <path
-    d="m52 40.75-6.25 3.5 6.25 3.5v-3c2.999997 0 5 2.250003 5 5v16.306641a2.5 2.5 0 0 0 -2 2.443359 2.5 2.5 0 0 0 2.5 2.5 2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0 -2-2.449219v-16.300781c0-3.749996-3.250003-6-6-6zm-11.5 1.25a2.5 2.5 0 0 0 -2.5 2.5 2.5 2.5 0 0 0 2 2.443359v19.113282a2.5 2.5 0 0 0 -2 2.443359 2.5 2.5 0 0 0 2.5 2.5 2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0 -2-2.449219v-19.107422a2.5 2.5 0 0 0 2-2.443359 2.5 2.5 0 0 0 -2.5-2.5zm10.75.25v4l-4-2zm-10.75.75a1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1 -1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5 1.5 1.5 0 0 1 1.5-1.5zm0 24a1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1 -1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5 1.5 1.5 0 0 1 1.5-1.5zm17 0a1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1 -1.5 1.5 1.5 1.5 0 0 1 -1.5-1.5 1.5 1.5 0 0 1 1.5-1.5z"
-    style="fill:currentColor;fill-opacity:0.6"
-    class="ColorScheme-Text" />
-
+    d="M 62.435,52.664 49.336,39.566 a 1.931,1.93 0 0 0 -2.732,0 l -2.72,2.72 3.45,3.45 a 2.295,2.295 0 0 1 2.36,0.55 2.299,2.299 0 0 1 0.546,2.376 l 3.325,3.325 a 2.294,2.294 0 0 1 2.376,0.546 2.298,2.298 0 0 1 0,3.251 2.3,2.3 0 0 1 -3.252,0 2.298,2.298 0 0 1 -0.5,-2.501 l -3.102,-3.101 v 8.161 a 2.298,2.298 0 0 1 0.607,3.686 2.298,2.298 0 0 1 -3.251,0 2.298,2.298 0 0 1 0,-3.251 2.297,2.296 0 0 1 0.754,-0.502 v -8.236 a 2.286,2.286 0 0 1 -0.754,-0.501 2.301,2.301 0 0 1 -0.495,-2.514 l -3.401,-3.401 -8.981,8.98 a 1.932,1.932 0 0 0 0,2.733 l 13.099,13.099 a 1.933,1.933 0 0 0 2.732,0 L 62.435,55.397 a 1.934,1.934 0 0 0 0,-2.733"
+    class="ColorScheme-Background" fill="currentColor" />
 </svg>

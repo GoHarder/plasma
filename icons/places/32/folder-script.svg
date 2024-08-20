@@ -14,5 +14,7 @@
   <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
   <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
   <path d="M 2.667,26.667 V 9.333 H 14.033 l 2,-2 h 13.3 V 26.667 Z" class="ColorScheme-Accent" fill="currentColor" />
-  <!-- <rect style="fill:#ff00ff;fill-rule:evenodd;stroke-width:0.5" width="26.666" height="17.334" x="2.667" y="9.333" /> -->
+  <path
+    d="M 9.958,22.833 V 13.167 H 22.042 v 9.667 z M 11.167,21.625 h 9.667 V 15.583 H 11.167 Z M 13.281,21.021 12.435,20.175 13.991,18.604 12.42,17.033 13.281,16.188 l 2.417,2.417 z m 2.719,0 V 19.813 h 3.625 v 1.208 z"
+    class="ColorScheme-Background" fill="currentColor" />
 </svg>
