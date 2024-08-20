@@ -14,4 +14,5 @@
   <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
   <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
   <path d="M 5.333,53.333 V 18.667 H 28.067 l 4,-4 h 26.6 v 38.667 z" class="ColorScheme-Accent" fill="currentColor" />
+  <!-- <rect style="fill:#ff00ff;fill-rule:evenodd;stroke-width:0.5" width="53.334" height="34.667" x="5.333" y="18.667" /> -->
 </svg>
