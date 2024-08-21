@@ -1,4 +1,4 @@
-<svg width="165" height="208" viewBox="0 0 50 50" xmlns="http://www.w3.org/2000/svg">
+<svg width="208" height="208" viewBox="0 0 208 208" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- MARK: Style -->
     <style>
@@ -58,6 +58,10 @@
         fill: #42474e;
       }
 
+      .inv-surf {
+        fill: #e2e2e5;
+      }
+
       .disabled-back {
         fill: #e2e2e5;
         opacity: 0.12;
@@ -111,8 +115,36 @@
     <path id="chk-box-dash" d="M 7,13 H 17 V 11 H 7 Z " />
     <path id="sizegrip"
       d="M 2,10 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m -3,-3 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m 0,-3 h 2 v 2 h -2 v -2 z" />
+    <!-- MARK: Gradients -->
+    <linearGradient id="tt-bg">
+      <stop stop-opacity="1" offset="0.5" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <radialGradient href="#tt-bg" id="tt-bgtl" cx="4.5" cy="5.5" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient href="#tt-bg" id="tt-bgt" x1="12.5" y1="5.5" x2="12.5" y2="1.5" gradientUnits="userSpaceOnUse" />
+    <radialGradient href="#tt-bg" id="tt-bgtr" cx="20.5" cy="5.5" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient href="#tt-bg" id="tt-bgl" x1="4.5" y1="7.5" x2="0.5" y2="7.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient href="#tt-bg" id="tt-bgr" x1="20.5" y1="7.5" x2="24.5" y2="7.5" gradientUnits="userSpaceOnUse" />
+    <radialGradient href="#tt-bg" id="tt-bgbl" cx="4.5" cy="9.5" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient href="#tt-bg" id="tt-bgb" x1="12.5" y1="9.5" x2="12.5" y2="13.5" gradientUnits="userSpaceOnUse" />
+    <radialGradient href="#tt-bg" id="tt-bgbr" cx="20.5" cy="9.5" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient id="tt-ag">
+      <stop stop-opacity="1" offset="0.333" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <radialGradient href="#tt-ag" id="tt-agtl" cx="4.5" cy="5.5" r="4.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#tt-ag" id="tt-agt" x1="12.5" y1="5.5" x2="12.5" y2="1"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#tt-ag" id="tt-agtr" cx="20.5" cy="5.5" r="4.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#tt-ag" id="tt-agl" x1="4.5" y1="7.5" x2="0" y2="7.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#tt-ag" id="tt-agr" x1="20.5" y1="7.5" x2="25" y2="7.5"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#tt-ag" id="tt-agbl" cx="4.5" cy="9.5" r="4.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#tt-ag" id="tt-agb" x1="12.5" y1="9.5" x2="12.5" y2="14"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#tt-ag" id="tt-agbr" cx="20.5" cy="9.5" r="4.5" gradientUnits="userSpaceOnUse" />
   </defs>
-  <g id="button-group">
+  <!-- <g id="button-group">
     <g id="button-normal-group">
       <use id="button-normal-topleft" href="#r-8-tl" class="surf-cont-highest" />
       <use id="button-normal-top" href="#sq-8-t" class="surf-cont-highest" />
@@ -228,7 +260,7 @@
       </g>
     </g>
     <rect id="button-default-indicator" width="5" height="5" opacity="0" />
-  </g>
+  </g> -->
   <g id="tool-button-group" transform="translate(0,32)">
     <g id="tool-button-normal-group">
       <use id="tool-button-normal-topleft" href="#r-8-tl" class="surf-cont-highest" />
@@ -878,9 +910,9 @@
       <rect id="menuitem-toggled-topleft" width="8" height="1" class="on-surf" opacity="0.08" />
       <rect id="menuitem-toggled-top" width="16" height="1" x="8" class="on-surf" opacity="0.08" />
       <rect id="menuitem-toggled-topright" width="8" height="1" x="24" class="on-surf" opacity="0.08" />
-      <rect id="menuitem-toggled" width="8" height="8" y="1" class="on-surf" opacity="0.08" />
+      <rect id="menuitem-toggled-left" width="8" height="8" y="1" class="on-surf" opacity="0.08" />
       <rect id="menuitem-toggled" width="16" height="8" x="8" y="1" class="on-surf" opacity="0.08" />
-      <rect id="menuitem-toggled" width="8" height="8" x="24" y="1" class="on-surf" opacity="0.08" />
+      <rect id="menuitem-toggled-right" width="8" height="8" x="24" y="1" class="on-surf" opacity="0.08" />
       <rect id="menuitem-toggled-bottomleft" width="8" height="1" y="9" class="on-surf" opacity="0.08" />
       <rect id="menuitem-toggled-bottom" width="16" height="1" x="8" y="9" class="on-surf" opacity="0.08" />
       <rect id="menuitem-toggled-bottomright" width="8" height="1" x="24" y="9" class="on-surf" opacity="0.08" />
@@ -890,8 +922,8 @@
       <rect id="menuitem-pressed-top" width="16" height="1" x="8" class="on-surf" opacity="0.1" />
       <rect id="menuitem-pressed-topright" width="8" height="1" x="24" class="on-surf" opacity="0.1" />
       <rect id="menuitem-pressed" width="8" height="8" y="1" class="on-surf" opacity="0.1" />
-      <rect id="menuitem-pressed" width="16" height="8" x="8" y="1" class="on-surf" opacity="0.1" />
-      <rect id="menuitem-pressed" width="8" height="8" x="24" y="1" class="on-surf" opacity="0.1" />
+      <rect width="16" height="8" x="8" y="1" class="on-surf" opacity="0.1" />
+      <rect width="8" height="8" x="24" y="1" class="on-surf" opacity="0.1" />
       <rect id="menuitem-pressed-bottomleft" width="8" height="1" y="9" class="on-surf" opacity="0.1" />
       <rect id="menuitem-pressed-bottom" width="16" height="1" x="8" y="9" class="on-surf" opacity="0.1" />
       <rect id="menuitem-pressed-bottomright" width="8" height="1" x="24" y="9" class="on-surf" opacity="0.1" />
@@ -1032,19 +1064,6 @@
   id="grip-pressed"
 
   id="header-separator"
-  
-  id="tooltip-shadow-bottomright"
-  id="tooltip-shadow-bottomleft"
-  id="tooltip-shadow-topleft"
-  id="tooltip-shadow-topright"
-  id="tooltip-shadow-top"
-  id="tooltip-shadow-left"
-  id="tooltip-shadow-right"
-  id="tooltip-shadow-bottom"
-  id="tooltip-shadow-hint-bottom"
-  id="tooltip-shadow-hint-top"
-  id="tooltip-shadow-hint-right"
-  id="tooltip-shadow-hint-left"
 
   id="focus-top"
   id="focus-right"
@@ -1054,14 +1073,74 @@
   id="titlebar-normal"
   id="titlebar-focused"
   -->
-
-  <path id="tooltip-normal-topleft" d="M 0,4 q 0,-4 4,-4 v 4 Z" />
-  <rect id="tooltip-normal-top" width="16" height="4" x="4" />
-  <path id="tooltip-normal-topright" d="M 24,4 q 0,-4 -4,-4 v 4 Z" />
-  <rect id="tooltip-normal-left" width="4" height="4" y="4" />
-  <rect id="tooltip-normal" width="16" height="4" x="4" y="4" />
-  <rect id="tooltip-normal-right" width="4" height="4" x="20" y="4" />
-  <path id="tooltip-normal-bottomleft" d="M 0,8 q 0,4 4,4 v -4 Z" />
-  <rect id="tooltip-normal-bottom" width="16" height="4" x="4" y="8" />
-  <path id="tooltip-normal-bottomright" d="M 24,8 q 0,4 -4,4 v -4 Z" />
+  <path id="tooltip-normal-topleft" d="M 0.5,4.5 q 0,-4 4,-4 v 4 Z" class="inv-surf" />
+  <rect id="tooltip-normal-top" width="16" height="4" x="4.5" y="0.5" class="inv-surf" />
+  <path id="tooltip-normal-topright" d="M 24.5,4.5 q 0,-4 -4,-4 v 4 Z" class="inv-surf" />
+  <rect id="tooltip-normal-left" width="4" height="4" x="0.5" y="4.5" class="inv-surf" />
+  <rect id="tooltip-normal" width="16" height="4" x="4.5" y="4.5" class="inv-surf" />
+  <rect id="tooltip-normal-right" width="4" height="4" x="20.5" y="4.5" class="inv-surf" />
+  <path id="tooltip-normal-bottomleft" d="M 0.5,8.5 q 0,4 4,4 v -4 Z" class="inv-surf" />
+  <rect id="tooltip-normal-bottom" width="16" height="4" x="4.5" y="8.5" class="inv-surf" />
+  <path id="tooltip-normal-bottomright" d="M 24.5,8.5 q 0,4 -4,4 v -4 Z" class="inv-surf" />
+  <g id="tooltip-shadow-group" transform="translate(0,16)">
+    <g id="tooltip-shadow-topleft">
+      <rect width="4.5" height="4.5" opacity="0" />
+      <path d="M 0.893 2.385 C 0.456 2.93 0.18 3.634 0.064 4.5 L 0.5 4.5 C 0.5 3.664 0.631 2.959 0.893 2.385 z"
+        style="fill:url(#tt-agtl)" opacity="0.15" />
+      <use href="#tooltip-normal-topleft" />
+    </g>
+    <g id="tooltip-shadow-top">
+      <rect width="16" height="0.5" x="4.5" opacity="0" />
+      <use href="#tooltip-normal-top" />
+    </g>
+    <g id="tooltip-shadow-topright">
+      <rect width="4.5" height="4.5" x="20.5" opacity="0" />
+      <path d="M 24.107 2.385 C 24.369 2.959 24.5 3.664 24.5 4.5 L 24.936 4.5 C 24.82 3.634 24.544 2.93 24.107 2.385 z"
+        style="fill:url(#tt-agtr)" opacity="0.15" />
+      <use href="#tooltip-normal-topright" />
+    </g>
+    <g id="tooltip-shadow-left">
+      <path d="M 0.064 4.5 C 0.022 4.813 0 5.145 0 5.5 L 0.5 5.5 L 0.5 4.5 L 0.064 4.5 z" style="fill:url(#tt-agtl)"
+        opacity="0.15" />
+      <rect width="0.5" height="3" y="5.5" style="fill:url(#tt-agl)" opacity="0.15" />
+      <use href="#tooltip-normal-left" />
+    </g>
+    <g id="tooltip-shadow-right">
+      <path d="M 24.5 4.5 L 24.5 5.5 L 25 5.5 C 25 5.145 24.978 4.813 24.936 4.5 L 24.5 4.5 z"
+        style="fill:url(#tt-agtr)" opacity="0.15" />
+      <rect width="0.5" height="3" x="24.5" y="5.5" style="fill:url(#tt-agr)" opacity="0.15" />
+      <use href="#tooltip-normal-right" />
+    </g>
+    <g id="tooltip-shadow-bottomleft">
+      <path d="M 0.5 8.5 L 0.5 9.5 L 0.573 9.5 C 0.525 9.19 0.5 8.858 0.5 8.5 z" fill="url(#tt-bgl)" opacity="0.3" />
+      <path d="M 0.5 9.5 C 0.5 12.167 1.833 13.5 4.5 13.5 L 4.5 12.5 C 2.191 12.5 0.882 11.5 0.573 9.5 L 0.5 9.5 z"
+        fill="url(#tt-bgbl)" opacity="0.3" />
+      <path d="M 0 8.5 L 0 9.5 L 0.573 9.5 C 0.525 9.19 0.5 8.858 0.5 8.5 L 0 8.5 z" style="fill:url(#tt-agl)"
+        opacity="0.15" />
+      <path d="M 0 9.5 C 0 12.5 1.5 14 4.5 14 L 4.5 12.5 C 2.191 12.5 0.882 11.5 0.573 9.5 L 0 9.5 z"
+        style="fill:url(#tt-agbl)" opacity="0.15" />
+      <use href="#tooltip-normal-bottomleft" />
+    </g>
+    <g id="tooltip-shadow-bottom">
+      <rect width="16" height="1" x="4.5" y="12.5" fill="url(#tt-bgb)" opacity="0.3" />
+      <rect id="clip-bottom" width="16" height="1.5" x="4.5" y="12.5" style="fill:url(#tt-agb)" opacity="0.15" />
+      <use href="#tooltip-normal-bottom" />
+    </g>
+    <g id="tooltip-shadow-bottomright">
+      <path d="M 24.5 8.5 C 24.5 8.858 24.475 9.19 24.427 9.5 L 24.5 9.5 L 24.5 8.5 z" fill="url(#tt-bgr)"
+        opacity="0.3" />
+      <path
+        d="M 24.427 9.5 C 24.118 11.5 22.809 12.5 20.5 12.5 L 20.5 13.5 C 23.167 13.5 24.5 12.167 24.5 9.5 L 24.427 9.5 z"
+        fill="url(#tt-bgbr)" opacity="0.3" />
+      <path d="M 24.5 8.5 C 24.5 8.858 24.475 9.19 24.427 9.5 L 25 9.5 L 25 8.5 L 24.5 8.5 z" style="fill:url(#tt-agr)"
+        opacity="0.15" />
+      <path d="M 24.427 9.5 C 24.118 11.5 22.809 12.5 20.5 12.5 L 20.5 14 C 23.5 14 25 12.5 25 9.5 L 24.427 9.5 z"
+        style="fill:url(#tt-agbr)" opacity="0.15" />
+      <use href="#tooltip-normal-bottomright" />
+    </g>
+    <rect id="tooltip-shadow-hint-top" width="1" height="0.5" x="12" fill="#ff00ff" />
+    <rect id="tooltip-shadow-hint-left" width="0.5" height="1" y="6" fill="#ff00ff" />
+    <rect id="tooltip-shadow-hint-right" width="0.5" height="1" y="6" x="24.5" fill="#ff00ff" />
+    <rect id="tooltip-shadow-hint-bottom" width="1" height="1.5" x="12" y="12.5" fill="#ff00ff" />
+  </g>
 </svg>

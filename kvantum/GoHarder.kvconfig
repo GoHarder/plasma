@@ -180,6 +180,7 @@ text.toggle.color=#e2e2e5
 inherits=PanelButtonTool
 frame=true
 interior.element=menuitem
+frame.element=menuitem
 indicator.element=menuitem
 min_height=22
 frame.top=1
