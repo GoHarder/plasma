@@ -814,6 +814,11 @@
   </g>
   <g id="toolbar-group" transform="translate(128,32)">
     <use id="toolbar-normal" x="-8" y="-8" href="#sq-8-c" class="surf-cont-high" />
+    <rect id="toolbar-separator" width="8" height="10" opacity="0" />
+    <g id="toolbar-handle">
+      <rect width="8" height="10" opacity="0" />
+      <rect width="2" height="8" x="3" y="1" class="disabled-text" />
+    </g>
   </g>
   <g id="sizegrip-group" transform="translate(128,48)">
     <use id="sizegrip-normal" href="#sizegrip" class="on-surf-var" opacity="0.38" />
@@ -930,9 +935,6 @@
     </g>
   </g>
   <!-- 
-  id="toolbar-handle"
-  id="toolbar-separator"
-
   id="progress-pattern-normal"
   id="progress-pattern-disabled"
   id="progress-pattern-focused"
