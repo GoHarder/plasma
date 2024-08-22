@@ -1,0 +1,12 @@
+<svg viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .folder {
+        fill: #b2a080;
+      }
+    </style>
+  </defs>
+  <path
+    d="M 1.833,18.333 V 3.667 H 9.167 L 11,5.5 h 9.167 V 18.333 Z M 3.667,16.5 H 18.333 V 7.333 H 10.244 L 8.41,5.5 H 3.667 Z m 0,0 v -11 z"
+    class="folder" />
+</svg>
