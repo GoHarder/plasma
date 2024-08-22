@@ -144,7 +144,7 @@
       gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#tt-ag" id="tt-agbr" cx="20.5" cy="9.5" r="4.5" gradientUnits="userSpaceOnUse" />
   </defs>
-  <!-- <g id="button-group">
+  <g id="button-group">
     <g id="button-normal-group">
       <use id="button-normal-topleft" href="#r-8-tl" class="surf-cont-highest" />
       <use id="button-normal-top" href="#sq-8-t" class="surf-cont-highest" />
@@ -260,7 +260,7 @@
       </g>
     </g>
     <rect id="button-default-indicator" width="5" height="5" opacity="0" />
-  </g> -->
+  </g>
   <g id="tool-button-group" transform="translate(0,32)">
     <g id="tool-button-normal-group">
       <use id="tool-button-normal-topleft" href="#r-8-tl" class="surf-cont-highest" />
