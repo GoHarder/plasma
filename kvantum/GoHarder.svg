@@ -1,4 +1,4 @@
-<svg width="208" height="208" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+<svg width="208" height="208" viewBox="0 0 208 208" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- MARK: Style -->
     <style>
@@ -1146,5 +1146,8 @@
     <rect id="tooltip-shadow-hint-bottom" width="1" height="1.5" x="12" y="12.5" fill="#ff00ff" />
   </g>
 
-  <rect id="menuitem-separator" width="10" height="10" fill="#ff00ff" />
+  <g id="menuitem-separator">
+    <rect width="16" height="8" opacity="0" />
+    <rect width="16" height="1" y="3.5" class="surf-var" />
+  </g>
 </svg>
