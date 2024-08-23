@@ -1,0 +1,30 @@
+<!-- <svg viewBox="0 0 8 8" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs />
+    <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" />
+    <style type="text/css" id="current-color-scheme">
+        .ColorScheme-Accent {
+            color: #3daee9;
+        }
+    </style>
+    <rect style="fill:currentColor;fill-opacity:1;stroke:none" class="ColorScheme-Accent" height="8" rx="1" width="8" />
+    <path d="M3 1v2H1v2h2v2h2V5h2V3H5V1z" fill="#fff" />
+    <path d="M 3.571,4.429 H 1 V 3.571 H 3.571 V 1 H 4.429 V 3.571 H 7 V 4.429 H 4.429 V 7 H 3.571 Z"
+        style="stroke-width:0.025" />
+</svg> -->
+
+<svg height="8" width="8" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Accent {
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #1e2022;
+      }
+    </style>
+    <path id="icon" d="M 3.571,4.429 H 1 V 3.571 H 3.571 V 1 H 4.429 V 3.571 H 7 V 4.429 H 4.429 V 7 H 3.571 Z" />
+  </defs>
+  <use href="#icon" class="ColorScheme-Accent" stroke="currentColor" stroke-width="2" />
+  <use href="#icon" class="ColorScheme-Background" fill="currentColor" />
+</svg>
