@@ -898,8 +898,8 @@
   </g>
   <g id="itemview-group" transform="translate(128,60)">
     <use id="itemview-focused" x="-8" y="-8" href="#sq-8-c" class="on-surf" opacity="0.08" />
-    <use id="itemview-pressed" x="8" y="-8" href="#sq-8-c" class="sec" />
-    <use id="itemview-toggled" x="-8" y="8" href="#sq-8-c" class="on-surf" opacity="0.1" />
+    <use id="itemview-pressed" x="8" y="-8" href="#sq-8-c" class="sec-cont" />
+    <use id="itemview-toggled" x="-8" y="8" href="#sq-8-c" class="disabled-back" />
   </g>
   <g id="menu-group" transform="translate(72,144)">
     <path id="menu-normal-topleft" d="M 0,4 q 0,-4 4,-4 h 4 v 4 Z" class="surf-cont" />

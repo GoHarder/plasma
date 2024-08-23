@@ -169,7 +169,7 @@ frame=false
 interior.element=itemview
 text.normal.color=#c2c7cf
 text.focus.color=#e2e2e5
-text.press.color=#233240
+text.press.color=#e2e2e5
 text.toggle.color=#e2e2e5
 
 # Splitter
