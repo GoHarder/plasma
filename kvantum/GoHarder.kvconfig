@@ -17,7 +17,7 @@ spread_menuitems=true
 menu_separator_height=8
 
 ; slider
-; slider_width=4
+slider_width=4
 ; slider_handle_width=17
 ; slider_handle_length=17
 ; checkbox
@@ -158,6 +158,14 @@ frame=false
 interior.element=toolbar
 
 # Slider
+inherits=PanelButtonTool
+frame.element=slider
+interior=false
+frame.top=2
+frame.bottom=2
+frame.left=2
+frame.right=2
+
 # SliderCursor
 # Progressbar
 # ProgressbarContents
