@@ -15,6 +15,6 @@
   <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
   <path d="M 8,80 V 28 h 34.1 l 6,-6 H 88 v 58 z" class="ColorScheme-Accent" fill="currentColor" />
   <path
-    d="M 37.111,68 V 44.667 h -1.556 v -3.111 h 7.778 V 40 h 9.333 v 1.556 h 7.778 v 3.111 H 58.889 V 68 Z m 3.111,-3.111 H 55.778 V 44.667 H 40.222 Z m 3.111,-3.111 h 3.111 v -14 h -3.111 z m 6.222,0 h 3.111 v -14 H 49.556 Z M 40.222,44.667 V 64.889 Z"
+    d="M 37.5,67.5 V 45 H 36 v -3 h 7.5 v -1.5 h 9 V 42 H 60 v 3 h -1.5 v 22.5 z m 3,-3 h 15 V 45 h -15 z m 3,-3 h 3 V 48 h -3 z m 6,0 h 3 V 48 h -3 z M 40.5,45 v 19.5 z"
     class="ColorScheme-Background" fill="currentColor" />
 </svg>
