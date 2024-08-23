@@ -1,15 +1,18 @@
-<svg height="22" width="22" xmlns="http://www.w3.org/2000/svg">
-  <style type="text/css" id="current-color-scheme">
-    .ColorScheme-NeutralText {
-      color: #f9bd00;
-    }
+<svg height="22" width="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-NeutralText {
+        color: #f9bd00;
+      }
 
-    .ColorScheme-Background {
-      color: #1e2022;
-    }
-  </style>
-  <rect width="22" height="22" rx="2" class="ColorScheme-Background" fill="currentColor" />
-  <path
-    d="M 3.667,20.167 V 7.333 h 2.75 V 5.5 q 0,-1.902 1.341,-3.243 Q 9.098,0.917 11,0.917 q 1.902,0 3.243,1.341 Q 15.583,3.598 15.583,5.5 v 1.833 h 2.75 V 20.167 Z M 5.5,18.333 h 11 V 9.167 h -11 z m 5.5,-2.75 q 0.756,0 1.295,-0.539 0.539,-0.539 0.539,-1.295 0,-0.756 -0.539,-1.295 Q 11.756,11.917 11,11.917 q -0.756,0 -1.295,0.539 Q 9.167,12.994 9.167,13.75 q 0,0.756 0.539,1.295 Q 10.244,15.583 11,15.583 Z M 8.25,7.333 h 5.5 V 5.5 Q 13.75,4.354 12.948,3.552 12.146,2.75 11,2.75 9.854,2.75 9.052,3.552 8.25,4.354 8.25,5.5 Z M 5.5,18.333 V 9.167 Z"
-    class="ColorScheme-NeutralText" fill="currentColor" />
+      .ColorScheme-Background {
+        color: #1e2022;
+      }
+    </style>
+    <path id="icon"
+      d="M 3.667,20.167 V 7.333 h 2.75 V 5.5 q 0,-1.902 1.341,-3.243 Q 9.098,0.917 11,0.917 q 1.902,0 3.243,1.341 Q 15.583,3.598 15.583,5.5 v 1.833 h 2.75 V 20.167 Z M 5.5,18.333 h 11 V 9.167 h -11 z m 5.5,-2.75 q 0.756,0 1.295,-0.539 0.539,-0.539 0.539,-1.295 0,-0.756 -0.539,-1.295 Q 11.756,11.917 11,11.917 q -0.756,0 -1.295,0.539 Q 9.167,12.994 9.167,13.75 q 0,0.756 0.539,1.295 Q 10.244,15.583 11,15.583 Z M 8.25,7.333 h 5.5 V 5.5 Q 13.75,4.354 12.948,3.552 12.146,2.75 11,2.75 9.854,2.75 9.052,3.552 8.25,4.354 8.25,5.5 Z M 5.5,18.333 V 9.167 Z" />
+  </defs>
+  <rect width="22" height="22" opacity="0" />
+  <use href="#icon" class="ColorScheme-Background" stroke="currentColor" stroke-width="2" />
+  <use href="#icon" class="ColorScheme-NeutralText" fill="currentColor" />
 </svg>

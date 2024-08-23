@@ -1,15 +1,18 @@
-<svg height="22" width="22" xmlns="http://www.w3.org/2000/svg">
-  <style type="text/css" id="current-color-scheme">
-    .ColorScheme-PositiveText {
-      color: #50c24b;
-    }
+<svg height="22" width="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-PositiveText {
+        color: #50c24b;
+      }
 
-    .ColorScheme-Background {
-      color: #1e2022;
-    }
-  </style>
-  <rect width="22" height="22" rx="2" class="ColorScheme-Background" fill="currentColor" />
-  <path
-    d="m 9.625,13.75 h 2.75 l -0.527,-2.956 q 0.458,-0.229 0.722,-0.665 0.264,-0.435 0.264,-0.963 0,-0.756 -0.539,-1.295 Q 11.756,7.333 11,7.333 q -0.756,0 -1.295,0.539 -0.539,0.539 -0.539,1.295 0,0.527 0.264,0.963 0.264,0.435 0.722,0.665 z M 11,20.167 Q 7.815,19.365 5.741,16.511 3.667,13.658 3.667,10.175 V 4.583 L 11,1.833 l 7.333,2.75 V 10.175 q 0,3.483 -2.074,6.336 Q 14.185,19.365 11,20.167 Z m 0,-1.925 q 2.383,-0.756 3.942,-3.025 Q 16.5,12.948 16.5,10.175 V 5.844 L 11,3.781 5.5,5.844 V 10.175 q 0,2.773 1.558,5.042 1.558,2.269 3.942,3.025 z M 11,11 Z"
-    class="ColorScheme-PositiveText" fill="currentColor" />
+      .ColorScheme-Background {
+        color: #1e2022;
+      }
+    </style>
+    <path id="icon"
+      d="m 9.625,13.75 h 2.75 l -0.527,-2.956 q 0.458,-0.229 0.722,-0.665 0.264,-0.435 0.264,-0.963 0,-0.756 -0.539,-1.295 Q 11.756,7.333 11,7.333 q -0.756,0 -1.295,0.539 -0.539,0.539 -0.539,1.295 0,0.527 0.264,0.963 0.264,0.435 0.722,0.665 z M 11,20.167 Q 7.815,19.365 5.741,16.511 3.667,13.658 3.667,10.175 V 4.583 L 11,1.833 l 7.333,2.75 V 10.175 q 0,3.483 -2.074,6.336 Q 14.185,19.365 11,20.167 Z m 0,-1.925 q 2.383,-0.756 3.942,-3.025 Q 16.5,12.948 16.5,10.175 V 5.844 L 11,3.781 5.5,5.844 V 10.175 q 0,2.773 1.558,5.042 1.558,2.269 3.942,3.025 z M 11,11 Z" />
+  </defs>
+  <rect width="22" height="22" opacity="0" />
+  <use href="#icon" class="ColorScheme-Background" stroke="currentColor" stroke-width="2" />
+  <use href="#icon" class="ColorScheme-PositiveText" fill="currentColor" />
 </svg>

@@ -1,15 +1,18 @@
-<svg height="22" width="22" xmlns="http://www.w3.org/2000/svg">
-  <style type="text/css" id="current-color-scheme">
-    .ColorScheme-NeutralText {
-      color: #f9bd00;
-    }
+<svg height="22" width="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-NeutralText {
+        color: #f9bd00;
+      }
 
-    .ColorScheme-Background {
-      color: #1e2022;
-    }
-  </style>
-  <path d="M 0.917,19.25 11,1.833 21.083,19.25 Z" class="ColorScheme-Background" fill="currentColor" />
-  <path
-    d="M 0.917,19.25 11,1.833 21.083,19.25 Z M 4.079,17.417 H 17.921 L 11,5.5 Z M 11,16.5 q 0.39,0 0.653,-0.264 0.264,-0.264 0.264,-0.653 0,-0.39 -0.264,-0.653 Q 11.39,14.667 11,14.667 q -0.39,0 -0.653,0.264 -0.264,0.264 -0.264,0.653 0,0.39 0.264,0.653 Q 10.61,16.5 11,16.5 Z m -0.917,-2.75 h 1.833 V 9.167 H 10.083 Z M 11,11.458 Z"
-    class="ColorScheme-NeutralText" fill="currentColor" />
+      .ColorScheme-Background {
+        color: #1e2022;
+      }
+    </style>
+    <path id="icon"
+      d="M 0.917,19.25 11,1.833 21.083,19.25 Z M 4.079,17.417 H 17.921 L 11,5.5 Z M 11,16.5 q 0.39,0 0.653,-0.264 0.264,-0.264 0.264,-0.653 0,-0.39 -0.264,-0.653 Q 11.39,14.667 11,14.667 q -0.39,0 -0.653,0.264 -0.264,0.264 -0.264,0.653 0,0.39 0.264,0.653 Q 10.61,16.5 11,16.5 Z m -0.917,-2.75 h 1.833 V 9.167 H 10.083 Z M 11,11.458 Z" />
+  </defs>
+  <rect width="22" height="22" opacity="0" />
+  <use href="#icon" class="ColorScheme-Background" stroke="currentColor" stroke-width="2" />
+  <use href="#icon" class="ColorScheme-NeutralText" fill="currentColor" />
 </svg>

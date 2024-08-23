@@ -1,15 +1,18 @@
-<svg height="22" width="22" xmlns="http://www.w3.org/2000/svg">
-  <style type="text/css" id="current-color-scheme">
-    .ColorScheme-PositiveText {
-      color: #50c24b;
-    }
+<svg height="22" width="22" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-PositiveText {
+        color: #50c24b;
+      }
 
-    .ColorScheme-Background {
-      color: #1e2022;
-    }
-  </style>
-  <rect width="22" height="22" rx="2" class="ColorScheme-Background" fill="currentColor" />
-  <path
-    d="m 10.542,17.417 h 0.917 V 15.721 L 14.667,12.513 V 8.25 H 7.333 v 4.263 l 3.208,3.208 z M 8.708,19.25 V 16.5 L 5.5,13.292 V 6.417 H 7.333 V 2.75 H 9.167 V 6.417 H 12.833 V 2.75 h 1.833 V 6.417 H 16.5 V 13.292 L 13.292,16.5 v 2.75 z M 11,12.833 Z"
-    class="ColorScheme-PositiveText" fill="currentColor" />
+      .ColorScheme-Background {
+        color: #1e2022;
+      }
+    </style>
+    <path id="icon"
+      d="m 10.542,17.417 h 0.917 V 15.721 L 14.667,12.513 V 8.25 H 7.333 v 4.263 l 3.208,3.208 z M 8.708,19.25 V 16.5 L 5.5,13.292 V 6.417 H 7.333 V 2.75 H 9.167 V 6.417 H 12.833 V 2.75 h 1.833 V 6.417 H 16.5 V 13.292 L 13.292,16.5 v 2.75 z M 11,12.833 Z" />
+  </defs>
+  <rect width="22" height="22" opacity="0" />
+  <use href="#icon" class="ColorScheme-Background" stroke="currentColor" stroke-width="2" />
+  <use href="#icon" class="ColorScheme-PositiveText" fill="currentColor" />
 </svg>
