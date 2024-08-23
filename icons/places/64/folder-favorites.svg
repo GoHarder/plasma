@@ -1,0 +1,20 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Accent {
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #1e2022;
+      }
+    </style>
+    <path id="folder-back" d="M 5.333,53.333 V 10.667 H 28.067 l 4,4 h 26.6 v 38.667 z" />
+  </defs>
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path d="M 5.333,53.333 V 18.667 H 28.067 l 4,-4 h 26.6 v 38.667 z" class="ColorScheme-Accent" fill="currentColor" />
+  <path
+    d="M 28.522,41.328 32,39.23 l 3.478,2.126 -0.911,-3.975 3.064,-2.65 L 33.601,34.372 32,30.618 l -1.601,3.727 -4.03,0.359 3.064,2.678 z M 25.182,45.938 26.976,38.181 20.958,32.964 28.908,32.274 32,24.959 l 3.092,7.315 7.95,0.69 -6.018,5.217 L 38.818,45.938 32,41.825 Z M 32,36.277 Z"
+    class="ColorScheme-Background" fill="currentColor" />
+</svg>
