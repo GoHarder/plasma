@@ -1,0 +1,21 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-NegativeText {
+        color: #ff5540;
+      }
+
+      .ColorScheme-Background {
+        color: #1e2022;
+      }
+    </style>
+    <path id="folder-back" d="M 2.667,26.667 V 5.333 H 14.033 l 2,2 h 13.3 V 26.667 Z" />
+  </defs>
+  <use href="#folder-back" class="ColorScheme-NegativeText" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path d="M 2.667,26.667 V 9.333 H 14.033 l 2,-2 h 13.3 V 26.667 Z" class="ColorScheme-NegativeText"
+    fill="currentColor" />
+  <path
+    d="m 16,23.438 q -0.498,0 -0.853,-0.355 -0.355,-0.355 -0.355,-0.853 0,-0.498 0.355,-0.853 Q 15.502,21.021 16,21.021 q 0.498,0 0.853,0.355 0.355,0.355 0.355,0.853 0,0.498 -0.355,0.853 Q 16.498,23.438 16,23.438 Z m -1.208,-3.625 v -7.25 h 2.417 v 7.25 z"
+    class="ColorScheme-Background" fill="currentColor" />
+</svg>

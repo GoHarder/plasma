@@ -15,6 +15,6 @@
   <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
   <path d="M 8,80 V 28 h 34.1 l 6,-6 H 88 v 58 z" class="ColorScheme-NegativeText" fill="currentColor" />
   <path
-    d="m 48,68 q -1.283,0 -2.197,-0.914 -0.914,-0.914 -0.914,-2.197 0,-1.283 0.914,-2.197 Q 46.717,61.778 48,61.778 q 1.283,0 2.197,0.914 0.914,0.914 0.914,2.197 0,1.283 -0.914,2.197 Q 49.283,68 48,68 Z M 44.889,58.667 V 40 h 6.222 v 18.667 z"
+    d="m 48,67.5 q -1.238,0 -2.119,-0.881 Q 45,65.738 45,64.5 45,63.263 45.881,62.381 46.763,61.5 48,61.5 q 1.238,0 2.119,0.881 Q 51,63.263 51,64.5 51,65.738 50.119,66.619 49.238,67.5 48,67.5 Z m -3,-9 v -18 h 6 v 18 z"
     class="ColorScheme-Background" fill="currentColor" />
 </svg>
