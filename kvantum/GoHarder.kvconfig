@@ -166,7 +166,11 @@ frame.bottom=2
 frame.left=2
 frame.right=2
 
-# SliderCursor
+[SliderCursor]
+inherits=PanelButtonTool
+frame=false
+interior.element=slidercursor
+
 # Progressbar
 # ProgressbarContents
 
