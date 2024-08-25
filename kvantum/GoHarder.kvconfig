@@ -45,7 +45,7 @@ window.text.color=#e2e2e5
 button.text.color=#95ccff
 disabled.text.color=#e2e2e561
 tooltip.text.color=#c2c7cf
-highlight.text.color=#003353
+highlight.text.color=#e2e2e5
 link.color=#a7edff
 link.visited.color=#7eb0bd
 
