@@ -18,8 +18,8 @@ menu_separator_height=8
 
 ; slider
 slider_width=4
-; slider_handle_width=17
-; slider_handle_length=17
+slider_handle_width=19
+slider_handle_length=5
 ; checkbox
 check_size=20
 ; rendering

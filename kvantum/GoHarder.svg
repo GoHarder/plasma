@@ -1045,20 +1045,32 @@
     <rect id="slider-topglow-normal" width="4" height="16" opacity="0" />
     <rect id="slider-bottomglow-normal" width="4" height="16" opacity="0" />
   </g>
-  <g id="g294">
-    <rect width="5" height="19" fill="#ffffff" />
+  <g id="slidercursor-normal">
+    <rect width="5" height="19" opacity="0" />
     <rect width="2" height="12" x="0.5" y="4.5" fill="url(#sg-bgl)" opacity="0.3" />
     <rect width="2" height="12" x="2.5" y="4.5" fill="url(#sg-bgr)" opacity="0.3" />
     <path d="M 0.5,16.5 q 0,2 2,2 v -2 Z" fill="url(#sg-bgbl)" opacity="0.3" />
     <path d="M 4.5,16.5 q 0,2 -2,2 v -2 Z" fill="url(#sg-bgbr)" opacity="0.3" />
+    <path d="M 0,4.5 q 0,-2.5 2.5,-2.5 v 2.5 Z" fill="url(#sg-agtl)" opacity="0.15" />
+    <path d="M 5,4.5 q 0,-2.5 -2.5,-2.5 v 2.5 Z" fill="url(#sg-agtr)" opacity="0.15" />
+    <rect width="2.5" height="12" y="4.5" fill="url(#sg-agl)" opacity="0.15" />
+    <rect width="2.5" height="12" x="2.5" y="4.5" fill="url(#sg-agr)" opacity="0.15" />
+    <path d="M 0,16.5 q 0,2.5 2.5,2.5 v -2.5 Z" fill="url(#sg-agbl)" opacity="0.15" />
+    <path d="M 5,16.5 q 0,2.5 -2.5,2.5 v -2.5 Z" fill="url(#sg-agbr)" opacity="0.15" />
+    <rect width="4" height="16" rx="2" x="0.5" y="1.5" class="pri" />
   </g>
-  <path d="M 0,4.5 q 0,-2.5 2.5,-2.5 v 2.5 Z" fill="url(#sg-agtl)" opacity="0.15" />
-  <path d="M 5,4.5 q 0,-2.5 -2.5,-2.5 v 2.5 Z" fill="url(#sg-agtr)" opacity="0.15" />
-  <rect width="2.5" height="12" y="4.5" fill="url(#sg-agl)" opacity="0.15" />
-  <rect width="2.5" height="12" x="2.5" y="4.5" fill="url(#sg-agr)" opacity="0.15" />
-  <path d="M 0,16.5 q 0,2.5 2.5,2.5 v -2.5 Z" fill="url(#sg-agbl)" opacity="0.15" />
-  <path d="M 5,16.5 q 0,2.5 -2.5,2.5 v -2.5 Z" fill="url(#sg-agbr)" opacity="0.15" />
-  <rect width="4" height="16" rx="2" x="0.5" y="1.5" class="pri" />
+  <g id="slidercursor-focused" transform="translate(5)">
+    <rect width="5" height="19" opacity="0" />
+    <rect width="4" height="16" rx="2" x="0.5" y="1.5" class="pri" />
+  </g>
+  <g id="slidercursor-pressed" transform="translate(10)">
+    <rect width="5" height="19" opacity="0" />
+    <rect width="2" height="16" rx="1" x="1.5" y="1.5" class="pri" />
+  </g>
+  <g id="slidercursor-disabled" transform="translate(15)">
+    <rect width="5" height="19" opacity="0" />
+    <rect width="4" height="16" rx="2" x="0.5" y="1.5" class="disabled-text" />
+  </g>
   <!-- 
   id="progress-pattern-normal"
   id="progress-pattern-disabled"
@@ -1103,11 +1115,6 @@
   id="scrollbarslider-focused-bottomright"
   id="scrollbarslider-focused"
   id="scrollbarslider-focused-left"
-  
-  id="slidercursor-normal"
-  id="slidercursor-focused"
-  id="slidercursor-pressed"
-  id="slidercursor-disabled"
 
   id="menuitem-tearoff-normal"
   id="menuitem-tearoff-focused"
