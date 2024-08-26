@@ -92,8 +92,8 @@ interior.element=toolbar-button
 frame.top=12
 frame.bottom=12
 
-# Dock
-# DockTitle
+# [Dock]
+# [DockTitle]
 
 [RadioButton]
 inherits=PanelButtonTool
@@ -103,7 +103,7 @@ interior.element=radio
 inherits=PanelButtonTool
 interior.element=checkbox
 
-# Focus
+# [Focus]
 
 [GenericFrame]
 inherits=PanelButtonTool
@@ -121,9 +121,9 @@ text.focus.color=#e2e2e5
 text.press.color=#e2e2e5
 text.toggle.color=#e2e2e5
 
-# DropDownButton
-# IndicatorArrow
-# ToolboxTab
+# [DropDownButton]
+# [IndicatorArrow]
+# [ToolboxTab]
 
 [Tab]
 inherits=PanelButtonTool
@@ -144,8 +144,8 @@ frame.bottom=1
 frame.left=1
 frame.right=1
 
-# TreeExpander
-# HeaderSection
+# [TreeExpander]
+# [HeaderSection]
 
 [SizeGrip]
 indicator.element=sizegrip
@@ -157,7 +157,7 @@ indicator.size=5
 frame=false
 interior.element=toolbar
 
-# Slider
+[Slider]
 inherits=PanelButtonTool
 frame.element=slider
 interior=false
@@ -166,13 +166,13 @@ frame.bottom=2
 frame.left=2
 frame.right=2
 
-[SliderCursor]
-inherits=PanelButtonTool
-frame=false
-interior.element=slidercursor
+; [SliderCursor]
+; inherits=PanelButtonTool
+; frame=false
+; interior.element=slidercursor
 
-# Progressbar
-# ProgressbarContents
+# [Progressbar]
+# [ProgressbarContents]
 
 [ItemView]
 inherits=PanelButtonTool
@@ -184,10 +184,10 @@ text.focus.color=#e2e2e5
 text.press.color=#e2e2e5
 text.toggle.color=#e2e2e5
 
-# Splitter
-# Scrollbar
-# ScrollbarSlider
-# ScrollbarGroove
+# [Splitter]
+# [Scrollbar]
+# [ScrollbarSlider]
+# [ScrollbarGroove]
 
 [MenuItem]
 inherits=PanelButtonTool
@@ -201,8 +201,8 @@ frame.bottom=1
 frame.left=8
 frame.right=8
 
-# MenuBar
-# TitleBar
+# [MenuBar]
+# [TitleBar]
 
 [ComboBox]
 inherits=LineEdit
@@ -216,8 +216,20 @@ frame.bottom=4
 frame.left=8
 frame.right=8
 
-# GroupBox
-# TabBarFrame
+[GroupBox]
+inherits=GenericFrame
+frame=true
+frame.element=group
+interior=true
+interior.element=group
+text.shadow=false
+text.margin=0
+frame.top=11
+frame.bottom=11
+frame.left=11
+frame.right=11
+
+# [TabBarFrame]
 
 [ToolTip]
 inherits=GenericFrame
@@ -230,4 +242,4 @@ text.margin=0
 interior.element=tooltip
 frame.element=tooltip
 
-# Window
+# [Window]

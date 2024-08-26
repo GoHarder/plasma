@@ -1028,7 +1028,7 @@
       <rect id="tooltip-shadow-hint-bottom" width="1" height="1.5" x="12" y="12.5" fill="#ff00ff" />
     </g>
   </g>
-  <g id="slider-group" transform="translate(20,0)">
+  <g id="slider-group" transform="translate(130,144)">
     <path id="slider-normal-topleft" d="M 0,2 q 0,-2 2,-2 v 2 Z" class="sec-cont" />
     <path id="slider-normal-topright" d="M 4,2 q 0,-2 -2,-2 v 2 Z" class="sec-cont" />
     <rect id="slider-normal-left" width="2" height="16" y="2" class="sec-cont" />
@@ -1045,7 +1045,45 @@
     <rect id="slider-topglow-normal" width="4" height="16" opacity="0" />
     <rect id="slider-bottomglow-normal" width="4" height="16" opacity="0" />
   </g>
-  <g id="slidercursor-normal">
+
+  <g id="g-group">
+    <g id="group-normal-topleft">
+      <rect width="11" height="11" x="0" y="0" opacity="0" />
+      <path d="M 5,11 q 0,-6 6,-6 v 1 q -5,0 -5,5 z" class="outline" />
+    </g>
+    <g id="group-normal-top">
+      <rect width="11" height="11" x="11" y="0" opacity="0" />
+      <rect width="11" height="1" x="11" y="5" class="outline" />
+    </g>
+    <g id="group-normal-topright">
+      <rect width="11" height="11" x="22" y="0" opacity="0" />
+      <path d="M 28,11 q 0,-6 -6,-6 v 1 q 5,0 5,5 z" class="outline" />
+    </g>
+    <g id="group-normal-left">
+      <rect width="11" height="11" x="0" y="11" opacity="0" />
+      <rect width="1" height="11" x="5" y="11" class="outline" />
+    </g>
+    <rect id="group-normal" width="11" height="11" x="11" y="11" opacity="0" />
+    <g id="group-normal-right">
+      <rect width="11" height="11" x="22" y="11" opacity="0" />
+      <rect width="1" height="11" x="27" y="11" class="outline" />
+    </g>
+    <g id="group-normal-bottomleft">
+      <rect width="11" height="11" x="0" y="22" opacity="0" />
+      <path d="M 5,22 q 0,6 6,6 v -1 q -5,0 -5,-5 z" class="outline" />
+    </g>
+    <g id="group-normal-bottom">
+      <rect width="11" height="11" x="11" y="22" opacity="0" />
+      <rect width="11" height="1" x="11" y="27" class="outline" />
+    </g>
+    <g id="group-normal-bottomright">
+      <rect width="11" height="11" x="22" y="22" opacity="0" />
+      <path d="M 28,22 q 0,6 -6,6 v -1 q 5,0 5,-5 z" class="outline" />
+    </g>
+  </g>
+
+
+  <!-- <g id="slidercursor-normal">
     <rect width="5" height="19" opacity="0" />
     <rect width="2" height="12" x="0.5" y="4.5" fill="url(#sg-bgl)" opacity="0.3" />
     <rect width="2" height="12" x="2.5" y="4.5" fill="url(#sg-bgr)" opacity="0.3" />
@@ -1059,7 +1097,7 @@
     <path d="M 5,16.5 q 0,2.5 -2.5,2.5 v -2.5 Z" fill="url(#sg-agbr)" opacity="0.15" />
     <rect width="4" height="16" rx="2" x="0.5" y="1.5" class="pri" />
   </g>
-  <g id="slidercursor-focused" transform="translate(5)">
+   <g id="slidercursor-focused" transform="translate(5)">
     <rect width="5" height="19" opacity="0" />
     <rect width="4" height="16" rx="2" x="0.5" y="1.5" class="pri" />
   </g>
@@ -1070,7 +1108,7 @@
   <g id="slidercursor-disabled" transform="translate(15)">
     <rect width="5" height="19" opacity="0" />
     <rect width="4" height="16" rx="2" x="0.5" y="1.5" class="disabled-text" />
-  </g>
+  </g> -->
   <!-- 
   id="progress-pattern-normal"
   id="progress-pattern-disabled"
