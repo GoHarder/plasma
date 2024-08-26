@@ -160,6 +160,34 @@
       gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#sg-ag" id="sg-agbl" cx="2.5" cy="16.5" r="2.5" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#sg-ag" id="sg-agbr" cx="2.5" cy="16.5" r="2.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient id="menu-bg">
+      <stop style="stop-color:#ff8000;" stop-opacity="1" offset="0.5" />
+      <stop style="stop-color:#ff8000;" stop-opacity="0" offset="1" />
+    </linearGradient>
+    <radialGradient xlink:href="#menu-bg" id="menu-bgtl" cx="5" cy="6" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-bg" id="menu-bgt" x1="17" y1="6" x2="17" y2="2" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-bg" id="menu-bgtr" cx="29" cy="6" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-bg" id="menu-bgl" x1="5" y1="14" x2="1" y2="14" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-bg" id="menu-bgr" x1="29" y1="14" x2="33" y2="14"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-bg" id="menu-bgbl" cx="5" cy="22" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-bg" id="menu-bgb" x1="17" y1="22" x2="17" y2="26"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-bg" id="menu-bgbr" cx="29" cy="22" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient id="menu-ag">
+      <stop style="stop-color:#80ff00;" stop-opacity="0.833" offset="0" />
+      <stop style="stop-color:#80ff00;" stop-opacity="0" offset="1" />
+    </linearGradient>
+    <radialGradient xlink:href="#menu-ag" id="menu-agtl" cx="5" cy="7" r="5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-ag" id="menu-agt" x1="17" y1="7" x2="17" y2="2" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-ag" id="menu-agtr" cx="29" cy="7" r="5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-ag" id="menu-agl" x1="5" y1="15" x2="0" y2="15" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-ag" id="menu-agr" x1="29" y1="15" x2="34" y2="15"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-ag" id="menu-agbl" cx="5" cy="23" r="5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-ag" id="menu-agb" x1="17" y1="23" x2="17" y2="28"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-ag" id="menu-agbr" cx="29" cy="23" r="5" gradientUnits="userSpaceOnUse" />
   </defs>
   <g id="button-group">
     <g id="button-normal-group">
@@ -783,7 +811,7 @@
       <circle cx="36" cy="12" r="12" opacity="0" />
       <use href="#radio-chk" x="24" y="0" class="pri" />
     </g>
-    <g id="g100">
+    <g id="radio-checked-focused">
       <circle cx="36" cy="36" r="12" class="pri" opacity="0.1" />
       <use href="#radio-chk" x="24" y="24" class="pri" />
     </g>
@@ -919,15 +947,76 @@
     <use id="itemview-toggled" x="-8" y="8" href="#sq-8-c" class="disabled-back" />
   </g>
   <g id="menu-group" transform="translate(72,144)">
-    <path id="menu-normal-topleft" d="M 0,4 q 0,-4 4,-4 h 4 v 4 Z" class="surf-cont" />
-    <rect id="menu-normal-top" width="16" height="4" x="8" class="surf-cont" />
-    <path id="menu-normal-topright" d="M 32,4 q 0,-4 -4,-4 h -4 v 4 Z" class="surf-cont" />
-    <rect id="menu-normal-left" width="8" height="16" y="4" class="surf-cont" />
-    <rect id="menu-normal" width="16" height="16" x="8" y="4" class="surf-cont" />
-    <rect id="menu-normal-right" width="8" height="16" x="24" y="4" class="surf-cont" />
-    <path id="menu-normal-bottomleft" d="M 0,20 q 0,4 4,4 h 4 v -4 Z" class="surf-cont" />
-    <rect id="menu-normal-bottom" width="16" height="4" x="8" y="20" class="surf-cont" />
-    <path id="menu-normal-bottomright" d="M 32,20 q 0,4 -4,4 h -4 v -4 Z" class="surf-cont" />
+    <path id="menu-normal-topleft" d="M 1,5 q 0,-4 4,-4 h 4 v 4 Z" class="surf-cont" />
+    <rect id="menu-normal-top" width="16" height="4" x="9" y="1" class="surf-cont" />
+    <path id="menu-normal-topright" d="M 33,5 q 0,-4 -4,-4 h -4 v 4 Z" class="surf-cont" />
+    <rect id="menu-normal-left" width="8" height="16" x="1" y="5" class="surf-cont" />
+    <rect id="menu-normal" width="16" height="16" x="9" y="5" class="surf-cont" />
+    <rect id="menu-normal-right" width="8" height="16" x="25" y="5" class="surf-cont" />
+    <path id="menu-normal-bottomleft" d="M 1,21 q 0,4 4,4 h 4 v -4 Z" class="surf-cont" />
+    <rect id="menu-normal-bottom" width="16" height="4" x="9" y="21" class="surf-cont" />
+    <path id="menu-normal-bottomright" d="M 33,21 q 0,4 -4,4 h -4 v -4 Z" class="surf-cont" />
+    <g id="menu-shadow-group" transform="translate(0,30)">
+      <g id="menu-shadow-topleft">
+        <rect width="9" height="5" opacity="0" />
+        <path d="M 1.25 3.25 C 0.793 3.707 0.461 4.292 0.255 5 L 1 5 C 1 4.333 1.084 3.75 1.25 3.25 z"
+          fill="url(#menu-agtl)" opacity="0.15" />
+        <use href="#menu-normal-topleft" />
+      </g>
+      <g id="menu-shadow-top">
+        <rect width="16" height="1" x="9" opacity="0" />
+        <use href="#menu-normal-top" />
+      </g>
+      <g id="menu-shadow-topright">
+        <rect width="9" height="5" x="25" opacity="0" />
+        <path d="M 32.75 3.25 C 32.917 3.75 33 4.333 33 5 L 33.745 5 C 33.539 4.292 33.208 3.707 32.75 3.25 z"
+          fill="url(#menu-agtr)" opacity="0.15" />
+        <use href="#menu-normal-topright" />
+      </g>
+      <g id="menu-shadow-left">
+        <path d="M 0.255 5 C 0.086 5.582 0 6.249 0 7 L 1 7 L 1 5 L 0.255 5 z" fill="url(#menu-agtl)" opacity="0.15" />
+        <rect width="1" height="14" x="0" y="7" fill="url(#menu-agl)" opacity="0.15" />
+        <use href="#menu-normal-left" />
+      </g>
+      <g id="menu-shadow-right">
+        <path d="M 33 5 L 33 7 L 34 7 C 34 6.248 33.915 5.582 33.745 5 L 33 5 z" fill="url(#menu-agtr)"
+          opacity="0.15" />
+        <rect width="1" height="14" x="33" y="7" fill="url(#menu-agr)" opacity="0.15" />
+        <use href="#menu-normal-right" />
+      </g>
+      <g id="menu-shadow-bottomleft">
+        <path d="M 1 21 L 1 22 L 1.073 22 C 1.025 21.69 1 21.357 1 21 z" fill="url(#menu-bgl)" opacity="0.3" />
+        <path d="M 1 22 C 1 24.667 2.333 26 5 26 L 5 25 C 2.691 25 1.383 23.999 1.073 22 L 1 22 z"
+          fill="url(#menu-bgbl)" opacity="0.3" />
+        <rect width="4" height="1" x="5" y="25" fill="url(#menu-bgb)" opacity="0.3" />
+        <path d="M 0 21 L 0 23 L 1.345 23 C 1.116 22.447 1 21.781 1 21 L 0 21 z" fill="url(#menu-agl)" opacity="0.15" />
+        <path d="M 0 23 C 0 26.333 1.667 28 5 28 L 5 25 C 3.115 25 1.897 24.332 1.345 23 L 0 23 z"
+          fill="url(#menu-agbl)" opacity="0.15" />
+        <rect width="4" height="3" x="5" y="25" fill="url(#menu-agb)" opacity="0.15" />
+        <use href="#menu-normal-bottomleft" />
+      </g>
+      <g id="menu-shadow-bottom">
+        <rect width="16" height="1" x="9" y="25" fill="url(#menu-bgb)" opacity="0.3" />
+        <rect width="16" height="3" x="9" y="25" fill="url(#menu-agb)" opacity="0.15" />
+        <use href="#menu-normal-bottom" />
+      </g>
+      <g id="menu-shadow-bottomright">
+        <path d="M 33 21 C 33 21.357 32.975 21.69 32.927 22 L 33 22 L 33 21 z" fill="url(#menu-bgr)" opacity="0.3" />
+        <path d="M 32.927 22 C 32.618 23.999 31.309 25 29 25 L 29 26 C 31.667 26 33 24.667 33 22 L 32.927 22 z"
+          fill="url(#menu-bgbr)" opacity="0.3" />
+        <rect width="4" height="1" x="25" y="25" fill="url(#menu-bgb)" opacity="0.3" />
+        <path d="M 33 21 C 33 21.781 32.885 22.447 32.656 23 L 34 23 L 34 21 L 33 21 z" fill="url(#menu-agr)"
+          opacity="0.15" />
+        <path d="M 32.656 23 C 32.103 24.333 30.885 25 29 25 L 29 28 C 32.334 28 34 26.333 34 23 L 32.656 23 z"
+          fill="url(#menu-agbr)" opacity="0.15" />
+        <rect width="4" height="3" x="25" y="25" fill="url(#menu-agb)" opacity="0.15" />
+        <use href="#menu-normal-bottomright" />
+      </g>
+      <rect id="menu-shadow-hint-top" width="1" height="1" x="16.5" fill="#ff00ff" />
+      <rect id="menu-shadow-hint-left" width="1" height="1" y="13.5" fill="#ff00ff" />
+      <rect id="menu-shadow-hint-right" width="1" height="1" x="33" y="13.5" fill="#ff00ff" />
+      <rect id="menu-shadow-hint-bottom" width="1" height="3" x="16.5" y="25" fill="#ff00ff" />
+    </g>
     <g id="menuitem-toggled-group">
       <rect id="menuitem-toggled-topleft" width="8" height="1" class="on-surf" opacity="0.08" />
       <rect id="menuitem-toggled-top" width="16" height="1" x="8" class="on-surf" opacity="0.08" />
@@ -1045,7 +1134,6 @@
     <rect id="slider-topglow-normal" width="4" height="16" opacity="0" />
     <rect id="slider-bottomglow-normal" width="4" height="16" opacity="0" />
   </g>
-
   <g id="g-group">
     <g id="group-normal-topleft">
       <rect width="11" height="11" x="0" y="0" opacity="0" />
@@ -1081,8 +1169,6 @@
       <path d="M 28,22 q 0,6 -6,6 v -1 q 5,0 5,-5 z" class="outline" />
     </g>
   </g>
-
-
   <!-- <g id="slidercursor-normal">
     <rect width="5" height="19" opacity="0" />
     <rect width="2" height="12" x="0.5" y="4.5" fill="url(#sg-bgl)" opacity="0.3" />
@@ -1176,20 +1262,6 @@
   id="menubaritem-pressed-topleft"
   id="menubaritem-pressed-bottomright"
   id="menubaritem-pressed-bottomleft"
-  
-  id="menu-shadow-top"
-  id="menu-shadow-left"
-  id="menu-shadow-right"
-  id="menu-shadow-bottom"
-  id="menu-shadow-topleft"
-  id="menu-shadow-topright"
-  id="menu-shadow-bottomleft"
-  id="menu-shadow-bottomright"
-  
-  id="menu-shadow-hint-bottom"
-  id="menu-shadow-hint-top"
-  id="menu-shadow-hint-right"
-  id="menu-shadow-hint-left"
 
   id="tab-tear"
   

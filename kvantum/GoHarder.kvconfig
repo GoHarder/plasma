@@ -23,7 +23,7 @@ slider_handle_length=5
 ; checkbox
 check_size=20
 ; rendering
-composite=false
+composite=true
 menu_shadow_depth=6
 tooltip_shadow_depth=6
 opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,VirtualBoxVM,trojita,dragon,digikam,lyx
