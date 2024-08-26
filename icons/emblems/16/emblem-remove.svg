@@ -1,16 +1,16 @@
 <svg height="16" width="16" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-PositiveText {
-        color: #50c24b;
+      .ColorScheme-Accent {
+        color: #95ccff;
       }
 
       .ColorScheme-Background {
         color: #1e2022;
       }
     </style>
-    <path id="icon" d="m 6.367,12 -3.8,-3.8 0.95,-0.95 2.85,2.85 6.117,-6.117 0.95,0.95 z" />
+    <path id="icon" d="M 3.333,8.667 V 7.333 h 9.333 v 1.333 z" />
   </defs>
   <use href="#icon" class="ColorScheme-Background" stroke="currentColor" stroke-width="1.4" />
-  <use href="#icon" class="ColorScheme-PositiveText" fill="currentColor" />
+  <use href="#icon" class="ColorScheme-Accent" fill="currentColor" />
 </svg>
