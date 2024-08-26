@@ -171,8 +171,27 @@ frame.right=2
 ; frame=false
 ; interior.element=slidercursor
 
-# [Progressbar]
-# [ProgressbarContents]
+[Progressbar]
+inherits=PanelButtonTool
+frame.element=progress
+interior.element=progress
+frame.top=2
+frame.bottom=2
+frame.left=2
+frame.right=2
+text.focus.color=white
+text.bold=true
+
+[ProgressbarContents]
+inherits=PanelButtonTool
+frame=true
+interior.element=progress-pattern
+interior= false
+frame.expansion=0
+frame.top=2
+frame.bottom=2
+frame.left=2
+frame.right=2
 
 [ItemView]
 inherits=PanelButtonTool
