@@ -12,7 +12,7 @@ const args = process.argv.slice(2);
 const filePath = args[0];
 
 const extras = [
-  /id="(use|path|circle|rect|group|defs|style|svg|namedview)[\d-]+"/g,
+  /id="(use|path|circle|rect|group|defs|style|svg|namedview|stop)[\d-]+"/g,
   /(inkscape|xmlns|sodipodi):.+=".+"/g,
   '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n',
 ];
