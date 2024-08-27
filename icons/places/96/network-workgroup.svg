@@ -1,35 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
-  <defs id="defs3051">
+<svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+  <defs>
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color:#232629;
-      }
       .ColorScheme-Accent {
-        color:#3daee9;
+        color: #95ccff;
       }
-      </style>
+
+      .ColorScheme-Background {
+        color: #1e2022;
+      }
+    </style>
+    <path id="folder-back" d="M 8,80 V 16 h 34.1 l 6,6 H 88 v 58 z" />
   </defs>
- <path 
-     style="fill:currentColor" 
-     d="M 6 9 L 6 30 L 5 30 L 5 87 L 91 87 L 91 24 L 90 24 L 90 15 L 48 15 L 42 9 L 6 9 z "
-     class="ColorScheme-Accent"
-     />
- <path 
-     style="fill-opacity:0.33"
-     d="M 6 9 L 6 30 L 33 30 L 39 24 L 90 24 L 90 15 L 48 15 L 42 9 L 6 9 z "
-     />
- <path 
-     style="fill:#ffffff;fill-opacity:0.2"
-     d="M 42 9 L 47 16 L 90 16 L 90 15 L 48 15 L 42 9 z M 39 24 L 33 30 L 5 30 L 5 31 L 34 31 L 39 24 z "
-     />
- <path 
-     style="fill-opacity:0.2;fill-rule:evenodd"
-     d="M 39 24 L 32 29 L 6 29 L 6 30 L 33 30 L 39 24 z M 5 86 L 5 87 L 91 87 L 91 86 L 5 86 z "
-     class="ColorScheme-Text"
-     />
- <path 
-     style="fill:currentColor;fill-opacity:0.6;stroke:none"  
-     d="M 33 41 L 33 71 L 63 71 L 63 41 L 33 41 z M 34 42 L 62 42 L 62 46 L 34 46 L 34 42 z M 36 47 L 37 47 L 37 53 L 36 53 L 36 47 z M 39 47 L 40 47 L 40 53 L 39 53 L 39 47 z M 42 47 L 43 47 L 43 53 L 42 53 L 42 47 z M 45 47 L 46 47 L 46 53 L 45 53 L 45 47 z M 48 47 L 49 47 L 49 53 L 48 53 L 48 47 z M 51 47 L 52 47 L 52 53 L 51 53 L 51 47 z M 54 47 L 55 47 L 55 53 L 54 53 L 54 47 z M 59 49 L 62 49 L 62 50 L 59 50 L 59 49 z M 34 54 L 62 54 L 62 58 L 34 58 L 34 54 z M 36 59 L 37 59 L 37 65 L 36 65 L 36 59 z M 39 59 L 40 59 L 40 65 L 39 65 L 39 59 z M 42 59 L 43 59 L 43 65 L 42 65 L 42 59 z M 45 59 L 46 59 L 46 65 L 45 65 L 45 59 z M 48 59 L 49 59 L 49 65 L 48 65 L 48 59 z M 51 59 L 52 59 L 52 65 L 51 65 L 51 59 z M 54 59 L 55 59 L 55 65 L 54 65 L 54 59 z M 59 61 L 62 61 L 62 62 L 59 62 L 59 61 z M 34 66 L 62 66 L 62 70 L 34 70 L 34 66 z "
-     class="ColorScheme-Text"
-     />
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path d="M 8,80 V 28 h 34.1 l 6,-6 H 88 v 58 z" class="ColorScheme-Accent" fill="currentColor" />
+  <path
+    d="M 41.25,45 Q 40.313,45 39.656,45.656 39,46.313 39,47.25 39,48.188 39.656,48.844 40.313,49.5 41.25,49.5 q 0.938,0 1.594,-0.656 Q 43.5,48.188 43.5,47.25 43.5,46.313 42.844,45.656 42.188,45 41.25,45 Z m 0,15 Q 40.313,60 39.656,60.656 39,61.313 39,62.25 39,63.188 39.656,63.844 40.313,64.5 41.25,64.5 q 0.938,0 1.594,-0.656 Q 43.5,63.188 43.5,62.25 43.5,61.313 42.844,60.656 42.188,60 41.25,60 Z M 34.5,54 V 40.5 h 27 V 54 Z m 3,-10.5 V 51 h 21 V 43.5 Z M 34.5,69 V 55.5 h 27 V 69 Z m 3,-10.5 V 66 h 21 v -7.5 z m 0,-15 V 51 Z m 0,15 V 66 Z"
+    class="ColorScheme-Background" fill="currentColor" />
 </svg>
