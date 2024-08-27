@@ -174,7 +174,7 @@ frame.right=2
 [Progressbar]
 inherits=PanelButtonTool
 frame.element=progress
-interior.element=progress
+interior=false
 frame.top=2
 frame.bottom=2
 frame.left=2
@@ -185,9 +185,8 @@ text.bold=true
 [ProgressbarContents]
 inherits=PanelButtonTool
 frame=true
-interior.element=progress-pattern
-interior= false
-frame.expansion=0
+frame.element=progress-pattern
+interior=false
 frame.top=2
 frame.bottom=2
 frame.left=2
