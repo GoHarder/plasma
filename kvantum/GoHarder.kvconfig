@@ -1,14 +1,42 @@
 [%General]
 author=Gregory Harder
 comment=Official Go Harder theme for Kvantum
+; respect_DE=true
+; x11drag=true
+; alt_mnemonic=true
+; click_behavior=0
+
 # spin indicators
+; inline_spin_indicators=false < are not used due to vertical_spin_indicators
+; inline_spin_separator=false  < are not used due to vertical_spin_indicators
 vertical_spin_indicators=true
+; spin_button_width=16         < are not used due to vertical_spin_indicators
+
 # combo
 combo_as_lineedit=true
+; combo_menu=false
+; combo_focus_rect=false
+; square_combo_button=false
+
 # tab bar
 left_tabs=true
+; center_doc_tabs=false
+; center_normal_tabs=false
+; attach_active_tab=false
+; embed_tabs=false
+; joined_inactive_tabs=true
+; mirror_doc_tabs=false
+; no_active_tab_separator=false
+; active_tab_overlap=0
+; no_inactive_tab_expansion=false
+; tab_button_extra_margin=0
+; bold_active_tab=false
+
 # toolbar
 group_toolbar_buttons=true
+; toolbar_item_spacing=0 < is 0 because of group_toolbar_buttons
+; toolbar_interior_spacing=0
+
 # progressbar
 spread_progressbar=true
 progressbar_thickness=4
