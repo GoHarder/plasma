@@ -45,8 +45,8 @@ spread_menuitems=true
 menu_separator_height=8
 # slider
 slider_width=4
-slider_handle_width=19
-slider_handle_length=5
+; slider_handle_width=19
+; slider_handle_length=5
 # checkbox
 check_size=20
 # rendering
@@ -254,7 +254,18 @@ text.toggle.color=#e2e2e5
 
 # [Splitter]
 # [Scrollbar]
-# [ScrollbarSlider]
+
+[ScrollbarSlider]
+inherits=PanelButtonTool
+frame.element=scrollbarslider
+interior.element=scrollbarslider
+frame.top=6
+frame.bottom=6
+frame.left=6
+frame.right=6
+indicator.element=grip
+indicator.size=13
+
 # [ScrollbarGroove]
 
 [MenuItem]
