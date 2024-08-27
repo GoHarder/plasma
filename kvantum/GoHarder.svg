@@ -1325,8 +1325,7 @@
   id="focus-right"
   id="focus-bottom"
   id="focus-left"
-
-  id="titlebar-normal"
-  id="titlebar-focused"
   -->
+  <rect id="titlebar-focused" width="16" height="4" class="urf-cont-highest" />
+  <rect id="titlebar-normal" width="16" height="4" class="urf-cont-high" />
 </svg>
