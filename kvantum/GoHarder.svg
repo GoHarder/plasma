@@ -167,8 +167,8 @@
     <radialGradient xlink:href="#sg-ag" id="sg-agbl" cx="2.5" cy="16.5" r="2.5" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#sg-ag" id="sg-agbr" cx="2.5" cy="16.5" r="2.5" gradientUnits="userSpaceOnUse" />
     <linearGradient id="menu-bg">
-      <stop style="stop-color:#ff8000;" stop-opacity="1" offset="0.5" />
-      <stop style="stop-color:#ff8000;" stop-opacity="0" offset="1" />
+      <stop stop-opacity="1" offset="0.5" />
+      <stop stop-opacity="0" offset="1" />
     </linearGradient>
     <radialGradient xlink:href="#menu-bg" id="menu-bgtl" cx="5" cy="6" r="4" gradientUnits="userSpaceOnUse" />
     <linearGradient xlink:href="#menu-bg" id="menu-bgt" x1="17" y1="6" x2="17" y2="2" gradientUnits="userSpaceOnUse" />
@@ -181,8 +181,8 @@
       gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#menu-bg" id="menu-bgbr" cx="29" cy="22" r="4" gradientUnits="userSpaceOnUse" />
     <linearGradient id="menu-ag">
-      <stop style="stop-color:#80ff00;" stop-opacity="0.833" offset="0" />
-      <stop style="stop-color:#80ff00;" stop-opacity="0" offset="1" />
+      <stop stop-opacity="0.833" offset="0" />
+      <stop stop-opacity="0" offset="1" />
     </linearGradient>
     <radialGradient xlink:href="#menu-ag" id="menu-agtl" cx="5" cy="7" r="5" gradientUnits="userSpaceOnUse" />
     <linearGradient xlink:href="#menu-ag" id="menu-agt" x1="17" y1="7" x2="17" y2="2" gradientUnits="userSpaceOnUse" />
