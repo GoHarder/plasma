@@ -1,51 +1,73 @@
 [%General]
 author=Gregory Harder
 comment=Official Go Harder theme for Kvantum
-; spin indicators
+# spin indicators
 vertical_spin_indicators=true
-; combo
+# combo
 combo_as_lineedit=true
-; tab bar
+# tab bar
 left_tabs=true
-; toolbar
+# toolbar
 group_toolbar_buttons=true
-; progressbar
+# progressbar
 spread_progressbar=true
 progressbar_thickness=4
-; menu
+# menu
 spread_menuitems=true
 menu_separator_height=8
-
-; slider
+# slider
 slider_width=4
 slider_handle_width=19
 slider_handle_length=5
-; checkbox
+# checkbox
 check_size=20
-; rendering
+# rendering
 composite=true
 menu_shadow_depth=6
 tooltip_shadow_depth=6
 opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,VirtualBoxVM,trojita,dragon,digikam,lyx
 
 [GeneralColors]
+# window
 window.color=#282a2d
+; inactive.window.color
+window.text.color=#e2e2e5
+; inactive.window.text.color
+
+# base
 base.color=#1e2022
 alt.base.color=#121416
-button.color=#333538
-light.color=#8c9198
-mid.light.color=#42474e
-dark.color=#121416
-mid.color=#424748
+; inactive.base.color
+; inactive.alt.base.color
+text.color=#e2e2e5
+; inactive.text.color
+disabled.text.color=#e2e2e561
+
+# highlight
 highlight.color=#95ccff
 inactive.highlight.color=#95ccff61
-tooltip.base.color=#1e2022
-text.color=#e2e2e5
-window.text.color=#e2e2e5
-button.text.color=#95ccff
-disabled.text.color=#e2e2e561
-tooltip.text.color=#c2c7cf
 highlight.text.color=#e2e2e5
+; inactive.highlight.text.color
+
+# tooltip
+tooltip.base.color=#1e2022
+tooltip.text.color=#c2c7cf
+
+# button
+button.color=#333538
+button.text.color=#95ccff
+
+# general
+light.color=#8c9198
+mid.color=#424748
+mid.light.color=#42474e
+dark.color=#121416
+
+# progress indicator
+; progress.indicator.text.color
+; progress.inactive.indicator.text.color
+
+# link
 link.color=#a7edff
 link.visited.color=#7eb0bd
 

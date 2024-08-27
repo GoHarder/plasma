@@ -1222,20 +1222,6 @@
     <rect width="4" height="16" rx="2" x="0.5" y="1.5" class="disabled-text" />
   </g> -->
   <!-- 
-  id="progress-pattern-normal"
-  id="progress-pattern-disabled"
-  id="progress-pattern-focused"
-  id="progress-pattern-toggled"
-  id="progress-normal"
-  id="progress-normal-left"
-  id="progress-normal-right"
-  id="progress-normal-topright"
-  id="progress-normal-bottomright"
-  id="progress-normal-bottomleft"
-  id="progress-normal-topleft"
-  id="progress-normal-bottom"
-  id="progress-normal-top"
-  
   id="scrollbarslider-normal-left" 
   id="scrollbarslider-normal-bottom" 
   id="scrollbarslider-normal-right" 
