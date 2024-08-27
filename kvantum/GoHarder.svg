@@ -1315,10 +1315,6 @@
   id="splitter-focused"
   id="splitter-pressed"  
 
-  id="grip-normal"
-  id="grip-focused"
-  id="grip-pressed"
-
   id="header-separator"
 
   id="focus-top"
@@ -1326,6 +1322,9 @@
   id="focus-bottom"
   id="focus-left"
   -->
-  <rect id="titlebar-focused" width="16" height="4" class="urf-cont-highest" />
-  <rect id="titlebar-normal" width="16" height="4" class="urf-cont-high" />
+  <rect id="titlebar-focused" width="16" height="4" class="surf-cont-highest" />
+  <rect id="titlebar-normal" width="16" height="4" y="4" class="surf-cont-high" />
+  <rect id="grip-normal" width="8" height="13" opacity="0" />
+  <rect id="grip-focused" width="8" height="13" opacity="0" />
+  <rect id="grip-pressed" width="8" height="13" opacity="0" />
 </svg>
