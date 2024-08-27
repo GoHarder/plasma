@@ -876,24 +876,51 @@
     <use id="sizegrip-focused" href="#sizegrip" x="10" class="on-surf" opacity="0.38" />
   </g>
   <g id="tab-group" transform="translate(0,176)">
-    <use id="tab-normal-topleft" href="#sq-8-tl" opacity="0" />
-    <use id="tab-normal-top" href="#sq-8-t" opacity="0" />
-    <use id="tab-normal-topright" href="#sq-8-tr" opacity="0" />
-    <use id="tab-normal-left" href="#sq-8-l" opacity="0" />
-    <use id="tab-normal" href="#sq-8-c" opacity="0" />
-    <use id="tab-normal-right" href="#sq-8-r" opacity="0" />
-    <use id="tab-normal-bottomleft" href="#sq-8-bl" opacity="0" />
-    <use id="tab-normal-bottom" href="#sq-8-b" opacity="0" />
-    <use id="tab-normal-bottomright" href="#sq-8-br" opacity="0" />
-    <use id="tab-focused-topleft" href="#sq-8-tl" class="pri" opacity="0.1" />
-    <use id="tab-focused-top" href="#sq-8-t" class="pri" opacity="0.1" />
-    <use id="tab-focused-topright" href="#sq-8-tr" class="pri" opacity="0.1" />
-    <use id="tab-focused-left" href="#sq-8-l" class="pri" opacity="0.1" />
-    <use id="tab-focused" href="#sq-8-c" class="pri" opacity="0.1" />
-    <use id="tab-focused-right" href="#sq-8-r" class="pri" opacity="0.1" />
-    <use id="tab-focused-bottomleft" href="#sq-8-bl" class="pri" opacity="0.1" />
-    <use id="tab-focused-bottom" href="#sq-8-b" class="pri" opacity="0.1" />
-    <use id="tab-focused-bottomright" href="#sq-8-br" class="pri" opacity="0.1" />
+    <use id="tab-normal-topleft" href="#sq-8-tl" class="surf-cont-high" />
+    <use id="tab-normal-top" href="#sq-8-t" class="surf-cont-high" />
+    <use id="tab-normal-topright" href="#sq-8-tr" class="surf-cont-high" />
+    <use id="tab-normal-left" href="#sq-8-l" class="surf-cont-high" />
+    <use id="tab-normal" href="#sq-8-c" class="surf-cont-high" />
+    <use id="tab-normal-right" href="#sq-8-r" class="surf-cont-high" />
+    <use id="tab-normal-bottomleft" href="#sq-8-bl" class="surf-cont-high" />
+    <use id="tab-normal-bottom" href="#sq-8-b" class="surf-cont-high" />
+    <use id="tab-normal-bottomright" href="#sq-8-br" class="surf-cont-high" />
+    <g id="tab-focused-topleft" transform="translate(32)">
+      <use href="#tab-normal-topleft" />
+      <use href="#sq-8-tl" class="pri" opacity="0.1" />
+    </g>
+    <g id="tab-focused-top" transform="translate(32)">
+      <use href="#tab-normal-top" />
+      <use href="#sq-8-t" class="pri" opacity="0.1" />
+    </g>
+    <g id="tab-focused-topright" transform="translate(32)">
+      <use href="#tab-normal-topright" />
+      <use href="#sq-8-tr" class="pri" opacity="0.1" />
+    </g>
+    <g id="tab-focused-left" transform="translate(32)">
+      <use href="#tab-normal-left" />
+      <use href="#sq-8-l" class="pri" opacity="0.1" />
+    </g>
+    <g id="tab-focused" transform="translate(32)">
+      <use href="#tab-normal" />
+      <use href="#sq-8-c" class="pri" opacity="0.1" />
+    </g>
+    <g id="tab-focused-right" transform="translate(32)">
+      <use href="#tab-normal-right" />
+      <use href="#sq-8-r" class="pri" opacity="0.1" />
+    </g>
+    <g id="tab-focused-bottomleft" transform="translate(32)">
+      <use href="#tab-normal-bottomleft" />
+      <use href="#sq-8-bl" class="pri" opacity="0.1" />
+    </g>
+    <g id="tab-focused-bottom" transform="translate(32)">
+      <use href="#tab-normal-bottom" />
+      <use href="#sq-8-b" class="pri" opacity="0.1" />
+    </g>
+    <g id="tab-focused-bottomright" transform="translate(32)">
+      <use href="#tab-normal-bottomright" />
+      <use href="#sq-8-br" class="pri" opacity="0.1" />
+    </g>
     <use id="tab-toggled-topleft" href="#tab-normal-topleft" x="32" />
     <use id="tab-toggled-top" href="#tab-normal-top" x="32" />
     <use id="tab-toggled-topright" href="#tab-normal-topright" x="32" />
