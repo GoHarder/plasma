@@ -759,7 +759,7 @@
       </g>
     </g>
   </g>
-  <!-- <g id="lineedit-group" transform="translate(0,96)">
+  <g id="lineedit-group" transform="translate(0,96)">
     <g id="lineedit-normal-group">
       <g id="lineedit-normal-topleft">
         <rect id="lineedit-normal-topleft-1" width="8" height="8" x="0" y="0" opacity="0" />
@@ -816,8 +816,8 @@
       </g>
       <path id="lineedit-focused-bottomright" d="M 32,28 q 0,4 -4,4 h -4 v -2 h 4 q 2,0 2,-2 v -4 h 2 Z" class="pri" />
     </g>
-  </g> -->
-  <!-- <g id="radio-group" transform="translate(72,96)">
+  </g>
+  <g id="radio-group" transform="translate(72,96)">
     <g id="radio-normal">
       <circle cx="12" cy="12" r="12" opacity="0" />
       <use href="#radio-unchk" class="on-surf-var" />
@@ -834,8 +834,8 @@
       <circle cx="36" cy="36" r="12" class="pri" opacity="0.1" />
       <use href="#radio-chk" x="24" y="24" class="pri" />
     </g>
-  </g> -->
-  <!-- <g id="checkbox-group" transform="translate(0,128)">
+  </g>
+  <g id="checkbox-group" transform="translate(0,128)">
     <g id="checkbox-normal">
       <use href="#chk-box-back" x="0" y="0" opacity="0" />
       <use href="#chk-box-frame" x="0" y="0" class="on-surf-var" />
@@ -864,8 +864,8 @@
       <use href="#chk-box-box" x="48" y="24" class="pri" />
       <use href="#chk-box-dash" x="48" y="24" class="on-pri" />
     </g>
-  </g> -->
-  <!-- <g id="common-group" transform="translate(128)">
+  </g>
+  <g id="common-group" transform="translate(128)">
     <use id="common-normal-topleft" href="#r-8-tl" class="surf-cont-low" />
     <use id="common-normal-top" href="#sq-8-t" class="surf-cont-low" />
     <use id="common-normal-topright" href="#r-8-tr" class="surf-cont-low" />
@@ -875,7 +875,7 @@
     <use id="common-normal-bottomleft" href="#r-8-bl" class="surf-cont-low" />
     <use id="common-normal-bottom" href="#sq-8-t" y="24" class="surf-cont-low" />
     <use id="common-normal-bottomright" href="#r-8-br" class="surf-cont-low" />
-  </g> -->
+  </g>
   <!-- <g id="toolbar-group" transform="translate(128,32)">
     <use id="toolbar-normal" x="-8" y="-8" href="#sq-8-c" class="surf-cont-high" />
     <rect id="toolbar-separator" width="8" height="10" opacity="0" />
