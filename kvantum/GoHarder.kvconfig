@@ -192,37 +192,36 @@ text.toggle.color=#e2e2e5
 # [IndicatorArrow]
 # [ToolboxTab]
 
-; [Tab]
-; inherits=ToolbarButton
-; interior.element=tab
-; frame.element=tab
-; indicator.element=tab
-; text.normal.color=#c2c7cf
-; text.focus.color=#95ccff
-; text.press.color=#e2e2e5
-; text.toggle.color=#95ccff
+[Tab]
+inherits=PanelButtonCommand
+interior.element=tab
+frame.element=tab
+indicator.element=tab
+text.normal.color=#c2c7cf
+text.focus.color=#95ccff
+text.press.color=#e2e2e5
+text.toggle.color=#95ccff
 
-; [TabFrame]
-; inherits=ToolbarButton
-; frame.element=tabframe
-; interior.element=common
-; frame.top=1
-; frame.bottom=1
-; frame.left=1
-; frame.right=1
+[TabFrame]
+inherits=GenericFrame
+frame.element=tabframe
+frame.top=1
+frame.bottom=1
+frame.left=1
+frame.right=1
+interior.element=common
 
 # [TreeExpander]
 # [HeaderSection]
 
-; [SizeGrip]
-; indicator.element=sizegrip
+[SizeGrip]
+indicator.element=sizegrip
 
-; [Toolbar]
-; inherits=ToolbarButton
-; indicator.element=toolbar
-; indicator.size=5
-; frame=false
-; interior.element=toolbar
+[Toolbar]
+inherits=ToolbarButton
+indicator.element=toolbar
+indicator.size=5
+frame=false
 
 ; [Slider]
 ; inherits=ToolbarButton
@@ -264,10 +263,6 @@ text.toggle.color=#e2e2e5
 ; text.margin=0
 ; frame=false
 ; interior.element=itemview
-; text.normal.color=#c2c7cf
-; text.focus.color=#e2e2e5
-; text.press.color=#e2e2e5
-; text.toggle.color=#e2e2e5
 
 # [Splitter]
 # [Scrollbar]
@@ -312,8 +307,8 @@ text.toggle.color=#e2e2e5
 ; text.margin.left=3
 ; text.margin.right=3
 
-; [ComboBox]
-; inherits=LineEdit
+[ComboBox]
+inherits=LineEdit
 
 ; [Menu]
 ; inherits=ToolbarButton
@@ -324,18 +319,18 @@ text.toggle.color=#e2e2e5
 ; frame.left=8
 ; frame.right=8
 
-; [GroupBox]
-; inherits=GenericFrame
-; frame=true
-; frame.element=group
-; interior=true
-; interior.element=group
-; text.shadow=false
-; text.margin=0
-; frame.top=11
-; frame.bottom=11
-; frame.left=11
-; frame.right=11
+[GroupBox]
+inherits=GenericFrame
+frame=true
+frame.element=group
+interior=true
+interior.element=group
+text.shadow=false
+text.margin=0
+frame.top=11
+frame.bottom=11
+frame.left=11
+frame.right=11
 
 # [TabBarFrame]
 

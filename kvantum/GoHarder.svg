@@ -876,19 +876,19 @@
     <use id="common-normal-bottom" href="#sq-8-t" y="24" class="surf-cont-low" />
     <use id="common-normal-bottomright" href="#r-8-br" class="surf-cont-low" />
   </g>
-  <!-- <g id="toolbar-group" transform="translate(128,32)">
+  <g id="toolbar-group" transform="translate(128,32)">
     <use id="toolbar-normal" x="-8" y="-8" href="#sq-8-c" class="surf-cont-high" />
     <rect id="toolbar-separator" width="8" height="10" opacity="0" />
     <g id="toolbar-handle">
       <rect width="8" height="10" opacity="0" />
       <rect width="2" height="8" x="3" y="1" class="disabled-text" />
     </g>
-  </g> -->
-  <!-- <g id="sizegrip-group" transform="translate(128,48)">
+  </g>
+  <g id="sizegrip-group" transform="translate(128,48)">
     <use id="sizegrip-normal" href="#sizegrip" class="on-surf-var" opacity="0.38" />
     <use id="sizegrip-focused" href="#sizegrip" x="10" class="on-surf" opacity="0.38" />
-  </g> -->
-  <!-- <g id="tab-group" transform="translate(0,176)">
+  </g>
+  <g id="tab-group" transform="translate(0,176)">
     <use id="tab-normal-topleft" href="#sq-8-tl" class="surf-cont-high" />
     <use id="tab-normal-top" href="#sq-8-t" class="surf-cont-high" />
     <use id="tab-normal-topright" href="#sq-8-tr" class="surf-cont-high" />
@@ -976,7 +976,7 @@
       <use href="#icon-box" />
       <use href="#close" class="disabled-text" />
     </g>
-  </g> -->
+  </g>
   <!-- <g id="dial-group" transform="translate(120,96)">
     <circle id="dial" cx="22.5" cy="22.5" r="22.5" class="surf-cont-highest" />
     <g id="dial-notches">
@@ -1180,7 +1180,7 @@
     <rect id="slider-topglow-normal" width="4" height="16" opacity="0" />
     <rect id="slider-bottomglow-normal" width="4" height="16" opacity="0" />
   </g> -->
-  <!-- <g id="g-group" transform="translate(104,170)">
+  <g id="g-group" transform="translate(104,170)">
     <g id="group-normal-topleft">
       <rect width="11" height="11" x="0" y="0" opacity="0" />
       <path d="M 5,11 q 0,-6 6,-6 v 1 q -5,0 -5,5 z" class="outline" />
@@ -1214,7 +1214,7 @@
       <rect width="11" height="11" x="22" y="22" opacity="0" />
       <path d="M 28,22 q 0,6 -6,6 v -1 q 5,0 5,-5 z" class="outline" />
     </g>
-  </g> -->
+  </g>
   <!-- <g id="progress-group" transform="translate(104,170)">
     <use id="progress-normal-topleft" href="#progress-tl" class="sec-cont" />
     <use id="progress-normal-top" href="#progress-t" class="sec-cont" />
