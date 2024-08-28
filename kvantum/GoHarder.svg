@@ -1063,7 +1063,7 @@
       <rect id="menu-shadow-hint-right" width="1" height="1" x="33" y="13.5" fill="#ff00ff" />
       <rect id="menu-shadow-hint-bottom" width="1" height="3" x="16.5" y="25" fill="#ff00ff" />
     </g>
-    <g id="menuitem-toggled-group">
+    <g id="menuitem-toggled-group" transform="translate(1)">
       <rect id="menuitem-toggled-topleft" width="8" height="1" class="on-surf" opacity="0.08" />
       <rect id="menuitem-toggled-top" width="16" height="1" x="8" class="on-surf" opacity="0.08" />
       <rect id="menuitem-toggled-topright" width="8" height="1" x="24" class="on-surf" opacity="0.08" />
@@ -1074,7 +1074,7 @@
       <rect id="menuitem-toggled-bottom" width="16" height="1" x="8" y="9" class="on-surf" opacity="0.08" />
       <rect id="menuitem-toggled-bottomright" width="8" height="1" x="24" y="9" class="on-surf" opacity="0.08" />
     </g>
-    <g id="menuitem-pressed-group" transform="translate(0,10)">
+    <g id="menuitem-pressed-group" transform="translate(1,10)">
       <rect id="menuitem-pressed-topleft" width="8" height="1" class="on-surf" opacity="0.1" />
       <rect id="menuitem-pressed-top" width="16" height="1" x="8" class="on-surf" opacity="0.1" />
       <rect id="menuitem-pressed-topright" width="8" height="1" x="24" class="on-surf" opacity="0.1" />
@@ -1085,9 +1085,9 @@
       <rect id="menuitem-pressed-bottom" width="16" height="1" x="8" y="9" class="on-surf" opacity="0.1" />
       <rect id="menuitem-pressed-bottomright" width="8" height="1" x="24" y="9" class="on-surf" opacity="0.1" />
     </g>
-    <g id="menuitem-separator" transform="translate(0,18)">
-      <rect width="36" height="8" opacity="0" />
-      <rect width="36" height="1" y="3.5" class="surf-var" />
+    <g id="menuitem-separator" transform="translate(1,18)">
+      <rect width="32" height="8" opacity="0" />
+      <rect width="32" height="1" y="3.5" class="surf-var" />
     </g>
   </g>
   <!-- <g id="tooltip-group" transform="translate(104,144)">
@@ -1180,7 +1180,7 @@
     <rect id="slider-topglow-normal" width="4" height="16" opacity="0" />
     <rect id="slider-bottomglow-normal" width="4" height="16" opacity="0" />
   </g> -->
-  <g id="g-group" transform="translate(104,170)">
+  <g id="g-group" transform="translate(64,175)">
     <g id="group-normal-topleft">
       <rect width="11" height="11" x="0" y="0" opacity="0" />
       <path d="M 5,11 q 0,-6 6,-6 v 1 q -5,0 -5,5 z" class="outline" />
@@ -1215,7 +1215,7 @@
       <path d="M 28,22 q 0,6 -6,6 v -1 q 5,0 5,-5 z" class="outline" />
     </g>
   </g>
-  <!-- <g id="progress-group" transform="translate(104,170)">
+  <g id="progress-group" transform="translate(72,172)">
     <use id="progress-normal-topleft" href="#progress-tl" class="sec-cont" />
     <use id="progress-normal-top" href="#progress-t" class="sec-cont" />
     <use id="progress-normal-topright" href="#progress-tr" class="sec-cont" />
@@ -1234,7 +1234,7 @@
     <use id="progress-pattern-disabled-bottomleft" href="#progress-bl" y="8" class="disabled-back" />
     <use id="progress-pattern-disabled-bottom" href="#progress-b" y="8" class="disabled-back" />
     <use id="progress-pattern-disabled-bottomright" href="#progress-br" y="8" class="disabled-back" />
-  </g> -->
+  </g>
   <!-- <g id="slidercursor-normal">
     <rect width="5" height="19" opacity="0" />
     <rect width="2" height="12" x="0.5" y="4.5" fill="url(#sg-bgl)" opacity="0.3" />

@@ -92,8 +92,8 @@ mid.light.color=#42474e
 dark.color=#121416
 
 # progress indicator
-; progress.indicator.text.color
-; progress.inactive.indicator.text.color
+progress.indicator.text.color=#e2e2e5
+progress.inactive.indicator.text.color=#c2c7cf
 
 # link
 link.color=#a7edff
@@ -237,26 +237,26 @@ frame=false
 ; frame=false
 ; interior.element=slidercursor
 
-; [Progressbar]
-; inherits=ToolbarButton
-; frame.element=progress
-; interior=false
-; frame.top=2
-; frame.bottom=2
-; frame.left=2
-; frame.right=2
-; text.focus.color=white
-; text.bold=true
+[Progressbar]
+inherits=PanelButtonTool
+frame.element=progress
+interior=false
+frame.top=2
+frame.bottom=2
+frame.left=2
+frame.right=2
+text.focus.color=white
+text.bold=true
 
-; [ProgressbarContents]
-; inherits=ToolbarButton
-; frame=true
-; frame.element=progress-pattern
-; interior=false
-; frame.top=2
-; frame.bottom=2
-; frame.left=2
-; frame.right=2
+[ProgressbarContents]
+inherits=PanelButtonTool
+frame=true
+frame.element=progress-pattern
+interior=false
+frame.top=2
+frame.bottom=2
+frame.left=2
+frame.right=2
 
 [ItemView]
 inherits=PanelButtonTool
