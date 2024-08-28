@@ -72,10 +72,10 @@ inactive.text.color=#c2c7cf
 disabled.text.color=#e2e2e561
 
 # highlight
-highlight.color=#004a75
-inactive.highlight.color=#3a4857
-highlight.text.color=#cee5ff
-inactive.highlight.text.color=#d5e4f6
+highlight.color=#3a4857
+inactive.highlight.color=#34404d
+highlight.text.color=#d5e4f6
+inactive.highlight.text.color=#c2c7cf
 
 # tooltip
 tooltip.base.color=#1e2022
