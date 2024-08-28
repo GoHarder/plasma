@@ -58,17 +58,17 @@ opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidem
 [GeneralColors]
 # window
 window.color=#282a2d
-; inactive.window.color
+inactive.window.color=#1e2022
 window.text.color=#e2e2e5
-; inactive.window.text.color
+inactive.window.text.color=#c2c7cf
 
 # base
-base.color=#1e2022
+base.color=#1a1c1e
 alt.base.color=#121416
 ; inactive.base.color
 ; inactive.alt.base.color
 text.color=#e2e2e5
-; inactive.text.color
+inactive.text.color=#c2c7cf
 disabled.text.color=#e2e2e561
 
 # highlight
@@ -115,8 +115,8 @@ indicator.element=ar-1
 indicator.size=10
 text.shadow=false
 text.margin=true
-text.margin.top=4
-text.margin.bottom=4
+text.margin.top=2
+text.margin.bottom=2
 text.margin.left=4
 text.margin.right=4
 text.iconspacing=4
@@ -141,12 +141,14 @@ frame.element=toolbar-button
 interior.element=toolbar-button
 frame.top=12
 frame.bottom=12
+text.margin.top=4
+text.margin.bottom=4
 
 # [Dock]
 # [DockTitle]
 
 [RadioButton]
-inherits=PanelButtonTool
+inherits=ToolbarButton
 interior.element=radio
 
 [CheckBox]
@@ -156,7 +158,7 @@ interior.element=checkbox
 # [Focus]
 
 [GenericFrame]
-inherits=PanelButtonTool
+inherits=ToolbarButton
 frame=true
 interior=true
 frame.element=common
@@ -176,7 +178,7 @@ text.toggle.color=#e2e2e5
 # [ToolboxTab]
 
 [Tab]
-inherits=PanelButtonTool
+inherits=ToolbarButton
 interior.element=tab
 frame.element=tab
 indicator.element=tab
@@ -186,7 +188,7 @@ text.press.color=#e2e2e5
 text.toggle.color=#95ccff
 
 [TabFrame]
-inherits=PanelButtonTool
+inherits=ToolbarButton
 frame.element=tabframe
 interior.element=common
 frame.top=1
@@ -201,39 +203,39 @@ frame.right=1
 indicator.element=sizegrip
 
 [Toolbar]
-inherits=PanelButtonTool
+inherits=ToolbarButton
 indicator.element=toolbar
 indicator.size=5
 frame=false
 interior.element=toolbar
 
-[Slider]
-inherits=PanelButtonTool
-frame.element=slider
-interior=false
-frame.top=2
-frame.bottom=2
-frame.left=2
-frame.right=2
+; [Slider]
+; inherits=ToolbarButton
+; frame.element=slider
+; interior=false
+; frame.top=2
+; frame.bottom=2
+; frame.left=2
+; frame.right=2
 
 ; [SliderCursor]
-; inherits=PanelButtonTool
+; inherits=ToolbarButton
 ; frame=false
 ; interior.element=slidercursor
 
 [Progressbar]
-inherits=PanelButtonTool
+inherits=ToolbarButton
 frame.element=progress
 interior=false
 frame.top=2
 frame.bottom=2
 frame.left=2
 frame.right=2
-text.focus.color=white
-text.bold=true
+; text.focus.color=white
+; text.bold=true
 
 [ProgressbarContents]
-inherits=PanelButtonTool
+inherits=ToolbarButton
 frame=true
 frame.element=progress-pattern
 interior=false
@@ -243,7 +245,7 @@ frame.left=2
 frame.right=2
 
 [ItemView]
-inherits=PanelButtonTool
+inherits=ToolbarButton
 text.margin=0
 frame=false
 interior.element=itemview
@@ -256,7 +258,7 @@ text.toggle.color=#e2e2e5
 # [Scrollbar]
 
 [ScrollbarSlider]
-inherits=PanelButtonTool
+inherits=ToolbarButton
 frame.element=scrollbarslider
 interior.element=scrollbarslider
 frame.top=6
@@ -269,7 +271,7 @@ indicator.size=13
 # [ScrollbarGroove]
 
 [MenuItem]
-inherits=PanelButtonTool
+inherits=ToolbarButton
 frame=true
 interior.element=menuitem
 frame.element=menuitem
@@ -283,7 +285,7 @@ frame.right=8
 # [MenuBar]
 
 [TitleBar]
-inherits=PanelButtonTool
+inherits=ToolbarButton
 frame=false
 interior.element=titlebar
 indicator.size=12
@@ -299,7 +301,7 @@ text.margin.right=3
 inherits=LineEdit
 
 [Menu]
-inherits=PanelButtonTool
+inherits=ToolbarButton
 frame.element=menu
 interior.element=menu
 frame.top=4

@@ -26,6 +26,10 @@
         fill: #121416
       }
 
+      .surf-cont-low {
+        fill: #1a1c1e;
+      }
+
       .surf-cont {
         fill: #1e2022;
       }
@@ -862,15 +866,15 @@
     </g>
   </g>
   <g id="common-group" transform="translate(128)">
-    <use id="common-normal-topleft" href="#r-8-tl" class="surf-cont" />
-    <use id="common-normal-top" href="#sq-8-t" class="surf-cont" />
-    <use id="common-normal-topright" href="#r-8-tr" class="surf-cont" />
-    <use id="common-normal-left" href="#sq-8-l" class="surf-cont" />
-    <use id="common-normal" href="#sq-8-c" class="surf-cont" />
-    <use id="common-normal-right" href="#sq-8-l" x="24" class="surf-cont" />
-    <use id="common-normal-bottomleft" href="#r-8-bl" class="surf-cont" />
-    <use id="common-normal-bottom" href="#sq-8-t" y="24" class="surf-cont" />
-    <use id="common-normal-bottomright" href="#r-8-br" class="surf-cont" />
+    <use id="common-normal-topleft" href="#r-8-tl" class="surf-cont-low" />
+    <use id="common-normal-top" href="#sq-8-t" class="surf-cont-low" />
+    <use id="common-normal-topright" href="#r-8-tr" class="surf-cont-low" />
+    <use id="common-normal-left" href="#sq-8-l" class="surf-cont-low" />
+    <use id="common-normal" href="#sq-8-c" class="surf-cont-low" />
+    <use id="common-normal-right" href="#sq-8-l" x="24" class="surf-cont-low" />
+    <use id="common-normal-bottomleft" href="#r-8-bl" class="surf-cont-low" />
+    <use id="common-normal-bottom" href="#sq-8-t" y="24" class="surf-cont-low" />
+    <use id="common-normal-bottomright" href="#r-8-br" class="surf-cont-low" />
   </g>
   <g id="toolbar-group" transform="translate(128,32)">
     <use id="toolbar-normal" x="-8" y="-8" href="#sq-8-c" class="surf-cont-high" />
