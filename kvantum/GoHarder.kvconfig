@@ -258,11 +258,11 @@ frame=false
 ; frame.left=2
 ; frame.right=2
 
-; [ItemView]
-; inherits=ToolbarButton
-; text.margin=0
-; frame=false
-; interior.element=itemview
+[ItemView]
+inherits=PanelButtonTool
+text.margin=false
+frame=false
+interior.element=itemview
 
 # [Splitter]
 # [Scrollbar]
@@ -280,17 +280,17 @@ frame=false
 
 # [ScrollbarGroove]
 
-; [MenuItem]
-; inherits=ToolbarButton
-; frame=true
-; interior.element=menuitem
-; frame.element=menuitem
-; indicator.element=menuitem
-; min_height=22
-; frame.top=1
-; frame.bottom=1
-; frame.left=8
-; frame.right=8
+[MenuItem]
+inherits=PanelButtonTool
+frame=true
+interior.element=menuitem
+frame.element=menuitem
+indicator.element=menuitem
+min_height=22
+frame.top=1
+frame.bottom=1
+frame.left=8
+frame.right=8
 
 # [MenuBar]
 
@@ -310,14 +310,14 @@ frame=false
 [ComboBox]
 inherits=LineEdit
 
-; [Menu]
-; inherits=ToolbarButton
-; frame.element=menu
-; interior.element=menu
-; frame.top=4
-; frame.bottom=4
-; frame.left=8
-; frame.right=8
+[Menu]
+inherits=PanelButtonTool
+frame.element=menu
+interior.element=menu
+frame.top=4
+frame.bottom=4
+frame.left=8
+frame.right=8
 
 [GroupBox]
 inherits=GenericFrame

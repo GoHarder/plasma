@@ -987,12 +987,12 @@
     </g>
     <circle id="dial-handle" cx="10" cy="22.5" r="5" class="pri" />
   </g> -->
-  <!-- <g id="itemview-group" transform="translate(128,60)">
+  <g id="itemview-group" transform="translate(128,60)">
     <use id="itemview-focused" x="-8" y="-8" href="#sq-8-c" class="on-surf" opacity="0.08" />
     <use id="itemview-pressed" x="8" y="-8" href="#sq-8-c" class="sec-cont" />
     <use id="itemview-toggled" x="-8" y="8" href="#sq-8-c" class="disabled-back" />
-  </g> -->
-  <!-- <g id="menu-group" transform="translate(72,144)">
+  </g>
+  <g id="menu-group" transform="translate(72,144)">
     <path id="menu-normal-topleft" d="M 1,5 q 0,-4 4,-4 h 4 v 4 Z" class="surf-cont" />
     <rect id="menu-normal-top" width="16" height="4" x="9" y="1" class="surf-cont" />
     <path id="menu-normal-topright" d="M 33,5 q 0,-4 -4,-4 h -4 v 4 Z" class="surf-cont" />
@@ -1002,7 +1002,7 @@
     <path id="menu-normal-bottomleft" d="M 1,21 q 0,4 4,4 h 4 v -4 Z" class="surf-cont" />
     <rect id="menu-normal-bottom" width="16" height="4" x="9" y="21" class="surf-cont" />
     <path id="menu-normal-bottomright" d="M 33,21 q 0,4 -4,4 h -4 v -4 Z" class="surf-cont" />
-    <g id="menu-shadow-group" transform="translate(0,30)">
+    <g id="menu-shadow-group">
       <g id="menu-shadow-topleft">
         <rect width="9" height="5" opacity="0" />
         <path d="M 1.25 3.25 C 0.793 3.707 0.461 4.292 0.255 5 L 1 5 C 1 4.333 1.084 3.75 1.25 3.25 z"
@@ -1085,11 +1085,11 @@
       <rect id="menuitem-pressed-bottom" width="16" height="1" x="8" y="9" class="on-surf" opacity="0.1" />
       <rect id="menuitem-pressed-bottomright" width="8" height="1" x="24" y="9" class="on-surf" opacity="0.1" />
     </g>
-    <g id="menuitem-separator">
-      <rect width="16" height="8" opacity="0" />
-      <rect width="16" height="1" y="3.5" class="surf-var" />
+    <g id="menuitem-separator" transform="translate(0,18)">
+      <rect width="36" height="8" opacity="0" />
+      <rect width="36" height="1" y="3.5" class="surf-var" />
     </g>
-  </g> -->
+  </g>
   <!-- <g id="tooltip-group" transform="translate(104,144)">
     <path id="tooltip-normal-topleft" d="M 0.5,4.5 q 0,-4 4,-4 v 4 Z" class="inv-surf" />
     <rect id="tooltip-normal-top" width="16" height="4" x="4.5" y="0.5" class="inv-surf" />
