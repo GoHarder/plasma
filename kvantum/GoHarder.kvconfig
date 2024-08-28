@@ -63,8 +63,8 @@ window.text.color=#e2e2e5
 inactive.window.text.color=#c2c7cf
 
 # base
-base.color=#1a1c1e
-alt.base.color=#121416
+base.color=#1e2022
+alt.base.color=#1a1c1e
 ; inactive.base.color
 ; inactive.alt.base.color
 text.color=#e2e2e5
@@ -223,14 +223,14 @@ indicator.element=toolbar
 indicator.size=5
 frame=false
 
-; [Slider]
-; inherits=ToolbarButton
-; frame.element=slider
-; interior=false
-; frame.top=2
-; frame.bottom=2
-; frame.left=2
-; frame.right=2
+[Slider]
+inherits=PanelButtonCommand
+frame.element=slider
+interior.element=slider
+frame.top=2
+frame.bottom=2
+frame.left=2
+frame.right=2
 
 ; [SliderCursor]
 ; inherits=ToolbarButton
