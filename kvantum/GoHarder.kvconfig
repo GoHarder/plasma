@@ -334,15 +334,15 @@ frame.right=11
 
 # [TabBarFrame]
 
-; [ToolTip]
-; inherits=GenericFrame
-; frame.top=4
-; frame.bottom=4
-; frame.left=4
-; frame.right=4
-; interior=true
-; text.margin=0
-; interior.element=tooltip
-; frame.element=tooltip
+[ToolTip]
+inherits=GenericFrame
+frame.element=tooltip
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
+interior=true
+interior.element=tooltip
+text.margin=0
 
 # [Window]

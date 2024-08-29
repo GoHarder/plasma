@@ -1,4 +1,4 @@
-<svg width="208" height="208" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+<svg width="208" height="208" viewBox="0 0 208 208" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- MARK: Style -->
     <style>
@@ -1093,7 +1093,7 @@
       <rect width="32" height="1" y="3.5" class="surf-var" />
     </g>
   </g>
-  <!-- <g id="tooltip-group" transform="translate(104,144)">
+  <g id="tooltip-group" transform="translate(106,144)">
     <path id="tooltip-normal-topleft" d="M 0.5,4.5 q 0,-4 4,-4 v 4 Z" class="inv-surf" />
     <rect id="tooltip-normal-top" width="16" height="4" x="4.5" y="0.5" class="inv-surf" />
     <path id="tooltip-normal-topright" d="M 24.5,4.5 q 0,-4 -4,-4 v 4 Z" class="inv-surf" />
@@ -1103,7 +1103,7 @@
     <path id="tooltip-normal-bottomleft" d="M 0.5,8.5 q 0,4 4,4 v -4 Z" class="inv-surf" />
     <rect id="tooltip-normal-bottom" width="16" height="4" x="4.5" y="8.5" class="inv-surf" />
     <path id="tooltip-normal-bottomright" d="M 24.5,8.5 q 0,4 -4,4 v -4 Z" class="inv-surf" />
-    <g id="tooltip-shadow-group" transform="translate(0,13)">
+    <g id="tooltip-shadow-group">
       <g id="tooltip-shadow-topleft">
         <rect width="4.5" height="4.5" opacity="0" />
         <path d="M 0.893 2.385 C 0.456 2.93 0.18 3.634 0.064 4.5 L 0.5 4.5 C 0.5 3.664 0.631 2.959 0.893 2.385 z"
@@ -1165,7 +1165,7 @@
       <rect id="tooltip-shadow-hint-right" width="0.5" height="1" y="6" x="24.5" fill="#ff00ff" />
       <rect id="tooltip-shadow-hint-bottom" width="1" height="1.5" x="12" y="12.5" fill="#ff00ff" />
     </g>
-  </g> -->
+  </g>
   <g id="slider-group" transform="translate(0,0)">
     <path id="slider-normal-topleft" d="M 0,2 q 0,-2 2,-2 v 2 Z" class="sec-cont" />
     <rect id="slider-normal-top" width="2" height="2" x="2" class="sec-cont" />
@@ -1176,7 +1176,6 @@
     <path id="slider-normal-bottomleft" d="M 0,18 q 0,2 2,2 v -2 Z" class="sec-cont" />
     <rect id="slider-normal-bottom" width="2" height="2" x="2" y="18" class="sec-cont" />
     <path id="slider-normal-bottomright" d="M 6,18 q 0,2 -2,2 v -2 Z" class="sec-cont" />
-
     <path id="slider-toggled-topleft" d="M 6,2 q 0,-2 2,-2 v 2 Z" class="pri" />
     <rect id="slider-toggled-top" width="2" height="2" x="8" class="pri" />
     <path id="slider-toggled-topright" d="M 12,2 q 0,-2 -2,-2 v 2 Z" class="pri" />
