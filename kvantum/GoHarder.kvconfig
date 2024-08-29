@@ -264,7 +264,18 @@ text.margin=false
 frame=false
 interior.element=itemview
 
-# [Splitter]
+[Splitter]
+inherits=PanelButtonCommand
+interior.element=splitter
+frame.element=splitter
+frame.top=0
+frame.bottom=0
+frame.left=1
+frame.right=1
+; indicator.element=splitter-grip
+; indicator.size=16
+
+
 # [Scrollbar]
 
 ; [ScrollbarSlider]
