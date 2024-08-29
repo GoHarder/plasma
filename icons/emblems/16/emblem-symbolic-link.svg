@@ -1,0 +1,18 @@
+<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color: #e2e2e5;
+      }
+
+      .ColorScheme-Background {
+        color: #1e2022;
+      }
+    </style>
+    <path id="icon"
+      d="M 7.333,11.333 H 4.667 q -1.383,0 -2.358,-0.975 -0.975,-0.975 -0.975,-2.358 0,-1.383 0.975,-2.358 0.975,-0.975 2.358,-0.975 H 7.333 V 6 H 4.667 Q 3.833,6 3.25,6.583 2.667,7.167 2.667,8 2.667,8.833 3.25,9.417 3.833,10 4.667,10 h 2.667 z m -2,-2.667 V 7.333 H 10.667 V 8.667 Z M 8.667,11.333 V 10 H 11.333 Q 12.167,10 12.75,9.417 13.333,8.833 13.333,8 13.333,7.167 12.75,6.583 12.167,6 11.333,6 H 8.667 V 4.667 h 2.667 q 1.383,0 2.358,0.975 0.975,0.975 0.975,2.358 0,1.383 -0.975,2.358 -0.975,0.975 -2.358,0.975 z" />
+  </defs>
+  <rect width="16" height="16" opacity="0" />
+  <use href="#icon" class="ColorScheme-Background" stroke="currentColor" stroke-width="2" />
+  <use href="#icon" class="ColorScheme-Text" fill="currentColor" />
+</svg>
