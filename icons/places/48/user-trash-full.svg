@@ -1,0 +1,21 @@
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color: #e2e2e5;
+      }
+
+      .ColorScheme-Background {
+        color: #1e2022;
+      }
+    </style>
+    <path id="background"
+      d="M 17.35 6 L 17.35 7.5 L 7.9 7.5 L 7.9 10.5 L 10.051 10.5 L 10.051 42 L 22.4 42 L 22.441 41.938 A 13.9 13.9 0 0 1 19.525 33.475 A 13.9 13.9 0 0 1 33.426 19.574 A 13.9 13.9 0 0 1 37.045 20.059 L 37.051 20.051 L 37.051 10.5 L 39.199 10.5 L 39.199 7.5 L 29.75 7.5 L 29.75 6 L 17.35 6 z" />
+    <path id="icon"
+      d="M 13.05,10.5 V 39 Z M 22.4,42 H 10.05 V 10.5 H 7.9 v -3 h 9.45 V 6 h 12.4 v 1.5 h 9.45 v 3 h -2.15 v 9.55 q -0.7,-0.2 -1.5,-0.35 -0.8,-0.15 -1.5,-0.2 v -9 h -21 V 39 h 7.85 q 0.2,0.55 0.65,1.45 Q 22,41.35 22.4,42 Z M 18,34.7 h 1.5 q 0,-3.9 0.75,-5.75 L 21,27.1 V 14.75 h -3 z m 8.15,-13.1 q 0.6,-0.4 1.45,-0.775 0.85,-0.375 1.55,-0.625 v -5.45 h -3 z m 7.25,22.45 q -4.4,0 -7.475,-3.101 -3.075,-3.101 -3.075,-7.5 0,-4.4 3.086,-7.475 3.086,-3.075 7.464,-3.075 4.399,0 7.5,3.086 Q 44,29.072 44,33.45 q 0,4.399 -3.101,7.5 -3.101,3.101 -7.5,3.101 z m 3.251,-5.85 1.4,-1.4 -3.7,-3.7 v -5.6 h -2 v 6.4 z" />
+  </defs>
+  <use href="#background" class="ColorScheme-Background" fill="currentColor" />
+  <use href="#background" class="ColorScheme-Text" fill="currentColor" opacity="0.33" />
+  <use href="#icon" class="ColorScheme-Background" fill="currentColor" />
+  <use href="#icon" class="ColorScheme-Text" fill="currentColor" opacity="0.66" />
+</svg>
