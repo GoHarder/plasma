@@ -1,0 +1,23 @@
+<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Accent {
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #1e2022;
+      }
+    </style>
+    <path id="icon" d="M 8,7.2 4.933,10.267 4,9.333 l 4,-4 4,4 -0.933,0.933 z" />
+  </defs>
+  <use href="#icon" class="ColorScheme-Background" stroke="currentColor" stroke-width="0.8" />
+  <use href="#icon" class="ColorScheme-Accent" fill="currentColor" />
+  <g id="c">
+    <circle cx="8" cy="13.5" r="0.5" class="ColorScheme-Background" fill="none" stroke="currentColor"
+      stroke-width="0.8" />
+    <circle cx="8" cy="13.5" r="0.5" class="ColorScheme-Accent" fill="currentColor" />
+  </g>
+  <use href="#c" x="-2" />
+  <use href="#c" x="2" />
+</svg>
