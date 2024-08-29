@@ -11,6 +11,6 @@
     </style>
     <path id="icon" d="m 7.333,8.667 h -4 V 7.333 h 4 v -4 h 1.333 v 4 H 12.667 V 8.667 H 8.667 V 12.667 H 7.333 Z" />
   </defs>
-  <use href="#icon" class="ColorScheme-Background" stroke="currentColor" stroke-width="1.4" />
+  <use href="#icon" class="ColorScheme-Background" stroke="currentColor" stroke-width="0.8" />
   <use href="#icon" class="ColorScheme-Accent" fill="currentColor" />
 </svg>
