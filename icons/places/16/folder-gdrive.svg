@@ -1,0 +1,26 @@
+<svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color: #e2e2e5;
+      }
+    </style>
+  </defs>
+  <path
+    d="m 2.058,12.466 0.617,1.066 c 0.128,0.225 0.313,0.401 0.529,0.529 l 2.205,-3.817 H 1 c 0,0.249 0.064,0.497 0.192,0.722 z"
+    class="ColorScheme-Text" fill="currentColor" />
+  <path
+    d="M 8,5.755 5.795,1.938 C 5.578,2.066 5.394,2.243 5.266,2.467 L 1.192,9.523 A 1.453,1.453 0 0 0 1,10.245 h 4.41 z"
+    class="ColorScheme-Text" fill="currentColor" />
+  <path
+    d="m 12.795,14.062 c 0.216,-0.128 0.401,-0.305 0.529,-0.529 l 0.257,-0.441 1.227,-2.125 C 14.936,10.742 15,10.494 15,10.245 h -4.41 l 0.938,1.844 z"
+    class="ColorScheme-Text" fill="currentColor" />
+  <path d="M 8,5.755 10.205,1.938 C 9.989,1.81 9.74,1.746 9.483,1.746 H 6.517 c -0.257,0 -0.505,0.072 -0.722,0.192 z"
+    class="ColorScheme-Text" fill="currentColor" />
+  <path
+    d="M 10.59,10.245 H 5.41 l -2.205,3.817 c 0.216,0.128 0.465,0.192 0.722,0.192 H 12.073 c 0.257,0 0.505,-0.072 0.722,-0.192 z"
+    class="ColorScheme-Text" fill="currentColor" />
+  <path
+    d="M 12.771,5.995 10.734,2.467 C 10.606,2.243 10.422,2.066 10.205,1.938 L 8,5.755 10.59,10.245 h 4.402 c 0,-0.249 -0.064,-0.497 -0.192,-0.722 z"
+    class="ColorScheme-Text" fill="currentColor" />
+</svg>

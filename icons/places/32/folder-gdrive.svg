@@ -1,0 +1,35 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Accent {
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #1e2022;
+      }
+    </style>
+    <path id="folder-back" d="M 2.667,26.667 V 5.333 H 14.033 l 2,2 h 13.3 V 26.667 Z" />
+  </defs>
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path d="M 2.667,26.667 V 9.333 H 14.033 l 2,-2 h 13.3 V 26.667 Z" class="ColorScheme-Accent" fill="currentColor" />
+  <path
+    d="m 10.907,21.828 0.529,0.914 c 0.11,0.192 0.268,0.344 0.454,0.454 l 1.89,-3.271 h -3.78 c 0,0.213 0.055,0.426 0.165,0.619 z"
+    class="ColorScheme-Background" fill="currentColor" />
+  <path
+    d="m 16,16.076 -1.89,-3.271 c -0.186,0.11 -0.344,0.261 -0.454,0.454 l -3.491,6.048 a 1.245,1.245 0 0 0 -0.165,0.619 h 3.78 z"
+    class="ColorScheme-Background" fill="currentColor" />
+  <path
+    d="m 20.11,23.196 c 0.186,-0.11 0.344,-0.261 0.454,-0.454 l 0.22,-0.378 1.052,-1.821 C 21.945,20.351 22,20.137 22,19.924 h -3.78 l 0.804,1.581 z"
+    class="ColorScheme-Background" fill="currentColor" />
+  <path
+    d="m 16,16.076 1.89,-3.271 C 17.704,12.694 17.491,12.639 17.271,12.639 h -2.543 c -0.22,0 -0.433,0.062 -0.619,0.165 z"
+    class="ColorScheme-Background" fill="currentColor" />
+  <path
+    d="m 18.22,19.924 h -4.44 l -1.89,3.271 c 0.186,0.11 0.399,0.165 0.619,0.165 h 6.983 c 0.22,0 0.433,-0.062 0.619,-0.165 z"
+    class="ColorScheme-Background" fill="currentColor" />
+  <path
+    d="m 20.089,16.282 -1.746,-3.024 c -0.11,-0.192 -0.268,-0.344 -0.454,-0.454 l -1.89,3.271 2.22,3.849 h 3.773 c 0,-0.213 -0.055,-0.426 -0.165,-0.619 z"
+    class="ColorScheme-Background" fill="currentColor" />
+</svg>
