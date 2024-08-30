@@ -1246,11 +1246,14 @@
     <use id="progress-pattern-disabled-bottom" href="#progress-b" y="8" class="disabled-back" />
     <use id="progress-pattern-disabled-bottomright" href="#progress-br" y="8" class="disabled-back" />
   </g>
-  <use href="#grip" />
-
-  <rect id="splitter-normal" width="5" height="19" opacity="0" />
-  <rect id="splitter-focused" width="5" height="19" class="outline" opacity="0.38" />
-  <rect id="splitter-pressed" width="5" height="19" class="outline" />
+  <g id="splitter-group" transform="translate(131,144)">
+    <use id="splitter-grip-normal" href="#grip" class="disabled-text" />
+    <use id="splitter-grip-pressed" href="#grip" opacity="0" />
+    <use id="splitter-grip-focused" href="#grip" opacity="0" />
+    <rect id="splitter-normal" width="5" height="19" opacity="0" />
+    <rect id="splitter-focused" width="5" height="19" x="5" class="outline" opacity="0.38" />
+    <rect id="splitter-pressed" width="5" height="19" x="10" class="outline" />
+  </g>
 
   <!-- <g id="slidercursor-normal">
     <rect width="5" height="19" opacity="0" />
@@ -1307,13 +1310,6 @@
   id="dock-normal"
   id="dock-focused"
   
-  id="splitter-grip-pressed"
-  id="splitter-grip-normal"
-  id="splitter-grip-focused"
-
-  id="splitter-normal"
-  id="splitter-focused"
-  id="splitter-pressed"  
 
   id="header-separator"
 

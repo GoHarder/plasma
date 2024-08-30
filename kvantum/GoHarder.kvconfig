@@ -272,9 +272,8 @@ frame.top=0
 frame.bottom=0
 frame.left=1
 frame.right=1
-; indicator.element=splitter-grip
-; indicator.size=16
-
+indicator.element=splitter-grip
+indicator.size=16
 
 # [Scrollbar]
 
