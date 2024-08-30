@@ -1248,9 +1248,9 @@
   </g>
   <use href="#grip" />
 
-  <rect id="splitter-normal" width="5" height="19" fill="800000" />
-  <rect id="splitter-focused" width="5" height="19" fill="008000" />
-  <rect id="splitter-pressed" width="5" height="19" fill="000080" />
+  <rect id="splitter-normal" width="5" height="19" opacity="0" />
+  <rect id="splitter-focused" width="5" height="19" class="outline" opacity="0.38" />
+  <rect id="splitter-pressed" width="5" height="19" class="outline" />
 
   <!-- <g id="slidercursor-normal">
     <rect width="5" height="19" opacity="0" />
