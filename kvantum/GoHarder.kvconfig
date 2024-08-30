@@ -45,8 +45,8 @@ spread_menuitems=true
 menu_separator_height=8
 # slider
 slider_width=4
-; slider_handle_width=19
-; slider_handle_length=5
+slider_handle_width=17
+slider_handle_length=17
 # checkbox
 check_size=20
 # rendering
@@ -232,10 +232,10 @@ frame.bottom=2
 frame.left=2
 frame.right=2
 
-; [SliderCursor]
-; inherits=ToolbarButton
-; frame=false
-; interior.element=slidercursor
+[SliderCursor]
+inherits=PanelButtonCommand
+frame=false
+interior.element=slidercursor
 
 [Progressbar]
 inherits=PanelButtonTool
