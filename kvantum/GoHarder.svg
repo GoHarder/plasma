@@ -1262,7 +1262,7 @@
     <rect id="splitter-focused" width="5" height="19" x="5" class="outline" opacity="0.38" />
     <rect id="splitter-pressed" width="5" height="19" x="10" class="outline" />
   </g>
-  <g id="slidercursor-group">
+  <g id="slidercursor-group" transform="translate(90,172)">
     <g id="slidercursor-normal">
       <rect width="17" height="17" x="0" y="0" opacity="0" />
       <circle cx="8.5" cy="9.5" r="7" fill="url(#slider-bg1)" opacity="0.3" />
@@ -1282,6 +1282,13 @@
       <circle cx="8.5" cy="8.5" r="7" class="disabled-text" />
     </g>
   </g>
+  <rect id="titlebar-focused" width="16" height="4" class="surf-cont-highest" />
+  <rect id="titlebar-normal" width="16" height="4" y="4" class="surf-cont-high" />
+  <rect id="grip-normal" width="8" height="13" opacity="0" />
+  <rect id="grip-focused" width="8" height="13" opacity="0" />
+  <rect id="grip-pressed" width="8" height="13" opacity="0" />
+
+  <rect id="header-separator" width="3" height="10" fill="#800000" />
   <!--   
   id="menuitem-tearoff-normal"
   id="menuitem-tearoff-focused"
@@ -1310,8 +1317,6 @@
   
   id="dock-normal"
   id="dock-focused"
-  
-  id="header-separator"
 
   id="focus-top"
   id="focus-right"
@@ -1322,12 +1327,7 @@
   "scrollbarSlider.background": "#c2c7cf2e",
   "scrollbarSlider.hoverBackground": "#c2c7cf40",
   -->
-  <!-- <rect id="titlebar-focused" width="16" height="4" class="surf-cont-highest" />
-  <rect id="titlebar-normal" width="16" height="4" y="4" class="surf-cont-high" />
-  <rect id="grip-normal" width="8" height="13" opacity="0" />
-  <rect id="grip-focused" width="8" height="13" opacity="0" />
-  <rect id="grip-pressed" width="8" height="13" opacity="0" />
-
+  <!-- 
   <use id="scrollbarslider-normal-topleft" href="#scrollbarslider-tl" fill="#c2c7cf2e" />
   <use id="scrollbarslider-normal-top" href="#scrollbarslider-t" fill="#c2c7cf2e" />
   <use id="scrollbarslider-normal-topright" href="#scrollbarslider-tr" fill="#c2c7cf2e" />
