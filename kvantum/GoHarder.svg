@@ -1288,7 +1288,12 @@
   <rect id="grip-focused" width="8" height="13" opacity="0" />
   <rect id="grip-pressed" width="8" height="13" opacity="0" />
 
-  <rect id="header-separator" width="3" height="10" fill="#800000" />
+  <g id="header-separator">
+    <rect width="5" height="10" opacity="0" />
+    <rect width="1" height="10" x="4" class="outline" />
+  </g>
+
+
   <!--   
   id="menuitem-tearoff-normal"
   id="menuitem-tearoff-focused"

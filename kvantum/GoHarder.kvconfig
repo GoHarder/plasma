@@ -32,6 +32,8 @@ left_tabs=true
 ; tab_button_extra_margin=0
 ; bold_active_tab=false
 
+
+
 # toolbar
 group_toolbar_buttons=true
 ; toolbar_item_spacing=0 < is 0 because of group_toolbar_buttons
@@ -212,7 +214,14 @@ frame.right=1
 interior.element=common
 
 # [TreeExpander]
-# [HeaderSection]
+
+[HeaderSection]
+inherits=PanelButtonCommand
+frame.element=tabframe
+frame.top=1
+frame.bottom=1
+frame.left=1
+frame.right=1
 
 [SizeGrip]
 indicator.element=sizegrip
