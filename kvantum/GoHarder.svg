@@ -226,6 +226,15 @@
     <rect id="expand-button-normal-bottom" width="10" height="20" x="20" y="20" class="surf-cont-highest" />
     <path id="expand-button-normal-bottomright" d="M 50,20 q 0,20 -20,20 v -20 Z" class="surf-cont-highest" />
 
+
+    <path id="expand-button-default-topleft" d="M 0,20 q 0,-20 20,-20 v 20 Z" fill="#ff0000" />
+    <rect id="expand-button-default-top" width="10" height="20" x="20" fill="#ff0000" />
+    <path id="expand-button-default-topright" d="M 50,20 q 0,-20 -20,-20 v 20 Z" fill="#ff0000" />
+    <path id="expand-button-default-bottomleft" d="M 0,20 q 0,20 20,20 v -20 Z" fill="#ff0000" />
+    <rect id="expand-button-default-bottom" width="10" height="20" x="20" y="20" fill="#ff0000" />
+    <path id="expand-button-default-bottomright" d="M 50,20 q 0,20 -20,20 v -20 Z" fill="#ff0000" />
+
+
     <g id="button-normal-group">
       <use id="button-normal-topleft" href="#r-8-tl" class="surf-cont-highest" />
       <use id="button-normal-top" href="#sq-8-t" class="surf-cont-highest" />
@@ -236,6 +245,18 @@
       <use id="button-normal-bottomleft" href="#r-8-bl" class="surf-cont-highest" />
       <use id="button-normal-bottom" href="#sq-8-b" class="surf-cont-highest" />
       <use id="button-normal-bottomright" href="#r-8-br" class="surf-cont-highest" />
+
+      <use id="button-default-topleft" href="#r-8-tl" fill="#ff0000" />
+      <use id="button-default-top" href="#sq-8-t" fill="#ff0000" />
+      <use id="button-default-topright" href="#r-8-tr" fill="#ff0000" />
+      <use id="button-default-left" href="#sq-8-l" fill="#ff0000" />
+      <use id="button-default" href="#sq-8-c" fill="#ff0000" />
+      <use id="button-default-right" href="#sq-8-r" fill="#ff0000" />
+      <use id="button-default-bottomleft" href="#r-8-bl" fill="#ff0000" />
+      <use id="button-default-bottom" href="#sq-8-b" fill="#ff0000" />
+      <use id="button-default-bottomright" href="#r-8-br" fill="#ff0000" />
+
+
       <!-- <g id="ar-1-down-normal" transform="translate(3)">
         <use href="#icon-box" />
         <use href="#down" class="pri" />
