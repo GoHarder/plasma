@@ -334,50 +334,24 @@
       </g>
     </g>
     <g id="button-default-group" transform="translate(128)">
-      <g id="button-default-topleft">
-        <use href="#button-normal-topleft" />
-        <path d="M 0,8 q 0,-8 8,-8 v 3 q -5,0 -5,5 h -3 Z" class="sec" />
-      </g>
-      <g id="button-default-top">
-        <use href="#button-normal-top" />
-        <rect width="16" height="3" x="8" class="sec" />
-      </g>
-      <g id="button-default-topright">
-        <use href="#button-normal-topright" />
-        <path d="M 32,8 q 0,-8 -8,-8 v 3 q 5,0 5,5 h 3 Z" class="sec" />
-      </g>
-      <g id="button-default-left">
-        <use href="#button-normal-left" />
-        <rect width="3" height="16" y="8" class="sec" />
-      </g>
+      <use id="border-button-default-topleft" href="#r-8-tl" class="sec" />
+      <use id="border-button-default-top" href="#sq-8-t" class="sec" />
+      <use id="border-button-default-topright" href="#r-8-tr" class="sec" />
+      <use id="border-button-default-left" href="#sq-8-l" class="sec" />
+      <use id="border-button-default" href="#sq-8-c" class="sec" />
+      <use id="border-button-default-right" href="#sq-8-r" class="sec" />
+      <use id="border-button-default-bottomleft" href="#r-8-bl" class="sec" />
+      <use id="border-button-default-bottom" href="#sq-8-b" class="sec" />
+      <use id="border-button-default-bottomright" href="#r-8-br" class="sec" />
+      <use id="button-default-topleft" href="#button-normal-topleft" />
+      <use id="button-default-top" href="#button-normal-top" />
+      <use id="button-default-topright" href="#button-normal-topright" />
+      <use id="button-default-left" href="#button-normal-left" />
       <use id="button-default" href="#button-normal" />
-      <g id="button-default-right">
-        <use href="#button-normal-right" />
-        <rect width="3" height="16" x="29" y="8" class="sec" />
-      </g>
-      <g id="button-default-bottomleft">
-        <use href="#button-normal-bottomleft" />
-        <path d="M 0,24 q 0,8 8,8 v -3 q -5,0 -5,-5 h -3 Z" class="sec" />
-      </g>
-      <g id="button-default-bottom">
-        <use href="#button-normal-bottom" />
-        <rect width="16" height="3" x="8" y="29" class="sec" />
-      </g>
-      <g id="button-default-bottomright">
-        <use href="#button-normal-bottomright" />
-        <path d="M 32,24 q 0,8 -8,8 v -3 q 5,0 5,-5 h 3 Z" class="sec" />
-      </g>
-
-      <!-- <use id="border-button-default-topleft" href="#r-8-tl" fill="#ff0000" />
-      <use id="border-button-default-top" href="#sq-8-t" fill="#ff0000" />
-      <use id="border-button-default-topright" href="#r-8-tr" fill="#ff0000" />
-      <use id="border-button-default-left" href="#sq-8-l" fill="#ff0000" />
-      <use id="border-button-default" href="#sq-8-c" fill="#ff0000" />
-      <use id="border-button-default-right" href="#sq-8-r" fill="#ff0000" />
-      <use id="border-button-default-bottomleft" href="#r-8-bl" fill="#ff0000" />
-      <use id="border-button-default-bottom" href="#sq-8-b" fill="#ff0000" />
-      <use id="border-button-default-bottomright" href="#r-8-br" fill="#ff0000" /> -->
-
+      <use id="button-default-right" href="#button-normal-right" />
+      <use id="button-default-bottomleft" href="#button-normal-bottomleft" />
+      <use id="button-default-bottom" href="#button-normal-bottom" />
+      <use id="button-default-bottomright" href="#button-normal-bottomright" />
     </g>
     <rect id="button-default-indicator" width="5" height="5" opacity="0" />
   </g>

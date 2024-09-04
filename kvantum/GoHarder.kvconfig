@@ -123,10 +123,14 @@ text.margin.bottom=2
 text.margin.left=4
 text.margin.right=4
 text.iconspacing=4
-text.normal.color=#95ccff
-text.focus.color=#95ccff
-text.press.color=#95ccff
-text.toggle.color=#003353
+text.normal.color=#d5e4f6
+text.focus.color=#d5e4f6
+text.press.color=#d5e4f6
+text.toggle.color=#3a4857
+frame.expanded.top=3
+frame.expanded.bottom=3
+frame.expanded.left=3
+frame.expanded.right=3
 
 [PanelButtonTool]
 inherits=PanelButtonCommand
