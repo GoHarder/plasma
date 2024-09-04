@@ -367,6 +367,17 @@
         <use href="#button-normal-bottomright" />
         <path d="M 32,24 q 0,8 -8,8 v -3 q 5,0 5,-5 h 3 Z" class="sec" />
       </g>
+
+      <!-- <use id="border-button-default-topleft" href="#r-8-tl" fill="#ff0000" />
+      <use id="border-button-default-top" href="#sq-8-t" fill="#ff0000" />
+      <use id="border-button-default-topright" href="#r-8-tr" fill="#ff0000" />
+      <use id="border-button-default-left" href="#sq-8-l" fill="#ff0000" />
+      <use id="border-button-default" href="#sq-8-c" fill="#ff0000" />
+      <use id="border-button-default-right" href="#sq-8-r" fill="#ff0000" />
+      <use id="border-button-default-bottomleft" href="#r-8-bl" fill="#ff0000" />
+      <use id="border-button-default-bottom" href="#sq-8-b" fill="#ff0000" />
+      <use id="border-button-default-bottomright" href="#r-8-br" fill="#ff0000" /> -->
+
     </g>
     <rect id="button-default-indicator" width="5" height="5" opacity="0" />
   </g>
