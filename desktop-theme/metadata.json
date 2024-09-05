@@ -8,10 +8,10 @@
     ],
     "Category": "",
     "EnabledByDefault": true,
-    "Id": "Test",
+    "Id": "GoHarder",
     "License": "LGPL",
-    "Name": "Test",
-    "Version": "0.0.0-0",
+    "Name": "GoHarder",
+    "Version": "0.0.0",
     "Website": "https://www.kde.org/"
   },
   "X-Plasma-API": "5.0"
