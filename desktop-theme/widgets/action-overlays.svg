@@ -1,0 +1,79 @@
+<svg width="66" height="66" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color: #e2e2e5;
+      }
+
+      .ColorScheme-Accent {
+        color: #95ccff;
+      }
+
+      .ColorScheme-NegativeText {
+        color: #ff5540;
+      }
+
+      .ColorScheme-PositiveText {
+        color: #50c24b;
+      }
+
+      .ColorScheme-Background {
+        color: #1e2022;
+      }
+    </style>
+    <rect id="box" width="22" height="22" opacity="0" />
+    <path id="add"
+      d="M 10.083,11.917 H 4.583 V 10.083 H 10.083 V 4.583 h 1.833 v 5.5 h 5.5 v 1.833 h -5.5 v 5.5 h -1.833 z" />
+    <path id="open"
+      d="M 10.083,18.333 V 7.173 L 4.95,12.306 3.667,11 11,3.667 18.333,11 17.05,12.306 11.917,7.173 V 18.333 Z" />
+    <path id="remove" d="M 4.583,11.917 V 10.083 H 17.417 v 1.833 z" />
+  </defs>
+  <g id="add-normal">
+    <use href="#box" />
+    <use href="#add" class="ColorScheme-Background" stroke="currentColor" stroke-width="1.5" />
+    <use href="#add" class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="add-hover" transform="translate(22,0)">
+    <use href="#box" />
+    <use href="#add" class="ColorScheme-Background" stroke="currentColor" stroke-width="1.5" />
+    <use href="#add" class="ColorScheme-PositiveText" fill="currentColor" />
+  </g>
+  <g id="add-pressed" transform="translate(44,0)">
+    <use href="#box" />
+    <use href="#add" class="ColorScheme-Background" stroke="currentColor" stroke-width="1.5" />
+    <use href="#add" class="ColorScheme-PositiveText" fill="currentColor" />
+    <use href="#add" class="ColorScheme-Text" fill="currentColor" opacity="0.1" />
+  </g>
+  <g id="open-normal" transform="translate(0,22)">
+    <use href="#box" />
+    <use href="#open" class="ColorScheme-Background" stroke="currentColor" stroke-width="1.5" />
+    <use href="#open" class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="open-hover" transform="translate(22,22)">
+    <use href="#box" />
+    <use href="#open" class="ColorScheme-Background" stroke="currentColor" stroke-width="1.5" />
+    <use href="#open" class="ColorScheme-Accent" fill="currentColor" />
+  </g>
+  <g id="open-pressed" transform="translate(44,22)">
+    <use href="#box" />
+    <use href="#open" class="ColorScheme-Background" stroke="currentColor" stroke-width="1.5" />
+    <use href="#open" class="ColorScheme-Accent" fill="currentColor" />
+    <use href="#open" class="ColorScheme-Text" fill="currentColor" opacity="0.1" />
+  </g>
+  <g id="remove-normal" transform="translate(0,44)">
+    <use href="#box" />
+    <use href="#remove" class="ColorScheme-Background" stroke="currentColor" stroke-width="1.5" />
+    <use href="#remove" class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="remove-hover" transform="translate(22,44)">
+    <use href="#box" />
+    <use href="#remove" class="ColorScheme-Background" stroke="currentColor" stroke-width="1.5" />
+    <use href="#remove" class="ColorScheme-NegativeText" fill="currentColor" />
+  </g>
+  <g id="remove-pressed" transform="translate(44,44)">
+    <use href="#box" />
+    <use href="#remove" class="ColorScheme-Background" stroke="currentColor" stroke-width="1.5" />
+    <use href="#remove" class="ColorScheme-NegativeText" fill="currentColor" />
+    <use href="#remove" class="ColorScheme-Text" fill="currentColor" opacity="0.1" />
+  </g>
+</svg>
