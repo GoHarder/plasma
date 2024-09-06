@@ -189,12 +189,9 @@ interior.element=common
 text.margin=false
 
 [LineEdit]
-inherits=PanelButtonCommand
+inherits=PanelButtonTool
 frame.element=lineedit
 interior=false
-text.normal.color=#e2e2e5
-text.focus.color=#e2e2e5
-text.press.color=#e2e2e5
 text.toggle.color=#e2e2e5
 
 # [DropDownButton]

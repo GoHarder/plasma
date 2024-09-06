@@ -826,7 +826,7 @@
       </g>
     </g>
   </g> -->
-  <!-- <g id="lineedit-group" transform="translate(0,96)">
+  <g id="lineedit-group" transform="translate(0,96)">
     <g id="lineedit-normal-group">
       <g id="lineedit-normal-topleft">
         <rect id="lineedit-normal-topleft-1" width="8" height="8" x="0" y="0" opacity="0" />
@@ -883,7 +883,7 @@
       </g>
       <path id="lineedit-focused-bottomright" d="M 32,28 q 0,4 -4,4 h -4 v -2 h 4 q 2,0 2,-2 v -4 h 2 Z" class="pri" />
     </g>
-  </g> -->
+  </g>
   <!-- <g id="radio-group" transform="translate(72,96)">
     <g id="radio-normal">
       <circle cx="12" cy="12" r="12" opacity="0" />
