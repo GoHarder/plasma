@@ -1,0 +1,571 @@
+<svg width="136" height="114" viewBox="0 0 136 114" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" />
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text {
+        color: #e2e2e5;
+      }
+
+      .ColorScheme-PositiveText {
+        color: #50c24b;
+      }
+
+      .ColorScheme-NeutralText {
+        color: #f9bd00;
+      }
+    </style>
+    <rect id="tl-0" width="4" height="3" opacity="0" />
+    <rect id="tl-1" width="3" height="3" x="1" />
+    <path id="tl-2" d="M 2.5 0 A 1.5 1.5 0 0 0 1 1.5 A 1.5 1.5 0 0 0 2.5 3 L 4 3 L 4 1.5 L 4 0 L 2.5 0 z" />
+    <path id="tl-3" d="M 2.5 0 A 1.5 1.5 0 0 0 1 1.5 L 1 3 L 2.5 3 L 4 3 L 4 1.5 A 1.5 1.5 0 0 0 2.5 0 z" />
+    <rect id="t-1" width="26" height="3" x="4" />
+    <rect id="tr-0" width="4" height="3" x="30" opacity="0" />
+    <rect id="tr-1" width="3" height="3" x="30" />
+    <path id="tr-2" d="M 30 0 L 30 1.5 L 30 3 L 31.5 3 A 1.5 1.5 0 0 0 33 1.5 A 1.5 1.5 0 0 0 31.5 0 L 30 0 z" />
+    <path id="tr-3" d="M 31.5 0 A 1.5 1.5 0 0 0 30 1.5 L 30 3 L 31.5 3 L 33 3 L 33 1.5 A 1.5 1.5 0 0 0 31.5 0 z" />
+    <rect id="l-0" width="4" height="13" y="3" opacity="0" />
+    <rect id="l-1" width="3" height="13" x="1" y="3" />
+    <rect id="c" width="26" height="13" x="4" y="3" />
+    <rect id="r-0" width="4" height="13" x="30" y="3" opacity="0" />
+    <rect id="r-1" width="3" height="13" x="30" y="3" />
+    <rect id="bl-0" width="4" height="3" y="16" opacity="0" />
+    <rect id="bl-1" width="3" height="3" x="1" y="16" />
+    <path id="bl-2" d="M 2.5 16 A 1.5 1.5 0 0 0 1 17.5 A 1.5 1.5 0 0 0 2.5 19 L 4 19 L 4 17.5 L 4 16 L 2.5 16 z" />
+    <path id="bl-3" d="M 1 16 L 1 17.5 A 1.5 1.5 0 0 0 2.5 19 A 1.5 1.5 0 0 0 4 17.5 L 4 16 L 2.5 16 L 1 16 z" />
+    <rect id="b-1" width="26" height="3" x="4" y="16" />
+    <rect id="br-0" width="4" height="3" x="30" y="16" opacity="0" />
+    <rect id="br-1" width="3" height="3" x="30" y="16" />
+    <path id="br-2" d="M 30 16 L 30 17.5 L 30 19 L 31.5 19 A 1.5 1.5 0 0 0 33 17.5 A 1.5 1.5 0 0 0 31.5 16 L 30 16 z" />
+    <path id="br-3" d="M 30 16 L 30 17.5 A 1.5 1.5 0 0 0 31.5 19 A 1.5 1.5 0 0 0 33 17.5 L 33 16 L 31.5 16 L 30 16 z" />
+  </defs>
+  <g id="s-progress" transform="translate(0)">
+    <use id="progress-topleft" href="#tl-0" />
+    <use id="progress-top" href="#t-1" opacity="0" />
+    <use id="progress-topright" href="#tr-0" />
+    <use id="progress-left" href="#l-0" />
+    <use id="progress-center" href="#c" opacity="0" />
+    <use id="progress-right" href="#r-0" />
+    <g id="progress-bottomleft">
+      <use href="#bl-0" />
+      <use href="#bl-2" class="ColorScheme-PositiveText" fill="currentColor" />
+    </g>
+    <use id="progress-bottom" href="#b-1" class="ColorScheme-PositiveText" fill="currentColor" />
+    <g id="progress-bottomright">
+      <use href="#br-0" />
+      <use href="#br-2" class="ColorScheme-PositiveText" fill="currentColor" />
+    </g>
+  </g>
+  <g id="n-progress" transform="translate(34)">
+    <g id="north-progress-topleft">
+      <use href="#tl-0" />
+      <use href="#tl-2" class="ColorScheme-PositiveText" fill="currentColor" />
+    </g>
+    <use id="north-progress-top" href="#t-1" class="ColorScheme-PositiveText" fill="currentColor" />
+    <g id="north-progress-topright">
+      <use href="#tr-0" />
+      <use href="#tr-2" class="ColorScheme-PositiveText" fill="currentColor" />
+    </g>
+    <use id="north-progress-left" href="#l-0" />
+    <use id="north-progress-center" href="#c" opacity="0" />
+    <use id="north-progress-right" href="#r-0" />
+    <use id="north-progress-bottomleft" href="#bl-0" />
+    <use id="north-progress-bottom" href="#b-1" opacity="0" />
+    <use id="north-progress-bottomright" href="#br-0" />
+  </g>
+  <g id="w-progress" transform="translate(68)">
+    <g id="west-progress-topleft">
+      <use href="#tl-0" />
+      <use href="#tl-3" class="ColorScheme-PositiveText" fill="currentColor" />
+    </g>
+    <use id="west-progress-top" href="#t-1" opacity="0" />
+    <use id="west-progress-topright" href="#tr-0" />
+    <g id="west-progress-left">
+      <use href="#l-0" />
+      <use href="#l-1" class="ColorScheme-PositiveText" fill="currentColor" />
+    </g>
+    <use id="west-progress-center" href="#c" opacity="0" />
+    <use id="west-progress-right" href="#r-0" />
+    <g id="west-progress-bottomleft">
+      <use href="#bl-0" />
+      <use href="#bl-3" class="ColorScheme-PositiveText" fill="currentColor" />
+    </g>
+    <use id="west-progress-bottom" href="#b-1" opacity="0" />
+    <use id="west-progress-bottomright" href="#br-0" />
+  </g>
+  <g id="e-progress" transform="translate(102)">
+    <use id="east-progress-topleft" href="#tl-0" />
+    <use id="east-progress-top" href="#t-1" opacity="0" />
+    <g id="east-progress-topright">
+      <use href="#tr-0" />
+      <use href="#tr-3" class="ColorScheme-PositiveText" fill="currentColor" />
+    </g>
+    <use id="east-progress-left" href="#l-0" />
+    <use id="east-progress-center" href="#c" opacity="0" />
+    <g id="east-progress-right">
+      <use href="#r-0" />
+      <use href="#r-1" class="ColorScheme-PositiveText" fill="currentColor" />
+    </g>
+    <use id="east-progress-bottomleft" href="#bl-0" />
+    <use id="east-progress-bottom" href="#b-1" opacity="0" />
+    <g id="east-progress-bottomright">
+      <use href="#br-0" />
+      <use href="#br-3" class="ColorScheme-PositiveText" fill="currentColor" />
+    </g>
+  </g>
+  <g id="s-focus" transform="translate(0,19)">
+    <g id="focus-topleft">
+      <use href="#tl-0" />
+      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 2 a 1,1 0 0 1 1,-1 z" fill="#ff0000" />
+    </g>
+    <g id="focus-top">
+      <use href="#t-1" opacity="0.25" />
+      <rect width="26" height="2" x="4" y="0" fill="#ff0000" />
+    </g>
+    <g id="focus-topright">
+      <use href="#tr-0" />
+      <path d="M 30,0 a 3,3 0 0 1 3,3 h -2 a 1,1 0 0 0 -1,-1 z" fill="#ff0000" />
+    </g>
+    <g id="focus-left">
+      <use href="#l-0" />
+      <rect width="2" height="13" x="1" y="3" fill="#ff0000" />
+    </g>
+    <use id="focus-center" href="#c" opacity="0" />
+    <g id="focus-right">
+      <use href="#r-0" />
+      <rect width="2" height="13" x="31" y="3" fill="#ff0000" />
+    </g>
+    <g id="focus-bottomleft">
+      <use href="#bl-0" />
+      <path d="M 1,16 a 3,3 0 0 0 3,3 v -2 a 1,1 0 0 1 -1,-1 z" fill="#ff0000" />
+    </g>
+    <g id="focus-bottom">
+      <use href="#b-1" opacity="0.25" />
+      <rect width="26" height="2" x="4" y="17" fill="#ff0000" />
+    </g>
+    <g id="focus-bottomright">
+      <use href="#br-0" />
+      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -2 a 1,1 0 0 0 1,-1 z" fill="#ff0000" />
+    </g>
+  </g>
+  <g id="n-focus" transform="translate(34,19)">
+    <g id="north-focus-topleft">
+      <use href="#tl-0" />
+      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 2 a 1,1 0 0 1 1,-1 z" fill="#ff0000" />
+    </g>
+    <g id="north-focus-top">
+      <use href="#t-1" opacity="0.25" />
+      <rect width="26" height="2" x="4" y="0" fill="#ff0000" />
+    </g>
+    <g id="north-focus-topright">
+      <use href="#tr-0" />
+      <path d="M 30,0 a 3,3 0 0 1 3,3 h -2 a 1,1 0 0 0 -1,-1 z" fill="#ff0000" />
+    </g>
+    <g id="north-focus-left">
+      <use href="#l-0" />
+      <rect width="2" height="13" x="1" y="3" fill="#ff0000" />
+    </g>
+    <use id="north-focus-center" href="#c" opacity="0" />
+    <g id="north-focus-right">
+      <use href="#r-0" />
+      <rect width="2" height="13" x="31" y="3" fill="#ff0000" />
+    </g>
+    <g id="north-focus-bottomleft">
+      <use href="#bl-0" />
+      <path d="M 1,16 a 3,3 0 0 0 3,3 v -2 a 1,1 0 0 1 -1,-1 z" fill="#ff0000" />
+    </g>
+    <g id="north-focus-bottom">
+      <use href="#b-1" opacity="0.25" />
+      <rect width="26" height="2" x="4" y="17" fill="#ff0000" />
+    </g>
+    <g id="north-focus-bottomright">
+      <use href="#br-0" />
+      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -2 a 1,1 0 0 0 1,-1 z" fill="#ff0000" />
+    </g>
+  </g>
+  <g id="w-focus" transform="translate(68,19)">
+    <g id="west-focus-topleft">
+      <use href="#tl-0" />
+      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 2 a 1,1 0 0 1 1,-1 z" fill="#ff0000" />
+    </g>
+    <g id="west-focus-top">
+      <use href="#t-1" opacity="0.25" />
+      <rect width="26" height="2" x="4" y="0" fill="#ff0000" />
+    </g>
+    <g id="west-focus-topright">
+      <use href="#tr-0" />
+      <path d="M 30,0 a 3,3 0 0 1 3,3 h -2 a 1,1 0 0 0 -1,-1 z" fill="#ff0000" />
+    </g>
+    <g id="west-focus-left">
+      <use href="#l-0" />
+      <rect width="2" height="13" x="1" y="3" fill="#ff0000" />
+    </g>
+    <use id="west-focus-center" href="#c" opacity="0" />
+    <g id="west-focus-right">
+      <use href="#r-0" />
+      <rect width="2" height="13" x="31" y="3" fill="#ff0000" />
+    </g>
+    <g id="west-focus-bottomleft">
+      <use href="#bl-0" />
+      <path d="M 1,16 a 3,3 0 0 0 3,3 v -2 a 1,1 0 0 1 -1,-1 z" fill="#ff0000" />
+    </g>
+    <g id="west-focus-bottom">
+      <use href="#b-1" opacity="0.25" />
+      <rect width="26" height="2" x="4" y="17" fill="#ff0000" />
+    </g>
+    <g id="west-focus-bottomright">
+      <use href="#br-0" />
+      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -2 a 1,1 0 0 0 1,-1 z" fill="#ff0000" />
+    </g>
+  </g>
+  <g id="e-focus" transform="translate(102,19)">
+    <g id="east-focus-topleft">
+      <use href="#tl-0" />
+      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 2 a 1,1 0 0 1 1,-1 z" fill="#ff0000" />
+    </g>
+    <g id="east-focus-top">
+      <use href="#t-1" opacity="0.25" />
+      <rect width="26" height="2" x="4" y="0" fill="#ff0000" />
+    </g>
+    <g id="east-focus-topright">
+      <use href="#tr-0" />
+      <path d="M 30,0 a 3,3 0 0 1 3,3 h -2 a 1,1 0 0 0 -1,-1 z" fill="#ff0000" />
+    </g>
+    <g id="east-focus-left">
+      <use href="#l-0" />
+      <rect width="2" height="13" x="1" y="3" fill="#ff0000" />
+    </g>
+    <use id="east-focus-center" href="#c" opacity="0" />
+    <g id="east-focus-right">
+      <use href="#r-0" />
+      <rect width="2" height="13" x="31" y="3" fill="#ff0000" />
+    </g>
+    <g id="east-focus-bottomleft">
+      <use href="#bl-0" />
+      <path d="M 1,16 a 3,3 0 0 0 3,3 v -2 a 1,1 0 0 1 -1,-1 z" fill="#ff0000" />
+    </g>
+    <g id="east-focus-bottom">
+      <use href="#b-1" opacity="0.25" />
+      <rect width="26" height="2" x="4" y="17" fill="#ff0000" />
+    </g>
+    <g id="east-focus-bottomright">
+      <use href="#br-0" />
+      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -2 a 1,1 0 0 0 1,-1 z" fill="#ff0000" />
+    </g>
+  </g>
+  <g id="s-normal" transform="translate(0,38)">
+    <use id="normal-topleft" href="#tl-0" />
+    <use id="normal-top" href="#t-1" opacity="0" />
+    <use id="normal-topright" href="#tr-0" />
+    <use id="normal-left" href="#l-0" />
+    <use id="normal-center" href="#c" opacity="0" />
+    <use id="normal-right" href="#r-0" />
+    <g id="normal-bottomleft">
+      <use href="#bl-0" />
+      <use href="#bl-2" class="ColorScheme-Text" fill="currentColor" />
+    </g>
+    <use id="normal-bottom" href="#b-1" class="ColorScheme-Text" fill="currentColor" />
+    <g id="normal-bottomright">
+      <use href="#br-0" />
+      <use href="#br-2" class="ColorScheme-Text" fill="currentColor" />
+    </g>
+  </g>
+  <g id="n-normal" transform="translate(34,38)">
+    <g id="north-normal-topleft">
+      <use href="#tl-0" />
+      <use href="#tl-2" class="ColorScheme-Text" fill="currentColor" />
+    </g>
+    <use id="north-normal-top" href="#t-1" class="ColorScheme-Text" fill="currentColor" />
+    <g id="north-normal-topright">
+      <use href="#tr-0" />
+      <use href="#tr-2" class="ColorScheme-Text" fill="currentColor" />
+    </g>
+    <use id="north-normal-left" href="#l-0" />
+    <use id="north-normal-center" href="#c" opacity="0" />
+    <use id="north-normal-right" href="#r-0" />
+    <use id="north-normal-bottomleft" href="#bl-0" />
+    <use id="north-normal-bottom" href="#b-1" opacity="0" />
+    <use id="north-normal-bottomright" href="#br-0" />
+  </g>
+  <g id="w-normal" transform="translate(68,38)">
+    <g id="west-normal-topleft">
+      <use href="#tl-0" />
+      <use href="#tl-3" class="ColorScheme-Text" fill="currentColor" />
+    </g>
+    <use id="west-normal-top" href="#t-1" opacity="0" />
+    <use id="west-normal-topright" href="#tr-0" />
+    <g id="west-normal-left">
+      <use href="#l-0" />
+      <use href="#l-1" class="ColorScheme-Text" fill="currentColor" />
+    </g>
+    <use id="west-normal-center" href="#c" opacity="0" />
+    <use id="west-normal-right" href="#r-0" />
+    <g id="west-normal-bottomleft">
+      <use href="#bl-0" />
+      <use href="#bl-3" class="ColorScheme-Text" fill="currentColor" />
+    </g>
+    <use id="west-normal-bottom" href="#b-1" opacity="0" />
+    <use id="west-normal-bottomright" href="#br-0" />
+  </g>
+  <g id="e-normal" transform="translate(102,38)">
+    <use id="east-normal-topleft" href="#tl-0" />
+    <use id="east-normal-top" href="#t-1" opacity="0" />
+    <g id="east-normal-topright">
+      <use href="#tr-0" />
+      <use href="#tr-3" class="ColorScheme-Text" fill="currentColor" />
+    </g>
+    <use id="east-normal-left" href="#l-0" />
+    <use id="east-normal-center" href="#c" opacity="0" />
+    <g id="east-normal-right">
+      <use href="#r-0" />
+      <use href="#r-1" class="ColorScheme-Text" fill="currentColor" />
+    </g>
+    <use id="east-normal-bottomleft" href="#bl-0" />
+    <use id="east-normal-bottom" href="#b-1" opacity="0" />
+    <g id="east-normal-bottomright">
+      <use href="#br-0" />
+      <use href="#br-3" class="ColorScheme-Text" fill="currentColor" />
+    </g>
+  </g>
+  <g id="s-hover" transform="translate(0,57)">
+    <g id="hover-topleft">
+      <use href="#tl-0" />
+      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 3 z" fill="#00ff00" opacity="0.25" />
+    </g>
+    <use id="hover-top" href="#t-1" fill="#00ff00" opacity="0.25" />
+    <g id="hover-topright">
+      <use href="#tr-0" />
+      <path d="M 30,0 a 3,3 0 0 1 3,3 h -3 z" fill="#00ff00" opacity="0.25" />
+    </g>
+    <g id="hover-left">
+      <use href="#l-0" />
+      <use href="#l-1" fill="#00ff00" opacity="0.25" />
+    </g>
+    <use id="hover-center" href="#c" fill="#00ff00" opacity="0.25" />
+    <g id="hover-right">
+      <use href="#r-0" />
+      <use href="#r-1" fill="#00ff00" opacity="0.25" />
+    </g>
+    <g id="hover-bottomleft">
+      <use href="#bl-0" />
+      <path d="M 1,16 a 3,3 0 0 0 3,3 v -3 z" fill="#00ff00" opacity="0.25" />
+    </g>
+    <use id="hover-bottom" href="#b-1" fill="#00ff00" opacity="0.25" />
+    <g id="hover-bottomright">
+      <use href="#br-0" />
+      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -3 z" fill="#00ff00" opacity="0.25" />
+    </g>
+  </g>
+  <g id="n-hover" transform="translate(34,57)">
+    <g id="north-hover-topleft">
+      <use href="#tl-0" />
+      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 3 z" fill="#00ff00" opacity="0.25" />
+    </g>
+    <use id="north-hover-top" href="#t-1" fill="#00ff00" opacity="0.25" />
+    <g id="north-hover-topright">
+      <use href="#tr-0" />
+      <path d="M 30,0 a 3,3 0 0 1 3,3 h -3 z" fill="#00ff00" opacity="0.25" />
+    </g>
+    <g id="north-hover-left">
+      <use href="#l-0" />
+      <use href="#l-1" fill="#00ff00" opacity="0.25" />
+    </g>
+    <use id="north-hover-center" href="#c" fill="#00ff00" opacity="0.25" />
+    <g id="north-hover-right">
+      <use href="#r-0" />
+      <use href="#r-1" fill="#00ff00" opacity="0.25" />
+    </g>
+    <g id="north-hover-bottomleft">
+      <use href="#bl-0" />
+      <path d="M 1,16 a 3,3 0 0 0 3,3 v -3 z" fill="#00ff00" opacity="0.25" />
+    </g>
+    <use id="north-hover-bottom" href="#b-1" fill="#00ff00" opacity="0.25" />
+    <g id="north-hover-bottomright">
+      <use href="#br-0" />
+      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -3 z" fill="#00ff00" opacity="0.25" />
+    </g>
+  </g>
+  <g id="w-hover" transform="translate(68,57)">
+    <g id="west-hover-topleft">
+      <use href="#tl-0" />
+      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 3 z" fill="#00ff00" opacity="0.25" />
+    </g>
+    <use id="west-hover-top" href="#t-1" fill="#00ff00" opacity="0.25" />
+    <g id="west-hover-topright">
+      <use href="#tr-0" />
+      <path d="M 30,0 a 3,3 0 0 1 3,3 h -3 z" fill="#00ff00" opacity="0.25" />
+    </g>
+    <g id="west-hover-left">
+      <use href="#l-0" />
+      <use href="#l-1" fill="#00ff00" opacity="0.25" />
+    </g>
+    <use id="west-hover-center" href="#c" fill="#00ff00" opacity="0.25" />
+    <g id="west-hover-right">
+      <use href="#r-0" />
+      <use href="#r-1" fill="#00ff00" opacity="0.25" />
+    </g>
+    <g id="west-hover-bottomleft">
+      <use href="#bl-0" />
+      <path d="M 1,16 a 3,3 0 0 0 3,3 v -3 z" fill="#00ff00" opacity="0.25" />
+    </g>
+    <use id="west-hover-bottom" href="#b-1" fill="#00ff00" opacity="0.25" />
+    <g id="west-hover-bottomright">
+      <use href="#br-0" />
+      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -3 z" fill="#00ff00" opacity="0.25" />
+    </g>
+  </g>
+  <g id="e-hover" transform="translate(102,57)">
+    <g id="east-hover-topleft">
+      <use href="#tl-0" />
+      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 3 z" fill="#00ff00" opacity="0.25" />
+    </g>
+    <use id="east-hover-top" href="#t-1" fill="#00ff00" opacity="0.25" />
+    <g id="east-hover-topright">
+      <use href="#tr-0" />
+      <path d="M 30,0 a 3,3 0 0 1 3,3 h -3 z" fill="#00ff00" opacity="0.25" />
+    </g>
+    <g id="east-hover-left">
+      <use href="#l-0" />
+      <use href="#l-1" fill="#00ff00" opacity="0.25" />
+    </g>
+    <use id="east-hover-center" href="#c" fill="#00ff00" opacity="0.25" />
+    <g id="east-hover-right">
+      <use href="#r-0" />
+      <use href="#r-1" fill="#00ff00" opacity="0.25" />
+    </g>
+    <g id="east-hover-bottomleft">
+      <use href="#bl-0" />
+      <path d="M 1,16 a 3,3 0 0 0 3,3 v -3 z" fill="#00ff00" opacity="0.25" />
+    </g>
+    <use id="east-hover-bottom" href="#b-1" fill="#00ff00" opacity="0.25" />
+    <g id="east-hover-bottomright">
+      <use href="#br-0" />
+      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -3 z" fill="#00ff00" opacity="0.25" />
+    </g>
+  </g>
+  <g id="s-attention" transform="translate(0,76)">
+    <use id="attention-topleft" href="#tl-0" />
+    <use id="attention-top" href="#t-1" opacity="0" />
+    <use id="attention-topright" href="#tr-0" />
+    <use id="attention-left" href="#l-0" />
+    <use id="attention-center" href="#c" opacity="0" />
+    <use id="attention-right" href="#r-0" />
+    <g id="attention-bottomleft">
+      <use href="#bl-0" />
+      <use href="#bl-2" class="ColorScheme-NeutralText" fill="currentColor" />
+    </g>
+    <use id="attention-bottom" href="#b-1" class="ColorScheme-NeutralText" fill="currentColor" />
+    <g id="attention-bottomright">
+      <use href="#br-0" />
+      <use href="#br-2" class="ColorScheme-NeutralText" fill="currentColor" />
+    </g>
+  </g>
+  <g id="n-attention" transform="translate(34,76)">
+    <g id="north-attention-topleft">
+      <use href="#tl-0" />
+      <use href="#tl-2" class="ColorScheme-NeutralText" fill="currentColor" />
+    </g>
+    <use id="north-attention-top" href="#t-1" class="ColorScheme-NeutralText" fill="currentColor" />
+    <g id="north-attention-topright">
+      <use href="#tr-0" />
+      <use href="#tr-2" class="ColorScheme-NeutralText" fill="currentColor" />
+    </g>
+    <use id="north-attention-left" href="#l-0" />
+    <use id="north-attention-center" href="#c" opacity="0" />
+    <use id="north-attention-right" href="#r-0" />
+    <use id="north-attention-bottomleft" href="#bl-0" />
+    <use id="north-attention-bottom" href="#b-1" opacity="0" />
+    <use id="north-attention-bottomright" href="#br-0" />
+  </g>
+  <g id="w-attention" transform="translate(68,76)">
+    <g id="west-attention-topleft">
+      <use href="#tl-0" />
+      <use href="#tl-3" class="ColorScheme-NeutralText" fill="currentColor" />
+    </g>
+    <use id="west-attention-top" href="#t-1" opacity="0" />
+    <use id="west-attention-topright" href="#tr-0" />
+    <g id="west-attention-left">
+      <use href="#l-0" />
+      <use href="#l-1" class="ColorScheme-NeutralText" fill="currentColor" />
+    </g>
+    <use id="west-attention-center" href="#c" opacity="0" />
+    <use id="west-attention-right" href="#r-0" />
+    <g id="west-attention-bottomleft">
+      <use href="#bl-0" />
+      <use href="#bl-3" class="ColorScheme-NeutralText" fill="currentColor" />
+    </g>
+    <use id="west-attention-bottom" href="#b-1" opacity="0" />
+    <use id="west-attention-bottomright" href="#br-0" />
+  </g>
+  <g id="e-attention" transform="translate(102,76)">
+    <use id="east-attention-topleft" href="#tl-0" />
+    <use id="east-attention-top" href="#t-1" opacity="0" />
+    <g id="east-attention-topright">
+      <use href="#tr-0" />
+      <use href="#tr-3" class="ColorScheme-NeutralText" fill="currentColor" />
+    </g>
+    <use id="east-attention-left" href="#l-0" />
+    <use id="east-attention-center" href="#c" opacity="0" />
+    <g id="east-attention-right">
+      <use href="#r-0" />
+      <use href="#r-1" class="ColorScheme-NeutralText" fill="currentColor" />
+    </g>
+    <use id="east-attention-bottomleft" href="#bl-0" />
+    <use id="east-attention-bottom" href="#b-1" opacity="0" />
+    <g id="east-attention-bottomright">
+      <use href="#br-0" />
+      <use href="#br-3" class="ColorScheme-NeutralText" fill="currentColor" />
+    </g>
+  </g>
+  <g id="s-minimized" transform="translate(0,95)">
+    <use id="minimized-topleft" href="#tl-0" />
+    <use id="minimized-top" href="#t-1" opacity="0" />
+    <use id="minimized-topright" href="#tr-0" />
+    <use id="minimized-left" href="#l-0" />
+    <use id="minimized-center" href="#c" opacity="0" />
+    <use id="minimized-right" href="#r-0" />
+    <use id="minimized-bottomleft" href="#bl-0" />
+    <use id="minimized-bottom" href="#b-1" opacity="0" />
+    <use id="minimized-bottomright" href="#br-0" />
+  </g>
+  <g id="n-minimized" transform="translate(34,95)">
+    <use id="north-minimized-topleft" href="#tl-0" />
+    <use id="north-minimized-top" href="#t-1" opacity="0" />
+    <use id="north-minimized-topright" href="#tr-0" />
+    <use id="north-minimized-left" href="#l-0" />
+    <use id="north-minimized-center" href="#c" opacity="0" />
+    <use id="north-minimized-right" href="#r-0" />
+    <use id="north-minimized-bottomleft" href="#bl-0" />
+    <use id="north-minimized-bottom" href="#b-1" opacity="0" />
+    <use id="north-minimized-bottomright" href="#br-0" />
+  </g>
+  <g id="w-minimized" transform="translate(68,95)">
+    <use id="west-minimized-topleft" href="#tl-0" />
+    <use id="west-minimized-top" href="#t-1" opacity="0" />
+    <use id="west-minimized-topright" href="#tr-0" />
+    <use id="west-minimized-left" href="#l-0" />
+    <use id="west-minimized-center" href="#c" opacity="0" />
+    <use id="west-minimized-right" href="#r-0" />
+    <use id="west-minimized-bottomleft" href="#bl-0" />
+    <use id="west-minimized-bottom" href="#b-1" opacity="0" />
+    <use id="west-minimized-bottomright" href="#br-0" />
+  </g>
+  <g id="e-minimized" transform="translate(102,95)">
+    <use id="east-minimized-topleft" href="#tl-0" />
+    <use id="east-minimized-top" href="#t-1" opacity="0" />
+    <use id="east-minimized-topright" href="#tr-0" />
+    <use id="east-minimized-left" href="#l-0" />
+    <use id="east-minimized-center" href="#c" opacity="0" />
+    <use id="east-minimized-right" href="#r-0" />
+    <use id="east-minimized-bottomleft" href="#bl-0" />
+    <use id="east-minimized-bottom" href="#b-1" opacity="0" />
+    <use id="east-minimized-bottomright" href="#br-0" />
+  </g>
+  <rect id="group-expander-top" x="0" y="0" width="11" height="11" fill="#0000ff" />
+  <rect id="group-expander-bottom" x="0" y="11" width="11" height="11" fill="#0000ff" />
+  <rect id="group-expander-left" x="11" y="0" width="11" height="11" fill="#0000ff" />
+  <rect id="group-expander-right" x="11" y="11" width="11" height="11" fill="#0000ff" />
+  <rect id="normal-hint-top-margin" x="15" y="38" width="4" height="4" fill="#ff00ff" />
+  <rect id="normal-hint-bottom-margin" x="1" y="45.5" width="4" height="4" fill="#ff00ff" />
+  <rect id="normal-hint-right-margin" x="29" y="45.5" width="4" height="4" fill="#ff00ff" />
+  <rect id="normal-hint-left-margin" x="15" y="53" width="4" height="4" fill="#ff00ff" />
+</svg>
