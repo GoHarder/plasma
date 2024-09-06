@@ -13,6 +13,14 @@
       .ColorScheme-NeutralText {
         color: #f9bd00;
       }
+
+      .ColorScheme-ButtonFocus {
+        color: #3daee9;
+      }
+
+      .ColorScheme-ButtonHover {
+        color: #93cee9;
+      }
     </style>
     <rect id="tl-0" width="4" height="3" opacity="0" />
     <rect id="tl-1" width="3" height="3" x="1" />
@@ -115,141 +123,141 @@
   <g id="s-focus" transform="translate(0,19)">
     <g id="focus-topleft">
       <use href="#tl-0" />
-      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 2 a 1,1 0 0 1 1,-1 z" fill="#ff0000" />
+      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 2 a 1,1 0 0 1 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="focus-top">
       <use href="#t-1" opacity="0.25" />
-      <rect width="26" height="2" x="4" y="0" fill="#ff0000" />
+      <rect width="26" height="2" x="4" y="0" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="focus-topright">
       <use href="#tr-0" />
-      <path d="M 30,0 a 3,3 0 0 1 3,3 h -2 a 1,1 0 0 0 -1,-1 z" fill="#ff0000" />
+      <path d="M 30,0 a 3,3 0 0 1 3,3 h -2 a 1,1 0 0 0 -1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="focus-left">
       <use href="#l-0" />
-      <rect width="2" height="13" x="1" y="3" fill="#ff0000" />
+      <rect width="2" height="13" x="1" y="3" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <use id="focus-center" href="#c" opacity="0" />
     <g id="focus-right">
       <use href="#r-0" />
-      <rect width="2" height="13" x="31" y="3" fill="#ff0000" />
+      <rect width="2" height="13" x="31" y="3" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="focus-bottomleft">
       <use href="#bl-0" />
-      <path d="M 1,16 a 3,3 0 0 0 3,3 v -2 a 1,1 0 0 1 -1,-1 z" fill="#ff0000" />
+      <path d="M 1,16 a 3,3 0 0 0 3,3 v -2 a 1,1 0 0 1 -1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="focus-bottom">
       <use href="#b-1" opacity="0.25" />
-      <rect width="26" height="2" x="4" y="17" fill="#ff0000" />
+      <rect width="26" height="2" x="4" y="17" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="focus-bottomright">
       <use href="#br-0" />
-      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -2 a 1,1 0 0 0 1,-1 z" fill="#ff0000" />
+      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -2 a 1,1 0 0 0 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
   </g>
   <g id="n-focus" transform="translate(34,19)">
     <g id="north-focus-topleft">
       <use href="#tl-0" />
-      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 2 a 1,1 0 0 1 1,-1 z" fill="#ff0000" />
+      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 2 a 1,1 0 0 1 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="north-focus-top">
       <use href="#t-1" opacity="0.25" />
-      <rect width="26" height="2" x="4" y="0" fill="#ff0000" />
+      <rect width="26" height="2" x="4" y="0" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="north-focus-topright">
       <use href="#tr-0" />
-      <path d="M 30,0 a 3,3 0 0 1 3,3 h -2 a 1,1 0 0 0 -1,-1 z" fill="#ff0000" />
+      <path d="M 30,0 a 3,3 0 0 1 3,3 h -2 a 1,1 0 0 0 -1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="north-focus-left">
       <use href="#l-0" />
-      <rect width="2" height="13" x="1" y="3" fill="#ff0000" />
+      <rect width="2" height="13" x="1" y="3" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <use id="north-focus-center" href="#c" opacity="0" />
     <g id="north-focus-right">
       <use href="#r-0" />
-      <rect width="2" height="13" x="31" y="3" fill="#ff0000" />
+      <rect width="2" height="13" x="31" y="3" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="north-focus-bottomleft">
       <use href="#bl-0" />
-      <path d="M 1,16 a 3,3 0 0 0 3,3 v -2 a 1,1 0 0 1 -1,-1 z" fill="#ff0000" />
+      <path d="M 1,16 a 3,3 0 0 0 3,3 v -2 a 1,1 0 0 1 -1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="north-focus-bottom">
       <use href="#b-1" opacity="0.25" />
-      <rect width="26" height="2" x="4" y="17" fill="#ff0000" />
+      <rect width="26" height="2" x="4" y="17" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="north-focus-bottomright">
       <use href="#br-0" />
-      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -2 a 1,1 0 0 0 1,-1 z" fill="#ff0000" />
+      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -2 a 1,1 0 0 0 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
   </g>
   <g id="w-focus" transform="translate(68,19)">
     <g id="west-focus-topleft">
       <use href="#tl-0" />
-      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 2 a 1,1 0 0 1 1,-1 z" fill="#ff0000" />
+      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 2 a 1,1 0 0 1 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="west-focus-top">
       <use href="#t-1" opacity="0.25" />
-      <rect width="26" height="2" x="4" y="0" fill="#ff0000" />
+      <rect width="26" height="2" x="4" y="0" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="west-focus-topright">
       <use href="#tr-0" />
-      <path d="M 30,0 a 3,3 0 0 1 3,3 h -2 a 1,1 0 0 0 -1,-1 z" fill="#ff0000" />
+      <path d="M 30,0 a 3,3 0 0 1 3,3 h -2 a 1,1 0 0 0 -1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="west-focus-left">
       <use href="#l-0" />
-      <rect width="2" height="13" x="1" y="3" fill="#ff0000" />
+      <rect width="2" height="13" x="1" y="3" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <use id="west-focus-center" href="#c" opacity="0" />
     <g id="west-focus-right">
       <use href="#r-0" />
-      <rect width="2" height="13" x="31" y="3" fill="#ff0000" />
+      <rect width="2" height="13" x="31" y="3" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="west-focus-bottomleft">
       <use href="#bl-0" />
-      <path d="M 1,16 a 3,3 0 0 0 3,3 v -2 a 1,1 0 0 1 -1,-1 z" fill="#ff0000" />
+      <path d="M 1,16 a 3,3 0 0 0 3,3 v -2 a 1,1 0 0 1 -1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="west-focus-bottom">
       <use href="#b-1" opacity="0.25" />
-      <rect width="26" height="2" x="4" y="17" fill="#ff0000" />
+      <rect width="26" height="2" x="4" y="17" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="west-focus-bottomright">
       <use href="#br-0" />
-      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -2 a 1,1 0 0 0 1,-1 z" fill="#ff0000" />
+      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -2 a 1,1 0 0 0 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
   </g>
   <g id="e-focus" transform="translate(102,19)">
     <g id="east-focus-topleft">
       <use href="#tl-0" />
-      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 2 a 1,1 0 0 1 1,-1 z" fill="#ff0000" />
+      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 2 a 1,1 0 0 1 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="east-focus-top">
       <use href="#t-1" opacity="0.25" />
-      <rect width="26" height="2" x="4" y="0" fill="#ff0000" />
+      <rect width="26" height="2" x="4" y="0" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="east-focus-topright">
       <use href="#tr-0" />
-      <path d="M 30,0 a 3,3 0 0 1 3,3 h -2 a 1,1 0 0 0 -1,-1 z" fill="#ff0000" />
+      <path d="M 30,0 a 3,3 0 0 1 3,3 h -2 a 1,1 0 0 0 -1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="east-focus-left">
       <use href="#l-0" />
-      <rect width="2" height="13" x="1" y="3" fill="#ff0000" />
+      <rect width="2" height="13" x="1" y="3" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <use id="east-focus-center" href="#c" opacity="0" />
     <g id="east-focus-right">
       <use href="#r-0" />
-      <rect width="2" height="13" x="31" y="3" fill="#ff0000" />
+      <rect width="2" height="13" x="31" y="3" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="east-focus-bottomleft">
       <use href="#bl-0" />
-      <path d="M 1,16 a 3,3 0 0 0 3,3 v -2 a 1,1 0 0 1 -1,-1 z" fill="#ff0000" />
+      <path d="M 1,16 a 3,3 0 0 0 3,3 v -2 a 1,1 0 0 1 -1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="east-focus-bottom">
       <use href="#b-1" opacity="0.25" />
-      <rect width="26" height="2" x="4" y="17" fill="#ff0000" />
+      <rect width="26" height="2" x="4" y="17" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
     <g id="east-focus-bottomright">
       <use href="#br-0" />
-      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -2 a 1,1 0 0 0 1,-1 z" fill="#ff0000" />
+      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -2 a 1,1 0 0 0 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
   </g>
   <g id="s-normal" transform="translate(0,38)">
@@ -329,117 +337,117 @@
   <g id="s-hover" transform="translate(0,57)">
     <g id="hover-topleft">
       <use href="#tl-0" />
-      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 3 z" fill="#00ff00" opacity="0.25" />
+      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
-    <use id="hover-top" href="#t-1" fill="#00ff00" opacity="0.25" />
+    <use id="hover-top" href="#t-1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     <g id="hover-topright">
       <use href="#tr-0" />
-      <path d="M 30,0 a 3,3 0 0 1 3,3 h -3 z" fill="#00ff00" opacity="0.25" />
+      <path d="M 30,0 a 3,3 0 0 1 3,3 h -3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
     <g id="hover-left">
       <use href="#l-0" />
-      <use href="#l-1" fill="#00ff00" opacity="0.25" />
+      <use href="#l-1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
-    <use id="hover-center" href="#c" fill="#00ff00" opacity="0.25" />
+    <use id="hover-center" href="#c" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     <g id="hover-right">
       <use href="#r-0" />
-      <use href="#r-1" fill="#00ff00" opacity="0.25" />
+      <use href="#r-1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
     <g id="hover-bottomleft">
       <use href="#bl-0" />
-      <path d="M 1,16 a 3,3 0 0 0 3,3 v -3 z" fill="#00ff00" opacity="0.25" />
+      <path d="M 1,16 a 3,3 0 0 0 3,3 v -3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
-    <use id="hover-bottom" href="#b-1" fill="#00ff00" opacity="0.25" />
+    <use id="hover-bottom" href="#b-1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     <g id="hover-bottomright">
       <use href="#br-0" />
-      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -3 z" fill="#00ff00" opacity="0.25" />
+      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
   </g>
   <g id="n-hover" transform="translate(34,57)">
     <g id="north-hover-topleft">
       <use href="#tl-0" />
-      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 3 z" fill="#00ff00" opacity="0.25" />
+      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
-    <use id="north-hover-top" href="#t-1" fill="#00ff00" opacity="0.25" />
+    <use id="north-hover-top" href="#t-1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     <g id="north-hover-topright">
       <use href="#tr-0" />
-      <path d="M 30,0 a 3,3 0 0 1 3,3 h -3 z" fill="#00ff00" opacity="0.25" />
+      <path d="M 30,0 a 3,3 0 0 1 3,3 h -3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
     <g id="north-hover-left">
       <use href="#l-0" />
-      <use href="#l-1" fill="#00ff00" opacity="0.25" />
+      <use href="#l-1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
-    <use id="north-hover-center" href="#c" fill="#00ff00" opacity="0.25" />
+    <use id="north-hover-center" href="#c" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     <g id="north-hover-right">
       <use href="#r-0" />
-      <use href="#r-1" fill="#00ff00" opacity="0.25" />
+      <use href="#r-1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
     <g id="north-hover-bottomleft">
       <use href="#bl-0" />
-      <path d="M 1,16 a 3,3 0 0 0 3,3 v -3 z" fill="#00ff00" opacity="0.25" />
+      <path d="M 1,16 a 3,3 0 0 0 3,3 v -3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
-    <use id="north-hover-bottom" href="#b-1" fill="#00ff00" opacity="0.25" />
+    <use id="north-hover-bottom" href="#b-1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     <g id="north-hover-bottomright">
       <use href="#br-0" />
-      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -3 z" fill="#00ff00" opacity="0.25" />
+      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
   </g>
   <g id="w-hover" transform="translate(68,57)">
     <g id="west-hover-topleft">
       <use href="#tl-0" />
-      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 3 z" fill="#00ff00" opacity="0.25" />
+      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
-    <use id="west-hover-top" href="#t-1" fill="#00ff00" opacity="0.25" />
+    <use id="west-hover-top" href="#t-1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     <g id="west-hover-topright">
       <use href="#tr-0" />
-      <path d="M 30,0 a 3,3 0 0 1 3,3 h -3 z" fill="#00ff00" opacity="0.25" />
+      <path d="M 30,0 a 3,3 0 0 1 3,3 h -3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
     <g id="west-hover-left">
       <use href="#l-0" />
-      <use href="#l-1" fill="#00ff00" opacity="0.25" />
+      <use href="#l-1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
-    <use id="west-hover-center" href="#c" fill="#00ff00" opacity="0.25" />
+    <use id="west-hover-center" href="#c" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     <g id="west-hover-right">
       <use href="#r-0" />
-      <use href="#r-1" fill="#00ff00" opacity="0.25" />
+      <use href="#r-1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
     <g id="west-hover-bottomleft">
       <use href="#bl-0" />
-      <path d="M 1,16 a 3,3 0 0 0 3,3 v -3 z" fill="#00ff00" opacity="0.25" />
+      <path d="M 1,16 a 3,3 0 0 0 3,3 v -3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
-    <use id="west-hover-bottom" href="#b-1" fill="#00ff00" opacity="0.25" />
+    <use id="west-hover-bottom" href="#b-1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     <g id="west-hover-bottomright">
       <use href="#br-0" />
-      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -3 z" fill="#00ff00" opacity="0.25" />
+      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
   </g>
   <g id="e-hover" transform="translate(102,57)">
     <g id="east-hover-topleft">
       <use href="#tl-0" />
-      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 3 z" fill="#00ff00" opacity="0.25" />
+      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
-    <use id="east-hover-top" href="#t-1" fill="#00ff00" opacity="0.25" />
+    <use id="east-hover-top" href="#t-1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     <g id="east-hover-topright">
       <use href="#tr-0" />
-      <path d="M 30,0 a 3,3 0 0 1 3,3 h -3 z" fill="#00ff00" opacity="0.25" />
+      <path d="M 30,0 a 3,3 0 0 1 3,3 h -3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
     <g id="east-hover-left">
       <use href="#l-0" />
-      <use href="#l-1" fill="#00ff00" opacity="0.25" />
+      <use href="#l-1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
-    <use id="east-hover-center" href="#c" fill="#00ff00" opacity="0.25" />
+    <use id="east-hover-center" href="#c" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     <g id="east-hover-right">
       <use href="#r-0" />
-      <use href="#r-1" fill="#00ff00" opacity="0.25" />
+      <use href="#r-1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
     <g id="east-hover-bottomleft">
       <use href="#bl-0" />
-      <path d="M 1,16 a 3,3 0 0 0 3,3 v -3 z" fill="#00ff00" opacity="0.25" />
+      <path d="M 1,16 a 3,3 0 0 0 3,3 v -3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
-    <use id="east-hover-bottom" href="#b-1" fill="#00ff00" opacity="0.25" />
+    <use id="east-hover-bottom" href="#b-1" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     <g id="east-hover-bottomright">
       <use href="#br-0" />
-      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -3 z" fill="#00ff00" opacity="0.25" />
+      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
   </g>
   <g id="s-attention" transform="translate(0,76)">
