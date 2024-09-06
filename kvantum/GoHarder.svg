@@ -229,7 +229,6 @@
       <use id="button-normal-bottomleft" href="#r-8-bl" class="sec-cont" />
       <use id="button-normal-bottom" href="#sq-8-b" class="sec-cont" />
       <use id="button-normal-bottomright" href="#r-8-br" class="sec-cont" />
-
     </g>
     <g id="button-focused-group" transform="translate(32)">
       <g id="button-focused-topleft">
@@ -358,15 +357,15 @@
   </g>
   <g id="tool-button-group" transform="translate(0,32)">
     <g id="tool-button-normal-group">
-      <use id="border-tool-button-default-topleft" href="#r-8-tl" class="outline" />
-      <use id="border-tool-button-default-top" href="#sq-8-t" class="outline" />
-      <use id="border-tool-button-default-topright" href="#r-8-tr" class="outline" />
-      <use id="border-tool-button-default-left" href="#sq-8-l" class="outline" />
-      <use id="border-tool-button-default" href="#sq-8-c" class="outline" />
-      <use id="border-tool-button-default-right" href="#sq-8-r" class="outline" />
-      <use id="border-tool-button-default-bottomleft" href="#r-8-bl" class="outline" />
-      <use id="border-tool-button-default-bottom" href="#sq-8-b" class="outline" />
-      <use id="border-tool-button-default-bottomright" href="#r-8-br" class="outline" />
+      <use id="border-tool-button-normal-topleft" href="#r-8-tl" class="outline" />
+      <use id="border-tool-button-normal-top" href="#sq-8-t" class="outline" />
+      <use id="border-tool-button-normal-topright" href="#r-8-tr" class="outline" />
+      <use id="border-tool-button-normal-left" href="#sq-8-l" class="outline" />
+      <use id="border-tool-button-normal" href="#sq-8-c" class="outline" />
+      <use id="border-tool-button-normal-right" href="#sq-8-r" class="outline" />
+      <use id="border-tool-button-normal-bottomleft" href="#r-8-bl" class="outline" />
+      <use id="border-tool-button-normal-bottom" href="#sq-8-b" class="outline" />
+      <use id="border-tool-button-normal-bottomright" href="#r-8-br" class="outline" />
       <use id="tool-button-normal-topleft" href="#r-8-tl" class="surf-cont" />
       <use id="tool-button-normal-top" href="#sq-8-t" class="surf-cont" />
       <use id="tool-button-normal-topright" href="#r-8-tr" class="surf-cont" />
