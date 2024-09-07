@@ -587,6 +587,21 @@
       <use href="#minus" class="disabled-text" />
     </g>
   </g>
+  <g id="tool-button-sep-group">
+    <g id="tool-button-separator-top">
+      <rect width="8" height="8" opacity="0" />
+      <path d="M 0,0 h 8 v 8 h -1 v -7 h -7  Z" class="outline" />
+    </g>
+    <g id="tool-button-separator">
+      <rect width="8" height="16" y="8" opacity="0" />
+      <rect width="1" height="16" x="7" y="8" class="outline" />
+    </g>
+    <g id="tool-button-separator-bottom">
+      <rect width="8" height="8" y="24" opacity="0" />
+      <path d="M 0,32 h 8 v -8 h -1 v 7 h -7  Z" class="outline" />
+    </g>
+  </g>
+
   <!-- <g id="toolbar-button-group" transform="translate(0,60)">
     <g id="toolbar-button-normal-group">
       <g id="toolbar-button-normal-topleft">
