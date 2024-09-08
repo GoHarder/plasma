@@ -1,4 +1,5 @@
-<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+<svg width="160" height="160" viewBox="0 0 160 160" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <sodipodi:namedview pagecolor="#505050" bordercolor="#ffffff" borderopacity="1" />
   <defs>
     <!-- MARK: Style -->
     <style>
@@ -987,14 +988,15 @@
     <use id="common-normal-bottom" href="#sq-8-t" y="24" class="surf-cont" />
     <use id="common-normal-bottomright" href="#r-8-br" class="surf-cont" />
   </g>
-  <!-- <g id="toolbar-group" transform="translate(128,32)">
+  <g id="toolbar-group" transform="translate(136,32)">
     <use id="toolbar-normal" x="-8" y="-8" href="#sq-8-c" class="surf-cont-high" />
     <rect id="toolbar-separator" width="8" height="10" opacity="0" />
     <g id="toolbar-handle">
-      <rect width="8" height="10" opacity="0" />
-      <rect width="2" height="8" x="3" y="1" class="disabled-text" />
+      <rect width="8" height="32" opacity="0" />
+      <!-- <rect width="2" height="8" x="3" y="1" class="disabled-text" /> -->
+      <path d="M 7,24 H 5 V 8 H 7 Z M 3,24 H 1 V 8 h 2 z" class="disabled-text" />
     </g>
-  </g> -->
+  </g>
   <!-- <g id="sizegrip-group" transform="translate(128,48)">
     <use id="sizegrip-normal" href="#sizegrip" class="on-surf-var" opacity="0.38" />
     <use id="sizegrip-focused" href="#sizegrip" x="10" class="on-surf" opacity="0.38" />
