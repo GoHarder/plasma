@@ -109,6 +109,8 @@
     <path id="chk-box-box" d="M 3,5 q 0,-2 2,-2 h 14 q 2,0, 2,2 v 14 q 0,2 -2,2 h -14 q -2,0 -2,-2 Z" />
     <path id="chk-box-dash" d="M 7,13 H 17 V 11 H 7 Z " />
     <path id="up" d="m 0,7.5 5,-5 5,5 z" />
+    <path id="sizegrip"
+      d="M 2,10 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m -3,-3 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m 0,-3 h 2 v 2 h -2 v -2 z" />
     <!-- MARK: Gradients -->
   </defs>
   <g id="button-group">
@@ -626,244 +628,6 @@
       <use href="#minus" class="disabled-text" />
     </g>
   </g>
-  <!-- <g id="toolbar-button-group" transform="translate(0,60)">
-    <g id="toolbar-button-normal-group">
-      <g id="toolbar-button-normal-topleft">
-        <rect id="toolbar-button-normal-topleft-1" width="8" height="12" opacity="0" />
-        <path id="toolbar-button-normal-topleft-2" d="M 0,12 q 0,-8 8,-8 v 1 q -7,0 -7,7 h -1 z" class="outline" />
-      </g>
-      <g id="toolbar-button-normal-top">
-        <rect id="toolbar-button-normal-top-1" width="16" height="12" x="8" opacity="0" />
-        <rect id="toolbar-button-normal-top-2" width="16" height="1" x="8" y="4" class="outline" />
-      </g>
-      <g id="toolbar-button-normal-topright">
-        <rect id="toolbar-button-normal-topright-1" width="8" height="12" x="24" opacity="0" />
-        <path id="toolbar-button-normal-topright-2" d="M 32,12 q 0,-8 -8,-8 v 1 q 7,0 7,7 h 1 z" class="outline" />
-      </g>
-      <g id="toolbar-button-normal-left">
-        <use href="#sq-8-l" y="4" opacity="0" />
-        <rect id="toolbar-button-normal-left-1" width="1" height="16" x="0" y="12" class="outline" />
-      </g>
-      <use id="toolbar-button-normal" href="#sq-8-c" y="4" opacity="0" />
-      <g id="toolbar-button-normal-right">
-        <use href="#sq-8-r" y="4" opacity="0" />
-        <rect id="toolbar-button-normal-right-1" width="1" height="16" x="31" y="12" class="outline" />
-      </g>
-      <g id="toolbar-button-normal-bottomleft">
-        <rect id="toolbar-button-normal-bottomleft-1" width="8" height="12" x="0" y="28" opacity="0" />
-        <path id="toolbar-button-normal-bottomleft-2" d="M 0,28 q 0,8 8,8 v -1 q -7,0 -7,-7 h -1 z" class="outline" />
-      </g>
-      <g id="toolbar-button-normal-bottom">
-        <rect id="toolbar-button-normal-bottom-1" width="16" height="12" x="8" y="28" opacity="0" />
-        <rect id="toolbar-button-normal-bottom-2" width="16" height="1" x="8" y="35" class="outline" />
-      </g>
-      <g id="toolbar-button-normal-bottomright">
-        <rect id="toolbar-button-normal-bottomright-1" width="8" height="12" x="24" y="28" opacity="0" />
-        <path id="toolbar-button-normal-bottomright-2" d="M 32,28 q 0,8 -8,8 v -1 q 7,0 7,-7 h 1 z" class="outline" />
-      </g>
-      <g id="mdi-maximize-normal" transform="translate(0,4)">
-        <use href="#icon-box" />
-        <use href="#maximize" class="on-surf-var" />
-      </g>
-      <g id="mdi-restore-normal" transform="translate(10,4)">
-        <use href="#icon-box" />
-        <use href="#restore" class="on-surf-var" />
-      </g>
-      <g id="mdi-minimize-normal" transform="translate(0,14)">
-        <use href="#icon-box" />
-        <use href="#minimize" class="on-surf-var" />
-      </g>
-      <g id="mdi-close-normal" transform="translate(10,14)">
-        <use href="#icon-box" />
-        <use href="#close" class="on-surf-var" />
-      </g>
-      <g id="mdi-shade-normal" transform="translate(20,4)">
-        <use href="#icon-box" />
-        <use href="#shade" class="on-surf-var" />
-      </g>
-      <g id="mdi-menu-normal" transform="translate(20,14)">
-        <use href="#icon-box" />
-        <use href="#menu" class="on-surf-var" />
-      </g>
-    </g>
-    <g id="toolbar-button-focused-group" transform="translate(32)">
-      <g id="toolbar-button-focused-topleft">
-        <use href="#toolbar-button-normal-topleft" />
-        <use href="#r-8-tl" y="4" class="pri" opacity="0.08" />
-      </g>
-      <g id="toolbar-button-focused-top">
-        <use href="#toolbar-button-normal-top" />
-        <use href="#sq-8-t" y="4" class="pri" opacity="0.08" />
-      </g>
-      <g id="toolbar-button-focused-topright">
-        <use href="#toolbar-button-normal-topright" />
-        <use href="#r-8-tr" y="4" class="pri" opacity="0.08" />
-      </g>
-      <g id="toolbar-button-focused-left">
-        <use href="#toolbar-button-normal-left" />
-        <use href="#sq-8-l" y="4" class="pri" opacity="0.08" />
-      </g>
-      <g id="toolbar-button-focused">
-        <use href="#toolbar-button-normal" />
-        <use href="#sq-8-c" y="4" class="pri" opacity="0.08" />
-      </g>
-      <g id="toolbar-button-focused-right">
-        <use href="#toolbar-button-normal-right" />
-        <use href="#sq-8-r" y="4" class="pri" opacity="0.08" />
-      </g>
-      <g id="toolbar-button-focused-bottomleft">
-        <use href="#toolbar-button-normal-bottomleft" />
-        <use href="#r-8-bl" y="4" class="pri" opacity="0.08" />
-      </g>
-      <g id="toolbar-button-focused-bottom">
-        <use href="#toolbar-button-normal-bottom" />
-        <use href="#sq-8-b" y="4" class="pri" opacity="0.08" />
-      </g>
-      <g id="toolbar-button-focused-bottomright">
-        <use href="#toolbar-button-normal-bottomright" />
-        <use href="#r-8-br" y="4" class="pri" opacity="0.08" />
-      </g>
-      <g id="mdi-maximize-focused" transform="translate(0,4)">
-        <use href="#icon-box" />
-        <use href="#maximize" class="on-surf" />
-      </g>
-      <g id="mdi-restore-focused" transform="translate(10,4)">
-        <use href="#icon-box" />
-        <use href="#restore" class="on-surf" />
-      </g>
-      <g id="mdi-minimize-focused" transform="translate(0,14)">
-        <use href="#icon-box" />
-        <use href="#minimize" class="on-surf" />
-      </g>
-      <g id="mdi-close-focused" transform="translate(10,14)">
-        <use href="#icon-box" />
-        <use href="#close" class="on-surf" />
-      </g>
-      <g id="mdi-shade-focused" transform="translate(20,4)">
-        <use href="#icon-box" />
-        <use href="#shade" class="on-surf" />
-      </g>
-    </g>
-    <g id="toolbar-button-pressed-group" transform="translate(64)">
-      <g id="toolbar-button-pressed-topleft">
-        <use href="#toolbar-button-normal-topleft" />
-        <use href="#r-8-tl" y="4" class="pri" opacity="0.1" />
-      </g>
-      <g id="toolbar-button-pressed-top">
-        <use href="#toolbar-button-normal-top" />
-        <use href="#sq-8-t" y="4" class="pri" opacity="0.1" />
-      </g>
-      <g id="toolbar-button-pressed-topright">
-        <use href="#toolbar-button-normal-topright" />
-        <use href="#r-8-tr" y="4" class="pri" opacity="0.1" />
-      </g>
-      <g id="toolbar-button-pressed-left">
-        <use href="#toolbar-button-normal-left" />
-        <use href="#sq-8-l" y="4" class="pri" opacity="0.1" />
-      </g>
-      <g id="toolbar-button-pressed">
-        <use href="#toolbar-button-normal" />
-        <use href="#sq-8-c" y="4" class="pri" opacity="0.1" />
-      </g>
-      <g id="toolbar-button-pressed-right">
-        <use href="#toolbar-button-normal-right" />
-        <use href="#sq-8-r" y="4" class="pri" opacity="0.1" />
-      </g>
-      <g id="toolbar-button-pressed-bottomleft">
-        <use href="#toolbar-button-normal-bottomleft" />
-        <use href="#r-8-bl" y="4" class="pri" opacity="0.1" />
-      </g>
-      <g id="toolbar-button-pressed-bottom">
-        <use href="#toolbar-button-normal-bottom" />
-        <use href="#sq-8-b" y="4" class="pri" opacity="0.1" />
-      </g>
-      <g id="toolbar-button-pressed-bottomright">
-        <use href="#toolbar-button-normal-bottomright" />
-        <use href="#r-8-br" y="4" class="pri" opacity="0.1" />
-      </g>
-      <g id="mdi-maximize-pressed" transform="translate(0,4)">
-        <use href="#icon-box" />
-        <use href="#maximize" class="on-sec-cont" />
-      </g>
-      <g id="mdi-restore-pressed" transform="translate(10,4)">
-        <use href="#icon-box" />
-        <use href="#restore" class="on-sec-cont" />
-      </g>
-      <g id="mdi-minimize-pressed" transform="translate(0,14)">
-        <use href="#icon-box" />
-        <use href="#minimize" class="on-sec-cont" />
-      </g>
-      <g id="mdi-close-pressed" transform="translate(10,14)">
-        <use href="#icon-box" />
-        <use href="#close" class="on-sec-cont" />
-      </g>
-      <g id="mdi-shade-pressed" transform="translate(20,4)">
-        <use href="#icon-box" />
-        <use href="#shade" class="on-sec-cont" />
-      </g>
-    </g>
-    <g id="toolbar-button-toggled-group" transform="translate(96)">
-      <g id="toolbar-button-toggled-topleft">
-        <use href="#toolbar-button-normal-topleft-1" />
-        <use href="#r-8-tl" y="4" class="sec-cont" />
-        <use href="#toolbar-button-normal-topleft-2" />
-      </g>
-      <g id="toolbar-button-toggled-top">
-        <use href="#toolbar-button-normal-top-1" />
-        <use href="#sq-8-t" y="4" class="sec-cont" />
-        <use href="#toolbar-button-normal-top-2" />
-      </g>
-      <g id="toolbar-button-toggled-topright">
-        <use href="#toolbar-button-normal-topright-1" />
-        <use href="#r-8-tr" y="4" class="sec-cont" />
-        <use href="#toolbar-button-normal-topright-2" />
-      </g>
-      <g id="toolbar-button-toggled-left">
-        <use href="#sq-8-l" y="4" class="sec-cont" />
-        <use href="#toolbar-button-normal-left-1" />
-      </g>
-      <use id="toolbar-button-toggled" href="#sq-8-c" y="4" class="sec-cont" />
-      <g id="toolbar-button-toggled-right">
-        <use href="#sq-8-r" y="4" class="sec-cont" />
-        <use href="#toolbar-button-normal-right-1" />
-      </g>
-      <g id="toolbar-button-toggled-bottomleft">
-        <use href="#toolbar-button-normal-bottomleft-1" />
-        <use href="#r-8-bl" y="4" class="sec-cont" />
-        <use href="#toolbar-button-normal-bottomleft-2" />
-      </g>
-      <g id="toolbar-button-toggled-bottom">
-        <use href="#toolbar-button-normal-bottom-1" />
-        <use href="#sq-8-t" y="28" class="sec-cont" />
-        <use href="#toolbar-button-normal-bottom-2" />
-      </g>
-      <g id="toolbar-button-toggled-bottomright">
-        <use href="#toolbar-button-normal-bottomright-1" />
-        <use href="#r-8-br" y="4" class="sec-cont" />
-        <use href="#toolbar-button-normal-bottomright-2" />
-      </g>
-      <g id="mdi-maximize-disabled" transform="translate(0,4)">
-        <use href="#icon-box" />
-        <use href="#maximize" class="disabled-text" />
-      </g>
-      <g id="mdi-restore-disabled" transform="translate(10,4)">
-        <use href="#icon-box" />
-        <use href="#restore" class="disabled-text" />
-      </g>
-      <g id="mdi-minimize-disabled" transform="translate(0,14)">
-        <use href="#icon-box" />
-        <use href="#minimize" class="disabled-text" />
-      </g>
-      <g id="mdi-close-disabled" transform="translate(10,14)">
-        <use href="#icon-box" />
-        <use href="#close" class="disabled-text" />
-      </g>
-      <g id="mdi-shade-disabled" transform="translate(20,4)">
-        <use href="#icon-box" />
-        <use href="#shade" class="disabled-text" />
-      </g>
-    </g>
-  </g> -->
   <g id="lineedit-group" transform="translate(0,64)">
     <g id="lineedit-normal-group">
       <g id="lineedit-normal-topleft">
@@ -993,14 +757,13 @@
     <rect id="toolbar-separator" width="8" height="10" opacity="0" />
     <g id="toolbar-handle">
       <rect width="8" height="32" opacity="0" />
-      <!-- <rect width="2" height="8" x="3" y="1" class="disabled-text" /> -->
       <path d="M 7,24 H 5 V 8 H 7 Z M 3,24 H 1 V 8 h 2 z" class="disabled-text" />
     </g>
   </g>
-  <!-- <g id="sizegrip-group" transform="translate(128,48)">
+  <g id="sizegrip-group" transform="translate(120,96)">
     <use id="sizegrip-normal" href="#sizegrip" class="on-surf-var" opacity="0.38" />
     <use id="sizegrip-focused" href="#sizegrip" x="10" class="on-surf" opacity="0.38" />
-  </g> -->
+  </g>
   <!-- <g id="tab-group" transform="translate(0,176)">
     <use id="tab-normal-topleft" href="#sq-8-tl" class="surf-cont-high" />
     <use id="tab-normal-top" href="#sq-8-t" class="surf-cont-high" />

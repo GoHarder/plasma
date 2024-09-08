@@ -233,7 +233,7 @@ indicator.element=sizegrip
 [Toolbar]
 inherits=ToolbarButton
 indicator.element=toolbar
-indicator.size=5
+indicator.size=6
 frame=false
 
 [Slider]
