@@ -1,4 +1,4 @@
-<svg width="176" height="176" viewBox="0 0 176 176" xmlns="http://www.w3.org/2000/svg">
+<svg width="176" height="176" viewBox="0 0 176 176" version="1.1" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- MARK: Style -->
     <style>
@@ -110,6 +110,12 @@
     <path id="up" d="m 0,7.5 5,-5 5,5 z" />
     <path id="sizegrip"
       d="M 2,10 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m -3,-3 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m 0,-3 h 2 v 2 h -2 v -2 z" />
+    <path id="progress-tl" d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" />
+    <rect id="progress-t" width="16" height="2" x="2" y="0" />
+    <path id="progress-tr" d="M 18,0 a 2,2 0 0 1 2,2 h -2 z" />
+    <path id="progress-bl" d="M 2,4 a 2,2 0 0 1 -2,-2 h 2 z" />
+    <rect id="progress-b" width="16" height="2" x="2" y="2" />
+    <path id="progress-br" d="M 18,4 a 2,2 0 0 0 2,-2 h -2 z" />
     <!-- MARK: Gradients -->
   </defs>
   <g id="button-group">
@@ -816,6 +822,26 @@
       <circle cx="10" cy="22.5" r="4" class="pri" />
     </g>
   </g>
+  <g id="progress-group" transform="translate(32,144)">
+    <use id="progress-normal-topleft" href="#progress-tl" class="sec-cont" />
+    <use id="progress-normal-top" href="#progress-t" class="sec-cont" />
+    <use id="progress-normal-topright" href="#progress-tr" class="sec-cont" />
+    <use id="progress-normal-bottomleft" href="#progress-bl" class="sec-cont" />
+    <use id="progress-normal-bottom" href="#progress-b" class="sec-cont" />
+    <use id="progress-normal-bottomright" href="#progress-br" class="sec-cont" />
+    <use id="progress-pattern-normal-topleft" href="#progress-tl" y="4" class="pri" />
+    <use id="progress-pattern-normal-top" href="#progress-t" y="4" class="pri" />
+    <use id="progress-pattern-normal-topright" href="#progress-tr" y="4" class="pri" />
+    <use id="progress-pattern-normal-bottomleft" href="#progress-bl" y="4" class="pri" />
+    <use id="progress-pattern-normal-bottom" href="#progress-b" y="4" class="pri" />
+    <use id="progress-pattern-normal-bottomright" href="#progress-br" y="4" class="pri" />
+    <use id="progress-pattern-disabled-topleft" href="#progress-tl" y="8" class="disabled-back" />
+    <use id="progress-pattern-disabled-top" href="#progress-t" y="8" class="disabled-back" />
+    <use id="progress-pattern-disabled-topright" href="#progress-tr" y="8" class="disabled-back" />
+    <use id="progress-pattern-disabled-bottomleft" href="#progress-bl" y="8" class="disabled-back" />
+    <use id="progress-pattern-disabled-bottom" href="#progress-b" y="8" class="disabled-back" />
+    <use id="progress-pattern-disabled-bottomright" href="#progress-br" y="8" class="disabled-back" />
+  </g>
   <!-- <g id="tab-group" transform="translate(0,176)">
     <use id="tab-normal-topleft" href="#sq-8-tl" class="surf-cont-high" />
     <use id="tab-normal-top" href="#sq-8-t" class="surf-cont-high" />
@@ -1098,26 +1124,6 @@
     <rect id="slider-tick-normal" width="5" height="1" rx="0.5" class="on-sec-cont" />
     <rect id="slider-topglow-normal" width="4" height="16" opacity="0" />
     <rect id="slider-bottomglow-normal" width="4" height="16" opacity="0" />
-  </g> -->
-  <!-- <g id="progress-group" transform="translate(72,172)">
-    <use id="progress-normal-topleft" href="#progress-tl" class="sec-cont" />
-    <use id="progress-normal-top" href="#progress-t" class="sec-cont" />
-    <use id="progress-normal-topright" href="#progress-tr" class="sec-cont" />
-    <use id="progress-normal-bottomleft" href="#progress-bl" class="sec-cont" />
-    <use id="progress-normal-bottom" href="#progress-b" class="sec-cont" />
-    <use id="progress-normal-bottomright" href="#progress-br" class="sec-cont" />
-    <use id="progress-pattern-normal-topleft" href="#progress-tl" y="4" class="pri" />
-    <use id="progress-pattern-normal-top" href="#progress-t" y="4" class="pri" />
-    <use id="progress-pattern-normal-topright" href="#progress-tr" y="4" class="pri" />
-    <use id="progress-pattern-normal-bottomleft" href="#progress-bl" y="4" class="pri" />
-    <use id="progress-pattern-normal-bottom" href="#progress-b" y="4" class="pri" />
-    <use id="progress-pattern-normal-bottomright" href="#progress-br" y="4" class="pri" />
-    <use id="progress-pattern-disabled-topleft" href="#progress-tl" y="8" class="disabled-back" />
-    <use id="progress-pattern-disabled-top" href="#progress-t" y="8" class="disabled-back" />
-    <use id="progress-pattern-disabled-topright" href="#progress-tr" y="8" class="disabled-back" />
-    <use id="progress-pattern-disabled-bottomleft" href="#progress-bl" y="8" class="disabled-back" />
-    <use id="progress-pattern-disabled-bottom" href="#progress-b" y="8" class="disabled-back" />
-    <use id="progress-pattern-disabled-bottomright" href="#progress-br" y="8" class="disabled-back" />
   </g> -->
   <!-- <g id="splitter-group" transform="translate(131,144)">
     <use id="splitter-grip-normal" href="#grip" class="disabled-text" />
