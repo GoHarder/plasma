@@ -160,7 +160,7 @@ text.toggle.color=#d5e4f6
 # [IndicatorSpinBox]
 
 [RadioButton]
-inherits=PanelButtonCommand
+inherits=PanelButtonTool
 interior.element=radio
 text.margin.top=2
 text.margin.bottom=2
@@ -168,7 +168,7 @@ text.margin.left=3
 text.margin.right=3
 
 [CheckBox]
-inherits=PanelButtonCommand
+inherits=PanelButtonTool
 interior.element=checkbox
 text.margin.top=2
 text.margin.bottom=2
