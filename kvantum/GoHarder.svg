@@ -976,7 +976,7 @@
       <use href="#chk-box-dash" x="48" y="24" class="on-pri" />
     </g>
   </g>
-  <!-- <g id="common-group" transform="translate(128)">
+  <g id="common-group" transform="translate(120,64)">
     <use id="common-normal-topleft" href="#r-8-tl" class="surf-cont" />
     <use id="common-normal-top" href="#sq-8-t" class="surf-cont" />
     <use id="common-normal-topright" href="#r-8-tr" class="surf-cont" />
@@ -986,7 +986,7 @@
     <use id="common-normal-bottomleft" href="#r-8-bl" class="surf-cont" />
     <use id="common-normal-bottom" href="#sq-8-t" y="24" class="surf-cont" />
     <use id="common-normal-bottomright" href="#r-8-br" class="surf-cont" />
-  </g> -->
+  </g>
   <!-- <g id="toolbar-group" transform="translate(128,32)">
     <use id="toolbar-normal" x="-8" y="-8" href="#sq-8-c" class="surf-cont-high" />
     <rect id="toolbar-separator" width="8" height="10" opacity="0" />
