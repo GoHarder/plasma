@@ -223,11 +223,6 @@ frame.left=1
 frame.right=1
 interior.element=common
 
-[TabBarFrame]
-inherits=TabFrame
-frame.element=tabbar
-interior=false
-
 # [TreeExpander]
 
 [HeaderSection]
@@ -362,7 +357,11 @@ frame.bottom=11
 frame.left=11
 frame.right=11
 
-# [TabBarFrame]
+[TabBarFrame]
+inherits=GenericFrame
+frame=false
+interior=false
+text.shadow=false
 
 [ToolTip]
 inherits=GenericFrame

@@ -871,14 +871,6 @@
     <use id="progress-pattern-disabled-bottomright" href="#progress-br" y="8" class="disabled-back" />
   </g>
   <g id="tab-group" transform="translate(0,177)">
-    <rect id="tabbar-normal-topleft" width="1" height="1" fill="#ff0000" />
-    <rect id="tabbar-normal-top" width="16" height="1" x="1" fill="#00ff00" />
-    <rect id="tabbar-normal-topright" width="1" height="1" x="17" fill="#ff0000" />
-    <rect id="tabbar-normal-left" width="1" height="16" y="1" fill="#00ff00" />
-    <rect id="tabbar-normal-right" width="1" height="16" x="17" y="1" fill="#00ff00" />
-    <rect id="tabbar-normal-bottomleft" width="1" height="1" y="17" fill="#ff0000" />
-    <rect id="tabbar-normal-bottom" width="16" height="1" x="1" y="17" fill="#00ff00" />
-    <rect id="tabbar-normal-bottomright" width="1" height="1" x="17" y="17" fill="#ff0000" />
     <g id="tab-normal-group">
       <use id="tab-normal-topleft" href="#sq-8-tl" class="surf-cont-high" />
       <use id="tab-normal-top" href="#sq-8-t" class="surf-cont-high" />
