@@ -123,8 +123,8 @@ indicator.element=ar-1
 indicator.size=10
 text.shadow=false
 text.margin=true
-text.margin.top=4
-text.margin.bottom=4
+text.margin.top=3
+text.margin.bottom=3
 text.margin.left=4
 text.margin.right=4
 text.iconspacing=4
@@ -209,6 +209,11 @@ inherits=PanelButtonCommand
 interior.element=tab
 frame.element=tab
 indicator.element=tab
+text.margin.top=4
+text.margin.bottom=4
+text.margin.left=4
+text.margin.right=4
+text.iconspacing=4
 text.normal.color=#c2c7cf
 text.focus.color=#95ccff
 text.press.color=#e2e2e5
@@ -358,8 +363,9 @@ frame.left=11
 frame.right=11
 
 [TabBarFrame]
-inherits=GenericFrame
-frame=false
+inherits=TabFrame
+frame=true
+frame.element=tabbar
 interior=false
 text.shadow=false
 
