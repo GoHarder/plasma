@@ -135,6 +135,14 @@
     <path id="menu"
       d="m 0,8.333 v -1.111 h 10 v 1.111 z m 0,-2.778 v -1.111 h 10 v 1.111 z m 0,-2.778 v -1.111 h 10 v 1.111 z" />
     <!-- MARK: Gradients -->
+    <radialGradient id="slider-bg1">
+      <stop stop-opacity="1" offset="0.875" />
+      <stop stop-opacity="0" offset="1" />
+    </radialGradient>
+    <radialGradient id="slider-ag1">
+      <stop stop-opacity="1" offset="0.8" />
+      <stop stop-opacity="0" offset="1" />
+    </radialGradient>
   </defs>
   <g id="button-group">
     <g id="button-normal-group">
@@ -990,6 +998,26 @@
     <rect id="slider-topglow-normal" width="4" height="16" opacity="0" />
     <rect id="slider-bottomglow-normal" width="4" height="16" opacity="0" />
   </g>
+  <g id="slidercursor-group" transform="translate(64,144)">
+    <g id="slidercursor-normal">
+      <rect width="17" height="17" x="0" y="0" opacity="0" />
+      <circle cx="8.5" cy="9.5" r="7" fill="url(#slider-bg1)" opacity="0.3" />
+      <circle cx="8.5" cy="9.5" r="7.5" fill="url(#slider-ag1)" opacity="0.15" />
+      <circle cx="8.5" cy="8.5" r="7" class="pri" />
+    </g>
+    <g id="slidercursor-focused" transform="translate(17)">
+      <rect width="17" height="17" x="0" y="0" opacity="0" />
+      <circle cx="8.5" cy="8.5" r="7" class="pri" />
+    </g>
+    <g id="slidercursor-pressed" transform="translate(0,17)">
+      <rect width="17" height="17" x="0" y="0" opacity="0" />
+      <circle cx="8.5" cy="8.5" r="6" class="pri" />
+    </g>
+    <g id="slidercursor-disabled" transform="translate(17,17)">
+      <rect width="17" height="17" x="0" y="0" opacity="0" />
+      <circle cx="8.5" cy="8.5" r="7" class="disabled-text" />
+    </g>
+  </g>
   <!-- <g id="menu-group" transform="translate(72,144)">
     <path id="menu-normal-topleft" d="M 1,5 q 0,-4 4,-4 h 4 v 4 Z" class="surf-cont" />
     <rect id="menu-normal-top" width="16" height="4" x="9" y="1" class="surf-cont" />
@@ -1168,26 +1196,6 @@
     <rect id="splitter-normal" width="5" height="19" opacity="0" />
     <rect id="splitter-focused" width="5" height="19" x="5" class="outline" opacity="0.38" />
     <rect id="splitter-pressed" width="5" height="19" x="10" class="outline" />
-  </g> -->
-  <!-- <g id="slidercursor-group" transform="translate(90,172)">
-    <g id="slidercursor-normal">
-      <rect width="17" height="17" x="0" y="0" opacity="0" />
-      <circle cx="8.5" cy="9.5" r="7" fill="url(#slider-bg1)" opacity="0.3" />
-      <circle cx="8.5" cy="9.5" r="7.5" fill="url(#slider-ag1)" opacity="0.15" />
-      <circle cx="8.5" cy="8.5" r="7" class="pri" />
-    </g>
-    <g id="slidercursor-focused" transform="translate(17)">
-      <rect width="17" height="17" x="0" y="0" opacity="0" />
-      <circle cx="8.5" cy="8.5" r="7" class="pri" />
-    </g>
-    <g id="slidercursor-pressed" transform="translate(0,17)">
-      <rect width="17" height="17" x="0" y="0" opacity="0" />
-      <circle cx="8.5" cy="8.5" r="6" class="pri" />
-    </g>
-    <g id="slidercursor-disabled" transform="translate(17,17)">
-      <rect width="17" height="17" x="0" y="0" opacity="0" />
-      <circle cx="8.5" cy="8.5" r="7" class="disabled-text" />
-    </g>
   </g> -->
   <!-- <rect id="titlebar-focused" width="16" height="4" class="surf-cont-highest" /> -->
   <!-- <rect id="titlebar-normal" width="16" height="4" y="4" class="surf-cont-high" /> -->
