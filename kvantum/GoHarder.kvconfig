@@ -220,6 +220,11 @@ frame.left=1
 frame.right=1
 interior.element=common
 
+[TabBarFrame]
+inherits=TabFrame
+frame.element=tabbar
+interior=false
+
 # [TreeExpander]
 
 [HeaderSection]

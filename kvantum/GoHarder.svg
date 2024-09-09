@@ -90,6 +90,14 @@
     <rect id="sq-8-b" width="16" height="8" x="8" y="24" />
     <path id="r-8-br" d="M 24,32 a 8 8 0 0 0 8,-8 h -8 z" />
     <rect id="sq-8-br" width="8" height="8" x="24" y="24" />
+    <path id="sizegrip"
+      d="M 2,10 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m -3,-3 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m 0,-3 h 2 v 2 h -2 v -2 z" />
+    <path id="progress-tl" d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" />
+    <rect id="progress-t" width="16" height="2" x="2" y="0" />
+    <path id="progress-tr" d="M 18,0 a 2,2 0 0 1 2,2 h -2 z" />
+    <path id="progress-bl" d="M 2,4 a 2,2 0 0 1 -2,-2 h 2 z" />
+    <rect id="progress-b" width="16" height="2" x="2" y="2" />
+    <path id="progress-br" d="M 18,4 a 2,2 0 0 0 2,-2 h -2 z" />
     <!-- MARK: Icons -->
     <rect id="icon-box" width="10" height="10" opacity="0" />
     <path id="add" d="M 4.286,5.714 H 0 V 4.286 H 4.286 V 0 H 5.714 V 4.286 H 10 V 5.714 H 5.714 V 10 H 4.286 Z" />
@@ -108,14 +116,6 @@
     <path id="chk-box-box" d="M 3,5 q 0,-2 2,-2 h 14 q 2,0, 2,2 v 14 q 0,2 -2,2 h -14 q -2,0 -2,-2 Z" />
     <path id="chk-box-dash" d="M 7,13 H 17 V 11 H 7 Z " />
     <path id="up" d="m 0,7.5 5,-5 5,5 z" />
-    <path id="sizegrip"
-      d="M 2,10 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m -3,-3 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m 0,-3 h 2 v 2 h -2 v -2 z" />
-    <path id="progress-tl" d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" />
-    <rect id="progress-t" width="16" height="2" x="2" y="0" />
-    <path id="progress-tr" d="M 18,0 a 2,2 0 0 1 2,2 h -2 z" />
-    <path id="progress-bl" d="M 2,4 a 2,2 0 0 1 -2,-2 h 2 z" />
-    <rect id="progress-b" width="16" height="2" x="2" y="2" />
-    <path id="progress-br" d="M 18,4 a 2,2 0 0 0 2,-2 h -2 z" />
     <!-- MARK: Gradients -->
   </defs>
   <g id="button-group">
@@ -809,7 +809,7 @@
       <path d="M 22,28 a 6,6 0 0 0 6,-6 h -1 a 5,5 0 0 1 -5,5 z" class="outline" />
     </g>
   </g>
-  <g id="dial-group" transform="translate(120,96)">
+  <g id="dial-group" transform="translate(104,112)">
     <circle id="dial" cx="22.5" cy="22.5" r="22.5" class="surf-cont-highest" />
     <g id="dial-notches">
       <rect width="45" height="45" x="0" y="0" opacity="0" />
@@ -842,69 +842,83 @@
     <use id="progress-pattern-disabled-bottom" href="#progress-b" y="8" class="disabled-back" />
     <use id="progress-pattern-disabled-bottomright" href="#progress-br" y="8" class="disabled-back" />
   </g>
-  <!-- <g id="tab-group" transform="translate(0,176)">
-    <use id="tab-normal-topleft" href="#sq-8-tl" class="surf-cont-high" />
-    <use id="tab-normal-top" href="#sq-8-t" class="surf-cont-high" />
-    <use id="tab-normal-topright" href="#sq-8-tr" class="surf-cont-high" />
-    <use id="tab-normal-left" href="#sq-8-l" class="surf-cont-high" />
-    <use id="tab-normal" href="#sq-8-c" class="surf-cont-high" />
-    <use id="tab-normal-right" href="#sq-8-r" class="surf-cont-high" />
-    <use id="tab-normal-bottomleft" href="#sq-8-bl" class="surf-cont-high" />
-    <use id="tab-normal-bottom" href="#sq-8-b" class="surf-cont-high" />
-    <use id="tab-normal-bottomright" href="#sq-8-br" class="surf-cont-high" />
-    <g id="tab-focused-topleft" transform="translate(32)">
-      <use href="#tab-normal-topleft" />
-      <use href="#sq-8-tl" class="pri" opacity="0.1" />
+  <g id="tab-group" transform="translate(0,0)">
+    <rect id="tabbar-normal-topleft" width="1" height="1" fill="#ff0000" />
+    <rect id="tabbar-normal-top" width="16" height="1" x="1" fill="#00ff00" />
+    <rect id="tabbar-normal-topright" width="1" height="1" x="17" fill="#ff0000" />
+    <rect id="tabbar-normal-left" width="1" height="16" y="1" fill="#00ff00" />
+    <rect id="tabbar-normal-right" width="1" height="16" x="17" y="1" fill="#00ff00" />
+    <rect id="tabbar-normal-bottomleft" width="1" height="1" y="17" fill="#ff0000" />
+    <rect id="tabbar-normal-bottom" width="16" height="1" x="1" y="17" fill="#00ff00" />
+    <rect id="tabbar-normal-bottomright" width="1" height="1" x="17" y="17" fill="#ff0000" />
+    <g id="tab-normal-group" transform="translate(0,32)">
+      <use id="tab-normal-topleft" href="#sq-8-tl" class="surf-cont-high" />
+      <use id="tab-normal-top" href="#sq-8-t" class="surf-cont-high" />
+      <use id="tab-normal-topright" href="#sq-8-tr" class="surf-cont-high" />
+      <use id="tab-normal-left" href="#sq-8-l" class="surf-cont-high" />
+      <use id="tab-normal" href="#sq-8-c" class="surf-cont-high" />
+      <use id="tab-normal-right" href="#sq-8-r" class="surf-cont-high" />
+      <use id="tab-normal-bottomleft" href="#sq-8-bl" class="surf-cont-high" />
+      <use id="tab-normal-bottom" href="#sq-8-b" class="surf-cont-high" />
+      <use id="tab-normal-bottomright" href="#sq-8-br" class="surf-cont-high" />
     </g>
-    <g id="tab-focused-top" transform="translate(32)">
-      <use href="#tab-normal-top" />
-      <use href="#sq-8-t" class="pri" opacity="0.1" />
+    <g id="tab-focused-group" transform="translate(32)">
+      <g id="tab-focused-topleft">
+        <use href="#tab-normal-topleft" />
+        <use href="#sq-8-tl" class="pri" opacity="0.1" />
+      </g>
+      <g id="tab-focused-top">
+        <use href="#tab-normal-top" />
+        <use href="#sq-8-t" class="pri" opacity="0.1" />
+      </g>
+      <g id="tab-focused-topright">
+        <use href="#tab-normal-topright" />
+        <use href="#sq-8-tr" class="pri" opacity="0.1" />
+      </g>
+      <g id="tab-focused-left">
+        <use href="#tab-normal-left" />
+        <use href="#sq-8-l" class="pri" opacity="0.1" />
+      </g>
+      <g id="tab-focused">
+        <use href="#tab-normal" />
+        <use href="#sq-8-c" class="pri" opacity="0.1" />
+      </g>
+      <g id="tab-focused-right">
+        <use href="#tab-normal-right" />
+        <use href="#sq-8-r" class="pri" opacity="0.1" />
+      </g>
+      <g id="tab-focused-bottomleft">
+        <use href="#tab-normal-bottomleft" />
+        <use href="#sq-8-bl" class="pri" opacity="0.1" />
+      </g>
+      <g id="tab-focused-bottom">
+        <use href="#tab-normal-bottom" />
+        <use href="#sq-8-b" class="pri" opacity="0.1" />
+      </g>
+      <g id="tab-focused-bottomright">
+        <use href="#tab-normal-bottomright" />
+        <use href="#sq-8-br" class="pri" opacity="0.1" />
+      </g>
     </g>
-    <g id="tab-focused-topright" transform="translate(32)">
-      <use href="#tab-normal-topright" />
-      <use href="#sq-8-tr" class="pri" opacity="0.1" />
-    </g>
-    <g id="tab-focused-left" transform="translate(32)">
-      <use href="#tab-normal-left" />
-      <use href="#sq-8-l" class="pri" opacity="0.1" />
-    </g>
-    <g id="tab-focused" transform="translate(32)">
-      <use href="#tab-normal" />
-      <use href="#sq-8-c" class="pri" opacity="0.1" />
-    </g>
-    <g id="tab-focused-right" transform="translate(32)">
-      <use href="#tab-normal-right" />
-      <use href="#sq-8-r" class="pri" opacity="0.1" />
-    </g>
-    <g id="tab-focused-bottomleft" transform="translate(32)">
-      <use href="#tab-normal-bottomleft" />
-      <use href="#sq-8-bl" class="pri" opacity="0.1" />
-    </g>
-    <g id="tab-focused-bottom" transform="translate(32)">
-      <use href="#tab-normal-bottom" />
-      <use href="#sq-8-b" class="pri" opacity="0.1" />
-    </g>
-    <g id="tab-focused-bottomright" transform="translate(32)">
-      <use href="#tab-normal-bottomright" />
-      <use href="#sq-8-br" class="pri" opacity="0.1" />
-    </g>
-    <use id="tab-toggled-topleft" href="#tab-normal-topleft" x="32" />
-    <use id="tab-toggled-top" href="#tab-normal-top" x="32" />
-    <use id="tab-toggled-topright" href="#tab-normal-topright" x="32" />
-    <use id="tab-toggled-left" href="#tab-normal-left" x="32" />
-    <use id="tab-toggled" href="#tab-normal" x="32" />
-    <use id="tab-toggled-right" href="#tab-normal-right" x="32" />
-    <g id="tab-toggled-bottomleft">
-      <use href="#tab-normal-bottomleft" x="32" />
-      <path d="M 32,32 q 0,-3 3,-3 h 5 v 3 Z" class="pri" />
-    </g>
-    <g id="tab-toggled-bottom">
-      <use href="#tab-normal-bottom" x="32" />
-      <rect width="16" height="3" x="40" y="29" class="pri" />
-    </g>
-    <g id="tab-toggled-bottomright">
-      <use href="#tab-normal-bottomright" x="32" />
-      <path d="M 64,32 q 0,-3 -3,-3 h -5 v 3 Z" class="pri" />
+    <g id="tab-toggled-group">
+      <use id="tab-toggled-topleft" href="#tab-normal-topleft" />
+      <use id="tab-toggled-top" href="#tab-normal-top" />
+      <use id="tab-toggled-topright" href="#tab-normal-topright" />
+      <use id="tab-toggled-left" href="#tab-normal-left" />
+      <use id="tab-toggled" href="#tab-normal" />
+      <use id="tab-toggled-right" href="#tab-normal-right" />
+      <g id="tab-toggled-bottomleft">
+        <use href="#tab-normal-bottomleft" />
+        <path d="M 0,32 a 3,3 0 0 1 3,-3 h 5 v 3 Z" class="pri" />
+      </g>
+      <g id="tab-toggled-bottom">
+        <use href="#tab-normal-bottom" />
+        <rect width="16" height="3" x="8" y="29" class="pri" />
+      </g>
+      <g id="tab-toggled-bottomright">
+        <use href="#tab-normal-bottomright" />
+        <path d="M 32,32 a 3,3 0 0 0 -3,-3 h -5 v 3 Z" class="pri" />
+      </g>
     </g>
     <rect id="tabframe-normal-topleft" width="1" height="1" x="32" class="surf-var" />
     <rect id="tabframe-normal-top" width="16" height="1" x="33" class="surf-var" />
@@ -914,23 +928,23 @@
     <rect id="tabframe-normal-bottomleft" width="1" height="1" x="32" y="17" class="surf-var" />
     <rect id="tabframe-normal-bottom" width="16" height="1" x="33" y="17" class="surf-var" />
     <rect id="tabframe-normal-bottomright" width="1" height="1" x="49" y="17" class="surf-var" />
-    <g id="tab-close-normal">
+    <!-- <g id="tab-close-normal">
       <use href="#icon-box" />
       <use href="#close" class="on-surf-var" />
-    </g>
-    <g id="tab-close-pressed" transform="translate(10)">
+    </g> -->
+    <!-- <g id="tab-close-pressed" transform="translate(10)">
       <use href="#icon-box" />
       <use href="#close" class="on-surf" />
-    </g>
-    <g id="tab-close-focused" transform="translate(0,10)">
+    </g> -->
+    <!-- <g id="tab-close-focused" transform="translate(0,10)">
       <use href="#icon-box" />
       <use href="#close" class="pri" />
-    </g>
-    <g id="tab-close-disabled" transform="translate(10,10)">
+    </g> -->
+    <!-- <g id="tab-close-disabled" transform="translate(10,10)">
       <use href="#icon-box" />
       <use href="#close" class="disabled-text" />
-    </g>
-  </g> -->
+    </g> -->
+  </g>
   <!-- <g id="menu-group" transform="translate(72,144)">
     <path id="menu-normal-topleft" d="M 1,5 q 0,-4 4,-4 h 4 v 4 Z" class="surf-cont" />
     <rect id="menu-normal-top" width="16" height="4" x="9" y="1" class="surf-cont" />
