@@ -49,6 +49,9 @@ slider_handle_width=17
 slider_handle_length=17
 # checkbox
 check_size=20
+
+splitter_width=4
+
 # rendering
 composite=true
 menu_shadow_depth=6
@@ -286,13 +289,9 @@ frame=false
 interior.element=itemview
 
 [Splitter]
-inherits=PanelButtonCommand
+inherits=PanelButtonTool
 interior.element=splitter
-frame.element=splitter
-frame.top=0
-frame.bottom=0
-frame.left=1
-frame.right=1
+frame=false
 indicator.element=splitter-grip
 indicator.size=16
 
