@@ -1,4 +1,4 @@
-<svg width="210" height="210" viewBox="0 0 210 210" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="210" height="210" viewBox="0 0 210 210" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <!-- MARK: Style -->
     <style>
@@ -137,14 +137,43 @@
     <path id="menu"
       d="m 0,8.333 v -1.111 h 10 v 1.111 z m 0,-2.778 v -1.111 h 10 v 1.111 z m 0,-2.778 v -1.111 h 10 v 1.111 z" />
     <!-- MARK: Gradients -->
-    <radialGradient id="slider-bg1">
+    <radialGradient id="slider-bg">
       <stop stop-opacity="1" offset="0.875" />
       <stop stop-opacity="0" offset="1" />
     </radialGradient>
-    <radialGradient id="slider-ag1">
+    <radialGradient id="slider-ag">
       <stop stop-opacity="1" offset="0.8" />
       <stop stop-opacity="0" offset="1" />
     </radialGradient>
+    <!-- 17 -->
+    <linearGradient id="menu-bg">
+      <stop stop-opacity="1" offset="0.5" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <radialGradient xlink:href="#menu-bg" id="menu-bgtl" cx="5" cy="6" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-bg" id="menu-bgt" x1="17" y1="6" x2="17" y2="2" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-bg" id="menu-bgtr" cx="29" cy="6" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-bg" id="menu-bgl" x1="5" y1="14" x2="1" y2="14" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-bg" id="menu-bgr" x1="29" y1="14" x2="33" y2="14"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-bg" id="menu-bgbl" cx="5" cy="22" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-bg" id="menu-bgb" x1="17" y1="22" x2="17" y2="26"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-bg" id="menu-bgbr" cx="29" cy="22" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient id="menu-ag">
+      <stop offset="0" stop-opacity="0.833" />
+      <stop offset="1" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient xlink:href="#menu-ag" id="menu-agtl" cx="5" cy="7" r="5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-ag" id="menu-agt" x1="17" y1="7" x2="17" y2="2" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-ag" id="menu-agtr" cx="29" cy="7" r="5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-ag" id="menu-agl" x1="5" y1="15" x2="0" y2="15" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-ag" id="menu-agr" x1="29" y1="15" x2="34" y2="15"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-ag" id="menu-agbl" cx="5" cy="23" r="5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-ag" id="menu-agb" x1="17" y1="23" x2="17" y2="28"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-ag" id="menu-agbr" cx="29" cy="23" r="5" gradientUnits="userSpaceOnUse" />
   </defs>
   <g id="button-group">
     <g id="button-normal-group">
@@ -997,6 +1026,23 @@
     <g id="slider-toggled-group" transform="translate(6)">
       <use id="slider-toggled-topleft" href="#slider-tl" class="pri" />
       <use id="slider-toggled-top" href="#slider-t" class="pri" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      ;
       <use id="slider-toggled-topright" href="#slider-tr" class="pri" />
       <use id="slider-toggled-left" href="#slider-l" class="pri" />
       <use id="slider-toggled" href="#slider-c" class="pri" />
@@ -1012,8 +1058,8 @@
   <g id="slidercursor-group" transform="translate(64,144)">
     <g id="slidercursor-normal">
       <rect width="17" height="17" x="0" y="0" opacity="0" />
-      <circle cx="8.5" cy="9.5" r="7" fill="url(#slider-bg1)" opacity="0.3" />
-      <circle cx="8.5" cy="9.5" r="7.5" fill="url(#slider-ag1)" opacity="0.15" />
+      <circle cx="8.5" cy="9.5" r="7" fill="url(#slider-bg)" opacity="0.3" />
+      <circle cx="8.5" cy="9.5" r="7.5" fill="url(#slider-ag)" opacity="0.15" />
       <circle cx="8.5" cy="8.5" r="7" class="pri" />
     </g>
     <g id="slidercursor-focused" transform="translate(17)">
@@ -1037,21 +1083,21 @@
     <rect id="splitter-focused" width="4" height="16" x="5" class="outline" opacity="0.38" />
     <rect id="splitter-pressed" width="4" height="16" x="10" class="outline" />
   </g>
-  <!-- <g id="menu-group" transform="translate(72,144)">
-    <path id="menu-normal-topleft" d="M 1,5 q 0,-4 4,-4 h 4 v 4 Z" class="surf-cont" />
+  <g id="menu-group" transform="translate(160,0)">
+    <path id="menu-normal-topleft" d="M 5,1 a 4,4 0 0 0 -4,4 h 8 v -4 z" class="surf-cont" />
     <rect id="menu-normal-top" width="16" height="4" x="9" y="1" class="surf-cont" />
-    <path id="menu-normal-topright" d="M 33,5 q 0,-4 -4,-4 h -4 v 4 Z" class="surf-cont" />
+    <path id="menu-normal-topright" d="M 29,1 a 4,4 0 0 1 4,4 h -8 v -4 z" class="surf-cont" />
     <rect id="menu-normal-left" width="8" height="16" x="1" y="5" class="surf-cont" />
     <rect id="menu-normal" width="16" height="16" x="9" y="5" class="surf-cont" />
     <rect id="menu-normal-right" width="8" height="16" x="25" y="5" class="surf-cont" />
-    <path id="menu-normal-bottomleft" d="M 1,21 q 0,4 4,4 h 4 v -4 Z" class="surf-cont" />
+    <path id="menu-normal-bottomleft" d="M 5,25 a 4,4 0 0 1 -4,-4 h 8 v 4 z" class="surf-cont" />
     <rect id="menu-normal-bottom" width="16" height="4" x="9" y="21" class="surf-cont" />
-    <path id="menu-normal-bottomright" d="M 33,21 q 0,4 -4,4 h -4 v -4 Z" class="surf-cont" />
+    <path id="menu-normal-bottomright" d="M 29,25 a 4,4 0 0 0 4,-4 h -8 v 4 z" class="surf-cont" />
     <g id="menu-shadow-group">
       <g id="menu-shadow-topleft">
         <rect width="9" height="5" opacity="0" />
-        <path d="M 1.25 3.25 C 0.793 3.707 0.461 4.292 0.255 5 L 1 5 C 1 4.333 1.084 3.75 1.25 3.25 z"
-          fill="url(#menu-agtl)" opacity="0.15" />
+        <path d="M 1.209 3.748 A 5 5 0 0 0 0.419 5 L 1 5 A 4 4 0 0 1 1.209 3.748 z" fill="url(#menu-agtl)"
+          opacity="0.15" />
         <use href="#menu-normal-topleft" />
       </g>
       <g id="menu-shadow-top">
@@ -1060,29 +1106,26 @@
       </g>
       <g id="menu-shadow-topright">
         <rect width="9" height="5" x="25" opacity="0" />
-        <path d="M 32.75 3.25 C 32.917 3.75 33 4.333 33 5 L 33.745 5 C 33.539 4.292 33.208 3.707 32.75 3.25 z"
-          fill="url(#menu-agtr)" opacity="0.15" />
+        <path d="M 32.798 3.75 A 4 4 0 0 1 33 5 L 33.583 5 A 5 5 0 0 0 32.798 3.75 z" fill="url(#menu-agtr)"
+          opacity="0.15" />
         <use href="#menu-normal-topright" />
       </g>
       <g id="menu-shadow-left">
-        <path d="M 0.255 5 C 0.086 5.582 0 6.249 0 7 L 1 7 L 1 5 L 0.255 5 z" fill="url(#menu-agtl)" opacity="0.15" />
+        <path d="M 0.419 5 A 5 5 0 0 0 0 7 L 1 7 L 1 5 L 0.419 5 z" fill="url(#menu-agtl)" opacity="0.15" />
         <rect width="1" height="14" x="0" y="7" fill="url(#menu-agl)" opacity="0.15" />
         <use href="#menu-normal-left" />
       </g>
       <g id="menu-shadow-right">
-        <path d="M 33 5 L 33 7 L 34 7 C 34 6.248 33.915 5.582 33.745 5 L 33 5 z" fill="url(#menu-agtr)"
-          opacity="0.15" />
+        <path d="M 33 5 L 33 7 L 34 7 A 5 5 0 0 0 33.583 5 L 33 5 z" fill="url(#menu-agtr)" opacity="0.15" />
         <rect width="1" height="14" x="33" y="7" fill="url(#menu-agr)" opacity="0.15" />
         <use href="#menu-normal-right" />
       </g>
       <g id="menu-shadow-bottomleft">
-        <path d="M 1 21 L 1 22 L 1.073 22 C 1.025 21.69 1 21.357 1 21 z" fill="url(#menu-bgl)" opacity="0.3" />
-        <path d="M 1 22 C 1 24.667 2.333 26 5 26 L 5 25 C 2.691 25 1.383 23.999 1.073 22 L 1 22 z"
-          fill="url(#menu-bgbl)" opacity="0.3" />
+        <path d="M 1 21 L 1 22 L 1.134 22 A 4 4 0 0 1 1 21 z" fill="url(#menu-bgl)" opacity="0.3" />
+        <path d="M 1 22 A 4 4 0 0 0 5 26 L 5 25 A 4 4 0 0 1 1.134 22 L 1 22 z" fill="url(#menu-bgbl)" opacity="0.3" />
         <rect width="4" height="1" x="5" y="25" fill="url(#menu-bgb)" opacity="0.3" />
-        <path d="M 0 21 L 0 23 L 1.345 23 C 1.116 22.447 1 21.781 1 21 L 0 21 z" fill="url(#menu-agl)" opacity="0.15" />
-        <path d="M 0 23 C 0 26.333 1.667 28 5 28 L 5 25 C 3.115 25 1.897 24.332 1.345 23 L 0 23 z"
-          fill="url(#menu-agbl)" opacity="0.15" />
+        <path d="M 0 21 L 0 23 L 1.547 23 A 4 4 0 0 1 1 21 L 0 21 z" fill="url(#menu-agl)" opacity="0.15" />
+        <path d="M 0 23 A 5 5 0 0 0 5 28 L 5 25 A 4 4 0 0 1 1.547 23 L 0 23 z" fill="url(#menu-agbl)" opacity="0.15" />
         <rect width="4" height="3" x="5" y="25" fill="url(#menu-agb)" opacity="0.15" />
         <use href="#menu-normal-bottomleft" />
       </g>
@@ -1092,14 +1135,13 @@
         <use href="#menu-normal-bottom" />
       </g>
       <g id="menu-shadow-bottomright">
-        <path d="M 33 21 C 33 21.357 32.975 21.69 32.927 22 L 33 22 L 33 21 z" fill="url(#menu-bgr)" opacity="0.3" />
-        <path d="M 32.927 22 C 32.618 23.999 31.309 25 29 25 L 29 26 C 31.667 26 33 24.667 33 22 L 32.927 22 z"
-          fill="url(#menu-bgbr)" opacity="0.3" />
+        <path d="M 33 21 A 4 4 0 0 1 32.865 22 L 33 22 L 33 21 z" fill="url(#menu-bgr)" opacity="0.3" />
+        <path d="M 32.865 22 A 4 4 0 0 1 29 25 L 29 26 A 4 4 0 0 0 33 22 L 32.865 22 z" fill="url(#menu-bgbr)"
+          opacity="0.3" />
         <rect width="4" height="1" x="25" y="25" fill="url(#menu-bgb)" opacity="0.3" />
-        <path d="M 33 21 C 33 21.781 32.885 22.447 32.656 23 L 34 23 L 34 21 L 33 21 z" fill="url(#menu-agr)"
+        <path d="M 33 21 A 4 4 0 0 1 32.454 23 L 34 23 L 34 21 L 33 21 z" fill="url(#menu-agr)" opacity="0.15" />
+        <path d="M 32.454 23 A 4 4 0 0 1 29 25 L 29 28 A 5 5 0 0 0 34 23 L 32.454 23 z" fill="url(#menu-agbr)"
           opacity="0.15" />
-        <path d="M 32.656 23 C 32.103 24.333 30.885 25 29 25 L 29 28 C 32.334 28 34 26.333 34 23 L 32.656 23 z"
-          fill="url(#menu-agbr)" opacity="0.15" />
         <rect width="4" height="3" x="25" y="25" fill="url(#menu-agb)" opacity="0.15" />
         <use href="#menu-normal-bottomright" />
       </g>
@@ -1108,7 +1150,7 @@
       <rect id="menu-shadow-hint-right" width="1" height="1" x="33" y="13.5" fill="#ff00ff" />
       <rect id="menu-shadow-hint-bottom" width="1" height="3" x="16.5" y="25" fill="#ff00ff" />
     </g>
-    <g id="menuitem-toggled-group" transform="translate(1)">
+    <g id="menuitem-toggled-group" transform="translate(1,1)">
       <rect id="menuitem-toggled-topleft" width="8" height="1" class="on-surf" opacity="0.08" />
       <rect id="menuitem-toggled-top" width="16" height="1" x="8" class="on-surf" opacity="0.08" />
       <rect id="menuitem-toggled-topright" width="8" height="1" x="24" class="on-surf" opacity="0.08" />
@@ -1119,7 +1161,7 @@
       <rect id="menuitem-toggled-bottom" width="16" height="1" x="8" y="9" class="on-surf" opacity="0.08" />
       <rect id="menuitem-toggled-bottomright" width="8" height="1" x="24" y="9" class="on-surf" opacity="0.08" />
     </g>
-    <g id="menuitem-pressed-group" transform="translate(1,10)">
+    <g id="menuitem-pressed-group" transform="translate(1,11)">
       <rect id="menuitem-pressed-topleft" width="8" height="1" class="on-surf" opacity="0.1" />
       <rect id="menuitem-pressed-top" width="16" height="1" x="8" class="on-surf" opacity="0.1" />
       <rect id="menuitem-pressed-topright" width="8" height="1" x="24" class="on-surf" opacity="0.1" />
@@ -1130,11 +1172,11 @@
       <rect id="menuitem-pressed-bottom" width="16" height="1" x="8" y="9" class="on-surf" opacity="0.1" />
       <rect id="menuitem-pressed-bottomright" width="8" height="1" x="24" y="9" class="on-surf" opacity="0.1" />
     </g>
-    <g id="menuitem-separator" transform="translate(1,18)">
+    <g id="menuitem-separator" transform="translate(1,17)">
       <rect width="32" height="8" opacity="0" />
       <rect width="32" height="1" y="3.5" class="surf-var" />
     </g>
-  </g> -->
+  </g>
   <!-- <g id="tooltip-group" transform="translate(106,144)">
     <path id="tooltip-normal-topleft" d="M 0.5,4.5 q 0,-4 4,-4 v 4 Z" class="inv-surf" />
     <rect id="tooltip-normal-top" width="16" height="4" x="4.5" y="0.5" class="inv-surf" />
@@ -1285,4 +1327,5 @@
   <use id="scrollbarslider-focused-bottomleft" href="#scrollbarslider-bl" y="18" fill="#80ff00" />
   <use id="scrollbarslider-focused-bottom" href="#scrollbarslider-b" y="18" fill="#80ff00" />
   <use id="scrollbarslider-focused-bottomright" href="#scrollbarslider-br" y="18" fill="#80ff00" /> -->
+  <!-- <path clip="br" style="fill:#000080" d="M 34,21 v 7 h -9 v -3 h 4 a 4,4 0 0 0 4,-4 z" /> -->
 </svg>
