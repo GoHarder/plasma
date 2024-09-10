@@ -148,22 +148,11 @@ text.press.color=#e2e2e5
 text.toggle.color=#d5e4f6
 
 # [Dock]
-# inherits=PanelButtonTool
-# frame=false
-# interior=false
 
 # [DockTitle]
-# inherits=PanelButtonTool
-# frame=false
-# interior=true
-# interior.element=dock
-# text.focus.color=white
-# text.margin.top=2
-# text.margin.bottom=2
-# text.margin.left=3
-# text.margin.right=3
 
 # [IndicatorSpinBox]
+inherits=LineEdit
 
 [RadioButton]
 inherits=PanelButtonTool
