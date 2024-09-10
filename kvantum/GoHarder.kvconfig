@@ -166,7 +166,7 @@ text.toggle.color=#d5e4f6
 
 # [DockTitle]
 
-# [IndicatorSpinBox]
+[IndicatorSpinBox]
 inherits=LineEdit
 
 [RadioButton]

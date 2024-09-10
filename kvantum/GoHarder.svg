@@ -1035,23 +1035,6 @@
     <g id="slider-toggled-group" transform="translate(6)">
       <use id="slider-toggled-topleft" href="#slider-tl" class="pri" />
       <use id="slider-toggled-top" href="#slider-t" class="pri" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      ;
       <use id="slider-toggled-topright" href="#slider-tr" class="pri" />
       <use id="slider-toggled-left" href="#slider-l" class="pri" />
       <use id="slider-toggled" href="#slider-c" class="pri" />
