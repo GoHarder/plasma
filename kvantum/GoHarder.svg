@@ -109,6 +109,15 @@
     <path id="slider-br" d="M 6,18 a 2,2 0 0 1 -2,2 v -2 z" />
     <path id="grip"
       d="M 2,16 Q 1.175,16 0.588,15.413 0,14.825 0,14 0,13.175 0.588,12.588 1.175,12 2,12 2.825,12 3.413,12.588 4,13.175 4,14 4,14.825 3.413,15.413 2.825,16 2,16 Z M 2,10 Q 1.175,10 0.588,9.413 0,8.825 0,8 0,7.175 0.588,6.588 1.175,6 2,6 2.825,6 3.413,6.588 4,7.175 4,8 4,8.825 3.413,9.413 2.825,10 2,10 Z M 2,4 Q 1.175,4 0.588,3.413 0,2.825 0,2 0,1.175 0.588,0.588 1.175,0 2,0 2.825,0 3.413,0.588 4,1.175 4,2 4,2.825 3.413,3.413 2.825,4 2,4 Z" />
+    <rect id="head-tl" width="1" height="1" />
+    <rect id="head-t" width="16" height="1" x="1" />
+    <rect id="head-tr" width="1" height="1" x="17" />
+    <rect id="head-l" width="1" height="16" y="1" />
+    <rect id="head-c" width="16" height="16" x="1" y="1" />
+    <rect id="head-r" width="1" height="16" x="17" y="1" />
+    <rect id="head-bl" width="1" height="1" y="17" />
+    <rect id="head-b" width="16" height="1" x="1" y="17" />
+    <rect id="head-br" width="1" height="1" x="17" y="17" />
     <!-- MARK: Icons -->
     <rect id="icon-box" width="10" height="10" opacity="0" />
     <path id="add" d="M 4.286,5.714 H 0 V 4.286 H 4.286 V 0 H 5.714 V 4.286 H 10 V 5.714 H 5.714 V 10 H 4.286 Z" />
@@ -1177,6 +1186,113 @@
       <rect width="32" height="1" y="3.5" class="surf-var" />
     </g>
   </g>
+  <g id="head-group" transform="translate(160,28)">
+    <g id="head-normal-group">
+      <use id="head-normal-topleft" href="#head-tl" class="surf-cont-highest" />
+      <use id="head-normal-top" href="#head-t" class="surf-cont-highest" />
+      <use id="head-normal-topright" href="#head-tr" class="surf-cont-highest" />
+      <use id="head-normal-left" href="#head-l" class="surf-cont-highest" />
+      <use id="head-normal" href="#head-c" class="surf-cont-highest" />
+      <use id="head-normal-right" href="#head-r" class="surf-cont-highest" />
+      <use id="head-normal-bottomleft" href="#head-bl" class="surf-cont-highest" />
+      <use id="head-normal-bottom" href="#head-b" class="surf-cont-highest" />
+      <use id="head-normal-bottomright" href="#head-br" class="surf-cont-highest" />
+    </g>
+    <g id="head-focused-group" transform="translate(18)">
+      <g id="head-focused-topleft">
+        <use href="#head-normal-topleft" />
+        <use href="#head-normal-topleft" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="head-focused-top">
+        <use href="#head-normal-top" />
+        <use href="#head-t" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="head-focused-topright">
+        <use href="#head-normal-topright" />
+        <use href="#head-tr" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="head-focused-left">
+        <use href="#head-normal-left" />
+        <use href="#head-l" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="head-focused">
+        <use href="#head-normal" />
+        <use href="#head-c" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="head-focused-right">
+        <use href="#head-normal-right" />
+        <use href="#head-r" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="head-focused-bottomleft">
+        <use href="#head-normal-bottomleft" />
+        <use href="#head-bl" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="head-focused-bottom">
+        <use href="#head-normal-bottom" />
+        <use href="#head-b" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="head-focused-bottomright">
+        <use href="#head-normal-bottomright" />
+        <use href="#head-br" class="on-surf" opacity="0.08" />
+      </g>
+    </g>
+    <g id="head-pressed-group" transform="translate(0,18)">
+      <g id="head-pressed-topleft">
+        <use href="#head-normal-topleft" />
+        <use href="#head-tl" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="head-pressed-top">
+        <use href="#head-normal-top" />
+        <use href="#head-t" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="head-pressed-topright">
+        <use href="#head-normal-topright" />
+        <use href="#head-tr" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="head-pressed-left">
+        <use href="#head-normal-left" />
+        <use href="#head-l" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="head-pressed">
+        <use href="#head-normal" />
+        <use href="#head-c" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="head-pressed-right">
+        <use href="#head-normal-right" />
+        <use href="#head-r" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="head-pressed-bottomleft">
+        <use href="#head-normal-bottomleft" />
+        <use href="#head-bl" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="head-pressed-bottom">
+        <use href="#head-normal-bottom" />
+        <use href="#head-b" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="head-pressed-bottomright">
+        <use href="#head-normal-bottomright" />
+        <use href="#head-br" class="on-surf" opacity="0.1" />
+      </g>
+    </g>
+    <g id="head-toggled-group" transform="translate(18,18)">
+      <use id="head-toggled-topleft" href="#head-tl" class="sec" />
+      <use id="head-toggled-top" href="#head-t" class="sec" />
+      <use id="head-toggled-topright" href="#head-tr" class="sec" />
+      <use id="head-toggled-left" href="#head-l" class="sec" />
+      <use id="head-toggled" href="#head-c" class="sec" />
+      <use id="head-toggled-right" href="#head-r" class="sec" />
+      <use id="head-toggled-bottomleft" href="#head-bl" class="sec" />
+      <use id="head-toggled-bottom" href="#head-b" class="sec" />
+      <use id="head-toggled-bottomright" href="#head-br" class="sec" />
+    </g>
+    <g id="header-separator">
+      <rect width="5" height="10" opacity="0" />
+      <rect width="1" height="10" x="4" class="outline" />
+    </g>
+  </g>
+
+
+
   <!-- <g id="tooltip-group" transform="translate(106,144)">
     <path id="tooltip-normal-topleft" d="M 0.5,4.5 q 0,-4 4,-4 v 4 Z" class="inv-surf" />
     <rect id="tooltip-normal-top" width="16" height="4" x="4.5" y="0.5" class="inv-surf" />
@@ -1255,10 +1371,6 @@
   <!-- <rect id="grip-normal" width="8" height="13" opacity="0" /> -->
   <!-- <rect id="grip-focused" width="8" height="13" opacity="0" /> -->
   <!-- <rect id="grip-pressed" width="8" height="13" opacity="0" /> -->
-  <!-- <g id="header-separator">
-    <rect width="5" height="10" opacity="0" />
-    <rect width="1" height="10" x="4" class="outline" />
-  </g> -->
   <!--   
   id="menuitem-tearoff-normal"
   id="menuitem-tearoff-focused"
@@ -1327,5 +1439,4 @@
   <use id="scrollbarslider-focused-bottomleft" href="#scrollbarslider-bl" y="18" fill="#80ff00" />
   <use id="scrollbarslider-focused-bottom" href="#scrollbarslider-b" y="18" fill="#80ff00" />
   <use id="scrollbarslider-focused-bottomright" href="#scrollbarslider-br" y="18" fill="#80ff00" /> -->
-  <!-- <path clip="br" style="fill:#000080" d="M 34,21 v 7 h -9 v -3 h 4 a 4,4 0 0 0 4,-4 z" /> -->
 </svg>
