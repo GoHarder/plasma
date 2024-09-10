@@ -876,9 +876,9 @@
     <rect id="tabbar-normal-topright" width="1" height="1" x="17" opacity="0" />
     <rect id="tabbar-normal-left" width="1" height="16" y="1" opacity="0" />
     <rect id="tabbar-normal-right" width="1" height="16" x="17" y="1" opacity="0" />
-    <rect id="tabbar-normal-bottomleft" width="1" height="1" y="17" opacity="0" />
+    <rect id="tabbar-normal-bottomleft" width="1" height="1" y="17" class="surf-var" />
     <rect id="tabbar-normal-bottom" width="16" height="1" x="1" y="17" class="surf-var" />
-    <rect id="tabbar-normal-bottomright" width="1" height="1" x="17" y="17" opacity="0" />
+    <rect id="tabbar-normal-bottomright" width="1" height="1" x="17" y="17" class="surf-var" />
     <g id="tab-normal-group">
       <use id="tab-normal-topleft" href="#sq-8-tl" class="surf-cont-high" />
       <use id="tab-normal-top" href="#sq-8-t" class="surf-cont-high" />
@@ -886,9 +886,18 @@
       <use id="tab-normal-left" href="#sq-8-l" class="surf-cont-high" />
       <use id="tab-normal" href="#sq-8-c" class="surf-cont-high" />
       <use id="tab-normal-right" href="#sq-8-r" class="surf-cont-high" />
-      <use id="tab-normal-bottomleft" href="#sq-8-bl" class="surf-cont-high" />
-      <use id="tab-normal-bottom" href="#sq-8-b" class="surf-cont-high" />
-      <use id="tab-normal-bottomright" href="#sq-8-br" class="surf-cont-high" />
+      <g id="tab-normal-bottomleft">
+        <use href="#sq-8-bl" class="surf-cont-high" />
+        <rect width="8" height="1" y="31" class="surf-var" />
+      </g>
+      <g id="tab-normal-bottom">
+        <use href="#sq-8-b" class="surf-cont-high" />
+        <rect width="16" height="1" x="8" y="31" class="surf-var" />
+      </g>
+      <g id="tab-normal-bottomright">
+        <use href="#sq-8-br" class="surf-cont-high" />
+        <rect width="8" height="1" x="24" y="31" class="surf-var" />
+      </g>
     </g>
     <g id="tab-focused-group" transform="translate(32)">
       <g id="tab-focused-topleft">
@@ -937,15 +946,15 @@
       <use id="tab-toggled-right" href="#tab-normal-right" />
       <g id="tab-toggled-bottomleft">
         <use href="#tab-normal-bottomleft" />
-        <path d="M 0,32 a 3,3 0 0 1 3,-3 h 5 v 3 Z" class="pri" />
+        <path d="M 0,32 a 2,2 0 0 1 2,-2 h 6 v 2 Z" class="pri" />
       </g>
       <g id="tab-toggled-bottom">
         <use href="#tab-normal-bottom" />
-        <rect width="16" height="3" x="8" y="29" class="pri" />
+        <rect width="16" height="2" x="8" y="30" class="pri" />
       </g>
       <g id="tab-toggled-bottomright">
         <use href="#tab-normal-bottomright" />
-        <path d="M 32,32 a 3,3 0 0 0 -3,-3 h -5 v 3 Z" class="pri" />
+        <path d="M 32,32 a 2,2 0 0 0 -2,-2 h -6 v 2 Z" class="pri" />
       </g>
     </g>
     <rect id="tabframe-normal-topleft" width="1" height="1" x="32" class="surf-var" />
