@@ -1258,15 +1258,15 @@
       </g>
     </g>
     <g id="head-toggled-group" transform="translate(18,18)">
-      <use id="head-toggled-topleft" href="#head-tl" class="sec" />
-      <use id="head-toggled-top" href="#head-t" class="sec" />
-      <use id="head-toggled-topright" href="#head-tr" class="sec" />
-      <use id="head-toggled-left" href="#head-l" class="sec" />
-      <use id="head-toggled" href="#head-c" class="sec" />
-      <use id="head-toggled-right" href="#head-r" class="sec" />
-      <use id="head-toggled-bottomleft" href="#head-bl" class="sec" />
-      <use id="head-toggled-bottom" href="#head-b" class="sec" />
-      <use id="head-toggled-bottomright" href="#head-br" class="sec" />
+      <use id="head-toggled-topleft" href="#head-tl" class="sec-cont" />
+      <use id="head-toggled-top" href="#head-t" class="sec-cont" />
+      <use id="head-toggled-topright" href="#head-tr" class="sec-cont" />
+      <use id="head-toggled-left" href="#head-l" class="sec-cont" />
+      <use id="head-toggled" href="#head-c" class="sec-cont" />
+      <use id="head-toggled-right" href="#head-r" class="sec-cont" />
+      <use id="head-toggled-bottomleft" href="#head-bl" class="sec-cont" />
+      <use id="head-toggled-bottom" href="#head-b" class="sec-cont" />
+      <use id="head-toggled-bottomright" href="#head-br" class="sec-cont" />
     </g>
     <g id="header-separator">
       <rect width="5" height="10" opacity="0" />
