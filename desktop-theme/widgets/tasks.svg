@@ -1,5 +1,4 @@
-<svg width="136" height="114" viewBox="0 0 136 114" version="1.1" xmlns="http://www.w3.org/2000/svg">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" />
+<svg width="136" height="114" viewBox="0 0 68 38" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style id="current-color-scheme" type="text/css">
       .ColorScheme-Text {
@@ -46,28 +45,30 @@
     <path id="br-2" d="M 30 16 L 30 17.5 L 30 19 L 31.5 19 A 1.5 1.5 0 0 0 33 17.5 A 1.5 1.5 0 0 0 31.5 16 L 30 16 z" />
     <path id="br-3" d="M 30 16 L 30 17.5 A 1.5 1.5 0 0 0 31.5 19 A 1.5 1.5 0 0 0 33 17.5 L 33 16 L 31.5 16 L 30 16 z" />
   </defs>
-  <g id="s-progress" transform="translate(0)">
-    <use id="progress-topleft" href="#tl-0" />
-    <use id="progress-top" href="#t-1" opacity="0" />
-    <use id="progress-topright" href="#tr-0" />
-    <use id="progress-left" href="#l-0" />
-    <use id="progress-center" href="#c" opacity="0" />
-    <use id="progress-right" href="#r-0" />
-    <g id="progress-bottomleft">
-      <use href="#bl-0" />
-      <use href="#bl-2" class="ColorScheme-PositiveText" fill="currentColor" />
-    </g>
-    <use id="progress-bottom" href="#b-1" class="ColorScheme-PositiveText" fill="currentColor" />
-    <g id="progress-bottomright">
-      <use href="#br-0" />
-      <use href="#br-2" class="ColorScheme-PositiveText" fill="currentColor" />
-    </g>
+  <rect id="progress-topleft" width="4" height="3" opacity="0" />
+  <rect id="progress-top" width="26" height="3" x="4" opacity="0" />
+  <rect id="progress-topright" width="4" height="3" x="30" opacity="0.25" />
+  <rect id="progress-left" width="4" height="13" y="3" opacity="0" />
+  <rect id="progress-center" width="26" height="13" x="4" y="3" opacity="0" />
+  <rect id="progress-right" width="4" height="13" x="30" y="3" opacity="0.25" />
+  <g id="progress-bottomleft">
+    <rect width="4" height="3" y="16" opacity="0" />
+    <path d="M 2.5,16 a 1.5,1.5 0 0 0 -1.5,1.5 a 1.5,1.5 0 0 0 1.5,1.5 h 1.5 v -3 z" class="ColorScheme-PositiveText"
+      fill="currentColor" />
+  </g>
+  <rect id="progress-bottom" width="26" height="3" x="4" y="16" class="ColorScheme-PositiveText" fill="currentColor" />
+  <g id="progress-bottomright">
+    <rect width="4" height="3" x="30" y="16" opacity="0.25" />
+    <path d="M 30,16 v 3 h 1.5 a 1.5,1.5 0 0 0 1.5,-1.5 a 1.5,1.5 0 0 0 -1.5,-1.5 z" class="ColorScheme-PositiveText"
+      fill="currentColor" />
+  </g>
+  <!-- north-progress -->
+  <g id="north-progress-topleft">
+    <rect width="4" height="3" x="34" opacity="0.25" />
+    <path d="M 36.5,0 a 1.5,1.5 0 0 0 -1.5,1.5 a 1.5,1.5 0 0 0 1.5,1.5 h 1.5 v -3 z" class="ColorScheme-PositiveText"
+      fill="currentColor" />
   </g>
   <g id="n-progress" transform="translate(34)">
-    <g id="north-progress-topleft">
-      <use href="#tl-0" />
-      <use href="#tl-2" class="ColorScheme-PositiveText" fill="currentColor" />
-    </g>
     <use id="north-progress-top" href="#t-1" class="ColorScheme-PositiveText" fill="currentColor" />
     <g id="north-progress-topright">
       <use href="#tr-0" />
@@ -80,7 +81,7 @@
     <use id="north-progress-bottom" href="#b-1" opacity="0" />
     <use id="north-progress-bottomright" href="#br-0" />
   </g>
-  <g id="w-progress" transform="translate(68)">
+  <!-- <g id="w-progress" transform="translate(68)">
     <g id="west-progress-topleft">
       <use href="#tl-0" />
       <use href="#tl-3" class="ColorScheme-PositiveText" fill="currentColor" />
@@ -99,8 +100,8 @@
     </g>
     <use id="west-progress-bottom" href="#b-1" opacity="0" />
     <use id="west-progress-bottomright" href="#br-0" />
-  </g>
-  <g id="e-progress" transform="translate(102)">
+  </g> -->
+  <!-- <g id="e-progress" transform="translate(102)">
     <use id="east-progress-topleft" href="#tl-0" />
     <use id="east-progress-top" href="#t-1" opacity="0" />
     <g id="east-progress-topright">
@@ -119,43 +120,41 @@
       <use href="#br-0" />
       <use href="#br-3" class="ColorScheme-PositiveText" fill="currentColor" />
     </g>
+  </g> -->
+  <g id="focus-topleft">
+    <rect width="4" height="3" y="19" opacity="0" />
+    <path d="M 4,19 a 3,3 0 0 0 -3,3 h 2 a 1,1 0 0 1 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
   </g>
-  <g id="s-focus" transform="translate(0,19)">
-    <g id="focus-topleft">
-      <use href="#tl-0" />
-      <path d="M 4,0 a 3,3 0 0 0 -3,3 h 2 a 1,1 0 0 1 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
-    </g>
-    <g id="focus-top">
-      <use href="#t-1" opacity="0.25" />
-      <rect width="26" height="2" x="4" y="0" class="ColorScheme-ButtonFocus" fill="currentColor" />
-    </g>
-    <g id="focus-topright">
-      <use href="#tr-0" />
-      <path d="M 30,0 a 3,3 0 0 1 3,3 h -2 a 1,1 0 0 0 -1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
-    </g>
-    <g id="focus-left">
-      <use href="#l-0" />
-      <rect width="2" height="13" x="1" y="3" class="ColorScheme-ButtonFocus" fill="currentColor" />
-    </g>
-    <use id="focus-center" href="#c" opacity="0" />
-    <g id="focus-right">
-      <use href="#r-0" />
-      <rect width="2" height="13" x="31" y="3" class="ColorScheme-ButtonFocus" fill="currentColor" />
-    </g>
-    <g id="focus-bottomleft">
-      <use href="#bl-0" />
-      <path d="M 1,16 a 3,3 0 0 0 3,3 v -2 a 1,1 0 0 1 -1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
-    </g>
-    <g id="focus-bottom">
-      <use href="#b-1" opacity="0.25" />
-      <rect width="26" height="2" x="4" y="17" class="ColorScheme-ButtonFocus" fill="currentColor" />
-    </g>
-    <g id="focus-bottomright">
-      <use href="#br-0" />
-      <path d="M 33,16 a 3,3 0 0 1 -3,3 v -2 a 1,1 0 0 0 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
-    </g>
+  <g id="focus-top">
+    <rect width="26" height="3" x="4" y="19" opacity="0" />
+    <rect width="26" height="2" x="4" y="19" class="ColorScheme-ButtonFocus" fill="currentColor" />
   </g>
-  <g id="n-focus" transform="translate(34,19)">
+  <g id="focus-topright">
+    <rect width="4" height="3" x="30" y="19" opacity="0.25" />
+    <path d="M 30,19 a 3,3 0 0 1 3,3 h -2 a 1,1 0 0 0 -1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
+  </g>
+  <g id="focus-left">
+    <rect width="4" height="13" y="22" opacity="0" />
+    <rect width="2" height="13" x="1" y="22" class="ColorScheme-ButtonFocus" fill="currentColor" />
+  </g>
+  <rect id="focus-center" width="26" height="13" x="4" y="22" opacity="0" />
+  <g id="focus-right">
+    <rect width="4" height="13" x="30" y="22" opacity="0.25" />
+    <rect width="2" height="13" x="31" y="22" class="ColorScheme-ButtonFocus" fill="currentColor" />
+  </g>
+  <g id="focus-bottomleft">
+    <rect width="4" height="3" y="35" opacity="0.25" />
+    <path d="M 1,35 a 3,3 0 0 0 3,3 v -2 a 1,1 0 0 1 -1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
+  </g>
+  <g id="focus-bottom">
+    <rect width="26" height="3" x="4" y="35" opacity="0.25" />
+    <rect width="26" height="2" x="4" y="36" class="ColorScheme-ButtonFocus" fill="currentColor" />
+  </g>
+  <g id="focus-bottomright">
+    <rect width="4" height="3" x="30" y="35" opacity="0.25" />
+    <path d="M 33,35 a 3,3 0 0 1 -3,3 v -2 a 1,1 0 0 0 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
+  </g>
+  <!-- <g id="n-focus" transform="translate(34,19)">
     <g id="north-focus-topleft">
       <use href="#tl-0" />
       <path d="M 4,0 a 3,3 0 0 0 -3,3 h 2 a 1,1 0 0 1 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
@@ -189,8 +188,8 @@
       <use href="#br-0" />
       <path d="M 33,16 a 3,3 0 0 1 -3,3 v -2 a 1,1 0 0 0 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
-  </g>
-  <g id="w-focus" transform="translate(68,19)">
+  </g> -->
+  <!-- <g id="w-focus" transform="translate(68,19)">
     <g id="west-focus-topleft">
       <use href="#tl-0" />
       <path d="M 4,0 a 3,3 0 0 0 -3,3 h 2 a 1,1 0 0 1 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
@@ -224,8 +223,8 @@
       <use href="#br-0" />
       <path d="M 33,16 a 3,3 0 0 1 -3,3 v -2 a 1,1 0 0 0 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
-  </g>
-  <g id="e-focus" transform="translate(102,19)">
+  </g> -->
+  <!-- <g id="e-focus" transform="translate(102,19)">
     <g id="east-focus-topleft">
       <use href="#tl-0" />
       <path d="M 4,0 a 3,3 0 0 0 -3,3 h 2 a 1,1 0 0 1 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
@@ -259,8 +258,8 @@
       <use href="#br-0" />
       <path d="M 33,16 a 3,3 0 0 1 -3,3 v -2 a 1,1 0 0 0 1,-1 z" class="ColorScheme-ButtonFocus" fill="currentColor" />
     </g>
-  </g>
-  <g id="s-normal" transform="translate(0,38)">
+  </g> -->
+  <!-- <g id="s-normal" transform="translate(0,38)">
     <use id="normal-topleft" href="#tl-0" />
     <use id="normal-top" href="#t-1" opacity="0" />
     <use id="normal-topright" href="#tr-0" />
@@ -276,8 +275,8 @@
       <use href="#br-0" />
       <use href="#br-2" class="ColorScheme-Text" fill="currentColor" />
     </g>
-  </g>
-  <g id="n-normal" transform="translate(34,38)">
+  </g> -->
+  <!-- <g id="n-normal" transform="translate(34,38)">
     <g id="north-normal-topleft">
       <use href="#tl-0" />
       <use href="#tl-2" class="ColorScheme-Text" fill="currentColor" />
@@ -293,8 +292,8 @@
     <use id="north-normal-bottomleft" href="#bl-0" />
     <use id="north-normal-bottom" href="#b-1" opacity="0" />
     <use id="north-normal-bottomright" href="#br-0" />
-  </g>
-  <g id="w-normal" transform="translate(68,38)">
+  </g> -->
+  <!-- <g id="w-normal" transform="translate(68,38)">
     <g id="west-normal-topleft">
       <use href="#tl-0" />
       <use href="#tl-3" class="ColorScheme-Text" fill="currentColor" />
@@ -313,8 +312,8 @@
     </g>
     <use id="west-normal-bottom" href="#b-1" opacity="0" />
     <use id="west-normal-bottomright" href="#br-0" />
-  </g>
-  <g id="e-normal" transform="translate(102,38)">
+  </g> -->
+  <!-- <g id="e-normal" transform="translate(102,38)">
     <use id="east-normal-topleft" href="#tl-0" />
     <use id="east-normal-top" href="#t-1" opacity="0" />
     <g id="east-normal-topright">
@@ -333,8 +332,8 @@
       <use href="#br-0" />
       <use href="#br-3" class="ColorScheme-Text" fill="currentColor" />
     </g>
-  </g>
-  <g id="s-hover" transform="translate(0,57)">
+  </g> -->
+  <!-- <g id="s-hover" transform="translate(0,57)">
     <g id="hover-topleft">
       <use href="#tl-0" />
       <path d="M 4,0 a 3,3 0 0 0 -3,3 h 3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
@@ -362,8 +361,8 @@
       <use href="#br-0" />
       <path d="M 33,16 a 3,3 0 0 1 -3,3 v -3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
-  </g>
-  <g id="n-hover" transform="translate(34,57)">
+  </g> -->
+  <!-- <g id="n-hover" transform="translate(34,57)">
     <g id="north-hover-topleft">
       <use href="#tl-0" />
       <path d="M 4,0 a 3,3 0 0 0 -3,3 h 3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
@@ -391,8 +390,8 @@
       <use href="#br-0" />
       <path d="M 33,16 a 3,3 0 0 1 -3,3 v -3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
-  </g>
-  <g id="w-hover" transform="translate(68,57)">
+  </g> -->
+  <!-- <g id="w-hover" transform="translate(68,57)">
     <g id="west-hover-topleft">
       <use href="#tl-0" />
       <path d="M 4,0 a 3,3 0 0 0 -3,3 h 3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
@@ -420,8 +419,8 @@
       <use href="#br-0" />
       <path d="M 33,16 a 3,3 0 0 1 -3,3 v -3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
-  </g>
-  <g id="e-hover" transform="translate(102,57)">
+  </g> -->
+  <!-- <g id="e-hover" transform="translate(102,57)">
     <g id="east-hover-topleft">
       <use href="#tl-0" />
       <path d="M 4,0 a 3,3 0 0 0 -3,3 h 3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
@@ -449,8 +448,8 @@
       <use href="#br-0" />
       <path d="M 33,16 a 3,3 0 0 1 -3,3 v -3 z" class="ColorScheme-ButtonHover" fill="currentColor" opacity="0.25" />
     </g>
-  </g>
-  <g id="s-attention" transform="translate(0,76)">
+  </g> -->
+  <!-- <g id="s-attention" transform="translate(0,76)">
     <use id="attention-topleft" href="#tl-0" />
     <use id="attention-top" href="#t-1" opacity="0" />
     <use id="attention-topright" href="#tr-0" />
@@ -466,8 +465,8 @@
       <use href="#br-0" />
       <use href="#br-2" class="ColorScheme-NeutralText" fill="currentColor" />
     </g>
-  </g>
-  <g id="n-attention" transform="translate(34,76)">
+  </g> -->
+  <!-- <g id="n-attention" transform="translate(34,76)">
     <g id="north-attention-topleft">
       <use href="#tl-0" />
       <use href="#tl-2" class="ColorScheme-NeutralText" fill="currentColor" />
@@ -483,8 +482,8 @@
     <use id="north-attention-bottomleft" href="#bl-0" />
     <use id="north-attention-bottom" href="#b-1" opacity="0" />
     <use id="north-attention-bottomright" href="#br-0" />
-  </g>
-  <g id="w-attention" transform="translate(68,76)">
+  </g> -->
+  <!-- <g id="w-attention" transform="translate(68,76)">
     <g id="west-attention-topleft">
       <use href="#tl-0" />
       <use href="#tl-3" class="ColorScheme-NeutralText" fill="currentColor" />
@@ -503,8 +502,8 @@
     </g>
     <use id="west-attention-bottom" href="#b-1" opacity="0" />
     <use id="west-attention-bottomright" href="#br-0" />
-  </g>
-  <g id="e-attention" transform="translate(102,76)">
+  </g> -->
+  <!-- <g id="e-attention" transform="translate(102,76)">
     <use id="east-attention-topleft" href="#tl-0" />
     <use id="east-attention-top" href="#t-1" opacity="0" />
     <g id="east-attention-topright">
@@ -523,8 +522,8 @@
       <use href="#br-0" />
       <use href="#br-3" class="ColorScheme-NeutralText" fill="currentColor" />
     </g>
-  </g>
-  <g id="s-minimized" transform="translate(0,95)">
+  </g> -->
+  <!-- <g id="s-minimized" transform="translate(0,95)">
     <use id="minimized-topleft" href="#tl-0" />
     <use id="minimized-top" href="#t-1" opacity="0" />
     <use id="minimized-topright" href="#tr-0" />
@@ -534,8 +533,8 @@
     <use id="minimized-bottomleft" href="#bl-0" />
     <use id="minimized-bottom" href="#b-1" opacity="0" />
     <use id="minimized-bottomright" href="#br-0" />
-  </g>
-  <g id="n-minimized" transform="translate(34,95)">
+  </g> -->
+  <!-- <g id="n-minimized" transform="translate(34,95)">
     <use id="north-minimized-topleft" href="#tl-0" />
     <use id="north-minimized-top" href="#t-1" opacity="0" />
     <use id="north-minimized-topright" href="#tr-0" />
@@ -545,8 +544,8 @@
     <use id="north-minimized-bottomleft" href="#bl-0" />
     <use id="north-minimized-bottom" href="#b-1" opacity="0" />
     <use id="north-minimized-bottomright" href="#br-0" />
-  </g>
-  <g id="w-minimized" transform="translate(68,95)">
+  </g> -->
+  <!-- <g id="w-minimized" transform="translate(68,95)">
     <use id="west-minimized-topleft" href="#tl-0" />
     <use id="west-minimized-top" href="#t-1" opacity="0" />
     <use id="west-minimized-topright" href="#tr-0" />
@@ -556,8 +555,8 @@
     <use id="west-minimized-bottomleft" href="#bl-0" />
     <use id="west-minimized-bottom" href="#b-1" opacity="0" />
     <use id="west-minimized-bottomright" href="#br-0" />
-  </g>
-  <g id="e-minimized" transform="translate(102,95)">
+  </g> -->
+  <!-- <g id="e-minimized" transform="translate(102,95)">
     <use id="east-minimized-topleft" href="#tl-0" />
     <use id="east-minimized-top" href="#t-1" opacity="0" />
     <use id="east-minimized-topright" href="#tr-0" />
@@ -567,13 +566,13 @@
     <use id="east-minimized-bottomleft" href="#bl-0" />
     <use id="east-minimized-bottom" href="#b-1" opacity="0" />
     <use id="east-minimized-bottomright" href="#br-0" />
-  </g>
-  <rect id="group-expander-top" x="0" y="0" width="11" height="11" fill="#0000ff" />
-  <rect id="group-expander-bottom" x="0" y="11" width="11" height="11" fill="#0000ff" />
-  <rect id="group-expander-left" x="11" y="0" width="11" height="11" fill="#0000ff" />
-  <rect id="group-expander-right" x="11" y="11" width="11" height="11" fill="#0000ff" />
-  <rect id="normal-hint-top-margin" x="15" y="38" width="4" height="4" fill="#ff00ff" />
-  <rect id="normal-hint-bottom-margin" x="1" y="45.5" width="4" height="4" fill="#ff00ff" />
-  <rect id="normal-hint-right-margin" x="29" y="45.5" width="4" height="4" fill="#ff00ff" />
-  <rect id="normal-hint-left-margin" x="15" y="53" width="4" height="4" fill="#ff00ff" />
+  </g> -->
+  <!-- <rect id="group-expander-top" x="0" y="0" width="11" height="11" fill="#0000ff" /> -->
+  <!-- <rect id="group-expander-bottom" x="0" y="11" width="11" height="11" fill="#0000ff" /> -->
+  <!-- <rect id="group-expander-left" x="11" y="0" width="11" height="11" fill="#0000ff" /> -->
+  <!-- <rect id="group-expander-right" x="11" y="11" width="11" height="11" fill="#0000ff" /> -->
+  <!-- <rect id="normal-hint-top-margin" x="15" y="38" width="4" height="4" fill="#ff00ff" /> -->
+  <!-- <rect id="normal-hint-bottom-margin" x="1" y="45.5" width="4" height="4" fill="#ff00ff" /> -->
+  <!-- <rect id="normal-hint-right-margin" x="29" y="45.5" width="4" height="4" fill="#ff00ff" /> -->
+  <!-- <rect id="normal-hint-left-margin" x="15" y="53" width="4" height="4" fill="#ff00ff" /> -->
 </svg>
