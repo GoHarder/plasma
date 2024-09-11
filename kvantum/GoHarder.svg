@@ -127,6 +127,12 @@
     <rect id="splitter-bl" width="1" height="1" y="15" />
     <rect id="splitter-b" width="2" height="1" x="1" y="15" />
     <rect id="splitter-br" width="1" height="1" x="3" y="15" />
+    <path id="scroll-tl" d="M 5,0 a 5,5 0 0 0 -5,5 h 5 z" />
+    <path id="scroll-tr" d="M 5,0 a 5,5 0 0 1 5,5 h -5 z" />
+    <rect id="scroll-l" width="5" height="6" y="5" />
+    <rect id="scroll-r" width="5" height="6" x="5" y="5" />
+    <path id="scroll-bl" d="M 5,16 a 5,5 0 0 1 -5,-5 h 5 z" />
+    <path id="scroll-br" d="M 5,16 a 5,5 0 0 0 5,-5 h -5 z" />
     <!-- MARK: Icons -->
     <rect id="icon-box" width="10" height="10" opacity="0" />
     <path id="add" d="M 4.286,5.714 H 0 V 4.286 H 4.286 V 0 H 5.714 V 4.286 H 10 V 5.714 H 5.714 V 10 H 4.286 Z" />
@@ -1406,11 +1412,46 @@
       <rect id="tooltip-shadow-hint-bottom" width="1" height="1.5" x="12" y="12.5" fill="#ff00ff" />
     </g>
   </g>
+  <g id="scroll-group" transform="translate(152,78)">
+    <use id="groove-normal-topleft" href="#splitter-tl" class="outline-var" />
+    <use id="groove-normal-top" href="#splitter-t" class="outline-var" />
+    <use id="groove-normal-topright" href="#splitter-tr" class="outline-var" />
+    <use id="groove-normal-left" href="#splitter-l" class="outline-var" />
+    <!-- <use id="groove-normal" href="#splitter-c" class="outline-var"/> -->
+    <use id="groove-normal-right" href="#splitter-r" class="outline-var" />
+    <use id="groove-normal-bottomleft" href="#splitter-bl" class="outline-var" />
+    <use id="groove-normal-bottom" href="#splitter-b" class="outline-var" />
+    <use id="groove-normal-bottomright" href="#splitter-br" class="outline-var" />
+    <rect id="grip-normal" width="8" height="13" opacity="0" />
+    <rect id="grip-focused" width="8" height="13" opacity="0" />
+    <rect id="grip-pressed" width="8" height="13" opacity="0" />
+    <g id="scrollbarslider-normal-group" transform="translate(4,0)">
+      <use id="scrollbarslider-normal-topleft" href="#scroll-tl" class="on-surf" opacity="0.18" />
+      <use id="scrollbarslider-normal-topright" href="#scroll-tr" class="on-surf" opacity="0.18" />
+      <use id="scrollbarslider-normal-left" href="#scroll-l" class="on-surf" opacity="0.18" />
+      <use id="scrollbarslider-normal-right" href="#scroll-r" class="on-surf" opacity="0.18" />
+      <use id="scrollbarslider-normal-bottomleft" href="#scroll-bl" class="on-surf" opacity="0.18" />
+      <use id="scrollbarslider-normal-bottomright" href="#scroll-br" class="on-surf" opacity="0.18" />
+    </g>
+    <g id="scrollbarslider-focused-group" transform="translate(14,0)">
+      <use id="scrollbarslider-focused-topleft" href="#scroll-tl" class="on-surf" opacity="0.25" />
+      <use id="scrollbarslider-focused-topright" href="#scroll-tr" class="on-surf" opacity="0.25" />
+      <use id="scrollbarslider-focused-left" href="#scroll-l" class="on-surf" opacity="0.25" />
+      <use id="scrollbarslider-focused-right" href="#scroll-r" class="on-surf" opacity="0.25" />
+      <use id="scrollbarslider-focused-bottomleft" href="#scroll-bl" class="on-surf" opacity="0.25" />
+      <use id="scrollbarslider-focused-bottomright" href="#scroll-br" class="on-surf" opacity="0.25" />
+    </g>
+    <g id="scrollbarslider-pressed-group" transform="translate(24,0)">
+      <use id="scrollbarslider-pressed-topleft" href="#scroll-tl" class="on-surf" opacity="0.5" />
+      <use id="scrollbarslider-pressed-topright" href="#scroll-tr" class="on-surf" opacity="0.5" />
+      <use id="scrollbarslider-pressed-left" href="#scroll-l" class="on-surf" opacity="0.5" />
+      <use id="scrollbarslider-pressed-right" href="#scroll-r" class="on-surf" opacity="0.5" />
+      <use id="scrollbarslider-pressed-bottomleft" href="#scroll-bl" class="on-surf" opacity="0.5" />
+      <use id="scrollbarslider-pressed-bottomright" href="#scroll-br" class="on-surf" opacity="0.5" />
+    </g>
+  </g>
   <!-- <rect id="titlebar-focused" width="16" height="4" class="surf-cont-highest" /> -->
   <!-- <rect id="titlebar-normal" width="16" height="4" y="4" class="surf-cont-high" /> -->
-  <!-- <rect id="grip-normal" width="8" height="13" opacity="0" /> -->
-  <!-- <rect id="grip-focused" width="8" height="13" opacity="0" /> -->
-  <!-- <rect id="grip-pressed" width="8" height="13" opacity="0" /> -->
   <!--   
   id="menuitem-tearoff-normal"
   id="menuitem-tearoff-focused"
@@ -1449,34 +1490,4 @@
   "scrollbarSlider.background": "#c2c7cf2e",
   "scrollbarSlider.hoverBackground": "#c2c7cf40",
   -->
-  <!-- 
-  <use id="scrollbarslider-normal-topleft" href="#scrollbarslider-tl" fill="#c2c7cf2e" />
-  <use id="scrollbarslider-normal-top" href="#scrollbarslider-t" fill="#c2c7cf2e" />
-  <use id="scrollbarslider-normal-topright" href="#scrollbarslider-tr" fill="#c2c7cf2e" />
-  <use id="scrollbarslider-normal-left" href="#scrollbarslider-l" fill="#c2c7cf2e" />
-  <use id="scrollbarslider-normal" href="#scrollbarslider-c" fill="#c2c7cf2e" />
-  <use id="scrollbarslider-normal-right" href="#scrollbarslider-r" fill="#c2c7cf2e" />
-  <use id="scrollbarslider-normal-bottomleft" href="#scrollbarslider-bl" fill="#c2c7cf2e" />
-  <use id="scrollbarslider-normal-bottom" href="#scrollbarslider-b" fill="#c2c7cf2e" />
-  <use id="scrollbarslider-normal-bottomright" href="#scrollbarslider-br" fill="#c2c7cf2e" />
-
-  <use id="scrollbarslider-pressed-topleft" href="#scrollbarslider-tl" x="18" fill="#800000" />
-  <use id="scrollbarslider-pressed-top" href="#scrollbarslider-t" x="18" fill="#800000" />
-  <use id="scrollbarslider-pressed-topright" href="#scrollbarslider-tr" x="18" fill="#800000" />
-  <use id="scrollbarslider-pressed-left" href="#scrollbarslider-l" x="18" fill="#800000" />
-  <use id="scrollbarslider-pressed" href="#scrollbarslider-c" x="18" fill="#800000" />
-  <use id="scrollbarslider-pressed-right" href="#scrollbarslider-r" x="18" fill="#800000" />
-  <use id="scrollbarslider-pressed-bottomleft" href="#scrollbarslider-bl" x="18" fill="#800000" />
-  <use id="scrollbarslider-pressed-bottom" href="#scrollbarslider-b" x="18" fill="#800000" />
-  <use id="scrollbarslider-pressed-bottomright" href="#scrollbarslider-br" x="18" fill="#800000" />
-
-  <use id="scrollbarslider-focused-topleft" href="#scrollbarslider-tl" y="18" fill="#80ff00" />
-  <use id="scrollbarslider-focused-top" href="#scrollbarslider-t" y="18" fill="#80ff00" />
-  <use id="scrollbarslider-focused-topright" href="#scrollbarslider-tr" y="18" fill="#80ff00" />
-  <use id="scrollbarslider-focused-left" href="#scrollbarslider-l" y="18" fill="#80ff00" />
-  <use id="scrollbarslider-focused" href="#scrollbarslider-c" y="18" fill="#80ff00" />
-  <use id="scrollbarslider-focused-right" href="#scrollbarslider-r" y="18" fill="#80ff00" />
-  <use id="scrollbarslider-focused-bottomleft" href="#scrollbarslider-bl" y="18" fill="#80ff00" />
-  <use id="scrollbarslider-focused-bottom" href="#scrollbarslider-b" y="18" fill="#80ff00" />
-  <use id="scrollbarslider-focused-bottomright" href="#scrollbarslider-br" y="18" fill="#80ff00" /> -->
 </svg>

@@ -73,6 +73,8 @@ check_size=20
 composite=true
 opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,VirtualBoxVM,trojita,dragon,digikam,lyx
 
+scroll_width=10
+
 [GeneralColors]
 # window
 window.color=#282a2d
@@ -267,9 +269,25 @@ frame=false
 
 # [Scrollbar]
 
-# [ScrollbarGroove]
+[ScrollbarGroove]
+inherits=PanelButtonTool
+interior=false
+frame.element=groove
+frame.top=1
+frame.bottom=1
+frame.left=1
+frame.right=1
 
-# [ScrollbarSlider]
+[ScrollbarSlider]
+inherits=PanelButtonTool
+frame.element=scrollbarslider
+interior=false
+frame.top=5
+frame.bottom=5
+frame.left=5
+frame.right=5
+indicator.element=grip
+indicator.size=13
 
 # [ScrollbarTransientSlider]
 
