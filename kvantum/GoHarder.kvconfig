@@ -58,7 +58,7 @@ tooltip_shadow_depth=6
 ; reduce_window_opacity=0
 
 # splitter
-splitter_width=4
+splitter_width=6
 
 # slider
 slider_width=4
@@ -335,7 +335,7 @@ interior.element=itemview
 [Splitter]
 inherits=PanelButtonTool
 interior.element=splitter
-frame.element=spplitter
+frame.element=splitter
 frame.top=1
 frame.bottom=1
 frame.left=1
