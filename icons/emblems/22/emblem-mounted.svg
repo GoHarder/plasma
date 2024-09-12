@@ -1,0 +1,18 @@
+<svg height="22" width="22" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css" id="current-color-scheme">
+    .ColorScheme-PositiveText {
+      color: #50c24b;
+    }
+
+    .ColorScheme-Background {
+      color: #28292d;
+    }
+  </style>
+  <rect width="22" height="22" opacity="0" />
+  <path
+    d="m 10.542,17.417 h 0.917 V 15.721 L 14.667,12.513 V 8.25 H 7.333 v 4.263 l 3.208,3.208 z M 8.708,19.25 V 16.5 L 5.5,13.292 V 8.25 Q 5.5,7.494 6.039,6.955 6.577,6.417 7.333,6.417 H 8.25 L 7.333,7.333 V 2.75 H 9.167 V 6.417 H 12.833 V 2.75 h 1.833 V 7.333 L 13.75,6.417 h 0.917 q 0.756,0 1.295,0.539 Q 16.5,7.494 16.5,8.25 v 5.042 L 13.292,16.5 v 2.75 z M 11,12.833 Z"
+    class="ColorScheme-Background" stroke-width="5%" stroke="currentColor" />
+  <path
+    d="m 10.542,17.417 h 0.917 V 15.721 L 14.667,12.513 V 8.25 H 7.333 v 4.263 l 3.208,3.208 z M 8.708,19.25 V 16.5 L 5.5,13.292 V 8.25 Q 5.5,7.494 6.039,6.955 6.577,6.417 7.333,6.417 H 8.25 L 7.333,7.333 V 2.75 H 9.167 V 6.417 H 12.833 V 2.75 h 1.833 V 7.333 L 13.75,6.417 h 0.917 q 0.756,0 1.295,0.539 Q 16.5,7.494 16.5,8.25 v 5.042 L 13.292,16.5 v 2.75 z M 11,12.833 Z"
+    class="ColorScheme-PositiveText" fill="currentColor" />
+</svg>
