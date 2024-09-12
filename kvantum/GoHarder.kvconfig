@@ -140,8 +140,8 @@ indicator.element=ar-1
 indicator.size=10
 text.shadow=false
 text.margin=true
-text.margin.top=3
-text.margin.bottom=3
+text.margin.top=2
+text.margin.bottom=2
 text.margin.left=4
 text.margin.right=4
 text.iconspacing=4
@@ -419,6 +419,15 @@ frame.bottom=11
 frame.left=11
 frame.right=11
 
-# [ToolTip]
+[ToolTip]
+inherits=GenericFrame
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
+interior=true
+text.margin=0
+interior.element=tooltip
+frame.element=tooltip
 
 # [Window]

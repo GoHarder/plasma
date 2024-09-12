@@ -1145,15 +1145,15 @@
     <use id="splitter-pressed-bottomright" href="#splitter-br" x="8" class="outline" />
   </g>
   <g id="menu-group" transform="translate(160,0)">
-    <path id="menu-normal-topleft" d="M 5,1 a 4,4 0 0 0 -4,4 h 8 v -4 z" class="surf-cont" />
-    <rect id="menu-normal-top" width="16" height="4" x="9" y="1" class="surf-cont" />
-    <path id="menu-normal-topright" d="M 29,1 a 4,4 0 0 1 4,4 h -8 v -4 z" class="surf-cont" />
-    <rect id="menu-normal-left" width="8" height="16" x="1" y="5" class="surf-cont" />
-    <rect id="menu-normal" width="16" height="16" x="9" y="5" class="surf-cont" />
-    <rect id="menu-normal-right" width="8" height="16" x="25" y="5" class="surf-cont" />
-    <path id="menu-normal-bottomleft" d="M 5,25 a 4,4 0 0 1 -4,-4 h 8 v 4 z" class="surf-cont" />
-    <rect id="menu-normal-bottom" width="16" height="4" x="9" y="21" class="surf-cont" />
-    <path id="menu-normal-bottomright" d="M 29,25 a 4,4 0 0 0 4,-4 h -8 v 4 z" class="surf-cont" />
+    <path id="menu-normal-topleft" d="M 5,1 a 4,4 0 0 0 -4,4 h 8 v -4 z" class="surf-cont-highest" />
+    <rect id="menu-normal-top" width="16" height="4" x="9" y="1" class="surf-cont-highest" />
+    <path id="menu-normal-topright" d="M 29,1 a 4,4 0 0 1 4,4 h -8 v -4 z" class="surf-cont-highest" />
+    <rect id="menu-normal-left" width="8" height="16" x="1" y="5" class="surf-cont-highest" />
+    <rect id="menu-normal" width="16" height="16" x="9" y="5" class="surf-cont-highest" />
+    <rect id="menu-normal-right" width="8" height="16" x="25" y="5" class="surf-cont-highest" />
+    <path id="menu-normal-bottomleft" d="M 5,25 a 4,4 0 0 1 -4,-4 h 8 v 4 z" class="surf-cont-highest" />
+    <rect id="menu-normal-bottom" width="16" height="4" x="9" y="21" class="surf-cont-highest" />
+    <path id="menu-normal-bottomright" d="M 29,25 a 4,4 0 0 0 4,-4 h -8 v 4 z" class="surf-cont-highest" />
     <g id="menu-shadow-group">
       <g id="menu-shadow-topleft">
         <rect width="9" height="5" opacity="0" />
@@ -1343,15 +1343,15 @@
     </g>
   </g>
   <g id="tooltip-group" transform="translate(152,64)">
-    <path id="tooltip-normal-topleft" d="M 4.5,0.5 a 4,4 0 0 0 -4,4 h 4 z" class="inv-surf" />
-    <rect id="tooltip-normal-top" width="16" height="4" x="4.5" y="0.5" class="inv-surf" />
-    <path id="tooltip-normal-topright" d="M 20.5,0.5 a 4,4 0 0 1 4,4 h -4 z" class="inv-surf" />
-    <rect id="tooltip-normal-left" width="4" height="4" x="0.5" y="4.5" class="inv-surf" />
-    <rect id="tooltip-normal" width="16" height="4" x="4.5" y="4.5" class="inv-surf" />
-    <rect id="tooltip-normal-right" width="4" height="4" x="20.5" y="4.5" class="inv-surf" />
-    <path id="tooltip-normal-bottomleft" d="M 4.5,12.5 a 4,4 0 0 1 -4,-4 h 4 z" class="inv-surf" />
-    <rect id="tooltip-normal-bottom" width="16" height="4" x="4.5" y="8.5" class="inv-surf" />
-    <path id="tooltip-normal-bottomright" d="M 20.5,12.5 a 4,4 0 0 0 4,-4 h -4 z" class="inv-surf" />
+    <path id="tooltip-normal-topleft" d="M 4.5,0.5 a 4,4 0 0 0 -4,4 h 4 z" class="surf" />
+    <rect id="tooltip-normal-top" width="16" height="4" x="4.5" y="0.5" class="surf" />
+    <path id="tooltip-normal-topright" d="M 20.5,0.5 a 4,4 0 0 1 4,4 h -4 z" class="surf" />
+    <rect id="tooltip-normal-left" width="4" height="4" x="0.5" y="4.5" class="surf" />
+    <rect id="tooltip-normal" width="16" height="4" x="4.5" y="4.5" class="surf" />
+    <rect id="tooltip-normal-right" width="4" height="4" x="20.5" y="4.5" class="surf" />
+    <path id="tooltip-normal-bottomleft" d="M 4.5,12.5 a 4,4 0 0 1 -4,-4 h 4 z" class="surf" />
+    <rect id="tooltip-normal-bottom" width="16" height="4" x="4.5" y="8.5" class="surf" />
+    <path id="tooltip-normal-bottomright" d="M 20.5,12.5 a 4,4 0 0 0 4,-4 h -4 z" class="surf" />
     <g id="tooltip-shadow-group">
       <g id="tooltip-shadow-topleft">
         <rect width="4.5" height="4.5" opacity="0" />
@@ -1451,26 +1451,26 @@
   </g>
   <g id="menubaritem-group" transform="translate(152,94)">
     <g id="menubaritem-toggled-group">
-      <use id="menubaritem-toggled-topleft" href="#head-tl" fill="#800000" />
-      <use id="menubaritem-toggled-top" href="#head-t" fill="#800000" />
-      <use id="menubaritem-toggled-topright" href="#head-tr" fill="#800000" />
-      <use id="menubaritem-toggled-left" href="#head-l" fill="#800000" />
-      <use id="menubaritem-toggled" href="#head-c" fill="#800000" />
-      <use id="menubaritem-toggled-right" href="#head-r" fill="#800000" />
-      <use id="menubaritem-toggled-bottomleft" href="#head-bl" fill="#800000" />
-      <use id="menubaritem-toggled-bottom" href="#head-b" fill="#800000" />
-      <use id="menubaritem-toggled-bottomright" href="#head-br" fill="#800000" />
+      <use id="menubaritem-toggled-topleft" href="#head-tl" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-top" href="#head-t" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-topright" href="#head-tr" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-left" href="#head-l" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled" href="#head-c" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-right" href="#head-r" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-bottomleft" href="#head-bl" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-bottom" href="#head-b" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-bottomright" href="#head-br" class="on-surf" opacity="0.08" />
     </g>
     <g id="menubaritem-pressed-group" transform="translate(18)">
-      <use id="menubaritem-pressed-topleft" href="#head-tl" fill="#008000" />
-      <use id="menubaritem-pressed-top" href="#head-t" fill="#008000" />
-      <use id="menubaritem-pressed-topright" href="#head-tr" fill="#008000" />
-      <use id="menubaritem-pressed-left" href="#head-l" fill="#008000" />
-      <use id="menubaritem-pressed" href="#head-c" fill="#008000" />
-      <use id="menubaritem-pressed-right" href="#head-r" fill="#008000" />
-      <use id="menubaritem-pressed-bottomleft" href="#head-bl" fill="#008000" />
-      <use id="menubaritem-pressed-bottom" href="#head-b" fill="#008000" />
-      <use id="menubaritem-pressed-bottomright" href="#head-br" fill="#008000" />
+      <use id="menubaritem-pressed-topleft" href="#head-tl" class="sec-cont" />
+      <use id="menubaritem-pressed-top" href="#head-t" class="sec-cont" />
+      <use id="menubaritem-pressed-topright" href="#head-tr" class="sec-cont" />
+      <use id="menubaritem-pressed-left" href="#head-l" class="sec-cont" />
+      <use id="menubaritem-pressed" href="#head-c" class="sec-cont" />
+      <use id="menubaritem-pressed-right" href="#head-r" class="sec-cont" />
+      <use id="menubaritem-pressed-bottomleft" href="#head-bl" class="sec-cont" />
+      <use id="menubaritem-pressed-bottom" href="#head-b" class="sec-cont" />
+      <use id="menubaritem-pressed-bottomright" href="#head-br" class="sec-cont" />
     </g>
   </g>
   <rect id="titlebar-focused" width="16" height="4" class="surf-cont-highest" />
