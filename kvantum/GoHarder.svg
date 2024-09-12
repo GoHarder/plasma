@@ -127,12 +127,16 @@
     <rect id="splitter-bl" width="1" height="1" y="15" />
     <rect id="splitter-b" width="2" height="1" x="1" y="15" />
     <rect id="splitter-br" width="1" height="1" x="3" y="15" />
-    <path id="scroll-tl" d="M 5,0 a 5,5 0 0 0 -5,5 h 5 z" />
-    <path id="scroll-tr" d="M 5,0 a 5,5 0 0 1 5,5 h -5 z" />
+    <!-- <path id="scroll-tl" d="M 5,0 a 5,5 0 0 0 -5,5 h 5 z" /> -->
+    <rect id="scroll-tl" width="5" height="5" />
+    <!-- <path id="scroll-tr" d="M 5,0 a 5,5 0 0 1 5,5 h -5 z" /> -->
+    <rect id="scroll-tr" width="5" height="5" x="5" />
     <rect id="scroll-l" width="5" height="6" y="5" />
     <rect id="scroll-r" width="5" height="6" x="5" y="5" />
-    <path id="scroll-bl" d="M 5,16 a 5,5 0 0 1 -5,-5 h 5 z" />
-    <path id="scroll-br" d="M 5,16 a 5,5 0 0 0 5,-5 h -5 z" />
+    <!-- <path id="scroll-bl" d="M 5,16 a 5,5 0 0 1 -5,-5 h 5 z" /> -->
+    <rect id="scroll-bl" width="5" height="5" y="11" />
+    <!-- <path id="scroll-br" d="M 5,16 a 5,5 0 0 0 5,-5 h -5 z" /> -->
+    <rect id="scroll-br" width="5" height="5" x="5" y="11" />
     <!-- MARK: Icons -->
     <rect id="icon-box" width="10" height="10" opacity="0" />
     <path id="add" d="M 4.286,5.714 H 0 V 4.286 H 4.286 V 0 H 5.714 V 4.286 H 10 V 5.714 H 5.714 V 10 H 4.286 Z" />
@@ -198,8 +202,8 @@
       gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#menu-ag" id="menu-agbr" cx="29" cy="23" r="5" gradientUnits="userSpaceOnUse" />
     <linearGradient id="tt-bg">
-      <stop style="stop-color:#ff0000;" stop-opacity="1" offset="0.5" />
-      <stop style="stop-color:#ff0000;" stop-opacity="0" offset="1" />
+      <stop stop-opacity="1" offset="0.5" />
+      <stop stop-opacity="0" offset="1" />
     </linearGradient>
     <radialGradient xlink:href="#tt-bg" id="tt-bgtl" cx="4.5" cy="5.5" r="4" gradientUnits="userSpaceOnUse" />
     <linearGradient xlink:href="#tt-bg" id="tt-bgt" x1="12.5" y1="5.5" x2="12.5" y2="1.5"
@@ -213,10 +217,9 @@
     <linearGradient xlink:href="#tt-bg" id="tt-bgb" x1="12.5" y1="9.5" x2="12.5" y2="13.5"
       gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#tt-bg" id="tt-bgbr" cx="20.5" cy="9.5" r="4" gradientUnits="userSpaceOnUse" />
-    <!-- 12.5 -->
     <linearGradient id="tt-ag">
-      <stop style="stop-color:#ff8000;" stop-opacity="1" offset="0.33" />
-      <stop style="stop-color:#ff8000;" stop-opacity="0" offset="1" />
+      <stop stop-opacity="1" offset="0.33" />
+      <stop stop-opacity="0" offset="1" />
     </linearGradient>
     <radialGradient xlink:href="#tt-ag" id="tt-agtl" cx="4.5" cy="5.5" r="4.5" gradientUnits="userSpaceOnUse" />
     <linearGradient xlink:href="#tt-ag" id="tt-agt" x1="12.5" y1="5.5" x2="12.5" y2="1"
@@ -1450,31 +1453,35 @@
       <use id="scrollbarslider-pressed-bottomright" href="#scroll-br" class="on-surf" opacity="0.5" />
     </g>
   </g>
+  <g id="menubaritem-group" transform="translate(152,94)">
+    <g id="menubaritem-toggled-group">
+      <use id="menubaritem-toggled-topleft" href="#head-tl" fill="#800000" />
+      <use id="menubaritem-toggled-top" href="#head-t" fill="#800000" />
+      <use id="menubaritem-toggled-topright" href="#head-tr" fill="#800000" />
+      <use id="menubaritem-toggled-left" href="#head-l" fill="#800000" />
+      <use id="menubaritem-toggled" href="#head-c" fill="#800000" />
+      <use id="menubaritem-toggled-right" href="#head-r" fill="#800000" />
+      <use id="menubaritem-toggled-bottomleft" href="#head-bl" fill="#800000" />
+      <use id="menubaritem-toggled-bottom" href="#head-b" fill="#800000" />
+      <use id="menubaritem-toggled-bottomright" href="#head-br" fill="#800000" />
+    </g>
+    <g id="menubaritem-pressed-group" transform="translate(18)">
+      <use id="menubaritem-pressed-topleft" href="#head-tl" fill="#008000" />
+      <use id="menubaritem-pressed-top" href="#head-t" fill="#008000" />
+      <use id="menubaritem-pressed-topright" href="#head-tr" fill="#008000" />
+      <use id="menubaritem-pressed-left" href="#head-l" fill="#008000" />
+      <use id="menubaritem-pressed" href="#head-c" fill="#008000" />
+      <use id="menubaritem-pressed-right" href="#head-r" fill="#008000" />
+      <use id="menubaritem-pressed-bottomleft" href="#head-bl" fill="#008000" />
+      <use id="menubaritem-pressed-bottom" href="#head-b" fill="#008000" />
+      <use id="menubaritem-pressed-bottomright" href="#head-br" fill="#008000" />
+    </g>
+  </g>
   <!-- <rect id="titlebar-focused" width="16" height="4" class="surf-cont-highest" /> -->
   <!-- <rect id="titlebar-normal" width="16" height="4" y="4" class="surf-cont-high" /> -->
   <!--   
   id="menuitem-tearoff-normal"
   id="menuitem-tearoff-focused"
-
-  id="menubaritem-toggled"
-  id="menubaritem-toggled-top"
-  id="menubaritem-toggled-left"
-  id="menubaritem-toggled-right"
-  id="menubaritem-toggled-topright"
-  id="menubaritem-toggled-topleft"
-  id="menubaritem-toggled-bottomright"
-  id="menubaritem-toggled-bottomleft"
-  id="menubaritem-toggled-bottom"
-
-  id="menubaritem-pressed"
-  id="menubaritem-pressed-bottom"
-  id="menubaritem-pressed-top"
-  id="menubaritem-pressed-left"
-  id="menubaritem-pressed-right"
-  id="menubaritem-pressed-topright"
-  id="menubaritem-pressed-topleft"
-  id="menubaritem-pressed-bottomright"
-  id="menubaritem-pressed-bottomleft"
 
   id="tab-tear"
   
@@ -1485,9 +1492,5 @@
   id="focus-right"
   id="focus-bottom"
   id="focus-left"
-
-  "scrollbarSlider.activeBackground": "#c2c7cf80",
-  "scrollbarSlider.background": "#c2c7cf2e",
-  "scrollbarSlider.hoverBackground": "#c2c7cf40",
   -->
 </svg>
