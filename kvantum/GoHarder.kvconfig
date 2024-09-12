@@ -164,9 +164,22 @@ text.focus.color=#e2e2e5
 text.press.color=#e2e2e5
 text.toggle.color=#d5e4f6
 
-# [Dock]
+[Dock]
+inherits=PanelButtonTool
+frame=false
+interior=false
 
-# [DockTitle]
+[DockTitle]
+inherits=PanelButtonTool
+frame=false
+interior=true
+interior.element=dock
+text.focus.color=white
+text.bold=true
+text.margin.top=2
+text.margin.bottom=2
+text.margin.left=3
+text.margin.right=3
 
 [IndicatorSpinBox]
 inherits=LineEdit
@@ -377,7 +390,18 @@ frame.right=1
 text.margin.top=2
 text.margin.bottom=2
 
-# [TitleBar]
+[TitleBar]
+inherits=PanelButtonTool
+frame=false
+interior.element=titlebar
+indicator.size=12
+indicator.element=mdi
+text.normal.color=black
+text.focus.color=white
+text.margin.top=2
+text.margin.bottom=2
+text.margin.left=3
+text.margin.right=3
 
 [ComboBox]
 inherits=LineEdit

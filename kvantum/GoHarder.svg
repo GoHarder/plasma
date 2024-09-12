@@ -177,9 +177,6 @@
       <stop stop-opacity="1" offset="0.5" />
       <stop stop-opacity="0" offset="1" />
     </linearGradient>
-    <radialGradient xlink:href="#menu-bg" id="menu-bgtl" cx="5" cy="6" r="4" gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#menu-bg" id="menu-bgt" x1="17" y1="6" x2="17" y2="2" gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#menu-bg" id="menu-bgtr" cx="29" cy="6" r="4" gradientUnits="userSpaceOnUse" />
     <linearGradient xlink:href="#menu-bg" id="menu-bgl" x1="5" y1="14" x2="1" y2="14" gradientUnits="userSpaceOnUse" />
     <linearGradient xlink:href="#menu-bg" id="menu-bgr" x1="29" y1="14" x2="33" y2="14"
       gradientUnits="userSpaceOnUse" />
@@ -192,7 +189,6 @@
       <stop offset="1" stop-opacity="0" />
     </linearGradient>
     <radialGradient xlink:href="#menu-ag" id="menu-agtl" cx="5" cy="7" r="5" gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#menu-ag" id="menu-agt" x1="17" y1="7" x2="17" y2="2" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#menu-ag" id="menu-agtr" cx="29" cy="7" r="5" gradientUnits="userSpaceOnUse" />
     <linearGradient xlink:href="#menu-ag" id="menu-agl" x1="5" y1="15" x2="0" y2="15" gradientUnits="userSpaceOnUse" />
     <linearGradient xlink:href="#menu-ag" id="menu-agr" x1="29" y1="15" x2="34" y2="15"
@@ -1477,16 +1473,15 @@
       <use id="menubaritem-pressed-bottomright" href="#head-br" fill="#008000" />
     </g>
   </g>
-  <!-- <rect id="titlebar-focused" width="16" height="4" class="surf-cont-highest" /> -->
-  <!-- <rect id="titlebar-normal" width="16" height="4" y="4" class="surf-cont-high" /> -->
+  <rect id="titlebar-focused" width="16" height="4" class="surf-cont-highest" />
+  <rect id="titlebar-normal" width="16" height="4" y="4" class="surf-cont-high" />
+  <rect id="dock-focused" width="16" height="4" class="surf-cont-highest" />
+  <rect id="dock-normal" width="16" height="4" y="4" class="surf-cont-high" />
   <!--   
   id="menuitem-tearoff-normal"
   id="menuitem-tearoff-focused"
 
   id="tab-tear"
-  
-  id="dock-normal"
-  id="dock-focused"
 
   id="focus-top"
   id="focus-right"
