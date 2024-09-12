@@ -1145,15 +1145,15 @@
     <use id="splitter-pressed-bottomright" href="#splitter-br" x="8" class="outline" />
   </g>
   <g id="menu-group" transform="translate(160,0)">
-    <path id="menu-normal-topleft" d="M 5,1 a 4,4 0 0 0 -4,4 h 8 v -4 z" class="surf-cont-highest" />
-    <rect id="menu-normal-top" width="16" height="4" x="9" y="1" class="surf-cont-highest" />
-    <path id="menu-normal-topright" d="M 29,1 a 4,4 0 0 1 4,4 h -8 v -4 z" class="surf-cont-highest" />
-    <rect id="menu-normal-left" width="8" height="16" x="1" y="5" class="surf-cont-highest" />
-    <rect id="menu-normal" width="16" height="16" x="9" y="5" class="surf-cont-highest" />
-    <rect id="menu-normal-right" width="8" height="16" x="25" y="5" class="surf-cont-highest" />
-    <path id="menu-normal-bottomleft" d="M 5,25 a 4,4 0 0 1 -4,-4 h 8 v 4 z" class="surf-cont-highest" />
-    <rect id="menu-normal-bottom" width="16" height="4" x="9" y="21" class="surf-cont-highest" />
-    <path id="menu-normal-bottomright" d="M 29,25 a 4,4 0 0 0 4,-4 h -8 v 4 z" class="surf-cont-highest" />
+    <path id="menu-normal-topleft" d="M 5,1 a 4,4 0 0 0 -4,4 h 8 v -4 z" class="surf-cont-high" />
+    <rect id="menu-normal-top" width="16" height="4" x="9" y="1" class="surf-cont-high" />
+    <path id="menu-normal-topright" d="M 29,1 a 4,4 0 0 1 4,4 h -8 v -4 z" class="surf-cont-high" />
+    <rect id="menu-normal-left" width="8" height="16" x="1" y="5" class="surf-cont-high" />
+    <rect id="menu-normal" width="16" height="16" x="9" y="5" class="surf-cont-high" />
+    <rect id="menu-normal-right" width="8" height="16" x="25" y="5" class="surf-cont-high" />
+    <path id="menu-normal-bottomleft" d="M 5,25 a 4,4 0 0 1 -4,-4 h 8 v 4 z" class="surf-cont-high" />
+    <rect id="menu-normal-bottom" width="16" height="4" x="9" y="21" class="surf-cont-high" />
+    <path id="menu-normal-bottomright" d="M 29,25 a 4,4 0 0 0 4,-4 h -8 v 4 z" class="surf-cont-high" />
     <g id="menu-shadow-group">
       <g id="menu-shadow-topleft">
         <rect width="9" height="5" opacity="0" />
