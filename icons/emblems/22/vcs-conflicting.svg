@@ -1,1 +1,15 @@
-emblem-important.svg
+<svg height="22" width="22" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css" id="current-color-scheme">
+    .ColorScheme-NeutralText {
+      color: #f9bd00;
+    }
+
+    .ColorScheme-Background {
+      color: #28292d;
+    }
+  </style>
+  <rect width="22" height="22" rx="2" class="ColorScheme-NeutralText" fill="currentColor" />
+  <path
+    d="m 11,19.25 q -0.756,0 -1.295,-0.539 -0.539,-0.539 -0.539,-1.295 0,-0.756 0.539,-1.295 Q 10.244,15.583 11,15.583 q 0.756,0 1.295,0.539 0.539,0.539 0.539,1.295 0,0.756 -0.539,1.295 Q 11.756,19.25 11,19.25 Z m -1.833,-5.5 v -11 h 3.667 v 11 z"
+    class="ColorScheme-Background" fill="currentColor" />
+</svg>

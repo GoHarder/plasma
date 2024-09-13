@@ -1,0 +1,16 @@
+<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css" id="current-color-scheme">
+    .ColorScheme-PositiveText {
+      color: #50c24b;
+    }
+
+    .ColorScheme-Background {
+      color: #28292d;
+    }
+  </style>
+  <rect width="16" height="16" opacity="0" />
+  <path d="M 6.483,11.55 3.25,8.333 4.1,7.466 6.483,9.85 11.9,4.45 l 0.85,0.85 z" class="ColorScheme-Background"
+    stroke-width="1" stroke="currentColor" />
+  <path d="M 6.483,11.55 3.25,8.333 4.1,7.466 6.483,9.85 11.9,4.45 l 0.85,0.85 z" class="ColorScheme-PositiveText"
+    fill="currentColor" />
+</svg>

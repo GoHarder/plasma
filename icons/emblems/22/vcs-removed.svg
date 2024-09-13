@@ -8,8 +8,6 @@
       color: #28292d;
     }
   </style>
-  <rect width="22" height="22" opacity="0" />
-  <path d="M 4.583,11.917 V 10.083 H 17.417 v 1.833 z" class="ColorScheme-Background" stroke-width="1"
-    stroke="currentColor" />
-  <path d="M 4.583,11.917 V 10.083 H 17.417 v 1.833 z" class="ColorScheme-NegativeText" fill="currentColor" />
+  <rect width="22" height="22" rx="2" class="ColorScheme-NegativeText" fill="currentColor" />
+  <path d="M 4.583,11.917 V 10.083 H 17.417 v 1.833 z" class="ColorScheme-Background" fill="currentColor" />
 </svg>
