@@ -10,7 +10,7 @@
   </style>
   <rect width="22" height="22" opacity="0" />
   <path d="M 10.083,11.917 H 4.583 V 10.083 H 10.083 V 4.583 h 1.833 v 5.5 h 5.5 v 1.833 h -5.5 v 5.5 h -1.833 z"
-    class="ColorScheme-Background" stroke-width="5%" stroke="currentColor" />
+    class="ColorScheme-Background" stroke-width="1" stroke="currentColor" />
   <path d="M 10.083,11.917 H 4.583 V 10.083 H 10.083 V 4.583 h 1.833 v 5.5 h 5.5 v 1.833 h -5.5 v 5.5 h -1.833 z"
     class="ColorScheme-Accent" fill="currentColor" />
 </svg>
