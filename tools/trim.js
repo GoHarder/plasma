@@ -13,7 +13,8 @@ const filePath = args[0];
 
 const extras = [
   /id="(use|path|circle|rect|group|defs|style|svg|namedview|stop)[\d-]+"/g,
-  /(inkscape|xmlns|sodipodi):.+=".+"/g,
+  /(inkscape|sodipodi):.+=".+"/g,
+  /(xmlns:sodipodi|xmlns:inkscape)=".+"/g,
   '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n',
 ];
 
