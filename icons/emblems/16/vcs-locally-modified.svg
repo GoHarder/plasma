@@ -1,0 +1,15 @@
+<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css" id="current-color-scheme">
+    .ColorScheme-Accent {
+      color: #95ccff;
+    }
+
+    .ColorScheme-Background {
+      color: #28292d;
+    }
+  </style>
+  <rect width="16" height="16" rx="2" class="ColorScheme-Accent" fill="currentColor" />
+  <path
+    d="M 8.2,7.6 H 9.4 V 6.4 H 10.6 V 5.2 H 9.4 V 4 H 8.2 V 5.2 H 7 V 6.4 H 8.2 Z M 7,10 h 3.6 v -1.2 H 7 Z M 5.2,12.8 q -0.483,0 -0.842,-0.358 Q 4,12.083 4,11.6 V 2 q 0,-0.483 0.358,-0.842 Q 4.717,0.8 5.2,0.8 h 5.2 l 3.2,3.2 v 7.6 q 0,0.483 -0.358,0.842 -0.358,0.358 -0.842,0.358 z m 0,-1.2 H 12.4 V 4.5 L 9.9,2 h -4.7 z m -2.4,3.6 q -0.483,0 -0.842,-0.358 Q 1.6,14.483 1.6,14 V 4.8 h 1.2 v 9.2 h 7.2 v 1.2 z m 2.4,-3.6 V 2 Z"
+    class="ColorScheme-Background" fill="currentColor" />
+</svg>

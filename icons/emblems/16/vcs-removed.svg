@@ -1,0 +1,13 @@
+<svg height="16" width="16" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css" id="current-color-scheme">
+    .ColorScheme-NegativeText {
+      color: #ff5540;
+    }
+
+    .ColorScheme-Background {
+      color: #28292d;
+    }
+  </style>
+  <rect width="16" height="16" rx="2" class="ColorScheme-NegativeText" fill="currentColor" />
+  <path d="M 3.866,8.6 V 7.4 h 8.267 v 1.2 z" class="ColorScheme-Background" fill="currentColor" />
+</svg>
