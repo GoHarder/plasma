@@ -1,0 +1,15 @@
+<svg height="8" width="8" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css" id="current-color-scheme">
+    .ColorScheme-NeutralText {
+      color: #f9bd00;
+    }
+
+    .ColorScheme-Background {
+      color: #28292d;
+    }
+  </style>
+  <rect width="8" height="8" rx="1" class="ColorScheme-NeutralText" fill="currentColor" />
+  <path
+    d="m 4,6.8 q -0.583,0 -1.093,-0.222 Q 2.398,6.357 2.021,5.979 1.643,5.602 1.422,5.093 1.2,4.583 1.2,4 1.2,3.417 1.422,2.907 1.643,2.398 2.021,2.021 2.398,1.643 2.907,1.422 3.417,1.2 4,1.2 q 0.675,0 1.246,0.292 0.571,0.292 0.954,0.792 V 1.2 h 0.6 V 3.2 H 4.8 v -0.6 H 5.692 Q 5.392,2.227 4.955,2.013 4.517,1.8 4,1.8 q -0.908,0 -1.554,0.646 -0.646,0.646 -0.646,1.554 0,0.908 0.646,1.554 0.646,0.646 1.554,0.646 0.908,0 1.554,-0.646 0.646,-0.646 0.646,-1.554 h 0.6 q 0,1.167 -0.817,1.983 Q 5.167,6.8 4,6.8 Z M 4.833,5.133 3.7,4 v -1.6 h 0.6 v 1.35 l 0.958,0.958 z"
+    class="ColorScheme-Background" fill="currentColor" />
+</svg>
