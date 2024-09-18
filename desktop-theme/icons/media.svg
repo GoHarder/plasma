@@ -1,0 +1,182 @@
+<svg viewBox="0 0 162 112" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <style type="text/css" id="current-color-scheme">
+    .ColorScheme-Text {
+      color: #e2e2e5;
+    }
+
+    .ColorScheme-NegativeText {
+      color: #ff5540;
+    }
+  </style>
+  <g id="32-32-media-playback-start">
+    <rect width="32" height="32" fill="none" />
+    <path d="M 10.666,25.267 V 6.6 l 14.667,9.333 z m 2.222,-9.333 z m 0,5.289 8.311,-5.289 -8.311,-5.289 z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="32-32-media-playback-pause" transform="translate(32)">
+    <rect width="32" height="32" fill="none" />
+    <path
+      d="M 17.444,25.333 V 6.666 h 7.889 v 18.667 z m -10.778,0 V 6.666 h 7.889 v 18.667 z m 13,-2.222 h 3.444 V 8.889 h -3.444 z m -10.778,0 H 12.333 V 8.889 H 8.889 Z m 0,-14.222 V 23.111 Z m 10.778,0 V 23.111 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="32-32-media-playback-stop" transform="translate(64)">
+    <rect width="32" height="32" fill="none" />
+    <path d="M 10.222,10.222 V 21.778 Z M 8,24 V 8 h 16 v 16 z m 2.222,-2.222 H 21.778 V 10.222 H 10.222 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="32-32-media-record" transform="translate(0,32)">
+    <rect width="32" height="32" fill="none" />
+    <path
+      d="m 15.955,16.044 z m 0.044,9.289 q -3.889,0 -6.611,-2.722 -2.722,-2.722 -2.722,-6.611 0,-3.889 2.722,-6.611 Q 12.111,6.666 16,6.666 q 3.889,0 6.611,2.722 2.722,2.722 2.722,6.611 0,3.889 -2.722,6.611 -2.722,2.722 -6.611,2.722 z m 0,-2.222 q 2.967,0 5.039,-2.072 2.072,-2.072 2.072,-5.039 0,-2.967 -2.072,-5.039 -2.072,-2.072 -5.039,-2.072 -2.967,0 -5.039,2.072 -2.072,2.072 -2.072,5.039 0,2.967 2.072,5.039 2.072,2.072 5.039,2.072 z"
+      class="ColorScheme-NegativeText" fill="currentColor" />
+  </g>
+  <g id="32-32-media-seek-backward" transform="translate(32,32)">
+    <rect width="32" height="32" fill="none" />
+    <path
+      d="M 28.533,24 16.844,16 l 11.689,-8 z m -13.378,0 L 3.466,16 15.155,8 Z M 12.933,16 Z m 13.378,0 z M 12.933,19.778 V 12.222 L 7.4,16 Z m 13.378,0 V 12.222 L 20.777,16 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="32-32-media-seek-forward" transform="translate(64,32)">
+    <rect width="32" height="32" fill="none" />
+    <path
+      d="M 3.422,24 V 8 l 11.689,8 z m 13.489,0 V 8 l 11.689,8 z M 5.644,16 Z M 19.133,16 Z M 5.644,19.778 11.178,16 5.644,12.222 Z m 13.489,0 L 24.667,16 19.133,12.222 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="32-32-media-skip-backward" transform="translate(0,64)">
+    <rect width="32" height="32" fill="none" />
+    <path
+      d="M 7.334,24 V 8 h 2.222 v 16 z m 17.333,0 L 12.978,16 24.667,8 Z M 22.445,16 Z m 0,3.778 V 12.222 L 16.911,16 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="32-32-media-skip-forward" transform="translate(32,64)">
+    <rect width="32" height="32" fill="none" />
+    <path
+      d="M 22.445,24 V 8 h 2.222 v 16 z m -15.111,0 V 8 l 11.689,8 z M 9.556,16 Z m 0,3.778 L 15.089,16 9.556,12.222 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="32-32-media-eject" transform="translate(64,64)">
+    <rect width="32" height="32" fill="none" />
+    <path
+      d="m 6.666,25.333 v -2.222 h 18.667 v 2.222 z M 7.022,20.177 16,6.666 24.977,20.177 Z m 9,-2.222 z m -4.911,0 h 9.778 l -4.889,-7.245 z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="22-22-media-playback-start" transform="translate(96)">
+    <rect width="22" height="22" fill="none" />
+    <path d="M 7.333,17.417 V 4.583 L 17.417,11 Z M 9.167,11 Z m 0,3.071 L 13.979,11 9.167,7.929 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="22-22-media-playback-pause" transform="translate(118)">
+    <rect width="22" height="22" fill="none" />
+    <path
+      d="M 11.917,17.417 V 4.583 h 5.5 V 17.417 Z m -7.333,0 V 4.583 H 10.083 V 17.417 Z M 13.75,15.583 h 1.833 V 6.417 H 13.75 Z m -7.333,0 H 8.25 V 6.417 H 6.417 Z m 0,-9.167 v 9.167 z m 7.333,0 v 9.167 z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="22-22-media-playback-stop" transform="translate(140)">
+    <rect width="22" height="22" fill="none" />
+    <path d="M 7.333,7.333 V 14.667 Z M 5.5,16.5 v -11 h 11 v 11 z M 7.333,14.667 H 14.667 V 7.333 H 7.333 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="22-22-media-record" transform="translate(96,22)">
+    <rect width="22" height="22" fill="none" />
+    <path
+      d="m 11,11 z m 0,6.417 q -2.658,0 -4.538,-1.879 Q 4.583,13.658 4.583,11 4.583,8.342 6.463,6.463 8.342,4.583 11,4.583 q 2.658,0 4.538,1.879 1.879,1.879 1.879,4.538 0,2.658 -1.879,4.538 Q 13.658,17.417 11,17.417 Z m 0,-1.833 q 1.902,0 3.243,-1.341 Q 15.583,12.902 15.583,11 q 0,-1.902 -1.341,-3.243 Q 12.902,6.417 11,6.417 q -1.902,0 -3.243,1.341 Q 6.417,9.098 6.417,11 q 0,1.902 1.341,3.243 Q 9.098,15.583 11,15.583 Z"
+      class="ColorScheme-NegativeText" fill="currentColor" />
+  </g>
+  <g id="22-22-media-seek-backward" transform="translate(118,22)">
+    <rect width="22" height="22" fill="none" />
+    <path
+      d="m 19.708,16.5 -8.25,-5.5 8.25,-5.5 z m -9.167,0 L 2.292,11 10.542,5.5 Z M 8.708,11 Z M 17.875,11 Z M 8.708,13.063 V 8.938 L 5.592,11 Z m 9.167,0 V 8.938 L 14.758,11 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="22-22-media-seek-forward" transform="translate(140,22)">
+    <rect width="22" height="22" fill="none" />
+    <path
+      d="M 2.292,16.5 V 5.5 L 10.542,11 Z m 9.167,0 v -11 l 8.25,5.5 z M 4.125,11 Z m 9.167,0 z M 4.125,13.063 7.242,11 4.125,8.938 Z m 9.167,0 L 16.408,11 13.292,8.938 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="22-22-media-skip-backward" transform="translate(96,44)">
+    <rect width="22" height="22" fill="none" />
+    <path
+      d="M 5.042,16.5 V 5.5 H 6.875 v 11 z M 16.958,16.5 8.708,11 16.958,5.5 Z M 15.125,11 Z m 0,2.063 V 8.938 L 12.008,11 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="22-22-media-skip-forward" transform="translate(118,44)">
+    <rect width="22" height="22" fill="none" />
+    <path
+      d="m 15.125,16.5 v -11 h 1.833 v 11 z m -10.083,0 V 5.5 L 13.292,11 Z M 6.875,11 Z m 0,2.063 L 9.992,11 6.875,8.938 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="22-22-media-eject" transform="translate(140,44)">
+    <rect width="22" height="22" fill="none" />
+    <path
+      d="M 4.583,17.417 V 15.583 H 17.417 v 1.833 z M 4.904,13.75 11,4.583 17.096,13.75 Z M 11,11.917 Z m -2.704,0 H 13.704 L 11,7.883 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="media-playback-playing" transform="translate(96,66)">
+    <rect width="22" height="22" fill="none" />
+    <path
+      d="M 8.708,15.125 15.125,11 8.708,6.875 Z M 11,20.167 q -1.902,0 -3.575,-0.722 Q 5.752,18.723 4.515,17.485 3.277,16.248 2.555,14.575 1.833,12.902 1.833,11 q 0,-1.902 0.722,-3.575 Q 3.277,5.752 4.515,4.515 5.752,3.277 7.425,2.555 9.098,1.833 11,1.833 q 1.902,0 3.575,0.722 1.673,0.722 2.91,1.959 1.238,1.238 1.959,2.91 0.722,1.673 0.722,3.575 0,1.902 -0.722,3.575 -0.722,1.673 -1.959,2.91 -1.238,1.238 -2.91,1.959 -1.673,0.722 -3.575,0.722 z m 0,-1.833 q 3.071,0 5.202,-2.131 2.131,-2.131 2.131,-5.202 0,-3.071 -2.131,-5.202 -2.131,-2.131 -5.202,-2.131 -3.071,0 -5.202,2.131 -2.131,2.131 -2.131,5.202 0,3.071 2.131,5.202 2.131,2.131 5.202,2.131 z M 11,11 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="media-playback-paused" transform="translate(118,66)">
+    <rect width="22" height="22" fill="none" />
+    <path
+      d="m 8.25,14.667 h 1.833 V 7.333 H 8.25 Z m 3.667,0 H 13.75 V 7.333 H 11.917 Z M 11,20.167 q -1.902,0 -3.575,-0.722 Q 5.752,18.723 4.515,17.485 3.277,16.248 2.555,14.575 1.833,12.902 1.833,11 q 0,-1.902 0.722,-3.575 Q 3.277,5.752 4.515,4.515 5.752,3.277 7.425,2.555 9.098,1.833 11,1.833 q 1.902,0 3.575,0.722 1.673,0.722 2.91,1.959 1.238,1.238 1.959,2.91 0.722,1.673 0.722,3.575 0,1.902 -0.722,3.575 -0.722,1.673 -1.959,2.91 -1.238,1.238 -2.91,1.959 -1.673,0.722 -3.575,0.722 z m 0,-1.833 q 3.071,0 5.202,-2.131 2.131,-2.131 2.131,-5.202 0,-3.071 -2.131,-5.202 -2.131,-2.131 -5.202,-2.131 -3.071,0 -5.202,2.131 -2.131,2.131 -2.131,5.202 0,3.071 2.131,5.202 2.131,2.131 5.202,2.131 z M 11,11 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="media-playback-stopped" transform="translate(140,66)">
+    <rect width="22" height="22" fill="none" />
+    <path
+      d="M 7.333,14.667 H 14.667 V 7.333 H 7.333 Z m 3.667,5.5 q -1.902,0 -3.575,-0.722 Q 5.752,18.723 4.515,17.485 3.277,16.248 2.555,14.575 1.833,12.902 1.833,11 q 0,-1.902 0.722,-3.575 0.722,-1.673 1.959,-2.91 1.237,-1.238 2.91,-1.959 1.673,-0.722 3.575,-0.722 1.902,0 3.575,0.722 1.673,0.722 2.91,1.959 1.238,1.238 1.959,2.91 0.722,1.673 0.722,3.575 0,1.902 -0.722,3.575 -0.722,1.673 -1.959,2.91 -1.238,1.238 -2.91,1.959 -1.673,0.722 -3.575,0.722 z m 0,-1.833 q 3.071,0 5.202,-2.131 2.131,-2.131 2.131,-5.202 0,-3.071 -2.131,-5.202 -2.131,-2.131 -5.202,-2.131 -3.071,0 -5.202,2.131 Q 3.667,7.929 3.667,11 q 0,3.071 2.131,5.202 2.131,2.131 5.202,2.131 z m 0,-7.333 z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="16-16-media-playback-start" transform="translate(0,96)">
+    <rect width="16" height="16" fill="none" />
+    <path d="M 5.6,12.4 V 3.6 L 12.4,8 Z M 6.817,7.983 Z M 6.8,10.2 10.2,8 6.8,5.8 Z" class="ColorScheme-Text"
+      fill="currentColor" />
+  </g>
+  <g id="16-16-media-playback-pause" transform="translate(16,96)">
+    <rect width="16" height="16" fill="none" />
+    <path
+      d="M 8.8,12.8 V 3.2 h 4 v 9.6 z m -5.6,0 V 3.2 h 4 v 9.6 z m 6.8,-1.2 H 11.6 V 4.4 H 10 Z m -5.6,0 H 6 V 4.4 H 4.4 Z m 0,-7.2 v 7.2 z m 5.6,0 v 7.2 z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="16-16-media-playback-stop" transform="translate(32,96)">
+    <rect width="16" height="16" fill="none" />
+    <path d="m 5.6,5.6 v 4.8 z M 4.4,11.6 V 4.4 h 7.2 v 7.2 z m 1.2,-1.2 h 4.8 V 5.6 H 5.6 Z" class="ColorScheme-Text"
+      fill="currentColor" />
+  </g>
+  <g id="16-16-media-record" transform="translate(48,96)">
+    <rect width="16" height="16" fill="none" />
+    <path
+      d="m 8,8 z m 0,4 q -1.657,0 -2.828,-1.172 Q 4,9.657 4,8 4,6.343 5.172,5.172 6.343,4 8,4 q 1.657,0 2.828,1.172 1.172,1.171 1.172,2.829 0,1.657 -1.172,2.828 -1.171,1.172 -2.828,1.172 z m 0.003,-1.2 q 1.163,0 1.98,-0.82 0.817,-0.82 0.817,-1.983 0,-1.163 -0.82,-1.98 Q 9.16,5.2 7.997,5.2 q -1.163,0 -1.98,0.82 Q 5.2,6.84 5.2,8.003 q 0,1.163 0.82,1.98 0.82,0.817 1.983,0.817 z"
+      class="ColorScheme-NegativeText" fill="currentColor" />
+  </g>
+  <g id="16-16-media-seek-backward" transform="translate(64,96)">
+    <rect width="16" height="16" fill="none" />
+    <path
+      d="M 13.6,11.6 8,8 13.6,4.4 Z m -6.4,0 L 1.6,8 7.2,4.4 Z M 6,8 Z M 12.4,8 Z M 6,9.4 V 6.6 L 3.817,8 Z m 6.4,0 V 6.6 L 10.217,8 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="16-16-media-seek-forward" transform="translate(80,96)">
+    <rect width="16" height="16" fill="none" />
+    <path
+      d="M 2.4,11.6 V 4.4 L 8,8 Z m 6.4,0 V 4.4 L 14.4,8 Z M 3.6,8.017 Z m 6.4,0 z M 3.6,9.4 5.783,8 3.6,6.6 Z m 6.4,0 L 12.183,8 10,6.6 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="16-16-media-skip-backward" transform="translate(96,96)">
+    <rect width="16" height="16" fill="none" />
+    <path d="M 4,12 V 4 h 1.2 v 8 z m 8,-0.4 L 6.4,8 12,4.4 Z M 10.8,8 Z m 0,1.4 V 6.6 L 8.617,8 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="16-16-media-skip-forward" transform="translate(112,96)">
+    <rect width="16" height="16" fill="none" />
+    <path d="M 10.8,12 V 4 h 1.2 v 8 z M 4,11.6 V 4.4 L 9.6,8 Z M 5.2,8 Z M 5.2,9.4 7.383,8 5.2,6.6 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="16-16-media-eject" transform="translate(128,96)">
+    <rect width="16" height="16" fill="none" />
+    <path d="m 4,12 v -1.2 h 8 v 1.2 z M 4.267,9.6 8,4 11.733,9.6 Z M 8,8.4 Z M 6.5,8.4 H 9.483 L 8,6.167 Z"
+      class="ColorScheme-Text" fill="currentColor" />
+  </g>
+</svg>
