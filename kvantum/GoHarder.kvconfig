@@ -181,8 +181,7 @@ text.margin.bottom=2
 text.margin.left=3
 text.margin.right=3
 
-[IndicatorSpinBox]
-inherits=LineEdit
+# [IndicatorSpinBox]
 
 [RadioButton]
 inherits=PanelButtonTool
