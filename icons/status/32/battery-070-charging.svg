@@ -1,4 +1,4 @@
-<svg viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
   <defs>
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Text {
@@ -8,12 +8,18 @@
       .ColorScheme-PositiveText {
         color: #50c24b;
       }
+
+      .ColorScheme-NeutralText {
+        color: #f9bd00;
+      }
     </style>
   </defs>
-  <rect width="13.938" height="8.889" x="4.889" y="11.556" class="ColorScheme-PositiveText" fill="currentColor" />
   <path
-    d="m 25.911,9.334 q 0.472,0 0.792,0.319 Q 27.022,9.973 27.022,10.445 v 2.889 h 2.311 v 5.333 h -2.311 v 2.889 q 0,0.472 -0.32,0.792 -0.319,0.319 -0.792,0.319 H 3.777 q -0.472,0 -0.792,-0.319 Q 2.666,22.028 2.666,21.556 V 10.445 q 0,-0.472 0.319,-0.792 Q 3.305,9.334 3.777,9.334 Z m -1.111,2.222 H 4.889 v 8.889 H 24.8 Z"
+    d="M 4.889 11.557 L 4.889 20.445 L 16.197 20.445 A 7.406 7.406 0 0 1 18.826 17.691 L 18.826 11.557 L 4.889 11.557 z"
+    class="ColorScheme-PositiveText" fill="currentColor" />
+  <path
+    d="M 3.777 9.334 C 3.463 9.334 3.198 9.44 2.984 9.652 C 2.772 9.866 2.666 10.131 2.666 10.445 L 2.666 21.557 C 2.666 21.871 2.772 22.134 2.984 22.348 C 3.198 22.56 3.463 22.668 3.777 22.668 L 15.398 22.668 A 7.406 7.406 0 0 1 16.197 20.445 L 4.889 20.445 L 4.889 11.557 L 24.801 11.557 L 24.801 16.92 A 7.406 7.406 0 0 1 27.793 18.668 L 29.332 18.668 L 29.332 13.334 L 27.021 13.334 L 27.021 10.445 C 27.021 10.131 26.916 9.866 26.703 9.652 C 26.49 9.44 26.225 9.334 25.91 9.334 L 3.777 9.334 z"
     class="ColorScheme-Text" fill="currentColor" />
-  <circle cx="22.667" cy="24.011" r="7.406" fill="#800000" opacity="0.5" />
-  <path d="M 22,29.177 v -3.844 h -2.889 l 4.222,-6.489 v 3.822 h 2.889 z" />
+  <path d="M 22,29.177 v -3.844 h -2.889 l 4.222,-6.489 v 3.822 h 2.889 z" class="ColorScheme-NeutralText"
+    fill="currentColor" />
 </svg>
