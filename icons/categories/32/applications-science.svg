@@ -1,0 +1,30 @@
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color: #e2e2e5;
+      }
+
+      .ColorScheme-PositiveText {
+        color: #50c24b;
+      }
+    </style>
+    <linearGradient id="lg1" x1="16" y1="28.001" x2="16" y2="4" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <linearGradient id="lg2" x1="16" y1="25.777" x2="16" y2="18.777" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+  </defs>
+  <path d="M 11.822 18.777 L 5.777 25.777 L 26.223 25.777 L 20.178 18.777 L 11.822 18.777 z"
+    class="ColorScheme-PositiveText" fill="currentColor" />
+  <path
+    d="M 6.044,28 q -1.495,0 -2.125,-1.372 -0.63,-1.372 0.37,-2.517 l 7.978,-9.222 V 6.222 h -1.6 q -0.472,0 -0.792,-0.321 Q 9.555,5.581 9.555,5.107 q 0,-0.474 0.319,-0.791 Q 10.194,4 10.666,4 h 10.667 q 0.472,0 0.792,0.321 0.319,0.32 0.319,0.794 0,0.474 -0.319,0.791 -0.319,0.317 -0.792,0.317 h -1.6 v 8.667 l 7.978,9.222 q 1,1.145 0.37,2.517 -0.63,1.372 -2.125,1.372 z M 5.778,25.778 H 26.222 L 17.511,15.689 V 6.222 H 14.489 V 15.689 z"
+    class="ColorScheme-Text" fill="currentColor" />
+  <path d="M 11.822 18.777 L 5.777 25.777 L 26.223 25.777 L 20.178 18.777 L 11.822 18.777 z" fill="url(#lg2)" />
+  <path
+    d="M 6.044,28 q -1.495,0 -2.125,-1.372 -0.63,-1.372 0.37,-2.517 l 7.978,-9.222 V 6.222 h -1.6 q -0.472,0 -0.792,-0.321 Q 9.555,5.581 9.555,5.107 q 0,-0.474 0.319,-0.791 Q 10.194,4 10.666,4 h 10.667 q 0.472,0 0.792,0.321 0.319,0.32 0.319,0.794 0,0.474 -0.319,0.791 -0.319,0.317 -0.792,0.317 h -1.6 v 8.667 l 7.978,9.222 q 1,1.145 0.37,2.517 -0.63,1.372 -2.125,1.372 z M 5.778,25.778 H 26.222 L 17.511,15.689 V 6.222 H 14.489 V 15.689 z"
+    fill="url(#lg1)" />
+</svg>
