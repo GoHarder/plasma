@@ -1,7 +1,7 @@
 <svg width="136" height="136" viewBox="0 0 136 136" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <style id="current-color-scheme" type="text/css">
-      .ColorScheme-Accent {
+      .ColorScheme-ButtonHover {
         color: #95ccff;
       }
 
@@ -14,19 +14,19 @@
     <rect width="136" height="136" opacity="0" />
     <path
       d="M 68 7 A 61 61 0 0 0 7 68 A 61 61 0 0 0 68 129 A 61 61 0 0 0 129 68 L 115.5 68 A 47.5 47.5 0 0 1 68 115.5 A 47.5 47.5 0 0 1 20.5 68 A 47.5 47.5 0 0 1 68 20.5 L 68 7 z"
-      class="ColorScheme-Accent" fill="currentColor" />
+      class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
   <g id="22-22-busywidget">
     <rect width="22" height="22" x="136" y="114" opacity="0" />
     <path
       d="m 147.016,115.134 a 9.882,9.882 0 0 0 -9.882,9.882 9.882,9.882 0 0 0 9.882,9.882 9.882,9.882 0 0 0 9.882,-9.882 h -2.187 a 7.695,7.695 0 0 1 -7.695,7.695 7.695,7.695 0 0 1 -7.695,-7.695 7.695,7.695 0 0 1 7.695,-7.695 z"
-      class="ColorScheme-Accent" fill="currentColor" />
+      class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
   <g id="16-16-busywidget">
     <rect width="16" height="16" x="158" y="120" opacity="0" />
     <path
       d="m 166.024,120.826 a 7.198,7.198 0 0 0 -7.198,7.198 7.198,7.198 0 0 0 7.198,7.198 7.198,7.198 0 0 0 7.198,-7.198 h -1.593 a 5.605,5.605 0 0 1 -5.605,5.605 5.605,5.605 0 0 1 -5.605,-5.605 5.605,5.605 0 0 1 5.605,-5.605 z"
-      class="ColorScheme-Accent" fill="currentColor" />
+      class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
   <rect id="hint-rotation-angle" width="14" height="14" y="136" fill="#0000ff" x="0" />
   <g id="stopped" transform="translate(-136,0)">

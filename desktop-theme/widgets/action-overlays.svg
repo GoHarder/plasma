@@ -6,7 +6,7 @@
             color: #e2e2e5;
          }
 
-         .ColorScheme-Accent {
+         .ColorScheme-ButtonHover {
             color: #95ccff;
          }
 
@@ -58,14 +58,14 @@
       <path d="M 10.083,18.333 V 7.173 L 4.95,12.306 3.667,11 11,3.667 18.333,11 17.05,12.306 11.917,7.173 V 18.333 Z"
          class="ColorScheme-Background" stroke="currentColor" stroke-width="1" />
       <path d="M 10.083,18.333 V 7.173 L 4.95,12.306 3.667,11 11,3.667 18.333,11 17.05,12.306 11.917,7.173 V 18.333 Z"
-         class="ColorScheme-Accent" fill="currentColor" />
+         class="ColorScheme-ButtonHover" fill="currentColor" />
    </g>
    <g id="open-pressed" transform="translate(44,22)">
       <rect width="22" height="22" opacity="0" />
       <path d="M 10.083,18.333 V 7.173 L 4.95,12.306 3.667,11 11,3.667 18.333,11 17.05,12.306 11.917,7.173 V 18.333 Z"
          class="ColorScheme-Background" stroke="currentColor" stroke-width="1" />
       <path d="M 10.083,18.333 V 7.173 L 4.95,12.306 3.667,11 11,3.667 18.333,11 17.05,12.306 11.917,7.173 V 18.333 Z"
-         class="ColorScheme-Accent" fill="currentColor" />
+         class="ColorScheme-ButtonHover" fill="currentColor" />
       <path d="M 10.083,18.333 V 7.173 L 4.95,12.306 3.667,11 11,3.667 18.333,11 17.05,12.306 11.917,7.173 V 18.333 Z"
          class="ColorScheme-Text" fill="currentColor" opacity="0.1" />
    </g>
