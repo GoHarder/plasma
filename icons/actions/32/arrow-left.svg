@@ -6,6 +6,6 @@
       }
     </style>
   </defs>
-  <path d="m 16,13.822 -6.422,6.422 L 8,18.666 16,10.666 l 8,8 -1.578,1.578 z" class="ColorScheme-Text"
+  <path d="M 18.689,24 10.666,15.978 18.689,7.956 l 1.578,1.578 -6.444,6.444 6.444,6.445 z" class="ColorScheme-Text"
     fill="currentColor" />
 </svg>

@@ -1,1 +1,11 @@
-./go-down.svg
+<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color: #e2e2e5;
+      }
+    </style>
+  </defs>
+  <path d="M 16,20.534 8,12.534 9.578,10.956 16,17.378 22.422,10.956 l 1.578,1.578 z" class="ColorScheme-Text"
+    fill="currentColor" />
+</svg>
