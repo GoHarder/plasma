@@ -1,4 +1,4 @@
-<svg height="96" width="96" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<svg height="96" width="96" version="1.1" xmlns:svg="http://www.w3.org/2000/svg">
   <defs>
     <style type="text/css" id="current-color-scheme">
       .ColorScheme-Accent {
@@ -13,17 +13,18 @@
       <stop stop-opacity="0.15" offset="0" />
       <stop stop-opacity="0" offset="1" />
     </linearGradient>
+    <path id="folder-back" d="M 8,34 v -12 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,6 v 12 z" />
+    <!-- <path d="M 14,80 Q 11.6,80 9.8,78.15 8,76.3 8,74 V 22 Q 8,19.7 9.8,17.85 11.6,16 14,16 h 28.1 l 6,6 H 82 q 2.3,0 4.15,1.85 Q 88,25.7 88,28 v 46 q 0,2.3 -1.85,4.15 Q 84.3,80 82,80 Z m 0,-6 H 82 V 28 H 45.6 l -6,-6 H 14 Z" /> -->
   </defs>
-  <path d="M 8,34 v -12 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,6 v 12 z" class="ColorScheme-Accent"
-    fill="currentColor" />
-  <path d="M 8,34 v -12 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,6 v 12 z" class="ColorScheme-Background"
-    fill="currentColor" opacity="0.3" />
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
   <path
     d="M 14,80 q -2.4,0 -4.2,-1.85 -1.8,-1.85 -1.8,-4.15 v -40 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,-6 h 33.9 q 2.3,0 4.15,1.85 1.85,1.85 1.85,4.15 v 46 q 0,2.3 -1.85,4.15 -1.85,1.85 -4.15,1.85 z"
     class="ColorScheme-Accent" fill="currentColor" />
+  <!-- Icon Here -->
   <path
     d="M 14,80 Q 11.6,80 9.8,78.15 8,76.3 8,74 V 22 Q 8,19.7 9.8,17.85 11.6,16 14,16 h 28.1 l 6,6 H 82 q 2.3,0 4.15,1.85 Q 88,25.7 88,28 v 46 q 0,2.3 -1.85,4.15 Q 84.3,80 82,80 Z"
     fill="url(#lg1)" />
-  <!-- <path
-    d="M 14,80 Q 11.6,80 9.8,78.15 8,76.3 8,74 V 22 Q 8,19.7 9.8,17.85 11.6,16 14,16 h 28.1 l 6,6 H 82 q 2.3,0 4.15,1.85 Q 88,25.7 88,28 v 46 q 0,2.3 -1.85,4.15 Q 84.3,80 82,80 Z m 0,-6 H 82 V 28 H 45.6 l -6,-6 H 14 Z" /> -->
+  <!-- <rect style="fill:#00ffff;fill-opacity:0.336;" width="80" height="46" x="8" y="28" />
+  <rect style="fill:#008000;fill-opacity:0.336;" width="40" height="40" x="0" y="0" /> -->
 </svg>
