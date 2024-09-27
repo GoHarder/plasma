@@ -1,0 +1,29 @@
+<svg height="96" width="96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Accent {
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #28292d;
+      }
+    </style>
+    <linearGradient id="lg1" x1="48" y1="80" x2="48" y2="16" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <path id="folder-back" d="M 8,34 v -12 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,6 v 12 z" />
+    <path id="icon"
+      d="m 38.5,69 q -1.031,0 -1.766,-0.734 Q 36,67.531 36,66.5 V 50.65 q 0,-1.031 0.734,-1.766 0.735,-0.734 1.766,-0.734 h 2.25 v -3.4 q 0,-3.009 2.121,-5.129 2.121,-2.121 5.131,-2.121 3.01,0 5.129,2.121 2.119,2.121 2.119,5.129 v 3.4 h 2.25 q 1.031,0 1.766,0.734 0.734,0.735 0.734,1.766 v 15.85 q 0,1.031 -0.734,1.766 -0.735,0.734 -1.766,0.734 z m 0,-2.5 H 57.5 V 50.65 H 38.5 Z m 9.504,-5 q 1.208,0 2.065,-0.845 0.856,-0.844 0.856,-2.031 0,-1.163 -0.861,-2.069 -0.86,-0.906 -2.069,-0.906 -1.208,0 -2.065,0.906 -0.856,0.906 -0.856,2.081 0,1.175 0.861,2.019 0.86,0.844 2.069,0.844 z m -4.754,-13.35 h 9.5 v -3.4 q 0,-1.979 -1.385,-3.365 -1.385,-1.385 -3.363,-1.385 -1.978,0 -3.366,1.385 -1.388,1.386 -1.388,3.365 z m -4.75,18.35 V 50.65 Z" />
+  </defs>
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path
+    d="M 14,80 q -2.4,0 -4.2,-1.85 -1.8,-1.85 -1.8,-4.15 v -40 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,-6 h 33.9 q 2.3,0 4.15,1.85 1.85,1.85 1.85,4.15 v 46 q 0,2.3 -1.85,4.15 -1.85,1.85 -4.15,1.85 z"
+    class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#icon" class="ColorScheme-Background" fill="currentColor" opacity="0.8" />
+  <path
+    d="M 14,80 Q 11.6,80 9.8,78.15 8,76.3 8,74 V 22 Q 8,19.7 9.8,17.85 11.6,16 14,16 h 28.1 l 6,6 H 82 q 2.3,0 4.15,1.85 Q 88,25.7 88,28 v 46 q 0,2.3 -1.85,4.15 Q 84.3,80 82,80 Z"
+    fill="url(#lg1)" />
+</svg>
