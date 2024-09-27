@@ -13,17 +13,16 @@
       <stop stop-opacity="0.15" offset="0" />
       <stop stop-opacity="0" offset="1" />
     </linearGradient>
+    <path id="folder-back" d="M 8,34 v -12 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,6 v 12 z" />
+    <path id="icon"
+      d="m 38.5,65 h 5.25 v -9.25 h 8.5 v 9.25 h 5.25 V 50.75 l -9.5,-7.125 -9.5,7.125 z M 36,67.5 V 49.5 L 48,40.5 60,49.5 V 67.5 H 49.75 v -9.25 h -3.5 v 9.25 z M 48,54.3 Z" />
   </defs>
-  <path d="M 8,34 v -12 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,6 v 12 z" class="ColorScheme-Accent"
-    fill="currentColor" />
-  <path d="M 8,34 v -12 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,6 v 12 z" class="ColorScheme-Background"
-    fill="currentColor" opacity="0.3" />
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
   <path
     d="M 14,80 q -2.4,0 -4.2,-1.85 -1.8,-1.85 -1.8,-4.15 v -40 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,-6 h 33.9 q 2.3,0 4.15,1.85 1.85,1.85 1.85,4.15 v 46 q 0,2.3 -1.85,4.15 -1.85,1.85 -4.15,1.85 z"
     class="ColorScheme-Accent" fill="currentColor" />
-  <path
-    d="m 38.5,62 h 5.25 v -9.25 h 8.5 v 9.25 h 5.25 V 47.75 l -9.5,-7.125 -9.5,7.125 z M 36,64.5 V 46.5 L 48,37.5 60,46.5 V 64.5 H 49.75 v -9.25 h -3.5 v 9.25 z M 48,51.3 Z"
-    class="ColorScheme-Background" fill="currentColor" opacity="0.8" />
+  <use href="#icon" class="ColorScheme-Background" fill="currentColor" opacity="0.8" />
   <path
     d="M 14,80 Q 11.6,80 9.8,78.15 8,76.3 8,74 V 22 Q 8,19.7 9.8,17.85 11.6,16 14,16 h 28.1 l 6,6 H 82 q 2.3,0 4.15,1.85 Q 88,25.7 88,28 v 46 q 0,2.3 -1.85,4.15 Q 84.3,80 82,80 Z"
     fill="url(#lg1)" />
