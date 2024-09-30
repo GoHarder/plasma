@@ -11,7 +11,7 @@
     "Id": "GoHarder",
     "License": "LGPL",
     "Name": "GoHarder",
-    "Version": "0.0.0",
+    "Version": "0.0.1",
     "Website": "https://www.kde.org/"
   },
   "X-Plasma-API": "5.0"
