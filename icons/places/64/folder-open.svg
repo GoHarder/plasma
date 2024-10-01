@@ -1,0 +1,32 @@
+<svg viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Accent {
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #28292d;
+      }
+    </style>
+    <linearGradient id="lg1" x1="32" y1="53.332" x2="32" y2="10.667" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <linearGradient id="lg2" x1="32" y1="53.332" x2="32" y2="22.668" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <path id="folder-back"
+      d="m 9.333,53.333 q -1.533,0 -2.767,-1.233 -1.233,-1.233 -1.233,-2.767 v -34.666 q 0,-1.533 1.233,-2.767 1.233,-1.233 2.767,-1.233 h 18.734 l 4,4 h 22.6 q 1.533,0 2.767,1.233 1.233,1.233 1.233,2.767 v 4 z" />
+    <path id="folder-front"
+      d="M 16.133 22.668 L 8.348 53.195 C 8.665 53.286 8.992 53.332 9.332 53.332 L 51.332 53.332 C 52.443 53.332 53.355 53.088 54.066 52.6 C 54.778 52.111 55.267 51.334 55.533 50.268 L 62.666 22.668 L 16.133 22.668 z" />
+  </defs>
+  <!-- <path
+    d="m 9.333,53.333 q -1.533,0 -2.767,-1.233 -1.233,-1.233 -1.233,-2.767 v -34.666 q 0,-1.533 1.233,-2.767 1.233,-1.233 2.767,-1.233 h 18.734 l 4,4 h 22.6 q 1.533,0 2.767,1.233 1.233,1.233 1.233,2.767 h -28.334 l -4,-4 h -17 v 34.666 l 6.8,-26.666 h 46.533 l -7.133,27.6 q -0.4,1.6 -1.467,2.333 -1.067,0.733 -2.733,0.733 z m 4.2,-4 h 38.133 l 5.6,-22.667 h -38.133 z" /> -->
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <use href="#folder-back" fill="url(#lg1)" />
+  <use href="#folder-front" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-front" fill="url(#lg2)" />
+</svg>

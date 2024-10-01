@@ -1,0 +1,29 @@
+<svg height="96" width="96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Accent {
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #28292d;
+      }
+    </style>
+    <linearGradient id="lg1" x1="48" y1="80" x2="48" y2="16" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <path id="folder-back" d="M 8,34 v -12 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,6 v 12 z" />
+    <path id="icon"
+      d="m 37.374,67.5 q -1.187,0 -2.03,-0.845 Q 34.5,65.811 34.5,64.624 q 0,-1.186 0.845,-2.03 0.845,-0.844 2.031,-0.844 1.186,0 2.03,0.845 0.844,0.845 0.844,2.031 0,1.187 -0.845,2.03 -0.845,0.844 -2.031,0.844 z m 18.876,0 q 0,-4.538 -1.7,-8.469 -1.7,-3.932 -4.675,-6.906 Q 46.9,49.15 42.967,47.45 39.034,45.75 34.5,45.75 v -3.75 q 5.325,0 9.938,1.988 4.613,1.987 8.1,5.475 3.488,3.488 5.475,8.1 1.988,4.613 1.988,9.938 z m -9.45,0 q 0,-2.588 -0.957,-4.843 -0.957,-2.256 -2.643,-3.982 -1.675,-1.725 -3.894,-2.7 -2.22,-0.975 -4.806,-0.975 v -3.75 q 3.375,0 6.281,1.269 2.906,1.269 5.085,3.492 2.178,2.223 3.431,5.169 1.253,2.946 1.253,6.321 z" />
+  </defs>
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path
+    d="M 14,80 q -2.4,0 -4.2,-1.85 -1.8,-1.85 -1.8,-4.15 v -40 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,-6 h 33.9 q 2.3,0 4.15,1.85 1.85,1.85 1.85,4.15 v 46 q 0,2.3 -1.85,4.15 -1.85,1.85 -4.15,1.85 z"
+    class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#icon" class="ColorScheme-Background" fill="currentColor" opacity="0.8" />
+  <path
+    d="M 14,80 Q 11.6,80 9.8,78.15 8,76.3 8,74 V 22 Q 8,19.7 9.8,17.85 11.6,16 14,16 h 28.1 l 6,6 H 82 q 2.3,0 4.15,1.85 Q 88,25.7 88,28 v 46 q 0,2.3 -1.85,4.15 Q 84.3,80 82,80 Z"
+    fill="url(#lg1)" />
+</svg>
