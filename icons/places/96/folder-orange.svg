@@ -1,0 +1,17 @@
+<svg height="96" width="96" version="1.1" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lg1" x1="48" y1="80" x2="48" y2="16" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <path id="folder-back" d="M 8,34 v -12 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,6 v 12 z" />
+  </defs>
+  <use href="#folder-back" fill="#f69f84" />
+  <use href="#folder-back" fill="#2e3440" opacity="0.3" />
+  <path
+    d="M 14,80 q -2.4,0 -4.2,-1.85 -1.8,-1.85 -1.8,-4.15 v -40 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,-6 h 33.9 q 2.3,0 4.15,1.85 1.85,1.85 1.85,4.15 v 46 q 0,2.3 -1.85,4.15 -1.85,1.85 -4.15,1.85 z"
+    fill="#f69f84" />
+  <path
+    d="M 14,80 Q 11.6,80 9.8,78.15 8,76.3 8,74 V 22 Q 8,19.7 9.8,17.85 11.6,16 14,16 h 28.1 l 6,6 H 82 q 2.3,0 4.15,1.85 Q 88,25.7 88,28 v 46 q 0,2.3 -1.85,4.15 Q 84.3,80 82,80 Z"
+    fill="url(#lg1)" />
+</svg>
