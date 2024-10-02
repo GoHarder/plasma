@@ -1,0 +1,39 @@
+<svg version="1.1" viewBox="0 0 96 96" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color: #e2e2e5;
+      }
+
+      .ColorScheme-NeutralText {
+        color: #f9bd00;
+      }
+
+      .ColorScheme-Background {
+        color: #28292d;
+      }
+    </style>
+    <linearGradient id="lg1" x1="48" y1="84" x2="48" y2="12" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <linearGradient id="lg2" x1="66.85" y1="88.1" x2="66.85" y2="45.8" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <path id="back"
+      d="M 34.699 12 L 34.699 15 L 15.801 15 L 15.801 21 L 20.1 21 L 20.1 78 C 20.1 79.6 20.7 80.999 21.9 82.199 C 23.1 83.399 24.5 84 26.1 84 L 44.35 84 A 28.403 28.403 0 0 1 38.947 67.449 A 28.403 28.403 0 0 1 67.35 39.047 A 28.403 28.403 0 0 1 74.1 39.863 L 74.1 21 L 78.4 21 L 78.4 15 L 59.5 15 L 59.5 12 L 34.699 12 z" />
+    <path id="outline"
+      d="M 34.699 12 L 34.699 15 L 15.801 15 L 15.801 21 L 20.1 21 L 20.1 78 C 20.1 79.6 20.7 80.999 21.9 82.199 C 23.1 83.399 24.5 84 26.1 84 L 44.35 84 A 28.403 28.403 0 0 1 41.047 78 L 26.1 78 L 26.1 21 L 68.1 21 L 68.1 39 C 68.467 39.026 68.854 39.072 69.242 39.119 A 28.403 28.403 0 0 1 74.1 39.863 L 74.1 21 L 78.4 21 L 78.4 15 L 59.5 15 L 59.5 12 L 34.699 12 z M 36 29.5 L 36 69.4 L 39 69.4 C 39 69.082 39.02 68.816 39.023 68.508 A 28.403 28.403 0 0 1 38.947 67.449 A 28.403 28.403 0 0 1 39.344 62.918 C 39.593 60.873 39.976 59.194 40.5 57.9 L 42 54.199 L 42 29.5 L 36 29.5 z M 52.301 29.5 L 52.301 43.199 C 53.101 42.666 54.066 42.15 55.199 41.65 C 56.333 41.15 57.367 40.734 58.301 40.4 L 58.301 29.5 L 52.301 29.5 z " />
+    <path id="clock"
+      d="M 66.799,88.1 Q 58,88.1 51.85,81.899 45.7,75.697 45.7,66.899 45.7,58.1 51.872,51.95 58.043,45.8 66.8,45.8 q 8.798,0 14.999,6.172 Q 88,58.143 88,66.9 q 0,8.798 -6.201,14.999 -6.202,6.201 -15,6.201 z M 73.3,76.4 76.1,73.6 68.7,66.2 V 55 h -4 v 12.8 z" />
+  </defs>
+  <use xlink:href="#back" class="ColorScheme-Background" fill="currentColor" />
+  <use xlink:href="#back" class="ColorScheme-Text" fill="currentColor" opacity="0.2" />
+  <use xlink:href="#outline" class="ColorScheme-Text" fill="currentColor" />
+  <use xlink:href="#outline" class="ColorScheme-Background" fill="currentColor" opacity="0.2" />
+  <use xlink:href="#back" fill="url(#lg1)" />
+  <use xlink:href="#clock" class="ColorScheme-NeutralText" fill="currentColor" />
+  <use xlink:href="#clock" fill="url(#lg2)" />
+</svg>

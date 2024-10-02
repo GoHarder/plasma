@@ -1,0 +1,30 @@
+<svg height="96" width="96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Accent {
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #28292d;
+      }
+    </style>
+    <linearGradient id="lg1" x1="48" y1="80" x2="48" y2="16" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <path id="folder-back" d="M 8,34 v -12 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,6 v 12 z" />
+    <path id="icon"
+      d="m 43.653,41.311 c -0.903,0 -1.737,0.479 -2.192,1.259 l -8.116,13.913 c -0.488,0.837 -0.457,1.88 0.081,2.686 l 4.259,6.389 c 0.471,0.706 1.263,1.13 2.112,1.13 h 16.406 c 0.848,0 1.641,-0.424 2.112,-1.13 l 4.259,-6.389 c 0.538,-0.807 0.569,-1.849 0.08,-2.686 l -8.116,-13.913 c -0.455,-0.78 -1.289,-1.259 -2.192,-1.259 z m 1.561,2.538 h 7.133 l 7.402,12.689 h -6.604 z m 4.938,12.689 -2.267,-3.628 -2.116,3.628 z m -5.864,2.538 -2.961,5.075 h 14.876 l 3.384,-5.075 z m 2.077,-8.597 -7.318,12.546 -3.509,-5.263 7.424,-12.727 z" />
+  </defs>
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path
+    d="M 14,80 q -2.4,0 -4.2,-1.85 -1.8,-1.85 -1.8,-4.15 v -40 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,-6 h 33.9 q 2.3,0 4.15,1.85 1.85,1.85 1.85,4.15 v 46 q 0,2.3 -1.85,4.15 -1.85,1.85 -4.15,1.85 z"
+    class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#icon" class="ColorScheme-Background" fill="currentColor" opacity="0.8" fill-rule="evenodd"
+    clip-rule="evenodd" />
+  <path
+    d="M 14,80 Q 11.6,80 9.8,78.15 8,76.3 8,74 V 22 Q 8,19.7 9.8,17.85 11.6,16 14,16 h 28.1 l 6,6 H 82 q 2.3,0 4.15,1.85 Q 88,25.7 88,28 v 46 q 0,2.3 -1.85,4.15 Q 84.3,80 82,80 Z"
+    fill="url(#lg1)" />
+</svg>
