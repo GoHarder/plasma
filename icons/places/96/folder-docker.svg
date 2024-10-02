@@ -1,0 +1,29 @@
+<svg height="96" width="96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Accent {
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #28292d;
+      }
+    </style>
+    <linearGradient id="lg1" x1="48" y1="80" x2="48" y2="16" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <path id="folder-back" d="M 8,34 v -12 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,6 v 12 z" />
+    <path id="icon"
+      d="m 62.381,51.437 c -0.676,-0.469 -2.224,-0.645 -3.434,-0.41 -0.141,-1.172 -0.788,-2.197 -1.914,-3.105 l -0.647,-0.469 -0.45,0.674 c -0.563,0.879 -0.844,2.109 -0.76,3.281 0.028,0.41 0.169,1.143 0.591,1.787 -0.394,0.234 -1.21,0.527 -2.28,0.527 h -20.351 l -0.056,0.234 c -0.197,1.172 -0.197,4.834 2.111,7.646 1.745,2.139 4.335,3.223 7.741,3.223 7.375,0 12.836,-3.545 15.397,-9.961 1.013,0.029 3.181,0 4.279,-2.197 0.028,-0.059 0.085,-0.176 0.281,-0.615 l 0.113,-0.234 z M 49.405,43.175 h -3.096 v 2.93 h 3.096 z m 0,3.516 h -3.096 v 2.93 h 3.096 z m -3.659,0 h -3.096 v 2.93 h 3.096 z m -3.659,0 h -3.096 v 2.93 h 3.096 z m -3.659,3.516 h -3.096 v 2.93 h 3.096 z m 3.659,0 h -3.096 v 2.93 h 3.096 z m 3.659,0 h -3.096 v 2.93 h 3.096 z m 3.659,0 h -3.096 v 2.93 h 3.096 z m 3.659,0 h -3.096 v 2.93 h 3.096 z" />
+  </defs>
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path
+    d="M 14,80 q -2.4,0 -4.2,-1.85 -1.8,-1.85 -1.8,-4.15 v -40 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,-6 h 33.9 q 2.3,0 4.15,1.85 1.85,1.85 1.85,4.15 v 46 q 0,2.3 -1.85,4.15 -1.85,1.85 -4.15,1.85 z"
+    class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#icon" class="ColorScheme-Background" fill="currentColor" opacity="0.8" />
+  <path
+    d="M 14,80 Q 11.6,80 9.8,78.15 8,76.3 8,74 V 22 Q 8,19.7 9.8,17.85 11.6,16 14,16 h 28.1 l 6,6 H 82 q 2.3,0 4.15,1.85 Q 88,25.7 88,28 v 46 q 0,2.3 -1.85,4.15 Q 84.3,80 82,80 Z"
+    fill="url(#lg1)" />
+</svg>

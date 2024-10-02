@@ -41,6 +41,7 @@
 | view-refresh             | refresh             |
 | view-right-close         | right_panel_close   |
 | view-right-new           | right_panel_open    |
+| window-list              | dynamic_feed        |
 
 modified icon *
 
