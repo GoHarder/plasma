@@ -5,14 +5,6 @@
         color: #95ccff;
       }
 
-      .ColorScheme-PositiveText {
-        color: #50c24b;
-      }
-
-      .ColorScheme-NeutralText {
-        color: #f9bd00;
-      }
-
       .ColorScheme-NegativeText {
         color: #ff5540;
       }
@@ -28,13 +20,13 @@
     <rect width="22" height="22" x="136" y="114" opacity="0" />
     <path
       d="m 147.016,115.134 a 9.882,9.882 0 0 0 -9.882,9.882 9.882,9.882 0 0 0 9.882,9.882 9.882,9.882 0 0 0 9.882,-9.882 h -2.187 a 7.695,7.695 0 0 1 -7.695,7.695 7.695,7.695 0 0 1 -7.695,-7.695 7.695,7.695 0 0 1 7.695,-7.695 z"
-      class="ColorScheme-NeutralText" fill="currentColor" />
+      class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
   <g id="16-16-busywidget">
     <rect width="16" height="16" x="158" y="120" opacity="0" />
     <path
       d="m 166.024,120.826 a 7.198,7.198 0 0 0 -7.198,7.198 7.198,7.198 0 0 0 7.198,7.198 7.198,7.198 0 0 0 7.198,-7.198 h -1.593 a 5.605,5.605 0 0 1 -5.605,5.605 5.605,5.605 0 0 1 -5.605,-5.605 5.605,5.605 0 0 1 5.605,-5.605 z"
-      class="ColorScheme-PositiveText" fill="currentColor" />
+      class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
   <rect id="hint-rotation-angle" width="14" height="14" y="136" fill="#0000ff" x="0" />
   <g id="stopped" transform="translate(-136,0)">

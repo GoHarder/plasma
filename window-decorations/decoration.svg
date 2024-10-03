@@ -1,6 +1,5 @@
 <svg width="82" height="82" viewBox="0 0 82 82" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" />
   <defs>
     <style id="current-color-scheme" type="text/css">
       .ColorScheme-Background {
@@ -35,8 +34,8 @@
     <path id="back-br" d="M 59,67 a 8,8 0 0 0 8,-8 h -8 Z" />
     <!-- MARK: Gradients -->
     <linearGradient id="bg">
-      <stop style="stop-color:#ff0000;" stop-opacity="1" offset="0.667" />
-      <stop style="stop-color:#ff0000;" stop-opacity="0" offset="1" />
+      <stop stop-opacity="1" offset="0.667" />
+      <stop stop-opacity="0" offset="1" />
     </linearGradient>
     <radialGradient xlink:href="#bg" id="bg-tl" cx="23" cy="27" r="12" gradientUnits="userSpaceOnUse" />
     <linearGradient xlink:href="#bg" id="bg-t" x1="41" y1="27" x2="41" y2="15" gradientUnits="userSpaceOnUse" />
@@ -47,8 +46,8 @@
     <linearGradient xlink:href="#bg" id="bg-b" x1="41" y1="63" x2="41" y2="75" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#bg" id="bg-br" cx="59" cy="63" r="12" gradientUnits="userSpaceOnUse" />
     <linearGradient id="ag">
-      <stop style="stop-color:#0000ff;" stop-opacity="1" offset="0.2" />
-      <stop style="stop-color:#0000ff;" stop-opacity="0" offset="1" />
+      <stop stop-opacity="1" offset="0.2" />
+      <stop stop-opacity="0" offset="1" />
     </linearGradient>
     <radialGradient xlink:href="#ag" id="ag-tl" cx="23" cy="31" r="15" gradientUnits="userSpaceOnUse" />
     <linearGradient xlink:href="#ag" id="ag-t" x1="41" y1="31" x2="41" y2="16" gradientUnits="userSpaceOnUse" />
@@ -59,30 +58,6 @@
     <linearGradient xlink:href="#ag" id="ag-b" x1="41" y1="67" x2="41" y2="82" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#ag" id="ag-br" cx="59" cy="67" r="15" gradientUnits="userSpaceOnUse" />
   </defs>
-  <g id="decoration-inactive-group" transform="translate(100)">
-    <g id="decoration-inactive-bottom">
-      <rect id="box-bottom-2" width="36" height="26" x="32" y="68" opacity="0" />
-      <path id="sa2-b-1" d="M 32 76 L 32 90 L 68 90 L 68 76 L 32 76 z" fill="url(#lga2-b)" opacity="0.15" />
-      <path id="sb2-b-1" d="M 32 76 L 32 82 L 68 82 L 68 76 L 32 76 z" fill="url(#lgb2-b)" opacity="0.3" />
-      <rect id="dib-bo" width="36" height="4" x="32" y="76" class="ColorScheme-Background" fill="currentColor"
-        opacity="0.86" />
-      <rect id="dib-ba" width="36" height="8" x="32" y="68" class="ColorScheme-Background" fill="currentColor" />
-    </g>
-    <g id="decoration-inactive-bottomright">
-      <rect id="box-bottom-right-0" width="26" height="26" x="68" y="68" opacity="0" />
-      <path id="sa2-br-1" d="M 76 68 C 76 70.667 75.333 72.667 74 74 L 84 74 L 84 68 L 76 68 z" fill="url(#lga2-r)"
-        opacity="0.15" />
-      <path id="sa2-br-2" d="M 74 74 C 72.667 75.333 70.667 76 68 76 L 68 90 C 78.667 90 84 84.667 84 74 L 74 74 z"
-        fill="url(#rga2-br)" opacity="0.15" />
-      <path id="sb2-br-1" d="M 76 68 C 76 68.716 75.948 69.38 75.852 70 L 80 70 L 80 68 L 76 68 z" fill="url(#lgb2-r)"
-        opacity="0.3" />
-      <path id="sb2-br-2" d="M 75.852 70 C 75.232 73.997 72.617 76 68 76 L 68 82 C 76 82 80 78 80 70 L 75.852 70 z"
-        fill="url(#rgb2-br)" opacity="0.3" />
-      <path id="dibr-bo" d="m 68,80 q 12,0 12,-12 h -4 q 0,8 -8,8 z" class="ColorScheme-Background" fill="currentColor"
-        opacity="0.86" />
-      <path id="dibr-ba" d="m 68,76 q 8,0 8,-8 h -8 z" class="ColorScheme-Background" fill="currentColor" />
-    </g>
-  </g>
   <g transform="translate(0,84)" id="g4">
     <path id="mask-topleft" d="M 23,11 A 12,12 0 0 0 11,23 h 12 z" />
     <rect id="mask-top" width="36" height="12" x="23" y="11" />
@@ -171,6 +146,10 @@
   </g>
   <g id="decoration-bottom">
     <use xlink:href="#gap-b" />
+    <g id="sh-b">
+      <rect width="36" height="8" x="23" y="67" fill="url(#bg-b)" opacity="0.3" />
+      <rect width="36" height="15" x="23" y="67" fill="url(#ag-b)" opacity="0.15" />
+    </g>
     <g class="ColorScheme-Background" fill="currentColor" id="g24">
       <use xlink:href="#bor-b" opacity="0.66" />
       <use xlink:href="#back-b" />
@@ -178,6 +157,13 @@
   </g>
   <g id="decoration-bottomright">
     <use xlink:href="#gap-br" />
+    <g id="sh-br">
+      <path d="M 67 59 A 8 8 0 0 1 65.928 63 L 71 63 L 71 59 L 67 59 z" fill="url(#bg-r)" opacity="0.3" />
+      <path d="M 65.928 63 A 8 8 0 0 1 59 67 L 59 75 A 12 12 0 0 0 71 63 L 65.928 63 z" fill="url(#bg-br)"
+        opacity="0.3" />
+      <path d="M 67 59 A 8 8 0 0 1 59 67 L 74 67 L 74 59 L 67 59 z " fill="url(#ag-r)" opacity="0.15" />
+      <path d="M 59 67 L 59 82 A 15 15 0 0 0 74 67 L 59 67 z " fill="url(#ag-br)" opacity="0.15" />
+    </g>
     <g class="ColorScheme-Background" fill="currentColor" id="g27">
       <use xlink:href="#bor-br" opacity="0.66" />
       <use xlink:href="#back-br" fill="currentColor" />
@@ -227,21 +213,25 @@
   <g id="decoration-inactive-bottomleft" transform="translate(84)">
     <use xlink:href="#gap-bl" />
     <use xlink:href="#sh-bl" />
-    <g class="ColorScheme-Background" fill="currentColor" id="g21">
+    <g class="ColorScheme-Background" fill="currentColor" id="g52">
       <use xlink:href="#bor-bl" opacity="0.86" />
       <use xlink:href="#back-bl" />
     </g>
   </g>
-  <!-- 
-  <rect width="12" height="36" x="59" y="27" fill="url(#bg-r)" opacity="0.3" />
-  <rect width="36" height="12" x="23" y="63" fill="url(#bg-b)" opacity="0.3" />
-  <path d="M 59,75 A 12,12 0 0 0 71,63 H 59 Z" fill="url(#bg-br)" opacity="0.3" />
-  <rect width="15" height="36" x="59" y="31" fill="url(#ag-r)" opacity="0.15" />
-  <rect width="36" height="15" x="23" y="67" fill="url(#ag-b)" opacity="0.15" />
-  <path d="M 59,82 A 15,15 0 0 0 74,67 H 59 Z" fill="url(#ag-br)" opacity="0.15" /> 
-  -->
-  <!-- 
-  <path id="clip-b" d="M 23 67 L 23 82 L 59 82 L 59 67 L 23 67 z " />
-  <path id="clip-br" d="M 67 59 A 8 8 0 0 1 59 67 L 59 82 L 82 82 L 82 59 L 67 59 z " /> 
-  -->
+  <g id="decoration-inactive-bottom" transform="translate(84)">
+    <use xlink:href="#gap-b" />
+    <use xlink:href="#sh-b" />
+    <g class="ColorScheme-Background" fill="currentColor" id="g56">
+      <use xlink:href="#bor-b" opacity="0.86" />
+      <use xlink:href="#back-b" />
+    </g>
+  </g>
+  <g id="decoration-inactive-bottomright" transform="translate(84)">
+    <use xlink:href="#gap-br" />
+    <use xlink:href="#sh-br" />
+    <g class="ColorScheme-Background" fill="currentColor" id="g27">
+      <use xlink:href="#bor-br" opacity="0.66" />
+      <use xlink:href="#back-br" fill="currentColor" />
+    </g>
+  </g>
 </svg>
