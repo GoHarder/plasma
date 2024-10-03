@@ -1,0 +1,29 @@
+<svg height="64" width="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Accent {
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #28292d;
+      }
+    </style>
+    <linearGradient id="lg1" x1="48" y1="53.334" x2="48" y2="10.667" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <path id="folder-back" d="M 5.333,22.667 v -8 q 0,-1.533 1.2,-2.767 1.2,-1.233 2.8,-1.23 h 18.734 l 4,4 v 8 z" />
+    <path id="icon"
+      d="m 34.208,44.834 q -1.822,0 -3.119,-1.297 -1.297,-1.297 -1.297,-3.119 0,-1.822 1.297,-3.119 1.297,-1.297 3.119,-1.297 0.635,0 1.173,0.152 0.538,0.152 1.035,0.455 v -9.441 h 6.625 v 3.313 h -4.417 v 9.938 q 0,1.822 -1.297,3.119 -1.297,1.297 -3.119,1.297 z M 20.958,40.417 q 0,-2.733 1.049,-5.148 1.049,-2.415 2.843,-4.21 1.794,-1.794 4.21,-2.843 2.415,-1.049 5.148,-1.049 v 2.208 q -2.264,0 -4.279,0.87 -2.015,0.87 -3.52,2.374 -1.504,1.504 -2.374,3.506 -0.87,2.001 -0.87,4.292 z m 4.417,0 q 0,-1.822 0.704,-3.437 0.704,-1.615 1.905,-2.816 1.201,-1.201 2.802,-1.891 1.601,-0.69 3.423,-0.69 v 2.208 q -2.76,0 -4.693,1.932 -1.932,1.932 -1.932,4.693 z" />
+  </defs>
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path
+    d=" M 9.333,53.333 q -1.6,0 -2.8,-1.233 -1.2,-1.233 -1.2,-2.767 v -26.666 q 0,-1.533 1.2,-2.767 1.2,-1.233 2.8,-1.233 h 18.734 l 4,-4 h 22.6 q 1.533,0 2.767,1.233 1.233,1.233 1.233,2.767 v 30.667 q 0,1.533 -1.233,2.767 -1.233,1.233 -2.767,1.233 z"
+    class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#icon" class="ColorScheme-Background" fill="currentColor" opacity="0.8" />
+  <path
+    d="M 9.333,53.333 q -1.6,0 -2.8,-1.233 -1.2,-1.233 -1.2,-2.767 v -34.666 q 0,-1.533 1.2,-2.767 1.2,-1.233 2.8,-1.233 h 18.734 l 4,4 h 22.6 q 1.533,0 2.767,1.233 1.233,1.233 1.233,2.767 v 30.667 q 0,1.533 -1.233,2.767 -1.233,1.233 -2.767,1.233 z"
+    fill="url(#lg1)" />
+</svg>
