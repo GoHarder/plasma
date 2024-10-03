@@ -69,10 +69,11 @@
     <rect id="mask-bottom" width="36" height="12" x="23" y="59" />
     <path id="mask-bottomright" d="M 59,71 A 12,12 0 0 0 71,59 H 59 Z" />
   </g>
-  <rect id="shadow-hint-top-margin" width="2" height="14" x="48" y="6" fill="#800080" style="display:none" />
-  <rect id="shadow-hint-left-margin" width="14" height="2" x="6" y="50" fill="#800080" style="display:none" />
-  <rect id="shadow-hint-right-margin" width="14" height="2" x="80" y="48" fill="#800080" style="display:none" />
-  <rect id="shadow-hint-bottom-margin" width="2" height="14" x="50" y="80" fill="#800080" style="display:none" />
+  <!-- 41 -->
+  <rect id="shadow-hint-top-margin" width="2" height="11" x="40" y="0" fill="#800080" />
+  <rect id="shadow-hint-left-margin" width="11" height="2" x="0" y="40" fill="#800080" />
+  <rect id="shadow-hint-right-margin" width="11" height="2" x="71" y="40" fill="#800080" />
+  <rect id="shadow-hint-bottom-margin" width="2" height="11" x="40" y="71" fill="#800080" />
   <g id="decoration-topleft">
     <use xlink:href="#gap-tl" />
     <g id="sh-tl">
