@@ -1,0 +1,61 @@
+<svg width="56" height="56" viewBox="0 0 56 56" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <style id="current-color-scheme" type="text/css">
+    .ColorScheme-Highlight {
+      color: #ddb323;
+    }
+  </style>
+  <defs>
+    <linearGradient id="line">
+      <stop offset="0" class="ColorScheme-Highlight" style="stop-color:currentColor;stop-opacity:0.875" />
+      <stop offset="0.5" class="ColorScheme-Highlight" style="stop-color:currentColor;stop-opacity:0.627" />
+      <stop offset="1" class="ColorScheme-Highlight" style="stop-color:currentColor;stop-opacity:0" />
+    </linearGradient>
+    <radialGradient id="rad" cx="0" cy="0" r="1" xlink:href="#line" />
+  </defs>
+  <rect id="hint-glow-radius" width="5" height="5" x="0" y="0" style="fill:#ff6600" />
+  <rect id="hint-tile-center" width="5" height="5" x="0" y="6" style="fill:#ff6600" />
+  <g id="left" transform="translate(10,22)">
+    <rect style="fill:url(#line)" height="12" width="12" transform="rotate(180 6 6)" />
+  </g>
+  <g id="right" transform="translate(34,22)">
+    <rect style="fill:url(#line)" height="12" width="12" />
+  </g>
+  <g id="topleft">
+    <rect fill="#333333" opacity="0.33" width="12" height="12" />
+    <path d="m 9.75,9.75 v -5.1 h -0.9 v 4.2 h -4.2 v 0.9 z m -2.4,-2.4 v -5.1 h -0.9 v 4.2 h -4.2 v 0.9 z"
+      class="ColorScheme-Highlight" fill="currentColor" />
+  </g>
+  <g id="top" transform="translate(12)">
+    <rect fill="#333333" opacity="0.33" width="12" height="12" />
+    <path
+      d="M 4.65 6.449 L 4.65 7.35 L 7.35 7.35 L 7.35 6.449 L 4.65 6.449 z M 2.25 8.85 L 2.25 9.75 L 4.65 9.75 L 7.35 9.75 L 9.75 9.75 L 9.75 8.85 L 7.35 8.85 L 4.65 8.85 L 2.25 8.85 z"
+      class="ColorScheme-Highlight" fill="currentColor" />
+  </g>
+  <g id="topright" transform="translate(24)">
+    <rect fill="#333333" opacity="0.33" width="12" height="12" />
+    <path d="m 2.25,9.75 v -5.1 h 0.9 v 4.2 h 4.2 v 0.9 z m 2.4,-2.4 v -5.1 h 0.9 v 4.2 h 4.2 v 0.9 z"
+      class="ColorScheme-Highlight" fill="currentColor" />
+  </g>
+  <g id="center" transform="translate(12,12)">
+    <rect fill="#333333" opacity="0.33" width="12" height="12" x="0" y="0" style="stroke-width:1" />
+    <path
+      d="M 6,9.525 7.062,8.462 7.7,9.1 6,10.8 4.3,9.1 4.937,8.462 Z M 2.475,6 3.537,7.062 2.9,7.7 1.2,6 2.9,4.3 l 0.637,0.638 z m 7.05,0 -1.062,-1.062 0.638,-0.638 1.7,1.7 -1.7,1.7 -0.638,-0.637 z M 6,2.475 4.937,3.537 4.3,2.9 6,1.2 l 1.7,1.7 -0.638,0.638 z"
+      class="ColorScheme-Highlight" fill="currentColor" />
+  </g>
+  <g id="bottomright" transform="translate(24,24)">
+    <rect fill="#333333" opacity="0.33" width="12" height="12" />
+    <path d="m 2.25,2.25 v 5.1 h 0.9 v -4.2 h 4.2 v -0.9 z m 2.4,2.4 v 5.1 h 0.9 v -4.2 h 4.2 v -0.9 z"
+      class="ColorScheme-Highlight" fill="currentColor" />
+  </g>
+  <g id="bottom" transform="translate(12,24)">
+    <rect fill="#333333" opacity="0.33" width="12" height="12" />
+    <path d="M 4.65,5.551 V 4.65 h 2.7 V 5.551 Z M 2.25,3.15 v -0.9 h 2.4 2.7 2.4 v 0.9 h -2.4 -2.7 z"
+      class="ColorScheme-Highlight" fill="currentColor" />
+  </g>
+  <g id="bottomleft" transform="translate(0,24)">
+    <rect fill="#333333" opacity="0.33" width="12" height="12" />
+    <path d="m 9.75,2.25 v 5.1 h -0.9 v -4.2 h -4.2 v -0.9 z m -2.4,2.4 v 5.1 h -0.9 v -4.2 h -4.2 v -0.9 z"
+      class="ColorScheme-Highlight" fill="currentColor" />
+  </g>
+</svg>
