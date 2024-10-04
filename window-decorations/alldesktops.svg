@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 0 30 30" width="30">
+<svg height="30" viewBox="0 0 30 30" width="30" version="1.1" xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
    <defs>
       <style id="current-color-scheme" type="text/css">
          .ColorScheme-Background {
@@ -10,31 +11,31 @@
          }
       </style>
       <rect id="box" width="30" height="30" x="0" y="0" opacity="0" />
-      <path id="icon"
-         d="m 17.5,14.375 1.25,1.25 v 1.25 h -3.125 v 3.75 L 15,21.25 14.375,20.625 v -3.75 H 11.25 v -1.25 l 1.25,-1.25 V 10 H 11.875 V 8.75 h 6.25 V 10 H 17.5 Z m -4.469,1.25 h 3.938 L 16.25,14.906 V 10 h -2.5 v 4.906 z m 1.969,0 z" />
+      <path id="icon-1"
+         d="m 17.344,14.219 1.563,1.563 v 1.172 h -3.32 v 3.711 L 15,21.25 14.414,20.664 V 16.953 H 11.094 V 15.781 l 1.563,-1.563 V 9.922 H 11.875 V 8.75 h 6.25 v 1.172 h -0.781 z m -4.59,1.563 h 4.492 L 16.172,14.707 V 9.922 h -2.344 v 4.785 z m 2.246,0 z" />
+      <path id="icon-2"
+         d="m 18.113,8.799 v 1.167 h -0.778 V 14.944 L 16.167,13.776 V 9.966 H 13.833 V 11.441 L 12.373,9.982 11.887,9.48 V 8.799 Z m -3.113,12.452 -0.584,-0.584 V 16.97 H 11.109 V 15.803 l 1.557,-1.557 V 13.558 L 8.677,9.577 9.504,8.75 20.496,19.759 19.669,20.586 16.07,16.97 H 15.584 V 20.667 Z M 12.763,15.803 h 2.14 l -1.07,-1.07 z m 2.221,-3.113 z m -1.151,2.043 z" />
       <rect id="border" width="26" height="26" x="2" y="2" rx="3.5" />
    </defs>
-   <g id="active-center">
-      <use href="#box" />
-      <use href="#icon" class="ColorScheme-Text" fill="currentColor" />
-   </g>
+   <use href="#box" />
+   <use href="#icon-1" class="ColorScheme-Text" fill="currentColor" />
    <g id="inactive-center" transform="translate(42)">
       <use href="#box" />
-      <use href="#icon" class="ColorScheme-Text" fill="currentColor" />
+      <use href="#icon-1" class="ColorScheme-Text" fill="currentColor" />
    </g>
    <g id="hover-center" transform="translate(84)">
       <use href="#box" />
-      <use href="#icon" class="ColorScheme-Text" fill="currentColor" />
+      <use href="#icon-1" class="ColorScheme-Text" fill="currentColor" />
       <use href="#border" class="ColorScheme-Text" fill="currentColor" opacity="0.08" />
    </g>
    <g id="pressed-center" transform="translate(126)">
       <use href="#box" />
-      <use href="#icon" class="ColorScheme-Text" fill="currentColor" />
+      <use href="#icon-2" class="ColorScheme-Text" fill="currentColor" />
       <use href="#border" class="ColorScheme-Text" fill="currentColor" opacity="0.1" />
    </g>
    <g id="deactivated-center" transform="translate(168)">
       <use href="#box" />
       <use href="#border" class="ColorScheme-Background" fill="currentColor" opacity="0.12" />
-      <use href="#icon" class="ColorScheme-Text" fill="currentColor" opacity="0.38" />
+      <use href="#icon-1" class="ColorScheme-Text" fill="currentColor" opacity="0.38" />
    </g>
 </svg>
