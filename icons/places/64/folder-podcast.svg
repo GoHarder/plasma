@@ -1,0 +1,29 @@
+<svg height="64" width="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Accent {
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #28292d;
+      }
+    </style>
+    <linearGradient id="lg1" x1="48" y1="53.334" x2="48" y2="10.667" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <path id="folder-back" d="M 5.333,22.667 v -8 q 0,-1.533 1.2,-2.767 1.2,-1.233 2.8,-1.23 h 18.734 l 4,4 v 8 z" />
+    <path id="icon"
+      d="m 24.271,45.938 q -0.911,0 -1.56,-0.649 -0.649,-0.649 -0.649,-1.56 0,-0.911 0.649,-1.56 0.649,-0.649 1.56,-0.649 0.911,0 1.56,0.649 0.649,0.649 0.649,1.56 0,0.911 -0.649,1.56 Q 25.182,45.938 24.271,45.938 Z m 13.25,0 q 0,-3.23 -1.215,-6.032 -1.215,-2.802 -3.313,-4.9 -2.098,-2.098 -4.9,-3.313 -2.802,-1.215 -6.032,-1.215 v -3.313 q 3.92,0 7.315,1.463 3.395,1.463 5.963,4.03 2.567,2.567 4.03,5.963 1.463,3.395 1.463,7.315 z m -6.625,0 q 0,-1.849 -0.69,-3.437 -0.69,-1.587 -1.905,-2.802 -1.215,-1.215 -2.802,-1.905 -1.587,-0.69 -3.437,-0.69 v -3.313 q 2.54,0 4.734,0.952 2.195,0.952 3.851,2.609 1.656,1.656 2.609,3.851 0.952,2.195 0.952,4.734 z" />
+  </defs>
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path
+    d=" M 9.333,53.333 q -1.6,0 -2.8,-1.233 -1.2,-1.233 -1.2,-2.767 v -26.666 q 0,-1.533 1.2,-2.767 1.2,-1.233 2.8,-1.233 h 18.734 l 4,-4 h 22.6 q 1.533,0 2.767,1.233 1.233,1.233 1.233,2.767 v 30.667 q 0,1.533 -1.233,2.767 -1.233,1.233 -2.767,1.233 z"
+    class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#icon" class="ColorScheme-Background" fill="currentColor" opacity="0.8" />
+  <path
+    d="M 9.333,53.333 q -1.6,0 -2.8,-1.233 -1.2,-1.233 -1.2,-2.767 v -34.666 q 0,-1.533 1.2,-2.767 1.2,-1.233 2.8,-1.233 h 18.734 l 4,4 h 22.6 q 1.533,0 2.767,1.233 1.233,1.233 1.233,2.767 v 30.667 q 0,1.533 -1.233,2.767 -1.233,1.233 -2.767,1.233 z"
+    fill="url(#lg1)" />
+</svg>
