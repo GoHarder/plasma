@@ -71,16 +71,16 @@ DecorationPositon=0
 # └───────────────────────────────────────────────────────────────────┘
 
 # (default: 0)
-PaddingTop=14
+PaddingTop=10
 
 # (default: 0)
-PaddingBottom=14
+PaddingBottom=10
 
 # (default: 0)
-PaddingRight=14
+PaddingRight=10
 
 # (default: 0)
-PaddingLeft=14
+PaddingLeft=10
 
 # (default: 5)
 TitleEdgeTop=5
