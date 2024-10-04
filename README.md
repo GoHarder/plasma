@@ -39,3 +39,8 @@ opacity 0.15
 | medium      | 12px          | 6px         | 8px       |
 | large       | 16px          | 8px         | 10px      |
 | extra-large | 28px          | 12px        | 12px      |
+
+const errorHex = '#c42b1c'; // 196 43 28
+const warningHex = '#ffc209'; // 255 194 9
+const successHex = '#008a17'; // 0 138 23
+const linkHex = '#99ebff'; // 153 235 255

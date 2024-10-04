@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="42" viewBox="0 0 42 42" width="42">
+<svg height="42" viewBox="0 0 42 42" width="42" version="1.1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
   <defs>
     <style id="current-color-scheme" type="text/css">
       .ColorScheme-Background {
@@ -9,7 +10,7 @@
         color: #e0e0e0;
       }
     </style>
-    <path id="icon" d="m 14.752,21.781 v -1.562 h 12.496 v 1.562 z" />
+    <path id="icon" d="m 14.748,21.908 v -1.815 h 12.503 v 1.815 z" />
     <rect id="border" width="42" height="30" x="0" y="6" rx="3.5" />
   </defs>
   <g id="active-center" transform="translate(0)">
