@@ -1,0 +1,33 @@
+<svg viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" />
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Accent {
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #28292d;
+      }
+    </style>
+    <linearGradient id="lg1" x1="16" y1="26.668" x2="16" y2="5.334" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <linearGradient id="lg2" x1="16" y1="26.668" x2="16" y2="12" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <path id="folder-back"
+      d="m 4.889,26.667 q -0.878,0 -1.55,-0.672 -0.672,-0.672 -0.672,-1.55 v -16.889 q 0,-0.878 0.672,-1.55 0.672,-0.672 1.55,-0.672 h 8.911 l 2.222,2.222 h 11.089 q 0.878,0 1.55,0.672 0.672,0.672 0.672,1.55 v 2.222 z" />
+    <path id="folder-front"
+      d="M 8.223 12 L 4.316 26.588 C 4.5 26.64 4.69 26.668 4.889 26.668 L 25.555 26.668 C 26.118 26.668 26.598 26.528 26.994 26.25 C 27.391 25.972 27.663 25.56 27.811 25.012 L 31.332 12 L 8.223 12 z" />
+  </defs>
+  <!-- <path
+    d="m 4.889,26.667 q -0.878,0 -1.55,-0.672 -0.672,-0.672 -0.672,-1.55 v -16.889 q 0,-0.878 0.672,-1.55 0.672,-0.672 1.55,-0.672 h 8.911 l 2.222,2.222 h 11.089 q 0.878,0 1.55,0.672 0.672,0.672 0.672,1.55 h -14.256 l -2.222,-2.222 h -7.966 v 16.889 l 3.333,-12.445 h 23.111 l -3.522,13.011 q -0.222,0.822 -0.817,1.239 -0.594,0.417 -1.439,0.417 z m 2.333,-2.222 h 18.444 l 2.667,-10.222 h -18.444 z" /> -->
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <use href="#folder-back" fill="url(#lg1)" />
+  <use href="#folder-front" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-front" fill="url(#lg2)" />
+</svg>

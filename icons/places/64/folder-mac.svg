@@ -1,0 +1,29 @@
+<svg height="64" width="64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Accent {
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #28292d;
+      }
+    </style>
+    <linearGradient id="lg1" x1="48" y1="53.334" x2="48" y2="10.667" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <path id="folder-back" d="M 5.333,22.667 v -8 q 0,-1.533 1.2,-2.767 1.2,-1.233 2.8,-1.23 h 18.734 l 4,4 v 8 z" />
+    <path id="icon"
+      d="m 41.25,41.091 c 0,0 -0.579,1.678 -1.736,3.415 -0.289,0.521 -1.678,2.489 -3.357,2.489 -1.215,0 -2.026,-0.868 -3.588,-0.868 -1.91,0 -2.662,0.868 -3.878,0.868 -0.637,0.058 -1.273,-0.289 -1.968,-0.926 -4.457,-4.225 -4.688,-10.476 -3.01,-13.023 1.042,-1.678 2.778,-2.72 4.688,-2.778 1.505,0 3.125,0.984 3.762,0.984 0.463,0 2.894,-1.158 4.283,-1.042 1.91,0.174 3.241,0.868 4.225,2.199 -2.836,1.389 -3.82,6.772 0.579,8.682 z m -4.688,-16.09 c 0.463,1.852 -1.563,5.383 -4.572,5.209 -0.174,-2.489 1.968,-5.035 4.572,-5.209 z" />
+  </defs>
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path
+    d=" M 9.333,53.333 q -1.6,0 -2.8,-1.233 -1.2,-1.233 -1.2,-2.767 v -26.666 q 0,-1.533 1.2,-2.767 1.2,-1.233 2.8,-1.233 h 18.734 l 4,-4 h 22.6 q 1.533,0 2.767,1.233 1.233,1.233 1.233,2.767 v 30.667 q 0,1.533 -1.233,2.767 -1.233,1.233 -2.767,1.233 z"
+    class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#icon" class="ColorScheme-Background" fill="currentColor" opacity="0.8" />
+  <path
+    d="M 9.333,53.333 q -1.6,0 -2.8,-1.233 -1.2,-1.233 -1.2,-2.767 v -34.666 q 0,-1.533 1.2,-2.767 1.2,-1.233 2.8,-1.233 h 18.734 l 4,4 h 22.6 q 1.533,0 2.767,1.233 1.233,1.233 1.233,2.767 v 30.667 q 0,1.533 -1.233,2.767 -1.233,1.233 -2.767,1.233 z"
+    fill="url(#lg1)" />
+</svg>

@@ -1,8 +1,8 @@
 <svg height="96" width="96" version="1.1" xmlns:svg="http://www.w3.org/2000/svg">
   <defs>
     <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Accent {
-        color: #95ccff;
+      .ColorScheme-NeutralText {
+        color: #f9bd00;
       }
 
       .ColorScheme-Background {
@@ -17,11 +17,11 @@
     <path id="icon"
       d="m 49.987,52.587 q 0.363,-0.35 0.563,-0.819 0.2,-0.469 0.2,-1.019 0,-1.137 -0.806,-1.944 -0.806,-0.806 -1.944,-0.806 -0.55,0 -1.019,0.2 -0.469,0.2 -0.819,0.563 z m 8.013,8.063 -1.875,-1.925 q 0.65,-1.275 1.013,-3.069 0.362,-1.794 0.362,-3.206 v -7.263 l -9.5,-3.525 -6.525,2.412 -1.925,-1.925 8.45,-3.175 12,4.475 v 9 q 0,2.112 -0.519,4.2 -0.519,2.087 -1.481,4 z m 2.15,9.225 -5.125,-5.075 q -1.575,1.587 -3.306,2.619 -1.731,1.031 -3.719,1.556 Q 42.687,67.562 39.344,62.868 36,58.175 36,52.45 V 45.725 L 32.075,41.8 33.85,40.025 61.925,68.1 Z M 46.375,56.125 Z m 1.238,-5.95 z m 0.387,16.2 q 1.488,-0.488 2.85,-1.375 1.362,-0.887 2.425,-1.975 l -4.525,-4.525 h -2.775 l 0.4,-2.375 -7.875,-7.9 v 4.225 q 0,4.763 2.675,8.663 2.675,3.9 6.825,5.262 z" />
   </defs>
-  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-NeutralText" fill="currentColor" />
   <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
   <path
     d="M 14,80 q -2.4,0 -4.2,-1.85 -1.8,-1.85 -1.8,-4.15 v -40 q 0,-2.3 1.8,-4.15 1.8,-1.85 4.2,-1.85 h 28.1 l 6,-6 h 33.9 q 2.3,0 4.15,1.85 1.85,1.85 1.85,4.15 v 46 q 0,2.3 -1.85,4.15 -1.85,1.85 -4.15,1.85 z"
-    class="ColorScheme-Accent" fill="currentColor" />
+    class="ColorScheme-NeutralText" fill="currentColor" />
   <use href="#icon" class="ColorScheme-Background" fill="currentColor" opacity="0.8" />
   <path
     d="M 14,80 Q 11.6,80 9.8,78.15 8,76.3 8,74 V 22 Q 8,19.7 9.8,17.85 11.6,16 14,16 h 28.1 l 6,6 H 82 q 2.3,0 4.15,1.85 Q 88,25.7 88,28 v 46 q 0,2.3 -1.85,4.15 Q 84.3,80 82,80 Z"
