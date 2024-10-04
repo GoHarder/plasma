@@ -17,8 +17,10 @@
          d="m 18.113,8.799 v 1.167 h -0.778 V 14.944 L 16.167,13.776 V 9.966 H 13.833 V 11.441 L 12.373,9.982 11.887,9.48 V 8.799 Z m -3.113,12.452 -0.584,-0.584 V 16.97 H 11.109 V 15.803 l 1.557,-1.557 V 13.558 L 8.677,9.577 9.504,8.75 20.496,19.759 19.669,20.586 16.07,16.97 H 15.584 V 20.667 Z M 12.763,15.803 h 2.14 l -1.07,-1.07 z m 2.221,-3.113 z m -1.151,2.043 z" />
       <rect id="border" width="26" height="26" x="2" y="2" rx="3.5" />
    </defs>
-   <use href="#box" />
-   <use href="#icon-1" class="ColorScheme-Text" fill="currentColor" />
+   <g id="active-center">
+      <use href="#box" />
+      <use href="#icon-1" class="ColorScheme-Text" fill="currentColor" />
+   </g>
    <g id="inactive-center" transform="translate(42)">
       <use href="#box" />
       <use href="#icon-1" class="ColorScheme-Text" fill="currentColor" />
