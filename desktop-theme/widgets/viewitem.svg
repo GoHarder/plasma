@@ -1,4 +1,4 @@
-<svg width="257" height="161" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+<svg width="40" height="80" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
   xmlns:svg="http://www.w3.org/2000/svg">
   <!-- <defs>
     <style id="current-color-scheme" type="text/css">
@@ -47,26 +47,6 @@
       }
     </style>
   </defs>  -->
-  <g transform="translate(297,-432)">
-    <rect style="opacity:0.875;fill:#008000;fill-opacity:1;stroke:none" id="hint-tile-center" width="40" height="40"
-      x="-247.07144" y="341.67673" />
-    <g transform="rotate(180,45.57143,701.43648)" id="selected+hover-bottomright"
-      inkscape:label="#selected+hover-bottomright">
-      <path id="path4131-9-7-7" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.25"
-        class="ColorScheme-ButtonFocus" d="m 191.14286,830.87296 v -5 a 5,5 0 0 0 -5,5 z" />
-    </g>
-    <g transform="matrix(-0.36657704,0,0,-1,-29.276401,1402.8729)" id="selected+hover-bottom"
-      inkscape:label="#selected+hover-bottom">
-      <path style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.09425"
-        d="m 192.9297,825.8729 v 5 h 125.48522 v -5 z" id="path4143-7-8-4" class="ColorScheme-ButtonFocus" />
-    </g>
-    <g transform="rotate(180,87.071425,701.43648)" id="selected+hover-bottomleft"
-      inkscape:label="#selected+hover-bottomleft">
-      <path id="path4155-3-0-0" style="fill:currentColor;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.25"
-        class="ColorScheme-ButtonFocus"
-        d="M 325.14285 830.87296 A 5 5 0 0 0 320.14285 825.87296 L 320.14285 830.87296 L 325.14285 830.87296 z " />
-    </g>
-  </g>
   <!-- hint 40x40 -->
   <!-- frame 46x46 -->
   <path id="normal-topleft" d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" fill="none" />
@@ -158,4 +138,17 @@
     <rect height="16" width="2" x="18" y="2" fill="#3a4857" />
     <rect height="16" width="2" x="18" y="2" fill="#d5e4f6" opacity="0.08" />
   </g>
+  <g id="selected+hover-bottomleft" transform="translate(20,20)">
+    <path d="M 2,20 a 2,2 0 0 1 -2,-2 h 2 z" fill="#3a4857" />
+    <path d="M 2,20 a 2,2 0 0 1 -2,-2 h 2 z" fill="#d5e4f6" opacity="0.08" />
+  </g>
+  <g id="selected+hover-bottom" transform="translate(20,20)">
+    <rect height="2" width="16" x="2" y="18" fill="#3a4857" />
+    <rect height="2" width="16" x="2" y="18" fill="#d5e4f6" opacity="0.08" />
+  </g>
+  <g id="selected+hover-bottomright" transform="translate(20,20)">
+    <path d="M 18,20 a 2,2 0 0 0 2,-2 h -2 z" fill="#3a4857" />
+    <path d="M 18,20 a 2,2 0 0 0 2,-2 h -2 z" fill="#d5e4f6" opacity="0.08" />
+  </g>
+  <rect id="hint-tile-center" width="40" height="40" x="0" y="40" fill="#008000" />
 </svg>
