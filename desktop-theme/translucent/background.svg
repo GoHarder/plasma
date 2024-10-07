@@ -141,6 +141,7 @@
   <rect id="shdow-hint-right-inset" width="5.5" height="2" x="65.5" y="32.5" fill="#00ff00" />
   <rect id="shdow-hint-bottom-inset" width="2" height="5.5" x="32.5" y="65.5" fill="#00ff00" />
   <g id="g-2" transform="translate(0,71)">
+<<<<<<< HEAD
     <path id="mask-topleft" d="m 17.5,5.5 a 16,16 0 0 0 -12,12 h 12 z" />
     <rect id="mask-top" width="36" height="12" x="17.5" y="5.5" />
     <path id="mask-topright" d="m 53.5,5.5 a 16,16 0 0 1 12,12 h -12 z" />
@@ -150,5 +151,16 @@
     <path id="mask-bottomleft" d="m 17.5,65.5 a 16,16 0 0 1 -12,-12 h 12 z" />
     <rect id="mask-bottom" width="36" height="12" x="17.5" y="53.5" />
     <path id="mask-bottomright" d="m 53.5,65.5 a 16,16 0 0 0 12,-12 h -12 z" />
+=======
+    <path id="mask-topleft" d="m 17.5,5.5 a 12,12 0 0 0 -12,12 h 12 z" />
+    <rect id="mask-top" width="36" height="12" x="17.5" y="5.5" />
+    <path id="mask-topright" d="m 53.5,5.5 a 12,12 0 0 1 12,12 h -12 z" />
+    <rect id="mask-left" width="12" height="36" x="5.5" y="17.5" />
+    <rect id="mask-center" width="36" height="36" x="17.5" y="17.5" />
+    <rect id="mask-right" width="12" height="36" x="53.5" y="17.5" />
+    <path id="mask-bottomleft" d="m 17.5,65.5 a 12,12 0 0 1 -12,-12 h 12 z" />
+    <rect id="mask-bottom" width="36" height="12" x="17.5" y="53.5" />
+    <path id="mask-bottomright" d="m 53.5,65.5 a 12,12 0 0 0 12,-12 h -12 z" />
+>>>>>>> 0da4cf099d36d6d789351144c4f262e9cb4a4351
   </g>
 </svg>
