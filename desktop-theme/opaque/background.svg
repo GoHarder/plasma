@@ -35,6 +35,7 @@
     <linearGradient xlink:href="#ag" id="ag-b" x1="35.5" y1="57.5" x2="35.5" y2="71" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#ag" id="ag-br" cx="53.5" cy="57.5" r="13.5" gradientUnits="userSpaceOnUse" />
   </defs>
+  <!-- TODO: Needs to be squared -->
   <g id="g-1" transform="translate(71,0)">
     <g id="topleft">
       <path d="m 17.5,5.5 a 12,12 0 0 0 -12,12 h 12 z" class="ColorScheme-Background" fill="currentColor" />
