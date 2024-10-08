@@ -38,31 +38,38 @@
   <!-- TODO: Needs to be squared -->
   <g id="g-1" transform="translate(71,0)">
     <g id="topleft">
-      <path d="m 17.5,5.5 a 12,12 0 0 0 -12,12 h 12 z" class="ColorScheme-Background" fill="currentColor" />
+      <path d="m 17.5,5.5 a 12,12 0 0 0 -12,12 h 12 z" class="ColorScheme-Background" fill="currentColor"
+        opacity="0.85" />
     </g>
     <g id="top">
-      <rect width="36" height="12" x="17.5" y="5.5" class="ColorScheme-Background" fill="currentColor" />
+      <rect width="36" height="12" x="17.5" y="5.5" class="ColorScheme-Background" fill="currentColor" opacity="0.85" />
     </g>
     <g id="topright">
-      <path d="m 53.5,5.5 a 12,12 0 0 1 12,12 h -12 z" class="ColorScheme-Background" fill="currentColor" />
+      <path d="m 53.5,5.5 a 12,12 0 0 1 12,12 h -12 z" class="ColorScheme-Background" fill="currentColor"
+        opacity="0.85" />
     </g>
     <g id="left">
-      <rect width="12" height="36" x="5.5" y="17.5" class="ColorScheme-Background" fill="currentColor" />
+      <rect width="12" height="36" x="5.5" y="17.5" class="ColorScheme-Background" fill="currentColor" opacity="0.85" />
     </g>
     <g id="center">
-      <rect width="36" height="36" x="17.5" y="17.5" class="ColorScheme-Background" fill="currentColor" />
+      <rect width="36" height="36" x="17.5" y="17.5" class="ColorScheme-Background" fill="currentColor"
+        opacity="0.85" />
     </g>
     <g id="right">
-      <rect width="12" height="36" x="53.5" y="17.5" class="ColorScheme-Background" fill="currentColor" />
+      <rect width="12" height="36" x="53.5" y="17.5" class="ColorScheme-Background" fill="currentColor"
+        opacity="0.85" />
     </g>
     <g id="bottomleft">
-      <path d="m 17.5,65.5 a 12,12 0 0 1 -12,-12 h 12 z" class="ColorScheme-Background" fill="currentColor" />
+      <path d="m 17.5,65.5 a 12,12 0 0 1 -12,-12 h 12 z" class="ColorScheme-Background" fill="currentColor"
+        opacity="0.85" />
     </g>
     <g id="bottom">
-      <rect width="36" height="12" x="17.5" y="53.5" class="ColorScheme-Background" fill="currentColor" />
+      <rect width="36" height="12" x="17.5" y="53.5" class="ColorScheme-Background" fill="currentColor"
+        opacity="0.85" />
     </g>
     <g id="bottomright">
-      <path d="m 53.5,65.5 a 12,12 0 0 0 12,-12 h -12 z" class="ColorScheme-Background" fill="currentColor" />
+      <path d="m 53.5,65.5 a 12,12 0 0 0 12,-12 h -12 z" class="ColorScheme-Background" fill="currentColor"
+        opacity="0.85" />
     </g>
     <rect id="hint-title-center" width="10" height="10" x="0" y="0" fill="#ff6600" />
     <rect id="hint-top-margin" width="8" height="8" x="31.5" y="5.5" fill="#ff00ff" />
@@ -135,14 +142,14 @@
   <rect id="shdow-hint-right-inset" width="5.5" height="2" x="65.5" y="32.5" fill="#00ff00" />
   <rect id="shdow-hint-bottom-inset" width="2" height="5.5" x="32.5" y="65.5" fill="#00ff00" />
   <g id="g-2" transform="translate(0,71)">
-    <path id="mask-topleft" d="m 17.5,5.5 a 12,12 0 0 0 -12,12 h 12 z" fill="none" />
+    <path id="mask-topleft" d="m 17.5,5.5 a 16,16 0 0 0 -12,12 h 12 z" />
     <rect id="mask-top" width="36" height="12" x="17.5" y="5.5" />
-    <path id="mask-topright" d="m 53.5,5.5 a 12,12 0 0 1 12,12 h -12 z" fill="none" />
+    <path id="mask-topright" d="m 53.5,5.5 a 16,16 0 0 1 12,12 h -12 z" />
     <rect id="mask-left" width="12" height="36" x="5.5" y="17.5" />
     <rect id="mask-center" width="36" height="36" x="17.5" y="17.5" />
     <rect id="mask-right" width="12" height="36" x="53.5" y="17.5" />
-    <path id="mask-bottomleft" d="m 17.5,65.5 a 12,12 0 0 1 -12,-12 h 12 z" fill="none" />
+    <path id="mask-bottomleft" d="m 17.5,65.5 a 16,16 0 0 1 -12,-12 h 12 z" />
     <rect id="mask-bottom" width="36" height="12" x="17.5" y="53.5" />
-    <path id="mask-bottomright" d="m 53.5,65.5 a 12,12 0 0 0 12,-12 h -12 z" fill="none" />
+    <path id="mask-bottomright" d="m 53.5,65.5 a 16,16 0 0 0 12,-12 h -12 z" />
   </g>
 </svg>
