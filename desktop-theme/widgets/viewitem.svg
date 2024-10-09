@@ -1,9 +1,9 @@
-<svg width="40" height="80" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+<svg width="40" height="40" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
   xmlns:svg="http://www.w3.org/2000/svg">
-  <!-- <defs>
+  <defs>
     <style id="current-color-scheme" type="text/css">
       .ColorScheme-Text {
-        color: #7B7C7E;
+        color: #e2e2e5;
       }
 
       .ColorScheme-Background {
@@ -46,9 +46,7 @@
         color: #1E92FF;
       }
     </style>
-  </defs>  -->
-  <!-- hint 40x40 -->
-  <!-- frame 46x46 -->
+  </defs>
   <path id="normal-topleft" d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" fill="none" />
   <rect id="normal-top" height="2" width="16" x="2" y="0" fill="none" />
   <path id="normal-topright" d="M 18,0 a 2,2 0 0 1 2,2 h -2 z" fill="none" />
@@ -60,31 +58,31 @@
   <path id="normal-bottomright" d="M 18,20 a 2,2 0 0 0 2,-2 h -2 z" fill="none" />
   <!-- on-surface 0.08 opacity -->
   <g id="hover-topleft" transform="translate(20)">
-    <path d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" fill="#e2e2e5" opacity="0.08" />
+    <path d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" class="ColorScheme-Text" fill="currentColor" opacity="0.08" />
   </g>
   <g id="hover-top" transform="translate(20)">
-    <rect height="2" width="16" x="2" y="0" fill="#e2e2e5" opacity="0.08" />
+    <rect height="2" width="16" x="2" y="0" class="ColorScheme-Text" fill="currentColor" opacity="0.08" />
   </g>
   <g id="hover-topright" transform="translate(20)">
-    <path d="M 18,0 a 2,2 0 0 1 2,2 h -2 z" fill="#e2e2e5" opacity="0.08" />
+    <path d="M 18,0 a 2,2 0 0 1 2,2 h -2 z" class="ColorScheme-Text" fill="currentColor" opacity="0.08" />
   </g>
   <g id="hover-left" transform="translate(20)">
-    <rect height="16" width="2" x="0" y="2" fill="#e2e2e5" opacity="0.08" />
+    <rect height="16" width="2" x="0" y="2" class="ColorScheme-Text" fill="currentColor" opacity="0.08" />
   </g>
   <g id="hover-center" transform="translate(20)">
-    <rect height="16" width="16" x="2" y="2" fill="#e2e2e5" opacity="0.08" />
+    <rect height="16" width="16" x="2" y="2" class="ColorScheme-Text" fill="currentColor" opacity="0.08" />
   </g>
   <g id="hover-right" transform="translate(20)">
-    <rect height="16" width="2" x="18" y="2" fill="#e2e2e5" opacity="0.08" />
+    <rect height="16" width="2" x="18" y="2" class="ColorScheme-Text" fill="currentColor" opacity="0.08" />
   </g>
   <g id="hover-bottomleft" transform="translate(20)">
-    <path d="M 2,20 a 2,2 0 0 1 -2,-2 h 2 z" fill="#e2e2e5" opacity="0.08" />
+    <path d="M 2,20 a 2,2 0 0 1 -2,-2 h 2 z" class="ColorScheme-Text" fill="currentColor" opacity="0.08" />
   </g>
   <g id="hover-bottom" transform="translate(20)">
-    <rect height="2" width="16" x="2" y="18" fill="#e2e2e5" opacity="0.08" />
+    <rect height="2" width="16" x="2" y="18" class="ColorScheme-Text" fill="currentColor" opacity="0.08" />
   </g>
   <g id="hover-bottomright" transform="translate(20)">
-    <path d="M 18,20 a 2,2 0 0 0 2,-2 h -2 z" fill="#e2e2e5" opacity="0.08" />
+    <path d="M 18,20 a 2,2 0 0 0 2,-2 h -2 z" class="ColorScheme-Text" fill="currentColor" opacity="0.08" />
   </g>
   <!-- secondary-container -->
   <g id="selected-topleft" transform="translate(0,20)">
@@ -150,5 +148,5 @@
     <path d="M 18,20 a 2,2 0 0 0 2,-2 h -2 z" fill="#3a4857" />
     <path d="M 18,20 a 2,2 0 0 0 2,-2 h -2 z" fill="#d5e4f6" opacity="0.08" />
   </g>
-  <rect id="hint-tile-center" width="40" height="40" x="0" y="40" fill="#008000" />
+  <rect id="hint-tile-center" width="16" height="16" x="-16" y="0" fill="#008000" />
 </svg>
