@@ -89,6 +89,64 @@
     <linearGradient id="g" gradientTransform="matrix(.09090909 0 0 11 -46.36364 -700)" x1="191.00005" x2="191.00005"
       xlink:href="#a" y1="66.181816" y2="63.81818" />
   </defs>
+  <g id="x-text">
+    <text id="text476" style="font-family:Noto Sans;font-size:10;" x="36" y="82">
+      <tspan id="tspan474" style="font-size:10;text-anchor:end" x="36" y="82">normal</tspan>
+    </text>
+    <text id="text480" style="font-family:Noto Sans;font-size:10;" x="36" y="120">
+      <tspan id="tspan478" style="font-size:10;text-anchor:end" x="36" y="120">hover</tspan>
+    </text>
+    <text id="text484" style="font-family:Noto Sans;font-size:10;" x="36" y="158">
+      <tspan id="tspan482" style="font-size:10;text-anchor:end" x="36" y="158">focus</tspan>
+    </text>
+    <text id="text488" style="font-family:Noto Sans;font-size:10;" x="36" y="196">
+      <tspan id="tspan486" style="font-size:10;text-anchor:end" x="36" y="196">pressed</tspan>
+    </text>
+    <text id="text492" style="font-family:Noto Sans;font-size:10;" x="191" y="8">
+      <tspan id="tspan490" style="font-size:10;text-anchor:middle" x="191" y="8">(default)</tspan>
+    </text>
+    <text id="text496" style="font-family:Noto Sans;font-size:10;" x="253" y="8">
+      <tspan id="tspan494" style="font-size:10;text-anchor:middle" x="253" y="8">toolbutton</tspan>
+    </text>
+    <text id="text500" style="font-family:Noto Sans;font-size:10;" x="36" y="44">
+      <tspan id="tspan498" style="font-size:10;text-anchor:end" x="36" y="44">shadow</tspan>
+    </text>
+    <text id="text504" style="font-family:Noto Sans;font-size:10;" x="67" y="8">
+      <tspan id="tspan502" style="font-size:10;text-anchor:middle" x="67" y="8">mask</tspan>
+    </text>
+    <text id="text508" style="font-family:Noto Sans;font-size:10;" x="129" y="8">
+      <tspan id="tspan506" style="font-size:10;text-anchor:middle" x="129" y="8">background</tspan>
+    </text>
+    <text id="text514" style="font-family:Noto Sans;font-size:10;" x="192" y="-28">
+      <tspan id="tspan512" style="font-size:10;text-anchor:middle" x="192" y="-28">margin hint</tspan>
+    </text>
+    <text id="text562" style="font-family:Noto Sans;font-size:medium;letter-spacing:0;word-spacing:0"
+      transform="translate(200 64)" x="96" xml:space="preserve" y="-56">
+      <tspan x="96" y="-56" id="tspan1">NOTE: Some margin hints have 0.001 width or height because you can't use exactly
+        0! </tspan>
+      <tspan x="96" y="-43.500003" id="tspan2">NOTE: shadow, hover and focus (not focus-background) use negative
+        margins!
+      </tspan>
+      <tspan x="96" y="-31.000003" id="tspan3">This behavior is implemented in at least the following files (please keep
+        this up to date, fix the problem or find a better place to </tspan>
+      <tspan x="96" y="-18.500003" id="tspan4">put this info): </tspan>
+      <tspan x="96" y="-6.000003" id="tspan5">
+        plasma-framework/src/declarativeimports/plasmacomponents3/private/ButtonShadow.qml </tspan>
+      <tspan x="96" y="6.499997" id="tspan6">
+        plasma-framework/src/declarativeimports/plasmacomponents3/private/ButtonHover.qml </tspan>
+      <tspan x="96" y="18.999997" id="tspan7">
+        plasma-framework/src/declarativeimports/plasmacomponents3/private/ButtonFocus.qml </tspan>
+      <tspan x="96" y="43.999997" id="tspan8">We should add support for a negative margins hint to FrameSvg and document
+        it instead of requiring people to read source </tspan>
+      <tspan x="96" y="56.499997" id="tspan9">code in order to know these things. Unfortunately, not sure if we can
+        change
+        the code of ButtonShadow since it would break </tspan>
+      <tspan x="96" y="68.999997" id="tspan10">themes that rely on this undocumented behaviour. Maybe in KF6.</tspan>
+    </text>
+    <text id="text576" style="font-family:Noto Sans;font-size:10;" x="-36" y="12">
+      <tspan id="tspan574" style="font-size:10;text-anchor:middle" x="-36" y="12">other hints</tspan>
+    </text>
+  </g>
   <g id="x-button-dummy">
     <rect style="fill:#ffff00;" width="34" height="34" x="174" y="24" ry="5" rx="5" />
     <text id="text22" style="font-family:Noto Sans;font-size:9.06667;letter-spacing:0;stroke-width:1;word-spacing:0"
@@ -384,173 +442,126 @@
       <path d="M 239 165 A 4.0000725 4.0000725 0 0 0 243 169 L 243 170 C 240.23 170 238 167.77 238 165 L 239 165 z " />
     </g>
   </g>
-
-  <path id="toolbutton-focus-hint-top-margin" d="m 252 138 h 2 v 2 h -2 z" style="fill:#f0f;" />
-  <path id="toolbutton-focus-hint-bottom-margin" d="m 252 170 h 2 v 2 h -2 z" style="fill:#f0f;" />
-  <path id="toolbutton-focus-hint-left-margin" d="m 236 154 h 2 v 2 h -2 z" style="fill:#f0f;" />
-  <path id="toolbutton-focus-hint-right-margin" d="m 268 154 h 2 v 2 h -2 z" style="fill:#f0f;" />
-  <g id="toolbutton-pressed-top" style="fill:currentColor" class="ColorScheme-Highlight">
-    <path d="m 244,178 h 18 v 5 h -18 z" style="fill-opacity:0.33" class="ColorScheme-Highlight" />
-    <path d="m 244,178 v 1 h 18 v -1 z" class="ColorScheme-Highlight" />
+  <g id="x-toolbutton-focus-hint-margin">
+    <path id="toolbutton-focus-hint-top-margin" d="m 252 138 h 2 v 2 h -2 z" style="fill:#f0f;" />
+    <path id="toolbutton-focus-hint-bottom-margin" d="m 252 170 h 2 v 2 h -2 z" style="fill:#f0f;" />
+    <path id="toolbutton-focus-hint-left-margin" d="m 236 154 h 2 v 2 h -2 z" style="fill:#f0f;" />
+    <path id="toolbutton-focus-hint-right-margin" d="m 268 154 h 2 v 2 h -2 z" style="fill:#f0f;" />
   </g>
-  <path id="toolbutton-pressed-center" d="m 244,184 h 18 v 18 h -18 z" style="fill:currentColor;fill-opacity:0.33"
-    class="ColorScheme-Highlight" />
-  <g id="toolbutton-pressed-bottom" style="fill:currentColor" class="ColorScheme-Highlight">
-    <path d="m 244,203 h 18 v 5 h -18 z" style="fill-opacity:0.33" />
-    <path d="m 262,208 v -1 h -18 v 1 z" />
+  <g id="x-pressed">
+    <g id="pressed-topleft" style="fill:currentColor" class="ColorScheme-Highlight">
+      <path d="m 179,176 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="fill:currentColor;"
+        class="ColorScheme-ButtonBackground" />
+      <path d="m 179,176 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="opacity:0.33;" class="ColorScheme-Highlight" />
+      <path class="ColorScheme-Highlight" d="m 179,176 c -2.77,0 -5,2.23 -5,5 h 1 a 4,4 0 0 1 4,-4 z" />
+    </g>
+    <g id="pressed-top" style="fill:currentColor;" class="ColorScheme-Highlight">
+      <path d="m 200,176 h -18 v 5 h 18 z" style="fill-rule:evenodd;fill:currentColor;"
+        class="ColorScheme-ButtonBackground" />
+      <path d="m 182,176 h 18 v 5 h -18 z" style="fill-opacity:0.33;" />
+      <path d="m 182,176 v 1 h 18 v -1 z" />
+    </g>
+    <g id="pressed-topright" style="fill:currentColor;" class="ColorScheme-Highlight"
+      transform="matrix(-1 0 0 1 446.000000001 -2)">
+      <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="fill:currentColor;"
+        class="ColorScheme-ButtonBackground" />
+      <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="opacity:0.33;" />
+      <path d="M 243 178 L 243 179 A 4.0003462 4.0003462 0 0 0 239 183 L 238 183 C 238 180.23 240.23 178 243 178 z " />
+    </g>
+    <g id="pressed-left" style="fill:currentColor;" class="ColorScheme-Highlight">
+      <path d="m 174,202 v -18 h 5 v 18 z" style="fill:currentColor;" class="ColorScheme-ButtonBackground" />
+      <path d="m 174,202 v -18 h 5 v 18 z" style="fill-opacity:0.33;" />
+      <path d="m 174,202 h 1 v -18 h -1 z" />
+    </g>
+    <g id="pressed-center">
+      <path d="m 182,184 h 18 v 18 h -18 z" style="fill:currentColor;" class="ColorScheme-ButtonBackground" />
+      <path id="pc" d="m 182,184 h 18 v 18 h -18 z" style="fill-opacity:0.33;fill:currentColor;"
+        class="ColorScheme-Highlight" />
+    </g>
+    <g id="pressed-right" style="fill:currentColor;" class="ColorScheme-Highlight">
+      <path d="m 208,202 v -18 h -5 v 18 z" style="fill:currentColor;" class="ColorScheme-ButtonBackground" />
+      <path d="m 203,202 v -18 h 5 v 18 z" style="fill-opacity:0.33;" />
+      <path d="m 208,184 h -1 v 18 h 1 z" />
+    </g>
+    <g id="pressed-bottomleft" style="fill:currentColor;" class="ColorScheme-Highlight"
+      transform="matrix(1 0 0 -1 -64 388)">
+      <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="fill:currentColor;"
+        class="ColorScheme-ButtonBackground" />
+      <path d="m 243,178 c -2.76143,0 -5,2.23858 -5,5 h 5 z" style="opacity:0.33;" />
+      <path d="m 238,183 c 0,-2.77 2.23,-5 5,-5 v 1 a 4.0002642,4.0002642 0 0 0 -4,4 z" />
+    </g>
+    <g id="pressed-bottom" style="fill:currentColor;" class="ColorScheme-Highlight">
+      <path d="m 200,210 h -18 v -5 h 18 z" style="fill-rule:evenodd;fill:currentColor;"
+        class="ColorScheme-ButtonBackground" />
+      <path d="m 182,205 h 18 v 5 h -18 z" style="fill-opacity:0.33;" />
+      <path d="m 200,210 v -1 h -18 v 1 z" />
+    </g>
+    <g id="pressed-bottomright" style="fill:currentColor;" class="ColorScheme-Highlight"
+      transform="matrix(-1 0 0 -1 445.999999998 387.999999998)">
+      <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="fill:currentColor;" />
+      <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="opacity:0.33;" />
+      <path d="M 239 183 A 4.0002413 4.0002413 0 0 1 243 179 L 243 178 C 240.23 178 238 180.23 238 183 L 239 183 z " />
+    </g>
   </g>
-  <g id="toolbutton-pressed-right" style="fill:currentColor" class="ColorScheme-Highlight">
-    <path d="m 263,202 v -18 h 5 v 18 z" style="fill-opacity:0.33" />
-    <path d="m 268,184 h -1 v 18 h 1 z" />
-  </g>
-  <g id="toolbutton-pressed-left" style="fill:currentColor" class="ColorScheme-Highlight">
-    <path d="m 238,202 v -18 h 5 v 18 z" style="fill-opacity:0.33" />
-    <path d="m 238,202 h 1 v -18 h -1 z" />
-  </g>
-  <path id="toolbutton-pressed-hint-top-margin" d="m 252,178 h 2 v 4 h -2 z" style="fill:#ff00ff" />
-  <path id="toolbutton-pressed-hint-bottom-margin" d="m 252,204 h 2 v 4 h -2 z" style="fill:#ff00ff" />
-  <path id="toolbutton-pressed-hint-left-margin" d="m 238,192 h 4 v 2 h -4 z" style="fill:#ff00ff" />
-  <path id="toolbutton-pressed-hint-right-margin" d="m 264,192 h 4 v 2 h -4 z" style="fill:#ff00ff" />
-  <text id="text476" style="font-family:Noto Sans;font-size:10;" x="36" y="82">
-    <tspan id="tspan474" style="font-size:10;text-anchor:end" x="36" y="82">normal</tspan>
-  </text>
-  <text id="text480" style="font-family:Noto Sans;font-size:10;" x="36" y="120">
-    <tspan id="tspan478" style="font-size:10;text-anchor:end" x="36" y="120">hover</tspan>
-  </text>
-  <text id="text484" style="font-family:Noto Sans;font-size:10;" x="36" y="158">
-    <tspan id="tspan482" style="font-size:10;text-anchor:end" x="36" y="158">focus</tspan>
-  </text>
-  <text id="text488" style="font-family:Noto Sans;font-size:10;" x="36" y="196">
-    <tspan id="tspan486" style="font-size:10;text-anchor:end" x="36" y="196">pressed</tspan>
-  </text>
-  <text id="text492" style="font-family:Noto Sans;font-size:10;" x="191" y="8">
-    <tspan id="tspan490" style="font-size:10;text-anchor:middle" x="191" y="8">(default)</tspan>
-  </text>
-  <text id="text496" style="font-family:Noto Sans;font-size:10;" x="253" y="8">
-    <tspan id="tspan494" style="font-size:10;text-anchor:middle" x="253" y="8">toolbutton</tspan>
-  </text>
-  <text id="text500" style="font-family:Noto Sans;font-size:10;" x="36" y="44">
-    <tspan id="tspan498" style="font-size:10;text-anchor:end" x="36" y="44">shadow</tspan>
-  </text>
-  <text id="text504" style="font-family:Noto Sans;font-size:10;" x="67" y="8">
-    <tspan id="tspan502" style="font-size:10;text-anchor:middle" x="67" y="8">mask</tspan>
-  </text>
-  <text id="text508" style="font-family:Noto Sans;font-size:10;" x="129" y="8">
-    <tspan id="tspan506" style="font-size:10;text-anchor:middle" x="129" y="8">background</tspan>
-  </text>
-  <path d="m 148 -44 h 87.99999 v 24 h -87.99999 z" style="fill:#f0f;" />
-  <text id="text514" style="font-family:Noto Sans;font-size:10;" x="192" y="-28">
-    <tspan id="tspan512" style="font-size:10;text-anchor:middle" x="192" y="-28">margin hint</tspan>
-  </text>
-  <text id="text562" style="font-family:Noto Sans;font-size:medium;letter-spacing:0;word-spacing:0"
-    transform="translate(200 64)" x="96" xml:space="preserve" y="-56">
-    <tspan x="96" y="-56" id="tspan1">NOTE: Some margin hints have 0.001 width or height because you can't use exactly
-      0! </tspan>
-    <tspan x="96" y="-43.500003" id="tspan2">NOTE: shadow, hover and focus (not focus-background) use negative margins!
-    </tspan>
-    <tspan x="96" y="-31.000003" id="tspan3">This behavior is implemented in at least the following files (please keep
-      this up to date, fix the problem or find a better place to </tspan>
-    <tspan x="96" y="-18.500003" id="tspan4">put this info): </tspan>
-    <tspan x="96" y="-6.000003" id="tspan5">
-      plasma-framework/src/declarativeimports/plasmacomponents3/private/ButtonShadow.qml </tspan>
-    <tspan x="96" y="6.499997" id="tspan6">
-      plasma-framework/src/declarativeimports/plasmacomponents3/private/ButtonHover.qml </tspan>
-    <tspan x="96" y="18.999997" id="tspan7">
-      plasma-framework/src/declarativeimports/plasmacomponents3/private/ButtonFocus.qml </tspan>
-    <tspan x="96" y="43.999997" id="tspan8">We should add support for a negative margins hint to FrameSvg and document
-      it instead of requiring people to read source </tspan>
-    <tspan x="96" y="56.499997" id="tspan9">code in order to know these things. Unfortunately, not sure if we can change
-      the code of ButtonShadow since it would break </tspan>
-    <tspan x="96" y="68.999997" id="tspan10">themes that rely on this undocumented behaviour. Maybe in KF6.</tspan>
-  </text>
-  <path id="normal-hint-compose-over-border" d="m -12 76 h 3.9999999 v 4 h -3.9999999 z" style="fill:#0f0;" />
-  <text id="text570" x="96" y="-68">
-    <tspan id="tspan568" />
-  </text>
-  <path d="m -64 0 h 56 v 16 h -56 z" style="fill:#0f0;" />
-  <text id="text576" style="font-family:Noto Sans;font-size:10;" x="-36" y="12">
-    <tspan id="tspan574" style="font-size:10;text-anchor:middle" x="-36" y="12">other hints</tspan>
-  </text>
-  <g id="toolbutton-pressed-topright" style="fill:currentColor" class="ColorScheme-Highlight"
-    transform="matrix(-1 0 0 1 506 0)">
-    <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="opacity:0.33;" />
-    <path d="M 243 178 L 243 179 A 4.0001035 4.0001035 0 0 0 239 183 L 238 183 C 238 180.23 240.23 178 243 178 z " />
-  </g>
-  <g id="toolbutton-pressed-topleft" style="fill:currentColor" class="ColorScheme-Highlight">
-    <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="opacity:0.33;" />
-    <path d="M 243 178 C 240.23 178 238 180.23 238 183 L 239 183 A 4.000102 4.000102 0 0 1 243 179 L 243 178 z " />
-  </g>
-  <g id="toolbutton-pressed-bottomright" style="fill:currentColor" class="ColorScheme-Highlight"
-    transform="matrix(-1 0 0 -1 506 386)">
-    <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="opacity:0.33;" />
-    <path d="M 239 183 A 4.0000229 4.0000229 0 0 1 243 179 L 243 178 C 240.23001 178 238 180.23 238 183 L 239 183 z " />
-  </g>
-  <g id="toolbutton-pressed-bottomleft" style="fill:currentColor" class="ColorScheme-Highlight"
-    transform="matrix(1 0 0 -1 0 386)">
-    <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="opacity:0.33;" />
-    <path d="M 238 183 C 238 180.23 240.23 178 243 178 L 243 179 A 4.00001 4.00001 0 0 0 239 183 L 238 183 z " />
-  </g>
-  <g id="pressed-top" style="fill:currentColor;" class="ColorScheme-Highlight">
-    <path d="m 200,176 h -18 v 5 h 18 z" style="fill-rule:evenodd;fill:currentColor;"
-      class="ColorScheme-ButtonBackground" />
-    <path d="m 182,176 h 18 v 5 h -18 z" style="fill-opacity:0.33;" />
-    <path d="m 182,176 v 1 h 18 v -1 z" />
-  </g>
-  <g id="pressed-center">
-    <path d="m 182,184 h 18 v 18 h -18 z" style="fill:currentColor;" class="ColorScheme-ButtonBackground" />
-    <path id="pc" d="m 182,184 h 18 v 18 h -18 z" style="fill-opacity:0.33;fill:currentColor;"
+  <g id="x-toolbutton-pressed">
+    <g id="toolbutton-pressed-topleft" style="fill:currentColor" class="ColorScheme-Highlight">
+      <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="opacity:0.33;" />
+      <path d="M 243 178 C 240.23 178 238 180.23 238 183 L 239 183 A 4.000102 4.000102 0 0 1 243 179 L 243 178 z " />
+    </g>
+    <g id="toolbutton-pressed-top" style="fill:currentColor" class="ColorScheme-Highlight">
+      <path d="m 244,178 h 18 v 5 h -18 z" style="fill-opacity:0.33" class="ColorScheme-Highlight" />
+      <path d="m 244,178 v 1 h 18 v -1 z" class="ColorScheme-Highlight" />
+    </g>
+    <g id="toolbutton-pressed-topright" style="fill:currentColor" class="ColorScheme-Highlight"
+      transform="matrix(-1 0 0 1 506 0)">
+      <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="opacity:0.33;" />
+      <path d="M 243 178 L 243 179 A 4.0001035 4.0001035 0 0 0 239 183 L 238 183 C 238 180.23 240.23 178 243 178 z " />
+    </g>
+    <g id="toolbutton-pressed-left" style="fill:currentColor" class="ColorScheme-Highlight">
+      <path d="m 238,202 v -18 h 5 v 18 z" style="fill-opacity:0.33" />
+      <path d="m 238,202 h 1 v -18 h -1 z" />
+    </g>
+    <path id="toolbutton-pressed-center" d="m 244,184 h 18 v 18 h -18 z" style="fill:currentColor;fill-opacity:0.33"
       class="ColorScheme-Highlight" />
+    <g id="toolbutton-pressed-right" style="fill:currentColor" class="ColorScheme-Highlight">
+      <path d="m 263,202 v -18 h 5 v 18 z" style="fill-opacity:0.33" />
+      <path d="m 268,184 h -1 v 18 h 1 z" />
+    </g>
+    <g id="toolbutton-pressed-bottomleft" style="fill:currentColor" class="ColorScheme-Highlight"
+      transform="matrix(1 0 0 -1 0 386)">
+      <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="opacity:0.33;" />
+      <path d="M 238 183 C 238 180.23 240.23 178 243 178 L 243 179 A 4.00001 4.00001 0 0 0 239 183 L 238 183 z " />
+    </g>
+    <g id="toolbutton-pressed-bottom" style="fill:currentColor" class="ColorScheme-Highlight">
+      <path d="m 244,203 h 18 v 5 h -18 z" style="fill-opacity:0.33" />
+      <path d="m 262,208 v -1 h -18 v 1 z" />
+    </g>
+    <g id="toolbutton-pressed-bottomright" style="fill:currentColor" class="ColorScheme-Highlight"
+      transform="matrix(-1 0 0 -1 506 386)">
+      <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="opacity:0.33;" />
+      <path
+        d="M 239 183 A 4.0000229 4.0000229 0 0 1 243 179 L 243 178 C 240.23001 178 238 180.23 238 183 L 239 183 z " />
+    </g>
   </g>
-  <g id="pressed-bottom" style="fill:currentColor;" class="ColorScheme-Highlight">
-    <path d="m 200,210 h -18 v -5 h 18 z" style="fill-rule:evenodd;fill:currentColor;"
-      class="ColorScheme-ButtonBackground" />
-    <path d="m 182,205 h 18 v 5 h -18 z" style="fill-opacity:0.33;" />
-    <path d="m 200,210 v -1 h -18 v 1 z" />
+  <g id="x-pressed-hint-margin">
+    <path id="pressed-hint-top-margin" d="m 190,176 h 2 v 6 h -2 z"
+      style="fill:#ff00ff;fill-rule:evenodd;stroke-width:1.1547" />
+    <path id="pressed-hint-bottom-margin" d="m 190,204 h 2 v 6 h -2 z"
+      style="fill:#ff00ff;fill-rule:evenodd;stroke-width:1.1547" />
+    <path id="pressed-hint-left-margin" d="m 174,192 h 6 v 2 h -6 z"
+      style="fill:#ff00ff;fill-rule:evenodd;stroke-width:1.1547" />
+    <path id="pressed-hint-right-margin" d="m 202,192 h 6 v 2 h -6 z"
+      style="fill:#ff00ff;fill-rule:evenodd;stroke-width:1.1547" />
   </g>
-  <g id="pressed-right" style="fill:currentColor;" class="ColorScheme-Highlight">
-    <path d="m 208,202 v -18 h -5 v 18 z" style="fill:currentColor;" class="ColorScheme-ButtonBackground" />
-    <path d="m 203,202 v -18 h 5 v 18 z" style="fill-opacity:0.33;" />
-    <path d="m 208,184 h -1 v 18 h 1 z" />
+  <g id="x-toolbutton-pressed-hint-margin">
+    <path id="toolbutton-pressed-hint-top-margin" d="m 252,178 h 2 v 4 h -2 z" style="fill:#ff00ff" />
+    <path id="toolbutton-pressed-hint-bottom-margin" d="m 252,204 h 2 v 4 h -2 z" style="fill:#ff00ff" />
+    <path id="toolbutton-pressed-hint-left-margin" d="m 238,192 h 4 v 2 h -4 z" style="fill:#ff00ff" />
+    <path id="toolbutton-pressed-hint-right-margin" d="m 264,192 h 4 v 2 h -4 z" style="fill:#ff00ff" />
   </g>
-  <g id="pressed-left" style="fill:currentColor;" class="ColorScheme-Highlight">
-    <path d="m 174,202 v -18 h 5 v 18 z" style="fill:currentColor;" class="ColorScheme-ButtonBackground" />
-    <path d="m 174,202 v -18 h 5 v 18 z" style="fill-opacity:0.33;" />
-    <path d="m 174,202 h 1 v -18 h -1 z" />
-  </g>
-  <path id="pressed-hint-top-margin" d="m 190,176 h 2 v 6 h -2 z"
-    style="fill:#ff00ff;fill-rule:evenodd;stroke-width:1.1547" />
-  <path id="pressed-hint-bottom-margin" d="m 190,204 h 2 v 6 h -2 z"
-    style="fill:#ff00ff;fill-rule:evenodd;stroke-width:1.1547" />
-  <path id="pressed-hint-left-margin" d="m 174,192 h 6 v 2 h -6 z"
-    style="fill:#ff00ff;fill-rule:evenodd;stroke-width:1.1547" />
-  <path id="pressed-hint-right-margin" d="m 202,192 h 6 v 2 h -6 z"
-    style="fill:#ff00ff;fill-rule:evenodd;stroke-width:1.1547" />
-  <g id="pressed-topright" style="fill:currentColor;" class="ColorScheme-Highlight"
-    transform="matrix(-1 0 0 1 446.000000001 -2)">
-    <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="fill:currentColor;"
-      class="ColorScheme-ButtonBackground" />
-    <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="opacity:0.33;" />
-    <path d="M 243 178 L 243 179 A 4.0003462 4.0003462 0 0 0 239 183 L 238 183 C 238 180.23 240.23 178 243 178 z " />
-  </g>
-  <g id="pressed-topleft" style="fill:currentColor" class="ColorScheme-Highlight">
-    <path d="m 179,176 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="fill:currentColor;"
-      class="ColorScheme-ButtonBackground" />
-    <path d="m 179,176 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="opacity:0.33;" class="ColorScheme-Highlight" />
-    <path class="ColorScheme-Highlight" d="m 179,176 c -2.77,0 -5,2.23 -5,5 h 1 a 4,4 0 0 1 4,-4 z" />
-  </g>
-  <g id="pressed-bottomright" style="fill:currentColor;" class="ColorScheme-Highlight"
-    transform="matrix(-1 0 0 -1 445.999999998 387.999999998)">
-    <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="fill:currentColor;" />
-    <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="opacity:0.33;" />
-    <path d="M 239 183 A 4.0002413 4.0002413 0 0 1 243 179 L 243 178 C 240.23 178 238 180.23 238 183 L 239 183 z " />
-  </g>
-  <g id="pressed-bottomleft" style="fill:currentColor;" class="ColorScheme-Highlight"
-    transform="matrix(1 0 0 -1 -64 388)">
-    <path d="m 243,178 c -2.76142,0 -5,2.23858 -5,5 h 5 z" style="fill:currentColor;"
-      class="ColorScheme-ButtonBackground" />
-    <path d="m 243,178 c -2.76143,0 -5,2.23858 -5,5 h 5 z" style="opacity:0.33;" />
-    <path d="m 238,183 c 0,-2.77 2.23,-5 5,-5 v 1 a 4.0002642,4.0002642 0 0 0 -4,4 z" />
-  </g>
+  <!-- <path d="m 148 -44 h 87.99999 v 24 h -87.99999 z" style="fill:#f0f;" /> -->
+  <!-- <path id="normal-hint-compose-over-border" d="m -12 76 h 3.9999999 v 4 h -3.9999999 z" style="fill:#0f0;" /> -->
+  <!-- <path d="m -64 0 h 56 v 16 h -56 z" style="fill:#0f0;" /> -->
   <path
     d="m 207.900390625 55.76171875 a 4 4 0 0 1 -.0859375 .2734375 c .03260923 -.08920558 .06173227 -.180451385 .0859375 -.2734375 z"
     style="fill:#000;fill-rule:evenodd;fill-opacity:1;opacity:.15" />
