@@ -1,0 +1,30 @@
+<svg height="32" width="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-NegativeText {
+        color: #ff5540;
+      }
+
+      .ColorScheme-Background {
+        color: #28292d;
+      }
+    </style>
+    <linearGradient id="lg1" x1="48" y1="26.667" x2="48" y2="5.334" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <path id="folder-back"
+      d="M 2.667,12 v -4.444 q 0,-0.878 0.661,-1.55 0.661,-0.672 1.561,-0.672 h 8.911 l 2.222,2.222 v 4.444 z" />
+    <path id="icon"
+      d="m 16,22.205 q 0.735,0 1.259,-0.529 0.524,-0.529 0.554,-1.284 v -2.9 q 0.03,-0.755 -0.506,-1.284 -0.536,-0.529 -1.299,-0.529 -0.763,0 -1.284,0.529 -0.521,0.529 -0.536,1.284 v 2.9 q -0.015,0.755 0.514,1.284 0.529,0.529 1.299,0.529 z m -1.088,-1.813 h 2.175 v -1.088 h -2.175 z m 0,-1.813 h 2.175 v -1.088 h -2.175 z m 1.088,0.393 z m 0,4.32 q -0.906,0 -1.646,-0.491 -0.74,-0.491 -1.042,-1.322 H 11.65 v -1.088 h 1.45 v -0.906 h -1.45 v -1.088 h 1.45 v -0.906 h -1.45 v -1.088 h 1.661 q 0.121,-0.393 0.39,-0.711 0.269,-0.319 0.622,-0.557 L 13.1,13.913 l 0.77,-0.77 1.526,1.51 q 0.3,-0.076 0.611,-0.076 0.311,0 0.613,0.076 l 1.51,-1.51 0.77,0.77 -1.223,1.223 q 0.347,0.242 0.604,0.559 0.257,0.317 0.408,0.71 h 1.661 v 1.088 h -1.45 v 0.906 h 1.45 v 1.088 h -1.45 v 0.906 h 1.45 v 1.088 h -1.661 q -0.302,0.831 -1.042,1.322 -0.74,0.491 -1.646,0.491 z" />
+  </defs>
+  <use href="#folder-back" class="ColorScheme-NegativeText" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path
+    d="M 4.889,26.667 q -0.9,0 -1.561,-0.672 -0.661,-0.672 -0.661,-1.55 v -12.445 q 0,-0.878 0.661,-1.55 0.661,-0.672 1.561,-0.672 h 8.911 l 2.222,-2.222 h 11.089 q 0.878,0 1.55,0.672 0.672,0.672 0.672,1.55 v 14.667 q 0,0.878 -0.672,1.55 -0.672,0.672 -1.55,0.672 z"
+    class="ColorScheme-NegativeText" fill="currentColor" />
+  <use href="#icon" class="ColorScheme-Background" fill="currentColor" opacity="0.8" />
+  <path
+    d="m 4.889,26.667 q -0.9,0 -1.561,-0.672 -0.661,-0.672 -0.661,-1.55 V 7.556 q 0,-0.878 0.661,-1.55 Q 3.989,5.334 4.889,5.334 h 8.911 l 2.222,2.222 h 11.089 q 0.878,0 1.55,0.672 0.672,0.672 0.672,1.55 V 24.445 q 0,0.878 -0.672,1.55 -0.672,0.672 -1.55,0.672 z"
+    fill="url(#lg1)" />
+</svg>

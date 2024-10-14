@@ -1,0 +1,30 @@
+<svg height="32" width="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Accent {
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #28292d;
+      }
+    </style>
+    <linearGradient id="lg1" x1="48" y1="26.667" x2="48" y2="5.334" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <path id="folder-back"
+      d="M 2.667,12 v -4.444 q 0,-0.878 0.661,-1.55 0.661,-0.672 1.561,-0.672 h 8.911 l 2.222,2.222 v 4.444 z" />
+    <path id="icon"
+      d="m 16.121,24.018 2.583,-6.887 h 1.239 l 2.583,6.887 h -1.193 l -0.619,-1.767 h -2.779 l -0.619,1.767 z m -4.818,-1.812 -0.755,-0.77 2.9,-2.87 q -0.544,-0.574 -1.012,-1.193 -0.468,-0.619 -0.816,-1.344 h 1.239 q 0.272,0.483 0.544,0.823 0.272,0.34 0.785,0.914 0.574,-0.634 1.057,-1.322 0.483,-0.687 0.785,-1.488 H 9.475 v -1.087 h 4.169 v -1.45 h 1.088 v 1.45 h 4.169 v 1.087 h -1.722 q -0.317,1.042 -0.921,1.926 -0.604,0.884 -1.329,1.684 l 1.374,1.359 -0.423,1.118 -1.692,-1.692 z m 6.993,-0.952 h 2.054 l -0.997,-2.855 z" />
+  </defs>
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path
+    d="M 4.889,26.667 q -0.9,0 -1.561,-0.672 -0.661,-0.672 -0.661,-1.55 v -12.445 q 0,-0.878 0.661,-1.55 0.661,-0.672 1.561,-0.672 h 8.911 l 2.222,-2.222 h 11.089 q 0.878,0 1.55,0.672 0.672,0.672 0.672,1.55 v 14.667 q 0,0.878 -0.672,1.55 -0.672,0.672 -1.55,0.672 z"
+    class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#icon" class="ColorScheme-Background" fill="currentColor" opacity="0.8" />
+  <path
+    d="m 4.889,26.667 q -0.9,0 -1.561,-0.672 -0.661,-0.672 -0.661,-1.55 V 7.556 q 0,-0.878 0.661,-1.55 Q 3.989,5.334 4.889,5.334 h 8.911 l 2.222,2.222 h 11.089 q 0.878,0 1.55,0.672 0.672,0.672 0.672,1.55 V 24.445 q 0,0.878 -0.672,1.55 -0.672,0.672 -1.55,0.672 z"
+    fill="url(#lg1)" />
+</svg>
