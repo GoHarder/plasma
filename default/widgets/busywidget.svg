@@ -1,0 +1,93 @@
+<svg width="72" height="72" viewBox="0 0 72 72" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color: #31363b;
+        stop-color: #31363b;
+      }
+
+      .ColorScheme-Background {
+        color: #eff0f1;
+        stop-color: #eff0f1;
+      }
+
+      .ColorScheme-Highlight {
+        color: #3daee9;
+        stop-color: #3daee9;
+      }
+
+      .ColorScheme-ViewText {
+        color: #31363b;
+        stop-color: #31363b;
+      }
+
+      .ColorScheme-ViewBackground {
+        color: #fcfcfc;
+        stop-color: #fcfcfc;
+      }
+
+      .ColorScheme-ViewHover {
+        color: #93cee9;
+        stop-color: #93cee9;
+      }
+
+      .ColorScheme-ViewFocus {
+        color: #3daee9;
+        stop-color: #3daee9;
+      }
+
+      .ColorScheme-ButtonText {
+        color: #31363b;
+        stop-color: #31363b;
+      }
+
+      .ColorScheme-ButtonBackground {
+        color: #eff0f1;
+        stop-color: #eff0f1;
+      }
+
+      .ColorScheme-ButtonHover {
+        color: #93cee9;
+        stop-color: #93cee9;
+      }
+
+      .ColorScheme-ButtonFocus {
+        color: #3daee9;
+        stop-color: #3daee9;
+      }
+    </style>
+  </defs>
+  <g id="stopped" transform="translate(0,36)">
+    <rect width="36" height="36" fill="none" />
+    <ellipse ry="1.3229166" rx="1.322917" cy="-4.4979181" cx="17.991657"
+      style="opacity:0.9;fill:#da4453;fill-opacity:1;stroke:none;stroke-width:0.0132292;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+      transform="rotate(90)" />
+    <ellipse transform="rotate(90)"
+      style="opacity:0.9;fill:#da4453;fill-opacity:1;stroke:none;stroke-width:0.0105833;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+      id="ellipse4261" cx="17.991657" cy="-31.485434" rx="1.0583339" ry="1.0583336" />
+    <ellipse ry="2.1166663" rx="2.116667" cy="-17.991674" cx="17.991657" id="ellipse4263"
+      style="opacity:0.9;fill:#da4453;fill-opacity:1;stroke:none;stroke-width:0.0211667;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+      transform="rotate(90)" />
+  </g>
+  <rect id="hint-rotation-angle" width="4" height="4" fill="#0000ff" />
+  <g id="busywidget">
+    <rect width="36" height="36" fill="none" id="rect1" />
+    <path
+      d="M 17.991667,1.85208 A 16.139583,16.139587 0 0 0 1.8520832,17.99167 16.139583,16.139587 0 0 0 15.742709,33.95762 a 16.139583,16.139587 0 0 0 0.01654,0 16.139583,16.139587 0 0 0 0.03307,0.008 16.139583,16.139587 0 0 0 0.917774,0.10749 16.139583,16.139587 0 0 0 0.355534,0.0248 16.139583,16.139587 0 0 0 0.0083,0 c 0.0415,0.002 0.0825,0.006 0.124024,0.008 a 16.139583,16.139587 0 0 0 0.793736,0.0248 c 0.04118,-1.9e-4 0.08285,-0.008 0.124024,-0.008 a 16.139583,16.139587 0 0 0 1.107943,-0.0579 c 0.05514,-0.005 0.110288,-0.003 0.165364,-0.008 3.396835,-0.34547 6.670546,-1.88325 9.086784,-4.29948 2.761414,-2.76141 4.365623,-6.64503 4.365625,-10.55026 0,-1.46446 -0.224978,-2.92437 -0.65319,-4.32428 A 14.552081,14.552085 0 0 1 32.543771,17.99167 14.552081,14.552085 0 0 1 17.991667,32.54375 14.552081,14.552084 0 0 1 3.4395833,17.99167 14.552081,14.552084 0 0 1 4.0927734,13.69219 14.552081,14.552084 0 0 1 17.991667,3.43958 h 0.264584 c 0.293155,0 0.529166,-0.23601 0.529166,-0.52916 V 2.38125 c 0,-0.29315 -0.236011,-0.52917 -0.529166,-0.52917 z"
+      class="ColorScheme-ButtonFocus" fill="currentColor" id="path1" />
+  </g>
+  <g id="22-22-busywidget" transform="translate(36,0)">
+    <rect height="22" width="22" fill="none" id="rect2" />
+    <path
+      d="m 10.905944,0.99997425 c -5.6826871,0 -9.90597644,4.76317385 -9.90596642,9.99971375 0,5.110494 3.86029972,9.241695 8.53100582,9.905967 0.00699,0.001 0.024491,-10e-4 0.031294,0 0.1868961,0.02649 0.3743402,0.0459 0.5624836,0.0625 0.0726,0.008 0.114777,-0.004 0.187493,0 h 0.03129 c 0.02528,0.002 0.03711,0 0.0625,0 0.162065,0.008 0.337691,0.03129 0.499986,0.03129 0.02528,-1.1e-4 0.0373,0 0.0625,0 0.226724,-0.003 0.461527,-0.01228 0.687481,-0.03129 0.0336,-0.003 0.06,0.002 0.09369,0 2.082638,-0.214292 4.080951,-1.190204 5.562359,-2.687421 2.290714,-2.855769 2.42426,-5.292549 1.424289,-9.2924243 1.228155,5.2468793 -2.4529,9.8713873 -7.861655,10.0099133 -4.2493578,0 -7.8743243,-3.588087 -7.8743443,-7.998481 0.068198,-4.8511912 3.9994555,-7.9883813 7.9368423,-8.0062908 h 0.156245 c 0.167886,0 0.315332,-0.1542555 0.31249,-0.3239306 -0.006,-0.3676895 -0.02158,-0.979532 -0.03129,-1.3257521 -0.005,-0.1813947 -0.132725,-0.34379032 -0.31244,-0.34379032 z"
+      class="ColorScheme-ButtonFocus" fill="currentColor" id="path2" />
+  </g>
+  <g id="16-16-busywidget" transform="translate(36,22)">
+    <rect width="16" height="16" fill="none" id="rect3" />
+    <path
+      d="m 7.9506849,0.96691791 c -3.987099,0 -6.9502522,3.34197139 -6.9502446,7.01604989 0,3.5856372 2.7084735,6.4841952 5.9855391,6.9502482 0.00491,6.8e-4 0.017008,-6.8e-4 0.021921,0 0.1311118,0.0189 0.2626393,0.03024 0.3946507,0.04346 0.050948,0.0036 0.080579,-0.0027 0.1315653,0 h 0.021921 c 0.017764,0.0014 0.025701,0 0.043843,0 0.113726,0.0036 0.2369385,0.02268 0.3507779,0.02268 0.017764,-3.8e-5 0.026457,0 0.04388,0 0.1590803,-0.0021 0.3238299,-0.0076 0.4823508,-0.02268 0.023433,-0.0021 0.042142,0.0014 0.065726,0 1.4612109,-0.150048 2.8632679,-0.835125 3.9026569,-1.885569 1.607222,-2.003678 1.700916,-3.7133474 0.999315,-6.5197598 0.861702,3.6813348 -1.721004,6.9259838 -5.5159107,7.0231558 -2.9814348,0 -5.5247921,-2.517468 -5.524811,-5.6118803 0.047887,-3.4036911 2.8061101,-5.6048123 5.5686648,-5.6173603 h 0.1096063 c 0.1178079,0 0.2212913,-0.1088504 0.2192504,-0.2271496 C 8.2972297,1.8799761 8.286647,1.4508864 8.2794659,1.2079762 8.2760228,1.0806061 8.1863384,0.96684232 8.0602534,0.96684232 Z"
+      class="ColorScheme-ButtonFocus" fill="currentColor" id="path3" />
+  </g>
+
+</svg>
