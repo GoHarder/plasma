@@ -1,0 +1,30 @@
+<svg height="32" width="32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Accent {
+        color: #95ccff;
+      }
+
+      .ColorScheme-Background {
+        color: #28292d;
+      }
+    </style>
+    <linearGradient id="lg1" x1="48" y1="26.667" x2="48" y2="5.334" gradientUnits="userSpaceOnUse">
+      <stop stop-opacity="0.15" offset="0" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <path id="folder-back"
+      d="M 2.667,12 v -4.444 q 0,-0.878 0.661,-1.55 0.661,-0.672 1.561,-0.672 h 8.911 l 2.222,2.222 v 4.444 z" />
+    <path id="icon"
+      d="m 21.752,17.193 c -0.27,-0.187 -0.889,-0.258 -1.374,-0.164 -0.056,-0.469 -0.315,-0.879 -0.766,-1.242 l -0.259,-0.187 -0.18,0.27 c -0.225,0.352 -0.338,0.844 -0.304,1.312 0.011,0.164 0.068,0.457 0.236,0.715 -0.158,0.094 -0.484,0.211 -0.912,0.211 h -8.14 l -0.023,0.094 c -0.079,0.469 -0.079,1.934 0.844,3.058 0.698,0.855 1.734,1.289 3.096,1.289 2.95,0 5.134,-1.418 6.159,-3.984 0.405,0.012 1.272,0 1.711,-0.879 0.011,-0.023 0.034,-0.07 0.113,-0.246 l 0.045,-0.094 z m -5.19,-3.305 h -1.239 v 1.172 h 1.239 z m 0,1.406 h -1.239 v 1.172 h 1.239 z m -1.464,0 h -1.239 v 1.172 h 1.239 z m -1.464,0 h -1.238 v 1.172 h 1.238 z m -1.464,1.406 h -1.238 v 1.172 h 1.238 z m 1.464,0 h -1.238 v 1.172 h 1.238 z m 1.464,0 h -1.239 v 1.172 h 1.239 z m 1.464,0 h -1.239 v 1.172 h 1.239 z m 1.464,0 h -1.239 v 1.172 h 1.239 z" />
+  </defs>
+  <use href="#folder-back" class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#folder-back" class="ColorScheme-Background" fill="currentColor" opacity="0.3" />
+  <path
+    d="M 4.889,26.667 q -0.9,0 -1.561,-0.672 -0.661,-0.672 -0.661,-1.55 v -12.445 q 0,-0.878 0.661,-1.55 0.661,-0.672 1.561,-0.672 h 8.911 l 2.222,-2.222 h 11.089 q 0.878,0 1.55,0.672 0.672,0.672 0.672,1.55 v 14.667 q 0,0.878 -0.672,1.55 -0.672,0.672 -1.55,0.672 z"
+    class="ColorScheme-Accent" fill="currentColor" />
+  <use href="#icon" class="ColorScheme-Background" fill="currentColor" opacity="0.8" />
+  <path
+    d="m 4.889,26.667 q -0.9,0 -1.561,-0.672 -0.661,-0.672 -0.661,-1.55 V 7.556 q 0,-0.878 0.661,-1.55 Q 3.989,5.334 4.889,5.334 h 8.911 l 2.222,2.222 h 11.089 q 0.878,0 1.55,0.672 0.672,0.672 0.672,1.55 V 24.445 q 0,0.878 -0.672,1.55 -0.672,0.672 -1.55,0.672 z"
+    fill="url(#lg1)" />
+</svg>
