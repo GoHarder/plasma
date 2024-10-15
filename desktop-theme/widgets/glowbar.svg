@@ -1,169 +1,83 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   width="56"
-   height="56"
-   viewBox="0 0 56 56"
-   id="svg1"
-   version="1.1"
-   sodipodi:docname="glowbar.svg"
-   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview11"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="15.696429"
-     inkscape:cx="27.968146"
-     inkscape:cy="28"
-     inkscape:window-width="1920"
-     inkscape:window-height="1057"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg1" />
-  <style
-     id="current-color-scheme"
-     type="text/css">
+<svg width="44" height="44" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <style id="current-color-scheme" type="text/css">
     .ColorScheme-Highlight {
-        color:#ddb323;
+      color: #95ccff;
+    }
+
+    .ColorScheme-Text {
+      color: #e2e2e5;
     }
   </style>
-  <defs
-     id="defs3">
-    <linearGradient
-       id="line">
-      <stop
-         offset="0"
-         class="ColorScheme-Highlight"
-         style="stop-color:currentColor;stop-opacity:0.87450981"
-         id="stop1" />
-      <stop
-         offset="0.5"
-         class="ColorScheme-Highlight"
-         style="stop-color:currentColor;stop-opacity:0.627451"
-         id="stop2" />
-      <stop
-         offset="1"
-         class="ColorScheme-Highlight"
-         style="stop-color:currentColor;stop-opacity:0"
-         id="stop3" />
+  <defs>
+    <rect x="3.695" y="15.609" width="15.163" height="13.188" />
+    <linearGradient id="line">
+      <stop offset="0" class="ColorScheme-Highlight" style="stop-color:currentColor;stop-opacity:0.875" />
+      <stop offset="0.5" class="ColorScheme-Highlight" style="stop-color:currentColor;stop-opacity:0.627" />
+      <stop offset="1" class="ColorScheme-Highlight" style="stop-color:currentColor;stop-opacity:0" />
     </linearGradient>
-    <radialGradient
-       id="rad"
-       cx="0"
-       cy="0"
-       r="1"
-       xlink:href="#line" />
+    <radialGradient id="rad" cx="0" cy="0" r="1" xlink:href="#line" />
+    <linearGradient id="bg">
+      <stop class="ColorScheme-Highlight" stop-color="currentColor" stop-opacity="1" offset="0.556" />
+      <stop class="ColorScheme-Highlight" stop-color="currentColor" stop-opacity="0" offset="1" />
+    </linearGradient>
+    <radialGradient xlink:href="#bg" id="bg-tl" cx="20" cy="12" r="9" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#bg" id="bg-t" x1="26" y1="12" x2="26" y2="3" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#bg" id="bg-tr" cx="32" cy="12" r="9" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#bg" id="bg-l" x1="20" y1="18" x2="11" y2="18" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#bg" id="bg-r" x1="32" y1="18" x2="41" y2="18" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#bg" id="bg-bl" cx="20" cy="24" r="9" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#bg" id="bg-b" x1="26" y1="24" x2="26" y2="33" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#bg" id="bg-br" cx="32" cy="24" r="9" gradientUnits="userSpaceOnUse" />
+    <linearGradient id="ag">
+      <stop class="ColorScheme-Text" stop-color="currentColor" stop-opacity="1" offset="0" />
+      <stop class="ColorScheme-Text" stop-color="currentColor" stop-opacity="0" offset="1" />
+    </linearGradient>
+    <radialGradient xlink:href="#ag" id="ag-tl" cx="20" cy="12" r="12" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#ag" id="ag-t" x1="26" y1="12" x2="26" y2="0" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#ag" id="ag-tr" cx="32" cy="12" r="12" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#ag" id="ag-l" x1="20" y1="18" x2="8" y2="18" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#ag" id="ag-r" x1="32" y1="18" x2="44" y2="18" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#ag" id="ag-bl" cx="20" cy="24" r="12" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#ag" id="ag-b" x1="26" y1="24" x2="26" y2="36" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#ag" id="ag-br" cx="32" cy="24" r="12" gradientUnits="userSpaceOnUse" />
   </defs>
-  <rect
-     id="hint-glow-radius"
-     width="5"
-     height="5"
-     x="0"
-     y="0"
-     style="fill:#ff6600" />
-  <rect
-     id="hint-tile-center"
-     width="5"
-     height="5"
-     x="0"
-     y="6"
-     style="fill:#ff6600" />
-  <g
-     id="top"
-     transform="translate(22,10)">
-    <rect
-       style="fill:url(#line)"
-       height="12"
-       width="12"
-       transform="rotate(-90 6 6)"
-       id="rect3" />
+  <rect id="hint-glow-radius" width="5" height="5" x="0" y="0" fill="#ff6600" />
+  <rect id="hint-tile-center" width="5" height="5" x="0" y="6" fill="#ff6600" />
+  <g id="topleft">
+    <path d="M 20,0 A 12,12 0 0 0 8,12 h 12 z" fill="url(#ag-tl)" opacity="0.15" />
+    <path d="m 20,3 a 9,9 0 0 0 -9,9 h 9 z" fill="url(#bg-tl)" opacity="0.3" />
   </g>
-  <g
-     id="left"
-     transform="translate(10,22)">
-    <rect
-       style="fill:url(#line)"
-       height="12"
-       width="12"
-       transform="rotate(180 6 6)"
-       id="rect4" />
+  <g id="top">
+    <rect height="12" width="12" x="20" y="0" fill="url(#ag-t)" opacity="0.15" />
+    <rect height="9" width="12" x="20" y="3" fill="url(#bg-t)" opacity="0.3" />
   </g>
-  <g
-     id="right"
-     transform="translate(34,22)">
-    <rect
-       style="fill:url(#line)"
-       height="12"
-       width="12"
-       id="rect5" />
+  <g id="topright">
+    <path d="M 32,0 A 12,12 0 0 1 44,12 H 32 Z" fill="url(#ag-tr)" opacity="0.15" />
+    <path d="m 32,3 a 9,9 0 0 1 9,9 h -9 z" fill="url(#bg-tr)" opacity="0.3" />
   </g>
-  <g
-     id="bottom"
-     transform="translate(22,34)">
-    <rect
-       style="fill:url(#line)"
-       height="12"
-       width="12"
-       transform="rotate(90 6 6)"
-       id="rect6" />
+  <g id="left">
+    <rect height="12" width="12" x="8" y="12" fill="url(#ag-l)" opacity="0.15" />
+    <rect height="12" width="9" x="11" y="12" fill="url(#bg-l)" opacity="0.3" />
   </g>
-  <g
-     transform="translate(22,22)"
-     id="center">
-    <rect
-       height="12"
-       width="12"
-       class="ColorScheme-Highlight"
-       style="fill:currentColor;fill-opacity:0.8745098"
-       id="rect7" />
+  <g id="center">
+    <rect height="12" width="12" x="20" y="12" class="ColorScheme-Text" fill="currentColor" opacity="0.15" />
+    <rect height="12" width="12" x="20" y="12" class="ColorScheme-Highlight" fill="currentColor" opacity="0.3" />
   </g>
-  <g
-     id="topright"
-     transform="translate(34,10)">
-    <rect
-       style="fill:url(#rad)"
-       height="12"
-       width="12"
-       transform="rotate(-90 6 6)"
-       id="rect8" />
+  <g id="right">
+    <rect height="12" width="12" x="32" y="12" fill="url(#ag-r)" opacity="0.15" />
+    <rect height="12" width="9" x="32" y="12" fill="url(#bg-r)" opacity="0.3" />
   </g>
-  <g
-     id="bottomright"
-     transform="translate(34,34)">
-    <rect
-       style="fill:url(#rad)"
-       height="12"
-       width="12"
-       id="rect9" />
+  <g id="bottomleft">
+    <path d="M 20,36 A 12,12 0 0 1 8,24 h 12 z" fill="url(#ag-bl)" opacity="0.15" />
+    <path d="m 20,33 a 9,9 0 0 1 -9,-9 h 9 z" fill="url(#bg-bl)" opacity="0.3" />
   </g>
-  <g
-     id="bottomleft"
-     transform="translate(10,34)">
-    <rect
-       style="fill:url(#rad)"
-       height="12"
-       width="12"
-       transform="rotate(90 6 6)"
-       id="rect10" />
+  <g id="bottom">
+    <rect height="12" width="12" x="20" y="24" fill="url(#ag-b)" opacity="0.15" />
+    <rect height="9" width="12" x="20" y="24" fill="url(#bg-b)" opacity="0.3" />
   </g>
-  <g
-     id="topleft"
-     transform="translate(10,10)">
-    <rect
-       style="fill:url(#rad)"
-       height="12"
-       width="12"
-       transform="rotate(180 6 6)"
-       id="rect11" />
+  <g id="bottomright">
+    <path d="M 32,36 A 12,12 0 0 0 44,24 H 32 Z" fill="url(#ag-br)" opacity="0.15" />
+    <path d="m 32,33 a 9,9 0 0 0 9,-9 h -9 z" fill="url(#bg-br)" opacity="0.3" />
   </g>
 </svg>
