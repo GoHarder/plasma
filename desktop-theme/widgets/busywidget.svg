@@ -5,10 +5,6 @@
       .ColorScheme-ButtonHover {
         color: #95ccff;
       }
-
-      .ColorScheme-NegativeText {
-        color: #ff5540;
-      }
     </style>
   </defs>
   <g id="busywidget">
