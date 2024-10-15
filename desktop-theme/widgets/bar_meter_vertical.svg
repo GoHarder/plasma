@@ -1,86 +1,67 @@
-<svg height="10" width="12" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-  <!-- <style id="current-color-scheme" type="text/css">
-    .ColorScheme-Text {
-      color: #232629;
-      stop-color: #232629;
-    }
-
-    .ColorScheme-Background {
-      color: #eff0f1;
-      stop-color: #eff0f1;
-    }
-
-    .ColorScheme-Highlight {
-      color: #3daee9;
-      stop-color: #3daee9;
-    }
-
-    .ColorScheme-ButtonText {
-      color: #232629;
-      stop-color: #232629;
+<svg height="12" width="12" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <style id="current-color-scheme" type="text/css">
+    .ColorScheme-ButtonHover {
+      color: #95ccff;
     }
 
     .ColorScheme-ButtonBackground {
-      color: #eff0f1;
-      stop-color: #eff0f1;
+      color: #333538;
     }
-  </style> -->
+  </style>
   <g id="bar-inactive-topleft">
-    <path d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" fill="#3a4857" />
+    <path d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
   </g>
   <g id="bar-inactive-top">
-    <rect width="2" height="2" x="2" y="0" fill="#3a4857" />
+    <rect width="2" height="2" x="2" y="0" class="ColorScheme-ButtonBackground" fill="currentColor" />
   </g>
   <g id="bar-inactive-topright">
-    <path d="M 4,0 a 2,2 0 0 1 2,2 h -2 z" fill="#3a4857" />
+    <path d="M 4,0 a 2,2 0 0 1 2,2 h -2 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
   </g>
   <g id="bar-inactive-left">
-    <rect width="2" height="2" x="0" y="2" fill="#3a4857" />
+    <rect width="2" height="2" x="0" y="2" class="ColorScheme-ButtonBackground" fill="currentColor" />
   </g>
   <g id="bar-inactive-center">
-    <rect width="2" height="2" x="2" y="2" fill="#3a4857" />
+    <rect width="2" height="2" x="2" y="2" class="ColorScheme-ButtonBackground" fill="currentColor" />
   </g>
   <g id="bar-inactive-right">
-    <rect width="2" height="2" x="4" y="2" fill="#3a4857" />
+    <rect width="2" height="2" x="4" y="2" class="ColorScheme-ButtonBackground" fill="currentColor" />
   </g>
   <g id="bar-inactive-bottomleft">
-    <path d="M 2,6 a 2,2 0 0 1 -2,-2 h 2 z" fill="#3a4857" />
+    <path d="M 2,6 a 2,2 0 0 1 -2,-2 h 2 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
   </g>
   <g id="bar-inactive-bottom">
-    <rect width="2" height="2" x="2" y="4" fill="#3a4857" />
+    <rect width="2" height="2" x="2" y="4" class="ColorScheme-ButtonBackground" fill="currentColor" />
   </g>
   <g id="bar-inactive-bottomright">
-    <path d="M 4,6 a 2,2 0 0 0 2,-2 h -2 z" fill="#3a4857" />
+    <path d="M 4,6 a 2,2 0 0 0 2,-2 h -2 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
   </g>
   <g id="bar-active-topleft" transform="translate(6)">
-    <path d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" fill="#95ccff" />
+    <path d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
   <g id="bar-active-top" transform="translate(6)">
-    <rect width="2" height="2" x="2" y="0" fill="#95ccff" />
+    <rect width="2" height="2" x="2" y="0" class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
   <g id="bar-active-topright" transform="translate(6)">
-    <path d="M 4,0 a 2,2 0 0 1 2,2 h -2 z" fill="#95ccff" />
+    <path d="M 4,0 a 2,2 0 0 1 2,2 h -2 z" class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
   <g id="bar-active-left" transform="translate(6)">
-    <rect width="2" height="2" x="0" y="2" fill="#95ccff" />
+    <rect width="2" height="2" x="0" y="2" class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
   <g id="bar-active-center" transform="translate(6)">
-    <rect width="2" height="2" x="2" y="2" fill="#95ccff" />
+    <rect width="2" height="2" x="2" y="2" class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
   <g id="bar-active-right" transform="translate(6)">
-    <rect width="2" height="2" x="4" y="2" fill="#95ccff" />
+    <rect width="2" height="2" x="4" y="2" class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
   <g id="bar-active-bottomleft" transform="translate(6)">
-    <path d="M 2,6 a 2,2 0 0 1 -2,-2 h 2 z" fill="#95ccff" />
+    <path d="M 2,6 a 2,2 0 0 1 -2,-2 h 2 z" class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
   <g id="bar-active-bottom" transform="translate(6)">
-    <rect width="2" height="2" x="2" y="4" fill="#95ccff" />
+    <rect width="2" height="2" x="2" y="4" class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
   <g id="bar-active-bottomright" transform="translate(6)">
-    <path d="M 4,6 a 2,2 0 0 0 2,-2 h -2 z" fill="#95ccff" />
+    <path d="M 4,6 a 2,2 0 0 0 2,-2 h -2 z" class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
-  <!-- <rect id="hint-tile-center" height="4" style="opacity:1;fill:#ff2a2a;fill-opacity:1" width="4" x="0" y="2" /> -->
-  <!-- <rect id="hint-bar-size" height="6" style="opacity:1;fill:#ff2a2a;fill-opacity:1" width="6" x="6" y="0" /> -->
   <rect id="hint-tile-center" height="2.667" width="2.667" x="4" y="6" fill="#ff0000" />
   <rect id="hint-bar-size" width="4" height="4" x="0" y="6" fill="#ff0000" />
 </svg>
