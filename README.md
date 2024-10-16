@@ -70,3 +70,9 @@ opacity 0.15
 surfaceContainerHighest = #282a2d + white at 5%
 PrimaryContainer = #95ccff + black at 70%
 onPrimaryContainer = #95ccff + white at 50%
+
+## TODO
+- [ ] Check if busy widget works
+- [ ] Check glow bar
+- [ ] Adjust line color
+- [ ] Adjust view item color
