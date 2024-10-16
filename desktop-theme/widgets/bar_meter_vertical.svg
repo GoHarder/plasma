@@ -4,36 +4,45 @@
       color: #95ccff;
     }
 
-    .ColorScheme-ButtonBackground {
-      color: #333538;
+    .ColorScheme-Background {
+      color: #282a2d;
     }
   </style>
   <g id="bar-inactive-topleft">
-    <path d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" class="ColorScheme-Background" fill="currentColor" />
+    <path d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" fill="#ffffff" opacity="0.1" />
   </g>
   <g id="bar-inactive-top">
-    <rect width="2" height="2" x="2" y="0" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <rect width="2" height="2" x="2" y="0" class="ColorScheme-Background" fill="currentColor" />
+    <rect width="2" height="2" x="2" y="0" fill="#ffffff" opacity="0.1" />
   </g>
   <g id="bar-inactive-topright">
-    <path d="M 4,0 a 2,2 0 0 1 2,2 h -2 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="M 4,0 a 2,2 0 0 1 2,2 h -2 z" class="ColorScheme-Background" fill="currentColor" />
+    <path d="M 4,0 a 2,2 0 0 1 2,2 h -2 z" fill="#ffffff" opacity="0.1" />
   </g>
   <g id="bar-inactive-left">
-    <rect width="2" height="2" x="0" y="2" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <rect width="2" height="2" x="0" y="2" class="ColorScheme-Background" fill="currentColor" />
+    <rect width="2" height="2" x="0" y="2" fill="#ffffff" opacity="0.1" />
   </g>
   <g id="bar-inactive-center">
-    <rect width="2" height="2" x="2" y="2" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <rect width="2" height="2" x="2" y="2" class="ColorScheme-Background" fill="currentColor" />
+    <rect width="2" height="2" x="2" y="2" fill="#ffffff" opacity="0.1" />
   </g>
   <g id="bar-inactive-right">
-    <rect width="2" height="2" x="4" y="2" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <rect width="2" height="2" x="4" y="2" class="ColorScheme-Background" fill="currentColor" />
+    <rect width="2" height="2" x="4" y="2" fill="#ffffff" opacity="0.1" />
   </g>
   <g id="bar-inactive-bottomleft">
-    <path d="M 2,6 a 2,2 0 0 1 -2,-2 h 2 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="M 2,6 a 2,2 0 0 1 -2,-2 h 2 z" class="ColorScheme-Background" fill="currentColor" />
+    <path d="M 2,6 a 2,2 0 0 1 -2,-2 h 2 z" fill="#ffffff" opacity="0.1" />
   </g>
   <g id="bar-inactive-bottom">
-    <rect width="2" height="2" x="2" y="4" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <rect width="2" height="2" x="2" y="4" class="ColorScheme-Background" fill="currentColor" />
+    <rect width="2" height="2" x="2" y="4" fill="#ffffff" opacity="0.1" />
   </g>
   <g id="bar-inactive-bottomright">
-    <path d="M 4,6 a 2,2 0 0 0 2,-2 h -2 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="M 4,6 a 2,2 0 0 0 2,-2 h -2 z" class="ColorScheme-Background" fill="currentColor" />
+    <path d="M 4,6 a 2,2 0 0 0 2,-2 h -2 z" fill="#ffffff" opacity="0.1" />
   </g>
   <g id="bar-active-topleft" transform="translate(6)">
     <path d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" class="ColorScheme-ButtonHover" fill="currentColor" />
@@ -62,6 +71,5 @@
   <g id="bar-active-bottomright" transform="translate(6)">
     <path d="M 4,6 a 2,2 0 0 0 2,-2 h -2 z" class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
-  <rect id="hint-tile-center" height="2.667" width="2.667" x="4" y="6" fill="#ff0000" />
   <rect id="hint-bar-size" width="4" height="4" x="0" y="6" fill="#ff0000" />
 </svg>
