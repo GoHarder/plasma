@@ -68,6 +68,7 @@ opacity 0.15
 | ButtonFocus      | #b9c8da |
 
 surfaceContainerHighest = #282a2d + white at 5%
+outlineVariant = #282a2d + white at 15%
 PrimaryContainer = #95ccff + black at 70%
 onPrimaryContainer = #95ccff + white at 50%
 
