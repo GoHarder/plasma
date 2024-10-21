@@ -59,42 +59,51 @@
     </style>
   </defs>
   <g id="plain-topleft">
-    <path d="m 6,0 a 6,6 0 0 0 -6,6 h 1 a 5,5 0 0 1 5,-5 z" class="ColorScheme-Background" fill="currentColor" />
+    <!-- <path d="m 6,0 a 6,6 0 0 0 -6,6 h 1 a 5,5 0 0 1 5,-5 z" class="ColorScheme-Background" fill="currentColor" /> -->
+    <path d="m 6,0 a 6,6 0 0 0 -6,6 h 6 z" class="ColorScheme-Background" fill="currentColor" />
     <path d="m 6,0 a 6,6 0 0 0 -6,6 h 1 a 5,5 0 0 1 5,-5 z" fill="#ffffff" opacity="0.15" />
   </g>
   <g id="plain-top">
-    <rect width="22" height="6" x="6" y="0" fill="none" />
-    <rect width="22" height="1" x="6" y="0" class="ColorScheme-Background" fill="currentColor" />
+    <!-- <rect width="22" height="6" x="6" y="0" fill="none" />
+    <rect width="22" height="1" x="6" y="0" class="ColorScheme-Background" fill="currentColor" /> -->
+    <rect width="22" height="6" x="6" y="0" class="ColorScheme-Background" fill="currentColor" />
     <rect width="22" height="1" x="6" y="0" fill="#ffffff" opacity="0.15" />
   </g>
   <g id="plain-topright">
-    <path d="m 28,0 a 6,6 0 0 1 6,6 h -1 a 5,5 0 0 0 -5,-5 z" class="ColorScheme-Background" fill="currentColor" />
+    <!-- <path d="m 28,0 a 6,6 0 0 1 6,6 h -1 a 5,5 0 0 0 -5,-5 z" class="ColorScheme-Background" fill="currentColor" /> -->
+    <path d="m 28,0 a 6,6 0 0 1 6,6 h -6 z" class="ColorScheme-Background" fill="currentColor" />
     <path d="m 28,0 a 6,6 0 0 1 6,6 h -1 a 5,5 0 0 0 -5,-5 z" fill="#ffffff" opacity="0.15" />
   </g>
   <g id="plain-left">
-    <rect width="6" height="22" x="0" y="6" fill="none" />
-    <rect width="1" height="22" x="0" y="6" class="ColorScheme-Background" fill="currentColor" />
+    <!-- <rect width="6" height="22" x="0" y="6" fill="none" />
+    <rect width="1" height="22" x="0" y="6" class="ColorScheme-Background" fill="currentColor" /> -->
+    <rect width="6" height="22" x="0" y="6" class="ColorScheme-Background" fill="currentColor" />
     <rect width="1" height="22" x="0" y="6" fill="#ffffff" opacity="0.15" />
   </g>
   <g id="plain-center">
-    <rect width="22" height="22" x="6" y="6" fill="none" />
+    <!-- <rect width="22" height="22" x="6" y="6" fill="none" /> -->
+    <rect width="22" height="22" x="6" y="6" class="ColorScheme-Background" fill="currentColor" />
   </g>
   <g id="plain-right">
-    <rect width="6" height="22" x="28" y="6" fill="none" />
-    <rect width="1" height="22" x="33" y="6" class="ColorScheme-Background" fill="currentColor" />
+    <!-- <rect width="6" height="22" x="28" y="6" fill="none" />
+    <rect width="1" height="22" x="33" y="6" class="ColorScheme-Background" fill="currentColor" /> -->
+    <rect width="6" height="22" x="28" y="6" class="ColorScheme-Background" fill="currentColor" />
     <rect width="1" height="22" x="33" y="6" fill="#ffffff" opacity="0.15" />
   </g>
   <g id="plain-bottomleft">
-    <path d="m 6,34 a 6,6 0 0 1 -6,-6 h 1 a 5,5 0 0 0 5,5 z" class="ColorScheme-Background" fill="currentColor" />
+    <!-- <path d="m 6,34 a 6,6 0 0 1 -6,-6 h 1 a 5,5 0 0 0 5,5 z" class="ColorScheme-Background" fill="currentColor" /> -->
+    <path d="m 6,34 a 6,6 0 0 1 -6,-6 h 6 z" class="ColorScheme-Background" fill="currentColor" />
     <path d="m 6,34 a 6,6 0 0 1 -6,-6 h 1 a 5,5 0 0 0 5,5 z" fill="#ffffff" opacity="0.15" />
   </g>
   <g id="plain-bottom">
-    <rect width="22" height="6" x="6" y="28" fill="none" />
-    <rect width="22" height="1" x="6" y="33" class="ColorScheme-Background" fill="currentColor" />
+    <!-- <rect width="22" height="6" x="6" y="28" fill="none" />
+    <rect width="22" height="1" x="6" y="33" class="ColorScheme-Background" fill="currentColor" /> -->
+    <rect width="22" height="6" x="6" y="28" class="ColorScheme-Background" fill="currentColor" />
     <rect width="22" height="1" x="6" y="33" fill="#ffffff" opacity="0.15" />
   </g>
   <g id="plain-bottomright">
-    <path d="m 28,34 a 6,6 0 0 0 6,-6 h -1 a 5,5 0 0 1 -5,5 z" class="ColorScheme-Background" fill="currentColor" />
+    <!-- <path d="m 28,34 a 6,6 0 0 0 6,-6 h -1 a 5,5 0 0 1 -5,5 z" class="ColorScheme-Background" fill="currentColor" /> -->
+    <path d="m 28,34 a 6,6 0 0 0 6,-6 h -6 z" class="ColorScheme-Background" fill="currentColor" />
     <path d="m 28,34 a 6,6 0 0 0 6,-6 h -1 a 5,5 0 0 1 -5,5 z" fill="#ffffff" opacity="0.15" />
   </g>
   <rect id="plain-hint-top-margin" width="2" height="6" x="16" y="0" fill="#4e9a06" />
