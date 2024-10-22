@@ -40,10 +40,10 @@
   <path id="bottomleft" d="m 15.5,61.5 a 10,10 0 0 1 -10,-10 h 10 z" fill="#808080" transform="translate(67)" />
   <rect id="bottom" width="36" height="10" x="15.5" y="51.5" fill="#808080" transform="translate(67)" />
   <path id="bottomright" d="m 51.5,61.5 a 10,10 0 0 0 10,-10 h -10 z" fill="#808080" transform="translate(67)" />
-  <rect id="hint-top-margin" width="2" height="8" x="99.5" y="5.5" fill="#ff00ff" />
-  <rect id="hint-left-margin" width="8" height="2" x="72.5" y="32.5" fill="#ff00ff" />
-  <rect id="hint-right-margin" width="8" height="2" x="120.5" y="32.5" fill="#ff00ff" />
-  <rect id="hint-bottom-margin" width="2" height="8" x="99.5" y="53.5" fill="#ff00ff" />
+  <rect id="hint-top-margin" width="2" height="9" x="99.5" y="5.5" fill="#ff00ff" />
+  <rect id="hint-left-margin" width="9" height="2" x="72.5" y="32.5" fill="#ff00ff" />
+  <rect id="hint-right-margin" width="9" height="2" x="120.5" y="32.5" fill="#ff00ff" />
+  <rect id="hint-bottom-margin" width="2" height="9" x="99.5" y="53.5" fill="#ff00ff" />
   <rect id="hint-top-inset" width="2" height="0.001" x="99.5" y="5.5" fill="#00ff00" />
   <rect id="hint-left-inset" width="0.001" height="2" x="72.5" y="32.5" fill="#00ff00" />
   <rect id="hint-right-inset" width="0.001" height="2" x="123.5" y="32.5" fill="#00ff00" />
