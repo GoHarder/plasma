@@ -1,0 +1,13 @@
+<svg height="22" width="22" xmlns="http://www.w3.org/2000/svg">
+  <style type="text/css" id="current-color-scheme">
+    .ColorScheme-Text {
+      color: #e2e2e5;
+    }
+  </style>
+  <g class="ColorScheme-Text" fill="currentColor">
+    <rect x="2.75" y="2.75" width="7.821" height="7.821" />
+    <rect x="11.429" y="2.75" width="7.821" height="7.821" />
+    <rect x="2.75" y="11.429" width="7.821" height="7.821" />
+    <rect x="11.429" y="11.429" width="7.821" height="7.821" />
+  </g>
+</svg>
