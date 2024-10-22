@@ -107,13 +107,13 @@
   <rect id="shdow-hint-left-inset" width="5.5" height="2" x="0" y="33.5" fill="#00ff00" />
   <rect id="shdow-hint-right-inset" width="5.5" height="2" x="61.5" y="33.5" fill="#00ff00" />
   <rect id="shdow-hint-bottom-inset" width="2" height="5.5" x="31.5" y="61.5" fill="#00ff00" />
-  <path id="mask-topleft" d="m 15.5,6.5 a 9,9 0 0 0 -9,9 h 9 z" transform="translate(0,67)" />
+  <path id="mask-topleft" d="m 15.5,6.5 a 10,10 0 0 0 -9,9 h 9 z" transform="translate(0,67)" />
   <rect id="mask-top" width="36" height="10" x="15.5" y="5.5" transform="translate(0,67)" />
-  <path id="mask-topright" d="m 51.5,6.5 a 9,9 0 0 1 9,9 h -9 z" transform="translate(0,67)" />
+  <path id="mask-topright" d="m 51.5,6.5 a 10,10 0 0 1 9,9 h -9 z" transform="translate(0,67)" />
   <rect id="mask-left" width="10" height="36" x="5.5" y="15.5" transform="translate(0,67)" />
   <rect id="mask-center" width="36" height="36" x="15.5" y="15.5" transform="translate(0,67)" />
   <rect id="mask-right" width="10" height="36" x="51.5" y="15.5" transform="translate(0,67)" />
-  <path id="mask-bottomleft" d="m 15.5,60.5 a 9,9 0 0 1 -9,-9 h 9 z" transform="translate(0,67)" />
+  <path id="mask-bottomleft" d="m 15.5,60.5 a 10,10 0 0 1 -9,-9 h 9 z" transform="translate(0,67)" />
   <rect id="mask-bottom" width="36" height="10" x="15.5" y="51.5" transform="translate(0,67)" />
-  <path id="mask-bottomright" d="m 51.5,60.5 a 9,9 0 0 0 9,-9 h -9 z" transform="translate(0,67)" />
+  <path id="mask-bottomright" d="m 51.5,60.5 a 10,10 0 0 0 9,-9 h -9 z" transform="translate(0,67)" />
 </svg>
