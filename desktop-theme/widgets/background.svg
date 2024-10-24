@@ -1,236 +1,119 @@
-<svg width="112" height="56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="134" height="134" viewBox="0 0 134 134" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
   <defs>
-    <style type="text/css" id="current-color-scheme">
-      .ColorScheme-Text {
-        color: #7B7C7E;
-      }
-
+    <style id="current-color-scheme" type="text/css">
       .ColorScheme-Background {
-        color: #EFF0F1;
+        color: #2e2e2e;
       }
 
-      .ColorScheme-Highlight {
-        color: #3DAEE6;
-      }
-
-      .ColorScheme-ViewText {
-        color: #7B7C7E;
-      }
-
-      .ColorScheme-ViewBackground {
-        color: #FCFCFC;
-      }
-
-      .ColorScheme-ViewHover {
-        color: #3DAEE6;
-      }
-
-      .ColorScheme-ViewFocus {
-        color: #1E92FF;
-      }
-
-      .ColorScheme-ButtonText {
-        color: #7B7C7E;
-      }
-
-      .ColorScheme-ButtonBackground {
-        color: #EFF0F1;
-      }
-
-      .ColorScheme-ButtonHover {
-        color: #3DAEE6;
-      }
-
-      .ColorScheme-ButtonFocus {
-        color: #1E92FF;
+      .ColorScheme-Text {
+        color: #e0e0e0;
       }
     </style>
-    <linearGradient id="lg1">
-      <stop offset="0" stop-color="#232629" stop-opacity="0.239" />
-      <stop offset="0.33" stop-color="#1a1c1e" stop-opacity="0.239" />
-      <stop offset="0.66" stop-color="#111314" stop-opacity="0.098" />
-      <stop offset="1" stop-color="#000000" stop-opacity="0" />
+    <linearGradient id="bg">
+      <stop stop-opacity="1" offset="0.7" />
+      <stop stop-opacity="0" offset="1" />
     </linearGradient>
-    <radialGradient id="lg1-1" xlink:href="#lg1" cx="50" cy="238" r="6" gradientUnits="userSpaceOnUse"
-      gradientTransform="matrix(0,-2,2,0,-464,112)" />
-    <!-- MARK: Bookmark -->
-    <linearGradient id="linearGradient3809-7">
-      <stop offset="0" style="stop-color:#232629;stop-opacity:0.239;" />
-      <stop style="stop-color:#111314;stop-opacity:0.098;" offset="0.5" />
-      <stop offset="1" stop-color="#000000" stop-opacity="0" />
+    <linearGradient xlink:href="#bg" id="bg-l" x1="15.5" y1="34.5" x2="5.5" y2="34.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#bg" id="bg-r" x1="51.5" y1="34.5" x2="61.5" y2="34.5" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#bg" id="bg-bl" cx="15.5" cy="52.5" r="10" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#bg" id="bg-b" x1="33.5" y1="52.5" x2="33.5" y2="62.5" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#bg" id="bg-br" cx="51.5" cy="52.5" r="10" gradientUnits="userSpaceOnUse" />
+    <linearGradient id="ag">
+      <stop stop-opacity="1" offset="0.304" />
+      <stop stop-opacity="0" offset="1" />
     </linearGradient>
-    <linearGradient gradientTransform="translate(-38,-225)" y2="225.513" x2="65" y1="233" x1="65"
-      gradientUnits="userSpaceOnUse" id="linearGradient3908" xlink:href="#linearGradient3809-7" />
-    <linearGradient id="linearGradient3809-3">
-      <stop offset="0" style="stop-color:#232629;stop-opacity:0.239;" />
-      <stop style="stop-color:#111314;stop-opacity:0.098;" offset="0.5" />
-      <stop offset="1" stop-color="#000000" stop-opacity="0" />
-    </linearGradient>
-    <linearGradient gradientTransform="translate(-94.001,-225)" y2="225.513" x2="65" y1="233" x1="65"
-      gradientUnits="userSpaceOnUse" id="linearGradient3945" xlink:href="#linearGradient3809-3" />
-    <linearGradient id="linearGradient3809-4">
-      <stop offset="0" style="stop-color:#232629;stop-opacity:0.239;" />
-      <stop style="stop-color:#111314;stop-opacity:0.098;" offset="0.5" />
-      <stop offset="1" stop-color="#000000" stop-opacity="0" />
-    </linearGradient>
-    <linearGradient gradientTransform="translate(-94.001,-281)" y2="225.513" x2="65" y1="233" x1="65"
-      gradientUnits="userSpaceOnUse" id="linearGradient3982" xlink:href="#linearGradient3809-4" />
-    <linearGradient id="linearGradient3809-8">
-      <stop offset="0" style="stop-color:#232629;stop-opacity:0.239;" />
-      <stop style="stop-color:#111314;stop-opacity:0.098;" offset="0.5" />
-      <stop offset="1" stop-color="#000000" stop-opacity="0" />
-    </linearGradient>
-    <linearGradient gradientTransform="translate(-38,-281)" y2="225.513" x2="65" y1="233" x1="65"
-      gradientUnits="userSpaceOnUse" id="linearGradient4019" xlink:href="#linearGradient3809-8" />
-    <linearGradient id="linearGradient3828-6">
-      <stop offset="0" stop-color="#232629" stop-opacity="0.239" />
-      <stop offset="0.33" stop-color="#1a1c1e" stop-opacity="0.239" />
-      <stop offset="0.66" stop-color="#111314" stop-opacity="0.098" />
-      <stop offset="1" stop-color="#000000" stop-opacity="0" />
-    </linearGradient>
-    <radialGradient r="6" fy="238" fx="50" cy="238" cx="50" gradientTransform="matrix(0,-2,-2,0,520,112)"
-      gradientUnits="userSpaceOnUse" id="radialGradient4057" xlink:href="#linearGradient3828-6" />
-    <linearGradient id="linearGradient3828-4">
-      <stop offset="0" stop-color="#232629" stop-opacity="0.239" />
-      <stop offset="0.33" stop-color="#1a1c1e" stop-opacity="0.239" />
-      <stop offset="0.66" stop-color="#111314" stop-opacity="0.098" />
-      <stop offset="1" stop-color="#000000" stop-opacity="0" />
-    </linearGradient>
-    <radialGradient r="6" fy="238" fx="50" cy="238" cx="50" gradientTransform="matrix(0,2,2,0,-464,-55.999)"
-      gradientUnits="userSpaceOnUse" id="radialGradient4137" xlink:href="#linearGradient3828-4" />
-    <linearGradient id="linearGradient3828-2">
-      <stop offset="0" stop-color="#232629" stop-opacity="0.239" />
-      <stop offset="0.33" stop-color="#1a1c1e" stop-opacity="0.239" />
-      <stop offset="0.66" stop-color="#111314" stop-opacity="0.098" />
-      <stop offset="1" stop-color="#000000" stop-opacity="0" />
-    </linearGradient>
-    <radialGradient r="6" fy="238" fx="50" cy="238" cx="50" gradientTransform="matrix(0,2,-2,0,520,-55.999)"
-      gradientUnits="userSpaceOnUse" id="radialGradient4177" xlink:href="#linearGradient3828-2" />
-    <linearGradient xlink:href="#linearGradient3809-7" id="linearGradient1072" gradientUnits="userSpaceOnUse"
-      gradientTransform="translate(18,-225)" x1="65" y1="233" x2="65" y2="225.513" />
-    <linearGradient xlink:href="#linearGradient3809-4" id="linearGradient1074" gradientUnits="userSpaceOnUse"
-      gradientTransform="translate(-94.001,-337)" x1="65" y1="233" x2="65" y2="225.513" />
-    <linearGradient xlink:href="#linearGradient3809-8" id="linearGradient1076" gradientUnits="userSpaceOnUse"
-      gradientTransform="translate(18,-281.001)" x1="65" y1="233" x2="65" y2="225.513" />
-    <radialGradient xlink:href="#linearGradient3828-4" id="radialGradient1078" gradientUnits="userSpaceOnUse"
-      gradientTransform="matrix(0,2,2,0,-408,-55.999)" cx="50" cy="238" fx="50" fy="238" r="6" />
-    <radialGradient xlink:href="#linearGradient3828-6" id="radialGradient1080" gradientUnits="userSpaceOnUse"
-      gradientTransform="matrix(0,-2,-2,0,576,112)" cx="50" cy="238" fx="50" fy="238" r="6" />
-    <radialGradient xlink:href="#lg1" id="radialGradient1082" gradientUnits="userSpaceOnUse"
-      gradientTransform="matrix(0,-2,2,0,-408,112)" cx="50" cy="238" fx="50" fy="238" r="6" />
-    <linearGradient xlink:href="#linearGradient3809-3" id="linearGradient1084" gradientUnits="userSpaceOnUse"
-      gradientTransform="translate(-94.001,-169)" x1="65" y1="233" x2="65" y2="225.513" />
-    <radialGradient xlink:href="#linearGradient3828-2" id="radialGradient1086" gradientUnits="userSpaceOnUse"
-      gradientTransform="matrix(0,2,-2,0,576,-55.999)" cx="50" cy="238" fx="50" fy="238" r="6" />
+    <radialGradient xlink:href="#ag" id="ag-tl" cx="15.5" cy="19.5" r="11.5" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#ag" id="ag-tr" cx="51.5" cy="19.5" r="11.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#ag" id="ag-l" x1="15.5" y1="37.5" x2="4" y2="37.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#ag" id="ag-r" x1="51.5" y1="37.5" x2="63" y2="37.5" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#ag" id="ag-bl" cx="15.5" cy="55.5" r="11.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#ag" id="ag-b" x1="33.5" y1="55.5" x2="33.5" y2="67" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#ag" id="ag-br" cx="51.5" cy="55.5" r="11.5" gradientUnits="userSpaceOnUse" />
   </defs>
-  <g id="topleft">
-    <path d="m 12,7.999 c -2.183,0.067 -3.933,1.817 -4,4 h 4 z" fill="#802020" />
-    <path d="m 12,7.999 c -2.183,0.067 -3.933,1.817 -4,4 h 1 c 0,-1.563 1.344,-3 3,-3 z" fill="#eff0f1"
-      fill-opacity="0.902" opacity="0.2" />
-    <path d="M 0,0 V 12 H 8 C 8,9.791 9.791,8 12,8 V 0 Z" style="fill:url(#lg1-1)" />
-  </g>
-  <g id="top">
-    <path d="m 12,8 v 3.999 H 44 V 8 c -0.012,-0.001 -0.022,0 -0.034,0 H 12.035 c -0.012,0 -0.023,-0.001 -0.034,0 z"
-      fill="#802020" />
-    <path d="M 12,8 V 8.999 H 44 V 8 c -0.012,-0 -0.022,0 -0.034,0 H 12.035 c -0.012,0 -0.023,-0 -0.034,0 z"
-      fill="#eff0f1" fill-opacity="0.902" opacity="0.2" />
-    <rect width="32" height="8" x="12" y="0" style="fill:url(#linearGradient3908)" />
-  </g>
-  <g id="topright">
-    <path d="m 44,7.999 c 2.183,0.067 3.933,1.817 4,4 h -4 z" fill="#802020" />
-    <path d="m 44,7.999 c 2.183,0.067 3.933,1.817 4,4 h -1 c 0,-1.563 -1.344,-3 -3,-3 z" fill="#eff0f1"
-      fill-opacity="0.902" opacity="0.2" />
-    <path d="M 56,0 V 12 H 48 C 48,9.791 46.209,8 44,8 V 0 Z" style="fill:url(#radialGradient4057)" />
-  </g>
-  <g id="left">
-    <path d="m 12,12 v 32 H 8.001 c -0.001,-0.053 0,-0.1 0,-0.154 V 12.154 c 0,-0.054 -0.001,-0.1 0,-0.154 z"
-      fill="#802020" />
-    <path d="m 9,12 v 32 h -1 c -3.34e-4,-0.053 0,-0.1 0,-0.154 V 12.154 c 0,-0.054 -3.34e-4,-0.1 0,-0.154 z"
-      fill="#eff0f1" fill-opacity="0.902" opacity="0.2" />
-    <rect width="32" height="8" x="-44.001" y="0" style="fill:url(#linearGradient3945)" transform="rotate(-90)" />
-  </g>
-  <path id="center" d="M 12,12 V 44 H 44 V 12 Z" fill="#802020" />
-  <g id="right">
-    <path d="m 44,12 v 32 h 3.999 c 0.001,-0.053 0,-0.1 0,-0.154 V 12.154 c 0,-0.054 0.001,-0.1 0,-0.154 z"
-      fill="#802020" />
-    <path d="m 47,12 v 32 h 1 c 0,-0.053 0,-0.1 0,-0.154 V 12.154 c 0,-0.054 0,-0.1 0,-0.154 z" fill="#eff0f1"
-      fill-opacity="0.902" opacity="0.2" />
-    <rect width="32" height="8" x="-44.001" y="-56" style="fill:url(#linearGradient3982)"
-      transform="matrix(0,-1,-1,0,0,0)" />
-  </g>
-  <g id="bottomleft">
-    <path d="m 8,44 c 0.067,2.183 1.817,3.933 4,4 v -4 z" fill="#802020" />
-    <path d="m 8,44 c 0.067,2.183 1.817,3.933 4,4 v -1 c -1.637,-0.05 -2.95,-1.363 -3,-3 z" fill="#eff0f1"
-      fill-opacity="0.902" opacity="0.2" />
-    <path d="M -4.53e-4,56.001 V 44.001 h 8 c 0,2.209 1.791,4 4,4 v 8 z" style="fill:url(#radialGradient4137)" />
-  </g>
-  <g id="bottom">
-    <path d="m 12,44 v 3.999 c 0.012,0.001 0.022,0 0.034,0 H 43.966 c 0.012,0 0.023,0.001 0.034,0 V 44 Z"
-      fill="#802020" />
-    <path d="m 12,47 v 1 c 0.012,0 0.022,0 0.034,0 H 43.966 c 0.012,0 0.023,0 0.034,0 v -1 z" fill="#eff0f1"
-      fill-opacity="0.902" opacity="0.2" />
-    <rect width="32" height="8" x="12" y="-56" style="fill:url(#linearGradient4019)" transform="scale(1,-1)" />
-  </g>
-  <g id="bottomright">
-    <path d="m 48,44 c -0.067,2.183 -1.817,3.933 -4,4 v -4 z" fill="#802020" />
-    <path d="m 47,44 c -0.05,1.637 -1.363,2.95 -3,3 v 1 c 2.183,-0.067 3.933,-1.817 4,-4 z" fill="#eff0f1"
-      fill-opacity="0.902" opacity="0.2" />
-    <path d="M 56,56.001 V 44.001 h -8 c 0,2.209 -1.791,4 -4,4 v 8 z" style="fill:url(#radialGradient4177)" />
-  </g>
-  <rect id="hint-top-margin" width="4" height="14" x="24" y="0" fill="#008000" opacity="0.875" />
-  <rect id="hint-left-margin" width="14" height="4" x="0" y="28" fill="#008000" opacity="0.875" />
-  <rect id="hint-right-margin" width="14" height="4" x="42" y="24" fill="#008000" opacity="0.875" />
-  <rect id="hint-bottom-margin" width="4" height="14" x="28" y="42" fill="#008000" opacity="0.875" />
-  <rect id="hint-top-inset" width="4" height="8" x="28" y="0" fill="#ff00ff" opacity="0.875" />
-  <rect id="hint-left-inset" width="8" height="4" x="0" y="24" fill="#ff00ff" opacity="0.875" />
-  <rect id="hint-right-inset" width="8" height="4" x="48" y="28" fill="#ff00ff" opacity="0.875" />
-  <rect id="hint-bottom-inset" width="4" height="8" x="24" y="48" fill="#ff00ff" opacity="0.875" />
+  <path id="topleft" d="m 15.5,5.5 a 10,10 0 0 0 -10,10 h 10 z" class="ColorScheme-Background" fill="currentColor"
+    transform="translate(67)" />
+  <rect id="top" width="36" height="10" x="15.5" y="5.5" class="ColorScheme-Background" fill="currentColor"
+    transform="translate(67)" />
+  <path id="topright" d="m 51.5,5.5 a 10,10 0 0 1 10,10 h -10 z" class="ColorScheme-Background" fill="currentColor"
+    transform="translate(67)" />
+  <rect id="left" width="10" height="36" x="5.5" y="15.5" class="ColorScheme-Background" fill="currentColor"
+    transform="translate(67)" />
+  <rect id="center" width="36" height="36" x="15.5" y="15.5" class="ColorScheme-Background" fill="currentColor"
+    transform="translate(67)" />
+  <rect id="right" width="10" height="36" x="51.5" y="15.5" class="ColorScheme-Background" fill="currentColor"
+    transform="translate(67)" />
+  <path id="bottomleft" d="m 15.5,61.5 a 10,10 0 0 1 -10,-10 h 10 z" class="ColorScheme-Background" fill="currentColor"
+    transform="translate(67)" />
+  <rect id="bottom" width="36" height="10" x="15.5" y="51.5" class="ColorScheme-Background" fill="currentColor"
+    transform="translate(67)" />
+  <path id="bottomright" d="m 51.5,61.5 a 10,10 0 0 0 10,-10 h -10 z" class="ColorScheme-Background" fill="currentColor"
+    transform="translate(67)" />
+  <rect id="hint-top-margin" width="2" height="9" x="99.5" y="5.5" fill="#ff00ff" />
+  <rect id="hint-left-margin" width="9" height="2" x="72.5" y="32.5" fill="#ff00ff" />
+  <rect id="hint-right-margin" width="9" height="2" x="120.5" y="32.5" fill="#ff00ff" />
+  <rect id="hint-bottom-margin" width="2" height="9" x="99.5" y="53.5" fill="#ff00ff" />
+  <rect id="hint-top-inset" width="2" height="0.001" x="99.5" y="5.5" fill="#00ff00" />
+  <rect id="hint-left-inset" width="0.001" height="2" x="72.5" y="32.5" fill="#00ff00" />
+  <rect id="hint-right-inset" width="0.001" height="2" x="123.5" y="32.5" fill="#00ff00" />
+  <rect id="hint-bottom-inset" width="2" height="0.001" x="99.5" y="56.5" fill="#00ff00" />
   <g id="shadow-topleft">
-    <path d="m 68,7.999 c -2.183,0.067 -3.933,1.817 -4,4 h 4 z" fill="none" />
-    <path d="m 56,0 v 12 h 8 C 64,9.791 65.791,8 68,8 V 0 Z" style="fill:url(#radialGradient1082)" />
+    <rect width="15.5" height="15.5" x="0" y="0" fill="none" />
+    <path d="M 5.732 13.455 A 11.5 11.5 0 0 0 4.734 15.5 L 5.5 15.5 A 10 10 0 0 1 5.732 13.455 z" fill="url(#ag-tl)"
+      opacity="0.15" />
   </g>
   <g id="shadow-top">
-    <path d="m 68,8 v 3.999 H 100 V 8 c -0.012,-0.001 -0.022,0 -0.034,0 H 68.035 c -0.012,0 -0.023,-0.001 -0.034,0 z"
-      fill="none" />
-    <rect width="32" height="8" x="68" y="0" style="fill:url(#linearGradient1072)" />
+    <rect width="36" height="15.5" x="15.5" y="0" fill="none" />
   </g>
   <g id="shadow-topright">
-    <path d="m 100,7.999 c 2.183,0.067 3.933,1.817 4,4 h -4 z" fill="none" />
-    <path d="m 112,0 v 12 h -8 c 0,-2.209 -1.791,-4 -4,-4 V 0 Z" style="fill:url(#radialGradient1080)" />
+    <rect width="15.5" height="15.5" x="51.5" y="0" fill="none" />
+    <path d="M 61.289 13.469 A 10 10 0 0 1 61.5 15.5 L 62.281 15.5 A 11.5 11.5 0 0 0 61.289 13.469 z" fill="url(#ag-tr)"
+      opacity="0.15" />
   </g>
   <g id="shadow-left">
-    <path d="m 68,12 v 32 H 64.001 c -0.001,-0.053 0,-0.1 0,-0.154 V 12.154 c 0,-0.054 -0.001,-0.1 0,-0.154 z"
-      fill="none" />
-    <rect width="32" height="8" x="-44.001" y="56" style="fill:url(#linearGradient1084)" transform="rotate(-90)" />
+    <rect width="15.5" height="36" x="0" y="15.5" fill="none" />
+    <path d="M 4.734,15.5 A 11.5,11.5 0 0 0 4,19.5 h 1.5 v -4 z" fill="url(#ag-tl)" opacity="0.15" />
+    <rect width="1.5" height="32" x="4" y="19.5" fill="url(#ag-l)" opacity="0.15" />
   </g>
-  <path id="shadow-center" d="M 68,12 V 44 H 100 V 12 Z" fill="none" />
+  <g id="shadow-center">
+    <rect width="36" height="36" x="15.5" y="15.5" fill="none" />
+  </g>
   <g id="shadow-right">
-    <path d="m 100,12 v 32 h 3.999 c 0.001,-0.053 0,-0.1 0,-0.154 V 12.154 c 0,-0.054 0.001,-0.1 0,-0.154 z"
-      fill="none" />
-    <rect width="32" height="8" x="-44.001" y="-112" style="fill:url(#linearGradient1074)"
-      transform="matrix(0,-1,-1,0,0,0)" />
+    <rect width="15.5" height="36" x="51.5" y="15.5" fill="none" />
+    <path d="M 61.5 15.5 L 61.5 19.5 L 63 19.5 A 11.5 11.5 0 0 0 62.281 15.5 L 61.5 15.5 z " fill="url(#ag-tr)"
+      opacity="0.15" />
+    <rect width="1.5" height="32" x="61.5" y="19.5" fill="url(#ag-r)" opacity="0.15" />
   </g>
   <g id="shadow-bottomleft">
-    <path d="m 64,44 c 0.067,2.183 1.817,3.933 4,4 v -4 z" fill="none" />
-    <path d="M 56,56.001 V 44.001 h 8 c 0,2.209 1.791,4 4,4 v 8 z" style="fill:url(#radialGradient1078)" />
+    <rect width="15.5" height="15.5" x="0" y="51.5" fill="none" />
+    <path d="M 5.5 51.5 L 5.5 52.5 L 5.566 52.5 A 10 10 0 0 1 5.5 51.5 z" fill="url(#bg-l)" opacity="0.3" />
+    <path d="M 5.5 52.5 A 10 10 0 0 0 15.5 62.5 L 15.5 61.5 A 10 10 0 0 1 5.566 52.5 L 5.5 52.5 z" fill="url(#bg-bl)"
+      opacity="0.3" />
+    <path d="M 4 51.5 L 4 55.5 L 6.348 55.5 A 10 10 0 0 1 5.5 51.5 L 4 51.5 z" fill="url(#ag-l)" opacity="0.15" />
+    <path d="M 4 55.5 A 11.5 11.5 0 0 0 15.5 67 L 15.5 61.5 A 10 10 0 0 1 6.348 55.5 L 4 55.5 z" fill="url(#ag-bl)"
+      opacity="0.15" />
   </g>
   <g id="shadow-bottom">
-    <path d="m 68,44.001 v 3.999 c 0.012,0.001 0.022,0 0.034,0 H 99.966 c 0.012,0 0.023,0.001 0.034,0 v -3.999 z"
-      fill="none" />
-    <rect width="32" height="8" x="68" y="-56.001" style="fill:url(#linearGradient1076)" transform="scale(1,-1)" />
+    <rect width="36" height="15.5" x="15.5" y="51.5" fill="none" />
+    <rect width="36" height="1" x="15.5" y="61.5" fill="url(#bg-b)" opacity="0.3" />
+    <path d="M 15.5 61.5 L 15.5 67 L 51.5 67 L 51.5 61.5 L 15.5 61.5 z" fill="url(#ag-b)" opacity="0.15" />
   </g>
   <g id="shadow-bottomright">
-    <path d="m 104,44 c -0.067,2.183 -1.817,3.933 -4,4 v -4 z" fill="none" />
-    <path d="M 112,56.001 V 44.001 h -8 c 0,2.209 -1.791,4 -4,4 v 8 z" style="fill:url(#radialGradient1086)" />
+    <rect width="17.5" height="17.5" x="53.5" y="53.5" fill="none" />
+    <path d="M 61.5 51.5 A 10 10 0 0 1 61.434 52.5 L 61.5 52.5 L 61.5 51.5 z" fill="url(#bg-r)" opacity="0.3" />
+    <path d="M 61.434 52.5 A 10 10 0 0 1 51.5 61.5 L 51.5 62.5 A 10 10 0 0 0 61.5 52.5 L 61.434 52.5 z"
+      fill="url(#bg-br)" opacity="0.3" />
+    <path d="M 61.5 51.5 A 10 10 0 0 1 60.652 55.5 L 63 55.5 L 63 51.5 L 61.5 51.5 z" fill="url(#ag-r)"
+      opacity="0.15" />
+    <path d="M 60.652 55.5 A 10 10 0 0 1 51.5 61.5 L 51.5 67 A 11.5 11.5 0 0 0 63 55.5 L 60.652 55.5 z"
+      fill="url(#ag-br)" opacity="0.15" />
   </g>
-  <rect id="shadow-hint-top-margin" width="4" height="14" x="80" y="0" fill="#008000" opacity="0.875" />
-  <rect id="shadow-hint-left-margin" width="14" height="4" x="56" y="28" fill="#008000" opacity="0.875" />
-  <rect id="shadow-hint-right-margin" width="14" height="4" x="98" y="24.001" fill="#008000" opacity="0.875" />
-  <rect id="shadow-hint-bottom-margin" width="4" height="14" x="84" y="42.001" fill="#008000" opacity="0.875" />
-  <rect id="shadow-hint-top-inset" width="4" height="8" x="84" y="0" fill="#ff00ff" opacity="0.875" />
-  <rect id="shadow-hint-left-inset" width="8" height="4" x="56" y="24.001" fill="#ff00ff" opacity="0.875" />
-  <rect id="shadow-hint-right-inset" width="8" height="4" x="104" y="28.001" fill="#ff00ff" opacity="0.875" />
-  <rect id="shadow-hint-bottom-inset" width="4" height="8" x="80" y="48.001" fill="#ff00ff" opacity="0.875" />
-  <!-- <rect id="hint-stretch-borders" width="5" height="5" y="0" x="0" fill="#008000" opacity="0.875" /> -->
+  <rect id="shdow-hint-top-margin" width="2" height="5.5" x="31.5" y="0" fill="#ff00ff" />
+  <rect id="shdow-hint-left-margin" width="5.5" height="2" x="0" y="31.5" fill="#ff00ff" />
+  <rect id="shdow-hint-right-margin" width="5.5" height="2" x="61.5" y="31.5" fill="#ff00ff" />
+  <rect id="shdow-hint-bottom-margin" width="2" height="5.5" x="33.5" y="61.5" fill="#ff00ff" />
+  <rect id="shdow-hint-top-inset" width="2" height="5.5" x="33.5" y="0" fill="#00ff00" />
+  <rect id="shdow-hint-left-inset" width="5.5" height="2" x="0" y="33.5" fill="#00ff00" />
+  <rect id="shdow-hint-right-inset" width="5.5" height="2" x="61.5" y="33.5" fill="#00ff00" />
+  <rect id="shdow-hint-bottom-inset" width="2" height="5.5" x="31.5" y="61.5" fill="#00ff00" />
 </svg>
