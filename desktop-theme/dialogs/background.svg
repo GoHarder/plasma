@@ -31,24 +31,26 @@
     <linearGradient xlink:href="#ag" id="ag-b" x1="33.5" y1="55.5" x2="33.5" y2="67" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#ag" id="ag-br" cx="51.5" cy="55.5" r="11.5" gradientUnits="userSpaceOnUse" />
   </defs>
-  <path id="topleft" d="m 15.5,5.5 a 10,10 0 0 0 -10,10 h 10 z" class="ColorScheme-Background" fill="currentColor"
-    opacity="0.95" transform="translate(67)" />
-  <rect id="top" width="36" height="10" x="15.5" y="5.5" class="ColorScheme-Background" fill="currentColor"
-    opacity="0.95" transform="translate(67)" />
-  <path id="topright" d="m 51.5,5.5 a 10,10 0 0 1 10,10 h -10 z" class="ColorScheme-Background" fill="currentColor"
-    opacity="0.95" transform="translate(67)" />
-  <rect id="left" width="10" height="36" x="5.5" y="15.5" class="ColorScheme-Background" fill="currentColor"
-    opacity="0.95" transform="translate(67)" />
-  <rect id="center" width="36" height="36" x="15.5" y="15.5" class="ColorScheme-Background" fill="currentColor"
-    opacity="0.95" transform="translate(67)" />
-  <rect id="right" width="10" height="36" x="51.5" y="15.5" class="ColorScheme-Background" fill="currentColor"
-    opacity="0.95" transform="translate(67)" />
-  <path id="bottomleft" d="m 15.5,61.5 a 10,10 0 0 1 -10,-10 h 10 z" class="ColorScheme-Background" fill="currentColor"
-    opacity="0.95" transform="translate(67)" />
-  <rect id="bottom" width="36" height="10" x="15.5" y="51.5" class="ColorScheme-Background" fill="currentColor"
-    opacity="0.95" transform="translate(67)" />
-  <path id="bottomright" d="m 51.5,61.5 a 10,10 0 0 0 10,-10 h -10 z" class="ColorScheme-Background" fill="currentColor"
-    opacity="0.95" transform="translate(67)" />
+  <g transform="translate(67)">
+    <path id="topleft" d="m 15.5,5.5 a 10,10 0 0 0 -10,10 h 10 z" class="ColorScheme-Background" fill="currentColor"
+      opacity="0.95" />
+    <rect id="top" width="36" height="10" x="15.5" y="5.5" class="ColorScheme-Background" fill="currentColor"
+      opacity="0.95" />
+    <path id="topright" d="m 51.5,5.5 a 10,10 0 0 1 10,10 h -10 z" class="ColorScheme-Background" fill="currentColor"
+      opacity="0.95" />
+    <rect id="left" width="10" height="36" x="5.5" y="15.5" class="ColorScheme-Background" fill="currentColor"
+      opacity="0.95" />
+    <rect id="center" width="36" height="36" x="15.5" y="15.5" class="ColorScheme-Background" fill="currentColor"
+      opacity="0.95" />
+    <rect id="right" width="10" height="36" x="51.5" y="15.5" class="ColorScheme-Background" fill="currentColor"
+      opacity="0.95" />
+    <path id="bottomleft" d="m 15.5,61.5 a 10,10 0 0 1 -10,-10 h 10 z" class="ColorScheme-Background"
+      fill="currentColor" opacity="0.95" />
+    <rect id="bottom" width="36" height="10" x="15.5" y="51.5" class="ColorScheme-Background" fill="currentColor"
+      opacity="0.95" />
+    <path id="bottomright" d="m 51.5,61.5 a 10,10 0 0 0 10,-10 h -10 z" class="ColorScheme-Background"
+      fill="currentColor" opacity="0.95" />
+  </g>
   <rect id="hint-top-margin" width="2" height="9" x="99.5" y="5.5" fill="#ff00ff" />
   <rect id="hint-left-margin" width="9" height="2" x="72.5" y="32.5" fill="#ff00ff" />
   <rect id="hint-right-margin" width="9" height="2" x="120.5" y="32.5" fill="#ff00ff" />
@@ -116,13 +118,15 @@
   <rect id="shdow-hint-left-inset" width="5.5" height="2" x="0" y="33.5" fill="#00ff00" />
   <rect id="shdow-hint-right-inset" width="5.5" height="2" x="61.5" y="33.5" fill="#00ff00" />
   <rect id="shdow-hint-bottom-inset" width="2" height="5.5" x="31.5" y="61.5" fill="#00ff00" />
-  <path id="mask-topleft" d="m 15.5,6.5 a 12,12 0 0 0 -9,9 h 9 z" transform="translate(0,67)" />
-  <rect id="mask-top" width="36" height="10" x="15.5" y="5.5" transform="translate(0,67)" />
-  <path id="mask-topright" d="m 51.5,6.5 a 12,12 0 0 1 9,9 h -9 z" transform="translate(0,67)" />
-  <rect id="mask-left" width="10" height="36" x="5.5" y="15.5" transform="translate(0,67)" />
-  <rect id="mask-center" width="36" height="36" x="15.5" y="15.5" transform="translate(0,67)" />
-  <rect id="mask-right" width="10" height="36" x="51.5" y="15.5" transform="translate(0,67)" />
-  <path id="mask-bottomleft" d="m 15.5,60.5 a 12,12 0 0 1 -9,-9 h 9 z" transform="translate(0,67)" />
-  <rect id="mask-bottom" width="36" height="10" x="15.5" y="51.5" transform="translate(0,67)" />
-  <path id="mask-bottomright" d="m 51.5,60.5 a 12,12 0 0 0 9,-9 h -9 z" transform="translate(0,67)" />
+  <g transform="translate(0,67)">
+    <path id="mask-topleft" d="m 15.5,6.5 a 12,12 0 0 0 -9,9 h 9 z" />
+    <rect id="mask-top" width="36" height="10" x="15.5" y="5.5" />
+    <path id="mask-topright" d="m 51.5,6.5 a 12,12 0 0 1 9,9 h -9 z" />
+    <rect id="mask-left" width="10" height="36" x="5.5" y="15.5" />
+    <rect id="mask-center" width="36" height="36" x="15.5" y="15.5" />
+    <rect id="mask-right" width="10" height="36" x="51.5" y="15.5" />
+    <path id="mask-bottomleft" d="m 15.5,60.5 a 12,12 0 0 1 -9,-9 h 9 z" />
+    <rect id="mask-bottom" width="36" height="10" x="15.5" y="51.5" />
+    <path id="mask-bottomright" d="m 51.5,60.5 a 12,12 0 0 0 9,-9 h -9 z" />
+  </g>
 </svg>
