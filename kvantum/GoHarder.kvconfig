@@ -212,11 +212,29 @@ interior=true
 interior.element=common
 text.margin=false
 
+; [LineEdit]
+; inherits=PanelButtonTool
+; frame.element=lineedit
+; interior=false
+; text.toggle.color=#e2e2e5
 [LineEdit]
-inherits=PanelButtonTool
+frame=true
 frame.element=lineedit
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
 interior=false
-text.toggle.color=#e2e2e5
+indicator.size=24
+text.shadow=false
+text.margin=true
+text.margin.top=12
+text.margin.bottom=12
+text.margin.left=12
+text.margin.right=12
+text.iconspacing=12
+text.normal.color=#e2e2e5
+text.focus.color=#e2e2e5
 
 # [DropDownButton]
 

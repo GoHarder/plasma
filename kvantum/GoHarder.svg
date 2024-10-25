@@ -744,7 +744,63 @@
       <use href="#minus" class="disabled-text" />
     </g>
   </g>
-  <g id="lineedit-group" transform="translate(0,64)">
+  <g id="x-lineedit-focused" transform="translate(24,0)" class="pri">
+    <path id="lineedit-focused-topleft" d="M 4,0 a 4,4 0 0 0 -4,4 h 2 a 2,2 0 0 1 2,-2 v -2 z" />
+    <g id="lineedit-focused-top">
+      <rect width="16" height="2" x="4" y="0" />
+      <rect width="16" height="4" x="4" y="0" fill="none" />
+    </g>
+    <path id="lineedit-focused-topright" d="M 20,0 a 4,4 0 0 1 4,4 h -2 a 2,2 0 0 0 -2,-2 v -2 z" />
+    <g id="lineedit-focused-left">
+      <rect width="2" height="16" x="0" y="4" />
+      <rect width="4" height="16" x="0" y="4" fill="none" />
+    </g>
+    <g id="lineedit-focused-right">
+      <rect width="2" height="16" x="22" y="4" />
+      <rect width="4" height="16" x="20" y="4" fill="none" />
+    </g>
+    <path id="lineedit-focused-bottomleft" d="M 0,20 a 4,4 0 0 0 4,4 v -2 a 2,2 0 0 1 -2,-2 h -2 z" />
+    <g id="lineedit-focused-bottom">
+      <rect width="16" height="2" x="4" y="22" />
+      <rect width="16" height="4" x="4" y="20" fill="none" />
+    </g>
+    <path id="lineedit-focused-bottomright" d="M 24,20 a 4,4 0 0 1 -4,4 v -2 a 2,2 0 0 0 2,-2 h 2 z" />
+  </g>
+  <g id="x-lineedit-normal" transform="translate(0,0)" class="outline">
+    <g id="lineedit-normal-topleft">
+      <rect width="4" height="4" x="0" y="0" fill="none" />
+      <path d="M 4,0.5 a 3.5,3.5 0 0 0 -3.5,3.5 h 1 a 2.5,2.5 0 0 1 2.5,-2.5 v -2 z" />
+    </g>
+    <g id="lineedit-normal-top">
+      <rect width="16" height="4" x="4" y="0" fill="none" />
+      <rect width="16" height="1" x="4" y="0.5" />
+    </g>
+    <g id="lineedit-normal-topright">
+      <rect width="4" height="4" x="20" y="0" fill="none" />
+      <path d="M 20,0.5 a 3.5,3.5 0 0 1 3.5,3.5 h -1 a 2.5,2.5 0 0 0 -2.5,-2.5 v -1 z" />
+    </g>
+    <g id="lineedit-normal-left">
+      <rect width="4" height="16" x="0" y="4" fill="none" />
+      <rect width="1" height="16" x="0.5" y="4" />
+    </g>
+    <g id="lineedit-normal-right">
+      <rect width="4" height="16" x="20" y="4" fill="none" />
+      <rect width="1" height="16" x="22.5" y="4" />
+    </g>
+    <g id="lineedit-normal-bottomleft">
+      <rect width="4" height="4" x="0" y="20" fill="none" />
+      <path d="M 0.5,20 a 3.5,3.5 0 0 0 3.5,3.5 v -1 a 2.5,2.5 0 0 1 -2.5,-2.5 h -1 z" />
+    </g>
+    <g id="lineedit-normal-bottom">
+      <rect width="16" height="4" x="4" y="20" fill="none" />
+      <rect width="16" height="1" x="4" y="22.5" />
+    </g>
+    <g id="lineedit-normal-bottomright">
+      <rect width="4" height="4" x="20" y="20" fill="none" />
+      <path d="M 23.5,20 a 3.5,3.5 0 0 1 -3.5,3.5 v -1 a 2.5,2.5 0 0 0 2.5,-2.5 h 1 z" />
+    </g>
+  </g>
+  <!-- <g id="lineedit-group" transform="translate(0,64)">
     <g id="lineedit-normal-group">
       <g id="lineedit-normal-topleft">
         <rect id="lineedit-normal-topleft-1" width="8" height="8" x="0" y="0" opacity="0" />
@@ -808,7 +864,7 @@
       <path id="lineedit-focused-bottomright" d="M 32,28 a 4,4 0 0 1 -4,4 h -4 v -2 h 4 a 2,2 0 0 0 2,-2 v -4 h 2 z"
         class="pri" />
     </g>
-  </g>
+  </g> -->
   <g id="radio-group" transform="translate(72,64)">
     <g id="radio-normal">
       <circle cx="12" cy="12" r="12" opacity="0" />

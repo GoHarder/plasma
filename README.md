@@ -34,11 +34,11 @@ opacity 0.15
 
 | Name        | original size | custom size |
 | ----------- | ------------- | ----------- |
-| extra-small | 4px           | 2px         |
-| small       | 8px           | 4px         |
-| medium      | 12px          | 6px         |
-| large       | 16px          | 8px         |
-| extra-large | 28px          | 10px        |
+| extra-small | 4px           | 4px         |
+| small       | 8px           | 6px         |
+| medium      | 12px          | 8px         |
+| large       | 16px          | 10px        |
+| extra-large | 28px          | 12px        |
 
 ### System Colors
 
