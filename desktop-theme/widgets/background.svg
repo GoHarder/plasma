@@ -31,24 +31,17 @@
     <linearGradient xlink:href="#ag" id="ag-b" x1="33.5" y1="55.5" x2="33.5" y2="67" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#ag" id="ag-br" cx="51.5" cy="55.5" r="11.5" gradientUnits="userSpaceOnUse" />
   </defs>
-  <path id="topleft" d="m 15.5,5.5 a 10,10 0 0 0 -10,10 h 10 z" class="ColorScheme-Background" fill="currentColor"
-    transform="translate(67)" />
-  <rect id="top" width="36" height="10" x="15.5" y="5.5" class="ColorScheme-Background" fill="currentColor"
-    transform="translate(67)" />
-  <path id="topright" d="m 51.5,5.5 a 10,10 0 0 1 10,10 h -10 z" class="ColorScheme-Background" fill="currentColor"
-    transform="translate(67)" />
-  <rect id="left" width="10" height="36" x="5.5" y="15.5" class="ColorScheme-Background" fill="currentColor"
-    transform="translate(67)" />
-  <rect id="center" width="36" height="36" x="15.5" y="15.5" class="ColorScheme-Background" fill="currentColor"
-    transform="translate(67)" />
-  <rect id="right" width="10" height="36" x="51.5" y="15.5" class="ColorScheme-Background" fill="currentColor"
-    transform="translate(67)" />
-  <path id="bottomleft" d="m 15.5,61.5 a 10,10 0 0 1 -10,-10 h 10 z" class="ColorScheme-Background" fill="currentColor"
-    transform="translate(67)" />
-  <rect id="bottom" width="36" height="10" x="15.5" y="51.5" class="ColorScheme-Background" fill="currentColor"
-    transform="translate(67)" />
-  <path id="bottomright" d="m 51.5,61.5 a 10,10 0 0 0 10,-10 h -10 z" class="ColorScheme-Background" fill="currentColor"
-    transform="translate(67)" />
+  <g class="ColorScheme-Background" fill="currentColor" transform="translate(67)">
+    <path id="topleft" d="m 15.5,5.5 a 10,10 0 0 0 -10,10 h 10 z" />
+    <rect id="top" width="36" height="10" x="15.5" y="5.5" />
+    <path id="topright" d="m 51.5,5.5 a 10,10 0 0 1 10,10 h -10 z" />
+    <rect id="left" width="10" height="36" x="5.5" y="15.5" />
+    <rect id="center" width="36" height="36" x="15.5" y="15.5" />
+    <rect id="right" width="10" height="36" x="51.5" y="15.5" />
+    <path id="bottomleft" d="m 15.5,61.5 a 10,10 0 0 1 -10,-10 h 10 z" />
+    <rect id="bottom" width="36" height="10" x="15.5" y="51.5" />
+    <path id="bottomright" d="m 51.5,61.5 a 10,10 0 0 0 10,-10 h -10 z" />
+  </g>
   <rect id="hint-top-margin" width="2" height="9" x="99.5" y="5.5" fill="#ff00ff" />
   <rect id="hint-left-margin" width="9" height="2" x="72.5" y="32.5" fill="#ff00ff" />
   <rect id="hint-right-margin" width="9" height="2" x="120.5" y="32.5" fill="#ff00ff" />
