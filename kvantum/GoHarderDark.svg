@@ -3,19 +3,19 @@
     <!-- MARK: Style -->
     <style>
       .pri {
-        fill: #00639a;
+        fill: #95ccff;
       }
 
       .on-pri {
-        fill: #ffffff;
+        fill: #003353;
       }
 
       .sec {
-        fill: #51606f;
+        fill: #b9c8da;
       }
 
       .sec-cont {
-        fill: #d5e4f6;
+        fill: #3a4857;
       }
 
       .on-sec-cont {
@@ -23,56 +23,56 @@
       }
 
       .surf {
-        fill: #f9f9fc;
+        fill: #121416
       }
 
       .surf-cont-low {
-        fill: #f3f3f6;
-      }
-
-      .surf-cont {
-        fill: #eeedf1;
-      }
-
-      .surf-cont-high {
-        fill: #e8e8eb;
-      }
-
-      .surf-cont-highest {
-        fill: #e2e2e5;
-      }
-
-      .on-surf {
         fill: #1a1c1e;
       }
 
+      .surf-cont {
+        fill: #1e2022;
+      }
+
+      .surf-cont-high {
+        fill: #282a2d;
+      }
+
+      .surf-cont-highest {
+        fill: #333538;
+      }
+
+      .on-surf {
+        fill: #e2e2e5;
+      }
+
       .on-surf-var {
-        fill: #42474e;
+        fill: #c2c7cf;
       }
 
       .outline {
-        fill: #76777a;
+        fill: #8c9198;
       }
 
       .outline-var {
-        fill: #42474e;
+        fill: #42474e
       }
 
       .surf-var {
-        fill: #dee3eb;
+        fill: #42474e;
       }
 
       .inv-surf {
-        fill: #2f3033;
+        fill: #e2e2e5;
       }
 
       .disabled-back {
-        fill: #2f3033;
+        fill: #e2e2e5;
         opacity: 0.12;
       }
 
       .disabled-text {
-        fill: #2f3033;
+        fill: #e2e2e5;
         opacity: 0.38;
       }
     </style>
