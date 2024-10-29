@@ -1,67 +1,40 @@
-<svg width="54" height="48" viewBox="0 0 54 48" xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<svg width="80" height="60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="lg1">
-      <stop stop-opacity="1" offset="0" id="stop1" />
-      <stop stop-opacity="0.2" offset="0.684" id="stop2" />
-      <stop stop-opacity="0.1" offset="0.789" id="stop3" />
-      <stop stop-opacity="0.051" offset="0.842" id="stop4" />
-      <stop stop-opacity="0" offset="1" id="stop5" />
-    </linearGradient>
-    <radialGradient id="rg1" xlink:href="#lg1" cx="50.876316" cy="10" r="9" gradientUnits="userSpaceOnUse"
-      gradientTransform="matrix(8.4739986e-8,1.0555555,-1.0555556,8.1776915e-8,60.555551,-42.202774)" />
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Highlight {
+        color: #3daee9;
+        stop-color: #3daee9;
+      }
+
+      .ColorScheme-ButtonText {
+        color: #232629;
+        stop-color: #232629;
+      }
+
+      .ColorScheme-ButtonBackground {
+        color: #eff0f1;
+        stop-color: #eff0f1;
+      }
+    </style>
   </defs>
-  <style type="text/css" id="current-color-scheme">
-    .ColorScheme-Highlight {
-      color: #3daee9;
-      stop-color: #3daee9;
-    }
-
-    .ColorScheme-ButtonText {
-      color: #232629;
-      stop-color: #232629;
-    }
-
-    .ColorScheme-ButtonBackground {
-      color: #eff0f1;
-      stop-color: #eff0f1;
-    }
-  </style>
-  <g id="normal">
-    <path d="M 16,8 A 8,8 0 0 1 8,16 8,8 0 0 1 0,8 8,8 0 0 1 8,0 8,8 0 0 1 16,8 Z" class="ColorScheme-ButtonBackground"
-      fill="currentColor" />
+  <circle id="hint-size" cx="10" cy="10" r="10" fill="#ff0000" />
+  <!-- onSurfaceVariant #c2c7cf -->
+  <path id="normal" fill="#c2c7cf"
+    d="M 30,0 a 10,10 0 0 0 -10,10 10,10 0 0 0 10,10 10,10 0 0 0 10,-10 a 10,10 0 0 0 -10,-10 z m 0,2 a 8,8 0 0 1 8,8 8,8 0 0 1 -8,8 8,8 0 0 1 -8,-8 a 8,8 0 0 1 8,-8 z" />
+  <!-- primary #95ccff -->
+  <path id="checked" fill="#95ccff"
+    d="M 50,0 a 10,10 0 0 0 -10,10 10,10 0 0 0 10,10 10,10 0 0 0 10,-10 a 10,10 0 0 0 -10,-10 z m 0,2 a 8,8 0 0 1 8,8 8,8 0 0 1 -8,8 8,8 0 0 1 -8,-8 a 8,8 0 0 1 8,-8 z" />
+  <circle id="symbol" cx="50" cy="10" r="5" fill="#95ccff" />
+  <!-- onSurface #e2e2e5 -->
+  <g id="hover" fill="#e2e2e5" transform="translate(0,20)">
+    <circle cx="20" cy="20" r="20" opacity="0.8" />
     <path
-      d="M 8,0 C 3.5876487,0 0,3.587649 0,8 c 0,4.412351 3.5876487,8 8,8 4.412351,0 8,-3.587649 8,-8 C 16,3.587649 12.412351,0 8,0 Z m 0,1 c 3.871912,0 7,3.128088 7,7 0,3.871912 -3.128088,7 -7,7 C 4.1280883,15 1,11.871912 1,8 1,4.128088 4.1280883,1 8,1 Z"
-      class="ColorScheme-ButtonText" fill="currentColor" opacity="0.2" />
+      d="M 20,10 a 10,10 0 0 0 -10,10 10,10 0 0 0 10,10 10,10 0 0 0 10,-10 a 10,10 0 0 0 -10,-10 z m 0,2 a 8,8 0 0 1 8,8 8,8 0 0 1 -8,8 8,8 0 0 1 -8,-8 a 8,8 0 0 1 8,-8 z" />
   </g>
-  <circle id="symbol" cx="24" cy="8" r="3" class="ColorScheme-ButtonText" fill="currentColor" />
-  <g id="focus" class="ColorScheme-Highlight" fill="currentColor">
+  <g id="focus" fill="#95ccff" transform="translate(40,20)">
+    <circle cx="20" cy="20" r="20" opacity="0.8" />
     <path
-      d="M 42,0 A 10,10 0 0 0 32,10 10,10 0 0 0 42,20 10,10 0 0 0 52,10 10,10 0 0 0 42,0 Z m 0,3 a 7,7 0 0 1 7,7 7,7 0 0 1 -7,7 7,7 0 0 1 -7,-7 7,7 0 0 1 7,-7 z"
-      opacity="0.33" />
-    <path
-      d="m 42,2 c -4.412351,0 -8,3.587649 -8,8 0,4.412351 3.587649,8 8,8 4.412351,0 8,-3.587649 8,-8 0,-4.412351 -3.587649,-8 -8,-8 z m 0,1 c 3.871912,0 7,3.128088 7,7 0,3.871912 -3.128088,7 -7,7 -3.871912,0 -7,-3.128088 -7,-7 0,-3.871912 3.128088,-7 7,-7 z" />
+      d="M 20,10 a 10,10 0 0 0 -10,10 10,10 0 0 0 10,10 10,10 0 0 0 10,-10 a 10,10 0 0 0 -10,-10 z m 0,2 a 8,8 0 0 1 8,8 8,8 0 0 1 -8,8 8,8 0 0 1 -8,-8 a 8,8 0 0 1 8,-8 z" />
   </g>
-  <g id="checked">
-    <path d="m 16,24 a 8,8 0 0 1 -8,8 8,8 0 0 1 -8,-8 8,8 0 0 1 8,-8 8,8 0 0 1 8,8 z"
-      class="ColorScheme-ButtonBackground" fill="currentColor" />
-    <g class="ColorScheme-Highlight" fill="currentColor">
-      <path d="M 15.5,24 A 7.5,7.5 0 0 1 8,31.5 7.5,7.5 0 0 1 0.5,24 7.5,7.5 0 0 1 8,16.5 7.5,7.5 0 0 1 15.5,24 Z"
-        opacity="0.33" />
-      <path
-        d="m 8,16 c -4.412351,0 -8,3.587649 -8,8 0,4.412351 3.587649,8 8,8 4.412351,0 8,-3.587649 8,-8 0,-4.412351 -3.587649,-8 -8,-8 z m 0,1 c 3.871912,0 7,3.128088 7,7 0,3.871912 -3.128088,7 -7,7 -3.871912,0 -7,-3.128088 -7,-7 0,-3.871912 3.128088,-7 7,-7 z" />
-    </g>
-  </g>
-  <g id="hover" style="fill:currentColor" class="ColorScheme-Highlight" transform="translate(16)">
-    <path id="path929-7"
-      d="m 8,16 c -4.4123513,0 -8,3.587649 -8,8 0,4.412351 3.5876487,8 8,8 4.412351,0 8,-3.587649 8,-8 0,-4.412351 -3.587649,-8 -8,-8 z m 0,1 c 3.871912,0 7,3.128088 7,7 0,3.871912 -3.128088,7 -7,7 -3.8719117,0 -7,-3.128088 -7,-7 0,-3.871912 3.1280883,-7 7,-7 z"
-      style="opacity:1;fill-rule:evenodd" />
-  </g>
-  <circle id="hint-size" cx="8" cy="40" r="8" style="fill:#ff0000;fill-rule:evenodd" />
-  <g id="shadow" transform="translate(-7,21)">
-    <rect style="opacity:0.00100002;fill:#0000ff;fill-opacity:0.01;fill-rule:evenodd" id="rect942" width="22"
-      height="22" x="39" y="-1" />
-    <circle style="fill:url(#rg1);fill-opacity:1;fill-rule:evenodd;stroke-width:0.999998" id="path1364" cx="50"
-      cy="11.5" r="9.5" />
-  </g>
+  <circle id="shadow" cx="10" cy="10" r="10" fill="none" />
 </svg>
