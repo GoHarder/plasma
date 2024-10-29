@@ -1,0 +1,1493 @@
+<svg width="210" height="210" viewBox="0 0 210 210" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- MARK: Style -->
+    <style>
+      .pri {
+        fill: #95ccff;
+      }
+
+      .on-pri {
+        fill: #003353;
+      }
+
+      .sec {
+        fill: #b9c8da;
+      }
+
+      .sec-cont {
+        fill: #3a4857;
+      }
+
+      .on-sec-cont {
+        fill: #d5e4f6;
+      }
+
+      .surf {
+        fill: #121416
+      }
+
+      .surf-cont-low {
+        fill: #1a1c1e;
+      }
+
+      .surf-cont {
+        fill: #1e2022;
+      }
+
+      .surf-cont-high {
+        fill: #282a2d;
+      }
+
+      .surf-cont-highest {
+        fill: #333538;
+      }
+
+      .on-surf {
+        fill: #e2e2e5;
+      }
+
+      .on-surf-var {
+        fill: #c2c7cf;
+      }
+
+      .outline {
+        fill: #8c9198;
+      }
+
+      .outline-var {
+        fill: #42474e
+      }
+
+      .surf-var {
+        fill: #42474e;
+      }
+
+      .inv-surf {
+        fill: #e2e2e5;
+      }
+
+      .disabled-back {
+        fill: #e2e2e5;
+        opacity: 0.12;
+      }
+
+      .disabled-text {
+        fill: #e2e2e5;
+        opacity: 0.38;
+      }
+    </style>
+    <!-- MARK: Shapes -->
+    <path id="r-8-tl" d="M 8,0 a 8 8 0 0 0 -8,8 h 8 z" />
+    <rect id="sq-8-tl" width="8" height="8" />
+    <rect id="sq-8-t" width="16" height="8" x="8" />
+    <path id="r-8-tr" d="M 24,0 a 8 8 0 0 1 8,8 h -8 z" />
+    <rect id="sq-8-tr" width="8" height="8" x="24" />
+    <rect id="sq-8-l" width="8" height="16" y="8" />
+    <rect id="sq-8-c" width="16" height="16" x="8" y="8" />
+    <rect id="sq-8-r" width="8" height="16" x="24" y="8" />
+    <path id="r-8-bl" d="M 8,32 a 8 8 0 0 1 -8,-8 h 8 z" />
+    <rect id="sq-8-bl" width="8" height="8" y="24" />
+    <rect id="sq-8-b" width="16" height="8" x="8" y="24" />
+    <path id="r-8-br" d="M 24,32 a 8 8 0 0 0 8,-8 h -8 z" />
+    <rect id="sq-8-br" width="8" height="8" x="24" y="24" />
+    <path id="sizegrip"
+      d="M 2,10 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m -3,-3 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m 0,-3 h 2 v 2 h -2 v -2 z" />
+    <path id="progress-tl" d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" />
+    <rect id="progress-t" width="16" height="2" x="2" y="0" />
+    <path id="progress-tr" d="M 18,0 a 2,2 0 0 1 2,2 h -2 z" />
+    <path id="progress-bl" d="M 2,4 a 2,2 0 0 1 -2,-2 h 2 z" />
+    <rect id="progress-b" width="16" height="2" x="2" y="2" />
+    <path id="progress-br" d="M 18,4 a 2,2 0 0 0 2,-2 h -2 z" />
+    <path id="slider-tl" d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" />
+    <rect id="slider-t" width="2" height="2" x="2" />
+    <path id="slider-tr" d="M 4,0 a 2,2 0 0 1 2,2 h -2 z" />
+    <rect id="slider-l" width="2" height="16" y="2" />
+    <rect id="slider-c" width="2" height="16" x="2" y="2" />
+    <rect id="slider-r" width="2" height="16" x="4" y="2" />
+    <path id="slider-bl" d="M 0,18 a 2,2 0 0 0 2,2 v -2 z" />
+    <rect id="slider-b" width="2" height="2" x="2" y="18" />
+    <path id="slider-br" d="M 6,18 a 2,2 0 0 1 -2,2 v -2 z" />
+    <path id="grip"
+      d="M 2,16 Q 1.175,16 0.588,15.413 0,14.825 0,14 0,13.175 0.588,12.588 1.175,12 2,12 2.825,12 3.413,12.588 4,13.175 4,14 4,14.825 3.413,15.413 2.825,16 2,16 Z M 2,10 Q 1.175,10 0.588,9.413 0,8.825 0,8 0,7.175 0.588,6.588 1.175,6 2,6 2.825,6 3.413,6.588 4,7.175 4,8 4,8.825 3.413,9.413 2.825,10 2,10 Z M 2,4 Q 1.175,4 0.588,3.413 0,2.825 0,2 0,1.175 0.588,0.588 1.175,0 2,0 2.825,0 3.413,0.588 4,1.175 4,2 4,2.825 3.413,3.413 2.825,4 2,4 Z" />
+    <rect id="head-tl" width="1" height="1" />
+    <rect id="head-t" width="16" height="1" x="1" />
+    <rect id="head-tr" width="1" height="1" x="17" />
+    <rect id="head-l" width="1" height="16" y="1" />
+    <rect id="head-c" width="16" height="16" x="1" y="1" />
+    <rect id="head-r" width="1" height="16" x="17" y="1" />
+    <rect id="head-bl" width="1" height="1" y="17" />
+    <rect id="head-b" width="16" height="1" x="1" y="17" />
+    <rect id="head-br" width="1" height="1" x="17" y="17" />
+    <rect id="splitter-tl" width="1" height="1" />
+    <rect id="splitter-t" width="2" height="1" x="1" />
+    <rect id="splitter-tr" width="1" height="1" x="3" />
+    <rect id="splitter-l" width="1" height="14" y="1" />
+    <rect id="splitter-c" width="2" height="14" x="1" y="1" />
+    <rect id="splitter-r" width="1" height="14" x="3" y="1" />
+    <rect id="splitter-bl" width="1" height="1" y="15" />
+    <rect id="splitter-b" width="2" height="1" x="1" y="15" />
+    <rect id="splitter-br" width="1" height="1" x="3" y="15" />
+    <!-- <path id="scroll-tl" d="M 5,0 a 5,5 0 0 0 -5,5 h 5 z" /> -->
+    <rect id="scroll-tl" width="5" height="5" />
+    <!-- <path id="scroll-tr" d="M 5,0 a 5,5 0 0 1 5,5 h -5 z" /> -->
+    <rect id="scroll-tr" width="5" height="5" x="5" />
+    <rect id="scroll-l" width="5" height="6" y="5" />
+    <rect id="scroll-r" width="5" height="6" x="5" y="5" />
+    <!-- <path id="scroll-bl" d="M 5,16 a 5,5 0 0 1 -5,-5 h 5 z" /> -->
+    <rect id="scroll-bl" width="5" height="5" y="11" />
+    <!-- <path id="scroll-br" d="M 5,16 a 5,5 0 0 0 5,-5 h -5 z" /> -->
+    <rect id="scroll-br" width="5" height="5" x="5" y="11" />
+    <!-- MARK: Icons -->
+    <rect id="icon-box" width="10" height="10" opacity="0" />
+    <path id="add" d="M 4.286,5.714 H 0 V 4.286 H 4.286 V 0 H 5.714 V 4.286 H 10 V 5.714 H 5.714 V 10 H 4.286 Z" />
+    <path id="down" d="M 5,7.5 0,2.5 h 10 z" />
+    <path id="left" d="M 6.917,10 1.917,5 6.917,0 8.084,1.166 l -3.834,3.834 3.834,3.834 z" />
+    <path id="minus" d="M -0.002,5.715 V 4.286 H 10.002 v 1.429 z" />
+    <path id="right" d="M 5.75,5 1.917,1.167 3.083,0 l 5,5 -5,5 -1.167,-1.167 z" />
+    <path id="radio-unchk"
+      d="M 12,22 Q 9.925,22 8.1,21.213 6.275,20.425 4.925,19.075 3.575,17.725 2.788,15.9 2,14.075 2,12 2,9.925 2.788,8.1 3.575,6.275 4.925,4.925 6.275,3.575 8.1,2.788 9.925,2 12,2 14.075,2 15.9,2.788 17.725,3.575 19.075,4.925 20.425,6.275 21.213,8.1 22,9.925 22,12 q 0,2.075 -0.788,3.9 -0.788,1.825 -2.138,3.175 -1.35,1.35 -3.175,2.138 Q 14.075,22 12,22 Z m 0,-2 q 3.35,0 5.675,-2.325 Q 20,15.35 20,12 20,8.65 17.675,6.325 15.35,4 12,4 8.65,4 6.325,6.325 4,8.65 4,12 4,15.35 6.325,17.675 8.65,20 12,20 Z m 0,-8 z" />
+    <path id="radio-chk"
+      d="m 12,17 q 2.075,0 3.538,-1.463 Q 17,14.075 17,12 17,9.925 15.538,8.463 14.075,7 12,7 9.925,7 8.463,8.463 7,9.925 7,12 7,14.075 8.463,15.538 9.925,17 12,17 Z m 0,5 Q 9.925,22 8.1,21.213 6.275,20.425 4.925,19.075 3.575,17.725 2.788,15.9 2,14.075 2,12 2,9.925 2.788,8.1 3.575,6.275 4.925,4.925 6.275,3.575 8.1,2.788 9.925,2 12,2 14.075,2 15.9,2.788 17.725,3.575 19.075,4.925 20.425,6.275 21.213,8.1 22,9.925 22,12 q 0,2.075 -0.788,3.9 -0.788,1.825 -2.138,3.175 -1.35,1.35 -3.175,2.138 Q 14.075,22 12,22 Z m 0,-2 q 3.35,0 5.675,-2.325 Q 20,15.35 20,12 20,8.65 17.675,6.325 15.35,4 12,4 8.65,4 6.325,6.325 4,8.65 4,12 4,15.35 6.325,17.675 8.65,20 12,20 Z m 0,-8 z" />
+    <path id="chk-box-frame"
+      d="M 3,5 q 0,-2 2,-2 h 14 q 2,0, 2,2 v 14 q 0,2 -2,2 h -14 q -2,0 -2,-2 v -14 h 2 v 14 h 14 v -14 h -14 v 14 h -2 Z" />
+    <path id="chk-box-back" d="M 0,5 q 0,-5 5,-5 h 14 q 5,0 5,5 v 14 q 0,5 -5,5 h -14 q -5,0 -5,-5 Z" />
+    <path id="chk-box-chk" d="m 10.6,16.2 7.05,-7.05 -1.4,-1.4 -5.65,5.65 -2.85,-2.85 -1.4,1.4 z" />
+    <path id="chk-box-box" d="M 3,5 q 0,-2 2,-2 h 14 q 2,0, 2,2 v 14 q 0,2 -2,2 h -14 q -2,0 -2,-2 Z" />
+    <path id="chk-box-dash" d="M 7,13 H 17 V 11 H 7 Z " />
+    <path id="up" d="m 0,7.5 5,-5 5,5 z" />
+    <path id="maximize" d="M 0,9 V 1 H 10 V 9 Z M 1,8 H 9 V 3 H 1 Z" />
+    <path id="restore"
+      d="M 0,10 V 3.5 H 2 V 0 h 8 V 6.5 H 8 V 10 Z M 1,9 H 7 V 5.5 H 1 Z M 8,5.5 H 9 V 2 H 3 v 1.5 h 5 z" />
+    <path id="minimize" d="m 0,5.625 v -1.25 h 10 v 1.25 z" />
+    <path id="close" d="M 1,10 0,9 4,5 0,1 1,0 5,4 9,0 l 1,1 L 6,5 l 4,4 -1,1 L 5,6 Z" />
+    <path id="shade"
+      d="M 0.556,1.111 V 0 h 8.889 V 1.111 Z M 4.444,10 V 4.333 L 3,5.778 2.222,5 5,2.222 7.778,5 7,5.778 5.556,4.333 V 10 Z" />
+    <path id="menu"
+      d="m 0,8.333 v -1.111 h 10 v 1.111 z m 0,-2.778 v -1.111 h 10 v 1.111 z m 0,-2.778 v -1.111 h 10 v 1.111 z" />
+    <!-- MARK: Gradients -->
+    <radialGradient id="slider-bg">
+      <stop stop-opacity="1" offset="0.875" />
+      <stop stop-opacity="0" offset="1" />
+    </radialGradient>
+    <radialGradient id="slider-ag">
+      <stop stop-opacity="1" offset="0.8" />
+      <stop stop-opacity="0" offset="1" />
+    </radialGradient>
+    <linearGradient id="menu-bg">
+      <stop stop-opacity="1" offset="0.5" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <linearGradient xlink:href="#menu-bg" id="menu-bgl" x1="5" y1="14" x2="1" y2="14" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-bg" id="menu-bgr" x1="29" y1="14" x2="33" y2="14"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-bg" id="menu-bgbl" cx="5" cy="22" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-bg" id="menu-bgb" x1="17" y1="22" x2="17" y2="26"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-bg" id="menu-bgbr" cx="29" cy="22" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient id="menu-ag">
+      <stop offset="0" stop-opacity="0.833" />
+      <stop offset="1" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient xlink:href="#menu-ag" id="menu-agtl" cx="5" cy="7" r="5" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-ag" id="menu-agtr" cx="29" cy="7" r="5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-ag" id="menu-agl" x1="5" y1="15" x2="0" y2="15" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-ag" id="menu-agr" x1="29" y1="15" x2="34" y2="15"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-ag" id="menu-agbl" cx="5" cy="23" r="5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#menu-ag" id="menu-agb" x1="17" y1="23" x2="17" y2="28"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#menu-ag" id="menu-agbr" cx="29" cy="23" r="5" gradientUnits="userSpaceOnUse" />
+    <linearGradient id="tt-bg">
+      <stop stop-opacity="1" offset="0.5" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <radialGradient xlink:href="#tt-bg" id="tt-bgtl" cx="4.5" cy="5.5" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#tt-bg" id="tt-bgt" x1="12.5" y1="5.5" x2="12.5" y2="1.5"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#tt-bg" id="tt-bgtr" cx="20.5" cy="5.5" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#tt-bg" id="tt-bgl" x1="4.5" y1="7.5" x2="0.5" y2="7.5"
+      gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#tt-bg" id="tt-bgr" x1="20.5" y1="7.5" x2="24.5" y2="7.5"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#tt-bg" id="tt-bgbl" cx="4.5" cy="9.5" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#tt-bg" id="tt-bgb" x1="12.5" y1="9.5" x2="12.5" y2="13.5"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#tt-bg" id="tt-bgbr" cx="20.5" cy="9.5" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient id="tt-ag">
+      <stop stop-opacity="1" offset="0.33" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <radialGradient xlink:href="#tt-ag" id="tt-agtl" cx="4.5" cy="5.5" r="4.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#tt-ag" id="tt-agt" x1="12.5" y1="5.5" x2="12.5" y2="1"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#tt-ag" id="tt-agtr" cx="20.5" cy="5.5" r="4.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#tt-ag" id="tt-agl" x1="4.5" y1="7.5" x2="0" y2="7.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#tt-ag" id="tt-agr" x1="20.5" y1="7.5" x2="25" y2="7.5"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#tt-ag" id="tt-agbl" cx="4.5" cy="9.5" r="4.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#tt-ag" id="tt-agb" x1="12.5" y1="9.5" x2="12.5" y2="14"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#tt-ag" id="tt-agbr" cx="20.5" cy="9.5" r="4.5" gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g id="button-group">
+    <g id="button-normal-group">
+      <use id="button-normal-topleft" href="#r-8-tl" class="sec-cont" />
+      <use id="button-normal-top" href="#sq-8-t" class="sec-cont" />
+      <use id="button-normal-topright" href="#r-8-tr" class="sec-cont" />
+      <use id="button-normal-left" href="#sq-8-l" class="sec-cont" />
+      <use id="button-normal" href="#sq-8-c" class="sec-cont" />
+      <use id="button-normal-right" href="#sq-8-r" class="sec-cont" />
+      <use id="button-normal-bottomleft" href="#r-8-bl" class="sec-cont" />
+      <use id="button-normal-bottom" href="#sq-8-b" class="sec-cont" />
+      <use id="button-normal-bottomright" href="#r-8-br" class="sec-cont" />
+    </g>
+    <g id="button-focused-group" transform="translate(32)">
+      <g id="button-focused-topleft">
+        <use href="#button-normal-topleft" />
+        <use href="#r-8-tl" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="button-focused-top">
+        <use href="#button-normal-top" />
+        <use href="#sq-8-t" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="button-focused-topright">
+        <use href="#button-normal-topright" />
+        <use href="#r-8-tr" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="button-focused-left">
+        <use href="#button-normal-left" />
+        <use href="#sq-8-l" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="button-focused">
+        <use href="#button-normal" />
+        <use href="#sq-8-c" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="button-focused-right">
+        <use href="#button-normal-right" />
+        <use href="#sq-8-r" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="button-focused-bottomleft">
+        <use href="#button-normal-bottomleft" />
+        <use href="#r-8-bl" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="button-focused-bottom">
+        <use href="#button-normal-bottom" />
+        <use href="#sq-8-b" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="button-focused-bottomright">
+        <use href="#button-normal-bottomright" />
+        <use href="#r-8-br" class="on-sec-cont" opacity="0.08" />
+      </g>
+    </g>
+    <g id="button-pressed-group" transform="translate(64)">
+      <g id="button-pressed-topleft">
+        <use href="#button-normal-topleft" />
+        <use href="#r-8-tl" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="button-pressed-top">
+        <use href="#button-normal-top" />
+        <use href="#sq-8-t" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="button-pressed-topright">
+        <use href="#button-normal-topright" />
+        <use href="#r-8-tr" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="button-pressed-left">
+        <use href="#button-normal-left" />
+        <use href="#sq-8-l" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="button-pressed">
+        <use href="#button-normal" />
+        <use href="#sq-8-c" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="button-pressed-right">
+        <use href="#button-normal-right" />
+        <use href="#sq-8-r" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="button-pressed-bottomleft">
+        <use href="#button-normal-bottomleft" />
+        <use href="#r-8-bl" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="button-pressed-bottom">
+        <use href="#button-normal-bottom" />
+        <use href="#sq-8-b" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="button-pressed-bottomright">
+        <use href="#button-normal-bottomright" />
+        <use href="#r-8-br" class="on-sec-cont" opacity="0.1" />
+      </g>
+    </g>
+    <g id="button-toggled-group" transform="translate(96)">
+      <use id="button-toggled-topleft" href="#r-8-tl" class="sec" />
+      <use id="button-toggled-top" href="#sq-8-t" class="sec" />
+      <use id="button-toggled-topright" href="#r-8-tr" class="sec" />
+      <use id="button-toggled-left" href="#sq-8-l" class="sec" />
+      <use id="button-toggled" href="#sq-8-c" class="sec" />
+      <use id="button-toggled-right" href="#sq-8-r" class="sec" />
+      <use id="button-toggled-bottomleft" href="#r-8-bl" class="sec" />
+      <use id="button-toggled-bottom" href="#sq-8-b" class="sec" />
+      <use id="button-toggled-bottomright" href="#r-8-br" class="sec" />
+    </g>
+    <g id="button-default-group" transform="translate(128)">
+      <use id="border-button-default-topleft" href="#r-8-tl" class="sec" />
+      <use id="border-button-default-top" href="#sq-8-t" class="sec" />
+      <use id="border-button-default-topright" href="#r-8-tr" class="sec" />
+      <use id="border-button-default-left" href="#sq-8-l" class="sec" />
+      <use id="border-button-default" href="#sq-8-c" class="sec" />
+      <use id="border-button-default-right" href="#sq-8-r" class="sec" />
+      <use id="border-button-default-bottomleft" href="#r-8-bl" class="sec" />
+      <use id="border-button-default-bottom" href="#sq-8-b" class="sec" />
+      <use id="border-button-default-bottomright" href="#r-8-br" class="sec" />
+      <use id="button-default-topleft" href="#button-normal-topleft" />
+      <use id="button-default-top" href="#button-normal-top" />
+      <use id="button-default-topright" href="#button-normal-topright" />
+      <use id="button-default-left" href="#button-normal-left" />
+      <use id="button-default" href="#button-normal" />
+      <use id="button-default-right" href="#button-normal-right" />
+      <use id="button-default-bottomleft" href="#button-normal-bottomleft" />
+      <use id="button-default-bottom" href="#button-normal-bottom" />
+      <use id="button-default-bottomright" href="#button-normal-bottomright" />
+    </g>
+    <g id="ar-1-down-normal">
+      <use href="#icon-box" />
+      <use href="#down" class="on-sec-cont" />
+    </g>
+    <g id="ar-1-down-focused" transform="translate(10)">
+      <use href="#icon-box" />
+      <use href="#down" class="on-sec-cont" />
+    </g>
+    <g id="ar-1-down-pressed" transform="translate(20)">
+      <use href="#icon-box" />
+      <use href="#down" class="on-sec-cont" />
+    </g>
+    <g id="ar-1-down-disabled" transform="translate(30)">
+      <use href="#icon-box" />
+      <use href="#down" class="disabled-text" />
+    </g>
+    <rect id="button-default-indicator" width="5" height="5" opacity="0" />
+  </g>
+  <g id="tool-button-group" transform="translate(0,32)">
+    <g id="tool-button-normal-group">
+      <g id="border-tool-button-normal-topleft">
+        <use href="#r-8-tl" opacity="0" />
+        <path id="tb-normal-tl-3" d="M 8,0 a 8,8 0 0 0 -8,8 h 0.5 a 7.5,7.5 0 0 1 7.5,-7.5 z" class="outline" />
+      </g>
+      <g id="border-tool-button-normal-top">
+        <use href="#sq-8-t" opacity="0" />
+        <rect id="tb-normal-t-3" width="16" height="0.5" x="8" class="outline" />
+      </g>
+      <g id="border-tool-button-normal-topright">
+        <use href="#r-8-tr" opacity="0" />
+        <path id="tb-normal-tr-3" d="M 24,0 a 8,8 0 0 1 8,8 h -0.5 a 7.5,7.5 0 0 0 -7.5,-7.5 z" class="outline" />
+      </g>
+      <g id="border-tool-button-normal-bottomleft">
+        <use href="#r-8-bl" opacity="0" />
+        <path id="tb-normal-bl-3" d="M 8,32 a 8,8 0 0 1 -8,-8 h 0.5 a 7.5,7.5 0 0 0 7.5,7.5 z" class="outline" />
+      </g>
+      <g id="border-tool-button-normal-bottom">
+        <use href="#sq-8-b" opacity="0" />
+        <rect id="tb-normal-b-3" width="16" height="0.5" x="8" y="31.5" class="outline" />
+      </g>
+      <g id="border-tool-button-normal-bottomright">
+        <use href="#r-8-br" opacity="0" />
+        <path id="tb-normal-br-3" d="M 24,32 a 8,8 0 0 0 8,-8 h -0.5 a 7.5,7.5 0 0 1 -7.5,7.5 z" class="outline" />
+      </g>
+      <use id="expand-tool-button-normal-topleft" href="#r-8-tl" opacity="0" />
+      <use id="expand-tool-button-normal-top" href="#sq-8-t" opacity="0" />
+      <use id="expand-tool-button-normal-topright" href="#r-8-tr" opacity="0" />
+      <use id="expand-tool-button-normal-bottomleft" href="#r-8-bl" opacity="0" />
+      <use id="expand-tool-button-normal-bottom" href="#sq-8-b" opacity="0" />
+      <use id="expand-tool-button-normal-bottomright" href="#r-8-br" opacity="0" />
+      <g id="tool-button-normal-topleft">
+        <use id="tb-normal-tl-1" href="#r-8-tl" opacity="0" />
+        <path id="tb-normal-tl-2" d="M 8,0 a 8,8 0 0 0 -8,8 h 1 a 7,7 0 0 1 7,-7 z" class="outline" />
+      </g>
+      <g id="tool-button-normal-top">
+        <use id="tb-normal-t-1" href="#sq-8-t" opacity="0" />
+        <rect id="tb-normal-t-2" width="16" height="1" x="8" class="outline" />
+      </g>
+      <g id="tool-button-normal-topright">
+        <use id="tb-normal-tr-1" href="#r-8-tr" opacity="0" />
+        <path id="tb-normal-tr-2" d="M 24,0 a 8,8 0 0 1 8,8 h -1 a 7,7 0 0 0 -7,-7 z" class="outline" />
+      </g>
+      <g id="tool-button-normal-left">
+        <use id="tb-normal-l-1" href="#sq-8-l" opacity="0" />
+        <rect id="tb-normal-l-2" width="1" height="16" y="8" class="outline" />
+      </g>
+      <use id="tool-button-normal" href="#sq-8-c" opacity="0" />
+      <g id="tool-button-normal-right">
+        <use id="tb-normal-r-1" href="#sq-8-r" opacity="0" />
+        <rect id="tb-normal-r-2" width="1" height="16" x="31" y="8" class="outline" />
+      </g>
+      <g id="tool-button-normal-bottomleft">
+        <use id="tb-normal-bl-1" href="#r-8-bl" opacity="0" />
+        <path id="tb-normal-bl-2" d="M 8,32 a 8,8 0 0 1 -8,-8 h 1 a 7,7 0 0 0 7,7 z" class="outline" />
+      </g>
+      <g id="tool-button-normal-bottom">
+        <use id="tb-normal-b-1" href="#sq-8-t" y="24" opacity="0" />
+        <rect id="tb-normal-b-2" width="16" height="1" x="8" y="31" class="outline" />
+      </g>
+      <g id="tool-button-normal-bottomright">
+        <use id="tb-normal-br-1" href="#r-8-br" opacity="0" />
+        <path id="tb-normal-br-2" d="M 24,32 a 8,8 0 0 0 8,-8 h -1 a 7,7 0 0 1 -7,7 z" class="outline" />
+      </g>
+    </g>
+    <g id="tool-button-focused-group" transform="translate(32)">
+      <g id="border-tool-button-focused-topleft">
+        <use href="#border-tool-button-normal-topleft" />
+        <use href="#r-8-tl" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="border-tool-button-focused-top">
+        <use href="#border-tool-button-normal-top" />
+        <use href="#sq-8-t" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="border-tool-button-focused-topright">
+        <use href="#border-tool-button-normal-topright" />
+        <use href="#r-8-tr" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="border-tool-button-focused-bottomleft">
+        <use href="#border-tool-button-normal-bottomleft" />
+        <use href="#r-8-bl" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="border-tool-button-focused-bottom">
+        <use href="#border-tool-button-normal-bottom" />
+        <use href="#sq-8-b" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="border-tool-button-focused-bottomright">
+        <use href="#border-tool-button-normal-bottomright" />
+        <use href="#r-8-br" class="on-surf" opacity="0.08" />
+      </g>
+      <use id="expand-tool-button-focused-topleft" href="#r-8-tl" opacity="0" />
+      <use id="expand-tool-button-focused-top" href="#sq-8-t" opacity="0" />
+      <use id="expand-tool-button-focused-topright" href="#r-8-tr" opacity="0" />
+      <use id="expand-tool-button-focused-bottomleft" href="#r-8-bl" opacity="0" />
+      <use id="expand-tool-button-focused-bottom" href="#sq-8-b" opacity="0" />
+      <use id="expand-tool-button-focused-bottomright" href="#r-8-br" opacity="0" />
+      <g id="tool-button-focused-topleft">
+        <use href="#tool-button-normal-topleft" />
+        <use href="#r-8-tl" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-top">
+        <use href="#tool-button-normal-top" />
+        <use href="#sq-8-t" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-topright">
+        <use href="#tool-button-normal-topright" />
+        <use href="#r-8-tr" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-left">
+        <use href="#tool-button-normal-left" />
+        <use href="#sq-8-l" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused">
+        <use href="#tool-button-normal" />
+        <use href="#sq-8-c" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-right">
+        <use href="#tool-button-normal-right" />
+        <use href="#sq-8-r" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-bottomleft">
+        <use href="#tool-button-normal-bottomleft" />
+        <use href="#r-8-bl" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-bottom">
+        <use href="#tool-button-normal-bottom" />
+        <use href="#sq-8-b" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-bottomright">
+        <use href="#tool-button-normal-bottomright" />
+        <use href="#r-8-br" class="on-surf" opacity="0.08" />
+      </g>
+    </g>
+    <g id="tool-button-pressed-group" transform="translate(64)">
+      <g id="border-tool-button-pressed-topleft">
+        <use href="#border-tool-button-normal-topleft" />
+        <use href="#r-8-tl" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="border-tool-button-pressed-top">
+        <use href="#border-tool-button-normal-top" />
+        <use href="#sq-8-t" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="border-tool-button-pressed-topright">
+        <use href="#border-tool-button-normal-topright" />
+        <use href="#r-8-tr" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="border-tool-button-pressed-bottomleft">
+        <use href="#border-tool-button-normal-bottomleft" />
+        <use href="#r-8-bl" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="border-tool-button-pressed-bottom">
+        <use href="#border-tool-button-normal-bottom" />
+        <use href="#sq-8-b" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="border-tool-button-pressed-bottomright">
+        <use href="#border-tool-button-normal-bottomright" />
+        <use href="#r-8-br" class="on-surf" opacity="0.1" />
+      </g>
+      <use id="expand-tool-button-pressed-topleft" href="#r-8-tl" opacity="0" />
+      <use id="expand-tool-button-pressed-top" href="#sq-8-t" opacity="0" />
+      <use id="expand-tool-button-pressed-topright" href="#r-8-tr" opacity="0" />
+      <use id="expand-tool-button-pressed-bottomleft" href="#r-8-bl" opacity="0" />
+      <use id="expand-tool-button-pressed-bottom" href="#sq-8-b" opacity="0" />
+      <use id="expand-tool-button-pressed-bottomright" href="#r-8-br" opacity="0" />
+      <g id="tool-button-pressed-topleft">
+        <use href="#tool-button-normal-topleft" />
+        <use href="#r-8-tl" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-top">
+        <use href="#tool-button-normal-top" />
+        <use href="#sq-8-t" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-topright">
+        <use href="#tool-button-normal-topright" />
+        <use href="#r-8-tr" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-left">
+        <use href="#tool-button-normal-left" />
+        <use href="#sq-8-l" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed">
+        <use href="#tool-button-normal" />
+        <use href="#sq-8-c" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-right">
+        <use href="#tool-button-normal-right" />
+        <use href="#sq-8-r" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-bottomleft">
+        <use href="#tool-button-normal-bottomleft" />
+        <use href="#r-8-bl" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-bottom">
+        <use href="#tool-button-normal-bottom" />
+        <use href="#sq-8-b" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-bottomright">
+        <use href="#tool-button-normal-bottomright" />
+        <use href="#r-8-br" class="on-surf" opacity="0.1" />
+      </g>
+    </g>
+    <g id="tool-button-toggled-group" transform="translate(96)">
+      <g id="border-tool-button-toggled-topleft">
+        <use href="#r-8-tl" opacity="0" />
+        <use href="#tb-normal-tl-3" />
+      </g>
+      <g id="border-tool-button-toggled-top">
+        <use href="#sq-8-t" opacity="0" />
+        <use href="#tb-normal-t-3" />
+      </g>
+      <g id="border-tool-button-toggled-topright">
+        <use href="#r-8-tr" opacity="0" />
+        <use href="#tb-normal-tr-3" />
+      </g>
+      <g id="border-tool-button-toggled-bottomleft">
+        <use href="#r-8-bl" opacity="0" />
+        <use href="#tb-normal-bl-3" />
+      </g>
+      <g id="border-tool-button-toggled-bottom">
+        <use href="#sq-8-b" opacity="0" />
+        <use href="#tb-normal-b-3" />
+      </g>
+      <g id="border-tool-button-toggled-bottomright">
+        <use href="#r-8-br" opacity="0" />
+        <use href="#tb-normal-br-3" />
+      </g>
+      <use id="expand-tool-button-toggled-topleft" href="#r-8-tl" class="sec-cont" />
+      <use id="expand-tool-button-toggled-top" href="#sq-8-t" class="sec-cont" />
+      <use id="expand-tool-button-toggled-topright" href="#r-8-tr" class="sec-cont" />
+      <use id="expand-tool-button-toggled-bottomleft" href="#r-8-bl" class="sec-cont" />
+      <use id="expand-tool-button-toggled-bottom" href="#sq-8-b" class="sec-cont" />
+      <use id="expand-tool-button-toggled-bottomright" href="#r-8-br" class="sec-cont" />
+      <g id="tool-button-toggled-topleft">
+        <use href="#r-8-tl" class="sec-cont" />
+        <use href="#tb-normal-tl-2" />
+      </g>
+      <g id="tool-button-toggled-top">
+        <use href="#sq-8-t" class="sec-cont" />
+        <use href="#tb-normal-t-2" />
+      </g>
+      <g id="tool-button-toggled-topright">
+        <use href="#r-8-tr" class="sec-cont" />
+        <use href="#tb-normal-tr-2" />
+      </g>
+      <g id="tool-button-toggled-left">
+        <use href="#sq-8-l" class="sec-cont" />
+        <use href="#tb-normal-l-2" />
+      </g>
+      <use id="tool-button-toggled" href="#sq-8-c" class="sec-cont" />
+      <g id="tool-button-toggled-right">
+        <use href="#sq-8-r" class="sec-cont" />
+        <use href="#tb-normal-r-2" />
+      </g>
+      <g id="tool-button-toggled-bottomleft">
+        <use href="#r-8-bl" class="sec-cont" />
+        <use href="#tb-normal-bl-2" />
+      </g>
+      <g id="tool-button-toggled-bottom">
+        <use href="#sq-8-b" class="sec-cont" />
+        <use href="#tb-normal-b-2" />
+      </g>
+      <g id="tool-button-toggled-bottomright">
+        <use href="#r-8-br" class="sec-cont" />
+        <use href="#tb-normal-br-2" />
+      </g>
+    </g>
+    <g id="tool-button-sep-group" transform="translate(128)">
+      <g id="tool-button-separator-top">
+        <rect width="8" height="8" opacity="0" />
+        <path d="M 0,0 h 8 v 8 h -1 v -7 h -7  Z" class="outline" />
+      </g>
+      <g id="tool-button-separator">
+        <rect width="8" height="16" y="8" opacity="0" />
+        <rect width="1" height="16" x="7" y="8" class="outline" />
+      </g>
+      <g id="tool-button-separator-bottom">
+        <rect width="8" height="8" y="24" opacity="0" />
+        <path d="M 0,32 h 8 v -8 h -1 v 7 h -7  Z" class="outline" />
+      </g>
+    </g>
+    <g id="arrow-up-normal">
+      <use href="#icon-box" />
+      <use href="#up" class="on-surf" />
+    </g>
+    <g id="arrow-down-normal" transform="translate(0,10)">
+      <use href="#icon-box" />
+      <use href="#down" class="on-surf" />
+    </g>
+    <g id="arrow-left-normal" transform="translate(0,20)">
+      <use href="#icon-box" />
+      <use href="#left" class="on-surf" />
+    </g>
+    <g id="arrow-right-normal" transform="translate(40)">
+      <use href="#icon-box" />
+      <use href="#right" class="on-surf" />
+    </g>
+    <g id="arrow-add-normal" transform="translate(40,10)">
+      <use href="#icon-box" />
+      <use href="#add" class="on-surf" />
+    </g>
+    <g id="arrow-minus-normal" transform="translate(40,20)">
+      <use href="#icon-box" />
+      <use href="#minus" class="on-surf" />
+    </g>
+    <g id="arrow-up-focused" transform="translate(10)">
+      <use href="#icon-box" />
+      <use href="#up" class="on-surf" />
+    </g>
+    <g id="arrow-down-focused" transform="translate(10,10)">
+      <use href="#icon-box" />
+      <use href="#down" class="on-surf" />
+    </g>
+    <g id="arrow-left-focused" transform="translate(10,20)">
+      <use href="#icon-box" />
+      <use href="#left" class="on-surf" />
+    </g>
+    <g id="arrow-right-focused" transform="translate(50)">
+      <use href="#icon-box" />
+      <use href="#right" class="on-surf" />
+    </g>
+    <g id="arrow-add-focused" transform="translate(50,10)">
+      <use href="#icon-box" />
+      <use href="#add" class="on-surf" />
+    </g>
+    <g id="arrow-minus-focused" transform="translate(50,20)">
+      <use href="#icon-box" />
+      <use href="#minus" class="on-surf" />
+    </g>
+    <g id="arrow-up-pressed" transform="translate(20)">
+      <use href="#icon-box" />
+      <use href="#up" class="on-surf-var" />
+    </g>
+    <g id="arrow-down-pressed" transform="translate(20,10)">
+      <use href="#icon-box" />
+      <use href="#down" class="on-surf-var" />
+    </g>
+    <g id="arrow-left-pressed" transform="translate(20,20)">
+      <use href="#icon-box" />
+      <use href="#left" class="on-surf-var" />
+    </g>
+    <g id="arrow-right-pressed" transform="translate(60)">
+      <use href="#icon-box" />
+      <use href="#right" class="on-surf-var" />
+    </g>
+    <g id="arrow-add-pressed" transform="translate(60,10)">
+      <use href="#icon-box" />
+      <use href="#add" class="on-surf-var" />
+    </g>
+    <g id="arrow-minus-pressed" transform="translate(60,20)">
+      <use href="#icon-box" />
+      <use href="#minus" class="on-surf-var" />
+    </g>
+    <g id="arrow-up-disabled" transform="translate(30)">
+      <use href="#icon-box" />
+      <use href="#up" class="disabled-text" />
+    </g>
+    <g id="arrow-down-disabled" transform="translate(30,10)">
+      <use href="#icon-box" />
+      <use href="#down" class="disabled-text" />
+    </g>
+    <g id="arrow-left-disabled" transform="translate(30,20)">
+      <use href="#icon-box" />
+      <use href="#left" class="disabled-text" />
+    </g>
+    <g id="arrow-right-disabled" transform="translate(70)">
+      <use href="#icon-box" />
+      <use href="#right" class="disabled-text" />
+    </g>
+    <g id="arrow-add-disabled" transform="translate(70,10)">
+      <use href="#icon-box" />
+      <use href="#add" class="disabled-text" />
+    </g>
+    <g id="arrow-minus-disabled" transform="translate(70,20)">
+      <use href="#icon-box" />
+      <use href="#minus" class="disabled-text" />
+    </g>
+  </g>
+  <g id="x-lineedit-focused" transform="translate(24,0)" class="pri">
+    <path id="lineedit-focused-topleft" d="M 4,0 a 4,4 0 0 0 -4,4 h 2 a 2,2 0 0 1 2,-2 v -2 z" />
+    <g id="lineedit-focused-top">
+      <rect width="16" height="2" x="4" y="0" />
+      <rect width="16" height="4" x="4" y="0" fill="none" />
+    </g>
+    <path id="lineedit-focused-topright" d="M 20,0 a 4,4 0 0 1 4,4 h -2 a 2,2 0 0 0 -2,-2 v -2 z" />
+    <g id="lineedit-focused-left">
+      <rect width="2" height="16" x="0" y="4" />
+      <rect width="4" height="16" x="0" y="4" fill="none" />
+    </g>
+    <g id="lineedit-focused-right">
+      <rect width="2" height="16" x="22" y="4" />
+      <rect width="4" height="16" x="20" y="4" fill="none" />
+    </g>
+    <path id="lineedit-focused-bottomleft" d="M 0,20 a 4,4 0 0 0 4,4 v -2 a 2,2 0 0 1 -2,-2 h -2 z" />
+    <g id="lineedit-focused-bottom">
+      <rect width="16" height="2" x="4" y="22" />
+      <rect width="16" height="4" x="4" y="20" fill="none" />
+    </g>
+    <path id="lineedit-focused-bottomright" d="M 24,20 a 4,4 0 0 1 -4,4 v -2 a 2,2 0 0 0 2,-2 h 2 z" />
+  </g>
+  <g id="x-lineedit-normal" transform="translate(0,0)" class="outline">
+    <g id="lineedit-normal-topleft">
+      <rect width="4" height="4" x="0" y="0" fill="none" />
+      <path d="M 4,0.5 a 3.5,3.5 0 0 0 -3.5,3.5 h 1 a 2.5,2.5 0 0 1 2.5,-2.5 v -1 z" />
+    </g>
+    <g id="lineedit-normal-top">
+      <rect width="16" height="4" x="4" y="0" fill="none" />
+      <rect width="16" height="1" x="4" y="0.5" />
+    </g>
+    <g id="lineedit-normal-topright">
+      <rect width="4" height="4" x="20" y="0" fill="none" />
+      <path d="M 20,0.5 a 3.5,3.5 0 0 1 3.5,3.5 h -1 a 2.5,2.5 0 0 0 -2.5,-2.5 v -1 z" />
+    </g>
+    <g id="lineedit-normal-left">
+      <rect width="4" height="16" x="0" y="4" fill="none" />
+      <rect width="1" height="16" x="0.5" y="4" />
+    </g>
+    <g id="lineedit-normal-right">
+      <rect width="4" height="16" x="20" y="4" fill="none" />
+      <rect width="1" height="16" x="22.5" y="4" />
+    </g>
+    <g id="lineedit-normal-bottomleft">
+      <rect width="4" height="4" x="0" y="20" fill="none" />
+      <path d="M 0.5,20 a 3.5,3.5 0 0 0 3.5,3.5 v -1 a 2.5,2.5 0 0 1 -2.5,-2.5 h -1 z" />
+    </g>
+    <g id="lineedit-normal-bottom">
+      <rect width="16" height="4" x="4" y="20" fill="none" />
+      <rect width="16" height="1" x="4" y="22.5" />
+    </g>
+    <g id="lineedit-normal-bottomright">
+      <rect width="4" height="4" x="20" y="20" fill="none" />
+      <path d="M 23.5,20 a 3.5,3.5 0 0 1 -3.5,3.5 v -1 a 2.5,2.5 0 0 0 2.5,-2.5 h 1 z" />
+    </g>
+  </g>
+  <g id="radio-group" transform="translate(72,64)">
+    <g id="radio-normal">
+      <circle cx="12" cy="12" r="12" opacity="0" />
+      <use href="#radio-unchk" class="on-surf-var" />
+    </g>
+    <g id="radio-focused">
+      <circle cx="12" cy="36" r="12" class="on-surf" opacity="0.1" />
+      <use href="#radio-unchk" x="0" y="24" class="on-surf" />
+    </g>
+    <g id="radio-checked-normal">
+      <circle cx="36" cy="12" r="12" opacity="0" />
+      <use href="#radio-chk" x="24" y="0" class="pri" />
+    </g>
+    <g id="radio-checked-focused">
+      <circle cx="36" cy="36" r="12" class="pri" opacity="0.1" />
+      <use href="#radio-chk" x="24" y="24" class="pri" />
+    </g>
+  </g>
+  <g id="checkbox-group" transform="translate(0,96)">
+    <g id="checkbox-normal">
+      <use href="#chk-box-back" x="0" y="0" opacity="0" />
+      <use href="#chk-box-frame" x="0" y="0" class="on-surf-var" />
+    </g>
+    <g id="checkbox-focused">
+      <use href="#chk-box-back" x="0" y="24" class="on-surf" opacity="0.1" />
+      <use href="#chk-box-frame" x="0" y="24" class="on-surf" />
+    </g>
+    <g id="checkbox-checked-normal">
+      <use href="#chk-box-back" x="24" y="0" opacity="0" />
+      <use href="#chk-box-box" x="24" y="0" class="pri" />
+      <use href="#chk-box-chk" x="24" y="0" class="on-pri" />
+    </g>
+    <g id="checkbox-checked-focused">
+      <use href="#chk-box-back" x="24" y="24" class="pri" opacity="0.1" />
+      <use href="#chk-box-box" x="24" y="24" class="pri" />
+      <use href="#chk-box-chk" x="24" y="24" class="on-pri" />
+    </g>
+    <g id="checkbox-tristate-normal">
+      <use href="#chk-box-back" x="48" y="0" opacity="0" />
+      <use href="#chk-box-box" x="48" y="0" class="pri" />
+      <use href="#chk-box-dash" x="48" y="0" class="on-pri" />
+    </g>
+    <g id="checkbox-tristate-focused">
+      <use href="#chk-box-back" x="48" y="24" class="pri" opacity="0.1" />
+      <use href="#chk-box-box" x="48" y="24" class="pri" />
+      <use href="#chk-box-dash" x="48" y="24" class="on-pri" />
+    </g>
+  </g>
+  <g id="common-group" transform="translate(120,64)">
+    <use id="common-normal-topleft" href="#r-8-tl" class="surf-cont" />
+    <use id="common-normal-top" href="#sq-8-t" class="surf-cont" />
+    <use id="common-normal-topright" href="#r-8-tr" class="surf-cont" />
+    <use id="common-normal-left" href="#sq-8-l" class="surf-cont" />
+    <use id="common-normal" href="#sq-8-c" class="surf-cont" />
+    <use id="common-normal-right" href="#sq-8-l" x="24" class="surf-cont" />
+    <use id="common-normal-bottomleft" href="#r-8-bl" class="surf-cont" />
+    <use id="common-normal-bottom" href="#sq-8-t" y="24" class="surf-cont" />
+    <use id="common-normal-bottomright" href="#r-8-br" class="surf-cont" />
+  </g>
+  <g id="toolbar-group" transform="translate(136,32)">
+    <use id="toolbar-normal" x="-8" y="-8" href="#sq-8-c" class="surf-cont-high" />
+    <rect id="toolbar-separator" width="8" height="10" opacity="0" />
+    <g id="toolbar-handle">
+      <rect width="8" height="32" opacity="0" />
+      <path d="M 7,24 H 5 V 8 H 7 Z M 3,24 H 1 V 8 h 2 z" class="disabled-text" />
+    </g>
+  </g>
+  <g id="sizegrip-group" transform="translate(120,96)">
+    <use id="sizegrip-normal" href="#sizegrip" class="on-surf-var" opacity="0.38" />
+    <use id="sizegrip-focused" href="#sizegrip" x="10" class="on-surf" opacity="0.38" />
+  </g>
+  <g id="itemview-group" transform="translate(72,112)">
+    <use id="itemview-focused" x="-8" y="-8" href="#sq-8-c" class="on-surf" opacity="0.08" />
+    <use id="itemview-pressed" x="8" y="-8" href="#sq-8-c" class="sec-cont" />
+    <use id="itemview-toggled" x="-8" y="8" href="#sq-8-c" class="disabled-back" />
+  </g>
+  <g id="g-group" transform="translate(0,144)">
+    <g id="group-normal-topleft">
+      <rect width="11" height="11" x="0" y="0" opacity="0" />
+      <path d="M 11,5 a 6,6 0 0 0 -6,6 h 1 a 5,5 0 0 1 5,-5 z" class="outline" />
+    </g>
+    <g id="group-normal-top">
+      <rect width="11" height="11" x="11" y="0" opacity="0" />
+      <rect width="11" height="1" x="11" y="5" class="outline" />
+    </g>
+    <g id="group-normal-topright">
+      <rect width="11" height="11" x="22" y="0" opacity="0" />
+      <path d="M 22,5 a 6,6 0 0 1 6,6 h -1 a 5,5 0 0 0 -5,-5 z" class="outline" />
+    </g>
+    <g id="group-normal-left">
+      <rect width="11" height="11" x="0" y="11" opacity="0" />
+      <rect width="1" height="11" x="5" y="11" class="outline" />
+    </g>
+    <rect id="group-normal" width="11" height="11" x="11" y="11" opacity="0" />
+    <g id="group-normal-right">
+      <rect width="11" height="11" x="22" y="11" opacity="0" />
+      <rect width="1" height="11" x="27" y="11" class="outline" />
+    </g>
+    <g id="group-normal-bottomleft">
+      <rect width="11" height="11" x="0" y="22" opacity="0" />
+      <path d="M 11,28 a 6,6 0 0 1 -6,-6 h 1 a 5,5 0 0 0 5,5 z" class="outline" />
+    </g>
+    <g id="group-normal-bottom">
+      <rect width="11" height="11" x="11" y="22" opacity="0" />
+      <rect width="11" height="1" x="11" y="27" class="outline" />
+    </g>
+    <g id="group-normal-bottomright">
+      <rect width="11" height="11" x="22" y="22" opacity="0" />
+      <path d="M 22,28 a 6,6 0 0 0 6,-6 h -1 a 5,5 0 0 1 -5,5 z" class="outline" />
+    </g>
+  </g>
+  <g id="dial-group" transform="translate(104,112)">
+    <circle id="dial" cx="22.5" cy="22.5" r="22.5" class="surf-cont-highest" />
+    <g id="dial-notches">
+      <rect width="45" height="45" x="0" y="0" opacity="0" />
+      <path
+        d="M 12.116,42.486 L 14.366,38.589 L 12.634,37.589 L 10.384,41.486 z M 7.484,39.258 L 9.51,37.046 L 9.142,36.708 L 7.115,38.92 z M 4.213,35.61 L 6.67,33.89 L 6.383,33.48 L 3.926,35.201 z M 1.808,31.341 L 4.58,30.193 L 4.389,29.731 L 1.617,30.879 z M 0.385,26.653 L 3.34,26.132 L 3.253,25.64 L 0.298,26.161 z M 0.011,21.768 L 3.008,21.899 L 3.03,21.4 L 0.032,21.269 z M 0.508,17.643 L 4.855,18.807 L 5.372,16.875 L 1.026,15.711 z M 2.427,12.332 L 5.088,13.718 L 5.319,13.274 L 2.658,11.889 z M 5.103,8.229 L 7.401,10.157 L 7.723,9.774 L 5.425,7.846 z M 8.605,4.802 L 10.431,7.182 L 10.828,6.877 L 9.001,4.497 z M 12.765,2.214 L 14.032,4.933 L 14.486,4.721 L 13.218,2.002 z M 17.386,0.587 L 18.035,3.516 L 18.524,3.408 L 17.874,0.479 z M 21.5,0 L 21.5,4.5 L 23.5,4.5 L 23.5,0 z M 27.126,0.479 L 26.477,3.408 L 26.965,3.516 L 27.614,0.587 z M 31.782,2.002 L 30.515,4.721 L 30.968,4.933 L 32.236,2.214 z M 35.999,4.497 L 34.173,6.877 L 34.569,7.182 L 36.396,4.802 z M 39.575,7.846 L 37.277,9.774 L 37.599,10.157 L 39.897,8.229 z M 42.342,11.889 L 39.681,13.274 L 39.912,13.718 L 42.573,12.332 z M 43.975,15.711 L 39.628,16.875 L 40.146,18.807 L 44.492,17.643 z M 44.968,21.269 L 41.971,21.4 L 41.992,21.899 L 44.99,21.768 z M 44.702,26.161 L 41.747,25.64 L 41.66,26.132 L 44.615,26.653 z M 43.383,30.879 L 40.611,29.731 L 40.42,30.193 L 43.192,31.341 z M 41.074,35.201 L 38.617,33.48 L 38.33,33.89 L 40.788,35.61 z M 37.885,38.92 L 35.858,36.708 L 35.49,37.046 L 37.517,39.258 z M 34.616,41.486 L 32.366,37.589 L 30.634,38.589 L 32.884,42.486 z"
+        class="on-surf" />
+    </g>
+    <g id="dial-handle">
+      <rect width="10" height="10" x="5" y="17.5" opacity="0" />
+      <circle cx="10" cy="22.5" r="4" class="pri" />
+    </g>
+  </g>
+  <g id="progress-group" transform="translate(32,144)">
+    <use id="progress-normal-topleft" href="#progress-tl" class="sec-cont" />
+    <use id="progress-normal-top" href="#progress-t" class="sec-cont" />
+    <use id="progress-normal-topright" href="#progress-tr" class="sec-cont" />
+    <use id="progress-normal-bottomleft" href="#progress-bl" class="sec-cont" />
+    <use id="progress-normal-bottom" href="#progress-b" class="sec-cont" />
+    <use id="progress-normal-bottomright" href="#progress-br" class="sec-cont" />
+    <use id="progress-pattern-normal-topleft" href="#progress-tl" y="4" class="pri" />
+    <use id="progress-pattern-normal-top" href="#progress-t" y="4" class="pri" />
+    <use id="progress-pattern-normal-topright" href="#progress-tr" y="4" class="pri" />
+    <use id="progress-pattern-normal-bottomleft" href="#progress-bl" y="4" class="pri" />
+    <use id="progress-pattern-normal-bottom" href="#progress-b" y="4" class="pri" />
+    <use id="progress-pattern-normal-bottomright" href="#progress-br" y="4" class="pri" />
+    <use id="progress-pattern-disabled-topleft" href="#progress-tl" y="8" class="disabled-back" />
+    <use id="progress-pattern-disabled-top" href="#progress-t" y="8" class="disabled-back" />
+    <use id="progress-pattern-disabled-topright" href="#progress-tr" y="8" class="disabled-back" />
+    <use id="progress-pattern-disabled-bottomleft" href="#progress-bl" y="8" class="disabled-back" />
+    <use id="progress-pattern-disabled-bottom" href="#progress-b" y="8" class="disabled-back" />
+    <use id="progress-pattern-disabled-bottomright" href="#progress-br" y="8" class="disabled-back" />
+  </g>
+  <g id="tab-group" transform="translate(0,177)">
+    <rect id="tabbar-normal-topleft" width="1" height="1" opacity="0" />
+    <rect id="tabbar-normal-top" width="16" height="1" x="1" opacity="0" />
+    <rect id="tabbar-normal-topright" width="1" height="1" x="17" opacity="0" />
+    <rect id="tabbar-normal-left" width="1" height="16" y="1" opacity="0" />
+    <rect id="tabbar-normal-right" width="1" height="16" x="17" y="1" opacity="0" />
+    <rect id="tabbar-normal-bottomleft" width="1" height="1" y="17" class="surf-var" />
+    <rect id="tabbar-normal-bottom" width="16" height="1" x="1" y="17" class="surf-var" />
+    <rect id="tabbar-normal-bottomright" width="1" height="1" x="17" y="17" class="surf-var" />
+    <g id="tab-normal-group">
+      <use id="tab-normal-topleft" href="#sq-8-tl" class="surf-cont-high" />
+      <use id="tab-normal-top" href="#sq-8-t" class="surf-cont-high" />
+      <use id="tab-normal-topright" href="#sq-8-tr" class="surf-cont-high" />
+      <use id="tab-normal-left" href="#sq-8-l" class="surf-cont-high" />
+      <use id="tab-normal" href="#sq-8-c" class="surf-cont-high" />
+      <use id="tab-normal-right" href="#sq-8-r" class="surf-cont-high" />
+      <g id="tab-normal-bottomleft">
+        <use href="#sq-8-bl" class="surf-cont-high" />
+        <rect width="8" height="1" y="31" class="surf-var" />
+      </g>
+      <g id="tab-normal-bottom">
+        <use href="#sq-8-b" class="surf-cont-high" />
+        <rect width="16" height="1" x="8" y="31" class="surf-var" />
+      </g>
+      <g id="tab-normal-bottomright">
+        <use href="#sq-8-br" class="surf-cont-high" />
+        <rect width="8" height="1" x="24" y="31" class="surf-var" />
+      </g>
+    </g>
+    <g id="tab-focused-group" transform="translate(32)">
+      <g id="tab-focused-topleft">
+        <use href="#tab-normal-topleft" />
+        <use href="#sq-8-tl" class="pri" opacity="0.1" />
+      </g>
+      <g id="tab-focused-top">
+        <use href="#tab-normal-top" />
+        <use href="#sq-8-t" class="pri" opacity="0.1" />
+      </g>
+      <g id="tab-focused-topright">
+        <use href="#tab-normal-topright" />
+        <use href="#sq-8-tr" class="pri" opacity="0.1" />
+      </g>
+      <g id="tab-focused-left">
+        <use href="#tab-normal-left" />
+        <use href="#sq-8-l" class="pri" opacity="0.1" />
+      </g>
+      <g id="tab-focused">
+        <use href="#tab-normal" />
+        <use href="#sq-8-c" class="pri" opacity="0.1" />
+      </g>
+      <g id="tab-focused-right">
+        <use href="#tab-normal-right" />
+        <use href="#sq-8-r" class="pri" opacity="0.1" />
+      </g>
+      <g id="tab-focused-bottomleft">
+        <use href="#tab-normal-bottomleft" />
+        <use href="#sq-8-bl" class="pri" opacity="0.1" />
+      </g>
+      <g id="tab-focused-bottom">
+        <use href="#tab-normal-bottom" />
+        <use href="#sq-8-b" class="pri" opacity="0.1" />
+      </g>
+      <g id="tab-focused-bottomright">
+        <use href="#tab-normal-bottomright" />
+        <use href="#sq-8-br" class="pri" opacity="0.1" />
+      </g>
+    </g>
+    <g id="tab-toggled-group" transform="translate(64)">
+      <use id="tab-toggled-topleft" href="#tab-normal-topleft" />
+      <use id="tab-toggled-top" href="#tab-normal-top" />
+      <use id="tab-toggled-topright" href="#tab-normal-topright" />
+      <use id="tab-toggled-left" href="#tab-normal-left" />
+      <use id="tab-toggled" href="#tab-normal" />
+      <use id="tab-toggled-right" href="#tab-normal-right" />
+      <g id="tab-toggled-bottomleft">
+        <use href="#tab-normal-bottomleft" />
+        <path d="M 0,32 a 2,2 0 0 1 2,-2 h 6 v 2 Z" class="pri" />
+      </g>
+      <g id="tab-toggled-bottom">
+        <use href="#tab-normal-bottom" />
+        <rect width="16" height="2" x="8" y="30" class="pri" />
+      </g>
+      <g id="tab-toggled-bottomright">
+        <use href="#tab-normal-bottomright" />
+        <path d="M 32,32 a 2,2 0 0 0 -2,-2 h -6 v 2 Z" class="pri" />
+      </g>
+    </g>
+    <rect id="tabframe-normal-topleft" width="1" height="1" x="32" class="surf-var" />
+    <rect id="tabframe-normal-top" width="16" height="1" x="33" class="surf-var" />
+    <rect id="tabframe-normal-topright" width="1" height="1" x="49" class="surf-var" />
+    <rect id="tabframe-normal-left" width="1" height="16" x="32" y="1" class="surf-var" />
+    <rect id="tabframe-normal-right" width="1" height="16" x="49" y="1" class="surf-var" />
+    <rect id="tabframe-normal-bottomleft" width="1" height="1" x="32" y="17" class="surf-var" />
+    <rect id="tabframe-normal-bottom" width="16" height="1" x="33" y="17" class="surf-var" />
+    <rect id="tabframe-normal-bottomright" width="1" height="1" x="49" y="17" class="surf-var" />
+    <g id="tab-close-normal">
+      <use href="#icon-box" />
+      <use href="#close" class="on-surf" />
+    </g>
+    <g id="tab-close-pressed" transform="translate(10)">
+      <use href="#icon-box" />
+      <use href="#close" class="on-surf-var" />
+    </g>
+    <g id="tab-close-focused" transform="translate(0,10)">
+      <use href="#icon-box" />
+      <use href="#close" class="pri" />
+    </g>
+    <g id="tab-close-disabled" transform="translate(10,10)">
+      <use href="#icon-box" />
+      <use href="#close" class="disabled-text" />
+    </g>
+  </g>
+  <g id="slider-group" transform="translate(52,144)">
+    <g id="slider-normal-group">
+      <use id="slider-normal-topleft" href="#slider-tl" class="sec-cont" />
+      <use id="slider-normal-top" href="#slider-t" class="sec-cont" />
+      <use id="slider-normal-topright" href="#slider-tr" class="sec-cont" />
+      <use id="slider-normal-left" href="#slider-l" class="sec-cont" />
+      <use id="slider-normal" href="#slider-c" class="sec-cont" />
+      <use id="slider-normal-right" href="#slider-r" class="sec-cont" />
+      <use id="slider-normal-bottomleft" href="#slider-bl" class="sec-cont" />
+      <use id="slider-normal-bottom" href="#slider-b" class="sec-cont" />
+      <use id="slider-normal-bottomright" href="#slider-br" class="sec-cont" />
+    </g>
+    <g id="slider-toggled-group" transform="translate(6)">
+      <use id="slider-toggled-topleft" href="#slider-tl" class="pri" />
+      <use id="slider-toggled-top" href="#slider-t" class="pri" />
+      <use id="slider-toggled-topright" href="#slider-tr" class="pri" />
+      <use id="slider-toggled-left" href="#slider-l" class="pri" />
+      <use id="slider-toggled" href="#slider-c" class="pri" />
+      <use id="slider-toggled-right" href="#slider-r" class="pri" />
+      <use id="slider-toggled-bottomleft" href="#slider-bl" class="pri" />
+      <use id="slider-toggled-bottom" href="#slider-b" class="pri" />
+      <use id="slider-toggled-bottomright" href="#slider-br" class="pri" />
+    </g>
+    <rect id="slider-tick-normal" width="5" height="1" rx="0.5" class="on-sec-cont" />
+    <rect id="slider-topglow-normal" width="4" height="16" opacity="0" />
+    <rect id="slider-bottomglow-normal" width="4" height="16" opacity="0" />
+  </g>
+  <g id="slidercursor-group" transform="translate(64,144)">
+    <g id="slidercursor-normal">
+      <rect width="17" height="17" x="0" y="0" opacity="0" />
+      <circle cx="8.5" cy="9.5" r="7" fill="url(#slider-bg)" opacity="0.3" />
+      <circle cx="8.5" cy="9.5" r="7.5" fill="url(#slider-ag)" opacity="0.15" />
+      <circle cx="8.5" cy="8.5" r="7" class="pri" />
+    </g>
+    <g id="slidercursor-focused" transform="translate(17)">
+      <rect width="17" height="17" x="0" y="0" opacity="0" />
+      <circle cx="8.5" cy="8.5" r="7" class="pri" />
+    </g>
+    <g id="slidercursor-pressed" transform="translate(0,17)">
+      <rect width="17" height="17" x="0" y="0" opacity="0" />
+      <circle cx="8.5" cy="8.5" r="6" class="pri" />
+    </g>
+    <g id="slidercursor-disabled" transform="translate(17,17)">
+      <rect width="17" height="17" x="0" y="0" opacity="0" />
+      <circle cx="8.5" cy="8.5" r="7" class="disabled-text" />
+    </g>
+  </g>
+  <g id="splitter-group" transform="translate(32,156)">
+    <use id="splitter-grip-normal" href="#grip" class="disabled-text" />
+    <use id="splitter-grip-pressed" href="#grip" opacity="0" />
+    <use id="splitter-grip-focused" href="#grip" opacity="0" />
+    <use id="splitter-normal-topleft" href="#splitter-tl" opacity="0" />
+    <use id="splitter-normal-top" href="#splitter-t" opacity="0" />
+    <use id="splitter-normal-topright" href="#splitter-tr" opacity="0" />
+    <use id="splitter-normal-left" href="#splitter-l" opacity="0" />
+    <use id="splitter-normal" href="#splitter-c" opacity="0" />
+    <use id="splitter-normal-right" href="#splitter-r" opacity="0" />
+    <use id="splitter-normal-bottomleft" href="#splitter-bl" opacity="0" />
+    <use id="splitter-normal-bottom" href="#splitter-b" opacity="0" />
+    <use id="splitter-normal-bottomright" href="#splitter-br" opacity="0" />
+    <use id="splitter-focused-topleft" href="#splitter-tl" x="4" class="outline" opacity="0.38" />
+    <use id="splitter-focused-top" href="#splitter-t" x="4" class="outline" opacity="0.38" />
+    <use id="splitter-focused-topright" href="#splitter-tr" x="4" class="outline" opacity="0.38" />
+    <use id="splitter-focused-left" href="#splitter-l" x="4" class="outline" opacity="0.38" />
+    <use id="splitter-focused" href="#splitter-c" x="4" class="outline" opacity="0.38" />
+    <use id="splitter-focused-right" href="#splitter-r" x="4" class="outline" opacity="0.38" />
+    <use id="splitter-focused-bottomleft" href="#splitter-bl" x="4" class="outline" opacity="0.38" />
+    <use id="splitter-focused-bottom" href="#splitter-b" x="4" class="outline" opacity="0.38" />
+    <use id="splitter-focused-bottomright" href="#splitter-br" x="4" class="outline" opacity="0.38" />
+    <use id="splitter-pressed-topleft" href="#splitter-tl" x="8" class="outline" />
+    <use id="splitter-pressed-top" href="#splitter-t" x="8" class="outline" />
+    <use id="splitter-pressed-topright" href="#splitter-tr" x="8" class="outline" />
+    <use id="splitter-pressed-left" href="#splitter-l" x="8" class="outline" />
+    <use id="splitter-pressed" href="#splitter-c" x="8" class="outline" />
+    <use id="splitter-pressed-right" href="#splitter-r" x="8" class="outline" />
+    <use id="splitter-pressed-bottomleft" href="#splitter-bl" x="8" class="outline" />
+    <use id="splitter-pressed-bottom" href="#splitter-b" x="8" class="outline" />
+    <use id="splitter-pressed-bottomright" href="#splitter-br" x="8" class="outline" />
+  </g>
+  <g id="menu-group" transform="translate(160,0)">
+    <path id="menu-normal-topleft" d="M 5,1 a 4,4 0 0 0 -4,4 h 8 v -4 z" class="surf-cont-high" />
+    <rect id="menu-normal-top" width="16" height="4" x="9" y="1" class="surf-cont-high" />
+    <path id="menu-normal-topright" d="M 29,1 a 4,4 0 0 1 4,4 h -8 v -4 z" class="surf-cont-high" />
+    <rect id="menu-normal-left" width="8" height="16" x="1" y="5" class="surf-cont-high" />
+    <rect id="menu-normal" width="16" height="16" x="9" y="5" class="surf-cont-high" />
+    <rect id="menu-normal-right" width="8" height="16" x="25" y="5" class="surf-cont-high" />
+    <path id="menu-normal-bottomleft" d="M 5,25 a 4,4 0 0 1 -4,-4 h 8 v 4 z" class="surf-cont-high" />
+    <rect id="menu-normal-bottom" width="16" height="4" x="9" y="21" class="surf-cont-high" />
+    <path id="menu-normal-bottomright" d="M 29,25 a 4,4 0 0 0 4,-4 h -8 v 4 z" class="surf-cont-high" />
+    <g id="menu-shadow-group">
+      <g id="menu-shadow-topleft">
+        <rect width="9" height="5" opacity="0" />
+        <path d="M 1.209 3.748 A 5 5 0 0 0 0.419 5 L 1 5 A 4 4 0 0 1 1.209 3.748 z" fill="url(#menu-agtl)"
+          opacity="0.15" />
+        <use href="#menu-normal-topleft" />
+      </g>
+      <g id="menu-shadow-top">
+        <rect width="16" height="1" x="9" opacity="0" />
+        <use href="#menu-normal-top" />
+      </g>
+      <g id="menu-shadow-topright">
+        <rect width="9" height="5" x="25" opacity="0" />
+        <path d="M 32.798 3.75 A 4 4 0 0 1 33 5 L 33.583 5 A 5 5 0 0 0 32.798 3.75 z" fill="url(#menu-agtr)"
+          opacity="0.15" />
+        <use href="#menu-normal-topright" />
+      </g>
+      <g id="menu-shadow-left">
+        <path d="M 0.419 5 A 5 5 0 0 0 0 7 L 1 7 L 1 5 L 0.419 5 z" fill="url(#menu-agtl)" opacity="0.15" />
+        <rect width="1" height="14" x="0" y="7" fill="url(#menu-agl)" opacity="0.15" />
+        <use href="#menu-normal-left" />
+      </g>
+      <g id="menu-shadow-right">
+        <path d="M 33 5 L 33 7 L 34 7 A 5 5 0 0 0 33.583 5 L 33 5 z" fill="url(#menu-agtr)" opacity="0.15" />
+        <rect width="1" height="14" x="33" y="7" fill="url(#menu-agr)" opacity="0.15" />
+        <use href="#menu-normal-right" />
+      </g>
+      <g id="menu-shadow-bottomleft">
+        <path d="M 1 21 L 1 22 L 1.134 22 A 4 4 0 0 1 1 21 z" fill="url(#menu-bgl)" opacity="0.3" />
+        <path d="M 1 22 A 4 4 0 0 0 5 26 L 5 25 A 4 4 0 0 1 1.134 22 L 1 22 z" fill="url(#menu-bgbl)" opacity="0.3" />
+        <rect width="4" height="1" x="5" y="25" fill="url(#menu-bgb)" opacity="0.3" />
+        <path d="M 0 21 L 0 23 L 1.547 23 A 4 4 0 0 1 1 21 L 0 21 z" fill="url(#menu-agl)" opacity="0.15" />
+        <path d="M 0 23 A 5 5 0 0 0 5 28 L 5 25 A 4 4 0 0 1 1.547 23 L 0 23 z" fill="url(#menu-agbl)" opacity="0.15" />
+        <rect width="4" height="3" x="5" y="25" fill="url(#menu-agb)" opacity="0.15" />
+        <use href="#menu-normal-bottomleft" />
+      </g>
+      <g id="menu-shadow-bottom">
+        <rect width="16" height="1" x="9" y="25" fill="url(#menu-bgb)" opacity="0.3" />
+        <rect width="16" height="3" x="9" y="25" fill="url(#menu-agb)" opacity="0.15" />
+        <use href="#menu-normal-bottom" />
+      </g>
+      <g id="menu-shadow-bottomright">
+        <path d="M 33 21 A 4 4 0 0 1 32.865 22 L 33 22 L 33 21 z" fill="url(#menu-bgr)" opacity="0.3" />
+        <path d="M 32.865 22 A 4 4 0 0 1 29 25 L 29 26 A 4 4 0 0 0 33 22 L 32.865 22 z" fill="url(#menu-bgbr)"
+          opacity="0.3" />
+        <rect width="4" height="1" x="25" y="25" fill="url(#menu-bgb)" opacity="0.3" />
+        <path d="M 33 21 A 4 4 0 0 1 32.454 23 L 34 23 L 34 21 L 33 21 z" fill="url(#menu-agr)" opacity="0.15" />
+        <path d="M 32.454 23 A 4 4 0 0 1 29 25 L 29 28 A 5 5 0 0 0 34 23 L 32.454 23 z" fill="url(#menu-agbr)"
+          opacity="0.15" />
+        <rect width="4" height="3" x="25" y="25" fill="url(#menu-agb)" opacity="0.15" />
+        <use href="#menu-normal-bottomright" />
+      </g>
+      <rect id="menu-shadow-hint-top" width="1" height="1" x="16.5" fill="#ff00ff" />
+      <rect id="menu-shadow-hint-left" width="1" height="1" y="13.5" fill="#ff00ff" />
+      <rect id="menu-shadow-hint-right" width="1" height="1" x="33" y="13.5" fill="#ff00ff" />
+      <rect id="menu-shadow-hint-bottom" width="1" height="3" x="16.5" y="25" fill="#ff00ff" />
+    </g>
+    <g id="menuitem-toggled-group" transform="translate(1,1)">
+      <rect id="menuitem-toggled-topleft" width="8" height="1" class="on-surf" opacity="0.08" />
+      <rect id="menuitem-toggled-top" width="16" height="1" x="8" class="on-surf" opacity="0.08" />
+      <rect id="menuitem-toggled-topright" width="8" height="1" x="24" class="on-surf" opacity="0.08" />
+      <rect id="menuitem-toggled-left" width="8" height="8" y="1" class="on-surf" opacity="0.08" />
+      <rect id="menuitem-toggled" width="16" height="8" x="8" y="1" class="on-surf" opacity="0.08" />
+      <rect id="menuitem-toggled-right" width="8" height="8" x="24" y="1" class="on-surf" opacity="0.08" />
+      <rect id="menuitem-toggled-bottomleft" width="8" height="1" y="9" class="on-surf" opacity="0.08" />
+      <rect id="menuitem-toggled-bottom" width="16" height="1" x="8" y="9" class="on-surf" opacity="0.08" />
+      <rect id="menuitem-toggled-bottomright" width="8" height="1" x="24" y="9" class="on-surf" opacity="0.08" />
+    </g>
+    <g id="menuitem-pressed-group" transform="translate(1,11)">
+      <rect id="menuitem-pressed-topleft" width="8" height="1" class="on-surf" opacity="0.1" />
+      <rect id="menuitem-pressed-top" width="16" height="1" x="8" class="on-surf" opacity="0.1" />
+      <rect id="menuitem-pressed-topright" width="8" height="1" x="24" class="on-surf" opacity="0.1" />
+      <rect id="menuitem-pressed-left" width="8" height="8" y="1" class="on-surf" opacity="0.1" />
+      <rect id="menuitem-pressed" width="16" height="8" x="8" y="1" class="on-surf" opacity="0.1" />
+      <rect id="menuitem-pressed-right" width="8" height="8" x="24" y="1" class="on-surf" opacity="0.1" />
+      <rect id="menuitem-pressed-bottomleft" width="8" height="1" y="9" class="on-surf" opacity="0.1" />
+      <rect id="menuitem-pressed-bottom" width="16" height="1" x="8" y="9" class="on-surf" opacity="0.1" />
+      <rect id="menuitem-pressed-bottomright" width="8" height="1" x="24" y="9" class="on-surf" opacity="0.1" />
+    </g>
+    <g id="menuitem-separator" transform="translate(1,17)">
+      <rect width="32" height="8" opacity="0" />
+      <rect width="32" height="1" y="3.5" class="surf-var" />
+    </g>
+    <g id="menuitem-tearoff-normal">
+      <rect width="20" height="8" fill="none" />
+      <rect width="4" height="1" x="0.5" y="3.5" class="surf-var" />
+      <rect width="4" height="1" x="5.5" y="3.5" class="surf-var" />
+      <rect width="4" height="1" x="10.5" y="3.5" class="surf-var" />
+      <rect width="4" height="1" x="15.5" y="3.5" class="surf-var" />
+    </g>
+    <g id="menuitem-tearoff-focused" transform="translate(0,8)">
+      <rect width="20" height="8" fill="none" />
+      <rect width="4" height="1" x="0.5" y="3.5" class="sec" />
+      <rect width="4" height="1" x="5.5" y="3.5" class="sec" />
+      <rect width="4" height="1" x="10.5" y="3.5" class="sec" />
+      <rect width="4" height="1" x="15.5" y="3.5" class="sec" />
+    </g>
+  </g>
+  <g id="head-group" transform="translate(160,28)">
+    <g id="head-normal-group">
+      <use id="head-normal-topleft" href="#head-tl" class="surf-cont-highest" />
+      <use id="head-normal-top" href="#head-t" class="surf-cont-highest" />
+      <use id="head-normal-topright" href="#head-tr" class="surf-cont-highest" />
+      <use id="head-normal-left" href="#head-l" class="surf-cont-highest" />
+      <use id="head-normal" href="#head-c" class="surf-cont-highest" />
+      <use id="head-normal-right" href="#head-r" class="surf-cont-highest" />
+      <use id="head-normal-bottomleft" href="#head-bl" class="surf-cont-highest" />
+      <use id="head-normal-bottom" href="#head-b" class="surf-cont-highest" />
+      <use id="head-normal-bottomright" href="#head-br" class="surf-cont-highest" />
+    </g>
+    <g id="head-focused-group" transform="translate(18)">
+      <g id="head-focused-topleft">
+        <use href="#head-normal-topleft" />
+        <use href="#head-normal-topleft" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="head-focused-top">
+        <use href="#head-normal-top" />
+        <use href="#head-t" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="head-focused-topright">
+        <use href="#head-normal-topright" />
+        <use href="#head-tr" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="head-focused-left">
+        <use href="#head-normal-left" />
+        <use href="#head-l" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="head-focused">
+        <use href="#head-normal" />
+        <use href="#head-c" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="head-focused-right">
+        <use href="#head-normal-right" />
+        <use href="#head-r" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="head-focused-bottomleft">
+        <use href="#head-normal-bottomleft" />
+        <use href="#head-bl" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="head-focused-bottom">
+        <use href="#head-normal-bottom" />
+        <use href="#head-b" class="on-surf" opacity="0.08" />
+      </g>
+      <g id="head-focused-bottomright">
+        <use href="#head-normal-bottomright" />
+        <use href="#head-br" class="on-surf" opacity="0.08" />
+      </g>
+    </g>
+    <g id="head-pressed-group" transform="translate(0,18)">
+      <g id="head-pressed-topleft">
+        <use href="#head-normal-topleft" />
+        <use href="#head-tl" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="head-pressed-top">
+        <use href="#head-normal-top" />
+        <use href="#head-t" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="head-pressed-topright">
+        <use href="#head-normal-topright" />
+        <use href="#head-tr" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="head-pressed-left">
+        <use href="#head-normal-left" />
+        <use href="#head-l" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="head-pressed">
+        <use href="#head-normal" />
+        <use href="#head-c" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="head-pressed-right">
+        <use href="#head-normal-right" />
+        <use href="#head-r" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="head-pressed-bottomleft">
+        <use href="#head-normal-bottomleft" />
+        <use href="#head-bl" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="head-pressed-bottom">
+        <use href="#head-normal-bottom" />
+        <use href="#head-b" class="on-surf" opacity="0.1" />
+      </g>
+      <g id="head-pressed-bottomright">
+        <use href="#head-normal-bottomright" />
+        <use href="#head-br" class="on-surf" opacity="0.1" />
+      </g>
+    </g>
+    <g id="head-toggled-group" transform="translate(18,18)">
+      <use id="head-toggled-topleft" href="#head-tl" class="sec-cont" />
+      <use id="head-toggled-top" href="#head-t" class="sec-cont" />
+      <use id="head-toggled-topright" href="#head-tr" class="sec-cont" />
+      <use id="head-toggled-left" href="#head-l" class="sec-cont" />
+      <use id="head-toggled" href="#head-c" class="sec-cont" />
+      <use id="head-toggled-right" href="#head-r" class="sec-cont" />
+      <use id="head-toggled-bottomleft" href="#head-bl" class="sec-cont" />
+      <use id="head-toggled-bottom" href="#head-b" class="sec-cont" />
+      <use id="head-toggled-bottomright" href="#head-br" class="sec-cont" />
+    </g>
+    <g id="header-separator">
+      <rect width="5" height="10" opacity="0" />
+      <rect width="1" height="10" x="4" class="outline" />
+    </g>
+  </g>
+  <g id="tooltip-group" transform="translate(152,64)">
+    <path id="tooltip-normal-topleft" d="M 4.5,0.5 a 4,4 0 0 0 -4,4 h 4 z" class="surf" />
+    <rect id="tooltip-normal-top" width="16" height="4" x="4.5" y="0.5" class="surf" />
+    <path id="tooltip-normal-topright" d="M 20.5,0.5 a 4,4 0 0 1 4,4 h -4 z" class="surf" />
+    <rect id="tooltip-normal-left" width="4" height="4" x="0.5" y="4.5" class="surf" />
+    <rect id="tooltip-normal" width="16" height="4" x="4.5" y="4.5" class="surf" />
+    <rect id="tooltip-normal-right" width="4" height="4" x="20.5" y="4.5" class="surf" />
+    <path id="tooltip-normal-bottomleft" d="M 4.5,12.5 a 4,4 0 0 1 -4,-4 h 4 z" class="surf" />
+    <rect id="tooltip-normal-bottom" width="16" height="4" x="4.5" y="8.5" class="surf" />
+    <path id="tooltip-normal-bottomright" d="M 20.5,12.5 a 4,4 0 0 0 4,-4 h -4 z" class="surf" />
+    <g id="tooltip-shadow-group">
+      <g id="tooltip-shadow-topleft">
+        <rect width="4.5" height="4.5" opacity="0" />
+        <path d="M 0.857 2.859 A 4.5 4.5 0 0 0 0.115 4.5 L 0.5 4.5 A 4 4 0 0 1 0.857 2.859 z" style="fill:url(#tt-agtl)"
+          opacity="0.15" />
+        <use href="#tooltip-normal-topleft" />
+      </g>
+      <g id="tooltip-shadow-top">
+        <rect width="16" height="0.5" x="4.5" opacity="0" />
+        <use href="#tooltip-normal-top" />
+      </g>
+      <g id="tooltip-shadow-topright">
+        <rect width="4.5" height="4.5" x="20.5" opacity="0" />
+        <path d="M 24.154 2.875 A 4 4 0 0 1 24.5 4.5 L 24.887 4.5 A 4.5 4.5 0 0 0 24.154 2.875 z"
+          style="fill:url(#tt-agtr)" opacity="0.15" />
+        <use href="#tooltip-normal-topright" />
+      </g>
+      <g id="tooltip-shadow-left">
+        <path d="M 0.116 4.5 A 4.5 4.5 0 0 0 0 5.5 L 0.5 5.5 L 0.5 4.5 L 0.116 4.5 z" style="fill:url(#tt-agtl)"
+          opacity="0.15" />
+        <rect width="0.5" height="3" y="5.5" style="fill:url(#tt-agl)" opacity="0.15" />
+        <use href="#tooltip-normal-left" />
+      </g>
+      <g id="tooltip-shadow-right">
+        <path d="M 24.5 4.5 L 24.5 5.5 L 25 5.5 A 4.5 4.5 0 0 0 24.887 4.5 L 24.5 4.5 z" style="fill:url(#tt-agtr)"
+          opacity="0.15" />
+        <rect width="0.5" height="3" x="24.5" y="5.5" style="fill:url(#tt-agr)" opacity="0.15" />
+        <use href="#tooltip-normal-right" />
+      </g>
+      <g id="tooltip-shadow-bottomleft">
+        <path d="M 0.5 8.5 L 0.5 9.5 L 0.631 9.5 A 4 4 0 0 1 0.5 8.5 z" fill="url(#tt-bgl)" opacity="0.3" />
+        <path d="M 0.5 9.5 A 4 4 0 0 0 4.5 13.5 L 4.5 12.5 A 4 4 0 0 1 0.631 9.5 L 0.5 9.5 z" fill="url(#tt-bgbl)"
+          opacity="0.3" />
+        <path d="M 0 8.5 L 0 9.5 L 0.631 9.5 A 4 4 0 0 1 0.5 8.5 L 0 8.5 z" style="fill:url(#tt-agl)" opacity="0.15" />
+        <path d="M 0 9.5 A 4.5 4.5 0 0 0 4.5 14 L 4.5 12.5 A 4 4 0 0 1 0.631 9.5 L 0 9.5 z" style="fill:url(#tt-agbl)"
+          opacity="0.15" />
+        <use href="#tooltip-normal-bottomleft" />
+      </g>
+      <g id="tooltip-shadow-bottom">
+        <rect width="16" height="1" x="4.5" y="12.5" fill="url(#tt-bgb)" opacity="0.3" />
+        <rect width="16" height="1.5" x="4.5" y="12.5" style="fill:url(#tt-agb)" opacity="0.15" />
+        <use href="#tooltip-normal-bottom" />
+      </g>
+      <g id="tooltip-shadow-bottomright">
+        <path d="M 24.5 8.5 A 4 4 0 0 1 24.368 9.5 L 24.5 9.5 L 24.5 8.5 z" fill="url(#tt-bgr)" opacity="0.3" />
+        <path d="M 24.368 9.5 A 4 4 0 0 1 20.5 12.5 L 20.5 13.5 A 4 4 0 0 0 24.5 9.5 L 24.368 9.5 z"
+          fill="url(#tt-bgbr)" opacity="0.3" />
+        <path d="M 24.5 8.5 A 4 4 0 0 1 24.368 9.5 L 25 9.5 L 25 8.5 L 24.5 8.5 z" style="fill:url(#tt-agr)"
+          opacity="0.15" />
+        <path d="M 24.368 9.5 A 4 4 0 0 1 20.5 12.5 L 20.5 14 A 4.5 4.5 0 0 0 25 9.5 L 24.368 9.5 z"
+          style="fill:url(#tt-agbr)" opacity="0.15" />
+        <use href="#tooltip-normal-bottomright" />
+      </g>
+      <rect id="tooltip-shadow-hint-top" width="1" height="0.5" x="12" fill="#ff00ff" />
+      <rect id="tooltip-shadow-hint-left" width="0.5" height="1" y="6" fill="#ff00ff" />
+      <rect id="tooltip-shadow-hint-right" width="0.5" height="1" y="6" x="24.5" fill="#ff00ff" />
+      <rect id="tooltip-shadow-hint-bottom" width="1" height="1.5" x="12" y="12.5" fill="#ff00ff" />
+    </g>
+  </g>
+  <g id="scroll-group" transform="translate(152,78)">
+    <use id="groove-normal-topleft" href="#splitter-tl" class="outline-var" />
+    <use id="groove-normal-top" href="#splitter-t" class="outline-var" />
+    <use id="groove-normal-topright" href="#splitter-tr" class="outline-var" />
+    <use id="groove-normal-left" href="#splitter-l" class="outline-var" />
+    <!-- <use id="groove-normal" href="#splitter-c" class="outline-var"/> -->
+    <use id="groove-normal-right" href="#splitter-r" class="outline-var" />
+    <use id="groove-normal-bottomleft" href="#splitter-bl" class="outline-var" />
+    <use id="groove-normal-bottom" href="#splitter-b" class="outline-var" />
+    <use id="groove-normal-bottomright" href="#splitter-br" class="outline-var" />
+    <rect id="grip-normal" width="8" height="13" opacity="0" />
+    <rect id="grip-focused" width="8" height="13" opacity="0" />
+    <rect id="grip-pressed" width="8" height="13" opacity="0" />
+    <g id="scrollbarslider-normal-group" transform="translate(4,0)">
+      <use id="scrollbarslider-normal-topleft" href="#scroll-tl" class="on-surf" opacity="0.18" />
+      <use id="scrollbarslider-normal-topright" href="#scroll-tr" class="on-surf" opacity="0.18" />
+      <use id="scrollbarslider-normal-left" href="#scroll-l" class="on-surf" opacity="0.18" />
+      <use id="scrollbarslider-normal-right" href="#scroll-r" class="on-surf" opacity="0.18" />
+      <use id="scrollbarslider-normal-bottomleft" href="#scroll-bl" class="on-surf" opacity="0.18" />
+      <use id="scrollbarslider-normal-bottomright" href="#scroll-br" class="on-surf" opacity="0.18" />
+    </g>
+    <g id="scrollbarslider-focused-group" transform="translate(14,0)">
+      <use id="scrollbarslider-focused-topleft" href="#scroll-tl" class="on-surf" opacity="0.25" />
+      <use id="scrollbarslider-focused-topright" href="#scroll-tr" class="on-surf" opacity="0.25" />
+      <use id="scrollbarslider-focused-left" href="#scroll-l" class="on-surf" opacity="0.25" />
+      <use id="scrollbarslider-focused-right" href="#scroll-r" class="on-surf" opacity="0.25" />
+      <use id="scrollbarslider-focused-bottomleft" href="#scroll-bl" class="on-surf" opacity="0.25" />
+      <use id="scrollbarslider-focused-bottomright" href="#scroll-br" class="on-surf" opacity="0.25" />
+    </g>
+    <g id="scrollbarslider-pressed-group" transform="translate(24,0)">
+      <use id="scrollbarslider-pressed-topleft" href="#scroll-tl" class="on-surf" opacity="0.5" />
+      <use id="scrollbarslider-pressed-topright" href="#scroll-tr" class="on-surf" opacity="0.5" />
+      <use id="scrollbarslider-pressed-left" href="#scroll-l" class="on-surf" opacity="0.5" />
+      <use id="scrollbarslider-pressed-right" href="#scroll-r" class="on-surf" opacity="0.5" />
+      <use id="scrollbarslider-pressed-bottomleft" href="#scroll-bl" class="on-surf" opacity="0.5" />
+      <use id="scrollbarslider-pressed-bottomright" href="#scroll-br" class="on-surf" opacity="0.5" />
+    </g>
+  </g>
+  <g id="menubaritem-group" transform="translate(152,94)">
+    <g id="menubaritem-toggled-group">
+      <use id="menubaritem-toggled-topleft" href="#head-tl" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-top" href="#head-t" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-topright" href="#head-tr" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-left" href="#head-l" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled" href="#head-c" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-right" href="#head-r" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-bottomleft" href="#head-bl" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-bottom" href="#head-b" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-bottomright" href="#head-br" class="on-surf" opacity="0.08" />
+    </g>
+    <g id="menubaritem-pressed-group" transform="translate(18)">
+      <use id="menubaritem-pressed-topleft" href="#head-tl" class="sec-cont" />
+      <use id="menubaritem-pressed-top" href="#head-t" class="sec-cont" />
+      <use id="menubaritem-pressed-topright" href="#head-tr" class="sec-cont" />
+      <use id="menubaritem-pressed-left" href="#head-l" class="sec-cont" />
+      <use id="menubaritem-pressed" href="#head-c" class="sec-cont" />
+      <use id="menubaritem-pressed-right" href="#head-r" class="sec-cont" />
+      <use id="menubaritem-pressed-bottomleft" href="#head-bl" class="sec-cont" />
+      <use id="menubaritem-pressed-bottom" href="#head-b" class="sec-cont" />
+      <use id="menubaritem-pressed-bottomright" href="#head-br" class="sec-cont" />
+    </g>
+  </g>
+  <rect id="titlebar-focused" width="16" height="4" class="surf-cont-highest" />
+  <rect id="titlebar-normal" width="16" height="4" y="4" class="surf-cont-high" />
+  <rect id="dock-focused" width="16" height="4" class="surf-cont-highest" />
+  <rect id="dock-normal" width="16" height="4" y="4" class="surf-cont-high" />
+  <!--   
+  id="tab-tear"
+
+  id="focus-top"
+  id="focus-right"
+  id="focus-bottom"
+  id="focus-left"
+  -->
+</svg>
