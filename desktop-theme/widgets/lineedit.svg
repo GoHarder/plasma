@@ -1,4 +1,5 @@
 <svg height="48" width="48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" />
   <defs>
     <style id="current-color-scheme" type="text/css">
       .ColorScheme-Background {
@@ -116,4 +117,30 @@
   <rect id="focus-hint-left-margin" width="0.001" height="2" x="0" y="35" fill="#4e9a06" />
   <rect id="focus-hint-right-margin" width="0.001" height="2" x="23.999" y="35" fill="#4e9a06" />
   <rect id="focus-hint-bottom-margin" width="2" height="0.001" x="11" y="47.999" fill="#4e9a06" />
+  <path id="focusframe-topleft" d="M 28,24 a 4,4 0 0 0 -4,4 h 2 a 2,2 0 0 1 2,-2 Z" fill="#95ccff" />
+  <g id="focusframe-top" fill="#95ccff" transform="translate(24,24)">
+    <rect width="16" height="4" x="4" y="0" fill="none" />
+    <rect width="16" height="2" x="4" y="0" />
+  </g>
+  <path id="focusframe-topright" d="m 44,24 a 4,4 0 0 1 4,4 h -2 a 2,2 0 0 0 -2,-2 z" fill="#95ccff" />
+  <g id="focusframe-left" fill="#95ccff" transform="translate(24,24)">
+    <rect width="4" height="16" x="0" y="4" fill="none" />
+    <rect width="2" height="16" x="0" y="4" />
+  </g>
+  <rect id="focusframe-center" width="16" height="16" x="28" y="28" fill="none" />
+  <g id="focusframe-right" fill="#95ccff" transform="translate(24,24)">
+    <rect width="4" height="16" x="20" y="4" fill="none" />
+    <rect width="2" height="16" x="22" y="4" />
+  </g>
+  <path id="focusframe-bottomleft" d="m 24,44 a 4,4 0 0 0 4,4 v -2 a 2,2 0 0 1 -2,-2 Z" fill="#95ccff" />
+  <g id="focusframe-bottom" fill="#95ccff" transform="translate(24,24)">
+    <rect width="16" height="4" x="4" y="20" fill="none" />
+    <rect width="16" height="2" x="4" y="22" />
+  </g>
+  <path id="focusframe-bottomright" d="m 48,44 a 4,4 0 0 1 -4,4 v -2 a 2,2 0 0 0 2,-2 z" fill="#95ccff" />
+  <!-- <rect id="focusframe-hint-top-margin" width="2" height="0.001" x="35" y="24" fill="#4e9a06" /> -->
+  <!-- <rect id="focusframe-hint-left-margin" width="0.001" height="2" x="24" y="35" fill="#4e9a06" /> -->
+  <!-- <rect id="focusframe-hint-right-margin" width="0.001" height="2" x="47.999" y="35" fill="#4e9a06" /> -->
+  <!-- <rect id="focusframe-hint-bottom-margin" width="2" height="0.001" x="35" y="47.999" fill="#4e9a06" /> -->
+  <!-- <circle id="hint-focus-over-base" cx="3" cy="1" r="1" fill="#4e9a06" /> -->
 </svg>
