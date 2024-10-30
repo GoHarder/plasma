@@ -78,7 +78,7 @@ scroll_width=10
 [GeneralColors]
 # window
 window.color=#282a2d
-inactive.window.color=#242629
+inactive.window.color=#1e2022
 window.text.color=#e2e2e5
 inactive.window.text.color=#c2c7cf
 
