@@ -103,8 +103,8 @@ disabled.text.color=#e2e2e561
 # highlight
 ; {secondaryContainer}
 highlight.color=#3a4857
-; {don't know}
-inactive.highlight.color=#34404d
+; {secondaryContainer}
+inactive.highlight.color=#3a4857bf
 ; {onSecondaryContainer}
 highlight.text.color=#d5e4f6
 ; {onSurfaceVariant}
