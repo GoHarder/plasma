@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "xml-js": "npm:xml-js@^1.6.11"
+  }
+}

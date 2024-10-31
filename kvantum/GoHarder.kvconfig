@@ -77,25 +77,25 @@ scroll_width=10
 
 [GeneralColors]
 # window
-window.color=#282a2d
-inactive.window.color=#242629
-window.text.color=#e2e2e5
-inactive.window.text.color=#c2c7cf
+window.color=#e8e8eb
+inactive.window.color=#eeedf1
+window.text.color=#1a1c1e
+inactive.window.text.color=#1a1c1e
 
 # base
-base.color=#1e2022
-alt.base.color=#1a1c1e
+base.color=#eeedf1
+alt.base.color=#f3f3f6
 ; inactive.base.color
 ; inactive.alt.base.color
-text.color=#e2e2e5
-inactive.text.color=#c2c7cf
-disabled.text.color=#e2e2e561
+text.color=#1a1c1e
+inactive.text.color=#42474e
+disabled.text.color=#1a1c1e61
 
 # highlight
-highlight.color=#3a4857
+highlight.color=#d5e4f6
 inactive.highlight.color=#34404d
-highlight.text.color=#d5e4f6
-inactive.highlight.text.color=#c2c7cf
+highlight.text.color=#0e1d2a
+inactive.highlight.text.color=#42474e
 
 # tooltip
 tooltip.base.color=#1e2022

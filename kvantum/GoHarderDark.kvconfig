@@ -77,28 +77,43 @@ scroll_width=10
 
 [GeneralColors]
 # window
+; surfaceContainerHigh
 window.color=#282a2d
+; {surfaceContainer}
 inactive.window.color=#1e2022
+; {onSurface}
 window.text.color=#e2e2e5
+; {onSurfaceVariant}
 inactive.window.text.color=#c2c7cf
 
 # base
+; {surfaceContainer}
 base.color=#1e2022
+; {surfaceContainerLow}
 alt.base.color=#1a1c1e
 ; inactive.base.color
 ; inactive.alt.base.color
+; {onSurface}
 text.color=#e2e2e5
+; {onSurfaceVariant}
 inactive.text.color=#c2c7cf
+; {onSurface}61
 disabled.text.color=#e2e2e561
 
 # highlight
+; {secondaryContainer}
 highlight.color=#3a4857
+; {don't know}
 inactive.highlight.color=#34404d
+; {onSecondaryContainer}
 highlight.text.color=#d5e4f6
+; {onSurfaceVariant}
 inactive.highlight.text.color=#c2c7cf
 
 # tooltip
+; {surfaceContainer}
 tooltip.base.color=#1e2022
+; {onSurfaceVariant}
 tooltip.text.color=#c2c7cf
 
 # button
@@ -106,6 +121,7 @@ button.color=#333538
 button.text.color=#95ccff
 
 # general
+; {outline}
 light.color=#8c9198
 mid.color=#424748
 mid.light.color=#42474e
