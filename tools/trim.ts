@@ -25,7 +25,7 @@ function cleanAttributes(attr: Attributes) {
       delete attr[key];
     }
     if (attr.id && /\w+\d+/.test(`${attr.id}`)) {
-      delete attr[key];
+      delete attr.id;
     }
   }
   return attr;
