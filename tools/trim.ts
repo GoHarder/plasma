@@ -46,6 +46,25 @@ function clean(items: Element[]) {
   return items;
 }
 
+function round(data: string) {
+  return data.replace(/\d+\.\d{4,}/g, (match) => {
+    const matchFloat = parseFloat(match);
+    const rounded = Math.round(matchFloat * 1000) / 1000;
+    return rounded.toString();
+  });
+}
+
+function replace(data: string) {
+  data = data.replace(
+    '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n',
+    "",
+  );
+
+  data = data.replace(/(z|Z)\s"/, '$1"');
+
+  return data;
+}
+
 // MARK: Main
 // -------------------------------------------------------------------------
 
@@ -60,7 +79,10 @@ async function main() {
 
   data.elements = clean(data.elements);
 
-  const newSvg = convert.js2xml(data, { spaces: 2 });
+  let newSvg = convert.js2xml(data, { spaces: 2 });
+
+  newSvg = round(newSvg);
+  newSvg = replace(newSvg);
 
   Deno.writeTextFile(filePath, newSvg);
 }
