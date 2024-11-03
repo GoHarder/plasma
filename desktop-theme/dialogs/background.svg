@@ -1,4 +1,4 @@
-<svg width="71" height="71" viewBox="0 0 71 71" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+<svg width="142" height="142" viewBox="0 0 142 142" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
   <defs>
     <style id="current-color-scheme" type="text/css">
@@ -11,8 +11,8 @@
       }
     </style>
     <linearGradient id="ag">
-      <stop style="stop-color:#800000;" stop-opacity="1" offset="0.407" />
-      <stop style="stop-color:#800000;" stop-opacity="0" offset="1" />
+      <stop stop-opacity="1" offset="0.407" />
+      <stop stop-opacity="0" offset="1" />
     </linearGradient>
     <radialGradient xlink:href="#ag" id="ag-tl" cx="17.5" cy="21.5" r="13.5" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#ag" id="ag-tr" cx="53.5" cy="21.5" r="13.5" gradientUnits="userSpaceOnUse" />
@@ -22,8 +22,8 @@
     <linearGradient xlink:href="#ag" id="ag-b" x1="35.5" y1="57.5" x2="35.5" y2="71" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#ag" id="ag-br" cx="53.5" cy="57.5" r="13.5" gradientUnits="userSpaceOnUse" />
     <linearGradient id="bg">
-      <stop style="stop-color:#008000" stop-opacity="1" offset="0.75" />
-      <stop style="stop-color:#008000" stop-opacity="0" offset="1" />
+      <stop stop-opacity="1" offset="0.75" />
+      <stop stop-opacity="0" offset="1" />
     </linearGradient>
     <linearGradient xlink:href="#bg" id="bg-l" x1="17.5" y1="36.5" x2="5.5" y2="36.5" gradientUnits="userSpaceOnUse" />
     <linearGradient xlink:href="#bg" id="bg-r" x1="53.5" y1="36.5" x2="65.5" y2="36.5" gradientUnits="userSpaceOnUse" />
@@ -31,135 +31,106 @@
     <linearGradient xlink:href="#bg" id="bg-b" x1="35.5" y1="54.5" x2="35.5" y2="66.5" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#bg" id="bg-br" cx="53.5" cy="54.5" r="12" gradientUnits="userSpaceOnUse" />
   </defs>
-  <g transform="translate(67)">
-    <path id="topleft" d="m 15.5,5.5 a 10,10 0 0 0 -10,10 h 10 z" class="ColorScheme-Background" fill="currentColor"
+  <g transform="translate(71)">
+    <path id="topleft" d="m 17.5,5.5 a 12,12 0 0 0 -12,12 h 12 z" class="ColorScheme-Background" fill="currentColor"
       opacity="0.95" />
-    <rect id="top" width="36" height="10" x="15.5" y="5.5" class="ColorScheme-Background" fill="currentColor"
+    <rect id="top" width="36" height="12" x="17.5" y="5.5" class="ColorScheme-Background" fill="currentColor"
       opacity="0.95" />
-    <path id="topright" d="m 51.5,5.5 a 10,10 0 0 1 10,10 h -10 z" class="ColorScheme-Background" fill="currentColor"
+    <path id="topright" d="m 53.5,5.5 a 12,12 0 0 1 12,12 h -12 z" class="ColorScheme-Background" fill="currentColor"
       opacity="0.95" />
-    <rect id="left" width="10" height="36" x="5.5" y="15.5" class="ColorScheme-Background" fill="currentColor"
+    <rect id="left" width="12" height="36" x="5.5" y="17.5" class="ColorScheme-Background" fill="currentColor"
       opacity="0.95" />
-    <rect id="center" width="36" height="36" x="15.5" y="15.5" class="ColorScheme-Background" fill="currentColor"
+    <rect id="center" width="36" height="36" x="17.5" y="17.5" class="ColorScheme-Background" fill="currentColor"
       opacity="0.95" />
-    <rect id="right" width="10" height="36" x="51.5" y="15.5" class="ColorScheme-Background" fill="currentColor"
+    <rect id="right" width="12" height="36" x="53.5" y="17.5" class="ColorScheme-Background" fill="currentColor"
       opacity="0.95" />
-    <path id="bottomleft" d="m 15.5,61.5 a 10,10 0 0 1 -10,-10 h 10 z" class="ColorScheme-Background"
+    <path id="bottomleft" d="m 17.5,65.5 a 12,12 0 0 1 -12,-12 h 12 z" class="ColorScheme-Background"
       fill="currentColor" opacity="0.95" />
-    <rect id="bottom" width="36" height="10" x="15.5" y="51.5" class="ColorScheme-Background" fill="currentColor"
+    <rect id="bottom" width="36" height="12" x="17.5" y="53.5" class="ColorScheme-Background" fill="currentColor"
       opacity="0.95" />
-    <path id="bottomright" d="m 51.5,61.5 a 10,10 0 0 0 10,-10 h -10 z" class="ColorScheme-Background"
+    <path id="bottomright" d="m 53.5,65.5 a 12,12 0 0 0 12,-12 h -12 z" class="ColorScheme-Background"
       fill="currentColor" opacity="0.95" />
   </g>
-  <rect id="hint-top-margin" width="2" height="9" x="99.5" y="5.5" fill="#ff00ff" />
-  <rect id="hint-left-margin" width="9" height="2" x="72.5" y="32.5" fill="#ff00ff" />
-  <rect id="hint-right-margin" width="9" height="2" x="120.5" y="32.5" fill="#ff00ff" />
-  <rect id="hint-bottom-margin" width="2" height="9" x="99.5" y="53.5" fill="#ff00ff" />
-  <rect id="hint-top-inset" width="2" height="0.001" x="99.5" y="5.5" fill="#00ff00" />
-  <rect id="hint-left-inset" width="0.001" height="2" x="72.5" y="32.5" fill="#00ff00" />
-  <rect id="hint-right-inset" width="0.001" height="2" x="123.5" y="32.5" fill="#00ff00" />
-  <rect id="hint-bottom-inset" width="2" height="0.001" x="99.5" y="56.5" fill="#00ff00" />
+  <rect id="hint-top-margin" width="2" height="9" x="105.5" y="5.5" fill="#ff00ff" />
+  <rect id="hint-left-margin" width="9" height="2" x="76.5" y="34.5" fill="#ff00ff" />
+  <rect id="hint-right-margin" width="9" height="2" x="127.5" y="34.5" fill="#ff00ff" />
+  <rect id="hint-bottom-margin" width="2" height="9" x="105.5" y="56.5" fill="#ff00ff" />
+  <rect id="hint-top-inset" width="2" height="0.001" x="105.5" y="5.5" fill="#00ff00" />
+  <rect id="hint-left-inset" width="0.001" height="2" x="76.5" y="34.5" fill="#00ff00" />
+  <rect id="hint-right-inset" width="0.001" height="2" x="136.499" y="34.5" fill="#00ff00" />
+  <rect id="hint-bottom-inset" width="2" height="0.001" x="105.5" y="65.499" fill="#00ff00" />
   <g id="shadow-topleft">
-    <rect width="15.5" height="15.5" x="0" y="0" fill="none" />
-    <path d="M 5.732 13.455 A 11.5 11.5 0 0 0 4.734 15.5 L 5.5 15.5 A 10 10 0 0 1 5.732 13.455 z" fill="url(#ag-tl)"
+    <rect width="17.5" height="17.5" x="0" y="0" fill="none" />
+    <path d="M 5.834 14.709 A 13.5 13.5 0 0 0 4.613 17.5 L 5.5 17.5 A 12 12 0 0 1 5.834 14.709 z" fill="url(#ag-tl)"
       opacity="0.15" />
   </g>
   <g id="shadow-top">
-    <rect width="36" height="15.5" x="15.5" y="0" fill="none" />
+    <rect width="36" height="17.5" x="17.5" y="0" fill="none" />
   </g>
   <g id="shadow-topright">
-    <rect width="15.5" height="15.5" x="51.5" y="0" fill="none" />
-    <path d="M 61.289 13.469 A 10 10 0 0 1 61.5 15.5 L 62.281 15.5 A 11.5 11.5 0 0 0 61.289 13.469 z" fill="url(#ag-tr)"
+    <rect width="17.5" height="17.5" x="53.5" y="0" fill="none" />
+    <path d="M 65.17 14.713 A 12 12 0 0 1 65.5 17.5 L 66.393 17.5 A 13.5 13.5 0 0 0 65.17 14.713 z" fill="url(#ag-tr)"
       opacity="0.15" />
   </g>
   <g id="shadow-left">
-    <rect width="15.5" height="36" x="0" y="15.5" fill="none" />
-    <path d="M 4.734,15.5 A 11.5,11.5 0 0 0 4,19.5 h 1.5 v -4 z" fill="url(#ag-tl)" opacity="0.15" />
-    <rect width="1.5" height="32" x="4" y="19.5" fill="url(#ag-l)" opacity="0.15" />
+    <rect width="17.5" height="36" x="0" y="17.5" fill="none" />
+    <path d="M 4.613 17.5 A 13.5 13.5 0 0 0 4 21.5 L 5.5 21.5 L 5.5 17.5 L 4.613 17.5 z" fill="url(#ag-tl)"
+      opacity="0.15" />
+    <rect width="1.5" height="32" x="4" y="21.5" fill="url(#ag-l)" opacity="0.15" />
   </g>
   <g id="shadow-center">
-    <rect width="36" height="36" x="15.5" y="15.5" fill="none" />
+    <rect width="36" height="36" x="17.5" y="17.5" fill="none" />
   </g>
   <g id="shadow-right">
-    <rect width="15.5" height="36" x="51.5" y="15.5" fill="none" />
-    <path d="M 61.5 15.5 L 61.5 19.5 L 63 19.5 A 11.5 11.5 0 0 0 62.281 15.5 L 61.5 15.5 z" fill="url(#ag-tr)"
+    <rect width="17.5" height="36" x="53.5" y="17.5" fill="none" />
+    <path d="M 65.5 17.5 L 65.5 21.5 L 67 21.5 A 13.5 13.5 0 0 0 66.393 17.5 L 65.5 17.5 z" fill="url(#ag-tr)"
       opacity="0.15" />
-    <rect width="1.5" height="32" x="61.5" y="19.5" fill="url(#ag-r)" opacity="0.15" />
+    <rect width="1.5" height="32" x="65.5" y="21.5" fill="url(#ag-r)" opacity="0.15" />
   </g>
   <g id="shadow-bottomleft">
-    <rect width="15.5" height="15.5" x="0" y="51.5" fill="none" />
-    <path d="M 5.5 51.5 L 5.5 52.5 L 5.566 52.5 A 10 10 0 0 1 5.5 51.5 z" fill="url(#bg-l)" opacity="0.3" />
-    <path d="M 5.5 52.5 A 10 10 0 0 0 15.5 62.5 L 15.5 61.5 A 10 10 0 0 1 5.566 52.5 L 5.5 52.5 z" fill="url(#bg-bl)"
-      opacity="0.3" />
-    <path d="M 4 51.5 L 4 55.5 L 6.348 55.5 A 10 10 0 0 1 5.5 51.5 L 4 51.5 z" fill="url(#ag-l)" opacity="0.15" />
-    <path d="M 4 55.5 A 11.5 11.5 0 0 0 15.5 67 L 15.5 61.5 A 10 10 0 0 1 6.348 55.5 L 4 55.5 z" fill="url(#ag-bl)"
+    <rect width="17.5" height="17.5" x="0" y="53.5" fill="none" />
+    <path d="M 4 53.5 L 4 57.5 L 6.199 57.5 A 12 12 0 0 1 5.5 53.5 L 4 53.5 z" fill="url(#ag-l)" opacity="0.15" />
+    <path d="M 4 57.5 A 13.5 13.5 0 0 0 17.5 71 L 17.5 65.5 A 12 12 0 0 1 6.199 57.5 L 4 57.5 z" fill="url(#ag-bl)"
       opacity="0.15" />
+    <path d="M 5.5 53.5 L 5.5 54.5 L 5.561 54.5 A 12 12 0 0 1 5.5 53.5 z" fill="url(#bg-l)" opacity="0.3" />
+    <path d="m 5.5,54 a 12,12 0 0 0 12,12 V 65 A 12,12 0 0 1 5.561,54 Z" fill="url(#bg-bl)" opacity="0.3" />
   </g>
   <g id="shadow-bottom">
-    <rect width="36" height="15.5" x="15.5" y="51.5" fill="none" />
-    <rect width="36" height="1" x="15.5" y="61.5" fill="url(#bg-b)" opacity="0.3" />
-    <path d="M 15.5 61.5 L 15.5 67 L 51.5 67 L 51.5 61.5 L 15.5 61.5 z" fill="url(#ag-b)" opacity="0.15" />
+    <rect width="36" height="17.5" x="17.5" y="53.5" fill="none" />
+    <rect id="clip-b" width="36" height="5.5" x="17.5" y="65.5" fill="url(#ag-b)" opacity="0.15" />
+    <rect width="36" height="1" x="17.5" y="65.5" fill="url(#bg-b)" opacity="0.3" />
   </g>
   <g id="shadow-bottomright">
     <rect width="17.5" height="17.5" x="53.5" y="53.5" fill="none" />
-    <path d="M 61.5 51.5 A 10 10 0 0 1 61.434 52.5 L 61.5 52.5 L 61.5 51.5 z" fill="url(#bg-r)" opacity="0.3" />
-    <path d="M 61.434 52.5 A 10 10 0 0 1 51.5 61.5 L 51.5 62.5 A 10 10 0 0 0 61.5 52.5 L 61.434 52.5 z"
-      fill="url(#bg-br)" opacity="0.3" />
-    <path d="M 61.5 51.5 A 10 10 0 0 1 60.652 55.5 L 63 55.5 L 63 51.5 L 61.5 51.5 z" fill="url(#ag-r)"
+    <path d="M 65.5 53.5 A 12 12 0 0 1 64.801 57.5 L 67 57.5 L 67 53.5 L 65.5 53.5 z" fill="url(#ag-r)"
       opacity="0.15" />
-    <path d="M 60.652 55.5 A 10 10 0 0 1 51.5 61.5 L 51.5 67 A 11.5 11.5 0 0 0 63 55.5 L 60.652 55.5 z"
+    <path d="M 64.801 57.5 A 12 12 0 0 1 53.5 65.5 L 53.5 71 A 13.5 13.5 0 0 0 67 57.5 L 64.801 57.5 z"
       fill="url(#ag-br)" opacity="0.15" />
+    <path d="M 65.5 53.5 A 12 12 0 0 1 65.439 54.5 L 65.5 54.5 L 65.5 53.5 z" fill="url(#bg-r)" opacity="0.3" />
+    <path d="M 65.439 54.5 A 12 12 0 0 1 53.5 65.5 L 53.5 66.5 A 12 12 0 0 0 65.5 54.5 L 65.439 54.5 z"
+      fill="url(#bg-br)" opacity="0.3" />
   </g>
-  <rect id="shdow-hint-top-margin" width="2" height="5.5" x="31.5" y="0" fill="#ff00ff" />
-  <rect id="shdow-hint-left-margin" width="5.5" height="2" x="0" y="31.5" fill="#ff00ff" />
-  <rect id="shdow-hint-right-margin" width="5.5" height="2" x="61.5" y="31.5" fill="#ff00ff" />
-  <rect id="shdow-hint-bottom-margin" width="2" height="5.5" x="33.5" y="61.5" fill="#ff00ff" />
-  <rect id="shdow-hint-top-inset" width="2" height="5.5" x="33.5" y="0" fill="#00ff00" />
+  <rect id="shdow-hint-top-margin" width="2" height="5.5" x="33.5" y="0" fill="#ff00ff" />
+  <rect id="shdow-hint-left-margin" width="5.5" height="2" x="0" y="35.5" fill="#ff00ff" />
+  <rect id="shdow-hint-right-margin" width="5.5" height="2" x="65.5" y="33.5" fill="#ff00ff" />
+  <rect id="shdow-hint-bottom-margin" width="2" height="5.5" x="35.5" y="65.5" fill="#ff00ff" />
+  <rect id="shdow-hint-top-inset" width="2" height="5.5" x="35.5" y="0" fill="#00ff00" />
   <rect id="shdow-hint-left-inset" width="5.5" height="2" x="0" y="33.5" fill="#00ff00" />
-  <rect id="shdow-hint-right-inset" width="5.5" height="2" x="61.5" y="33.5" fill="#00ff00" />
-  <rect id="shdow-hint-bottom-inset" width="2" height="5.5" x="31.5" y="61.5" fill="#00ff00" />
-  <g transform="translate(0,67)">
-    <path id="mask-topleft" d="m 15.5,6.5 a 12,12 0 0 0 -9,9 h 9 z" />
-    <rect id="mask-top" width="36" height="10" x="15.5" y="5.5" />
-    <path id="mask-topright" d="m 51.5,6.5 a 12,12 0 0 1 9,9 h -9 z" />
-    <rect id="mask-left" width="10" height="36" x="5.5" y="15.5" />
-    <rect id="mask-center" width="36" height="36" x="15.5" y="15.5" />
-    <rect id="mask-right" width="10" height="36" x="51.5" y="15.5" />
-    <path id="mask-bottomleft" d="m 15.5,60.5 a 12,12 0 0 1 -9,-9 h 9 z" />
-    <rect id="mask-bottom" width="36" height="10" x="15.5" y="51.5" />
-    <path id="mask-bottomright" d="m 51.5,60.5 a 12,12 0 0 0 9,-9 h -9 z" />
+  <rect id="shdow-hint-right-inset" width="5.5" height="2" x="65.5" y="35.5" fill="#00ff00" />
+  <rect id="shdow-hint-bottom-inset" width="2" height="5.5" x="33.5" y="65.5" fill="#00ff00" />
+  <g transform="translate(0,71)">
+    <!-- <path d="m 15.5,6.5 a 12,12 0 0 0 -9,9 h 9 z" /> -->
+    <!-- <path d="m 51.5,6.5 a 12,12 0 0 1 9,9 h -9 z" /> -->
+    <!-- <path d="m 15.5,60.5 a 12,12 0 0 1 -9,-9 h 9 z" /> -->
+    <!-- <path d="m 51.5,60.5 a 12,12 0 0 0 9,-9 h -9 z" /> -->
+    <path id="mask-topleft" d="m 17.5,5.5 a 14,14 0 0 0 -11,11 h 11 z" />
+    <rect id="mask-top" width="36" height="12" x="17.5" y="5.5" />
+    <path id="mask-topright" d="m 53.5,5.5 a 14,14 0 0 1 11,11 h -11 z" />
+    <rect id="mask-left" width="12" height="36" x="5.5" y="17.5" />
+    <rect id="mask-center" width="36" height="36" x="17.5" y="17.5" />
+    <rect id="mask-right" width="12" height="36" x="53.5" y="17.5" />
+    <path id="mask-bottomleft" d="m 17.5,65.5 a 14,14 0 0 1 -11,-11 h 11 z" />
+    <rect id="mask-bottom" width="36" height="12" x="17.5" y="53.5" />
+    <path id="mask-bottomright" d="m 53.5,65.5 a 14,14 0 0 0 11,-11 h -11 z" />
   </g>
-
-  <!-- After -->
-  <path d="M 17.5,8 A 13.5,13.5 0 0 0 4,21.5 h 13.5 z" fill="url(#ag-tl)" opacity="0.15" />
-  <path d="M 53.5,8 A 13.5,13.5 0 0 1 67,21.5 H 53.5 Z" fill="url(#ag-tr)" opacity="0.15" />
-  <rect width="13.5" height="36" x="4" y="21.5" fill="url(#ag-l)" opacity="0.15" />
-  <rect width="13.5" height="36" x="53.5" y="21.5" fill="url(#ag-r)" opacity="0.15" />
-  <path d="M 17.5,71 A 13.5,13.5 0 0 1 4,57.5 h 13.5 z" fill="url(#ag-bl)" opacity="0.15" />
-  <rect width="36" height="13.5" x="17.5" y="57.5" fill="url(#ag-b)" opacity="0.15" />
-  <path d="M 53.5,71 A 13.5,13.5 0 0 0 67,57.5 H 53.5 Z" fill="url(#ag-br)" opacity="0.15" />
-  <!-- Before opacity="0.3" -->
-  <rect width="12" height="36" x="5.5" y="18.5" fill="url(#bg-l)" opacity="0.3" />
-  <rect width="12" height="36" x="53.5" y="18.5" fill="url(#bg-r)" opacity="0.3" />
-  <path d="m 17.5,66.5 a 12,12 0 0 1 -12,-12 h 12 z" fill="url(#bg-bl)" opacity="0.3" />
-  <rect width="36" height="12" x="17.5" y="54.5" fill="url(#bg-b)" opacity="0.3" />
-  <path d="m 53.5,66.5 a 12,12 0 0 0 12,-12 h -12 z" fill="url(#bg-br)" opacity="0.3" />
-  <path d="m 17.5,5.5 a 12,12 0 0 0 -12,12 h 12 z" style="fill:#808080" />
-  <rect width="36" height="12" x="17.5" y="5.5" style="fill:#808080" />
-  <path d="m 53.5,5.5 a 12,12 0 0 1 12,12 h -12 z" style="fill:#808080" />
-  <rect width="12" height="36" x="5.5" y="17.5" style="fill:#808080" />
-  <rect width="36" height="36" x="17.5" y="17.5" style="fill:#808080" />
-  <rect width="12" height="36" x="53.5" y="17.5" style="fill:#808080" />
-  <path d="m 17.5,65.5 a 12,12 0 0 1 -12,-12 h 12 z" style="fill:#808080" />
-  <rect width="36" height="12" x="17.5" y="53.5" style="fill:#808080" />
-  <path d="m 53.5,65.5 a 12,12 0 0 0 12,-12 h -12 z" style="fill:#808080" />
-
-  <rect width="17.5" height="17.5" x="0" y="0" opacity="0.25" />
-  <rect width="36" height="17.5" x="17.5" y="0" opacity="0.25" />
-  <rect width="17.5" height="17.5" x="53.5" y="0" opacity="0.25" />
-  <rect width="17.5" height="36" x="0" y="17.5" opacity="0.25" />
-  <rect width="17.5" height="36" x="53.5" y="17.5" opacity="0.25" />
-  <rect width="17.5" height="17.5" x="0" y="53.5" opacity="0.25" />
-  <rect width="36" height="17.5" x="17.5" y="53.5" opacity="0.25" />
-  <rect width="17.5" height="17.5" x="53.5" y="53.5" opacity="0.25" />
 </svg>
