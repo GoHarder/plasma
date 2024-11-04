@@ -119,10 +119,6 @@
   <rect id="shdow-hint-right-inset" width="5.5" height="2" x="65.5" y="35.5" fill="#00ff00" />
   <rect id="shdow-hint-bottom-inset" width="2" height="5.5" x="33.5" y="65.5" fill="#00ff00" />
   <g transform="translate(0,71)">
-    <!-- <path d="m 15.5,6.5 a 12,12 0 0 0 -9,9 h 9 z" /> -->
-    <!-- <path d="m 51.5,6.5 a 12,12 0 0 1 9,9 h -9 z" /> -->
-    <!-- <path d="m 15.5,60.5 a 12,12 0 0 1 -9,-9 h 9 z" /> -->
-    <!-- <path d="m 51.5,60.5 a 12,12 0 0 0 9,-9 h -9 z" /> -->
     <path id="mask-topleft" d="m 17.5,5.5 a 14,14 0 0 0 -11,11 h 11 z" />
     <rect id="mask-top" width="36" height="12" x="17.5" y="5.5" />
     <path id="mask-topright" d="m 53.5,5.5 a 14,14 0 0 1 11,11 h -11 z" />
