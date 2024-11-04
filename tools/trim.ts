@@ -12,18 +12,25 @@ type Attributes = convert.Attributes;
 // MARK: Constants
 // -------------------------------------------------------------------------
 const filePath = Deno.args.at(0);
+const attributeFilter = [
+  /sodipodi/,
+  /inkscape/,
+  /:rdf/,
+  /:cc/,
+  /:dc/,
+];
 
 // MARK: Helpers
 // -------------------------------------------------------------------------
 
 function cleanAttributes(attr: Attributes) {
   for (const key in attr) {
-    if (/sodipodi/.test(key)) {
-      delete attr[key];
-    }
-    if (/inkscape/.test(key)) {
-      delete attr[key];
-    }
+    attributeFilter.forEach((regex) => {
+      if (regex.test(key)) {
+        delete attr[key];
+      }
+    });
+
     if (attr.id && /\w+\d+/.test(`${attr.id}`)) {
       delete attr.id;
     }
@@ -33,6 +40,7 @@ function cleanAttributes(attr: Attributes) {
 
 function clean(items: Element[]) {
   items = items.filter((item) => /sodipodi/.test(item?.name ?? "") === false);
+  items = items.filter((item) => /metadata/.test(item?.name ?? "") === false);
 
   for (const item of items) {
     if (item.attributes) {
@@ -65,13 +73,31 @@ function replace(data: string) {
   return data;
 }
 
+function convertNums(data: string) {
+  return data.replace(/\d(\.\d+)?e-\d+/g, (match) => {
+    const [preStr, postStr] = match.split("e-");
+    if (!preStr || !postStr) {
+      return match;
+    }
+    let output = "0.";
+    const zeros = Array.from({ length: parseInt(postStr) - 1 }, (_) => "0");
+
+    output += zeros.join("");
+    output += preStr.replace(".", "");
+
+    return output;
+  });
+}
+
 // MARK: Main
 // -------------------------------------------------------------------------
 
 async function main() {
   if (!filePath) return;
 
-  const fileData = await Deno.readTextFile(filePath);
+  let fileData = await Deno.readTextFile(filePath);
+
+  fileData = convertNums(fileData);
 
   const data = convert.xml2js(fileData, { compact: false }) as convert.Element;
 
