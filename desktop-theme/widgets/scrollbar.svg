@@ -307,7 +307,7 @@
     style="opacity:0.5;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1" width="6" x="44" y="9" />
   <rect id="background-vertical-hint-bottom-inset" height="6"
     style="opacity:0.5;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1" width="3" x="54" y="16" />
-  <rect id="hint-scrollbar-size" x="71" y="3" width="6" height="6" style="fill:#ff0000;fill-rule:evenodd" />
+  <rect id="hint-scrollbar-size" x="71" y="3" width="10" height="10" style="fill:#ff0000;fill-rule:evenodd" />
   <circle id="hint-tile-center" cx="1" cy="1" r="1" fill="#4e9a06" />
   <circle id="private-hint-show-separator" cx="3" cy="1" r="1" fill="#0000ff" />
   <!-- windows button 15x15 icon 7x6  -->
