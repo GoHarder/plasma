@@ -31,7 +31,7 @@ function cleanAttributes(attr: Attributes) {
       }
     });
 
-    if (attr.id && /\w+\d+/.test(`${attr.id}`)) {
+    if (attr.id && /^\w+\d+/.test(`${attr.id}`)) {
       delete attr.id;
     }
   }

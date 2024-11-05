@@ -1,6 +1,6 @@
-<svg width="210" height="210" viewBox="0 0 210 210" xmlns="http://www.w3.org/2000/svg">
+<svg width="40" height="40" viewBox="0 0 40 40" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
   <defs>
-    <!-- MARK: Style -->
     <style>
       .pri {
         fill: #95ccff;
@@ -77,159 +77,118 @@
       }
     </style>
     <!-- MARK: Shapes -->
-    <path id="r-8-tl" d="M 8,0 a 8 8 0 0 0 -8,8 h 8 z" />
-    <rect id="sq-8-tl" width="8" height="8" />
-    <rect id="sq-8-t" width="16" height="8" x="8" />
-    <path id="r-8-tr" d="M 24,0 a 8 8 0 0 1 8,8 h -8 z" />
-    <rect id="sq-8-tr" width="8" height="8" x="24" />
-    <rect id="sq-8-l" width="8" height="16" y="8" />
-    <rect id="sq-8-c" width="16" height="16" x="8" y="8" />
-    <rect id="sq-8-r" width="8" height="16" x="24" y="8" />
-    <path id="r-8-bl" d="M 8,32 a 8 8 0 0 1 -8,-8 h 8 z" />
-    <rect id="sq-8-bl" width="8" height="8" y="24" />
-    <rect id="sq-8-b" width="16" height="8" x="8" y="24" />
-    <path id="r-8-br" d="M 24,32 a 8 8 0 0 0 8,-8 h -8 z" />
-    <rect id="sq-8-br" width="8" height="8" x="24" y="24" />
-    <path id="sizegrip"
-      d="M 2,10 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m -3,-3 h 2 v 2 h -2 v -2 z m 3,0 h 2 v 2 h -2 v -2 z m 0,-3 h 2 v 2 h -2 v -2 z" />
-    <path id="progress-tl" d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" />
-    <rect id="progress-t" width="16" height="2" x="2" y="0" />
-    <path id="progress-tr" d="M 18,0 a 2,2 0 0 1 2,2 h -2 z" />
-    <path id="progress-bl" d="M 2,4 a 2,2 0 0 1 -2,-2 h 2 z" />
-    <rect id="progress-b" width="16" height="2" x="2" y="2" />
-    <path id="progress-br" d="M 18,4 a 2,2 0 0 0 2,-2 h -2 z" />
-    <path id="slider-tl" d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" />
-    <rect id="slider-t" width="2" height="2" x="2" />
-    <path id="slider-tr" d="M 4,0 a 2,2 0 0 1 2,2 h -2 z" />
-    <rect id="slider-l" width="2" height="16" y="2" />
-    <rect id="slider-c" width="2" height="16" x="2" y="2" />
-    <rect id="slider-r" width="2" height="16" x="4" y="2" />
-    <path id="slider-bl" d="M 0,18 a 2,2 0 0 0 2,2 v -2 z" />
-    <rect id="slider-b" width="2" height="2" x="2" y="18" />
-    <path id="slider-br" d="M 6,18 a 2,2 0 0 1 -2,2 v -2 z" />
-    <path id="grip"
-      d="M 2,16 Q 1.175,16 0.588,15.413 0,14.825 0,14 0,13.175 0.588,12.588 1.175,12 2,12 2.825,12 3.413,12.588 4,13.175 4,14 4,14.825 3.413,15.413 2.825,16 2,16 Z M 2,10 Q 1.175,10 0.588,9.413 0,8.825 0,8 0,7.175 0.588,6.588 1.175,6 2,6 2.825,6 3.413,6.588 4,7.175 4,8 4,8.825 3.413,9.413 2.825,10 2,10 Z M 2,4 Q 1.175,4 0.588,3.413 0,2.825 0,2 0,1.175 0.588,0.588 1.175,0 2,0 2.825,0 3.413,0.588 4,1.175 4,2 4,2.825 3.413,3.413 2.825,4 2,4 Z" />
-    <rect id="head-tl" width="1" height="1" />
-    <rect id="head-t" width="16" height="1" x="1" />
-    <rect id="head-tr" width="1" height="1" x="17" />
-    <rect id="head-l" width="1" height="16" y="1" />
-    <rect id="head-c" width="16" height="16" x="1" y="1" />
-    <rect id="head-r" width="1" height="16" x="17" y="1" />
-    <rect id="head-bl" width="1" height="1" y="17" />
-    <rect id="head-b" width="16" height="1" x="1" y="17" />
-    <rect id="head-br" width="1" height="1" x="17" y="17" />
-    <rect id="splitter-tl" width="1" height="1" />
-    <rect id="splitter-t" width="2" height="1" x="1" />
-    <rect id="splitter-tr" width="1" height="1" x="3" />
-    <rect id="splitter-l" width="1" height="14" y="1" />
-    <rect id="splitter-c" width="2" height="14" x="1" y="1" />
-    <rect id="splitter-r" width="1" height="14" x="3" y="1" />
-    <rect id="splitter-bl" width="1" height="1" y="15" />
-    <rect id="splitter-b" width="2" height="1" x="1" y="15" />
-    <rect id="splitter-br" width="1" height="1" x="3" y="15" />
-    <!-- <path id="scroll-tl" d="M 5,0 a 5,5 0 0 0 -5,5 h 5 z" /> -->
-    <rect id="scroll-tl" width="5" height="5" />
-    <!-- <path id="scroll-tr" d="M 5,0 a 5,5 0 0 1 5,5 h -5 z" /> -->
-    <rect id="scroll-tr" width="5" height="5" x="5" />
-    <rect id="scroll-l" width="5" height="6" y="5" />
-    <rect id="scroll-r" width="5" height="6" x="5" y="5" />
-    <!-- <path id="scroll-bl" d="M 5,16 a 5,5 0 0 1 -5,-5 h 5 z" /> -->
-    <rect id="scroll-bl" width="5" height="5" y="11" />
-    <!-- <path id="scroll-br" d="M 5,16 a 5,5 0 0 0 5,-5 h -5 z" /> -->
-    <rect id="scroll-br" width="5" height="5" x="5" y="11" />
-    <!-- MARK: Icons -->
-    <rect id="icon-box" width="10" height="10" opacity="0" />
-    <path id="add" d="M 4.286,5.714 H 0 V 4.286 H 4.286 V 0 H 5.714 V 4.286 H 10 V 5.714 H 5.714 V 10 H 4.286 Z" />
-    <path id="down" d="M 5,7.5 0,2.5 h 10 z" />
-    <path id="left" d="M 6.917,10 1.917,5 6.917,0 8.084,1.166 l -3.834,3.834 3.834,3.834 z" />
-    <path id="minus" d="M -0.002,5.715 V 4.286 H 10.002 v 1.429 z" />
-    <path id="right" d="M 5.75,5 1.917,1.167 3.083,0 l 5,5 -5,5 -1.167,-1.167 z" />
-    <path id="radio-unchk"
-      d="M 12,22 Q 9.925,22 8.1,21.213 6.275,20.425 4.925,19.075 3.575,17.725 2.788,15.9 2,14.075 2,12 2,9.925 2.788,8.1 3.575,6.275 4.925,4.925 6.275,3.575 8.1,2.788 9.925,2 12,2 14.075,2 15.9,2.788 17.725,3.575 19.075,4.925 20.425,6.275 21.213,8.1 22,9.925 22,12 q 0,2.075 -0.788,3.9 -0.788,1.825 -2.138,3.175 -1.35,1.35 -3.175,2.138 Q 14.075,22 12,22 Z m 0,-2 q 3.35,0 5.675,-2.325 Q 20,15.35 20,12 20,8.65 17.675,6.325 15.35,4 12,4 8.65,4 6.325,6.325 4,8.65 4,12 4,15.35 6.325,17.675 8.65,20 12,20 Z m 0,-8 z" />
-    <path id="radio-chk"
-      d="m 12,17 q 2.075,0 3.538,-1.463 Q 17,14.075 17,12 17,9.925 15.538,8.463 14.075,7 12,7 9.925,7 8.463,8.463 7,9.925 7,12 7,14.075 8.463,15.538 9.925,17 12,17 Z m 0,5 Q 9.925,22 8.1,21.213 6.275,20.425 4.925,19.075 3.575,17.725 2.788,15.9 2,14.075 2,12 2,9.925 2.788,8.1 3.575,6.275 4.925,4.925 6.275,3.575 8.1,2.788 9.925,2 12,2 14.075,2 15.9,2.788 17.725,3.575 19.075,4.925 20.425,6.275 21.213,8.1 22,9.925 22,12 q 0,2.075 -0.788,3.9 -0.788,1.825 -2.138,3.175 -1.35,1.35 -3.175,2.138 Q 14.075,22 12,22 Z m 0,-2 q 3.35,0 5.675,-2.325 Q 20,15.35 20,12 20,8.65 17.675,6.325 15.35,4 12,4 8.65,4 6.325,6.325 4,8.65 4,12 4,15.35 6.325,17.675 8.65,20 12,20 Z m 0,-8 z" />
-    <path id="chk-box-frame"
-      d="M 3,5 q 0,-2 2,-2 h 14 q 2,0, 2,2 v 14 q 0,2 -2,2 h -14 q -2,0 -2,-2 v -14 h 2 v 14 h 14 v -14 h -14 v 14 h -2 Z" />
-    <path id="chk-box-back" d="M 0,5 q 0,-5 5,-5 h 14 q 5,0 5,5 v 14 q 0,5 -5,5 h -14 q -5,0 -5,-5 Z" />
-    <path id="chk-box-chk" d="m 10.6,16.2 7.05,-7.05 -1.4,-1.4 -5.65,5.65 -2.85,-2.85 -1.4,1.4 z" />
-    <path id="chk-box-box" d="M 3,5 q 0,-2 2,-2 h 14 q 2,0, 2,2 v 14 q 0,2 -2,2 h -14 q -2,0 -2,-2 Z" />
-    <path id="chk-box-dash" d="M 7,13 H 17 V 11 H 7 Z " />
-    <path id="up" d="m 0,7.5 5,-5 5,5 z" />
-    <path id="maximize" d="M 0,9 V 1 H 10 V 9 Z M 1,8 H 9 V 3 H 1 Z" />
-    <path id="restore"
-      d="M 0,10 V 3.5 H 2 V 0 h 8 V 6.5 H 8 V 10 Z M 1,9 H 7 V 5.5 H 1 Z M 8,5.5 H 9 V 2 H 3 v 1.5 h 5 z" />
-    <path id="minimize" d="m 0,5.625 v -1.25 h 10 v 1.25 z" />
-    <path id="close" d="M 1,10 0,9 4,5 0,1 1,0 5,4 9,0 l 1,1 L 6,5 l 4,4 -1,1 L 5,6 Z" />
-    <path id="shade"
-      d="M 0.556,1.111 V 0 h 8.889 V 1.111 Z M 4.444,10 V 4.333 L 3,5.778 2.222,5 5,2.222 7.778,5 7,5.778 5.556,4.333 V 10 Z" />
-    <path id="menu"
-      d="m 0,8.333 v -1.111 h 10 v 1.111 z m 0,-2.778 v -1.111 h 10 v 1.111 z m 0,-2.778 v -1.111 h 10 v 1.111 z" />
+    <path id="btn-tl" d="m 12,4 a 8,8 0 0 0 -8,8 h 8 z" />
+    <rect id="btn-t" width="16" height="8" x="12" y="4" />
+    <path id="btn-tr" d="m 28,4 a 8,8 0 0 1 8,8 h -8 z" />
+    <rect id="btn-l" width="8" height="16" y="12" x="4" />
+    <rect id="btn-c" width="16" height="16" x="12" y="12" />
+    <rect id="btn-r" width="8" height="16" x="28" y="12" />
+    <path id="btn-bl" d="M 12,36 A 8,8 0 0 1 4,28 h 8 z" />
+    <rect id="btn-b" width="16" height="8" x="12" y="28" />
+    <path id="btn-br" d="m 28,36 a 8,8 0 0 0 8,-8 h -8 z" />
     <!-- MARK: Gradients -->
-    <radialGradient id="slider-bg">
-      <stop stop-opacity="1" offset="0.875" />
-      <stop stop-opacity="0" offset="1" />
-    </radialGradient>
-    <radialGradient id="slider-ag">
-      <stop stop-opacity="1" offset="0.8" />
-      <stop stop-opacity="0" offset="1" />
-    </radialGradient>
-    <linearGradient id="menu-bg">
-      <stop stop-opacity="1" offset="0.5" />
-      <stop stop-opacity="0" offset="1" />
+    <linearGradient id="btn-ag2">
+      <stop style="stop-color:#802020" stop-opacity="1" offset="0.333" />
+      <stop style="stop-color:#802020" stop-opacity="0" offset="1" />
     </linearGradient>
-    <linearGradient xlink:href="#menu-bg" id="menu-bgl" x1="5" y1="14" x2="1" y2="14" gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#menu-bg" id="menu-bgr" x1="29" y1="14" x2="33" y2="14"
+    <radialGradient xlink:href="#btn-ag2" id="btn-ag2-tl" cx="12" cy="15" r="9" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#btn-ag2" id="btn-ag2-tr" cx="28" cy="15" r="9" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#btn-ag2" id="btn-ag2-l" x1="12" y1="23" x2="3" y2="23"
       gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#menu-bg" id="menu-bgbl" cx="5" cy="22" r="4" gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#menu-bg" id="menu-bgb" x1="17" y1="22" x2="17" y2="26"
+    <linearGradient xlink:href="#btn-ag2" id="btn-ag2-r" x1="28" y1="23" x2="37" y2="23"
       gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#menu-bg" id="menu-bgbr" cx="29" cy="22" r="4" gradientUnits="userSpaceOnUse" />
-    <linearGradient id="menu-ag">
-      <stop offset="0" stop-opacity="0.833" />
-      <stop offset="1" stop-opacity="0" />
+    <radialGradient xlink:href="#btn-ag2" id="btn-ag2-bl" cx="12" cy="31" r="9" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#btn-ag2" id="btn-ag2-b" x1="20" y1="31" x2="20" y2="40"
+      gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#btn-ag2" id="btn-ag2-br" cx="28" cy="31" r="9" gradientUnits="userSpaceOnUse" />
+    <linearGradient id="btn-bg2">
+      <stop style="stop-color:#208020" stop-opacity="1" offset="0.75" />
+      <stop style="stop-color:#208020" stop-opacity="0" offset="1" />
     </linearGradient>
-    <radialGradient xlink:href="#menu-ag" id="menu-agtl" cx="5" cy="7" r="5" gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#menu-ag" id="menu-agtr" cx="29" cy="7" r="5" gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#menu-ag" id="menu-agl" x1="5" y1="15" x2="0" y2="15" gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#menu-ag" id="menu-agr" x1="29" y1="15" x2="34" y2="15"
+    <linearGradient xlink:href="#btn-bg2" id="btn-bg2-l" x1="12" y1="21" x2="4" y2="21"
       gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#menu-ag" id="menu-agbl" cx="5" cy="23" r="5" gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#menu-ag" id="menu-agb" x1="17" y1="23" x2="17" y2="28"
+    <linearGradient xlink:href="#btn-bg2" id="btn-bg2-r" x1="28" y1="21" x2="36" y2="21"
       gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#menu-ag" id="menu-agbr" cx="29" cy="23" r="5" gradientUnits="userSpaceOnUse" />
-    <linearGradient id="tt-bg">
-      <stop stop-opacity="1" offset="0.5" />
-      <stop stop-opacity="0" offset="1" />
-    </linearGradient>
-    <radialGradient xlink:href="#tt-bg" id="tt-bgtl" cx="4.5" cy="5.5" r="4" gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#tt-bg" id="tt-bgt" x1="12.5" y1="5.5" x2="12.5" y2="1.5"
+    <radialGradient xlink:href="#btn-bg2" id="btn-bg2-bl" cx="12" cy="29" r="8" gradientUnits="userSpaceOnUse" />
+    <linearGradient xlink:href="#btn-bg2" id="btn-bg2-b" x1="20" y1="29" x2="20" y2="37"
       gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#tt-bg" id="tt-bgtr" cx="20.5" cy="5.5" r="4" gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#tt-bg" id="tt-bgl" x1="4.5" y1="7.5" x2="0.5" y2="7.5"
-      gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#tt-bg" id="tt-bgr" x1="20.5" y1="7.5" x2="24.5" y2="7.5"
-      gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#tt-bg" id="tt-bgbl" cx="4.5" cy="9.5" r="4" gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#tt-bg" id="tt-bgb" x1="12.5" y1="9.5" x2="12.5" y2="13.5"
-      gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#tt-bg" id="tt-bgbr" cx="20.5" cy="9.5" r="4" gradientUnits="userSpaceOnUse" />
-    <linearGradient id="tt-ag">
-      <stop stop-opacity="1" offset="0.33" />
-      <stop stop-opacity="0" offset="1" />
-    </linearGradient>
-    <radialGradient xlink:href="#tt-ag" id="tt-agtl" cx="4.5" cy="5.5" r="4.5" gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#tt-ag" id="tt-agt" x1="12.5" y1="5.5" x2="12.5" y2="1"
-      gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#tt-ag" id="tt-agtr" cx="20.5" cy="5.5" r="4.5" gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#tt-ag" id="tt-agl" x1="4.5" y1="7.5" x2="0" y2="7.5" gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#tt-ag" id="tt-agr" x1="20.5" y1="7.5" x2="25" y2="7.5"
-      gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#tt-ag" id="tt-agbl" cx="4.5" cy="9.5" r="4.5" gradientUnits="userSpaceOnUse" />
-    <linearGradient xlink:href="#tt-ag" id="tt-agb" x1="12.5" y1="9.5" x2="12.5" y2="14"
-      gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#tt-ag" id="tt-agbr" cx="20.5" cy="9.5" r="4.5" gradientUnits="userSpaceOnUse" />
+    <radialGradient xlink:href="#btn-bg2" id="btn-bg2-br" cx="28" cy="29" r="8" gradientUnits="userSpaceOnUse" />
   </defs>
-  <g id="button-group">
+  <g id="button-focused-topleft">
+    <rect width="12" height="12" x="0" y="0" fill="none" />
+    <path d="M 4.129 10.648 A 9 9 0 0 0 3.525 12 L 4 12 A 8 8 0 0 1 4.129 10.648 z" fill="url(#btn-ag2-tl)"
+      opacity="0.15" />
+    <use xlink:href="#btn-tl" class="surf-cont-low" />
+    <use xlink:href="#btn-tl" class="pri" opacity="0.08" />
+  </g>
+  <g id="button-focused-top">
+    <rect width="16" height="12" x="12" y="0" fill="none" />
+    <use xlink:href="#btn-t" class="surf-cont-low" />
+    <use xlink:href="#btn-t" class="pri" opacity="0.08" />
+  </g>
+  <g id="button-focused-topright">
+    <rect width="12" height="12" x="28" y="0" fill="none" />
+    <path d="M 35.887 10.668 A 8 8 0 0 1 36 12 L 36.484 12 A 9 9 0 0 0 35.887 10.668 z" fill="url(#btn-ag2-tr)"
+      opacity="0.15" />
+    <use xlink:href="#btn-tr" class="surf-cont-low" />
+    <use xlink:href="#btn-tr" class="pri" opacity="0.08" />
+  </g>
+  <g id="button-focused-left">
+    <rect width="12" height="16" x="0" y="12" fill="none" />
+    <path d="M 3.525 12 A 9 9 0 0 0 3 15 L 4 15 L 4 12 L 3.525 12 z" fill="url(#btn-ag2-tl)" opacity="0.15" />
+    <rect width="1" height="13" x="3" y="15" fill="url(#btn-ag2-l)" opacity="0.15" />
+    <use xlink:href="#btn-l" class="surf-cont-low" />
+    <use xlink:href="#btn-l" class="pri" opacity="0.08" />
+  </g>
+  <g id="button-focused">
+    <use xlink:href="#btn-c" class="surf-cont-low" />
+    <use xlink:href="#btn-c" class="pri" opacity="0.08" />
+  </g>
+  <g id="button-focused-right">
+    <rect width="12" height="16" x="28" y="12" fill="none" />
+    <path d="M 36 12 L 36 15 L 37 15 A 9 9 0 0 0 36.484 12 L 36 12 z" fill="url(#btn-ag2-tr)" opacity="0.15" />
+    <rect width="1" height="13" x="36" y="15" fill="url(#btn-ag2-r)" opacity="0.15" />
+    <use xlink:href="#btn-r" class="surf-cont-low" />
+    <use xlink:href="#btn-r" class="pri" opacity="0.08" />
+  </g>
+  <g id="button-focused-bottomleft">
+    <rect width="12" height="12" x="0" y="28" fill="none" />
+    <path d="M 3 28 L 3 31 L 4.594 31 A 8 8 0 0 1 4 28 L 3 28 z" fill="url(#btn-ag2-l)" opacity="0.15" />
+    <path d="M 3 31 A 9 9 0 0 0 12 40 L 12 36 A 8 8 0 0 1 4.594 31 L 3 31 z" fill="url(#btn-ag2-bl)" opacity="0.15" />
+    <path d="M 4 28 L 4 29 L 4.064 29 A 8 8 0 0 1 4 28 z" fill="url(#btn-bg2-l)" opacity="0.3" />
+    <path d="M 4 29 A 8 8 0 0 0 12 37 L 12 36 A 8 8 0 0 1 4.064 29 L 4 29 z" fill="url(#btn-bg2-bl)" opacity="0.3" />
+    <use xlink:href="#btn-bl" class="surf-cont-low" />
+    <use xlink:href="#btn-bl" class="pri" opacity="0.08" />
+  </g>
+  <g id="button-focused-bottom">
+    <rect width="16" height="12" x="12" y="28" fill="none" />
+    <rect width="16" height="4" x="12" y="36" fill="url(#btn-ag2-b)" opacity="0.15" />
+    <rect width="16" height="1" x="12" y="36" fill="url(#btn-bg2-b)" opacity="0.3" />
+    <use xlink:href="#btn-b" class="surf-cont-low" />
+    <use xlink:href="#btn-b" class="pri" opacity="0.08" />
+  </g>
+  <g id="button-focused-bottomright">
+    <rect style="opacity:0.125;fill:#00ff00" width="12" height="12" x="28" y="28" />
+    <path d="M 36 28 A 8 8 0 0 1 35.406 31 L 37 31 L 37 28 L 36 28 z" fill="url(#btn-ag2-r)" opacity="0.15" />
+    <path d="M 35.406 31 A 8 8 0 0 1 28 36 L 28 40 A 9 9 0 0 0 37 31 L 35.406 31 z" fill="url(#btn-ag2-br)"
+      opacity="0.15" />
+    <path d="M 36 28 A 8 8 0 0 1 35.936 29 L 36 29 L 36 28 z" fill="url(#btn-bg2-r)" opacity="0.3" />
+    <path d="M 35.936 29 A 8 8 0 0 1 28 36 L 28 37 A 8 8 0 0 0 36 29 L 35.936 29 z" fill="url(#btn-bg2-br)"
+      opacity="0.3" />
+    <use xlink:href="#btn-br" class="surf-cont-low" />
+    <use xlink:href="#btn-br" class="pri" opacity="0.08" />
+  </g>
+  <!-- 
+  <path id="clip-tl" style="opacity:0.5;fill:#0000ff" d="M 0 0 L 0 12 L 4 12 A 8 8 0 0 1 12 4 L 12 0 L 0 0 z" />
+  <path id="clip-t" style="opacity:0.5;fill:#0000ff" d="M 12 0 L 12 4 L 28 4 L 28 0 L 12 0 z " />
+  <path id="clip-tr" style="opacity:0.5;fill:#0000ff" d="M 28 0 L 28 4 A 8 8 0 0 1 36 12 L 40 12 L 40 0 L 28 0 z " />
+  <path id="clip-l" style="opacity:0.5;fill:#0000ff" d="M 0 12 L 0 28 L 4 28 L 4 12 L 0 12 z " />
+  <path id="clip-r" style="opacity:0.5;fill:#0000ff" d="M 36 12 L 36 28 L 40 28 L 40 12 L 36 12 z " />
+  <path id="clip-bl" style="opacity:0.5;fill:#0000ff" d="M 0 28 L 0 40 L 12 40 L 12 36 A 8 8 0 0 1 4 28 L 0 28 z " />
+  <rect id="clip-b" style="opacity:0.5;fill:#0000ff" width="16" height="4" x="12" y="36"  />
+  <path id="clip-br" style="opacity:0.5;fill:#0000ff" d="M 36 28 A 8 8 0 0 1 28 36 L 28 40 L 40 40 L 40 28 L 36 28 z " /> 
+  -->
+  <!-- <g id="button-group">
     <g id="button-normal-group">
       <use id="button-normal-topleft" href="#r-8-tl" class="sec-cont" />
       <use id="button-normal-top" href="#sq-8-t" class="sec-cont" />
@@ -241,43 +200,7 @@
       <use id="button-normal-bottom" href="#sq-8-b" class="sec-cont" />
       <use id="button-normal-bottomright" href="#r-8-br" class="sec-cont" />
     </g>
-    <g id="button-focused-group" transform="translate(32)">
-      <g id="button-focused-topleft">
-        <use href="#button-normal-topleft" />
-        <use href="#r-8-tl" class="on-sec-cont" opacity="0.08" />
-      </g>
-      <g id="button-focused-top">
-        <use href="#button-normal-top" />
-        <use href="#sq-8-t" class="on-sec-cont" opacity="0.08" />
-      </g>
-      <g id="button-focused-topright">
-        <use href="#button-normal-topright" />
-        <use href="#r-8-tr" class="on-sec-cont" opacity="0.08" />
-      </g>
-      <g id="button-focused-left">
-        <use href="#button-normal-left" />
-        <use href="#sq-8-l" class="on-sec-cont" opacity="0.08" />
-      </g>
-      <g id="button-focused">
-        <use href="#button-normal" />
-        <use href="#sq-8-c" class="on-sec-cont" opacity="0.08" />
-      </g>
-      <g id="button-focused-right">
-        <use href="#button-normal-right" />
-        <use href="#sq-8-r" class="on-sec-cont" opacity="0.08" />
-      </g>
-      <g id="button-focused-bottomleft">
-        <use href="#button-normal-bottomleft" />
-        <use href="#r-8-bl" class="on-sec-cont" opacity="0.08" />
-      </g>
-      <g id="button-focused-bottom">
-        <use href="#button-normal-bottom" />
-        <use href="#sq-8-b" class="on-sec-cont" opacity="0.08" />
-      </g>
-      <g id="button-focused-bottomright">
-        <use href="#button-normal-bottomright" />
-        <use href="#r-8-br" class="on-sec-cont" opacity="0.08" />
-      </g>
+    <g id="button-focused-group" transform="translate(32)">    
     </g>
     <g id="button-pressed-group" transform="translate(64)">
       <g id="button-pressed-topleft">
@@ -365,8 +288,8 @@
       <use href="#down" class="disabled-text" />
     </g>
     <rect id="button-default-indicator" width="5" height="5" opacity="0" />
-  </g>
-  <g id="tool-button-group" transform="translate(0,32)">
+  </g> -->
+  <!-- <g id="tool-button-group" transform="translate(0,32)">
     <g id="tool-button-normal-group">
       <g id="border-tool-button-normal-topleft">
         <use href="#r-8-tl" opacity="0" />
@@ -1421,38 +1344,38 @@
     <use id="groove-normal-top" href="#splitter-t" class="outline-var" />
     <use id="groove-normal-topright" href="#splitter-tr" class="outline-var" />
     <use id="groove-normal-left" href="#splitter-l" class="outline-var" />
-    <!-- <use id="groove-normal" href="#splitter-c" class="outline-var"/> -->
-    <use id="groove-normal-right" href="#splitter-r" class="outline-var" />
-    <use id="groove-normal-bottomleft" href="#splitter-bl" class="outline-var" />
-    <use id="groove-normal-bottom" href="#splitter-b" class="outline-var" />
-    <use id="groove-normal-bottomright" href="#splitter-br" class="outline-var" />
-    <rect id="grip-normal" width="8" height="13" opacity="0" />
-    <rect id="grip-focused" width="8" height="13" opacity="0" />
-    <rect id="grip-pressed" width="8" height="13" opacity="0" />
-    <g id="scrollbarslider-normal-group" transform="translate(4,0)">
-      <use id="scrollbarslider-normal-topleft" href="#scroll-tl" class="on-surf" opacity="0.18" />
-      <use id="scrollbarslider-normal-topright" href="#scroll-tr" class="on-surf" opacity="0.18" />
-      <use id="scrollbarslider-normal-left" href="#scroll-l" class="on-surf" opacity="0.18" />
-      <use id="scrollbarslider-normal-right" href="#scroll-r" class="on-surf" opacity="0.18" />
-      <use id="scrollbarslider-normal-bottomleft" href="#scroll-bl" class="on-surf" opacity="0.18" />
-      <use id="scrollbarslider-normal-bottomright" href="#scroll-br" class="on-surf" opacity="0.18" />
-    </g>
-    <g id="scrollbarslider-focused-group" transform="translate(14,0)">
-      <use id="scrollbarslider-focused-topleft" href="#scroll-tl" class="on-surf" opacity="0.25" />
-      <use id="scrollbarslider-focused-topright" href="#scroll-tr" class="on-surf" opacity="0.25" />
-      <use id="scrollbarslider-focused-left" href="#scroll-l" class="on-surf" opacity="0.25" />
-      <use id="scrollbarslider-focused-right" href="#scroll-r" class="on-surf" opacity="0.25" />
-      <use id="scrollbarslider-focused-bottomleft" href="#scroll-bl" class="on-surf" opacity="0.25" />
-      <use id="scrollbarslider-focused-bottomright" href="#scroll-br" class="on-surf" opacity="0.25" />
-    </g>
-    <g id="scrollbarslider-pressed-group" transform="translate(24,0)">
-      <use id="scrollbarslider-pressed-topleft" href="#scroll-tl" class="on-surf" opacity="0.5" />
-      <use id="scrollbarslider-pressed-topright" href="#scroll-tr" class="on-surf" opacity="0.5" />
-      <use id="scrollbarslider-pressed-left" href="#scroll-l" class="on-surf" opacity="0.5" />
-      <use id="scrollbarslider-pressed-right" href="#scroll-r" class="on-surf" opacity="0.5" />
-      <use id="scrollbarslider-pressed-bottomleft" href="#scroll-bl" class="on-surf" opacity="0.5" />
-      <use id="scrollbarslider-pressed-bottomright" href="#scroll-br" class="on-surf" opacity="0.5" />
-    </g>
+  
+  <use id="groove-normal-right" href="#splitter-r" class="outline-var" />
+  <use id="groove-normal-bottomleft" href="#splitter-bl" class="outline-var" />
+  <use id="groove-normal-bottom" href="#splitter-b" class="outline-var" />
+  <use id="groove-normal-bottomright" href="#splitter-br" class="outline-var" />
+  <rect id="grip-normal" width="8" height="13" opacity="0" />
+  <rect id="grip-focused" width="8" height="13" opacity="0" />
+  <rect id="grip-pressed" width="8" height="13" opacity="0" />
+  <g id="scrollbarslider-normal-group" transform="translate(4,0)">
+    <use id="scrollbarslider-normal-topleft" href="#scroll-tl" class="on-surf" opacity="0.18" />
+    <use id="scrollbarslider-normal-topright" href="#scroll-tr" class="on-surf" opacity="0.18" />
+    <use id="scrollbarslider-normal-left" href="#scroll-l" class="on-surf" opacity="0.18" />
+    <use id="scrollbarslider-normal-right" href="#scroll-r" class="on-surf" opacity="0.18" />
+    <use id="scrollbarslider-normal-bottomleft" href="#scroll-bl" class="on-surf" opacity="0.18" />
+    <use id="scrollbarslider-normal-bottomright" href="#scroll-br" class="on-surf" opacity="0.18" />
+  </g>
+  <g id="scrollbarslider-focused-group" transform="translate(14,0)">
+    <use id="scrollbarslider-focused-topleft" href="#scroll-tl" class="on-surf" opacity="0.25" />
+    <use id="scrollbarslider-focused-topright" href="#scroll-tr" class="on-surf" opacity="0.25" />
+    <use id="scrollbarslider-focused-left" href="#scroll-l" class="on-surf" opacity="0.25" />
+    <use id="scrollbarslider-focused-right" href="#scroll-r" class="on-surf" opacity="0.25" />
+    <use id="scrollbarslider-focused-bottomleft" href="#scroll-bl" class="on-surf" opacity="0.25" />
+    <use id="scrollbarslider-focused-bottomright" href="#scroll-br" class="on-surf" opacity="0.25" />
+  </g>
+  <g id="scrollbarslider-pressed-group" transform="translate(24,0)">
+    <use id="scrollbarslider-pressed-topleft" href="#scroll-tl" class="on-surf" opacity="0.5" />
+    <use id="scrollbarslider-pressed-topright" href="#scroll-tr" class="on-surf" opacity="0.5" />
+    <use id="scrollbarslider-pressed-left" href="#scroll-l" class="on-surf" opacity="0.5" />
+    <use id="scrollbarslider-pressed-right" href="#scroll-r" class="on-surf" opacity="0.5" />
+    <use id="scrollbarslider-pressed-bottomleft" href="#scroll-bl" class="on-surf" opacity="0.5" />
+    <use id="scrollbarslider-pressed-bottomright" href="#scroll-br" class="on-surf" opacity="0.5" />
+  </g>
   </g>
   <g id="menubaritem-group" transform="translate(152,94)">
     <g id="menubaritem-toggled-group">
@@ -1481,7 +1404,7 @@
   <rect id="titlebar-focused" width="16" height="4" class="surf-cont-highest" />
   <rect id="titlebar-normal" width="16" height="4" y="4" class="surf-cont-high" />
   <rect id="dock-focused" width="16" height="4" class="surf-cont-highest" />
-  <rect id="dock-normal" width="16" height="4" y="4" class="surf-cont-high" />
+  <rect id="dock-normal" width="16" height="4" y="4" class="surf-cont-high" /> -->
   <!--   
   id="tab-tear"
 
