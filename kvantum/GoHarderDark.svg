@@ -88,8 +88,8 @@
     <path id="btn-br" d="m 28,36 a 8,8 0 0 0 8,-8 h -8 z" />
     <!-- MARK: Gradients -->
     <linearGradient id="btn-ag2">
-      <stop style="stop-color:#802020" stop-opacity="1" offset="0.333" />
-      <stop style="stop-color:#802020" stop-opacity="0" offset="1" />
+      <stop stop-opacity="1" offset="0.333" />
+      <stop stop-opacity="0" offset="1" />
     </linearGradient>
     <radialGradient xlink:href="#btn-ag2" id="btn-ag2-tl" cx="12" cy="15" r="9" gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#btn-ag2" id="btn-ag2-tr" cx="28" cy="15" r="9" gradientUnits="userSpaceOnUse" />
@@ -102,8 +102,8 @@
       gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#btn-ag2" id="btn-ag2-br" cx="28" cy="31" r="9" gradientUnits="userSpaceOnUse" />
     <linearGradient id="btn-bg2">
-      <stop style="stop-color:#208020" stop-opacity="1" offset="0.75" />
-      <stop style="stop-color:#208020" stop-opacity="0" offset="1" />
+      <stop stop-opacity="1" offset="0.75" />
+      <stop stop-opacity="0" offset="1" />
     </linearGradient>
     <linearGradient xlink:href="#btn-bg2" id="btn-bg2-l" x1="12" y1="21" x2="4" y2="21"
       gradientUnits="userSpaceOnUse" />
@@ -168,7 +168,7 @@
     <use xlink:href="#btn-b" class="pri" opacity="0.08" />
   </g>
   <g id="button-focused-bottomright">
-    <rect style="opacity:0.125;fill:#00ff00" width="12" height="12" x="28" y="28" />
+    <rect width="12" height="12" x="28" y="28" fill="none" />
     <path d="M 36 28 A 8 8 0 0 1 35.406 31 L 37 31 L 37 28 L 36 28 z" fill="url(#btn-ag2-r)" opacity="0.15" />
     <path d="M 35.406 31 A 8 8 0 0 1 28 36 L 28 40 A 9 9 0 0 0 37 31 L 35.406 31 z" fill="url(#btn-ag2-br)"
       opacity="0.15" />
