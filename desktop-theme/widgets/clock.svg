@@ -142,29 +142,6 @@
       fill="currentColor" id="path15" />
     <rect width="8.0000019" height="6.999999" x="122" y="96" fill="none" id="rect15" />
   </g>
-
-
-  <g style="opacity:0.1;fill:#232629;fill-opacity:1" id="SecondHandShadow"
-    transform="matrix(-0.50061728,0.86566872,-0.86566872,-0.50061728,1146.4953,-489.71587)">
-    <path transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)" style="fill:#232629;stroke:none"
-      d="m 591.80505,1011.186 75.73595,0 0,1.7321 -75.73595,0 z" id="rect4414" />
-    <circle style="fill:#232629;fill-opacity:0.00392157;stroke:none" id="path4416"
-      transform="matrix(0.29783451,0,0,0.29783451,489.8134,467.44934)"
-      d="m 1777.8958,382.03223 a 6.4994531,6.4994531 0 0 1 -6.4994,6.49945 6.4994531,6.4994531 0 0 1 -6.4995,-6.49945 6.4994531,6.4994531 0 0 1 6.4995,-6.49946 6.4994531,6.4994531 0 0 1 6.4994,6.49946 z" />
-    <rect style="opacity:0.01000001;fill:#232629;fill-opacity:0.60392157;stroke:none" id="rect4715" width="5.999999"
-      height="82" x="113" y="97"
-      transform="matrix(-0.50061728,-0.86566873,0.86566873,-0.50061728,988.87596,731.74286)" />
-  </g>
-
-
-  <g id="MinuteHandShadow" transform="matrix(-0.50330119,0.86411105,-0.86411105,-0.50330119,1092.352,-486.65826)"
-    style="opacity:0.1;fill:#232629;fill-opacity:1">
-    <path style="fill:#232629;stroke:none;stroke-width:1.02131093"
-      d="m 1016.6855,579.91107 66.4728,-38.68926 1.509,2.59284 -66.4727,38.68927 z" id="rect4404" />
-    <circle transform="matrix(0.62496371,0,0,0.62496371,-89.662081,342.47545)" id="path4406"
-      style="fill:#232629;fill-opacity:0.00392157;stroke:none"
-      d="m 1777.8958,382.03223 a 6.4994531,6.4994531 0 0 1 -6.4994,6.49945 6.4994531,6.4994531 0 0 1 -6.4995,-6.49945 6.4994531,6.4994531 0 0 1 6.4995,-6.49946 6.4994531,6.4994531 0 0 1 6.4994,6.49946 z" />
-  </g>
   <g transform="rotate(-126.87095,416.28764,581.2625)" id="HourHandShadow" style="opacity:0.1">
     <rect style="opacity:0.01000001;fill:#232629;fill-opacity:0.60392157;stroke:none" id="rect4673-7" width="18"
       height="64.000008" x="33.000023" y="91.000023" transform="rotate(126.87095,409.42971,584.46862)" />
@@ -174,7 +151,15 @@
     <circle r="6.4994531" cy="382.03223" cx="1771.3964" style="fill:#232629;fill-opacity:1;stroke:none"
       id="path5455-2-3" transform="translate(-753.93395,199.18469)" />
   </g>
-
+  <g id="MinuteHandShadow">
+    <path d="m 79.545404,100.00095 -0.02403,76.91223 -2.999983,-0.001 0.02397,-76.912155 z" fill="#232629"
+      opacity="0.1" />
+  </g>
+  <g id="SecondHandShadow">
+    <rect width="5.999999" height="82" x="131" y="97" fill="none" id="rect11" />
+    <path d="m 134.88765,101.36813 -0.054,75.73593 -1.7321,-0.001 0.054,-75.73593 z" fill="#232629" opacity="0.1"
+      id="path16" />
+  </g>
   <path id="HandCenterScrew" d="m 105,100 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z" fill="none" />
   <path id="Glass"
     d="m 170.82644,100 a 70.826441,70.826441 0 1 1 -141.652876,0 70.826441,70.826441 0 1 1 141.652876,0 z"
