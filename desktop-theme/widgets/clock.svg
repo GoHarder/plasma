@@ -136,12 +136,14 @@
       id="path14" />
   </g>
   <g id="SecondHand" class="ColorScheme-ButtonFocus">
-    <rect width="1.788" height="77.37" x="125.1" y="99.367" fill="currentColor" />
+    <rect width="1.788" height="77.37" x="125.1" y="99.367" fill="currentColor" id="rect4" />
     <path
       d="m 125.04591,101.71342 c -0.92548,-0.5352 -1.24186,-1.719321 -0.70666,-2.644787 0.53521,-0.925492 1.71933,-1.241871 2.64481,-0.706665 0.92548,0.535206 1.24186,1.719322 0.70665,2.644812 -0.5352,0.92547 -1.71932,1.24185 -2.6448,0.70664 z"
-      fill="currentColor" />
-    <rect width="8.0000019" height="6.999999" x="122" y="96" fill="none" />
+      fill="currentColor" id="path15" />
+    <rect width="8.0000019" height="6.999999" x="122" y="96" fill="none" id="rect15" />
   </g>
+
+
   <g style="opacity:0.1;fill:#232629;fill-opacity:1" id="SecondHandShadow"
     transform="matrix(-0.50061728,0.86566872,-0.86566872,-0.50061728,1146.4953,-489.71587)">
     <path transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)" style="fill:#232629;stroke:none"
@@ -153,11 +155,8 @@
       height="82" x="113" y="97"
       transform="matrix(-0.50061728,-0.86566873,0.86566873,-0.50061728,988.87596,731.74286)" />
   </g>
-  <path style="opacity:0.001;fill:#232629;fill-opacity:1;stroke:none" id="HandCenterScrew"
-    d="m -45,100 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z" />
-  <path style="opacity:0.00100002;fill:#232629;fill-opacity:1;stroke:none" id="Glass"
-    d="m -150,100 a 45,45 0 1 1 -90,0 45,45 0 1 1 90,0 z"
-    transform="matrix(1.5739209,0,0,1.5739209,111.91458,-57.39209)" />
+
+
   <g id="MinuteHandShadow" transform="matrix(-0.50330119,0.86411105,-0.86411105,-0.50330119,1092.352,-486.65826)"
     style="opacity:0.1;fill:#232629;fill-opacity:1">
     <path style="fill:#232629;stroke:none;stroke-width:1.02131093"
@@ -175,6 +174,10 @@
     <circle r="6.4994531" cy="382.03223" cx="1771.3964" style="fill:#232629;fill-opacity:1;stroke:none"
       id="path5455-2-3" transform="translate(-753.93395,199.18469)" />
   </g>
-  <rect id="hint-hands-shadow-offset-to-south" style="opacity:1;fill:#008000;fill-opacity:1;stroke:none" width="4"
-    height="2" x="100" y="70" />
+
+  <path id="HandCenterScrew" d="m 105,100 a 5,5 0 1 1 -10,0 5,5 0 1 1 10,0 z" fill="none" />
+  <path id="Glass"
+    d="m 170.82644,100 a 70.826441,70.826441 0 1 1 -141.652876,0 70.826441,70.826441 0 1 1 141.652876,0 z"
+    fill="none" />
+  <rect id="hint-hands-shadow-offset-to-south" width="4" height="2" x="100" y="70" fill="#008000" />
 </svg>
