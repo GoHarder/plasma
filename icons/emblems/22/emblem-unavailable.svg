@@ -1,18 +1,17 @@
-<svg height="22" width="22" xmlns="http://www.w3.org/2000/svg">
-  <style type="text/css" id="current-color-scheme">
-    .ColorScheme-Text {
-      color: #e2e2e5;
-    }
+<svg height="22" width="22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Text {
+        color: #e2e2e5;
+      }
 
-    .ColorScheme-Background {
-      color: #28292d;
-    }
-  </style>
-  <rect width="22" height="22" opacity="0" />
-  <path
-    d="M 5.867,17.417 4.583,16.133 9.717,11 4.583,5.867 5.867,4.583 11,9.717 16.133,4.583 17.417,5.867 12.283,11 17.417,16.133 16.133,17.417 11,12.283 Z"
-    class="ColorScheme-Background" stroke-width="1" stroke="currentColor" />
-  <path
-    d="M 5.867,17.417 4.583,16.133 9.717,11 4.583,5.867 5.867,4.583 11,9.717 16.133,4.583 17.417,5.867 12.283,11 17.417,16.133 16.133,17.417 11,12.283 Z"
-    class="ColorScheme-Text" fill="currentColor" />
+      .ColorScheme-Background {
+        color: #28292d;
+      }
+    </style>
+    <path id="icon"
+      d="M 5.867,17.417 4.583,16.133 9.717,11 4.583,5.867 5.867,4.583 11,9.717 16.133,4.583 17.417,5.867 12.283,11 17.417,16.133 16.133,17.417 11,12.283 Z" />
+  </defs>
+  <use xlink:href="#icon" class="ColorScheme-Background" fill="currentColor" stroke="currentColor" />
+  <use xlink:href="#icon" class="ColorScheme-Text" fill="currentColor" />
 </svg>

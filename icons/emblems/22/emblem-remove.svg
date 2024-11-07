@@ -1,15 +1,16 @@
-<svg height="22" width="22" xmlns="http://www.w3.org/2000/svg">
-  <style type="text/css" id="current-color-scheme">
-    .ColorScheme-Accent {
-      color: #95ccff;
-    }
+<svg height="22" width="22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <style type="text/css" id="current-color-scheme">
+      .ColorScheme-Accent {
+        color: #95ccff;
+      }
 
-    .ColorScheme-Background {
-      color: #28292d;
-    }
-  </style>
-  <rect width="22" height="22" opacity="0" />
-  <path d="M 4.583,11.917 V 10.083 H 17.417 v 1.833 z" class="ColorScheme-Background" stroke-width="1"
-    stroke="currentColor" />
-  <path d="M 4.583,11.917 V 10.083 H 17.417 v 1.833 z" class="ColorScheme-Accent" fill="currentColor" />
+      .ColorScheme-Background {
+        color: #28292d;
+      }
+    </style>
+    <path id="icon" d="M 4.583,11.917 V 10.083 H 17.417 v 1.833 z" />
+  </defs>
+  <use xlink:href="#icon" class="ColorScheme-Background" fill="currentColor" stroke="currentColor" />
+  <use xlink:href="#icon" class="ColorScheme-Accent" fill="currentColor" />
 </svg>
