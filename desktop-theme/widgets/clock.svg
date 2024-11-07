@@ -55,17 +55,21 @@
       <stop style="stop-color:#232629;stop-opacity:0.10738255;" offset="0.95999998" id="stop4021" />
       <stop style="stop-color:#232629;stop-opacity:0;" offset="1" id="stop4015" />
     </linearGradient>
-    <filter id="filter-1" width="1.146" height="1.141" x="-0.073" y="-0.071" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="0.876" />
+    <filter id="filter-1" width="1.1461685" height="1.141171" x="-0.073084249" y="-0.070585509"
+      color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="0.876" id="feGaussianBlur1" />
     </filter>
-    <filter id="filter-2" width="1.123" height="1.905" x="-0.061" y="-0.453" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="0.511" />
+    <filter id="filter-2" width="1.12264" height="1.9054202" x="-0.061319997" y="-0.45271011"
+      color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="0.511" id="feGaussianBlur2" />
     </filter>
-    <filter id="filter-3" width="1.123" x="-0.061" y="-0.453" height="1.905" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="0.511" />
+    <filter id="filter-3" width="1.12264" x="-0.061319997" y="-0.45271011" height="1.9054202"
+      color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="0.511" id="feGaussianBlur3" />
     </filter>
-    <filter id="filter-4" width="1.905" height="1.123" x="-0.453" y="-0.061" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="0.511" />
+    <filter id="filter-4" width="1.9054263" height="1.12264" x="-0.45271314" y="-0.061319997"
+      color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="0.511" id="feGaussianBlur4" />
     </filter>
     <radialGradient xlink:href="#linearGradient-1" id="radialGradient-1" gradientUnits="userSpaceOnUse" cx="1255.8716"
       cy="382.72916" r="96.605507" gradientTransform="matrix(1.0765432,0,0,1.0765432,-1252,-310.02447)" />
@@ -104,51 +108,39 @@
       fill="none" stroke="#70767a" opacity="0.677" id="path10" />
     <path
       d="m 172.33657,57.14796 4.0274,-2.3252 1.3545,2.34607 -4.0274,2.3252 z m -149.43492,86.2763 4.0273,-2.32515 1.3545,2.34607 -4.0273,2.32515 z"
-      class="ColorScheme-ViewText" fill="currentColor" />
+      class="ColorScheme-ViewText" fill="currentColor" id="path6" />
     <path
       d="m 141.11257,26.91552 2.3252,-4.02738 2.3461,1.35451 -2.3252,4.02738 z m -86.27632,149.43492 2.3252,-4.02729 2.3461,1.35451 -2.3252,4.02729 z"
-      class="ColorScheme-ViewText" fill="currentColor" />
+      class="ColorScheme-ViewText" fill="currentColor" id="path7" />
     <path
       d="m 26.92905,59.49407 -4.0274,-2.32521 1.3545,-2.34608 4.0274,2.3252 z m 149.43492,86.27629 -4.0273,-2.3252 1.3545,-2.34614 4.0273,2.32526 z"
-      class="ColorScheme-ViewText" fill="currentColor" />
+      class="ColorScheme-ViewText" fill="currentColor" id="path8" />
     <path
       d="m 57.16145,28.27007 -2.3252,-4.02739 2.3461,-1.35452 2.3252,4.02738 z m 86.27632,149.43491 -2.3251,-4.02733 2.3461,-1.35457 2.3251,4.02738 z"
-      class="ColorScheme-ViewText" fill="currentColor" />
+      class="ColorScheme-ViewText" fill="currentColor" id="path9" />
   </g>
-  <g transform="matrix(-0.60001469,-0.79998898,0.79998898,-0.60001469,185.52507,1262.6976)" id="HourHand"
-    class="ColorScheme-ViewText">
-    <rect style="opacity:0.01000001;fill:currentColor;fill-opacity:0.60392157;stroke:none" id="rect4673" width="18"
-      height="64.000008" x="33.000023" y="91.000023"
-      transform="matrix(-0.60001469,0.79998898,-0.79998898,-0.60001469,1122.662,607.61912)" />
-    <path id="rect5450"
-      d="m 980.52302,549.88656 -5.95481,-0.74154 2.52119,5.5089 0.0361,-0.0506 34.4809,25.90467 3.4218,-4.69848 -34.48069,-25.90464 z"
-      style="fill:currentColor;fill-opacity:1;stroke:none" />
-    <path style="fill:currentColor;fill-opacity:1;stroke:none" id="path5455-2"
-      d="m 1777.8958,382.03223 a 6.4994531,6.4994531 0 0 1 -6.4994,6.49945 6.4994531,6.4994531 0 0 1 -6.4995,-6.49945 6.4994531,6.4994531 0 0 1 6.4995,-6.49946 6.4994531,6.4994531 0 0 1 6.4994,6.49946 z"
-      transform="translate(-753.93395,199.18469)" />
+  <g id="HourHand" class="ColorScheme-ViewText" fill="currentColor">
+    <rect width="18" height="64" x="31" y="91" fill="none" id="rect2" />
+    <path
+      d="m 37.100041,148.34998 2.979749,5.20872 2.894308,-5.32235 -0.06214,0.001 0.0344,-43.12752 -5.811862,0.0818 -0.03451,43.12733 z"
+      id="path11" />
+    <path
+      d="m 36.100044,94.800707 a 6.4994531,6.4994531 0 0 1 9.099224,1.299683 6.4994531,6.4994531 0 0 1 -1.299693,9.09929 6.4994531,6.4994531 0 0 1 -9.099292,-1.29975 6.4994531,6.4994531 0 0 1 1.299761,-9.099223 z"
+      id="path12" />
   </g>
-  <g class="ColorScheme-ViewText" style="fill:currentColor;fill-opacity:0.75"
-    transform="matrix(-0.50330119,0.86411105,-0.86411105,-0.50330119,1082.352,-486.65826)" id="MinuteHand">
-    <rect style="opacity:0.01000001;fill:#232629;fill-opacity:0.60392157;stroke:none" id="rect4675" width="12.000004"
-      height="85" x="64" y="94"
-      transform="matrix(-0.50330119,-0.86411105,0.86411105,-0.50330119,966.28244,692.06487)" />
-    <path transform="matrix(0.8642748,-0.50301995,0.50301995,0.8642748,0,0)" style="fill:currentColor;stroke:none"
-      d="m 588.1651,1012.6153 75.73595,7e-4 0,3 -75.73595,-7e-4 z" id="rect5459" />
-    <path transform="matrix(0.56475116,0,0,0.56475116,17.103729,365.50423)"
-      d="m 1777.8958,382.03223 a 6.4994531,6.4994531 0 0 1 -6.4994,6.49945 6.4994531,6.4994531 0 0 1 -6.4995,-6.49945 6.4994531,6.4994531 0 0 1 6.4995,-6.49946 6.4994531,6.4994531 0 0 1 6.4994,6.49946 z"
-      id="path5457" style="fill:currentColor;fill-opacity:1;stroke:none" />
+  <g id="MinuteHand" class="ColorScheme-ViewText" fill="currentColor" opacity="0.75">
+    <rect width="12" height="85" x="62" y="94" fill="none" id="rect3" />
+    <path d="m 69.545348,101.17726 -0.02535,75.73595 -3,-9.8e-4 0.02535,-75.73594 z" opacity="0.75" id="path13" />
+    <path
+      d="m 66.123775,103.20061 a 3.6705737,3.6705737 0 0 1 -1.324393,-5.019159 3.6705737,3.6705737 0 0 1 5.019199,-1.324403 3.6705737,3.6705737 0 0 1 1.324369,5.019212 3.6705737,3.6705737 0 0 1 -5.019175,1.32435 z"
+      id="path14" />
   </g>
-  <g transform="matrix(-0.50061728,0.86566872,-0.86566872,-0.50061728,1138.4953,-489.71587)" id="SecondHand"
-    class="ColorScheme-ButtonFocus">
-    <rect style="fill:currentColor;fill-opacity:1;stroke:none" id="rect6212" width="77.735947" height="1.7321701"
-      x="589.80505" y="1011.1874" transform="matrix(0.8660254,-0.5,0.5,0.8660254,0,0)" />
-    <path transform="matrix(0.29783451,0,0,0.29783451,489.8134,467.44934)"
-      style="fill:currentColor;fill-opacity:1;stroke:none"
-      d="m 1777.8958,382.03223 c 0,3.58955 -2.9099,6.49945 -6.4994,6.49945 -3.5896,0 -6.4995,-2.9099 -6.4995,-6.49945 0,-3.58955 2.9099,-6.49946 6.4995,-6.49946 3.5895,0 6.4994,2.90991 6.4994,6.49946 z"
-      id="path6214" />
-    <rect style="opacity:0.01000001;fill:#232629;fill-opacity:0.60392157;stroke:none" id="rect4677" width="8.0000019"
-      height="6.999999" x="106" y="96"
-      transform="matrix(-0.50061728,-0.86566873,0.86566873,-0.50061728,985.87226,726.54885)" />
+  <g id="SecondHand" class="ColorScheme-ButtonFocus">
+    <rect width="1.788" height="77.37" x="125.1" y="99.367" fill="currentColor" />
+    <path
+      d="m 125.04591,101.71342 c -0.92548,-0.5352 -1.24186,-1.719321 -0.70666,-2.644787 0.53521,-0.925492 1.71933,-1.241871 2.64481,-0.706665 0.92548,0.535206 1.24186,1.719322 0.70665,2.644812 -0.5352,0.92547 -1.71932,1.24185 -2.6448,0.70664 z"
+      fill="currentColor" />
+    <rect width="8.0000019" height="6.999999" x="122" y="96" fill="none" />
   </g>
   <g style="opacity:0.1;fill:#232629;fill-opacity:1" id="SecondHandShadow"
     transform="matrix(-0.50061728,0.86566872,-0.86566872,-0.50061728,1146.4953,-489.71587)">
