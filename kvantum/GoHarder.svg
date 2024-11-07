@@ -228,9 +228,17 @@
     <linearGradient xlink:href="#tt-ag" id="tt-agb" x1="12.5" y1="9.5" x2="12.5" y2="14"
       gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#tt-ag" id="tt-agbr" cx="20.5" cy="9.5" r="4.5" gradientUnits="userSpaceOnUse" />
+    <filter id="bg-1" color-interpolation-filters="sRGB">
+      <feFlood in="SourceGraphic" result="flood" flood-opacity="0.7" />
+      <feComposite in="flood" result="comp" in2="SourceGraphic" operator="in" />
+      <feMerge>
+        <feMergeNode in="SourceGraphic" />
+        <feMergeNode in="comp" />
+      </feMerge>
+    </filter>
   </defs>
   <g id="button-group">
-    <g id="button-normal-group">
+    <g id="button-normal-group" filter="url(#bg-1)">
       <use id="button-normal-topleft" href="#r-8-tl" class="sec-cont" />
       <use id="button-normal-top" href="#sq-8-t" class="sec-cont" />
       <use id="button-normal-topright" href="#r-8-tr" class="sec-cont" />
