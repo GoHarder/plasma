@@ -1,58 +1,49 @@
-<svg version="1.1" viewBox="0 0 105 60" width="105" height="60" xmlns="http://www.w3.org/2000/svg"
+<svg version="1.1" viewBox="0 0 120 60" width="120" height="60" xmlns="http://www.w3.org/2000/svg"
   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs />
   <style id="current-color-scheme" type="text/css">
-    .ColorScheme-Text {
-      color: #232629;
-    }
-
     .ColorScheme-Background {
-      color: #eff0f1;
-    }
-
-    .ColorScheme-ViewBackground {
-      color: #ffffff;
+      color: #2e2e2e;
     }
   </style>
-  <g id="footer-topleft" fill="currentColor">
-    <path class="ColorScheme-Background" d="m 67,6 v 6 H 61 V 6 Z" opacity="0.75" fill="currentColor" />
-    <path class="ColorScheme-Text" d="M 67,6 V 7 H 63 61 V 6 h 2 1 z" fill-rule="evenodd" opacity="0.2"
-      fill="currentColor" />
-  </g>
-  <g id="footer-top" fill="currentColor">
-    <path class="ColorScheme-Background" transform="matrix(0,-1,-1,0,0,0)" d="m -12,-99 h 6 v 32 h -6 z" opacity="0.75"
-      fill="currentColor" />
-    <path class="ColorScheme-Text" transform="matrix(0,-1,-1,0,0,0)" d="m -7,-99 h 1 v 32 h -1 z" opacity="0.2"
-      fill="currentColor" />
-  </g>
-  <g id="footer-topright" fill="currentColor">
-    <path class="ColorScheme-Background" d="M 105,12 H 99 V 6 h 6 z" opacity="0.75" fill="currentColor" />
-    <path class="ColorScheme-Text" d="M 105,7 H 99 V 6 h 6 z" fill-rule="evenodd" opacity="0.2" fill="currentColor" />
-  </g>
-  <path id="footer-left" class="ColorScheme-Background" d="m 67,12 h -6 v 32 h 6 z" fill="currentColor"
+  <path id="header-topleft" d="M 12,0 A 12,12 0 0 0 0,12 h 12 z" class="ColorScheme-Background" fill="currentColor"
     opacity="0.75" />
-  <path id="footer-center" class="ColorScheme-Background" d="M 67,44 H 99 V 12 H 67 Z" fill="currentColor"
+  <rect id="header-top" width="36" height="12" x="12" y="0" class="ColorScheme-Background" fill="currentColor"
     opacity="0.75" />
-  <path id="footer-right" class="ColorScheme-Background" d="m 99,44 h 6 V 12 h -6 z" fill="currentColor"
+  <path id="header-topright" d="M 48,0 A 12,12 0 0 1 60,12 H 48 Z" class="ColorScheme-Background" fill="currentColor"
     opacity="0.75" />
-  <path id="footer-bottomleft" opacity="0.75" class="ColorScheme-Background" fill="currentColor"
-    d="m 61,44 c 0,4 2,6 6,6 v -6 z" />
-  <path id="footer-bottom" class="ColorScheme-Background" d="m 67,44 v 6 h 32 v -6 z" fill="currentColor"
+  <rect id="header-left" width="12" height="36" x="0" y="12" class="ColorScheme-Background" fill="currentColor"
     opacity="0.75" />
-  <path id="footer-bottomright" class="ColorScheme-Background" fill="currentColor" d="m 99,44 v 6 c 4,0 6,-2 6,-6 z"
+  <rect id="header-center" width="36" height="36" x="12" y="12" class="ColorScheme-Background" fill="currentColor"
     opacity="0.75" />
-  <!-- <circle id="hint-stretch-borders" cx="1" cy="1" r="1" fill="#ff8000" /> -->
-  <path id="header-topleft" d="M 12,0 A 12,12 0 0 0 0,12 h 12 z" fill="#202020" />
-  <rect id="header-top" width="36" height="12" x="12" y="0" fill="#202020" />
-  <path id="header-topright" d="M 48,0 A 12,12 0 0 1 60,12 H 48 Z" fill="#202020" />
-  <rect id="header-left" width="12" height="36" x="0" y="12" fill="#202020" />
-  <rect id="header-center" width="36" height="36" x="12" y="12" fill="#202020" />
-  <rect id="header-right" width="12" height="36" x="48" y="12" fill="#202020" />
-  <rect id="header-bottomleft" width="12" height="12" x="0" y="48" fill="#202020" />
-  <rect id="header-bottom" width="36" height="12" x="12" y="48" fill="#202020" />
-  <rect id="header-bottomright" width="12" height="12" x="48" y="48" fill="#202020" />
+  <rect id="header-right" width="12" height="36" x="48" y="12" class="ColorScheme-Background" fill="currentColor"
+    opacity="0.75" />
+  <rect id="header-bottomleft" width="12" height="12" x="0" y="48" class="ColorScheme-Background" fill="currentColor"
+    opacity="0.75" />
+  <rect id="header-bottom" width="36" height="12" x="12" y="48" class="ColorScheme-Background" fill="currentColor"
+    opacity="0.75" />
+  <rect id="header-bottomright" width="12" height="12" x="48" y="48" class="ColorScheme-Background" fill="currentColor"
+    opacity="0.75" />
   <rect id="hint-top-margin" width="4" height="10" x="28" y="0" fill="#ff00ff" />
   <rect id="hint-left-margin" width="10" height="4" x="0" y="28" fill="#ff00ff" />
   <rect id="hint-right-margin" width="10" height="4" x="48" y="28" fill="#ff00ff" />
   <rect id="hint-bottom-margin" width="4" height="10" x="28" y="48" fill="#ff00ff" />
+  <rect id="footer-topleft" width="12" height="12" x="60" y="0" class="ColorScheme-Background" fill="currentColor"
+    opacity="0.75" />
+  <rect id="footer-top" width="36" height="12" x="72" y="0" class="ColorScheme-Background" fill="currentColor"
+    opacity="0.75" />
+  <rect id="footer-topright" width="12" height="12" x="108" y="0" class="ColorScheme-Background" fill="currentColor"
+    opacity="0.75" />
+  <rect id="footer-left" width="12" height="36" x="60" y="12" class="ColorScheme-Background" fill="currentColor"
+    opacity="0.75" />
+  <rect id="footer-center" width="36" height="36" x="72" y="12" class="ColorScheme-Background" fill="currentColor"
+    opacity="0.75" />
+  <rect id="footer-right" width="12" height="36" x="108" y="12" class="ColorScheme-Background" fill="currentColor"
+    opacity="0.75" />
+  <path id="footer-bottomleft" d="M 72,60 A 12,12 0 0 1 60,48 h 12 z" class="ColorScheme-Background" fill="currentColor"
+    opacity="0.75" />
+  <rect id="footer-bottom" width="36" height="12" x="72" y="48" class="ColorScheme-Background" fill="currentColor"
+    opacity="0.75" />
+  <path id="footer-bottomright" d="M 108,60 A 12,12 0 0 0 120,48 H 108 Z" class="ColorScheme-Background"
+    fill="currentColor" opacity="0.75" />
+  <circle id="hint-stretch-borders" cx="1" cy="1" r="1" fill="#ff8000" />
 </svg>
