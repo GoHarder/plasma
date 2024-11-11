@@ -66,7 +66,7 @@ slider_handle_width=17
 slider_handle_length=17
 
 # checkbox
-check_size=20
+check_size=24
 
 # rendering
 ; bluring=true
@@ -142,43 +142,43 @@ respect_darkness=true
 frame=true
 frame.element=button
 ; frame.expansion=40
-frame.top=8
-frame.bottom=8
-frame.left=8
-frame.right=8
+frame.top=11
+frame.bottom=11
+frame.left=11
+frame.right=11
 frame.expanded.top=3
 frame.expanded.bottom=3
 frame.expanded.left=3
 frame.expanded.right=3
 interior=true
 interior.element=button
-indicator.element=ar-1
-indicator.size=10
+; indicator.element=ar-1
+indicator.size=12
 text.shadow=false
-text.margin=true
-text.margin.top=2
-text.margin.bottom=2
-text.margin.left=4
-text.margin.right=4
+text.margin=false
+; text.margin.top=0
+; text.margin.bottom=0
+; text.margin.left=0
+; text.margin.right=0
 text.iconspacing=4
-text.normal.color=#d5e4f6
-text.focus.color=#d5e4f6
-text.press.color=#d5e4f6
-text.toggle.color=#3a4857
+text.normal.color=#95ccff
+text.focus.color=#95ccff
+text.press.color=#95ccff
+text.toggle.color=#003353
 
 [PanelButtonTool]
 inherits=PanelButtonCommand
 frame.element=tool-button
-frame.expanded.top=1
-frame.expanded.bottom=1
-frame.expanded.left=1
-frame.expanded.right=1
+; frame.expanded.top=1
+; frame.expanded.bottom=1
+; frame.expanded.left=1
+; frame.expanded.right=1
 interior.element=tool-button
 indicator.element=arrow
-text.normal.color=#e2e2e5
-text.focus.color=#e2e2e5
-text.press.color=#e2e2e5
-text.toggle.color=#d5e4f6
+; text.normal.color=#e2e2e5
+; text.focus.color=#e2e2e5
+; text.press.color=#e2e2e5
+; text.toggle.color=#d5e4f6
 
 [Dock]
 inherits=PanelButtonTool
