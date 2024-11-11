@@ -80,7 +80,7 @@ scroll_width=10
 window.color=#e8e8eb
 inactive.window.color=#eeedf1
 window.text.color=#1a1c1e
-inactive.window.text.color=#1a1c1e
+inactive.window.text.color=#42474e
 
 # base
 base.color=#eeedf1
@@ -93,22 +93,22 @@ disabled.text.color=#1a1c1e61
 
 # highlight
 highlight.color=#d5e4f6
-inactive.highlight.color=#34404d
+inactive.highlight.color=#d5e4f6bf
 highlight.text.color=#0e1d2a
 inactive.highlight.text.color=#42474e
 
 # tooltip
-tooltip.base.color=#1e2022
-tooltip.text.color=#c2c7cf
+tooltip.base.color=#eeedf1
+tooltip.text.color=#42474e
 
 # button
-button.color=#333538
-button.text.color=#95ccff
+button.color=#f3f3f6
+button.text.color=#00639a
 
 # general
-light.color=#8c9198
+light.color=#72777f
 mid.color=#424748
-mid.light.color=#42474e
+mid.light.color=#c2c7cf
 dark.color=#121416
 
 # progress indicator
@@ -145,10 +145,10 @@ text.margin.bottom=2
 text.margin.left=4
 text.margin.right=4
 text.iconspacing=4
-text.normal.color=#d5e4f6
-text.focus.color=#d5e4f6
-text.press.color=#d5e4f6
-text.toggle.color=#3a4857
+text.normal.color=#00639a
+text.focus.color=#00639a
+text.press.color=#00639a
+text.toggle.color=#003353
 
 [PanelButtonTool]
 inherits=PanelButtonCommand
@@ -159,10 +159,10 @@ frame.expanded.left=1
 frame.expanded.right=1
 interior.element=tool-button
 indicator.element=arrow
-text.normal.color=#e2e2e5
-text.focus.color=#e2e2e5
-text.press.color=#e2e2e5
-text.toggle.color=#d5e4f6
+text.normal.color=#00639a
+text.focus.color=#00639a
+text.press.color=#00639a
+text.toggle.color=#003353
 
 [Dock]
 inherits=PanelButtonTool
