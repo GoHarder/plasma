@@ -2,7 +2,7 @@
 
 // MARK: NPM imports
 // -------------------------------------------------------------------------
-import convert from "npm:xml-js";
+import convert from 'npm:xml-js';
 
 // MARK: Types
 // -------------------------------------------------------------------------
@@ -12,13 +12,8 @@ type Attributes = convert.Attributes;
 // MARK: Constants
 // -------------------------------------------------------------------------
 const filePath = Deno.args.at(0);
-const attributeFilter = [
-  /sodipodi/,
-  /inkscape/,
-  /:rdf/,
-  /:cc/,
-  /:dc/,
-];
+const attributeFilter = [/sodipodi/, /inkscape/, /:rdf/, /:cc/, /:dc/];
+const elementFilter = [/sodipodi/, /metadata/];
 
 // MARK: Helpers
 // -------------------------------------------------------------------------
@@ -31,7 +26,7 @@ function cleanAttributes(attr: Attributes) {
       }
     });
 
-    if (attr.id && /^\w+\d+$/.test(`${attr.id}`)) {
+    if (attr.id && /^(use|path|circle|rect|group|defs|style|stop)[\d-]+$/.test(`${attr.id}`)) {
       delete attr.id;
     }
   }
@@ -39,16 +34,13 @@ function cleanAttributes(attr: Attributes) {
 }
 
 function clean(items: Element[]) {
-  items = items.filter((item) => /sodipodi/.test(item?.name ?? "") === false);
-  items = items.filter((item) => /metadata/.test(item?.name ?? "") === false);
+  elementFilter.forEach((regex) => {
+    items = items.filter((item) => regex.test(item?.name ?? '') === false);
+  });
 
   for (const item of items) {
-    if (item.attributes) {
-      item.attributes = cleanAttributes(item.attributes);
-    }
-    if (item.elements) {
-      item.elements = clean(item.elements);
-    }
+    if (item.attributes) item.attributes = cleanAttributes(item.attributes);
+    if (item.elements) item.elements = clean(item.elements);
   }
 
   return items;
@@ -63,10 +55,7 @@ function round(data: string) {
 }
 
 function replace(data: string) {
-  data = data.replace(
-    '<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n',
-    "",
-  );
+  data = data.replace('<?xml version="1.0" encoding="UTF-8" standalone="no"?>\n', '');
 
   data = data.replace(/(z|Z)\s"/, '$1"');
 
@@ -75,15 +64,15 @@ function replace(data: string) {
 
 function convertNums(data: string) {
   return data.replace(/\d(\.\d+)?e-\d+/g, (match) => {
-    const [preStr, postStr] = match.split("e-");
+    const [preStr, postStr] = match.split('e-');
     if (!preStr || !postStr) {
       return match;
     }
-    let output = "0.";
-    const zeros = Array.from({ length: parseInt(postStr) - 1 }, (_) => "0");
+    let output = '0.';
+    const zeros = Array.from({ length: parseInt(postStr) - 1 }, (_) => '0');
 
-    output += zeros.join("");
-    output += preStr.replace(".", "");
+    output += zeros.join('');
+    output += preStr.replace('.', '');
 
     return output;
   });
