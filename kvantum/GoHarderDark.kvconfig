@@ -175,7 +175,7 @@ frame.right=11
 ; frame.expanded.right=3
 interior=true
 interior.element=button
-; indicator.element=ar-1
+indicator.element=ar-1
 indicator.size=12
 text.shadow=false
 text.margin=false
@@ -194,10 +194,10 @@ frame.element=tool-button
 ; frame.expanded.right=1
 interior.element=tool-button
 indicator.element=arrow
-; text.normal.color=#e2e2e5
-; text.focus.color=#e2e2e5
-; text.press.color=#e2e2e5
-; text.toggle.color=#d5e4f6
+text.normal.color=#95ccff
+text.focus.color=#95ccff
+text.press.color=#95ccff
+text.toggle.color=#d5e4f6
 
 [Dock]
 inherits=PanelButtonTool
