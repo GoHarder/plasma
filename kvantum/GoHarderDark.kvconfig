@@ -99,8 +99,8 @@ scroll_width=10
 ; tooltip.text.color = onSurfaceVariant
 
 ; # button
-; button.color = surfaceContainerLow
-; button.text.color = primary
+; button.color = secondaryContainer
+; button.text.color = onSecondaryContainer
 
 # general
 ; light.color = outline
@@ -135,8 +135,8 @@ tooltip.base.color=#1e2022
 tooltip.text.color=#c2c7cf
 
 # button
-button.color=#1a1c1e
-button.text.color=#95ccff
+button.color=#3a4857
+button.text.color=#d5e4f6
 
 # general
 light.color=#8c9198
@@ -155,6 +155,12 @@ link.visited.color=#7eb0bd
 [Hacks]
 respect_darkness=true
 
+# PanelButtonCommand
+; text.normal.color = onSecondaryContainer
+; text.focus.color = onSecondaryContainer
+; text.press.color = onSecondaryContainer
+; text.toggle.color = onSurfaceVariant
+
 [PanelButtonCommand]
 frame=true
 frame.element=button
@@ -163,25 +169,21 @@ frame.top=11
 frame.bottom=11
 frame.left=11
 frame.right=11
-frame.expanded.top=3
-frame.expanded.bottom=3
-frame.expanded.left=3
-frame.expanded.right=3
+; frame.expanded.top=3
+; frame.expanded.bottom=3
+; frame.expanded.left=3
+; frame.expanded.right=3
 interior=true
 interior.element=button
 ; indicator.element=ar-1
 indicator.size=12
 text.shadow=false
 text.margin=false
-; text.margin.top=0
-; text.margin.bottom=0
-; text.margin.left=0
-; text.margin.right=0
 text.iconspacing=4
-text.normal.color=#95ccff
-text.focus.color=#95ccff
-text.press.color=#95ccff
-text.toggle.color=#003353
+text.normal.color=#d5e4f6
+text.focus.color=#d5e4f6
+text.press.color=#d5e4f6
+text.toggle.color=#c2c7cf
 
 [PanelButtonTool]
 inherits=PanelButtonCommand
