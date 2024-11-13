@@ -199,22 +199,22 @@ text.focus.color=#95ccff
 text.press.color=#95ccff
 text.toggle.color=#d5e4f6
 
-[Dock]
-inherits=PanelButtonTool
-frame=false
-interior=false
+; [Dock]
+; inherits=PanelButtonTool
+; frame=false
+; interior=false
 
-[DockTitle]
-inherits=PanelButtonTool
-frame=false
-interior=true
-interior.element=dock
-text.focus.color=white
-text.bold=true
-text.margin.top=2
-text.margin.bottom=2
-text.margin.left=3
-text.margin.right=3
+; [DockTitle]
+; inherits=PanelButtonTool
+; frame=false
+; interior=true
+; interior.element=dock
+; text.focus.color=white
+; text.bold=true
+; text.margin.top=2
+; text.margin.bottom=2
+; text.margin.left=3
+; text.margin.right=3
 
 # [IndicatorSpinBox]
 
@@ -236,22 +236,17 @@ text.margin.right=3
 
 # [Focus]
 
-[GenericFrame]
-frame=true
-frame.element=common
-frame.top=8
-frame.bottom=8
-frame.left=8
-frame.right=8
-interior=true
-interior.element=common
-text.margin=false
+; [GenericFrame]
+; frame=true
+; frame.element=common
+; frame.top=8
+; frame.bottom=8
+; frame.left=8
+; frame.right=8
+; interior=true
+; interior.element=common
+; text.margin=false
 
-; [LineEdit]
-; inherits=PanelButtonTool
-; frame.element=lineedit
-; interior=false
-; text.toggle.color=#e2e2e5
 [LineEdit]
 frame=true
 frame.element=lineedit
@@ -274,56 +269,56 @@ text.focus.color=#e2e2e5
 
 # [ToolboxTab]
 
-[Tab]
-inherits=PanelButtonCommand
-interior.element=tab
-frame.element=tab
-indicator.element=tab
-text.margin.top=4
-text.margin.bottom=4
-text.margin.left=4
-text.margin.right=4
-text.iconspacing=4
-text.normal.color=#c2c7cf
-text.focus.color=#95ccff
-text.press.color=#e2e2e5
-text.toggle.color=#95ccff
+; [Tab]
+; inherits=PanelButtonCommand
+; interior.element=tab
+; frame.element=tab
+; indicator.element=tab
+; text.margin.top=4
+; text.margin.bottom=4
+; text.margin.left=4
+; text.margin.right=4
+; text.iconspacing=4
+; text.normal.color=#c2c7cf
+; text.focus.color=#95ccff
+; text.press.color=#e2e2e5
+; text.toggle.color=#95ccff
 
-[TabFrame]
-inherits=GenericFrame
-frame.element=tabframe
-frame.top=1
-frame.bottom=1
-frame.left=1
-frame.right=1
-interior.element=common
+; [TabFrame]
+; inherits=GenericFrame
+; frame.element=tabframe
+; frame.top=1
+; frame.bottom=1
+; frame.left=1
+; frame.right=1
+; interior.element=common
 
-[TabBarFrame]
-inherits=TabFrame
-frame=true
-frame.element=tabbar
-interior=false
-text.shadow=false
+; [TabBarFrame]
+; inherits=TabFrame
+; frame=true
+; frame.element=tabbar
+; interior=false
+; text.shadow=false
 
 # [TreeExpander]
 
-[HeaderSection]
-inherits=PanelButtonTool
-interior.element=head
-frame.element=head
-frame.top=1
-frame.bottom=1
-frame.left=1
-frame.right=1
+; [HeaderSection]
+; inherits=PanelButtonTool
+; interior.element=head
+; frame.element=head
+; frame.top=1
+; frame.bottom=1
+; frame.left=1
+; frame.right=1
 
 [SizeGrip]
 indicator.element=sizegrip
 
-[Toolbar]
-inherits=PanelButtonTool
-indicator.element=toolbar
-indicator.size=6
-frame=false
+; [Toolbar]
+; inherits=PanelButtonTool
+; indicator.element=toolbar
+; indicator.size=6
+; frame=false
 
 # [ToolbarButton]
 
@@ -333,152 +328,152 @@ frame=false
 
 # [Scrollbar]
 
-[ScrollbarGroove]
-inherits=PanelButtonTool
-interior=false
-frame.element=groove
-frame.top=1
-frame.bottom=1
-frame.left=1
-frame.right=1
+; [ScrollbarGroove]
+; inherits=PanelButtonTool
+; interior=false
+; frame.element=groove
+; frame.top=1
+; frame.bottom=1
+; frame.left=1
+; frame.right=1
 
-[ScrollbarSlider]
-inherits=PanelButtonTool
-frame.element=scrollbarslider
-interior=false
-frame.top=5
-frame.bottom=5
-frame.left=5
-frame.right=5
-indicator.element=grip
-indicator.size=13
+; [ScrollbarSlider]
+; inherits=PanelButtonTool
+; frame.element=scrollbarslider
+; interior=false
+; frame.top=5
+; frame.bottom=5
+; frame.left=5
+; frame.right=5
+; indicator.element=grip
+; indicator.size=13
 
 # [ScrollbarTransientSlider]
 
-[Slider]
-inherits=PanelButtonTool
-frame.element=slider
-interior.element=slider
-frame.top=2
-frame.bottom=2
-frame.left=2
-frame.right=2
+; [Slider]
+; inherits=PanelButtonTool
+; frame.element=slider
+; interior.element=slider
+; frame.top=2
+; frame.bottom=2
+; frame.left=2
+; frame.right=2
 
-[SliderCursor]
-inherits=PanelButtonCommand
-frame=false
-interior.element=slidercursor
+; [SliderCursor]
+; inherits=PanelButtonCommand
+; frame=false
+; interior.element=slidercursor
 
-[Progressbar]
-inherits=PanelButtonTool
-frame.element=progress
-interior=false
-frame.top=2
-frame.bottom=2
-frame.left=2
-frame.right=2
-text.focus.color=white
-text.bold=true
+; [Progressbar]
+; inherits=PanelButtonTool
+; frame.element=progress
+; interior=false
+; frame.top=2
+; frame.bottom=2
+; frame.left=2
+; frame.right=2
+; text.focus.color=white
+; text.bold=true
 
-[ProgressbarContents]
-inherits=PanelButtonTool
-frame=true
-frame.element=progress-pattern
-interior=false
-frame.top=2
-frame.bottom=2
-frame.left=2
-frame.right=2
+; [ProgressbarContents]
+; inherits=PanelButtonTool
+; frame=true
+; frame.element=progress-pattern
+; interior=false
+; frame.top=2
+; frame.bottom=2
+; frame.left=2
+; frame.right=2
 
-[ItemView]
-inherits=PanelButtonTool
-text.margin=false
-frame=false
-interior.element=itemview
+; [ItemView]
+; inherits=PanelButtonTool
+; text.margin=false
+; frame=false
+; interior.element=itemview
 
-[Splitter]
-inherits=PanelButtonTool
-interior.element=splitter
-frame.element=splitter
-frame.top=1
-frame.bottom=1
-frame.left=1
-frame.right=1
-indicator.element=splitter-grip
-indicator.size=16
+; [Splitter]
+; inherits=PanelButtonTool
+; interior.element=splitter
+; frame.element=splitter
+; frame.top=1
+; frame.bottom=1
+; frame.left=1
+; frame.right=1
+; indicator.element=splitter-grip
+; indicator.size=16
 
-[Menu]
-inherits=PanelButtonTool
-frame.element=menu
-interior.element=menu
-frame.top=4
-frame.bottom=4
-frame.left=8
-frame.right=8
+; [Menu]
+; inherits=PanelButtonTool
+; frame.element=menu
+; interior.element=menu
+; frame.top=4
+; frame.bottom=4
+; frame.left=8
+; frame.right=8
 
-[MenuItem]
-inherits=PanelButtonTool
-frame=true
-interior.element=menuitem
-frame.element=menuitem
-indicator.element=menuitem
-min_height=22
-frame.top=1
-frame.bottom=1
-frame.left=8
-frame.right=8
+; [MenuItem]
+; inherits=PanelButtonTool
+; frame=true
+; interior.element=menuitem
+; frame.element=menuitem
+; indicator.element=menuitem
+; min_height=22
+; frame.top=1
+; frame.bottom=1
+; frame.left=8
+; frame.right=8
 
 # [MenuBar]
 
-[MenuBarItem]
-inherits=PanelButtonTool
-interior.element=menubaritem
-frame.element=menubaritem
-frame.top=1
-frame.bottom=1
-frame.left=1
-frame.right=1
-text.margin.top=2
-text.margin.bottom=2
+; [MenuBarItem]
+; inherits=PanelButtonTool
+; interior.element=menubaritem
+; frame.element=menubaritem
+; frame.top=1
+; frame.bottom=1
+; frame.left=1
+; frame.right=1
+; text.margin.top=2
+; text.margin.bottom=2
 
-[TitleBar]
-inherits=PanelButtonTool
-frame=false
-interior.element=titlebar
-indicator.size=12
-indicator.element=mdi
-text.normal.color=black
-text.focus.color=white
-text.margin.top=2
-text.margin.bottom=2
-text.margin.left=3
-text.margin.right=3
+; [TitleBar]
+; inherits=PanelButtonTool
+; frame=false
+; interior.element=titlebar
+; indicator.size=12
+; indicator.element=mdi
+; text.normal.color=black
+; text.focus.color=white
+; text.margin.top=2
+; text.margin.bottom=2
+; text.margin.left=3
+; text.margin.right=3
 
 [ComboBox]
 inherits=LineEdit
 
-[GroupBox]
-inherits=GenericFrame
-frame=true
-frame.element=group
-interior=true
-interior.element=group
-text.shadow=false
-text.margin=0
-frame.top=11
-frame.bottom=11
-frame.left=11
-frame.right=11
+; [GroupBox]
+; inherits=GenericFrame
+; frame=true
+; frame.element=group
+; interior=true
+; interior.element=group
+; text.shadow=false
+; text.margin=0
+; frame.top=11
+; frame.bottom=11
+; frame.left=11
+; frame.right=11
 
-[ToolTip]
-inherits=GenericFrame
-frame.top=4
-frame.bottom=4
-frame.left=4
-frame.right=4
-interior=true
-text.margin=0
-interior.element=tooltip
-frame.element=tooltip
+; [ToolTip]
+; inherits=GenericFrame
+; frame.top=4
+; frame.bottom=4
+; frame.left=4
+; frame.right=4
+; interior=true
+; text.margin=0
+; interior.element=tooltip
+; frame.element=tooltip
 
 # [Window]
