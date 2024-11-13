@@ -90,9 +90,29 @@
       }
     </style>
     <!-- MARK: Icons -->
+    <g id="x-add">
+      <rect width="24" height="24" fill="none" />
+      <path d="M 11,13 H 5 v -2 h 6 V 5 h 2 v 6 h 6 v 2 h -6 v 6 h -2 z" />
+    </g>
+    <g id="x-minus">
+      <rect width="24" height="24" fill="none" />
+      <path d="m 5,13 v -2 h 14 v 2 z" />
+    </g>
     <g id="x-down">
-      <rect width="14" height="14" fill="none" />
-      <path d="M 7,10.5 0,3.5 H 14 Z" />
+      <rect width="24" height="24" fill="none" />
+      <path d="M 12,15 7,10 h 10 z" />
+    </g>
+    <g id="x-left">
+      <rect width="24" height="24" fill="none" />
+      <path d="M 14,17 9,12 14,7 Z" />
+    </g>
+    <g id="x-right">
+      <rect width="24" height="24" fill="none" />
+      <path d="M 10,17 V 7 l 5,5 z" />
+    </g>
+    <g id="x-up">
+      <rect width="24" height="24" fill="none" />
+      <path d="m 7,14 5,-5 5,5 z" />
     </g>
     <!-- MARK: Shapes -->
     <g id="x-btn-tl">
@@ -160,7 +180,7 @@
     <use id="button-normal-bottomleft" xlink:href="#x-btn-bl" class="sec-cont" />
     <use id="button-normal-bottom" xlink:href="#x-btn-b" class="sec-cont" />
     <use id="button-normal-bottomright" xlink:href="#x-btn-br" class="sec-cont" />
-    <use id="ar-1-down-normal" href="#x-down" x="12" y="12" class="on-sec-cont" />
+    <use id="ar-1-down-normal" href="#x-down" x="7" y="7" class="on-sec-cont" />
   </g>
   <g id="g-button-focused" transform="translate(38)">
     <g id="button-focused-topleft">
@@ -199,7 +219,7 @@
       <use xlink:href="#button-normal-bottomright" />
       <use xlink:href="#x-btn-br" class="pri" opacity="0.08" />
     </g>
-    <use id="ar-1-down-focused" href="#x-down" x="12" y="12" class="on-sec-cont" />
+    <use id="ar-1-down-focused" href="#x-down" x="7" y="7" class="on-sec-cont" />
   </g>
   <g id="g-button-pressed" transform="translate(76)">
     <g id="button-pressed-topleft">
@@ -238,7 +258,7 @@
       <use xlink:href="#button-normal-bottomright" />
       <use xlink:href="#x-btn-br" class="pri" opacity="0.1" />
     </g>
-    <use id="ar-1-down-pressed" href="#x-down" x="12" y="12" class="on-sec-cont" />
+    <use id="ar-1-down-pressed" href="#x-down" x="7" y="7" class="on-sec-cont" />
   </g>
   <g id="g-button-toggled" transform="translate(114)">
     <use id="button-toggled-topleft" xlink:href="#x-btn-tl" class="surf-cont-highest" />
@@ -250,18 +270,7 @@
     <use id="button-toggled-bottomleft" xlink:href="#x-btn-bl" class="surf-cont-highest" />
     <use id="button-toggled-bottom" xlink:href="#x-btn-b" class="surf-cont-highest" />
     <use id="button-toggled-bottomright" xlink:href="#x-btn-br" class="surf-cont-highest" />
-  </g>
-  <g id="g-button-disabled" transform="translate(152)">
-    <use id="button-disabled-topleft" xlink:href="#x-btn-tl" class="disabled-back" />
-    <use id="button-disabled-top" xlink:href="#x-btn-t" class="disabled-back" />
-    <use id="button-disabled-topright" xlink:href="#x-btn-tr" class="disabled-back" />
-    <use id="button-disabled-left" xlink:href="#x-btn-l" class="disabled-back" />
-    <use id="button-disabled" xlink:href="#x-btn-c" class="disabled-back" />
-    <use id="button-disabled-right" xlink:href="#x-btn-r" class="disabled-back" />
-    <use id="button-disabled-bottomleft" xlink:href="#x-btn-bl" class="disabled-back" />
-    <use id="button-disabled-bottom" xlink:href="#x-btn-b" class="disabled-back" />
-    <use id="button-disabled-bottomright" xlink:href="#x-btn-br" class="disabled-back" />
-    <use id="ar-1-down-disabled" href="#x-down" x="12" y="12" class="disabled-text" />
+    <use id="ar-1-down-disabled" href="#x-down" x="7" y="7" class="disabled-text" />
   </g>
   <g id="g-button-default" transform="translate(0,38)">
     <g id="button-default-topleft">
@@ -578,7 +587,7 @@
       <path d="m 27,35 a 8,8 0 0 0 8,-8 h -1 a 7,7 0 0 1 -7,7 z" class="disabled-back" />
     </g>
   </g>
-  <g id="g-lineedit-normal" transform="translate(152,38)" class="outline">
+  <g id="g-lineedit-normal" transform="translate(152,72)" class="outline">
     <g id="lineedit-normal-topleft">
       <rect width="4" height="4" x="0" y="0" fill="none" />
       <path d="M 4,0.5 A 3.5,3.5 0 0 0 0.5,4 h 1 A 2.5,2.5 0 0 1 4,1.5 Z" />
@@ -612,7 +621,7 @@
       <path d="M 23.5,20 A 3.5,3.5 0 0 1 20,23.5 v -1 A 2.5,2.5 0 0 0 22.5,20 Z" />
     </g>
   </g>
-  <g id="g-lineedit-focused" transform="translate(176,38)" class="pri">
+  <g id="g-lineedit-focused" transform="translate(176,72)" class="pri">
     <path id="lineedit-focused-topleft" d="M 4,0 A 4,4 0 0 0 0,4 H 2 A 2,2 0 0 1 4,2 Z" />
     <g id="lineedit-focused-top">
       <rect width="16" height="2" x="4" y="0" />
@@ -1320,4 +1329,30 @@
   id="focus-bottom"
   id="focus-left"
   -->
+  <g id="g-arrow" transform="translate(152)">
+    <use id="arrow-up-normal" href="#x-up" x="0" y="0" class="on-surf-var" />
+    <use id="arrow-down-normal" href="#x-down" x="24" y="0" class="on-surf-var" />
+    <use id="arrow-left-normal" href="#x-left" x="0" y="24" class="on-surf-var" />
+    <use id="arrow-right-normal" href="#x-right" x="24" y="24" class="on-surf-var" />
+    <use id="arrow-add-normal" href="#x-add" x="0" y="48" class="on-surf-var" />
+    <use id="arrow-minus-normal" href="#x-minus" x="24" y="48" class="on-surf-var" />
+    <use id="arrow-up-focused" href="#x-up" x="0" y="0" class="on-surf-var" />
+    <use id="arrow-down-focused" href="#x-down" x="24" y="0" class="on-surf-var" />
+    <use id="arrow-left-focused" href="#x-left" x="0" y="24" class="on-surf-var" />
+    <use id="arrow-right-focused" href="#x-right" x="24" y="24" class="on-surf-var" />
+    <use id="arrow-add-focused" href="#x-add" x="0" y="48" class="on-surf-var" />
+    <use id="arrow-minus-focused" href="#x-minus" x="24" y="48" class="on-surf-var" />
+    <use id="arrow-up-pressed" href="#x-up" x="0" y="0" class="on-surf-var" />
+    <use id="arrow-down-pressed" href="#x-down" x="24" y="0" class="on-surf-var" />
+    <use id="arrow-left-pressed" href="#x-left" x="0" y="24" class="on-surf-var" />
+    <use id="arrow-right-pressed" href="#x-right" x="24" y="24" class="on-surf-var" />
+    <use id="arrow-add-pressed" href="#x-add" x="0" y="48" class="on-surf-var" />
+    <use id="arrow-minus-pressed" href="#x-minus" x="24" y="48" class="on-surf-var" />
+    <use id="arrow-up-disabled" href="#x-up" x="0" y="0" class="disabled-text" />
+    <use id="arrow-down-disabled" href="#x-down" x="24" y="0" class="disabled-text" />
+    <use id="arrow-left-disabled" href="#x-left" x="0" y="24" class="disabled-text" />
+    <use id="arrow-right-disabled" href="#x-right" x="24" y="24" class="disabled-text" />
+    <use id="arrow-add-disabled" href="#x-add" x="0" y="48" class="disabled-text" />
+    <use id="arrow-minus-disabled" href="#x-minus" x="24" y="48" class="disabled-text" />
+  </g>
 </svg>
