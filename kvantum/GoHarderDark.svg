@@ -181,6 +181,7 @@
     <use id="button-normal-bottom" xlink:href="#x-btn-b" class="sec-cont" />
     <use id="button-normal-bottomright" xlink:href="#x-btn-br" class="sec-cont" />
     <use id="ar-1-down-normal" href="#x-down" x="7" y="7" class="on-sec-cont" />
+    <rect id="button-default-indicator" width="5" height="5" fill="none" />
   </g>
   <g id="g-button-focused" transform="translate(38)">
     <g id="button-focused-topleft">
@@ -305,111 +306,6 @@
     <g id="button-default-bottomright">
       <use href="#x-btn-bdr-br" class="sec" />
       <use href="#button-normal-bottomright" />
-    </g>
-  </g>
-  <g id="g-button-default-focused" transform="translate(38,38)">
-    <g id="button-default-focused-topleft">
-      <use href="#x-btn-bdr-tl" class="sec" />
-      <use href="#button-focused-topleft" />
-    </g>
-    <g id="button-default-focused-top">
-      <use href="#x-btn-bdr-t" class="sec" />
-      <use href="#button-focused-top" />
-    </g>
-    <g id="button-default-focused-topright">
-      <use href="#x-btn-bdr-tr" class="sec" />
-      <use href="#button-focused-topright" />
-    </g>
-    <g id="button-default-focused-left">
-      <use href="#x-btn-bdr-l" class="sec" />
-      <use href="#button-focused-left" />
-    </g>
-    <use id="button-default-focused" href="#button-focused" />
-    <g id="button-default-focused-right">
-      <use href="#x-btn-bdr-r" class="sec" />
-      <use href="#button-focused-right" />
-    </g>
-    <g id="button-default-focused-bottomleft">
-      <use href="#x-btn-bdr-bl" class="sec" />
-      <use href="#button-focused-bottomleft" />
-    </g>
-    <g id="button-default-focused-bottom">
-      <use href="#x-btn-bdr-b" class="sec" />
-      <use href="#button-focused-bottom" />
-    </g>
-    <g id="button-default-focused-bottomright">
-      <use href="#x-btn-bdr-br" class="sec" />
-      <use href="#button-focused-bottomright" />
-    </g>
-  </g>
-  <g id="g-button-default-pressed" transform="translate(76,38)">
-    <g id="button-default-pressed-topleft">
-      <use href="#x-btn-bdr-tl" class="sec" />
-      <use href="#button-pressed-topleft" />
-    </g>
-    <g id="button-default-pressed-top">
-      <use href="#x-btn-bdr-t" class="sec" />
-      <use href="#button-pressed-top" />
-    </g>
-    <g id="button-default-pressed-topright">
-      <use href="#x-btn-bdr-tr" class="sec" />
-      <use href="#button-pressed-topright" />
-    </g>
-    <g id="button-default-pressed-left">
-      <use href="#x-btn-bdr-l" class="sec" />
-      <use href="#button-pressed-left" />
-    </g>
-    <use id="button-default-pressed" href="#button-pressed" />
-    <g id="button-default-pressed-right">
-      <use href="#x-btn-bdr-r" class="sec" />
-      <use href="#button-pressed-right" />
-    </g>
-    <g id="button-default-pressed-bottomleft">
-      <use href="#x-btn-bdr-bl" class="sec" />
-      <use href="#button-pressed-bottomleft" />
-    </g>
-    <g id="button-default-pressed-bottom">
-      <use href="#x-btn-bdr-b" class="sec" />
-      <use href="#button-pressed-bottom" />
-    </g>
-    <g id="button-default-pressed-bottomright">
-      <use href="#x-btn-bdr-br" class="sec" />
-      <use href="#button-pressed-bottomright" />
-    </g>
-  </g>
-  <g id="g-button-default-toggled" transform="translate(114,38)">
-    <g id="button-default-toggled-topleft">
-      <use href="#x-btn-bdr-tl" class="sec" />
-      <use href="#button-toggled-topleft" />
-    </g>
-    <g id="button-default-toggled-top">
-      <use href="#x-btn-bdr-t" class="sec" />
-      <use href="#button-toggled-top" />
-    </g>
-    <g id="button-default-toggled-topright">
-      <use href="#x-btn-bdr-tr" class="sec" />
-      <use href="#button-toggled-topright" />
-    </g>
-    <g id="button-default-toggled-left">
-      <use href="#x-btn-bdr-l" class="sec" />
-      <use href="#button-toggled-left" />
-    </g>
-    <use id="button-default-toggled" href="#button-toggled" />
-    <g id="button-default-toggled-right">
-      <use href="#x-btn-bdr-r" class="sec" />
-      <use href="#button-toggled-right" />
-    </g>
-    <g id="button-default-toggled-bottomleft">
-      <use href="#x-btn-bdr-bl" class="sec" />
-      <use href="#button-toggled-bottomleft" />
-    </g>
-    <g id="button-default-toggled-bottom">
-      <use href="#x-btn-bdr-b" class="sec" />
-      <use href="#button-toggled-bottom" />
-    </g>
-    <g id="button-default-toggled-bottomright">
-      <use href="#x-btn-bdr-br" class="sec" />
-      <use href="#button-toggled-bottomright" />
     </g>
   </g>
   <g id="g-tool-button-normal" transform="translate(0,76)">
