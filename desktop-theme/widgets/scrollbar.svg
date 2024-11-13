@@ -165,64 +165,28 @@
   <rect id="mouseover-slider-hint-left-inset" width="6" height="3" x="0" y="30" fill="#ff00ff" opacity="0.5" />
   <rect id="mouseover-slider-hint-right-inset" width="6" height="3" x="15" y="30" fill="#ff00ff" opacity="0.5" />
   <rect id="mouseover-slider-hint-bottom-inset" width="3" height="6" x="9" y="36" fill="#ff00ff" opacity="0.5" />
-  <g id="background-vertical-topleft">
-    <path d="m 27,9 h 3 V 6 c -1.662,0 -3,1.338 -3,3 z" fill="none" />
-  </g>
-  <g id="background-vertical-top">
-    <path d="m 30,6 v 3 h 3 V 6 Z" fill="none" />
-  </g>
-  <g id="background-vertical-topright">
-    <path d="m 33,9 h 3 C 36,7.338 34.662,6 33,6 Z" fill="none" />
-  </g>
-  <g id="background-vertical-left">
-    <path d="m 27,9 v 3 h 3 V 9 Z" fill="none" />
-  </g>
-  <g id="background-vertical-center">
-    <path d="m 30,9 v 3 h 3 V 9 Z" fill="none" />
-  </g>
-  <g id="background-vertical-right">
-    <path d="m 33,9 v 3 h 3 V 9 Z" fill="none" />
-  </g>
-  <g id="background-vertical-bottomleft">
-    <path d="m 30,15 v -3 h -3 c 0,1.662 1.338,3 3,3 z" fill="none" />
-  </g>
-  <g id="background-vertical-bottom">
-    <path d="m 30,12 v 3 h 3 v -3 z" fill="none" />
-  </g>
-  <g id="background-vertical-bottomright">
-    <path d="m 36,12 h -3 v 3 c 1.662,0 3,-1.338 3,-3 z" fill="none" />
-  </g>
+  <path id="background-vertical-topleft" d="m 27,9 h 3 V 6 c -1.662,0 -3,1.338 -3,3 z" fill="none" />
+  <path id="background-vertical-top" d="m 30,6 v 3 h 3 V 6 Z" fill="none" />
+  <path id="background-vertical-topright" d="m 33,9 h 3 C 36,7.338 34.662,6 33,6 Z" fill="none" />
+  <path id="background-vertical-left" d="m 27,9 v 3 h 3 V 9 Z" fill="none" />
+  <path id="background-vertical-center" d="m 30,9 v 3 h 3 V 9 Z" fill="none" />
+  <path id="background-vertical-right" d="m 33,9 v 3 h 3 V 9 Z" fill="none" />
+  <path id="background-vertical-bottomleft" d="m 30,15 v -3 h -3 c 0,1.662 1.338,3 3,3 z" fill="none" />
+  <path id="background-vertical-bottom" d="m 30,12 v 3 h 3 v -3 z" fill="none" />
+  <path id="background-vertical-bottomright" d="m 36,12 h -3 v 3 c 1.662,0 3,-1.338 3,-3 z" fill="none" />
   <rect id="background-vertical-hint-top-inset" width="3" height="6" x="30" y="0" fill="#00ffff" opacity="0.5" />
   <rect id="background-vertical-hint-left-inset" width="6" height="3" x="21" y="9" fill="#00ffff" opacity="0.5" />
   <rect id="background-vertical-hint-right-inset" width="6" height="3" x="36" y="9" fill="#00ffff" opacity="0.5" />
   <rect id="background-vertical-hint-bottom-inset" width="3" height="6" x="30" y="15" fill="#00ffff" opacity="0.5" />
-  <g id="background-horizontal-topleft">
-    <path d="m 27,30 h 3 v -3 c -1.662,0 -3,1.338 -3,3 z" fill="none" />
-  </g>
-  <g id="background-horizontal-top">
-    <path d="m 30,27 v 3 h 3 v -3 z" fill="none" />
-  </g>
-  <g id="background-horizontal-topright">
-    <path d="m 33,30 h 3 c 0,-1.662 -1.338,-3 -3,-3 z" fill="none" />
-  </g>
-  <g id="background-horizontal-left">
-    <path d="m 27,30 v 3 h 3 v -3 z" fill="none" />
-  </g>
-  <g id="background-horizontal-center">
-    <path d="m 30,30 v 3 h 3 v -3 z" fill="none" />
-  </g>
-  <g id="background-horizontal-right">
-    <path d="m 33,30 v 3 h 3 v -3 z" fill="none" />
-  </g>
-  <g id="background-horizontal-bottomleft">
-    <path d="m 30,36 v -3 h -3 c 0,1.662 1.338,3 3,3 z" fill="none" />
-  </g>
-  <g id="background-horizontal-bottom">
-    <path d="m 30,33 v 3 h 3 v -3 z" fill="none" />
-  </g>
-  <g id="background-horizontal-bottomright">
-    <path d="m 36,33 h -3 v 3 c 1.662,0 3,-1.338 3,-3 z" fill="none" />
-  </g>
+  <path id="background-horizontal-topleft" d="m 27,30 h 3 v -3 c -1.662,0 -3,1.338 -3,3 z" fill="none" />
+  <path id="background-horizontal-top" d="m 30,27 v 3 h 3 v -3 z" fill="none" />
+  <path id="background-horizontal-topright" d="m 33,30 h 3 c 0,-1.662 -1.338,-3 -3,-3 z" fill="none" />
+  <path id="background-horizontal-left" d="m 27,30 v 3 h 3 v -3 z" fill="none" />
+  <path id="background-horizontal-center" d="m 30,30 v 3 h 3 v -3 z" fill="none" />
+  <path id="background-horizontal-right" d="m 33,30 v 3 h 3 v -3 z" fill="none" />
+  <path id="background-horizontal-bottomleft" d="m 30,36 v -3 h -3 c 0,1.662 1.338,3 3,3 z" fill="none" />
+  <path id="background-horizontal-bottom" d="m 30,33 v 3 h 3 v -3 z" fill="none" />
+  <path id="background-horizontal-bottomright" d="m 36,33 h -3 v 3 c 1.662,0 3,-1.338 3,-3 z" fill="none" />
   <rect id="background-horizontal-hint-top-inset" width="3" height="6" x="30" y="21" fill="#00ffff" opacity="0.5" />
   <rect id="background-horizontal-hint-left-inset" width="6" height="3" x="21" y="30" fill="#00ffff" opacity="0.5" />
   <rect id="background-horizontal-hint-right-inset" width="6" height="3" x="36" y="30" fill="#00ffff" opacity="0.5" />
