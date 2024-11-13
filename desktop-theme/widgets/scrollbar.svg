@@ -1,4 +1,5 @@
-<svg height="48" width="48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<svg height="42" width="42" version="1.1" id="svg94" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
   <defs>
     <style id="current-color-scheme" type="text/css">
       .ColorScheme-Text {
@@ -57,308 +58,179 @@
       }
     </style>
   </defs>
-  <g id="set-1" transform="translate(0,0)">
-    <g id="slider-topleft" transform="translate(6,6)">
-      <path d="M 0,3 H 3 V 0 C 1.338,0 0,1.338 0,3 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <path d="M 3,0 C 1.318,0 0,1.318 0,3 H 1 A 2,2 0 0 1 3,1 Z" class="ColorScheme-ButtonText" fill="currentColor"
-        opacity="0.2" />
-      <path d="M 3,1 A 2,2 0 0 0 1,3 h 2 z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
-    </g>
-    <g id="slider-top" transform="translate(6,6)">
-      <path d="M 3,0 V 3 H 6 V 0 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <path d="M 3,0 V 1 H 6 V 0 Z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.2" />
-      <path d="M 3,1 V 3 H 6 V 1 Z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
-    </g>
-    <g id="slider-topright" transform="translate(6,6)">
-      <path d="M 6,3 H 9 C 9,1.338 7.662,0 6,0 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <path d="M 6,0 V 1 A 2,2 0 0 1 8,3 H 9 C 9,1.318 7.682,0 6,0 Z" class="ColorScheme-ButtonText" fill="currentColor"
-        opacity="0.2" />
-      <path d="M 6,1 A 2,2 0 0 1 8,3 H 6 Z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
-    </g>
-    <g id="slider-left" transform="translate(6,6)">
-      <path d="M 0,3 V 6 H 3 V 3 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <path d="M 0,3 V 6 H 1 V 3 Z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.2" />
-      <path d="M 1,3 V 6 H 3 V 3 Z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
-    </g>
-    <g id="slider-center" transform="translate(6,6)">
-      <path d="M 3,3 V 6 H 6 V 3 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <path d="M 3,3 V 6 H 6 V 3 Z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
-    </g>
-    <g id="slider-right" transform="translate(6,6)">
-      <path d="M 6,3 V 6 H 9 V 3 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <path d="M 8,3 V 6 H 9 V 3 Z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.2" />
-      <path d="M 6,3 V 6 H 8 V 3 Z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
-    </g>
-    <g id="slider-bottomleft" transform="translate(6,6)">
-      <path d="M 3,9 V 6 H 0 c 0,1.662 1.338,3 3,3 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <path d="M 0,6 C 0,7.682 1.318,9 3,9 V 8 A 2,2 0 0 1 1,6 Z" class="ColorScheme-ButtonText" fill="currentColor"
-        opacity="0.2" />
-      <path d="M 3,8 A 2,2 0 0 1 1,6 h 2 z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
-    </g>
-    <g id="slider-bottom" transform="translate(6,6)">
-      <path d="M 3,6 V 9 H 6 V 6 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <path d="M 3,9 V 8 h 3 v 1 z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.2" />
-      <path d="M 3,6 V 8 H 6 V 6 Z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
-    </g>
-    <g id="slider-bottomright" transform="translate(6,6)">
-      <path d="M 9,6 H 6 V 9 C 7.662,9 9,7.662 9,6 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <path d="M 8,6 A 2,2 0 0 1 6,8 V 9 C 7.682,9 9,7.682 9,6 Z" class="ColorScheme-ButtonText" fill="currentColor"
-        opacity="0.2" />
-      <path d="M 6,8 A 2,2 0 0 0 8,6 H 6 Z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
-    </g>
-    <rect id="slider-hint-top-inset" width="3" height="6" x="9" y="0" fill="#ff00ff" opacity="0.5" />
-    <rect id="slider-hint-left-inset" width="6" height="3" x="0" y="9" fill="#ff00ff" opacity="0.5" />
-    <rect id="slider-hint-right-inset" width="6" height="3" x="15" y="9" fill="#ff00ff" opacity="0.5" />
-    <rect id="slider-hint-bottom-inset" width="3" height="6" x="9" y="15" fill="#ff00ff" opacity="0.5" />
+  <g id="slider-topleft">
+    <path d="M 6,9 H 9 V 6 C 7.338,6 6,7.338 6,9 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="M 9,6 C 7.318,6 6,7.318 6,9 H 7 A 2,2 0 0 1 9,7 Z" class="ColorScheme-ButtonText" fill="currentColor"
+      opacity="0.2" />
+    <path d="M 9,7 A 2,2 0 0 0 7,9 h 2 z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
   </g>
-  <g id="set-2" transform="translate(0,21)">
-    <g id="mouseover-slider-topleft" transform="translate(6,6)">
-      <path d="M 0,3 H 3 V 0 C 1.338,0 0,1.338 0,3 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <path d="M 3,0.5 C 1.619,0.5 0.5,1.619 0.5,3 H 3 Z" class="ColorScheme-Highlight" fill="currentColor"
-        opacity="0.5" />
-      <path d="M 3,0 C 1.318,0 0,1.318 0,3 H 1 A 2,2 0 0 1 3,1 Z" class="ColorScheme-Highlight" fill="currentColor" />
-    </g>
-    <g id="mouseover-slider-top" transform="translate(6,6)">
-      <path d="M 3,0 V 3 H 6 V 0 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <rect width="3" height="2.5" x="3" y="0.5" class="ColorScheme-Highlight" fill="currentColor" opacity="0.5" />
-      <path d="M 3,0 V 1 H 6 V 0 Z" class="ColorScheme-Highlight" fill="currentColor" />
-    </g>
-    <g id="mouseover-slider-topright" transform="translate(6,6)">
-      <path d="M 6,3 H 9 C 9,1.338 7.662,0 6,0 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <path d="M 6,0.5 C 7.381,0.5 8.5,1.619 8.5,3 H 6 Z" class="ColorScheme-Highlight" fill="currentColor"
-        opacity="0.5" />
-      <path d="M 6,0 V 1 A 2,2 0 0 1 8,3 H 9 C 9,1.318 7.682,0 6,0 Z" class="ColorScheme-Highlight"
-        fill="currentColor" />
-    </g>
-    <g id="mouseover-slider-left" transform="translate(6,6)">
-      <path d="M 0,3 V 6 H 3 V 3 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <rect width="2.5" height="3" x="0.5" y="3" class="ColorScheme-Highlight" fill="currentColor" opacity="0.5" />
-      <path d="M 0,3 V 6 H 1 V 3 Z" class="ColorScheme-Highlight" fill="currentColor" />
-    </g>
-    <g id="mouseover-slider-center" transform="translate(6,6)">
-      <path d="M 3,3 V 6 H 6 V 3 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <path d="M 3,3 V 6 H 6 V 3 Z" class="ColorScheme-Highlight" fill="currentColor" opacity="0.5" />
-    </g>
-    <g id="mouseover-slider-right" transform="translate(6,6)">
-      <path d="M 6,3 V 6 H 9 V 3 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <rect height="3" width="2.5" x="6" y="3" class="ColorScheme-Highlight" fill="currentColor" opacity="0.5" />
-      <path d="M 8,3 V 6 H 9 V 3 Z" class="ColorScheme-Highlight" fill="currentColor" />
-    </g>
-    <g id="mouseover-slider-bottomleft" transform="translate(6,6)">
-      <path d="M 3,9 V 6 H 0 c 0,1.662 1.338,3 3,3 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <path d="M 3,8.5 C 1.619,8.5 0.5,7.381 0.5,6 H 3 Z" class="ColorScheme-Highlight" fill="currentColor"
-        opacity="0.5" />
-      <path d="M 0,6 C 0,7.682 1.318,9 3,9 V 8 A 2,2 0 0 1 1,6 Z" class="ColorScheme-Highlight" fill="currentColor" />
-    </g>
-    <g id="mouseover-slider-bottom" transform="translate(6,6)">
-      <path d="M 3,6 V 9 H 6 V 6 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <rect height="2.5" width="3" x="3" y="6" class="ColorScheme-Highlight" fill="currentColor" opacity="0.5" />
-      <path d="M 3,9 V 8 h 3 v 1 z" class="ColorScheme-Highlight" fill="currentColor" />
-    </g>
-    <g id="mouseover-slider-bottomright" transform="translate(6,6)">
-      <path d="M 9,6 H 6 V 9 C 7.662,9 9,7.662 9,6 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
-      <path d="M 6,8.5 C 7.381,8.5 8.5,7.381 8.5,6 H 6 Z" class="ColorScheme-Highlight" fill="currentColor"
-        opacity="0.5" />
-      <path d="M 8,6 A 2,2 0 0 1 6,8 V 9 C 7.682,9 9,7.682 9,6 Z" class="ColorScheme-Highlight" fill="currentColor" />
-    </g>
-    <rect id="mouseover-slider-hint-top-inset" width="3" height="6" x="9" y="0" fill="#ff00ff" opacity="0.5" />
-    <rect id="mouseover-slider-hint-left-inset" width="6" height="3" x="0" y="9" fill="#ff00ff" opacity="0.5" />
-    <rect id="mouseover-slider-hint-right-inset" width="6" height="3" x="15" y="9" fill="#ff00ff" opacity="0.5" />
-    <rect id="mouseover-slider-hint-bottom-inset" width="3" height="6" x="9" y="15" fill="#ff00ff" opacity="0.5" />
+  <g id="slider-top">
+    <path d="m 9,6 v 3 h 3 V 6 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="m 9,6 v 1 h 3 V 6 Z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.2" />
+    <path d="m 9,7 v 2 h 3 V 7 Z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
   </g>
+  <g id="slider-topright">
+    <path d="m 12,9 h 3 C 15,7.338 13.662,6 12,6 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="m 12,6 v 1 a 2,2 0 0 1 2,2 h 1 C 15,7.318 13.682,6 12,6 Z" class="ColorScheme-ButtonText"
+      fill="currentColor" opacity="0.2" />
+    <path d="m 12,7 a 2,2 0 0 1 2,2 h -2 z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
+  </g>
+  <g id="slider-left">
+    <path d="m 6,9 v 3 H 9 V 9 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="m 6,9 v 3 H 7 V 9 Z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.2" />
+    <path d="m 7,9 v 3 H 9 V 9 Z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
+  </g>
+  <g id="slider-center">
+    <path d="m 9,9 v 3 h 3 V 9 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="m 9,9 v 3 h 3 V 9 Z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
+  </g>
+  <g id="slider-right">
+    <path d="m 12,9 v 3 h 3 V 9 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="m 14,9 v 3 h 1 V 9 Z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.2" />
+    <path d="m 12,9 v 3 h 2 V 9 Z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
+  </g>
+  <g id="slider-bottomleft">
+    <path d="M 9,15 V 12 H 6 c 0,1.662 1.338,3 3,3 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="m 6,12 c 0,1.682 1.318,3 3,3 V 14 A 2,2 0 0 1 7,12 Z" class="ColorScheme-ButtonText" fill="currentColor"
+      opacity="0.2" />
+    <path d="M 9,14 A 2,2 0 0 1 7,12 h 2 z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
+  </g>
+  <g id="slider-bottom">
+    <path d="m 9,12 v 3 h 3 v -3 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="m 9,15 v -1 h 3 v 1 z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.2" />
+    <path d="m 9,12 v 2 h 3 v -2 z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
+  </g>
+  <g id="slider-bottomright">
+    <path d="m 15,12 h -3 v 3 c 1.662,0 3,-1.338 3,-3 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="m 14,12 a 2,2 0 0 1 -2,2 v 1 c 1.682,0 3,-1.318 3,-3 z" class="ColorScheme-ButtonText" fill="currentColor"
+      opacity="0.2" />
+    <path d="m 12,14 a 2,2 0 0 0 2,-2 h -2 z" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.15" />
+  </g>
+  <rect id="slider-hint-top-inset" width="3" height="6" x="9" y="0" fill="#ff00ff" opacity="0.5" />
+  <rect id="slider-hint-left-inset" width="6" height="3" x="0" y="9" fill="#ff00ff" opacity="0.5" />
+  <rect id="slider-hint-right-inset" width="6" height="3" x="15" y="9" fill="#ff00ff" opacity="0.5" />
+  <rect id="slider-hint-bottom-inset" width="3" height="6" x="9" y="15" fill="#ff00ff" opacity="0.5" />
+  <g id="mouseover-slider-topleft">
+    <path d="M 6,30 H 9 V 27 C 7.338,27 6,28.338 6,30 Z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="M 9,27.5 C 7.619,27.5 6.5,28.619 6.5,30 H 9 Z" class="ColorScheme-Highlight" fill="currentColor"
+      opacity="0.5" />
+    <path d="M 9,27 C 7.318,27 6,28.318 6,30 H 7 A 2,2 0 0 1 9,28 Z" class="ColorScheme-Highlight"
+      fill="currentColor" />
+  </g>
+  <g id="mouseover-slider-top">
+    <path d="m 9,27 v 3 h 3 v -3 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <rect width="3" height="2.5" x="9" y="27.5" class="ColorScheme-Highlight" fill="currentColor" opacity="0.5" />
+    <path d="m 9,27 v 1 h 3 v -1 z" class="ColorScheme-Highlight" fill="currentColor" />
+  </g>
+  <g id="mouseover-slider-topright">
+    <path d="m 12,30 h 3 c 0,-1.662 -1.338,-3 -3,-3 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="m 12,27.5 c 1.381,0 2.5,1.119 2.5,2.5 H 12 Z" class="ColorScheme-Highlight" fill="currentColor"
+      opacity="0.5" />
+    <path d="m 12,27 v 1 a 2,2 0 0 1 2,2 h 1 c 0,-1.682 -1.318,-3 -3,-3 z" class="ColorScheme-Highlight"
+      fill="currentColor" />
+  </g>
+  <g id="mouseover-slider-left">
+    <path d="m 6,30 v 3 h 3 v -3 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <rect width="2.5" height="3" x="6.5" y="30" class="ColorScheme-Highlight" fill="currentColor" opacity="0.5" />
+    <path d="m 6,30 v 3 h 1 v -3 z" class="ColorScheme-Highlight" fill="currentColor" />
+  </g>
+  <g id="mouseover-slider-center">
+    <path d="m 9,30 v 3 h 3 v -3 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="m 9,30 v 3 h 3 v -3 z" class="ColorScheme-Highlight" fill="currentColor" opacity="0.5" />
+  </g>
+  <g id="mouseover-slider-right">
+    <path d="m 12,30 v 3 h 3 v -3 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <rect height="3" width="2.5" x="12" y="30" class="ColorScheme-Highlight" fill="currentColor" opacity="0.5" />
+    <path d="m 14,30 v 3 h 1 v -3 z" class="ColorScheme-Highlight" fill="currentColor" />
+  </g>
+  <g id="mouseover-slider-bottomleft">
+    <path d="M 9,36 V 33 H 6 c 0,1.662 1.338,3 3,3 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="M 9,35.5 C 7.619,35.5 6.5,34.381 6.5,33 H 9 Z" class="ColorScheme-Highlight" fill="currentColor"
+      opacity="0.5" />
+    <path d="m 6,33 c 0,1.682 1.318,3 3,3 V 35 A 2,2 0 0 1 7,33 Z" class="ColorScheme-Highlight" fill="currentColor" />
+  </g>
+  <g id="mouseover-slider-bottom">
+    <path d="m 9,33 v 3 h 3 v -3 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <rect height="2.5" width="3" x="9" y="33" class="ColorScheme-Highlight" fill="currentColor" opacity="0.5" />
+    <path d="m 9,36 v -1 h 3 v 1 z" class="ColorScheme-Highlight" fill="currentColor" />
+  </g>
+  <g id="mouseover-slider-bottomright">
+    <path d="m 15,33 h -3 v 3 c 1.662,0 3,-1.338 3,-3 z" class="ColorScheme-ButtonBackground" fill="currentColor" />
+    <path d="m 12,35.5 c 1.381,0 2.5,-1.119 2.5,-2.5 H 12 Z" class="ColorScheme-Highlight" fill="currentColor"
+      opacity="0.5" />
+    <path d="m 14,33 a 2,2 0 0 1 -2,2 v 1 c 1.682,0 3,-1.318 3,-3 z" class="ColorScheme-Highlight"
+      fill="currentColor" />
+  </g>
+  <rect id="mouseover-slider-hint-top-inset" width="3" height="6" x="9" y="21" fill="#ff00ff" opacity="0.5" />
+  <rect id="mouseover-slider-hint-left-inset" width="6" height="3" x="0" y="30" fill="#ff00ff" opacity="0.5" />
+  <rect id="mouseover-slider-hint-right-inset" width="6" height="3" x="15" y="30" fill="#ff00ff" opacity="0.5" />
+  <rect id="mouseover-slider-hint-bottom-inset" width="3" height="6" x="9" y="36" fill="#ff00ff" opacity="0.5" />
   <g id="background-vertical-topleft">
-    <path d="M 0,3 H 3 V 0 C 1.338,0 0,1.338 0,3 Z" fill="none" />
+    <path d="m 27,9 h 3 V 6 c -1.662,0 -3,1.338 -3,3 z" fill="none" />
   </g>
   <g id="background-vertical-top">
-    <path d="M 3,0 V 3 H 6 V 0 Z" fill="none" />
+    <path d="m 30,6 v 3 h 3 V 6 Z" fill="none" />
   </g>
   <g id="background-vertical-topright">
-    <path d="M 6,3 H 9 C 9,1.338 7.662,0 6,0 Z" fill="none" />
+    <path d="m 33,9 h 3 C 36,7.338 34.662,6 33,6 Z" fill="none" />
   </g>
-  <!-- MARK: Break -->
-  <g id="background-vertical-bottom" transform="translate(26,-2)">
-    <path d="m 28,15 v 3 h 3 v -3 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonBackground" />
-    <path class="ColorScheme-ButtonText" d="m 28,18 v -1 h 3 v 1 z"
-      style="opacity:0;fill:currentColor;fill-opacity:1" />
-    <path d="m 28,15 v 2 h 3 v -2 z" style="opacity:0;fill:currentColor;fill-rule:evenodd;stroke-width:1"
-      class="ColorScheme-ButtonText" />
-  </g>
-  <g id="background-vertical-bottomleft" transform="translate(26,-2)">
-    <path d="m 27,18 v -3 h -3 c 0,1.662 1.338,3 3,3 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonBackground" />
-    <path class="ColorScheme-ButtonText" d="m 24,15 c 0,1.682 1.318,3 3,3 v -1 a 2,2 0 0 1 -2,-2 z"
-      style="opacity:0;fill:currentColor;fill-opacity:1" />
-    <path d="m 27,17 a 2,2 0 0 1 -2,-2 h 2 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonText" />
-  </g>
-  <g id="background-vertical-bottomright" transform="translate(26,-2)">
-    <path d="m 35,15 h -3 v 3 c 1.662,0 3,-1.338 3,-3 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonBackground" />
-    <path class="ColorScheme-ButtonText" d="m 34,15 a 2,2 0 0 1 -2,2 v 1 c 1.682,0 3,-1.318 3,-3 z"
-      style="opacity:0;fill:currentColor;fill-opacity:1" />
-    <path d="m 32,17 a 2,2 0 0 0 2,-2 h -2 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonText" />
+  <g id="background-vertical-left">
+    <path d="m 27,9 v 3 h 3 V 9 Z" fill="none" />
   </g>
   <g id="background-vertical-center">
-    <path d="m 54,9 v 3 h 3 V 9 Z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonBackground" />
-    <path d="m 54,9 v 3 h 3 V 9 Z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonText" />
+    <path d="m 30,9 v 3 h 3 V 9 Z" fill="none" />
   </g>
-  <g id="background-vertical-left" transform="translate(26,-2)">
-    <path d="m 24,11 v 3 h 3 v -3 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonBackground" />
-    <path class="ColorScheme-ButtonText" d="m 24,11 v 3 h 1 v -3 z"
-      style="opacity:0;fill:currentColor;fill-opacity:1" />
-    <path d="m 25,11 v 3 h 2 v -3 z" style="opacity:0;fill:currentColor;fill-rule:evenodd;stroke-width:1"
-      class="ColorScheme-ButtonText" />
+  <g id="background-vertical-right">
+    <path d="m 33,9 v 3 h 3 V 9 Z" fill="none" />
   </g>
-  <g id="background-vertical-right" transform="translate(26,-2)">
-    <path d="m 32,11 v 3 h 3 v -3 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonBackground" />
-    <path class="ColorScheme-ButtonText" d="m 34,11 v 3 h 1 v -3 z"
-      style="opacity:0;fill:currentColor;fill-opacity:1" />
-    <path d="m 32,11 v 3 h 2 v -3 z" style="opacity:0;fill:currentColor;fill-rule:evenodd;stroke-width:1"
-      class="ColorScheme-ButtonText" />
+  <g id="background-vertical-bottomleft">
+    <path d="m 30,15 v -3 h -3 c 0,1.662 1.338,3 3,3 z" fill="none" />
   </g>
-  <g id="background-horizontal-top" transform="translate(26,23)">
-    <path d="m 28,7 v 3 h 3 V 7 Z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonBackground" />
-    <path class="ColorScheme-ButtonText" d="m 28,7 v 1 h 3 V 7 Z" style="opacity:0;fill:currentColor;fill-opacity:1" />
-    <path d="m 28,8 v 2 h 3 V 8 Z" style="opacity:0;fill:currentColor;fill-rule:evenodd;stroke-width:1"
-      class="ColorScheme-ButtonText" />
+  <g id="background-vertical-bottom">
+    <path d="m 30,12 v 3 h 3 v -3 z" fill="none" />
   </g>
-  <g id="background-horizontal-topleft" transform="translate(26,23)">
-    <path d="m 24,10 h 3 V 7 c -1.662,0 -3,1.338 -3,3 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonBackground" />
-    <path class="ColorScheme-ButtonText" d="m 27,7 c -1.682,0 -3,1.318 -3,3 h 1 a 2,2 0 0 1 2,-2 z"
-      style="opacity:0;fill:currentColor;fill-opacity:1" />
-    <path d="m 27,8 a 2,2 0 0 0 -2,2 h 2 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonText" />
+  <g id="background-vertical-bottomright">
+    <path d="m 36,12 h -3 v 3 c 1.662,0 3,-1.338 3,-3 z" fill="none" />
   </g>
-  <g id="background-horizontal-topright" transform="translate(26,23)">
-    <path d="m 32,10 h 3 C 35,8.338 33.662,7 32,7 Z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonBackground" />
-    <path class="ColorScheme-ButtonText" d="m 32,7 v 1 a 2,2 0 0 1 2,2 h 1 C 35,8.318 33.682,7 32,7 Z"
-      style="opacity:0;fill:currentColor;fill-opacity:1" />
-    <path d="m 32,8 a 2,2 0 0 1 2,2 h -2 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonText" />
+  <rect id="background-vertical-hint-top-inset" width="3" height="6" x="30" y="0" fill="#00ffff" opacity="0.5" />
+  <rect id="background-vertical-hint-left-inset" width="6" height="3" x="21" y="9" fill="#00ffff" opacity="0.5" />
+  <rect id="background-vertical-hint-right-inset" width="6" height="3" x="36" y="9" fill="#00ffff" opacity="0.5" />
+  <rect id="background-vertical-hint-bottom-inset" width="3" height="6" x="30" y="15" fill="#00ffff" opacity="0.5" />
+  <g id="background-horizontal-topleft">
+    <path d="m 27,30 h 3 v -3 c -1.662,0 -3,1.338 -3,3 z" fill="none" />
   </g>
-  <g id="background-horizontal-bottom" transform="translate(26,23)">
-    <path d="m 28,15 v 3 h 3 v -3 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonBackground" />
-    <path class="ColorScheme-ButtonText" d="m 28,18 v -1 h 3 v 1 z"
-      style="opacity:0;fill:currentColor;fill-opacity:1" />
-    <path d="m 28,15 v 2 h 3 v -2 z" style="opacity:0;fill:currentColor;fill-rule:evenodd;stroke-width:1"
-      class="ColorScheme-ButtonText" />
+  <g id="background-horizontal-top">
+    <path d="m 30,27 v 3 h 3 v -3 z" fill="none" />
   </g>
-  <g id="background-horizontal-bottomleft" transform="translate(26,23)">
-    <path d="m 27,18 v -3 h -3 c 0,1.662 1.338,3 3,3 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonBackground" />
-    <path class="ColorScheme-ButtonText" d="m 24,15 c 0,1.682 1.318,3 3,3 v -1 a 2,2 0 0 1 -2,-2 z"
-      style="opacity:0;fill:currentColor;fill-opacity:1" />
-    <path d="m 27,17 a 2,2 0 0 1 -2,-2 h 2 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonText" />
+  <g id="background-horizontal-topright">
+    <path d="m 33,30 h 3 c 0,-1.662 -1.338,-3 -3,-3 z" fill="none" />
   </g>
-  <g id="background-horizontal-bottomright" transform="translate(26,23)">
-    <path d="m 35,15 h -3 v 3 c 1.662,0 3,-1.338 3,-3 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonBackground" />
-    <path class="ColorScheme-ButtonText" d="m 34,15 a 2,2 0 0 1 -2,2 v 1 c 1.682,0 3,-1.318 3,-3 z"
-      style="opacity:0;fill:currentColor;fill-opacity:1" />
-    <path d="m 32,17 a 2,2 0 0 0 2,-2 h -2 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonText" />
+  <g id="background-horizontal-left">
+    <path d="m 27,30 v 3 h 3 v -3 z" fill="none" />
   </g>
   <g id="background-horizontal-center">
-    <path d="m 54,34 v 3 h 3 v -3 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonBackground" />
-    <path d="m 54,34 v 3 h 3 v -3 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonText" />
+    <path d="m 30,30 v 3 h 3 v -3 z" fill="none" />
   </g>
-  <g id="background-horizontal-left" transform="translate(26,23)">
-    <path d="m 24,11 v 3 h 3 v -3 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonBackground" />
-    <path class="ColorScheme-ButtonText" d="m 24,11 v 3 h 1 v -3 z"
-      style="opacity:0;fill:currentColor;fill-opacity:1" />
-    <path d="m 25,11 v 3 h 2 v -3 z" style="opacity:0;fill:currentColor;fill-rule:evenodd;stroke-width:1"
-      class="ColorScheme-ButtonText" />
+  <g id="background-horizontal-right">
+    <path d="m 33,30 v 3 h 3 v -3 z" fill="none" />
   </g>
-  <g id="background-horizontal-right" transform="translate(26,23)">
-    <path d="m 32,11 v 3 h 3 v -3 z" style="opacity:0;fill:currentColor;fill-rule:evenodd"
-      class="ColorScheme-ButtonBackground" />
-    <path class="ColorScheme-ButtonText" d="m 34,11 v 3 h 1 v -3 z"
-      style="opacity:0;fill:currentColor;fill-opacity:1" />
-    <path d="m 32,11 v 3 h 2 v -3 z" style="opacity:0;fill:currentColor;fill-rule:evenodd;stroke-width:1"
-      class="ColorScheme-ButtonText" />
+  <g id="background-horizontal-bottomleft">
+    <path d="m 30,36 v -3 h -3 c 0,1.662 1.338,3 3,3 z" fill="none" />
   </g>
-  <rect id="background-horizontal-hint-right-inset" height="3"
-    style="opacity:0.5;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1" width="6" x="61" y="34" />
-  <rect id="background-horizontal-hint-top-inset" height="6"
-    style="opacity:0.5;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1" width="3" x="54" y="24" />
-  <rect id="background-horizontal-hint-left-inset" height="3"
-    style="opacity:0.5;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1" width="6" x="44" y="34" />
-  <rect id="background-horizontal-hint-bottom-inset" height="6"
-    style="opacity:0.5;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1" width="3" x="54" y="41" />
-  <rect id="background-vertical-hint-right-inset" height="3"
-    style="opacity:0.5;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1" width="6" x="61" y="9" />
-  <rect id="background-vertical-hint-top-inset" height="6"
-    style="opacity:0.5;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1" width="3" x="54" y="-1" />
-  <rect id="background-vertical-hint-left-inset" height="3"
-    style="opacity:0.5;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1" width="6" x="44" y="9" />
-  <rect id="background-vertical-hint-bottom-inset" height="6"
-    style="opacity:0.5;fill:#00ffff;fill-opacity:1;fill-rule:evenodd;stroke-width:1" width="3" x="54" y="16" />
-  <rect id="hint-scrollbar-size" x="71" y="3" width="10" height="10" style="fill:#ff0000;fill-rule:evenodd" />
+  <g id="background-horizontal-bottom">
+    <path d="m 30,33 v 3 h 3 v -3 z" fill="none" />
+  </g>
+  <g id="background-horizontal-bottomright">
+    <path d="m 36,33 h -3 v 3 c 1.662,0 3,-1.338 3,-3 z" fill="none" />
+  </g>
+  <rect id="background-horizontal-hint-top-inset" width="3" height="6" x="30" y="21" fill="#00ffff" opacity="0.5" />
+  <rect id="background-horizontal-hint-left-inset" width="6" height="3" x="21" y="30" fill="#00ffff" opacity="0.5" />
+  <rect id="background-horizontal-hint-right-inset" width="6" height="3" x="36" y="30" fill="#00ffff" opacity="0.5" />
+  <rect id="background-horizontal-hint-bottom-inset" width="3" height="6" x="30" y="36" fill="#00ffff" opacity="0.5" />
+  <rect id="hint-scrollbar-size" x="0" y="0" width="6" height="6" fill="#ff0000" />
   <circle id="hint-tile-center" cx="1" cy="1" r="1" fill="#4e9a06" />
   <circle id="private-hint-show-separator" cx="3" cy="1" r="1" fill="#0000ff" />
   <!-- windows button 15x15 icon 7x6  -->
   <!-- kvantum 10 -->
   <!-- kde 6 -->
-  <g id="arrow-up" transform="translate(0)">
-    <rect x="0" y="0" width="10" height="10" fill="none" />
-    <path d="M 5,4 3,6 h 4 z" class="ColorScheme-ButtonText" fill="currentColor" />
-  </g>
-  <g id="arrow-down" transform="translate(10)">
-    <rect x="0" y="0" width="10" height="10" fill="none" />
-    <path d="M 5,6 3,4 H 7 Z" class="ColorScheme-ButtonText" fill="currentColor" />
-  </g>
-  <g id="arrow-left" transform="translate(0,10)">
-    <rect x="0" y="0" width="10" height="10" fill="none" />
-    <path d="M 4,5 6,3 v 4 z" class="ColorScheme-ButtonText" fill="currentColor" />
-  </g>
-  <g id="arrow-right" transform="translate(10,10)">
-    <rect x="0" y="0" width="10" height="10" fill="none" />
-    <path d="M 6,5 4,3 v 4 z" class="ColorScheme-ButtonText" fill="currentColor" />
-  </g>
-  <g id="mouseover-arrow-up" transform="translate(0)">
-    <rect x="0" y="0" width="10" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.08" />
-    <path d="M 5,4 3,6 h 4 z" class="ColorScheme-ButtonText" fill="currentColor" />
-  </g>
-  <g id="mouseover-arrow-down" transform="translate(10)">
-    <rect x="0" y="0" width="10" height="10" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.08" />
-    <path d="M 5,6 3,4 H 7 Z" class="ColorScheme-ButtonText" fill="currentColor" />
-  </g>
-  <g id="mouseover-arrow-left" transform="translate(0,10)">
-    <rect x="0" y="0" width="10" height="10" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.08" />
-    <path d="M 4,5 6,3 v 4 z" class="ColorScheme-ButtonText" fill="currentColor" />
-  </g>
-  <g id="mouseover-arrow-right" transform="translate(10,10)">
-    <rect x="0" y="0" width="10" height="10" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.08" />
-    <path d="M 6,5 4,3 v 4 z" class="ColorScheme-ButtonText" fill="currentColor" />
-  </g>
-  <g id="sunken-arrow-up" transform="translate(0)">
-    <rect x="0" y="0" width="10" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.08" />
-    <path d="M 5,4 3,6 h 4 z" class="ColorScheme-ButtonText" fill="currentColor" />
-  </g>
-  <g id="sunken-arrow-down" transform="translate(10)">
-    <rect x="0" y="0" width="10" height="10" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.08" />
-    <path d="M 5,6 3,4 H 7 Z" class="ColorScheme-ButtonText" fill="currentColor" />
-  </g>
-  <g id="sunken-arrow-left" transform="translate(0,10)">
-    <rect x="0" y="0" width="10" height="10" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.08" />
-    <path d="M 4,5 6,3 v 4 z" class="ColorScheme-ButtonText" fill="currentColor" />
-  </g>
-  <g id="sunken-arrow-right" transform="translate(10,10)">
-    <rect x="0" y="0" width="10" height="10" class="ColorScheme-ButtonText" fill="currentColor" opacity="0.08" />
-    <path d="M 6,5 4,3 v 4 z" class="ColorScheme-ButtonText" fill="currentColor" />
-  </g>
 </svg>
