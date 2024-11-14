@@ -165,32 +165,36 @@
   <rect id="mouseover-slider-hint-left-inset" width="6" height="3" x="0" y="30" fill="#ff00ff" opacity="0.5" />
   <rect id="mouseover-slider-hint-right-inset" width="6" height="3" x="15" y="30" fill="#ff00ff" opacity="0.5" />
   <rect id="mouseover-slider-hint-bottom-inset" width="3" height="6" x="9" y="36" fill="#ff00ff" opacity="0.5" />
-  <path id="background-vertical-topleft" d="m 27,9 h 3 V 6 c -1.662,0 -3,1.338 -3,3 z" fill="none" />
-  <path id="background-vertical-top" d="m 30,6 v 3 h 3 V 6 Z" fill="none" />
-  <path id="background-vertical-topright" d="m 33,9 h 3 C 36,7.338 34.662,6 33,6 Z" fill="none" />
-  <path id="background-vertical-left" d="m 27,9 v 3 h 3 V 9 Z" fill="none" />
-  <path id="background-vertical-center" d="m 30,9 v 3 h 3 V 9 Z" fill="none" />
-  <path id="background-vertical-right" d="m 33,9 v 3 h 3 V 9 Z" fill="none" />
-  <path id="background-vertical-bottomleft" d="m 30,15 v -3 h -3 c 0,1.662 1.338,3 3,3 z" fill="none" />
-  <path id="background-vertical-bottom" d="m 30,12 v 3 h 3 v -3 z" fill="none" />
-  <path id="background-vertical-bottomright" d="m 36,12 h -3 v 3 c 1.662,0 3,-1.338 3,-3 z" fill="none" />
-  <rect id="background-vertical-hint-top-inset" width="3" height="6" x="30" y="0" fill="#00ffff" opacity="0.5" />
-  <rect id="background-vertical-hint-left-inset" width="6" height="3" x="21" y="9" fill="#00ffff" opacity="0.5" />
-  <rect id="background-vertical-hint-right-inset" width="6" height="3" x="36" y="9" fill="#00ffff" opacity="0.5" />
-  <rect id="background-vertical-hint-bottom-inset" width="3" height="6" x="30" y="15" fill="#00ffff" opacity="0.5" />
-  <path id="background-horizontal-topleft" d="m 27,30 h 3 v -3 c -1.662,0 -3,1.338 -3,3 z" fill="none" />
-  <path id="background-horizontal-top" d="m 30,27 v 3 h 3 v -3 z" fill="none" />
-  <path id="background-horizontal-topright" d="m 33,30 h 3 c 0,-1.662 -1.338,-3 -3,-3 z" fill="none" />
-  <path id="background-horizontal-left" d="m 27,30 v 3 h 3 v -3 z" fill="none" />
-  <path id="background-horizontal-center" d="m 30,30 v 3 h 3 v -3 z" fill="none" />
-  <path id="background-horizontal-right" d="m 33,30 v 3 h 3 v -3 z" fill="none" />
-  <path id="background-horizontal-bottomleft" d="m 30,36 v -3 h -3 c 0,1.662 1.338,3 3,3 z" fill="none" />
-  <path id="background-horizontal-bottom" d="m 30,33 v 3 h 3 v -3 z" fill="none" />
-  <path id="background-horizontal-bottomright" d="m 36,33 h -3 v 3 c 1.662,0 3,-1.338 3,-3 z" fill="none" />
-  <rect id="background-horizontal-hint-top-inset" width="3" height="6" x="30" y="21" fill="#00ffff" opacity="0.5" />
-  <rect id="background-horizontal-hint-left-inset" width="6" height="3" x="21" y="30" fill="#00ffff" opacity="0.5" />
-  <rect id="background-horizontal-hint-right-inset" width="6" height="3" x="36" y="30" fill="#00ffff" opacity="0.5" />
-  <rect id="background-horizontal-hint-bottom-inset" width="3" height="6" x="30" y="36" fill="#00ffff" opacity="0.5" />
+  <g transform="translate(24,3)" id="g48">
+    <rect id="background-vertical-topleft" width="1" height="1" x="0" y="0" fill="#8c9198" />
+    <rect id="background-vertical-top" width="13" height="1" x="1" y="0" opacity="0.25" />
+    <rect id="background-vertical-topright" width="1" height="1" x="14" y="0" fill="#8c9198" />
+    <rect id="background-vertical-left" width="1" height="13" x="0" y="1" fill="#8c9198" />
+    <rect id="background-vertical-center" width="13" height="13" x="1" y="1" opacity="0.25" />
+    <rect id="background-vertical-right" width="1" height="13" x="14" y="1" fill="#8c9198" />
+    <rect id="background-vertical-bottomleft" width="1" height="1" x="0" y="14" fill="#8c9198" />
+    <rect id="background-vertical-bottom" width="13" height="1" x="1" y="14" opacity="0.25" />
+    <rect id="background-vertical-bottomright" width="1" height="1" x="14" y="14" fill="#8c9198" />
+  </g>
+  <rect id="background-vertical-hint-top-inset" width="3" height="3" x="30" y="0" fill="#00ffff" opacity="0.5" />
+  <rect id="background-vertical-hint-left-inset" width="3" height="3" x="21" y="9" fill="#00ffff" opacity="0.5" />
+  <rect id="background-vertical-hint-right-inset" width="3" height="3" x="39" y="9" fill="#00ffff" opacity="0.5" />
+  <rect id="background-vertical-hint-bottom-inset" width="3" height="3" x="30" y="18" fill="#00ffff" opacity="0.5" />
+  <g transform="translate(24,24)" id="g49">
+    <rect id="background-horizontal-topleft" width="1" height="1" x="0" y="0" fill="#8c9198" />
+    <rect id="background-horizontal-top" width="13" height="1" x="1" y="0" fill="#8c9198" />
+    <rect id="background-horizontal-topright" width="1" height="1" x="14" y="0" fill="#8c9198" />
+    <rect id="background-horizontal-left" width="1" height="13" x="0" y="1" opacity="0.25" />
+    <rect id="background-horizontal-center" width="13" height="13" x="1" y="1" opacity="0.25" />
+    <rect id="background-horizontal-right" width="1" height="13" x="14" y="1" opacity="0.25" />
+    <rect id="background-horizontal-bottomleft" width="1" height="1" x="0" y="14" fill="#8c9198" />
+    <rect id="background-horizontal-bottom" width="13" height="1" x="1" y="14" fill="#8c9198" />
+    <rect id="background-horizontal-bottomright" width="1" height="1" x="14" y="14" fill="#8c9198" />
+  </g>
+  <rect id="background-horizontal-hint-top-inset" width="3" height="3" x="30" y="21" fill="#00ffff" opacity="0.5" />
+  <rect id="background-horizontal-hint-left-inset" width="3" height="3" x="21" y="30" fill="#00ffff" opacity="0.5" />
+  <rect id="background-horizontal-hint-right-inset" width="3" height="3" x="39" y="30" fill="#00ffff" opacity="0.5" />
+  <rect id="background-horizontal-hint-bottom-inset" width="3" height="3" x="30" y="39" fill="#00ffff" opacity="0.5" />
   <rect id="hint-scrollbar-size" x="0" y="0" width="6" height="6" fill="#ff0000" />
   <circle id="hint-tile-center" cx="1" cy="1" r="1" fill="#4e9a06" />
   <circle id="private-hint-show-separator" cx="3" cy="1" r="1" fill="#0000ff" />
