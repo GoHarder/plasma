@@ -1,0 +1,120 @@
+<svg width="48" height="24" version="1.1" id="svg3" xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="linearGradient1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="linearGradient2">
+      <stop offset="0" stop-color="#7b7b80" />
+      <stop offset="0.064" stop-color="#adadb5" />
+      <stop offset="0.23" stop-color="#e1e5e9" />
+      <stop offset="0.5" stop-color="#ffffff" />
+      <stop offset="0.77" stop-color="#e1e5e9" />
+      <stop offset="0.925" style="stop-color:#aeaeb4;stop-opacity:1;" />
+      <stop style="stop-color:#7b7b80;stop-opacity:1;" offset="1" />
+    </linearGradient>
+    <radialGradient id="radialGradient1" xlink:href="#linearGradient1" cx="355.5" cy="231.102" r="70"
+      gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.136,0,0,0.285,-36.293,-39.274)" />
+    <linearGradient id="linearGradient3" xlink:href="#linearGradient2" x1="329.3" y1="166" x2="329.3" y2="179"
+      gradientTransform="matrix(0.076,0,0,0.769,-15.137,-120.692)" gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g id="topleft">
+    <path d="M 6,3 C 4.318,3 3,4.318 3,6 V 7 H 7 V 3 Z" fill="none" />
+    <path d="M 6.004,2 C 3.929,2 2,3.752 2,5.998 V 7 H 3 V 5.998 C 3,4.303 4.324,3 6.004,3 H 7 V 2 Z" fill="#ffffff"
+      opacity="0.118" />
+    <path d="M 6.022,3 C 4.175,3 3,4.339 3,6.022 V 7 H 4 V 6 C 4,4.738 4.738,4 6,4 H 7 V 3 Z" opacity="0.353" />
+    <path
+      d="M 6,4 C 5.771,4 5.569,4.015 5.375,4.063 5.322,4.073 5.27,4.081 5.219,4.094 5.198,4.1 5.176,4.118 5.156,4.125 5.147,4.128 5.135,4.122 5.125,4.125 4.401,4.398 4,5.065 4,6 V 7 C 4,5.738 4.738,5 6,5 H 7 V 4 Z"
+      opacity="0.157" />
+    <path d="M 6.022,3 C 4.175,3 3,4.339 3,6.022 V 7 6.934 v -1 C 3,4.672 4.738,4 6,4 H 7 V 3 Z" opacity="0.353" />
+  </g>
+  <g id="top">
+    <path d="M 7,3 V 7 H 17 V 3 Z" fill="none" />
+    <path d="M 7,2 V 3 H 17 V 2 Z" fill="url(#radialGradient1)" style="fill:url(#radialGradient1)" />
+    <path d="M 7,2 V 3 H 17 V 2 Z" fill="#ffffff" opacity="0.118" />
+    <path d="M 7,3 V 4 H 17 V 3 Z" opacity="0.549" />
+    <path d="M 7,4 V 5 H 17 V 4 Z" fill-opacity="0.157" />
+  </g>
+  <g id="topright">
+    <path d="m 17,3 v 4 h 4 V 6.047 C 21,4.365 19.673,3 17.991,3 Z" fill="none" />
+    <path d="m 17,2 v 1 h 1.014 C 19.795,3 21,4.555 21,5.96 V 7 h 1 V 5.96 C 22,4.016 20.354,2 18.014,2 Z"
+      fill="#ffffff" opacity="0.118" />
+    <path d="m 17,3 v 1 h 1 c 1.262,0 2,0.738 2,2 v 1 h 1 V 6.022 C 21,4.339 19.673,3 17.991,3 Z" opacity="0.353" />
+    <path
+      d="m 17,4 v 1 h 1 c 1.262,0 2,0.738 2,2 V 6 C 20,5.099 19.612,4.476 18.938,4.188 18.903,4.176 18.879,4.135 18.844,4.125 18.768,4.098 18.677,4.082 18.594,4.063 18.541,4.052 18.491,4.039 18.438,4.031 18.297,4.009 18.158,4 18,4 Z"
+      opacity="0.157" />
+    <path d="m 17,3 v 1 h 1 c 1.262,0 3,0.738 3,2 V 7 7 6.022 C 21,4.339 19.673,3 17.991,3 Z" opacity="0.353" />
+  </g>
+  <g id="left">
+    <path d="M 3,7 V 17 H 7 V 7 Z" fill="none" />
+    <path d="M 2,7 V 17 H 3 V 7 Z" fill="#ffffff" opacity="0.118" />
+    <path d="M 3,7 V 17 H 4 V 7 Z" opacity="0.353" />
+  </g>
+  <path id="center" d="M 7,7 V 17 H 17 V 7 Z" fill="url(#linearGradient3)" style="fill:url(#linearGradient3)" />
+  <g id="right">
+    <path d="m 17,7 v 10 h 4 V 7 Z" fill="none" />
+    <path d="m 21,7 v 10 h 1 V 7 Z" fill="#ffffff" opacity="0.118" />
+    <path d="m 20,7 v 10 h 1 V 7 Z" opacity="0.353" />
+  </g>
+  <g id="bottomleft">
+    <path d="m 3,17 v 1 c 0,1.682 1.318,3 3,3 h 1 v -4 z" fill="none" />
+    <path d="m 2,17 v 1 c 0,2.12 1.85,4 4,4 H 7 V 21 H 6 C 4.269,21 3,19.645 3,18 v -1 z" fill="#ffffff"
+      opacity="0.118" />
+    <path d="m 3,17 v 1.029 C 3,19.711 4.302,21 5.984,21 H 7 V 20 H 6.327 C 5.066,20 4,18.947 4,17.685 V 17 Z"
+      opacity="0.353" />
+    <path d="m 3,17 v 1 c 0,2.12 0.85,4 3,4 H 7 V 21 H 6 C 4.269,21 3,19.645 3,18 Z" fill="#ffffff" opacity="0.608" />
+  </g>
+  <g id="bottom">
+    <path d="m 7,17 v 4 h 10 v -4 z" fill="none" />
+    <path d="m 7,21 v 1 h 10 v -1 z" fill="#ffffff" opacity="0.627" />
+    <path d="m 7,20 v 1 h 10 v -1 z" opacity="0.353" />
+  </g>
+  <g id="bottomright">
+    <path d="m 17,17 v 4 h 1 c 1.505,0 3,-1.169 3,-3 v -1 z" fill="none" />
+    <path d="m 21,17 v 1 c 0,1.565 -1.193,3 -3,3 h -1 v 1 h 1 c 2.216,0 4,-1.753 4,-4 v -1 z" fill="#ffffff"
+      opacity="0.118" />
+    <path d="m 20,17 v 1 c 0,1.373 -0.871,2 -2,2 h -1 v 1 h 1 c 1.505,0 3,-1.173 3,-3.004 V 17 Z" opacity="0.353" />
+    <path d="m 21,17 v 1 c 0,1.565 -1.193,3 -3,3 h -1 v 1 h 1 c 2.216,0 3,-1.753 3,-4 z" fill="#ffffff"
+      opacity="0.608" />
+  </g>
+  <rect id="hint-top-margin" width="2" height="2" x="11" y="0" fill="#4e9a06" />
+  <rect id="hint-left-margin" width="2" height="2" x="0" y="11" fill="#4e9a06" />
+  <rect id="hint-right-margin" width="2" height="2" x="22" y="11" fill="#4e9a06" />
+  <rect id="hint-bottom-margin" width="2" height="2" x="11" y="22" fill="#4e9a06" />
+  <g id="mask-topleft">
+    <path d="m 28,0 c -2.313,0 -4,1.792 -4,4 v 1 h 5 V 0 Z" fill="none" />
+    <path d="M 28.2,1 C 26.35,1 25,2.433 25,4.2 V 5 h 4 V 1 Z" />
+  </g>
+  <g id="mask-top">
+    <path d="M 29,0 V 5 H 43 V 0 Z" fill="none" />
+    <path d="M 29,1 V 5 H 43 V 1 Z" />
+  </g>
+  <g id="mask-topright">
+    <path d="m 43,0 v 5 h 5 V 4 C 48,1.792 46.312,0 44,0 Z" fill="none" />
+    <path d="m 43,1 v 4 h 4 V 4.2 C 47,2.433 45.65,1 43.8,1 Z" />
+  </g>
+  <g id="mask-left">
+    <path d="m 24,5 v 13 h 5 V 5 Z" fill="none" />
+    <path d="m 25,5 v 13 h 4 V 5 Z" />
+  </g>
+  <path id="mask-center" d="M 29,5 V 18 H 43 V 5 Z" />
+  <g id="mask-right">
+    <path d="m 43,5 v 13 h 5 V 5 Z" fill="none" />
+    <path d="m 43,5 v 13 h 4 V 5 Z" />
+  </g>
+  <g id="mask-bottomleft">
+    <path d="m 24,18 v 1 c 0,2.208 1.688,4 4,4 h 1 v -5 z" fill="none" />
+    <path d="m 25,18 v 0.8 c 0,1.767 1.35,3.2 3.2,3.2 H 29 v -4 z" />
+  </g>
+  <g id="mask-bottom">
+    <path d="m 29,18 v 5 h 14 v -5 z" fill="none" />
+    <path d="m 29,18 v 4 h 14 v -4 z" />
+  </g>
+  <g id="mask-bottomright">
+    <path d="m 43,18 v 5 h 1 c 2.313,0 4,-1.792 4,-4 v -1 z" fill="none" />
+    <path d="m 43,18 v 4 h 0.8 C 45.65,22 47,20.567 47,18.8 V 18 Z" />
+  </g>
+  <circle id="hint-stretch-borders" cx="1" cy="1" r="1" fill="#008000" opacity="0.875" />
+  <circle id="hint-compose-over-border" cx="3" cy="1" r="1" fill="#008000" opacity="0.875" />
+</svg>
