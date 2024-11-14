@@ -1,4 +1,4 @@
-<svg width="88" height="44" viewBox="0 0 88 44" version="1.1" xmlns="http://www.w3.org/2000/svg"
+<svg width="112" height="56" version="1.1" id="svg1" xmlns="http://www.w3.org/2000/svg"
   xmlns:svg="http://www.w3.org/2000/svg">
   <defs>
     <style type="text/css" id="current-color-scheme">
@@ -8,29 +8,29 @@
     </style>
   </defs>
   <g class="ColorScheme-Background" fill="currentColor">
-    <rect id="topleft" width="6" height="6" x="0" y="0" />
-    <rect id="top" width="32" height="6" x="6" y="0" />
-    <rect id="topright" width="6" height="6" x="38" y="0" />
-    <rect id="left" width="6" height="32" x="0" y="6" />
-    <rect id="center" width="32" height="32" x="6" y="6" />
-    <rect id="right" width="6" height="32" x="38" y="6" />
-    <rect id="bottomleft" width="6" height="6" x="0" y="38" />
-    <rect id="bottom" width="32" height="6" x="6" y="38" />
-    <rect id="bottomleft" width="6" height="6" x="38" y="38" />
+    <rect id="topleft" width="12" height="12" x="0" y="0" />
+    <rect id="top" width="32" height="12" x="12" y="0" />
+    <rect id="topright" width="12" height="12" x="44" y="0" />
+    <rect id="left" width="12" height="32" x="0" y="12" />
+    <rect id="center" width="32" height="32" x="12" y="12" />
+    <rect id="right" width="12" height="32" x="44" y="12" />
+    <rect id="bottomleft" width="12" height="12" x="0" y="44" />
+    <rect id="bottom" width="32" height="12" x="12" y="44" />
+    <rect id="bottomright" width="12" height="12" x="44" y="44" />
   </g>
-  <rect id="hint-top-margin" width="4" height="6" x="20" y="0" fill="#ff00ff" />
-  <rect id="hint-left-margin" width="6" height="4" x="0" y="20" fill="#ff00ff" />
-  <rect id="hint-right-margin" width="6" height="4" x="38" y="20" fill="#ff00ff" />
-  <rect id="hint-bottom-margin" width="4" height="6" x="20" y="38" fill="#ff00ff" />
-  <g class="ColorScheme-Background" transform="translate(44)">
-    <rect id="mask-topleft" width="6" height="6" x="0" y="0" />
-    <rect id="mask-top" width="32" height="6" x="6" y="0" />
-    <rect id="mask-topright" width="6" height="6" x="38" y="0" />
-    <rect id="mask-left" width="6" height="32" x="0" y="6" />
-    <rect id="mask-center" width="32" height="32" x="6" y="6" />
-    <rect id="mask-right" width="6" height="32" x="38" y="6" />
-    <rect id="mask-bottomleft" width="6" height="6" x="0" y="38" />
-    <rect id="mask-bottom" width="32" height="6" x="6" y="38" />
-    <rect id="mask-bottomleft" width="6" height="6" x="38" y="38" />
+  <rect id="hint-top-margin" width="4" height="12" x="26" y="0" fill="#ff00ff" />
+  <rect id="hint-left-margin" width="12" height="4" x="0" y="26" fill="#ff00ff" />
+  <rect id="hint-right-margin" width="12" height="4" x="44" y="26" fill="#ff00ff" />
+  <rect id="hint-bottom-margin" width="4" height="12" x="26" y="44" fill="#ff00ff" />
+  <g class="ColorScheme-Background" transform="translate(56)">
+    <rect id="mask-topleft" width="12" height="12" x="0" y="0" />
+    <rect id="mask-top" width="32" height="12" x="12" y="0" />
+    <rect id="mask-topright" width="12" height="12" x="44" y="0" />
+    <rect id="mask-left" width="12" height="32" x="0" y="12" />
+    <rect id="mask-center" width="32" height="32" x="12" y="12" />
+    <rect id="mask-right" width="12" height="32" x="44" y="12" />
+    <rect id="mask-bottomleft" width="12" height="12" x="0" y="44" />
+    <rect id="mask-bottom" width="32" height="12" x="12" y="44" />
+    <rect id="mask-bottomright" width="12" height="12" x="44" y="44" />
   </g>
 </svg>

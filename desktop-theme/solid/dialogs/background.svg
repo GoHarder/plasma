@@ -38,10 +38,10 @@
     <rect id="bottom" width="36" height="12" x="17.5" y="53.5" />
     <path id="bottomright" d="m 53.5,65.5 a 12,12 0 0 0 12,-12 h -12 z" />
   </g>
-  <rect id="hint-top-margin" width="2" height="9" x="105.5" y="5.5" fill="#ff00ff" />
-  <rect id="hint-left-margin" width="9" height="2" x="76.5" y="34.5" fill="#ff00ff" />
-  <rect id="hint-right-margin" width="9" height="2" x="127.5" y="34.5" fill="#ff00ff" />
-  <rect id="hint-bottom-margin" width="2" height="9" x="105.5" y="56.5" fill="#ff00ff" />
+  <rect id="hint-top-margin" width="2" height="8" x="105.5" y="5.5" fill="#ff00ff" />
+  <rect id="hint-left-margin" width="8" height="2" x="76.5" y="34.5" fill="#ff00ff" />
+  <rect id="hint-right-margin" width="8" height="2" x="128.5" y="34.5" fill="#ff00ff" />
+  <rect id="hint-bottom-margin" width="2" height="8" x="105.5" y="57.5" fill="#ff00ff" />
   <rect id="hint-top-inset" width="2" height="0.001" x="105.5" y="5.5" fill="#00ff00" />
   <rect id="hint-left-inset" width="0.001" height="2" x="76.5" y="34.5" fill="#00ff00" />
   <rect id="hint-right-inset" width="0.001" height="2" x="136.499" y="34.5" fill="#00ff00" />
