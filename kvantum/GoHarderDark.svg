@@ -597,19 +597,19 @@
     </g>
     <path id="lineedit-focused-bottomright" d="m 24,20 a 4,4 0 0 1 -4,4 v -2 a 2,2 0 0 0 2,-2 z" />
   </g>
-  <g id="radio-normal" transform="translate(0,64)">
+  <g id="radio-normal" transform="translate(0,84)">
     <rect width="26" height="26" fill="none" x="0" y="0" />
     <use href="#radio-unchk" class="on-surf-var" />
   </g>
-  <g id="radio-focused" transform="translate(26,64)">
+  <g id="radio-focused" transform="translate(26,84)">
     <circle cx="13" cy="13" r="13" class="on-surf" opacity="0.08" />
     <use href="#radio-unchk" class="on-surf" />
   </g>
-  <g id="radio-checked-normal" transform="translate(52,64)">
+  <g id="radio-checked-normal" transform="translate(52,84)">
     <rect width="26" height="26" fill="none" x="0" y="0" />
     <use href="#radio-chk" class="pri" />
   </g>
-  <g id="radio-checked-focused" transform="translate(78,64)">
+  <g id="radio-checked-focused" transform="translate(78,84)">
     <circle cx="13" cy="13" r="13" class="pri" opacity="0.08" />
     <use href="#radio-chk" class="pri" />
   </g>
@@ -1285,30 +1285,28 @@
   id="focus-bottom"
   id="focus-left"
   -->
-  <g id="mdi-menu-normal" transform="translate(104,64)">
+  <g id="mdi-menu-normal" transform="translate(0,64)">
     <rect width="20" height="20" fill="none" x="0" y="0" />
     <path d="m 1,16 v -2 h 18 v 2 z M 1,11 V 9 h 18 v 2 z M 1,6 V 4 h 18 v 2 z" class="on-surf-var" />
   </g>
-  <!-- <g id="mdi-maximize-normal" transform="translate(995.184,-318.91)">
-<g transform="matrix(0.721,0.719,-0.721,0.719,1027.77,523.422)" id="mdi-restore-normal"
-<g id="mdi-close-normal" transform="translate(402.677,-439.516)">
-<g transform="translate(995.184,-274.91)" id="mdi-maximize-focused">
-<g style="stroke:#000000" id="mdi-restore-focused"
-<g transform="translate(402.677,-395.516)" id="mdi-close-focused">
-<g id="mdi-maximize-pressed" transform="translate(995.184,-230.91)">
-<g transform="matrix(1,0,0,-1,1155.184,2630.863)" id="mdi-minimize-pressed">
-<g transform="matrix(0.721,0.719,-0.721,0.719,1027.77,611.422)" id="mdi-restore-pressed"
-<g id="mdi-close-pressed" transform="translate(402.677,-351.516)">
-<g id="mdi-shade-pressed" transform="matrix(1,0,0,-1,1311.184,2629.863)">
-<g transform="translate(995.184,-184.91)" id="mdi-maximize-disabled">
-<g id="mdi-minimize-disabled" transform="matrix(1,0,0,-1,1155.184,2676.863)">
-<g style="stroke:#000000" id="mdi-restore-disabled"
-<g transform="translate(402.677,-305.516)" id="mdi-close-disabled">
-<g transform="matrix(1,0,0,-1,1311.184,2675.863)" id="mdi-shade-disabled">
-Mdi Controls</tspan>
-<tspan y="1025.129" x="506.618" id="tspan5904" sodipodi:role="line" style="font-size:24.487px;line-height:0">Mdi
-<use x="0" y="0" xlink:href="#mdi-maximize-focused" id="mdi-minimize-focused"
-<use x="0" y="0" xlink:href="#mdi-maximize-normal" id="mdi-minimize-normal"
-<use x="0" y="0" xlink:href="#mdi-maximize-normal" id="mdi-shade-normal"
-<use x="0" y="0" xlink:href="#mdi-maximize-focused" id="mdi-shade-focused" -->
+  <use id="mdi-close-normal" xlink:href="#x-close" x="20" y="64" class="on-surf-var" />
+  <use id="mdi-maximize-normal" xlink:href="#x-maximize" x="40" y="64" class="on-surf-var" />
+  <use id="mdi-restore-normal" xlink:href="#x-restore" x="60" y="64" class="on-surf-var" />
+  <use id="mdi-minimize-normal" xlink:href="#x-minus" x="80" y="64" class="on-surf-var" />
+  <use id="mdi-shade-normal" xlink:href="#x-shade" x="100" y="64" class="on-surf-var" />
+  <use id="mdi-close-focused" xlink:href="#x-close" x="20" y="64" class="on-surf" />
+  <use id="mdi-maximize-focused" xlink:href="#x-maximize" x="40" y="64" class="on-surf" />
+  <use id="mdi-restore-focused" xlink:href="#x-restore" x="60" y="64" class="on-surf" />
+  <use id="mdi-minimize-focused" xlink:href="#x-minus" x="80" y="64" class="on-surf" />
+  <use id="mdi-shade-focused" xlink:href="#x-shade" x="100" y="64" class="on-surf" />
+  <use id="mdi-close-pressed" xlink:href="#x-close" x="20" y="64" class="on-surf" />
+  <use id="mdi-maximize-pressed" xlink:href="#x-maximize" x="40" y="64" class="on-surf" />
+  <use id="mdi-restore-pressed" xlink:href="#x-restore" x="60" y="64" class="on-surf" />
+  <use id="mdi-minimize-pressed" xlink:href="#x-minus" x="80" y="64" class="on-surf" />
+  <use id="mdi-shade-pressed" xlink:href="#x-shade" x="100" y="64" class="on-surf" />
+  <use id="mdi-close-disabled" xlink:href="#x-close" x="20" y="64" class="disabled-text" />
+  <use id="mdi-maximize-disabled" xlink:href="#x-maximize" x="40" y="64" class="disabled-text" />
+  <use id="mdi-restore-disabled" xlink:href="#x-restore" x="60" y="64" class="disabled-text" />
+  <use id="mdi-minimize-disabled" xlink:href="#x-minus" x="80" y="64" class="disabled-text" />
+  <use id="mdi-shade-disabled" xlink:href="#x-shade" x="100" y="64" class="disabled-text" />
 </svg>
