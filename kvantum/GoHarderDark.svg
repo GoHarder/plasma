@@ -498,6 +498,30 @@
     <use id="expand-tool-button-toggled-bottomleft" xlink:href="#x-btn-bl" fill="none" />
     <use id="expand-tool-button-toggled-bottom" xlink:href="#x-btn-b" fill="none" />
     <use id="expand-tool-button-toggled-bottomright" xlink:href="#x-btn-br" fill="none" />
+    <g id="border-tool-button-toggled-topleft">
+      <use xlink:href="#x-btn-tl" class="sec-cont" />
+      <use href="#border-tool-button-normal-topleft" />
+    </g>
+    <g id="border-tool-button-toggled-top">
+      <use xlink:href="#x-btn-t" class="sec-cont" />
+      <use href="#border-tool-button-normal-top" />
+    </g>
+    <g id="border-tool-button-toggled-topright">
+      <use xlink:href="#x-btn-tr" class="sec-cont" />
+      <use href="#border-tool-button-normal-topright" />
+    </g>
+    <g id="border-tool-button-toggled-bottomleft">
+      <use xlink:href="#x-btn-bl" class="sec-cont" />
+      <use href="#border-tool-button-normal-bottomleft" />
+    </g>
+    <g id="border-tool-button-toggled-bottom">
+      <use xlink:href="#x-btn-b" class="sec-cont" />
+      <use href="#border-tool-button-normal-bottom" />
+    </g>
+    <g id="border-tool-button-toggled-bottomright">
+      <use xlink:href="#x-btn-br" class="sec-cont" />
+      <use href="#border-tool-button-normal-bottomright" />
+    </g>
   </g>
   <g id="g-lineedit-normal" transform="translate(152,72)" class="outline">
     <g id="lineedit-normal-topleft">
