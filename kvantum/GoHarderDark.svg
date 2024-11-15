@@ -665,7 +665,7 @@
     <use id="common-normal-bottom" href="#x-btn-b" class="surf-cont" />
     <use id="common-normal-bottomright" href="#x-btn-br" class="surf-cont" />
   </g>
-  <g id="g-sizegrip">
+  <g id="g-sizegrip" transform="translate(160,32)">
     <use id="sizegrip-normal" href="#x-sizegrip" x="0" y="0" class="on-surf-var" opacity="0.38" />
     <use id="sizegrip-focused" href="#x-sizegrip" x="8" y="0" class="on-surf" opacity="0.38" />
   </g>
@@ -750,16 +750,17 @@
     <use id="progress-pattern-disabled-bottom" href="#progress-b" y="8" class="disabled-back" />
     <use id="progress-pattern-disabled-bottomright" href="#progress-br" y="8" class="disabled-back" />
   </g> -->
-  <!-- <g id="tab-group" transform="translate(0,177)">
-    <rect id="tabbar-normal-topleft" width="1" height="1" opacity="0" />
-    <rect id="tabbar-normal-top" width="16" height="1" x="1" opacity="0" />
-    <rect id="tabbar-normal-topright" width="1" height="1" x="17" opacity="0" />
-    <rect id="tabbar-normal-left" width="1" height="16" y="1" opacity="0" />
-    <rect id="tabbar-normal-right" width="1" height="16" x="17" y="1" opacity="0" />
+  <g id="tab-group" transform="translate(0,0)">
+    <rect id="tabbar-normal-topleft" width="1" height="1" class="surf" />
+    <rect id="tabbar-normal-top" width="16" height="1" x="1" class="surf" />
+    <rect id="tabbar-normal-topright" width="1" height="1" x="17" class="surf" />
+    <rect id="tabbar-normal-left" width="1" height="16" y="1" class="surf" />
+    <rect id="tabbar-normal" width="16" height="16" x="1" y="1" class="surf" />
+    <rect id="tabbar-normal-right" width="1" height="16" x="17" y="1" class="surf" />
     <rect id="tabbar-normal-bottomleft" width="1" height="1" y="17" class="surf-var" />
     <rect id="tabbar-normal-bottom" width="16" height="1" x="1" y="17" class="surf-var" />
     <rect id="tabbar-normal-bottomright" width="1" height="1" x="17" y="17" class="surf-var" />
-    <g id="tab-normal-group">
+    <!-- <g id="tab-normal-group">
       <use id="tab-normal-topleft" href="#sq-8-tl" class="surf-cont-high" />
       <use id="tab-normal-top" href="#sq-8-t" class="surf-cont-high" />
       <use id="tab-normal-topright" href="#sq-8-tr" class="surf-cont-high" />
@@ -836,16 +837,16 @@
         <use href="#tab-normal-bottomright" />
         <path d="M 32,32 a 2,2 0 0 0 -2,-2 h -6 v 2 Z" class="pri" />
       </g>
-    </g>
-    <rect id="tabframe-normal-topleft" width="1" height="1" x="32" class="surf-var" />
+    </g> -->
+    <!-- <rect id="tabframe-normal-topleft" width="1" height="1" x="32" class="surf-var" />
     <rect id="tabframe-normal-top" width="16" height="1" x="33" class="surf-var" />
     <rect id="tabframe-normal-topright" width="1" height="1" x="49" class="surf-var" />
     <rect id="tabframe-normal-left" width="1" height="16" x="32" y="1" class="surf-var" />
     <rect id="tabframe-normal-right" width="1" height="16" x="49" y="1" class="surf-var" />
     <rect id="tabframe-normal-bottomleft" width="1" height="1" x="32" y="17" class="surf-var" />
     <rect id="tabframe-normal-bottom" width="16" height="1" x="33" y="17" class="surf-var" />
-    <rect id="tabframe-normal-bottomright" width="1" height="1" x="49" y="17" class="surf-var" />
-    <g id="tab-close-normal">
+    <rect id="tabframe-normal-bottomright" width="1" height="1" x="49" y="17" class="surf-var" /> -->
+    <!-- <g id="tab-close-normal">
       <use href="#icon-box" />
       <use href="#close" class="on-surf" />
     </g>
@@ -860,8 +861,8 @@
     <g id="tab-close-disabled" transform="translate(10,10)">
       <use href="#icon-box" />
       <use href="#close" class="disabled-text" />
-    </g>
-  </g> -->
+    </g> -->
+  </g>
   <!-- <g id="slider-group" transform="translate(52,144)">
     <g id="slider-normal-group">
       <use id="slider-normal-topleft" href="#slider-tl" class="sec-cont" />
