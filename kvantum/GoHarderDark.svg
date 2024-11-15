@@ -1,4 +1,4 @@
-<svg width="200" height="166" version="1.1" id="svg147" xmlns:xlink="http://www.w3.org/1999/xlink"
+<svg width="200" height="166" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
   <!-- viewBox="0 0 20 20" -->
   <defs>
@@ -91,28 +91,46 @@
     </style>
     <!-- MARK: Icons -->
     <g id="x-add">
-      <rect width="24" height="24" fill="none" />
-      <path d="M 11,13 H 5 v -2 h 6 V 5 h 2 v 6 h 6 v 2 h -6 v 6 h -2 z" />
+      <rect width="20" height="20" fill="none" />
+      <path d="M 9,11 H 3 V 9 H 9 V 3 h 2 v 6 h 6 v 2 h -6 v 6 H 9 Z" />
+    </g>
+    <g id="x-close">
+      <rect width="20" height="20" fill="none" />
+      <path d="M 4.4,17 3,15.6 8.6,10 3,4.4 4.4,3 10,8.6 15.6,3 17,4.4 11.4,10 17,15.6 15.6,17 10,11.4 Z" />
+    </g>
+    <g id="x-maximize">
+      <rect width="20" height="20" fill="none" />
+      <path
+        d="M 2,18 Q 1.175,18 0.588,17.413 0,16.825 0,16 V 4 Q 0,3.175 0.588,2.588 1.175,2 2,2 H 18 Q 18.825,2 19.413,2.588 20,3.175 20,4 v 12 q 0,0.825 -0.588,1.413 Q 18.825,18 18,18 Z M 2,16 H 18 V 6 H 2 Z" />
     </g>
     <g id="x-minus">
-      <rect width="24" height="24" fill="none" />
-      <path d="m 5,13 v -2 h 14 v 2 z" />
+      <rect width="20" height="20" fill="none" />
+      <path d="M 3,11 V 9 h 14 v 2 z" />
+    </g>
+    <g id="x-restore">
+      <rect width="20" height="20" fill="none" />
+      <path
+        d="M 2,20 Q 1.175,20 0.588,19.413 0,18.825 0,18 V 9 Q 0,8.175 0.588,7.588 1.175,7 2,7 H 4 V 2 Q 4,1.175 4.588,0.588 5.175,0 6,0 H 18 Q 18.825,0 19.413,0.588 20,1.175 20,2 v 9 q 0,0.825 -0.588,1.413 Q 18.825,13 18,13 h -2 v 5 q 0,0.825 -0.588,1.413 Q 14.825,20 14,20 Z M 2,18 H 14 V 11 H 2 Z m 14,-7 h 2 V 4 H 6 v 3 h 8 Q 14.825,7 15.413,7.588 16,8.175 16,9 Z" />
+    </g>
+    <g id="x-shade">
+      <rect width="20" height="20" fill="none" />
+      <path d="m 9,11 v 6 H 7 V 13 H 3 v -2 z m 4,-8 v 4 h 4 V 9 H 11 V 3 Z" />
     </g>
     <g id="x-down">
-      <rect width="24" height="24" fill="none" />
-      <path d="M 12,15 7,10 h 10 z" />
+      <rect width="20" height="20" fill="none" />
+      <path d="M 10,13 5,8 h 10 z" />
     </g>
     <g id="x-left">
-      <rect width="24" height="24" fill="none" />
-      <path d="M 14,17 9,12 14,7 Z" />
+      <rect width="20" height="20" fill="none" />
+      <path d="M 12,15 7,10 12,5 Z" />
     </g>
     <g id="x-right">
-      <rect width="24" height="24" fill="none" />
-      <path d="M 10,17 V 7 l 5,5 z" />
+      <rect width="20" height="20" fill="none" />
+      <path d="M 8,15 V 5 l 5,5 z" />
     </g>
     <g id="x-up">
-      <rect width="24" height="24" fill="none" />
-      <path d="m 7,14 5,-5 5,5 z" />
+      <rect width="20" height="20" fill="none" />
+      <path d="m 5,12 5,-5 5,5 z" />
     </g>
     <!-- MARK: Shapes -->
     <path id="x-btn-tl" d="m 8,0 a 8,8 0 0 0 -8,8 h 8 z" />
@@ -523,7 +541,7 @@
       <use href="#border-tool-button-normal-bottomright" />
     </g>
   </g>
-  <g id="g-lineedit-normal" transform="translate(152,72)" class="outline">
+  <g id="g-lineedit-normal" transform="translate(128,32)" class="outline">
     <g id="lineedit-normal-topleft">
       <rect width="4" height="4" x="0" y="0" fill="none" />
       <path d="M 4,0.5 A 3.5,3.5 0 0 0 0.5,4 h 1 A 2.5,2.5 0 0 1 4,1.5 Z" />
@@ -557,7 +575,7 @@
       <path d="M 23.5,20 A 3.5,3.5 0 0 1 20,23.5 v -1 A 2.5,2.5 0 0 0 22.5,20 Z" />
     </g>
   </g>
-  <g id="g-lineedit-focused" transform="translate(176,72)" class="pri">
+  <g id="g-lineedit-focused" transform="translate(152,32)" class="pri">
     <path id="lineedit-focused-topleft" d="M 4,0 A 4,4 0 0 0 0,4 H 2 A 2,2 0 0 1 4,2 Z" />
     <g id="lineedit-focused-top">
       <rect width="16" height="2" x="4" y="0" />
@@ -579,19 +597,19 @@
     </g>
     <path id="lineedit-focused-bottomright" d="m 24,20 a 4,4 0 0 1 -4,4 v -2 a 2,2 0 0 0 2,-2 z" />
   </g>
-  <g id="radio-normal" transform="translate(0,114)">
+  <g id="radio-normal" transform="translate(0,64)">
     <rect width="26" height="26" fill="none" x="0" y="0" />
     <use href="#radio-unchk" class="on-surf-var" />
   </g>
-  <g id="radio-focused" transform="translate(26,114)">
+  <g id="radio-focused" transform="translate(26,64)">
     <circle cx="13" cy="13" r="13" class="on-surf" opacity="0.08" />
     <use href="#radio-unchk" class="on-surf" />
   </g>
-  <g id="radio-checked-normal" transform="translate(52,114)">
+  <g id="radio-checked-normal" transform="translate(52,64)">
     <rect width="26" height="26" fill="none" x="0" y="0" />
     <use href="#radio-chk" class="pri" />
   </g>
-  <g id="radio-checked-focused" transform="translate(78,114)">
+  <g id="radio-checked-focused" transform="translate(78,64)">
     <circle cx="13" cy="13" r="13" class="pri" opacity="0.08" />
     <use href="#radio-chk" class="pri" />
   </g>
@@ -626,8 +644,10 @@
     <use href="#chk-box-box" class="pri" />
     <use href="#chk-box-dash" class="on-pri" />
   </g>
-  <use id="sizegrip-normal" href="#x-sizegrip" x="104" y="114" class="on-surf-var" opacity="0.38" />
-  <use id="sizegrip-focused" href="#x-sizegrip" x="112" y="114" class="on-surf" opacity="0.38" />
+  <use id="sizegrip-normal" href="#x-sizegrip" x="104" y="114" class="on-surf-var" opacity="0.38"
+    transform="translate(72,-82)" />
+  <use id="sizegrip-focused" href="#x-sizegrip" x="112" y="114" class="on-surf" opacity="0.38"
+    transform="translate(64,-74)" />
   <!-- <g id="common-group" transform="translate(120,64)">
     <use id="common-normal-topleft" href="#r-8-tl" class="surf-cont" />
     <use id="common-normal-top" href="#sq-8-t" class="surf-cont" />
@@ -1265,30 +1285,30 @@
   id="focus-bottom"
   id="focus-left"
   -->
-  <g id="g-arrow" transform="translate(152)">
-    <use id="arrow-up-normal" href="#x-up" x="0" y="0" class="on-surf-var" />
-    <use id="arrow-down-normal" href="#x-down" x="24" y="0" class="on-surf-var" />
-    <use id="arrow-left-normal" href="#x-left" x="0" y="24" class="on-surf-var" />
-    <use id="arrow-right-normal" href="#x-right" x="24" y="24" class="on-surf-var" />
-    <use id="arrow-add-normal" href="#x-add" x="0" y="48" class="on-surf-var" />
-    <use id="arrow-minus-normal" href="#x-minus" x="24" y="48" class="on-surf-var" />
-    <use id="arrow-up-focused" href="#x-up" x="0" y="0" class="on-surf-var" />
-    <use id="arrow-down-focused" href="#x-down" x="24" y="0" class="on-surf-var" />
-    <use id="arrow-left-focused" href="#x-left" x="0" y="24" class="on-surf-var" />
-    <use id="arrow-right-focused" href="#x-right" x="24" y="24" class="on-surf-var" />
-    <use id="arrow-add-focused" href="#x-add" x="0" y="48" class="on-surf-var" />
-    <use id="arrow-minus-focused" href="#x-minus" x="24" y="48" class="on-surf-var" />
-    <use id="arrow-up-pressed" href="#x-up" x="0" y="0" class="on-surf-var" />
-    <use id="arrow-down-pressed" href="#x-down" x="24" y="0" class="on-surf-var" />
-    <use id="arrow-left-pressed" href="#x-left" x="0" y="24" class="on-surf-var" />
-    <use id="arrow-right-pressed" href="#x-right" x="24" y="24" class="on-surf-var" />
-    <use id="arrow-add-pressed" href="#x-add" x="0" y="48" class="on-surf-var" />
-    <use id="arrow-minus-pressed" href="#x-minus" x="24" y="48" class="on-surf-var" />
-    <use id="arrow-up-disabled" href="#x-up" x="0" y="0" class="disabled-text" />
-    <use id="arrow-down-disabled" href="#x-down" x="24" y="0" class="disabled-text" />
-    <use id="arrow-left-disabled" href="#x-left" x="0" y="24" class="disabled-text" />
-    <use id="arrow-right-disabled" href="#x-right" x="24" y="24" class="disabled-text" />
-    <use id="arrow-add-disabled" href="#x-add" x="0" y="48" class="disabled-text" />
-    <use id="arrow-minus-disabled" href="#x-minus" x="24" y="48" class="disabled-text" />
+  <g id="mdi-menu-normal" transform="translate(104,64)">
+    <rect width="20" height="20" fill="none" x="0" y="0" />
+    <path d="m 1,16 v -2 h 18 v 2 z M 1,11 V 9 h 18 v 2 z M 1,6 V 4 h 18 v 2 z" class="on-surf-var" />
   </g>
+  <!-- <g id="mdi-maximize-normal" transform="translate(995.184,-318.91)">
+<g transform="matrix(0.721,0.719,-0.721,0.719,1027.77,523.422)" id="mdi-restore-normal"
+<g id="mdi-close-normal" transform="translate(402.677,-439.516)">
+<g transform="translate(995.184,-274.91)" id="mdi-maximize-focused">
+<g style="stroke:#000000" id="mdi-restore-focused"
+<g transform="translate(402.677,-395.516)" id="mdi-close-focused">
+<g id="mdi-maximize-pressed" transform="translate(995.184,-230.91)">
+<g transform="matrix(1,0,0,-1,1155.184,2630.863)" id="mdi-minimize-pressed">
+<g transform="matrix(0.721,0.719,-0.721,0.719,1027.77,611.422)" id="mdi-restore-pressed"
+<g id="mdi-close-pressed" transform="translate(402.677,-351.516)">
+<g id="mdi-shade-pressed" transform="matrix(1,0,0,-1,1311.184,2629.863)">
+<g transform="translate(995.184,-184.91)" id="mdi-maximize-disabled">
+<g id="mdi-minimize-disabled" transform="matrix(1,0,0,-1,1155.184,2676.863)">
+<g style="stroke:#000000" id="mdi-restore-disabled"
+<g transform="translate(402.677,-305.516)" id="mdi-close-disabled">
+<g transform="matrix(1,0,0,-1,1311.184,2675.863)" id="mdi-shade-disabled">
+Mdi Controls</tspan>
+<tspan y="1025.129" x="506.618" id="tspan5904" sodipodi:role="line" style="font-size:24.487px;line-height:0">Mdi
+<use x="0" y="0" xlink:href="#mdi-maximize-focused" id="mdi-minimize-focused"
+<use x="0" y="0" xlink:href="#mdi-maximize-normal" id="mdi-minimize-normal"
+<use x="0" y="0" xlink:href="#mdi-maximize-normal" id="mdi-shade-normal"
+<use x="0" y="0" xlink:href="#mdi-maximize-focused" id="mdi-shade-focused" -->
 </svg>

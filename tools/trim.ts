@@ -26,7 +26,7 @@ function cleanAttributes(attr: Attributes) {
       }
     });
 
-    if (attr.id && /^(use|path|circle|rect|group|defs|style|stop)[\d-]+$/.test(`${attr.id}`)) {
+    if (attr.id && /^(svg|use|path|circle|rect|group|defs|style|stop)[\d-]+$/.test(`${attr.id}`)) {
       delete attr.id;
     }
   }
