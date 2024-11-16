@@ -1299,6 +1299,9 @@
     <rect width="20" height="20" fill="none" x="0" y="0" />
     <path d="m 1,16 v -2 h 18 v 2 z M 1,11 V 9 h 18 v 2 z M 1,6 V 4 h 18 v 2 z" class="on-surf-var" />
   </g>
+
+  <use id="arrow-down-normal" xlink:href="#x-down" x="0" y="0" class="on-surf-var" />
+
   <use id="mdi-close-normal" xlink:href="#x-close" x="20" y="64" class="on-surf-var" />
   <use id="mdi-maximize-normal" xlink:href="#x-maximize" x="40" y="64" class="on-surf-var" />
   <use id="mdi-restore-normal" xlink:href="#x-restore" x="60" y="64" class="on-surf-var" />
