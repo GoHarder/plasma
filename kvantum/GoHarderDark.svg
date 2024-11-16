@@ -1,4 +1,4 @@
-<svg width="200" height="166" version="1.1" id="svg147" xmlns:xlink="http://www.w3.org/1999/xlink"
+<svg width="200" height="166" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
   <!-- viewBox="0 0 20 20" -->
   <defs>
@@ -91,28 +91,46 @@
     </style>
     <!-- MARK: Icons -->
     <g id="x-add">
-      <rect width="24" height="24" fill="none" />
-      <path d="M 11,13 H 5 v -2 h 6 V 5 h 2 v 6 h 6 v 2 h -6 v 6 h -2 z" />
+      <rect width="20" height="20" fill="none" />
+      <path d="M 9,11 H 3 V 9 H 9 V 3 h 2 v 6 h 6 v 2 h -6 v 6 H 9 Z" />
+    </g>
+    <g id="x-close">
+      <rect width="20" height="20" fill="none" />
+      <path d="M 4.4,17 3,15.6 8.6,10 3,4.4 4.4,3 10,8.6 15.6,3 17,4.4 11.4,10 17,15.6 15.6,17 10,11.4 Z" />
+    </g>
+    <g id="x-maximize">
+      <rect width="20" height="20" fill="none" />
+      <path
+        d="M 2,18 Q 1.175,18 0.588,17.413 0,16.825 0,16 V 4 Q 0,3.175 0.588,2.588 1.175,2 2,2 H 18 Q 18.825,2 19.413,2.588 20,3.175 20,4 v 12 q 0,0.825 -0.588,1.413 Q 18.825,18 18,18 Z M 2,16 H 18 V 6 H 2 Z" />
     </g>
     <g id="x-minus">
-      <rect width="24" height="24" fill="none" />
-      <path d="m 5,13 v -2 h 14 v 2 z" />
+      <rect width="20" height="20" fill="none" />
+      <path d="M 3,11 V 9 h 14 v 2 z" />
+    </g>
+    <g id="x-restore">
+      <rect width="20" height="20" fill="none" />
+      <path
+        d="M 2,20 Q 1.175,20 0.588,19.413 0,18.825 0,18 V 9 Q 0,8.175 0.588,7.588 1.175,7 2,7 H 4 V 2 Q 4,1.175 4.588,0.588 5.175,0 6,0 H 18 Q 18.825,0 19.413,0.588 20,1.175 20,2 v 9 q 0,0.825 -0.588,1.413 Q 18.825,13 18,13 h -2 v 5 q 0,0.825 -0.588,1.413 Q 14.825,20 14,20 Z M 2,18 H 14 V 11 H 2 Z m 14,-7 h 2 V 4 H 6 v 3 h 8 Q 14.825,7 15.413,7.588 16,8.175 16,9 Z" />
+    </g>
+    <g id="x-shade">
+      <rect width="20" height="20" fill="none" />
+      <path d="m 9,11 v 6 H 7 V 13 H 3 v -2 z m 4,-8 v 4 h 4 V 9 H 11 V 3 Z" />
     </g>
     <g id="x-down">
-      <rect width="24" height="24" fill="none" />
-      <path d="M 12,15 7,10 h 10 z" />
+      <rect width="20" height="20" fill="none" />
+      <path d="M 10,13 5,8 h 10 z" />
     </g>
     <g id="x-left">
-      <rect width="24" height="24" fill="none" />
-      <path d="M 14,17 9,12 14,7 Z" />
+      <rect width="20" height="20" fill="none" />
+      <path d="M 12,15 7,10 12,5 Z" />
     </g>
     <g id="x-right">
-      <rect width="24" height="24" fill="none" />
-      <path d="M 10,17 V 7 l 5,5 z" />
+      <rect width="20" height="20" fill="none" />
+      <path d="M 8,15 V 5 l 5,5 z" />
     </g>
     <g id="x-up">
-      <rect width="24" height="24" fill="none" />
-      <path d="m 7,14 5,-5 5,5 z" />
+      <rect width="20" height="20" fill="none" />
+      <path d="m 5,12 5,-5 5,5 z" />
     </g>
     <!-- MARK: Shapes -->
     <path id="x-btn-tl" d="m 8,0 a 8,8 0 0 0 -8,8 h 8 z" />
@@ -138,483 +156,519 @@
     <path id="chk-box-box" d="M 4,6 Q 4,4 6,4 h 14 q 2,0 2,2 v 14 q 0,2 -2,2 H 6 Q 4,22 4,20 Z" />
     <path id="chk-box-dash" d="M 8,14 H 18 V 12 H 8 Z" />
   </defs>
-  <g id="g-button-normal">
-    <use id="button-normal-topleft" xlink:href="#x-btn-tl" class="sec-cont" />
-    <use id="button-normal-top" xlink:href="#x-btn-t" class="sec-cont" />
-    <use id="button-normal-topright" xlink:href="#x-btn-tr" class="sec-cont" />
-    <use id="button-normal-left" xlink:href="#x-btn-l" class="sec-cont" />
-    <use id="button-normal" xlink:href="#x-btn-c" class="sec-cont" />
-    <use id="button-normal-right" xlink:href="#x-btn-r" class="sec-cont" />
-    <use id="button-normal-bottomleft" xlink:href="#x-btn-bl" class="sec-cont" />
-    <use id="button-normal-bottom" xlink:href="#x-btn-b" class="sec-cont" />
-    <use id="button-normal-bottomright" xlink:href="#x-btn-br" class="sec-cont" />
-    <use id="ar-1-down-normal" href="#x-down" x="4" y="4" class="on-sec-cont" />
-    <rect id="button-default-indicator" width="5" height="5" fill="none" />
-  </g>
-  <g id="g-button-focused" transform="translate(32)">
-    <g id="button-focused-topleft">
-      <use xlink:href="#button-normal-topleft" />
-      <use xlink:href="#x-btn-tl" class="on-sec-cont" opacity="0.08" />
+  <g id="g-button">
+    <g id="g-button-normal">
+      <use id="button-normal-topleft" xlink:href="#x-btn-tl" class="sec-cont" />
+      <use id="button-normal-top" xlink:href="#x-btn-t" class="sec-cont" />
+      <use id="button-normal-topright" xlink:href="#x-btn-tr" class="sec-cont" />
+      <use id="button-normal-left" xlink:href="#x-btn-l" class="sec-cont" />
+      <use id="button-normal" xlink:href="#x-btn-c" class="sec-cont" />
+      <use id="button-normal-right" xlink:href="#x-btn-r" class="sec-cont" />
+      <use id="button-normal-bottomleft" xlink:href="#x-btn-bl" class="sec-cont" />
+      <use id="button-normal-bottom" xlink:href="#x-btn-b" class="sec-cont" />
+      <use id="button-normal-bottomright" xlink:href="#x-btn-br" class="sec-cont" />
+      <use id="ar-1-down-normal" href="#x-down" x="6" y="6" class="on-sec-cont" />
+      <rect id="button-default-indicator" width="5" height="5" fill="none" />
     </g>
-    <g id="button-focused-top">
-      <use xlink:href="#button-normal-top" />
-      <use xlink:href="#x-btn-t" class="on-sec-cont" opacity="0.08" />
+    <g id="g-button-focused" transform="translate(32)">
+      <g id="button-focused-topleft">
+        <use xlink:href="#button-normal-topleft" />
+        <use xlink:href="#x-btn-tl" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="button-focused-top">
+        <use xlink:href="#button-normal-top" />
+        <use xlink:href="#x-btn-t" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="button-focused-topright">
+        <use xlink:href="#button-normal-topright" />
+        <use xlink:href="#x-btn-tr" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="button-focused-left">
+        <use xlink:href="#button-normal-left" />
+        <use xlink:href="#x-btn-l" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="button-focused">
+        <use xlink:href="#button-normal" />
+        <use xlink:href="#x-btn-c" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="button-focused-right">
+        <use xlink:href="#button-normal-right" />
+        <use xlink:href="#x-btn-r" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="button-focused-bottomleft">
+        <use xlink:href="#button-normal-bottomleft" />
+        <use xlink:href="#x-btn-bl" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="button-focused-bottom">
+        <use xlink:href="#button-normal-bottom" />
+        <use xlink:href="#x-btn-b" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="button-focused-bottomright">
+        <use xlink:href="#button-normal-bottomright" />
+        <use xlink:href="#x-btn-br" class="pri" opacity="0.08" />
+      </g>
+      <use id="ar-1-down-focused" href="#x-down" x="6" y="6" class="on-sec-cont" />
     </g>
-    <g id="button-focused-topright">
-      <use xlink:href="#button-normal-topright" />
-      <use xlink:href="#x-btn-tr" class="on-sec-cont" opacity="0.08" />
+    <g id="g-button-pressed" transform="translate(64)">
+      <g id="button-pressed-topleft">
+        <use xlink:href="#button-normal-topleft" />
+        <use xlink:href="#x-btn-tl" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="button-pressed-top">
+        <use xlink:href="#button-normal-top" />
+        <use xlink:href="#x-btn-t" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="button-pressed-topright">
+        <use xlink:href="#button-normal-topright" />
+        <use xlink:href="#x-btn-tr" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="button-pressed-left">
+        <use xlink:href="#button-normal-left" />
+        <use xlink:href="#x-btn-l" class="on-sec-cont" opacity="0.08" />
+      </g>
+      <g id="button-pressed">
+        <use xlink:href="#button-normal" />
+        <use xlink:href="#x-btn-c" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="button-pressed-right">
+        <use xlink:href="#button-normal-right" />
+        <use xlink:href="#x-btn-r" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="button-pressed-bottomleft">
+        <use xlink:href="#button-normal-bottomleft" />
+        <use xlink:href="#x-btn-bl" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="button-pressed-bottom">
+        <use xlink:href="#button-normal-bottom" />
+        <use xlink:href="#x-btn-b" class="on-sec-cont" opacity="0.1" />
+      </g>
+      <g id="button-pressed-bottomright">
+        <use xlink:href="#button-normal-bottomright" />
+        <use xlink:href="#x-btn-br" class="pri" opacity="0.1" />
+      </g>
+      <use id="ar-1-down-pressed" href="#x-down" x="6" y="6" class="on-sec-cont" />
     </g>
-    <g id="button-focused-left">
-      <use xlink:href="#button-normal-left" />
-      <use xlink:href="#x-btn-l" class="on-sec-cont" opacity="0.08" />
+    <g id="g-button-toggled" transform="translate(96)">
+      <use id="button-toggled-topleft" xlink:href="#x-btn-tl" class="surf-cont-highest" />
+      <use id="button-toggled-top" xlink:href="#x-btn-t" class="surf-cont-highest" />
+      <use id="button-toggled-topright" xlink:href="#x-btn-tr" class="surf-cont-highest" />
+      <use id="button-toggled-left" xlink:href="#x-btn-l" class="surf-cont-highest" />
+      <use id="button-toggled" xlink:href="#x-btn-c" class="surf-cont-highest" />
+      <use id="button-toggled-right" xlink:href="#x-btn-r" class="surf-cont-highest" />
+      <use id="button-toggled-bottomleft" xlink:href="#x-btn-bl" class="surf-cont-highest" />
+      <use id="button-toggled-bottom" xlink:href="#x-btn-b" class="surf-cont-highest" />
+      <use id="button-toggled-bottomright" xlink:href="#x-btn-br" class="surf-cont-highest" />
+      <use id="ar-1-down-disabled" href="#x-down" x="6" y="6" class="disabled-text" />
     </g>
-    <g id="button-focused">
-      <use xlink:href="#button-normal" />
-      <use xlink:href="#x-btn-c" class="on-sec-cont" opacity="0.08" />
+    <g id="g-button-default" transform="translate(128)">
+      <use id="button-default-topleft" href="#button-normal-topleft" />
+      <use id="button-default-top" href="#button-normal-top" />
+      <use id="button-default-topright" href="#button-normal-topright" />
+      <use id="button-default-left" href="#button-normal-left" />
+      <use id="button-default" href="#button-normal" />
+      <use id="button-default-right" href="#button-normal-right" />
+      <use id="button-default-bottomleft" href="#button-normal-bottomleft" />
+      <use id="button-default-bottom" href="#button-normal-bottom" />
+      <use id="button-default-bottomright" href="#button-normal-bottomright" />
     </g>
-    <g id="button-focused-right">
-      <use xlink:href="#button-normal-right" />
-      <use xlink:href="#x-btn-r" class="on-sec-cont" opacity="0.08" />
-    </g>
-    <g id="button-focused-bottomleft">
-      <use xlink:href="#button-normal-bottomleft" />
-      <use xlink:href="#x-btn-bl" class="on-sec-cont" opacity="0.08" />
-    </g>
-    <g id="button-focused-bottom">
-      <use xlink:href="#button-normal-bottom" />
-      <use xlink:href="#x-btn-b" class="on-sec-cont" opacity="0.08" />
-    </g>
-    <g id="button-focused-bottomright">
-      <use xlink:href="#button-normal-bottomright" />
-      <use xlink:href="#x-btn-br" class="pri" opacity="0.08" />
-    </g>
-    <use id="ar-1-down-focused" href="#x-down" x="4" y="4" class="on-sec-cont" />
-  </g>
-  <g id="g-button-pressed" transform="translate(64)">
-    <g id="button-pressed-topleft">
-      <use xlink:href="#button-normal-topleft" />
-      <use xlink:href="#x-btn-tl" class="on-sec-cont" opacity="0.1" />
-    </g>
-    <g id="button-pressed-top">
-      <use xlink:href="#button-normal-top" />
-      <use xlink:href="#x-btn-t" class="on-sec-cont" opacity="0.1" />
-    </g>
-    <g id="button-pressed-topright">
-      <use xlink:href="#button-normal-topright" />
-      <use xlink:href="#x-btn-tr" class="on-sec-cont" opacity="0.1" />
-    </g>
-    <g id="button-pressed-left">
-      <use xlink:href="#button-normal-left" />
-      <use xlink:href="#x-btn-l" class="on-sec-cont" opacity="0.08" />
-    </g>
-    <g id="button-pressed">
-      <use xlink:href="#button-normal" />
-      <use xlink:href="#x-btn-c" class="on-sec-cont" opacity="0.1" />
-    </g>
-    <g id="button-pressed-right">
-      <use xlink:href="#button-normal-right" />
-      <use xlink:href="#x-btn-r" class="on-sec-cont" opacity="0.1" />
-    </g>
-    <g id="button-pressed-bottomleft">
-      <use xlink:href="#button-normal-bottomleft" />
-      <use xlink:href="#x-btn-bl" class="on-sec-cont" opacity="0.1" />
-    </g>
-    <g id="button-pressed-bottom">
-      <use xlink:href="#button-normal-bottom" />
-      <use xlink:href="#x-btn-b" class="on-sec-cont" opacity="0.1" />
-    </g>
-    <g id="button-pressed-bottomright">
-      <use xlink:href="#button-normal-bottomright" />
-      <use xlink:href="#x-btn-br" class="pri" opacity="0.1" />
-    </g>
-    <use id="ar-1-down-pressed" href="#x-down" x="4" y="4" class="on-sec-cont" />
-  </g>
-  <g id="g-button-toggled" transform="translate(96)">
-    <use id="button-toggled-topleft" xlink:href="#x-btn-tl" class="surf-cont-highest" />
-    <use id="button-toggled-top" xlink:href="#x-btn-t" class="surf-cont-highest" />
-    <use id="button-toggled-topright" xlink:href="#x-btn-tr" class="surf-cont-highest" />
-    <use id="button-toggled-left" xlink:href="#x-btn-l" class="surf-cont-highest" />
-    <use id="button-toggled" xlink:href="#x-btn-c" class="surf-cont-highest" />
-    <use id="button-toggled-right" xlink:href="#x-btn-r" class="surf-cont-highest" />
-    <use id="button-toggled-bottomleft" xlink:href="#x-btn-bl" class="surf-cont-highest" />
-    <use id="button-toggled-bottom" xlink:href="#x-btn-b" class="surf-cont-highest" />
-    <use id="button-toggled-bottomright" xlink:href="#x-btn-br" class="surf-cont-highest" />
-    <use id="ar-1-down-disabled" href="#x-down" x="4" y="4" class="disabled-text" />
-  </g>
-  <g id="g-button-default" transform="translate(128)">
-    <use id="button-default-topleft" href="#button-normal-topleft" />
-    <use id="button-default-top" href="#button-normal-top" />
-    <use id="button-default-topright" href="#button-normal-topright" />
-    <use id="button-default-left" href="#button-normal-left" />
-    <use id="button-default" href="#button-normal" />
-    <use id="button-default-right" href="#button-normal-right" />
-    <use id="button-default-bottomleft" href="#button-normal-bottomleft" />
-    <use id="button-default-bottom" href="#button-normal-bottom" />
-    <use id="button-default-bottomright" href="#button-normal-bottomright" />
-  </g>
-  <g id="g-border-button-default" transform="translate(160)">
-    <use id="border-button-default-topleft" xlink:href="#x-btn-tl" class="sec" />
-    <use id="border-button-default-top" xlink:href="#x-btn-t" class="sec" />
-    <use id="border-button-default-topright" xlink:href="#x-btn-tr" class="sec" />
-    <use id="border-button-default-left" xlink:href="#x-btn-l" class="sec" />
-    <use id="border-button-default" xlink:href="#x-btn-c" class="sec" />
-    <use id="border-button-default-right" xlink:href="#x-btn-r" class="sec" />
-    <use id="border-button-default-bottomleft" xlink:href="#x-btn-bl" class="sec" />
-    <use id="border-button-default-bottom" xlink:href="#x-btn-b" class="sec" />
-    <use id="border-button-default-bottomright" xlink:href="#x-btn-br" class="sec" />
-  </g>
-  <g id="g-tool-button-normal" transform="translate(0,32)">
-    <g id="tool-button-normal-topleft">
-      <use xlink:href="#x-btn-tl" fill="none" />
-      <path d="m 8,0 a 8,8 0 0 0 -8,8 h 1 a 7,7 0 0 1 7,-7 z" class="outline" />
-    </g>
-    <g id="tool-button-normal-top">
-      <use xlink:href="#x-btn-t" fill="none" />
-      <rect width="16" height="1" x="8" y="0" class="outline" />
-    </g>
-    <g id="tool-button-normal-topright">
-      <use xlink:href="#x-btn-tr" fill="none" />
-      <path d="m 24,0 a 8,8 0 0 1 8,8 h -1 a 7,7 0 0 0 -7,-7 z" class="outline" />
-    </g>
-    <g id="tool-button-normal-left">
-      <use xlink:href="#x-btn-l" fill="none" />
-      <rect width="1" height="16" x="0" y="8" class="outline" />
-    </g>
-    <use id="tool-button-normal" xlink:href="#x-btn-c" fill="none" />
-    <g id="tool-button-normal-right">
-      <use xlink:href="#x-btn-r" fill="none" />
-      <rect width="1" height="16" x="31" y="8" class="outline" />
-    </g>
-    <g id="tool-button-normal-bottomleft">
-      <use xlink:href="#x-btn-bl" fill="none" />
-      <path d="M 8,32 a 8,8 0 0 1 -8,-8 h 1 a 7,7 0 0 0 7,7 z" class="outline" />
-    </g>
-    <g id="tool-button-normal-bottom">
-      <use xlink:href="#x-btn-b" fill="none" />
-      <rect width="16" height="1" x="8" y="31" class="outline" />
-    </g>
-    <g id="tool-button-normal-bottomright">
-      <use xlink:href="#x-btn-br" fill="none" />
-      <path d="m 24,32 a 8,8 0 0 0 8,-8 h -1 a 7,7 0 0 1 -7,7 z" class="outline" />
-    </g>
-    <use id="expand-tool-button-normal-topleft" xlink:href="#x-btn-tl" fill="none" />
-    <use id="expand-tool-button-normal-top" xlink:href="#x-btn-t" fill="none" />
-    <use id="expand-tool-button-normal-topright" xlink:href="#x-btn-tr" fill="none" />
-    <use id="expand-tool-button-normal-bottomleft" xlink:href="#x-btn-bl" fill="none" />
-    <use id="expand-tool-button-normal-bottom" xlink:href="#x-btn-b" fill="none" />
-    <use id="expand-tool-button-normal-bottomright" xlink:href="#x-btn-br" fill="none" />
-    <g id="border-tool-button-normal-topleft">
-      <use xlink:href="#x-btn-tl" fill="none" />
-      <path d="M 8,0 a 8,8 0 0 0 -8,8 h 0.5 a 7.5,7.5 0 0 1 7.5,-7.5 z" class="outline" />
-    </g>
-    <g id="border-tool-button-normal-top">
-      <use xlink:href="#x-btn-t" fill="none" />
-      <rect width="16" height="0.5" x="8" class="outline" />
-    </g>
-    <g id="border-tool-button-normal-topright">
-      <use xlink:href="#x-btn-tr" fill="none" />
-      <path id="tb-normal-tr-3" d="M 24,0 a 8,8 0 0 1 8,8 h -0.5 a 7.5,7.5 0 0 0 -7.5,-7.5 z" class="outline" />
-    </g>
-    <g id="border-tool-button-normal-bottomleft">
-      <use xlink:href="#x-btn-bl" fill="none" />
-      <path id="tb-normal-bl-3" d="M 8,32 a 8,8 0 0 1 -8,-8 h 0.5 a 7.5,7.5 0 0 0 7.5,7.5 z" class="outline" />
-    </g>
-    <g id="border-tool-button-normal-bottom">
-      <use xlink:href="#x-btn-b" fill="none" />
-      <rect id="tb-normal-b-3" width="16" height="0.5" x="8" y="31.5" class="outline" />
-    </g>
-    <g id="border-tool-button-normal-bottomright">
-      <use xlink:href="#x-btn-br" fill="none" />
-      <path id="tb-normal-br-3" d="M 24,32 a 8,8 0 0 0 8,-8 h -0.5 a 7.5,7.5 0 0 1 -7.5,7.5 z" class="outline" />
+    <g id="g-border-button-default" transform="translate(160)">
+      <use id="border-button-default-topleft" xlink:href="#x-btn-tl" class="sec" />
+      <use id="border-button-default-top" xlink:href="#x-btn-t" class="sec" />
+      <use id="border-button-default-topright" xlink:href="#x-btn-tr" class="sec" />
+      <use id="border-button-default-left" xlink:href="#x-btn-l" class="sec" />
+      <use id="border-button-default" xlink:href="#x-btn-c" class="sec" />
+      <use id="border-button-default-right" xlink:href="#x-btn-r" class="sec" />
+      <use id="border-button-default-bottomleft" xlink:href="#x-btn-bl" class="sec" />
+      <use id="border-button-default-bottom" xlink:href="#x-btn-b" class="sec" />
+      <use id="border-button-default-bottomright" xlink:href="#x-btn-br" class="sec" />
     </g>
   </g>
-  <g id="g-tool-button-focused" transform="translate(32,32)">
-    <g id="tool-button-focused-topleft">
-      <use xlink:href="#tool-button-normal-topleft" />
-      <use xlink:href="#x-btn-tl" class="pri" opacity="0.08" />
+  <g id="g-tool-button" transform="translate(0,32)">
+    <g id="g-tool-button-normal">
+      <g id="tool-button-normal-topleft">
+        <use xlink:href="#x-btn-tl" fill="none" />
+        <path d="m 8,0 a 8,8 0 0 0 -8,8 h 1 a 7,7 0 0 1 7,-7 z" class="outline" />
+      </g>
+      <g id="tool-button-normal-top">
+        <use xlink:href="#x-btn-t" fill="none" />
+        <rect width="16" height="1" x="8" y="0" class="outline" />
+      </g>
+      <g id="tool-button-normal-topright">
+        <use xlink:href="#x-btn-tr" fill="none" />
+        <path d="m 24,0 a 8,8 0 0 1 8,8 h -1 a 7,7 0 0 0 -7,-7 z" class="outline" />
+      </g>
+      <g id="tool-button-normal-left">
+        <use xlink:href="#x-btn-l" fill="none" />
+        <rect width="1" height="16" x="0" y="8" class="outline" />
+      </g>
+      <use id="tool-button-normal" xlink:href="#x-btn-c" fill="none" />
+      <g id="tool-button-normal-right">
+        <use xlink:href="#x-btn-r" fill="none" />
+        <rect width="1" height="16" x="31" y="8" class="outline" />
+      </g>
+      <g id="tool-button-normal-bottomleft">
+        <use xlink:href="#x-btn-bl" fill="none" />
+        <path d="M 8,32 a 8,8 0 0 1 -8,-8 h 1 a 7,7 0 0 0 7,7 z" class="outline" />
+      </g>
+      <g id="tool-button-normal-bottom">
+        <use xlink:href="#x-btn-b" fill="none" />
+        <rect width="16" height="1" x="8" y="31" class="outline" />
+      </g>
+      <g id="tool-button-normal-bottomright">
+        <use xlink:href="#x-btn-br" fill="none" />
+        <path d="m 24,32 a 8,8 0 0 0 8,-8 h -1 a 7,7 0 0 1 -7,7 z" class="outline" />
+      </g>
+      <use id="expand-tool-button-normal-topleft" xlink:href="#x-btn-tl" fill="none" />
+      <use id="expand-tool-button-normal-top" xlink:href="#x-btn-t" fill="none" />
+      <use id="expand-tool-button-normal-topright" xlink:href="#x-btn-tr" fill="none" />
+      <use id="expand-tool-button-normal-bottomleft" xlink:href="#x-btn-bl" fill="none" />
+      <use id="expand-tool-button-normal-bottom" xlink:href="#x-btn-b" fill="none" />
+      <use id="expand-tool-button-normal-bottomright" xlink:href="#x-btn-br" fill="none" />
+      <g id="border-tool-button-normal-topleft">
+        <use xlink:href="#x-btn-tl" fill="none" />
+        <path d="M 8,0 a 8,8 0 0 0 -8,8 h 0.5 a 7.5,7.5 0 0 1 7.5,-7.5 z" class="outline" />
+      </g>
+      <g id="border-tool-button-normal-top">
+        <use xlink:href="#x-btn-t" fill="none" />
+        <rect width="16" height="0.5" x="8" class="outline" />
+      </g>
+      <g id="border-tool-button-normal-topright">
+        <use xlink:href="#x-btn-tr" fill="none" />
+        <path id="tb-normal-tr-3" d="M 24,0 a 8,8 0 0 1 8,8 h -0.5 a 7.5,7.5 0 0 0 -7.5,-7.5 z" class="outline" />
+      </g>
+      <g id="border-tool-button-normal-bottomleft">
+        <use xlink:href="#x-btn-bl" fill="none" />
+        <path id="tb-normal-bl-3" d="M 8,32 a 8,8 0 0 1 -8,-8 h 0.5 a 7.5,7.5 0 0 0 7.5,7.5 z" class="outline" />
+      </g>
+      <g id="border-tool-button-normal-bottom">
+        <use xlink:href="#x-btn-b" fill="none" />
+        <rect id="tb-normal-b-3" width="16" height="0.5" x="8" y="31.5" class="outline" />
+      </g>
+      <g id="border-tool-button-normal-bottomright">
+        <use xlink:href="#x-btn-br" fill="none" />
+        <path id="tb-normal-br-3" d="M 24,32 a 8,8 0 0 0 8,-8 h -0.5 a 7.5,7.5 0 0 1 -7.5,7.5 z" class="outline" />
+      </g>
     </g>
-    <g id="tool-button-focused-top">
-      <use xlink:href="#tool-button-normal-top" />
-      <use xlink:href="#x-btn-t" class="pri" opacity="0.08" />
+    <g id="g-tool-button-focused" transform="translate(32)">
+      <g id="tool-button-focused-topleft">
+        <use xlink:href="#tool-button-normal-topleft" />
+        <use xlink:href="#x-btn-tl" class="pri" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-top">
+        <use xlink:href="#tool-button-normal-top" />
+        <use xlink:href="#x-btn-t" class="pri" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-topright">
+        <use xlink:href="#tool-button-normal-topright" />
+        <use xlink:href="#x-btn-tr" class="pri" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-left">
+        <use xlink:href="#tool-button-normal-left" />
+        <use xlink:href="#x-btn-l" class="pri" opacity="0.08" />
+      </g>
+      <use id="tool-button-focused" xlink:href="#x-btn-c" class="pri" opacity="0.08" />
+      <g id="tool-button-focused-right">
+        <use xlink:href="#tool-button-normal-right" />
+        <use xlink:href="#x-btn-r" class="pri" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-bottomleft">
+        <use xlink:href="#tool-button-normal-bottomleft" />
+        <use xlink:href="#x-btn-bl" class="pri" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-bottom">
+        <use xlink:href="#tool-button-normal-bottom" />
+        <use xlink:href="#x-btn-b" class="pri" opacity="0.08" />
+      </g>
+      <g id="tool-button-focused-bottomright">
+        <use xlink:href="#tool-button-normal-bottomright" />
+        <use xlink:href="#x-btn-br" class="pri" opacity="0.08" />
+      </g>
+      <use id="expand-tool-button-focused-topleft" xlink:href="#x-btn-tl" fill="none" />
+      <use id="expand-tool-button-focused-top" xlink:href="#x-btn-t" fill="none" />
+      <use id="expand-tool-button-focused-topright" xlink:href="#x-btn-tr" fill="none" />
+      <use id="expand-tool-button-focused-bottomleft" xlink:href="#x-btn-bl" fill="none" />
+      <use id="expand-tool-button-focused-bottom" xlink:href="#x-btn-b" fill="none" />
+      <use id="expand-tool-button-focused-bottomright" xlink:href="#x-btn-br" fill="none" />
+      <g id="border-tool-button-focused-topleft">
+        <use href="#border-tool-button-normal-topleft" />
+        <use xlink:href="#x-btn-tl" class="pri" opacity="0.08" />
+      </g>
+      <g id="border-tool-button-focused-top">
+        <use href="#border-tool-button-normal-top" />
+        <use xlink:href="#x-btn-t" class="pri" opacity="0.08" />
+      </g>
+      <g id="border-tool-button-focused-topright">
+        <use href="#border-tool-button-normal-topright" />
+        <use xlink:href="#x-btn-tr" class="pri" opacity="0.08" />
+      </g>
+      <g id="border-tool-button-focused-bottomleft">
+        <use href="#border-tool-button-normal-bottomleft" />
+        <use xlink:href="#x-btn-bl" class="pri" opacity="0.08" />
+      </g>
+      <g id="border-tool-button-focused-bottom">
+        <use href="#border-tool-button-normal-bottom" />
+        <use xlink:href="#x-btn-b" class="pri" opacity="0.08" />
+      </g>
+      <g id="border-tool-button-focused-bottomright">
+        <use href="#border-tool-button-normal-bottomright" />
+        <use xlink:href="#x-btn-br" class="pri" opacity="0.08" />
+      </g>
     </g>
-    <g id="tool-button-focused-topright">
-      <use xlink:href="#tool-button-normal-topright" />
-      <use xlink:href="#x-btn-tr" class="pri" opacity="0.08" />
+    <g id="g-tool-button-pressed" transform="translate(64)">
+      <g id="tool-button-pressed-topleft">
+        <use xlink:href="#tool-button-normal-topleft" />
+        <use xlink:href="#x-btn-tl" class="pri" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-top">
+        <use xlink:href="#tool-button-normal-top" />
+        <use xlink:href="#x-btn-t" class="pri" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-topright">
+        <use xlink:href="#tool-button-normal-topright" />
+        <use xlink:href="#x-btn-tr" class="pri" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-left">
+        <use xlink:href="#tool-button-normal-left" />
+        <use xlink:href="#x-btn-l" class="pri" opacity="0.1" />
+      </g>
+      <use id="tool-button-pressed" xlink:href="#x-btn-c" class="pri" opacity="0.1" />
+      <g id="tool-button-pressed-right">
+        <use xlink:href="#tool-button-normal-right" />
+        <use xlink:href="#x-btn-r" class="pri" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-bottomleft">
+        <use xlink:href="#tool-button-normal-bottomleft" />
+        <use xlink:href="#x-btn-bl" class="pri" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-bottom">
+        <use xlink:href="#tool-button-normal-bottom" />
+        <use xlink:href="#x-btn-b" class="pri" opacity="0.1" />
+      </g>
+      <g id="tool-button-pressed-bottomright">
+        <use xlink:href="#tool-button-normal-bottomright" />
+        <use xlink:href="#x-btn-br" class="pri" opacity="0.1" />
+      </g>
+      <use id="expand-tool-button-pressed-topleft" xlink:href="#x-btn-tl" fill="none" />
+      <use id="expand-tool-button-pressed-top" xlink:href="#x-btn-t" fill="none" />
+      <use id="expand-tool-button-pressed-topright" xlink:href="#x-btn-tr" fill="none" />
+      <use id="expand-tool-button-pressed-bottomleft" xlink:href="#x-btn-bl" fill="none" />
+      <use id="expand-tool-button-pressed-bottom" xlink:href="#x-btn-b" fill="none" />
+      <use id="expand-tool-button-pressed-bottomright" xlink:href="#x-btn-br" fill="none" />
+      <g id="border-tool-button-pressed-topleft">
+        <use href="#border-tool-button-normal-topleft" />
+        <use xlink:href="#x-btn-tl" class="pri" opacity="0.1" />
+      </g>
+      <g id="border-tool-button-pressed-top">
+        <use href="#border-tool-button-normal-top" />
+        <use xlink:href="#x-btn-t" class="pri" opacity="0.1" />
+      </g>
+      <g id="border-tool-button-pressed-topright">
+        <use href="#border-tool-button-normal-topright" />
+        <use xlink:href="#x-btn-tr" class="pri" opacity="0.1" />
+      </g>
+      <g id="border-tool-button-pressed-bottomleft">
+        <use href="#border-tool-button-normal-bottomleft" />
+        <use xlink:href="#x-btn-bl" class="pri" opacity="0.1" />
+      </g>
+      <g id="border-tool-button-pressed-bottom">
+        <use href="#border-tool-button-normal-bottom" />
+        <use xlink:href="#x-btn-b" class="pri" opacity="0.1" />
+      </g>
+      <g id="border-tool-button-pressed-bottomright">
+        <use href="#border-tool-button-normal-bottomright" />
+        <use xlink:href="#x-btn-br" class="pri" opacity="0.1" />
+      </g>
     </g>
-    <g id="tool-button-focused-left">
-      <use xlink:href="#tool-button-normal-left" />
-      <use xlink:href="#x-btn-l" class="pri" opacity="0.08" />
-    </g>
-    <use id="tool-button-focused" xlink:href="#x-btn-c" class="pri" opacity="0.08" />
-    <g id="tool-button-focused-right">
-      <use xlink:href="#tool-button-normal-right" />
-      <use xlink:href="#x-btn-r" class="pri" opacity="0.08" />
-    </g>
-    <g id="tool-button-focused-bottomleft">
-      <use xlink:href="#tool-button-normal-bottomleft" />
-      <use xlink:href="#x-btn-bl" class="pri" opacity="0.08" />
-    </g>
-    <g id="tool-button-focused-bottom">
-      <use xlink:href="#tool-button-normal-bottom" />
-      <use xlink:href="#x-btn-b" class="pri" opacity="0.08" />
-    </g>
-    <g id="tool-button-focused-bottomright">
-      <use xlink:href="#tool-button-normal-bottomright" />
-      <use xlink:href="#x-btn-br" class="pri" opacity="0.08" />
-    </g>
-    <use id="expand-tool-button-focused-topleft" xlink:href="#x-btn-tl" fill="none" />
-    <use id="expand-tool-button-focused-top" xlink:href="#x-btn-t" fill="none" />
-    <use id="expand-tool-button-focused-topright" xlink:href="#x-btn-tr" fill="none" />
-    <use id="expand-tool-button-focused-bottomleft" xlink:href="#x-btn-bl" fill="none" />
-    <use id="expand-tool-button-focused-bottom" xlink:href="#x-btn-b" fill="none" />
-    <use id="expand-tool-button-focused-bottomright" xlink:href="#x-btn-br" fill="none" />
-    <g id="border-tool-button-focused-topleft">
-      <use href="#border-tool-button-normal-topleft" />
-      <use xlink:href="#x-btn-tl" class="pri" opacity="0.08" />
-    </g>
-    <g id="border-tool-button-focused-top">
-      <use href="#border-tool-button-normal-top" />
-      <use xlink:href="#x-btn-t" class="pri" opacity="0.08" />
-    </g>
-    <g id="border-tool-button-focused-topright">
-      <use href="#border-tool-button-normal-topright" />
-      <use xlink:href="#x-btn-tr" class="pri" opacity="0.08" />
-    </g>
-    <g id="border-tool-button-focused-bottomleft">
-      <use href="#border-tool-button-normal-bottomleft" />
-      <use xlink:href="#x-btn-bl" class="pri" opacity="0.08" />
-    </g>
-    <g id="border-tool-button-focused-bottom">
-      <use href="#border-tool-button-normal-bottom" />
-      <use xlink:href="#x-btn-b" class="pri" opacity="0.08" />
-    </g>
-    <g id="border-tool-button-focused-bottomright">
-      <use href="#border-tool-button-normal-bottomright" />
-      <use xlink:href="#x-btn-br" class="pri" opacity="0.08" />
+    <g id="g-tool-button-toggled" transform="translate(96)">
+      <g id="tool-button-toggled-topleft">
+        <use xlink:href="#x-btn-tl" class="sec-cont" />
+        <use xlink:href="#tool-button-normal-topleft" />
+      </g>
+      <g id="tool-button-toggled-top">
+        <use xlink:href="#x-btn-t" class="sec-cont" />
+        <use xlink:href="#tool-button-normal-top" />
+      </g>
+      <g id="tool-button-toggled-topright">
+        <use xlink:href="#x-btn-tr" class="sec-cont" />
+        <use xlink:href="#tool-button-normal-topright" />
+      </g>
+      <g id="tool-button-toggled-left">
+        <use xlink:href="#x-btn-l" class="sec-cont" />
+        <use xlink:href="#tool-button-normal-left" />
+      </g>
+      <use id="tool-button-toggled" xlink:href="#x-btn-c" class="sec-cont" />
+      <g id="tool-button-toggled-right">
+        <use xlink:href="#x-btn-r" class="sec-cont" />
+        <use xlink:href="#tool-button-normal-right" />
+      </g>
+      <g id="tool-button-toggled-bottomleft">
+        <use xlink:href="#x-btn-bl" class="sec-cont" />
+        <use xlink:href="#tool-button-normal-bottomleft" />
+      </g>
+      <g id="tool-button-toggled-bottom">
+        <use xlink:href="#x-btn-b" class="sec-cont" />
+        <use xlink:href="#tool-button-normal-bottom" />
+      </g>
+      <g id="tool-button-toggled-bottomright">
+        <use xlink:href="#x-btn-br" class="sec-cont" />
+        <use xlink:href="#tool-button-normal-bottomright" />
+      </g>
+      <use id="expand-tool-button-toggled-topleft" xlink:href="#x-btn-tl" fill="none" />
+      <use id="expand-tool-button-toggled-top" xlink:href="#x-btn-t" fill="none" />
+      <use id="expand-tool-button-toggled-topright" xlink:href="#x-btn-tr" fill="none" />
+      <use id="expand-tool-button-toggled-bottomleft" xlink:href="#x-btn-bl" fill="none" />
+      <use id="expand-tool-button-toggled-bottom" xlink:href="#x-btn-b" fill="none" />
+      <use id="expand-tool-button-toggled-bottomright" xlink:href="#x-btn-br" fill="none" />
+      <g id="border-tool-button-toggled-topleft">
+        <use xlink:href="#x-btn-tl" class="sec-cont" />
+        <use href="#border-tool-button-normal-topleft" />
+      </g>
+      <g id="border-tool-button-toggled-top">
+        <use xlink:href="#x-btn-t" class="sec-cont" />
+        <use href="#border-tool-button-normal-top" />
+      </g>
+      <g id="border-tool-button-toggled-topright">
+        <use xlink:href="#x-btn-tr" class="sec-cont" />
+        <use href="#border-tool-button-normal-topright" />
+      </g>
+      <g id="border-tool-button-toggled-bottomleft">
+        <use xlink:href="#x-btn-bl" class="sec-cont" />
+        <use href="#border-tool-button-normal-bottomleft" />
+      </g>
+      <g id="border-tool-button-toggled-bottom">
+        <use xlink:href="#x-btn-b" class="sec-cont" />
+        <use href="#border-tool-button-normal-bottom" />
+      </g>
+      <g id="border-tool-button-toggled-bottomright">
+        <use xlink:href="#x-btn-br" class="sec-cont" />
+        <use href="#border-tool-button-normal-bottomright" />
+      </g>
     </g>
   </g>
-  <g id="g-tool-button-pressed" transform="translate(64,32)">
-    <g id="tool-button-pressed-topleft">
-      <use xlink:href="#tool-button-normal-topleft" />
-      <use xlink:href="#x-btn-tl" class="pri" opacity="0.1" />
+  <g id="g-lineedit" transform="translate(0,64)">
+    <g id="g-lineedit-normal" class="outline">
+      <g id="lineedit-normal-topleft">
+        <rect width="4" height="4" x="0" y="0" fill="none" />
+        <path d="M 4,0.5 A 3.5,3.5 0 0 0 0.5,4 h 1 A 2.5,2.5 0 0 1 4,1.5 Z" />
+      </g>
+      <g id="lineedit-normal-top">
+        <rect width="16" height="4" x="4" y="0" fill="none" />
+        <rect width="16" height="1" x="4" y="0.5" />
+      </g>
+      <g id="lineedit-normal-topright">
+        <rect width="4" height="4" x="20" y="0" fill="none" />
+        <path d="M 20,0.5 A 3.5,3.5 0 0 1 23.5,4 h -1 A 2.5,2.5 0 0 0 20,1.5 Z" />
+      </g>
+      <g id="lineedit-normal-left">
+        <rect width="4" height="16" x="0" y="4" fill="none" />
+        <rect width="1" height="16" x="0.5" y="4" />
+      </g>
+      <g id="lineedit-normal-right">
+        <rect width="4" height="16" x="20" y="4" fill="none" />
+        <rect width="1" height="16" x="22.5" y="4" />
+      </g>
+      <g id="lineedit-normal-bottomleft">
+        <rect width="4" height="4" x="0" y="20" fill="none" />
+        <path d="M 0.5,20 A 3.5,3.5 0 0 0 4,23.5 v -1 A 2.5,2.5 0 0 1 1.5,20 Z" />
+      </g>
+      <g id="lineedit-normal-bottom">
+        <rect width="16" height="4" x="4" y="20" fill="none" />
+        <rect width="16" height="1" x="4" y="22.5" />
+      </g>
+      <g id="lineedit-normal-bottomright">
+        <rect width="4" height="4" x="20" y="20" fill="none" />
+        <path d="M 23.5,20 A 3.5,3.5 0 0 1 20,23.5 v -1 A 2.5,2.5 0 0 0 22.5,20 Z" />
+      </g>
     </g>
-    <g id="tool-button-pressed-top">
-      <use xlink:href="#tool-button-normal-top" />
-      <use xlink:href="#x-btn-t" class="pri" opacity="0.1" />
-    </g>
-    <g id="tool-button-pressed-topright">
-      <use xlink:href="#tool-button-normal-topright" />
-      <use xlink:href="#x-btn-tr" class="pri" opacity="0.1" />
-    </g>
-    <g id="tool-button-pressed-left">
-      <use xlink:href="#tool-button-normal-left" />
-      <use xlink:href="#x-btn-l" class="pri" opacity="0.1" />
-    </g>
-    <use id="tool-button-pressed" xlink:href="#x-btn-c" class="pri" opacity="0.1" />
-    <g id="tool-button-pressed-right">
-      <use xlink:href="#tool-button-normal-right" />
-      <use xlink:href="#x-btn-r" class="pri" opacity="0.1" />
-    </g>
-    <g id="tool-button-pressed-bottomleft">
-      <use xlink:href="#tool-button-normal-bottomleft" />
-      <use xlink:href="#x-btn-bl" class="pri" opacity="0.1" />
-    </g>
-    <g id="tool-button-pressed-bottom">
-      <use xlink:href="#tool-button-normal-bottom" />
-      <use xlink:href="#x-btn-b" class="pri" opacity="0.1" />
-    </g>
-    <g id="tool-button-pressed-bottomright">
-      <use xlink:href="#tool-button-normal-bottomright" />
-      <use xlink:href="#x-btn-br" class="pri" opacity="0.1" />
-    </g>
-    <use id="expand-tool-button-pressed-topleft" xlink:href="#x-btn-tl" fill="none" />
-    <use id="expand-tool-button-pressed-top" xlink:href="#x-btn-t" fill="none" />
-    <use id="expand-tool-button-pressed-topright" xlink:href="#x-btn-tr" fill="none" />
-    <use id="expand-tool-button-pressed-bottomleft" xlink:href="#x-btn-bl" fill="none" />
-    <use id="expand-tool-button-pressed-bottom" xlink:href="#x-btn-b" fill="none" />
-    <use id="expand-tool-button-pressed-bottomright" xlink:href="#x-btn-br" fill="none" />
-    <g id="border-tool-button-pressed-topleft">
-      <use href="#border-tool-button-normal-topleft" />
-      <use xlink:href="#x-btn-tl" class="pri" opacity="0.1" />
-    </g>
-    <g id="border-tool-button-pressed-top">
-      <use href="#border-tool-button-normal-top" />
-      <use xlink:href="#x-btn-t" class="pri" opacity="0.1" />
-    </g>
-    <g id="border-tool-button-pressed-topright">
-      <use href="#border-tool-button-normal-topright" />
-      <use xlink:href="#x-btn-tr" class="pri" opacity="0.1" />
-    </g>
-    <g id="border-tool-button-pressed-bottomleft">
-      <use href="#border-tool-button-normal-bottomleft" />
-      <use xlink:href="#x-btn-bl" class="pri" opacity="0.1" />
-    </g>
-    <g id="border-tool-button-pressed-bottom">
-      <use href="#border-tool-button-normal-bottom" />
-      <use xlink:href="#x-btn-b" class="pri" opacity="0.1" />
-    </g>
-    <g id="border-tool-button-pressed-bottomright">
-      <use href="#border-tool-button-normal-bottomright" />
-      <use xlink:href="#x-btn-br" class="pri" opacity="0.1" />
+    <g id="g-lineedit-focused" transform="translate(24)" class="pri">
+      <path id="lineedit-focused-topleft" d="M 4,0 A 4,4 0 0 0 0,4 H 2 A 2,2 0 0 1 4,2 Z" />
+      <g id="lineedit-focused-top">
+        <rect width="16" height="2" x="4" y="0" />
+        <rect width="16" height="4" x="4" y="0" fill="none" />
+      </g>
+      <path id="lineedit-focused-topright" d="m 20,0 a 4,4 0 0 1 4,4 H 22 A 2,2 0 0 0 20,2 Z" />
+      <g id="lineedit-focused-left">
+        <rect width="2" height="16" x="0" y="4" />
+        <rect width="4" height="16" x="0" y="4" fill="none" />
+      </g>
+      <g id="lineedit-focused-right">
+        <rect width="2" height="16" x="22" y="4" />
+        <rect width="4" height="16" x="20" y="4" fill="none" />
+      </g>
+      <path id="lineedit-focused-bottomleft" d="m 0,20 a 4,4 0 0 0 4,4 V 22 A 2,2 0 0 1 2,20 Z" />
+      <g id="lineedit-focused-bottom">
+        <rect width="16" height="2" x="4" y="22" />
+        <rect width="16" height="4" x="4" y="20" fill="none" />
+      </g>
+      <path id="lineedit-focused-bottomright" d="m 24,20 a 4,4 0 0 1 -4,4 v -2 a 2,2 0 0 0 2,-2 z" />
     </g>
   </g>
-  <g id="g-tool-button-toggled" transform="translate(96,32)">
-    <g id="tool-button-toggled-topleft">
-      <use xlink:href="#x-btn-tl" class="sec-cont" />
-      <use xlink:href="#tool-button-normal-topleft" />
+  <g id="g-radio" transform="translate(0,88)">
+    <g id="radio-normal">
+      <rect width="26" height="26" fill="none" x="0" y="0" />
+      <use href="#radio-unchk" class="on-surf-var" />
     </g>
-    <g id="tool-button-toggled-top">
-      <use xlink:href="#x-btn-t" class="sec-cont" />
-      <use xlink:href="#tool-button-normal-top" />
+    <g id="radio-focused" transform="translate(26)">
+      <circle cx="13" cy="13" r="13" class="on-surf" opacity="0.08" />
+      <use href="#radio-unchk" class="on-surf" />
     </g>
-    <g id="tool-button-toggled-topright">
-      <use xlink:href="#x-btn-tr" class="sec-cont" />
-      <use xlink:href="#tool-button-normal-topright" />
+    <g id="radio-checked-normal" transform="translate(52)">
+      <rect width="26" height="26" fill="none" x="0" y="0" />
+      <use href="#radio-chk" class="pri" />
     </g>
-    <g id="tool-button-toggled-left">
-      <use xlink:href="#x-btn-l" class="sec-cont" />
-      <use xlink:href="#tool-button-normal-left" />
-    </g>
-    <use id="tool-button-toggled" xlink:href="#x-btn-c" class="sec-cont" />
-    <g id="tool-button-toggled-right">
-      <use xlink:href="#x-btn-r" class="sec-cont" />
-      <use xlink:href="#tool-button-normal-right" />
-    </g>
-    <g id="tool-button-toggled-bottomleft">
-      <use xlink:href="#x-btn-bl" class="sec-cont" />
-      <use xlink:href="#tool-button-normal-bottomleft" />
-    </g>
-    <g id="tool-button-toggled-bottom">
-      <use xlink:href="#x-btn-b" class="sec-cont" />
-      <use xlink:href="#tool-button-normal-bottom" />
-    </g>
-    <g id="tool-button-toggled-bottomright">
-      <use xlink:href="#x-btn-br" class="sec-cont" />
-      <use xlink:href="#tool-button-normal-bottomright" />
-    </g>
-    <use id="expand-tool-button-toggled-topleft" xlink:href="#x-btn-tl" fill="none" />
-    <use id="expand-tool-button-toggled-top" xlink:href="#x-btn-t" fill="none" />
-    <use id="expand-tool-button-toggled-topright" xlink:href="#x-btn-tr" fill="none" />
-    <use id="expand-tool-button-toggled-bottomleft" xlink:href="#x-btn-bl" fill="none" />
-    <use id="expand-tool-button-toggled-bottom" xlink:href="#x-btn-b" fill="none" />
-    <use id="expand-tool-button-toggled-bottomright" xlink:href="#x-btn-br" fill="none" />
-  </g>
-  <g id="g-lineedit-normal" transform="translate(152,72)" class="outline">
-    <g id="lineedit-normal-topleft">
-      <rect width="4" height="4" x="0" y="0" fill="none" />
-      <path d="M 4,0.5 A 3.5,3.5 0 0 0 0.5,4 h 1 A 2.5,2.5 0 0 1 4,1.5 Z" />
-    </g>
-    <g id="lineedit-normal-top">
-      <rect width="16" height="4" x="4" y="0" fill="none" />
-      <rect width="16" height="1" x="4" y="0.5" />
-    </g>
-    <g id="lineedit-normal-topright">
-      <rect width="4" height="4" x="20" y="0" fill="none" />
-      <path d="M 20,0.5 A 3.5,3.5 0 0 1 23.5,4 h -1 A 2.5,2.5 0 0 0 20,1.5 Z" />
-    </g>
-    <g id="lineedit-normal-left">
-      <rect width="4" height="16" x="0" y="4" fill="none" />
-      <rect width="1" height="16" x="0.5" y="4" />
-    </g>
-    <g id="lineedit-normal-right">
-      <rect width="4" height="16" x="20" y="4" fill="none" />
-      <rect width="1" height="16" x="22.5" y="4" />
-    </g>
-    <g id="lineedit-normal-bottomleft">
-      <rect width="4" height="4" x="0" y="20" fill="none" />
-      <path d="M 0.5,20 A 3.5,3.5 0 0 0 4,23.5 v -1 A 2.5,2.5 0 0 1 1.5,20 Z" />
-    </g>
-    <g id="lineedit-normal-bottom">
-      <rect width="16" height="4" x="4" y="20" fill="none" />
-      <rect width="16" height="1" x="4" y="22.5" />
-    </g>
-    <g id="lineedit-normal-bottomright">
-      <rect width="4" height="4" x="20" y="20" fill="none" />
-      <path d="M 23.5,20 A 3.5,3.5 0 0 1 20,23.5 v -1 A 2.5,2.5 0 0 0 22.5,20 Z" />
+    <g id="radio-checked-focused" transform="translate(78)">
+      <circle cx="13" cy="13" r="13" class="pri" opacity="0.08" />
+      <use href="#radio-chk" class="pri" />
     </g>
   </g>
-  <g id="g-lineedit-focused" transform="translate(176,72)" class="pri">
-    <path id="lineedit-focused-topleft" d="M 4,0 A 4,4 0 0 0 0,4 H 2 A 2,2 0 0 1 4,2 Z" />
-    <g id="lineedit-focused-top">
-      <rect width="16" height="2" x="4" y="0" />
-      <rect width="16" height="4" x="4" y="0" fill="none" />
+  <g id="g-checkbox" transform="translate(0,114)">
+    <g id="checkbox-normal">
+      <rect width="26" height="26" fill="none" x="0" y="0" />
+      <use href="#chk-box-frame" class="on-surf-var" />
     </g>
-    <path id="lineedit-focused-topright" d="m 20,0 a 4,4 0 0 1 4,4 H 22 A 2,2 0 0 0 20,2 Z" />
-    <g id="lineedit-focused-left">
-      <rect width="2" height="16" x="0" y="4" />
-      <rect width="4" height="16" x="0" y="4" fill="none" />
+    <g id="checkbox-focused" transform="translate(26)">
+      <rect width="26" height="26" fill="none" x="0" y="0" />
+      <use href="#chk-box-back" class="on-surf" opacity="0.08" />
+      <use href="#chk-box-frame" class="on-surf" />
     </g>
-    <g id="lineedit-focused-right">
-      <rect width="2" height="16" x="22" y="4" />
-      <rect width="4" height="16" x="20" y="4" fill="none" />
+    <g id="checkbox-checked-normal" transform="translate(52)">
+      <rect width="26" height="26" fill="none" x="0" y="0" />
+      <use href="#chk-box-box" class="pri" />
+      <use href="#chk-box-chk" class="on-pri" />
     </g>
-    <path id="lineedit-focused-bottomleft" d="m 0,20 a 4,4 0 0 0 4,4 V 22 A 2,2 0 0 1 2,20 Z" />
-    <g id="lineedit-focused-bottom">
-      <rect width="16" height="2" x="4" y="22" />
-      <rect width="16" height="4" x="4" y="20" fill="none" />
+    <g id="checkbox-checked-focused" transform="translate(78)">
+      <rect width="26" height="26" fill="none" x="0" y="0" />
+      <use href="#chk-box-back" class="pri" opacity="0.08" />
+      <use href="#chk-box-box" class="pri" />
+      <use href="#chk-box-chk" class="on-pri" />
     </g>
-    <path id="lineedit-focused-bottomright" d="m 24,20 a 4,4 0 0 1 -4,4 v -2 a 2,2 0 0 0 2,-2 z" />
+    <g id="checkbox-tristate-normal" transform="translate(104)">
+      <rect width="26" height="26" fill="none" x="0" y="0" />
+      <use href="#chk-box-box" class="pri" />
+      <use href="#chk-box-dash" class="on-pri" />
+    </g>
+    <g id="checkbox-tristate-focused" transform="translate(130)">
+      <rect width="26" height="26" fill="none" x="0" y="0" />
+      <use href="#chk-box-back" class="pri" opacity="0.08" />
+      <use href="#chk-box-box" class="pri" />
+      <use href="#chk-box-dash" class="on-pri" />
+    </g>
   </g>
-  <g id="radio-normal" transform="translate(0,114)">
-    <rect width="26" height="26" fill="none" x="0" y="0" />
-    <use href="#radio-unchk" class="on-surf-var" />
+  <g id="g-common" transform="translate(128,32)">
+    <use id="common-normal-topleft" href="#x-btn-tl" class="surf-cont" />
+    <use id="common-normal-top" href="#x-btn-t" class="surf-cont" />
+    <use id="common-normal-topright" href="#x-btn-tr" class="surf-cont" />
+    <use id="common-normal-left" href="#x-btn-l" class="surf-cont" />
+    <use id="common-normal" href="#x-btn-c" class="surf-cont" />
+    <use id="common-normal-right" href="#x-btn-r" class="surf-cont" />
+    <use id="common-normal-bottomleft" href="#x-btn-bl" class="surf-cont" />
+    <use id="common-normal-bottom" href="#x-btn-b" class="surf-cont" />
+    <use id="common-normal-bottomright" href="#x-btn-br" class="surf-cont" />
   </g>
-  <g id="radio-focused" transform="translate(26,114)">
-    <circle cx="13" cy="13" r="13" class="on-surf" opacity="0.08" />
-    <use href="#radio-unchk" class="on-surf" />
+  <g id="g-sizegrip" transform="translate(160,32)">
+    <use id="sizegrip-normal" href="#x-sizegrip" x="0" y="0" class="on-surf-var" opacity="0.38" />
+    <use id="sizegrip-focused" href="#x-sizegrip" x="8" y="0" class="on-surf" opacity="0.38" />
   </g>
-  <g id="radio-checked-normal" transform="translate(52,114)">
-    <rect width="26" height="26" fill="none" x="0" y="0" />
-    <use href="#radio-chk" class="pri" />
-  </g>
-  <g id="radio-checked-focused" transform="translate(78,114)">
-    <circle cx="13" cy="13" r="13" class="pri" opacity="0.08" />
-    <use href="#radio-chk" class="pri" />
-  </g>
-  <g id="checkbox-normal" transform="translate(0,140)">
-    <rect width="26" height="26" fill="none" x="0" y="0" />
-    <use href="#chk-box-frame" class="on-surf-var" />
-  </g>
-  <g id="checkbox-focused" transform="translate(26,140)">
-    <rect width="26" height="26" fill="none" x="0" y="0" />
-    <use href="#chk-box-back" class="on-surf" opacity="0.08" />
-    <use href="#chk-box-frame" class="on-surf" />
-  </g>
-  <g id="checkbox-checked-normal" transform="translate(52,140)">
-    <rect width="26" height="26" fill="none" x="0" y="0" />
-    <use href="#chk-box-box" class="pri" />
-    <use href="#chk-box-chk" class="on-pri" />
-  </g>
-  <g id="checkbox-checked-focused" transform="translate(78,140)">
-    <rect width="26" height="26" fill="none" x="0" y="0" />
-    <use href="#chk-box-back" class="pri" opacity="0.08" />
-    <use href="#chk-box-box" class="pri" />
-    <use href="#chk-box-chk" class="on-pri" />
-  </g>
-  <g id="checkbox-tristate-normal" transform="translate(104,140)">
-    <rect width="26" height="26" fill="none" x="0" y="0" />
-    <use href="#chk-box-box" class="pri" />
-    <use href="#chk-box-dash" class="on-pri" />
-  </g>
-  <g id="checkbox-tristate-focused" transform="translate(130,140)">
-    <rect width="26" height="26" fill="none" x="0" y="0" />
-    <use href="#chk-box-back" class="pri" opacity="0.08" />
-    <use href="#chk-box-box" class="pri" />
-    <use href="#chk-box-dash" class="on-pri" />
-  </g>
-  <use id="sizegrip-normal" href="#x-sizegrip" x="104" y="114" class="on-surf-var" opacity="0.38" />
-  <use id="sizegrip-focused" href="#x-sizegrip" x="112" y="114" class="on-surf" opacity="0.38" />
-  <!-- <g id="common-group" transform="translate(120,64)">
-    <use id="common-normal-topleft" href="#r-8-tl" class="surf-cont" />
-    <use id="common-normal-top" href="#sq-8-t" class="surf-cont" />
-    <use id="common-normal-topright" href="#r-8-tr" class="surf-cont" />
-    <use id="common-normal-left" href="#sq-8-l" class="surf-cont" />
-    <use id="common-normal" href="#sq-8-c" class="surf-cont" />
-    <use id="common-normal-right" href="#sq-8-l" x="24" class="surf-cont" />
-    <use id="common-normal-bottomleft" href="#r-8-bl" class="surf-cont" />
-    <use id="common-normal-bottom" href="#sq-8-t" y="24" class="surf-cont" />
-    <use id="common-normal-bottomright" href="#r-8-br" class="surf-cont" />
-  </g> -->
   <!-- <g id="toolbar-group" transform="translate(136,32)">
     <use id="toolbar-normal" x="-8" y="-8" href="#sq-8-c" class="surf-cont-high" />
     <rect id="toolbar-separator" width="8" height="10" opacity="0" />
@@ -696,16 +750,17 @@
     <use id="progress-pattern-disabled-bottom" href="#progress-b" y="8" class="disabled-back" />
     <use id="progress-pattern-disabled-bottomright" href="#progress-br" y="8" class="disabled-back" />
   </g> -->
-  <!-- <g id="tab-group" transform="translate(0,177)">
-    <rect id="tabbar-normal-topleft" width="1" height="1" opacity="0" />
-    <rect id="tabbar-normal-top" width="16" height="1" x="1" opacity="0" />
-    <rect id="tabbar-normal-topright" width="1" height="1" x="17" opacity="0" />
-    <rect id="tabbar-normal-left" width="1" height="16" y="1" opacity="0" />
-    <rect id="tabbar-normal-right" width="1" height="16" x="17" y="1" opacity="0" />
+  <g id="tab-group" transform="translate(0,0)">
+    <rect id="tabbar-normal-topleft" width="1" height="1" class="surf" />
+    <rect id="tabbar-normal-top" width="16" height="1" x="1" class="surf" />
+    <rect id="tabbar-normal-topright" width="1" height="1" x="17" class="surf" />
+    <rect id="tabbar-normal-left" width="1" height="16" y="1" class="surf" />
+    <rect id="tabbar-normal" width="16" height="16" x="1" y="1" class="surf" />
+    <rect id="tabbar-normal-right" width="1" height="16" x="17" y="1" class="surf" />
     <rect id="tabbar-normal-bottomleft" width="1" height="1" y="17" class="surf-var" />
     <rect id="tabbar-normal-bottom" width="16" height="1" x="1" y="17" class="surf-var" />
     <rect id="tabbar-normal-bottomright" width="1" height="1" x="17" y="17" class="surf-var" />
-    <g id="tab-normal-group">
+    <!-- <g id="tab-normal-group">
       <use id="tab-normal-topleft" href="#sq-8-tl" class="surf-cont-high" />
       <use id="tab-normal-top" href="#sq-8-t" class="surf-cont-high" />
       <use id="tab-normal-topright" href="#sq-8-tr" class="surf-cont-high" />
@@ -782,16 +837,16 @@
         <use href="#tab-normal-bottomright" />
         <path d="M 32,32 a 2,2 0 0 0 -2,-2 h -6 v 2 Z" class="pri" />
       </g>
-    </g>
-    <rect id="tabframe-normal-topleft" width="1" height="1" x="32" class="surf-var" />
+    </g> -->
+    <!-- <rect id="tabframe-normal-topleft" width="1" height="1" x="32" class="surf-var" />
     <rect id="tabframe-normal-top" width="16" height="1" x="33" class="surf-var" />
     <rect id="tabframe-normal-topright" width="1" height="1" x="49" class="surf-var" />
     <rect id="tabframe-normal-left" width="1" height="16" x="32" y="1" class="surf-var" />
     <rect id="tabframe-normal-right" width="1" height="16" x="49" y="1" class="surf-var" />
     <rect id="tabframe-normal-bottomleft" width="1" height="1" x="32" y="17" class="surf-var" />
     <rect id="tabframe-normal-bottom" width="16" height="1" x="33" y="17" class="surf-var" />
-    <rect id="tabframe-normal-bottomright" width="1" height="1" x="49" y="17" class="surf-var" />
-    <g id="tab-close-normal">
+    <rect id="tabframe-normal-bottomright" width="1" height="1" x="49" y="17" class="surf-var" /> -->
+    <!-- <g id="tab-close-normal">
       <use href="#icon-box" />
       <use href="#close" class="on-surf" />
     </g>
@@ -806,8 +861,8 @@
     <g id="tab-close-disabled" transform="translate(10,10)">
       <use href="#icon-box" />
       <use href="#close" class="disabled-text" />
-    </g>
-  </g> -->
+    </g> -->
+  </g>
   <!-- <g id="slider-group" transform="translate(52,144)">
     <g id="slider-normal-group">
       <use id="slider-normal-topleft" href="#slider-tl" class="sec-cont" />
@@ -1235,36 +1290,33 @@
   <!-- <rect id="dock-normal" width="16" height="4" y="4" class="surf-cont-high" /> -->
   <!--   
   id="tab-tear"
-
   id="focus-top"
   id="focus-right"
   id="focus-bottom"
   id="focus-left"
   -->
-  <g id="g-arrow" transform="translate(152)">
-    <use id="arrow-up-normal" href="#x-up" x="0" y="0" class="on-surf-var" />
-    <use id="arrow-down-normal" href="#x-down" x="24" y="0" class="on-surf-var" />
-    <use id="arrow-left-normal" href="#x-left" x="0" y="24" class="on-surf-var" />
-    <use id="arrow-right-normal" href="#x-right" x="24" y="24" class="on-surf-var" />
-    <use id="arrow-add-normal" href="#x-add" x="0" y="48" class="on-surf-var" />
-    <use id="arrow-minus-normal" href="#x-minus" x="24" y="48" class="on-surf-var" />
-    <use id="arrow-up-focused" href="#x-up" x="0" y="0" class="on-surf-var" />
-    <use id="arrow-down-focused" href="#x-down" x="24" y="0" class="on-surf-var" />
-    <use id="arrow-left-focused" href="#x-left" x="0" y="24" class="on-surf-var" />
-    <use id="arrow-right-focused" href="#x-right" x="24" y="24" class="on-surf-var" />
-    <use id="arrow-add-focused" href="#x-add" x="0" y="48" class="on-surf-var" />
-    <use id="arrow-minus-focused" href="#x-minus" x="24" y="48" class="on-surf-var" />
-    <use id="arrow-up-pressed" href="#x-up" x="0" y="0" class="on-surf-var" />
-    <use id="arrow-down-pressed" href="#x-down" x="24" y="0" class="on-surf-var" />
-    <use id="arrow-left-pressed" href="#x-left" x="0" y="24" class="on-surf-var" />
-    <use id="arrow-right-pressed" href="#x-right" x="24" y="24" class="on-surf-var" />
-    <use id="arrow-add-pressed" href="#x-add" x="0" y="48" class="on-surf-var" />
-    <use id="arrow-minus-pressed" href="#x-minus" x="24" y="48" class="on-surf-var" />
-    <use id="arrow-up-disabled" href="#x-up" x="0" y="0" class="disabled-text" />
-    <use id="arrow-down-disabled" href="#x-down" x="24" y="0" class="disabled-text" />
-    <use id="arrow-left-disabled" href="#x-left" x="0" y="24" class="disabled-text" />
-    <use id="arrow-right-disabled" href="#x-right" x="24" y="24" class="disabled-text" />
-    <use id="arrow-add-disabled" href="#x-add" x="0" y="48" class="disabled-text" />
-    <use id="arrow-minus-disabled" href="#x-minus" x="24" y="48" class="disabled-text" />
+  <g id="mdi-menu-normal" transform="translate(0,64)">
+    <rect width="20" height="20" fill="none" x="0" y="0" />
+    <path d="m 1,16 v -2 h 18 v 2 z M 1,11 V 9 h 18 v 2 z M 1,6 V 4 h 18 v 2 z" class="on-surf-var" />
   </g>
+  <use id="mdi-close-normal" xlink:href="#x-close" x="20" y="64" class="on-surf-var" />
+  <use id="mdi-maximize-normal" xlink:href="#x-maximize" x="40" y="64" class="on-surf-var" />
+  <use id="mdi-restore-normal" xlink:href="#x-restore" x="60" y="64" class="on-surf-var" />
+  <use id="mdi-minimize-normal" xlink:href="#x-minus" x="80" y="64" class="on-surf-var" />
+  <use id="mdi-shade-normal" xlink:href="#x-shade" x="100" y="64" class="on-surf-var" />
+  <use id="mdi-close-focused" xlink:href="#x-close" x="20" y="64" class="on-surf" />
+  <use id="mdi-maximize-focused" xlink:href="#x-maximize" x="40" y="64" class="on-surf" />
+  <use id="mdi-restore-focused" xlink:href="#x-restore" x="60" y="64" class="on-surf" />
+  <use id="mdi-minimize-focused" xlink:href="#x-minus" x="80" y="64" class="on-surf" />
+  <use id="mdi-shade-focused" xlink:href="#x-shade" x="100" y="64" class="on-surf" />
+  <use id="mdi-close-pressed" xlink:href="#x-close" x="20" y="64" class="on-surf" />
+  <use id="mdi-maximize-pressed" xlink:href="#x-maximize" x="40" y="64" class="on-surf" />
+  <use id="mdi-restore-pressed" xlink:href="#x-restore" x="60" y="64" class="on-surf" />
+  <use id="mdi-minimize-pressed" xlink:href="#x-minus" x="80" y="64" class="on-surf" />
+  <use id="mdi-shade-pressed" xlink:href="#x-shade" x="100" y="64" class="on-surf" />
+  <use id="mdi-close-disabled" xlink:href="#x-close" x="20" y="64" class="disabled-text" />
+  <use id="mdi-maximize-disabled" xlink:href="#x-maximize" x="40" y="64" class="disabled-text" />
+  <use id="mdi-restore-disabled" xlink:href="#x-restore" x="60" y="64" class="disabled-text" />
+  <use id="mdi-minimize-disabled" xlink:href="#x-minus" x="80" y="64" class="disabled-text" />
+  <use id="mdi-shade-disabled" xlink:href="#x-shade" x="100" y="64" class="disabled-text" />
 </svg>
