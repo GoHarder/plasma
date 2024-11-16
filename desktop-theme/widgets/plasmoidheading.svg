@@ -6,39 +6,30 @@
     }
   </style>
   <g id="header-topleft">
-    <path d="M 12,0 A 12,12 0 0 0 0,12 h 12 z" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <path d="M 12,0 A 12,12 0 0 0 0,12 h 12 z" fill="#ffffff" opacity="0.05" />
   </g>
   <g id="header-top">
-    <rect width="36" height="12" x="12" y="0" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <rect width="36" height="12" x="12" y="0" fill="#ffffff" opacity="0.05" />
   </g>
   <g id="header-topright">
-    <path d="M 48,0 A 12,12 0 0 1 60,12 H 48 Z" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <path d="M 48,0 A 12,12 0 0 1 60,12 H 48 Z" fill="#ffffff" opacity="0.05" />
   </g>
   <g id="header-left">
-    <rect width="12" height="36" x="0" y="12" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <rect width="12" height="36" x="0" y="12" fill="#ffffff" opacity="0.05" />
   </g>
   <g id="header-center">
-    <rect width="36" height="36" x="12" y="12" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <rect width="36" height="36" x="12" y="12" fill="#ffffff" opacity="0.05" />
   </g>
   <g id="header-right">
-    <rect width="12" height="36" x="48" y="12" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <rect width="12" height="36" x="48" y="12" fill="#ffffff" opacity="0.05" />
   </g>
   <g id="header-bottomleft">
-    <rect width="12" height="12" x="0" y="48" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <rect width="12" height="12" x="0" y="48" fill="#ffffff" opacity="0.05" />
   </g>
   <g id="header-bottom">
-    <rect width="36" height="12" x="12" y="48" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <rect width="36" height="12" x="12" y="48" fill="#ffffff" opacity="0.05" />
   </g>
   <g id="header-bottomright">
-    <rect width="12" height="12" x="48" y="48" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <rect width="12" height="12" x="48" y="48" fill="#ffffff" opacity="0.05" />
   </g>
   <rect id="hint-top-margin" width="4" height="12" x="28" y="0" fill="#ff00ff" />
@@ -46,39 +37,30 @@
   <rect id="hint-right-margin" width="12" height="4" x="48" y="28" fill="#ff00ff" />
   <rect id="hint-bottom-margin" width="4" height="12" x="28" y="48" fill="#ff00ff" />
   <g id="footer-topleft">
-    <rect width="12" height="12" x="60" y="0" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <rect width="12" height="12" x="60" y="0" fill="#ffffff" opacity="0.05" />
   </g>
   <g id="footer-top">
-    <rect width="36" height="12" x="72" y="0" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <rect width="36" height="12" x="72" y="0" fill="#ffffff" opacity="0.05" />
   </g>
   <g id="footer-topright">
-    <rect width="12" height="12" x="108" y="0" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <rect width="12" height="12" x="108" y="0" fill="#ffffff" opacity="0.05" />
   </g>
   <g id="footer-left">
-    <rect width="12" height="36" x="60" y="12" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <rect width="12" height="36" x="60" y="12" fill="#ffffff" opacity="0.05" />
   </g>
   <g id="footer-center">
-    <rect width="36" height="36" x="72" y="12" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <rect width="36" height="36" x="72" y="12" fill="#ffffff" opacity="0.05" />
   </g>
   <g id="footer-right">
-    <rect width="12" height="36" x="108" y="12" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <rect width="12" height="36" x="108" y="12" fill="#ffffff" opacity="0.05" />
   </g>
   <g id="footer-bottomleft">
-    <path d="M 72,60 A 12,12 0 0 1 60,48 h 12 z" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <path d="M 72,60 A 12,12 0 0 1 60,48 h 12 z" fill="#ffffff" opacity="0.05" />
   </g>
   <g id="footer-bottom">
-    <rect width="36" height="12" x="72" y="48" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <rect width="36" height="12" x="72" y="48" fill="#ffffff" opacity="0.05" />
   </g>
   <g id="footer-bottomright">
-    <path d="M 108,60 A 12,12 0 0 0 120,48 H 108 Z" class="ColorScheme-Background" fill="currentColor" opacity="0.75" />
     <path d="M 108,60 A 12,12 0 0 0 120,48 H 108 Z" fill="#ffffff" opacity="0.05" />
   </g>
   <circle id="hint-stretch-borders" cx="1" cy="1" r="1" fill="#ff8000" />
