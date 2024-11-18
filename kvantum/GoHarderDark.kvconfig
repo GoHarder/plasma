@@ -164,7 +164,7 @@ link.visited.color=#7eb0bd
 [Hacks]
 respect_darkness=true
 
-# PanelButtonCommand
+# [PanelButtonCommand]
 ; text.normal.color = onSecondaryContainer
 ; text.focus.color = onSecondaryContainer
 ; text.press.color = onSecondaryContainer
@@ -278,20 +278,32 @@ text.focus.color=#e2e2e5
 
 # [ToolboxTab]
 
-; [Tab]
-; inherits=PanelButtonCommand
-; interior.element=tab
-; frame.element=tab
-; indicator.element=tab
-; text.margin.top=4
-; text.margin.bottom=4
-; text.margin.left=4
-; text.margin.right=4
-; text.iconspacing=4
-; text.normal.color=#c2c7cf
-; text.focus.color=#95ccff
-; text.press.color=#e2e2e5
-; text.toggle.color=#95ccff
+# [Tab]
+; text.normal.color=onSurface
+; text.focus.color=onSurface
+; text.press.color=onSurface
+; text.toggle.color=primary
+
+[Tab]
+frame=true
+frame.element=tab
+frame.top=2
+frame.bottom=2
+frame.left=2
+frame.right=2
+interior=true
+interior.element=tab
+indicator.size=24
+text.shadow=false
+text.margin.top=4
+text.margin.bottom=4
+text.margin.left=4
+text.margin.right=4
+text.iconspacing=4
+text.normal.color=#c2c7cf
+text.focus.color=#c2c7cf
+text.press.color=#c2c7cf
+text.toggle.color=#95ccff
 
 ; [TabFrame]
 ; inherits=GenericFrame
@@ -302,12 +314,10 @@ text.focus.color=#e2e2e5
 ; frame.right=1
 ; interior.element=common
 
-; [TabBarFrame]
-; inherits=TabFrame
-; frame=true
-; frame.element=tabbar
-; interior=false
-; text.shadow=false
+[TabBarFrame]
+inherits=Tab
+frame.element=tabbar
+interior.element=tabbar
 
 # [TreeExpander]
 
