@@ -36,6 +36,15 @@ left_tabs=true
 group_toolbar_buttons=true
 ; toolbar_item_spacing=0 < is 0 because of group_toolbar_buttons
 ; toolbar_interior_spacing=0
+; toolbar_separator_thickness=2
+; center_toolbar_handle=false
+; slim_toolbars=false
+; toolbutton_style=0
+
+# dialogs
+; dialog_button_layout=0
+
+; MARK: spread_header
 
 # progressbar
 spread_progressbar=true
@@ -236,16 +245,16 @@ text.margin.right=3
 
 # [Focus]
 
-; [GenericFrame]
-; frame=true
-; frame.element=common
-; frame.top=8
-; frame.bottom=8
-; frame.left=8
-; frame.right=8
-; interior=true
-; interior.element=common
-; text.margin=false
+[GenericFrame]
+frame=true
+frame.element=common
+frame.top=8
+frame.bottom=8
+frame.left=8
+frame.right=8
+interior=true
+interior.element=common
+text.margin=false
 
 [LineEdit]
 frame=true
