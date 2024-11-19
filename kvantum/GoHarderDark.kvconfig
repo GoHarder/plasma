@@ -44,13 +44,19 @@ group_toolbar_buttons=true
 # dialogs
 ; dialog_button_layout=0
 
-; MARK: spread_header
+# header
+; spread_header=false
+
+# menubar
+; menubar_mouse_tracking=true
+; merge_menubar_with_toolbar=false
 
 # progressbar
 spread_progressbar=true
 progressbar_thickness=6
 
 # menu
+; scrollable_menu=true
 spread_menuitems=true
 menu_separator_height=8
 ; submenu_overlap=0
@@ -81,6 +87,8 @@ check_size=24
 ; bluring=true
 composite=true
 opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,VirtualBoxVM,trojita,dragon,digikam,lyx
+
+; MARK: popup_blurring
 
 scroll_width=14
 
