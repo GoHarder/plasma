@@ -10,7 +10,7 @@
       }
     </style>
   </defs>
-  <rect width="13.938" height="8.889" x="4.889" y="11.556" class="ColorScheme-PositiveText" fill="currentColor" />
+  <rect width="12.384" height="6.669" x="5.999" y="12.666" class="ColorScheme-PositiveText" fill="currentColor" />
   <path
     d="m 25.911,9.334 q 0.472,0 0.792,0.319 Q 27.022,9.973 27.022,10.445 v 2.889 h 2.311 v 5.333 h -2.311 v 2.889 q 0,0.472 -0.32,0.792 -0.319,0.319 -0.792,0.319 H 3.777 q -0.472,0 -0.792,-0.319 Q 2.666,22.028 2.666,21.556 V 10.445 q 0,-0.472 0.319,-0.792 Q 3.305,9.334 3.777,9.334 Z m -1.111,2.222 H 4.889 v 8.889 H 24.8 Z"
     class="ColorScheme-Text" fill="currentColor" />
