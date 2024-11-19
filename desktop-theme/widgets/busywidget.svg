@@ -14,19 +14,19 @@
   <g id="busywidget">
     <rect width="36" height="36" fill="none" />
     <path
-      d="m 18,2 a 16,16 0 0 0 -16,16 16,16 0 0 0 16,16 16,16 0 0 0 16,-16 h -2 a 14,14 0 0 1 -14,14 14,14 0 0 1 -14,-14 14,14 0 0 1 14,-14 z"
+      d="m 18,2 a 16,16 0 0 0 -16,16 16,16 0 0 0 16,16 16,16 0 0 0 16,-16 h -3.556 a 12.444,12.444 0 0 1 -12.444,12.444 12.444,12.444 0 0 1 -12.444,-12.444 12.444,12.444 0 0 1 12.444,-12.444 z"
       class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
   <g id="22-22-busywidget" transform="translate(36,0)">
     <rect width="22" height="22" fill="none" />
     <path
-      d="m 11,1 a 10,10 0 0 0 -10,10 10,10 0 0 0 10,10 10,10 0 0 0 10,-10 h -2 a 8,8 0 0 1 -8,8 8,8 0 0 1 -8,-8 8,8 0 0 1 8,-8 z"
+      d="m 11,1 a 10,10 0 0 0 -10,10 10,10 0 0 0 10,10 10,10 0 0 0 10,-10 h -2.222 a 7.778,7.778 0 0 1 -7.778,7.778 7.778,7.778 0 0 1 -7.778,-7.778 7.778,7.778 0 0 1 7.778,-7.778 z"
       class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
   <g id="16-16-busywidget" transform="translate(36,22)">
     <rect width="16" height="16" fill="none" />
     <path
-      d="m 11,1 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 h -2 a 5,5 0 0 1 -5,5 5,5 0 0 1 -5,-5 5,5 0 0 1 5,-5 z"
+      d="M 8,1 a 7,7 0 0 0 -7,7 7,7 0 0 0 7,7 7,7 0 0 0 7,-7 h -1.556 a 5.444,5.444 0 0 1 -5.444,5.444 5.444,5.444 0 0 1 -5.444,-5.444 5.444,5.444 0 0 1 5.444,-5.444 Z"
       class="ColorScheme-ButtonHover" fill="currentColor" />
   </g>
   <g id="stopped" transform="translate(0,36)">
