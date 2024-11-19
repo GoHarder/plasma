@@ -334,11 +334,11 @@ interior.element=tabbar
 [SizeGrip]
 indicator.element=sizegrip
 
-; [Toolbar]
-; inherits=PanelButtonTool
-; indicator.element=toolbar
-; indicator.size=6
-; frame=false
+[Toolbar]
+inherits=PanelButtonTool
+indicator.element=toolbar
+indicator.size=6
+frame=false
 
 # [ToolbarButton]
 
