@@ -405,11 +405,15 @@ frame=false
 ; frame.left=2
 ; frame.right=2
 
-; [ItemView]
-; inherits=PanelButtonTool
-; text.margin=false
-; frame=false
-; interior.element=itemview
+[ItemView]
+inherits=PanelButtonTool
+text.margin=false
+frame.element=itemview
+interior.element=itemview
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
 
 ; [Splitter]
 ; inherits=PanelButtonTool

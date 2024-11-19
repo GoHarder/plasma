@@ -151,6 +151,15 @@
     <rect id="x-tab-bl" width="2" height="2" x="0" y="18" />
     <rect id="x-tab-b" width="16" height="2" x="2" y="18" />
     <rect id="x-tab-br" width="2" height="2" x="18" y="18" />
+    <path id="x-itemview-tl" d="M 4,0 a 4,4 0 0 0 -4,4 h 4 z" />
+    <rect id="x-itemview-t" width="16" height="4" x="4" y="0" />
+    <path id="x-itemview-tr" d="m 20,0 a 4,4 0 0 1 4,4 h -4 z" />
+    <rect id="x-itemview-l" width="4" height="16" x="0" y="4" />
+    <rect id="x-itemview-c" width="16" height="16" x="4" y="4" />
+    <rect id="x-itemview-r" width="4" height="16" x="20" y="4" />
+    <path id="x-itemview-bl" d="M 4,24 a 4,4 0 0 1 -4,-4 h 4 z" />
+    <rect id="x-itemview-b" width="16" height="4" x="4" y="20" />
+    <path id="x-itemview-br" d="m 20,24 a 4,4 0 0 0 4,-4 h -4 z" />
     <path id="x-sizegrip"
       d="M 7,0 A 1,1 0 0 0 6,1 1,1 0 0 0 7,2 1,1 0 0 0 8,1 1,1 0 0 0 7,0 Z M 7,3 A 1,1 0 0 0 6,4 1,1 0 0 0 7,5 1,1 0 0 0 8,4 1,1 0 0 0 7,3 Z M 7,6 A 1,1 0 0 0 6,7 1,1 0 0 0 7,8 1,1 0 0 0 8,7 1,1 0 0 0 7,6 Z M 4,3 A 1,1 0 0 0 3,4 1,1 0 0 0 4,5 1,1 0 0 0 5,4 1,1 0 0 0 4,3 Z M 4,6 A 1,1 0 0 0 3,7 1,1 0 0 0 4,8 1,1 0 0 0 5,7 1,1 0 0 0 4,6 Z M 1,6 A 1,1 0 0 0 0,7 1,1 0 0 0 1,8 1,1 0 0 0 2,7 1,1 0 0 0 1,6 Z" />
     <path id="x-radio-unchk"
@@ -721,11 +730,46 @@
       <path d="m 2,8 h 4 v 4 H 2 Z m 0,6 h 4 v 4 H 2 Z m 0,6 h 4 v 4 H 2 Z" class="on-surf-var" />
     </g>
   </g>
-  <!-- <g id="g-sizegrip" transform="translate(160,32)">
-    <use id="sizegrip-normal" href="#x-sizegrip" x="0" y="0" class="on-surf-var" opacity="0.38" />
-    <use id="sizegrip-focused" href="#x-sizegrip" x="8" y="0" class="on-surf" opacity="0.38" />
+  <g id="g-sizegrip" transform="translate(84,64)">
+    <use id="sizegrip-normal" xlink:href="#x-sizegrip" x="0" y="0" class="on-surf-var" />
+    <use id="sizegrip-focused" xlink:href="#x-sizegrip" x="8" y="0" class="on-surf" />
   </g>
-  <g id="g-mdi" transform="translate(0,88)">
+  <g id="g-itemview" transform="translate(0,130)">
+    <g id="g-itemview-focused">
+      <use id="itemview-focused-topleft" xlink:href="#x-itemview-tl" class="on-surf" opacity="0.08" />
+      <use id="itemview-focused-top" xlink:href="#x-itemview-t" class="on-surf" opacity="0.08" />
+      <use id="itemview-focused-topright" xlink:href="#x-itemview-tr" class="on-surf" opacity="0.08" />
+      <use id="itemview-focused-left" xlink:href="#x-itemview-l" class="on-surf" opacity="0.08" />
+      <use id="itemview-focused" xlink:href="#x-itemview-c" class="on-surf" opacity="0.08" />
+      <use id="itemview-focused-right" xlink:href="#x-itemview-r" class="on-surf" opacity="0.08" />
+      <use id="itemview-focused-bottomleft" xlink:href="#x-itemview-bl" class="on-surf" opacity="0.08" />
+      <use id="itemview-focused-bottom" xlink:href="#x-itemview-b" class="on-surf" opacity="0.08" />
+      <use id="itemview-focused-bottomright" xlink:href="#x-itemview-br" class="on-surf" opacity="0.08" />
+    </g>
+    <g id="g-itemview-pressed" transform="translate(24)">
+      <use id="itemview-pressed-topleft" xlink:href="#x-itemview-tl" class="sec-cont" />
+      <use id="itemview-pressed-top" xlink:href="#x-itemview-t" class="sec-cont" />
+      <use id="itemview-pressed-topright" xlink:href="#x-itemview-tr" class="sec-cont" />
+      <use id="itemview-pressed-left" xlink:href="#x-itemview-l" class="sec-cont" />
+      <use id="itemview-pressed" xlink:href="#x-itemview-c" class="sec-cont" />
+      <use id="itemview-pressed-right" xlink:href="#x-itemview-r" class="sec-cont" />
+      <use id="itemview-pressed-bottomleft" xlink:href="#x-itemview-bl" class="sec-cont" />
+      <use id="itemview-pressed-bottom" xlink:href="#x-itemview-b" class="sec-cont" />
+      <use id="itemview-pressed-bottomright" xlink:href="#x-itemview-br" class="sec-cont" />
+    </g>
+    <g id="g-itemview-toggled" transform="translate(48)">
+      <use id="itemview-toggled-topleft" xlink:href="#x-itemview-tl" class="disabled-back" />
+      <use id="itemview-toggled-top" xlink:href="#x-itemview-t" class="disabled-back" />
+      <use id="itemview-toggled-topright" xlink:href="#x-itemview-tr" class="disabled-back" />
+      <use id="itemview-toggled-left" xlink:href="#x-itemview-l" class="disabled-back" />
+      <use id="itemview-toggled" xlink:href="#x-itemview-c" class="disabled-back" />
+      <use id="itemview-toggled-right" xlink:href="#x-itemview-r" class="disabled-back" />
+      <use id="itemview-toggled-bottomleft" xlink:href="#x-itemview-bl" class="disabled-back" />
+      <use id="itemview-toggled-bottom" xlink:href="#x-itemview-b" class="disabled-back" />
+      <use id="itemview-toggled-bottomright" xlink:href="#x-itemview-br" class="disabled-back" />
+    </g>
+  </g>
+  <!-- <g id="g-mdi" transform="translate(0,88)">
     <g id="mdi-menu-normal">
       <rect width="20" height="20" fill="none" x="0" y="0" />
       <path d="m 1,16 v -2 h 18 v 2 z M 1,11 V 9 h 18 v 2 z M 1,6 V 4 h 18 v 2 z" class="on-surf-var" />
@@ -751,16 +795,7 @@
     <use id="mdi-minimize-disabled" xlink:href="#x-minus" x="80" y="0" class="disabled-text" />
     <use id="mdi-shade-disabled" xlink:href="#x-shade" x="100" y="0" class="disabled-text" />
   </g>
-  
   -->
-  <!-- <g id="toolbar-group" transform="translate(136,32)">
-    <use id="toolbar-normal" x="-8" y="-8" href="#sq-8-c" class="surf-cont-high" />
-    <rect id="toolbar-separator" width="8" height="10" opacity="0" />
-    <g id="toolbar-handle">
-      <rect width="8" height="32" opacity="0" />
-      <path d="M 7,24 H 5 V 8 H 7 Z M 3,24 H 1 V 8 h 2 z" class="disabled-text" />
-    </g>
-  </g> -->
   <!-- <g id="itemview-group" transform="translate(72,112)">
     <use id="itemview-focused" x="-8" y="-8" href="#sq-8-c" class="on-surf" opacity="0.08" />
     <use id="itemview-pressed" x="8" y="-8" href="#sq-8-c" class="sec-cont" />
@@ -834,7 +869,8 @@
     <use id="progress-pattern-disabled-bottom" href="#progress-b" y="8" class="disabled-back" />
     <use id="progress-pattern-disabled-bottomright" href="#progress-br" y="8" class="disabled-back" />
   </g> -->
-  <!-- <g id="g-tabs">
+  <!-- MARK: Tabs -->
+  <g id="g-tabs">
     <g id="g-tab-normal">
       <use id="tab-normal-topleft" href="#x-tab-tl" class="surf" />
       <use id="tab-normal-top" href="#x-tab-t" class="surf" />
@@ -922,7 +958,7 @@
       <use id="tabbar-normal-bottom" href="#tab-normal-bottom" />
       <use id="tabbar-normal-bottomright" href="#tab-normal-bottomright" />
     </g>
-  </g> -->
+  </g>
   <g id="tab-group">
     <!-- 
     <rect id="tabframe-normal-topleft" width="1" height="1" x="32" class="surf-var" />
