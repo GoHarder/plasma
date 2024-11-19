@@ -48,7 +48,7 @@ group_toolbar_buttons=true
 
 # progressbar
 spread_progressbar=true
-progressbar_thickness=4
+progressbar_thickness=6
 
 # menu
 spread_menuitems=true
@@ -384,26 +384,26 @@ frame=false
 ; frame=false
 ; interior.element=slidercursor
 
-; [Progressbar]
-; inherits=PanelButtonTool
-; frame.element=progress
-; interior=false
-; frame.top=2
-; frame.bottom=2
-; frame.left=2
-; frame.right=2
-; text.focus.color=white
-; text.bold=true
+[Progressbar]
+inherits=PanelButtonTool
+frame.element=progress
+interior=false
+frame.top=3
+frame.bottom=3
+frame.left=3
+frame.right=3
+text.focus.color=white
+text.bold=true
 
-; [ProgressbarContents]
-; inherits=PanelButtonTool
-; frame=true
-; frame.element=progress-pattern
-; interior=false
-; frame.top=2
-; frame.bottom=2
-; frame.left=2
-; frame.right=2
+[ProgressbarContents]
+inherits=PanelButtonTool
+frame=true
+frame.element=progress-pattern
+interior=false
+frame.top=3
+frame.bottom=3
+frame.left=3
+frame.right=3
 
 [ItemView]
 inherits=PanelButtonTool

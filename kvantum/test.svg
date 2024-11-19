@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="120" height="120" version="1.1" id="svg2" sodipodi:docname="test.svg"
+  inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <defs id="defs2">
+    <filter id="shadow-2" x="-0.36" y="-0.36" width="1.72" height="1.77">
+      <!-- after -->
+      <feFlood in="SourceGraphic" result="flood-a1" flood-opacity="0.15" />
+      <feComposite in="flood-a1" result="comp-a1" in2="SourceGraphic" operator="out" />
+      <feMorphology in="SourceGraphic" operator="erode" radius="6" result="scale-a1" />
+      <feGaussianBlur in="scale-a1" result="blur-a1" stdDeviation="6" />
+      <feOffset in="blur-a1" result="offset-a1" dx="0" dy="2" />
+      <feComposite in="comp-a1" in2="offset-a1" result="comp-a2" operator="in" />
+      <!-- before -->
+      <feFlood in="SourceGraphic" result="flood-b1" flood-opacity="0.3" />
+      <feComposite in="flood-b1" result="comp-b1" in2="SourceGraphic" operator="out" />
+      <feMorphology in="SourceGraphic" operator="erode" radius="2" result="scale-b1" />
+      <feGaussianBlur in="scale-b1" result="blur-b1" stdDeviation="2" />
+      <feOffset in="blur-b1" result="offset-b1" dx="0" dy="1" />
+      <feComposite in="comp-b1" in2="offset-b1" result="comp-b2" operator="in" />
+      <feComposite in="comp-b2" in2="comp-a2" result="comp-3" operator="over" />
+    </filter>
+  </defs>
+  <circle cx="60" cy="60" r="20" style="filter:url(#shadow-2)" />
+  <circle cx="60" cy="60" r="20" fill="red" />
+</svg>
