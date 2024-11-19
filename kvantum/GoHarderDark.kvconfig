@@ -82,7 +82,7 @@ check_size=24
 composite=true
 opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,VirtualBoxVM,trojita,dragon,digikam,lyx
 
-scroll_width=10
+scroll_width=14
 
 # window
 ; window.color = surfaceContainerHigh

@@ -802,11 +802,6 @@
     <use id="mdi-shade-disabled" xlink:href="#x-shade" x="100" y="0" class="disabled-text" />
   </g>
   -->
-  <!-- <g id="itemview-group" transform="translate(72,112)">
-    <use id="itemview-focused" x="-8" y="-8" href="#sq-8-c" class="on-surf" opacity="0.08" />
-    <use id="itemview-pressed" x="8" y="-8" href="#sq-8-c" class="sec-cont" />
-    <use id="itemview-toggled" x="-8" y="8" href="#sq-8-c" class="disabled-back" />
-  </g> -->
   <!-- <g id="g-group" transform="translate(0,144)">
     <g id="group-normal-topleft">
       <rect width="11" height="11" x="0" y="0" opacity="0" />
