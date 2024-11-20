@@ -484,18 +484,17 @@ frame.right=4
 [ComboBox]
 inherits=LineEdit
 
-; [GroupBox]
-; inherits=GenericFrame
-; frame=true
-; frame.element=group
-; interior=true
-; interior.element=group
-; text.shadow=false
-; text.margin=0
-; frame.top=11
-; frame.bottom=11
-; frame.left=11
-; frame.right=11
+[GroupBox]
+inherits=GenericFrame
+frame=true
+frame.element=group
+interior=false
+text.shadow=false
+text.margin=0
+frame.top=15
+frame.bottom=15
+frame.left=15
+frame.right=15
 
 ; [ToolTip]
 ; inherits=GenericFrame
