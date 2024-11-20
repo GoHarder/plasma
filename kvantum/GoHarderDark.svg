@@ -117,20 +117,20 @@
       <path d="m 9,11 v 6 H 7 V 13 H 3 v -2 z m 4,-8 v 4 h 4 V 9 H 11 V 3 Z" />
     </g>
     <g id="x-down">
-      <rect width="14" height="14" fill="none" x="0" y="0" />
-      <path d="M 7,10 2,5 h 10 z" />
+      <rect width="10" height="10" fill="none" x="0" y="0" />
+      <path d="M 5,8 0,3 h 10 z" />
     </g>
     <g id="x-left">
-      <rect width="14" height="14" fill="none" x="0" y="0" />
-      <path d="M 9,12 4,7 9,2 Z" />
+      <rect width="10" height="10" fill="none" x="0" y="0" />
+      <path d="M 7,10 2,5 7,0 Z" />
     </g>
     <g id="x-right">
-      <rect width="14" height="14" fill="none" x="0" y="0" />
-      <path d="M 5,12 V 2 l 5,5 z" />
+      <rect width="10" height="10" fill="none" x="0" y="0" />
+      <path d="M 3,10 V 0 l 5,5 z" />
     </g>
     <g id="x-up">
-      <rect width="14" height="14" fill="none" x="0" y="0" />
-      <path d="M 2,9 7,4 12,9 Z" />
+      <rect width="10" height="10" fill="none" x="0" y="0" />
+      <path d="M 0,7 5,2 10,7 Z" />
     </g>
     <!-- MARK: Shapes -->
     <path id="x-btn-tl" d="M 8,0 A 8,8 0 0 0 0,8 h 8 z" />
@@ -190,7 +190,7 @@
       <use id="button-normal-bottomleft" xlink:href="#x-btn-bl" class="sec-cont" />
       <use id="button-normal-bottom" xlink:href="#x-btn-b" class="sec-cont" />
       <use id="button-normal-bottomright" xlink:href="#x-btn-br" class="sec-cont" />
-      <use id="ar-1-down-normal" href="#x-down" x="9" y="9" class="on-sec-cont" />
+      <use id="ar-1-down-normal" href="#x-down" x="11" y="11" class="on-sec-cont" />
       <rect id="button-default-indicator" width="5" height="5" fill="none" x="0" y="0" />
     </g>
     <g id="g-button-focused" transform="translate(32)">
@@ -230,7 +230,7 @@
         <use xlink:href="#button-normal-bottomright" />
         <use xlink:href="#x-btn-br" class="pri" opacity="0.08" />
       </g>
-      <use id="ar-1-down-focused" href="#x-down" x="9" y="9" class="on-sec-cont" />
+      <use id="ar-1-down-focused" href="#x-down" x="11" y="11" class="on-sec-cont" />
     </g>
     <g id="g-button-pressed" transform="translate(64)">
       <g id="button-pressed-topleft">
@@ -269,7 +269,7 @@
         <use xlink:href="#button-normal-bottomright" />
         <use xlink:href="#x-btn-br" class="pri" opacity="0.1" />
       </g>
-      <use id="ar-1-down-pressed" href="#x-down" x="9" y="9" class="on-sec-cont" />
+      <use id="ar-1-down-pressed" href="#x-down" x="11" y="11" class="on-sec-cont" />
     </g>
     <g id="g-button-toggled" transform="translate(96)">
       <use id="button-toggled-topleft" xlink:href="#x-btn-tl" class="surf-cont-highest" />
@@ -281,7 +281,7 @@
       <use id="button-toggled-bottomleft" xlink:href="#x-btn-bl" class="surf-cont-highest" />
       <use id="button-toggled-bottom" xlink:href="#x-btn-b" class="surf-cont-highest" />
       <use id="button-toggled-bottomright" xlink:href="#x-btn-br" class="surf-cont-highest" />
-      <use id="ar-1-down-disabled" href="#x-down" x="9" y="9" class="disabled-text" />
+      <use id="ar-1-down-disabled" href="#x-down" x="11" y="11" class="disabled-text" />
     </g>
     <g id="g-button-default" transform="translate(128)">
       <use id="button-default-topleft" href="#button-normal-topleft" />
@@ -851,7 +851,7 @@
     </g>
   </g> -->
   <!-- MARK: Tabs -->
-  <g id="g-tabs">
+  <!-- <g id="g-tabs">
     <g id="g-tab-normal">
       <use id="tab-normal-topleft" href="#x-tab-tl" class="surf" />
       <use id="tab-normal-top" href="#x-tab-t" class="surf" />
@@ -939,7 +939,7 @@
       <use id="tabbar-normal-bottom" href="#tab-normal-bottom" />
       <use id="tabbar-normal-bottomright" href="#tab-normal-bottomright" />
     </g>
-  </g>
+  </g> -->
   <g id="tab-group">
     <!-- 
     <rect id="tabframe-normal-topleft" width="1" height="1" x="32" class="surf-var" />
