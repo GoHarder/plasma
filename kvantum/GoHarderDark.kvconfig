@@ -301,7 +301,7 @@ frame.left=2
 frame.right=2
 interior=true
 interior.element=tab
-indicator.size=14
+indicator.size=12
 text.shadow=false
 text.margin=true
 text.margin.top=8
@@ -314,14 +314,14 @@ text.focus.color=#c2c7cf
 text.press.color=#c2c7cf
 text.toggle.color=#95ccff
 
-; [TabFrame]
-; inherits=GenericFrame
-; frame.element=tabframe
-; frame.top=1
-; frame.bottom=1
-; frame.left=1
-; frame.right=1
-; interior.element=common
+[TabFrame]
+inherits=GenericFrame
+frame.element=tabframe
+frame.top=1
+frame.bottom=1
+frame.left=1
+frame.right=1
+interior.element=common
 
 [TabBarFrame]
 inherits=Tab

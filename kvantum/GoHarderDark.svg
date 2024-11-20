@@ -728,7 +728,7 @@
     <use id="common-normal-bottom" href="#x-btn-b" class="surf-cont" />
     <use id="common-normal-bottomright" href="#x-btn-br" class="surf-cont" />
   </g>
-  <g id="g-toolbar" transform="translate(125,130)">
+  <g id="g-toolbar" transform="translate(143,130)">
     <use id="toolbar-normal" href="#x-btn-c" class="surf-cont-high" />
     <rect id="toolbar-separator" width="8" height="10" opacity="0" x="0" y="0" />
     <g id="toolbar-handle">
@@ -809,7 +809,7 @@
       <path d="m 30,38 a 8,8 0 0 0 8,-8 h -1 a 7,7 0 0 1 -7,7 z" class="outline" />
     </g>
   </g>
-  <g id="dial-group" transform="translate(80,130)">
+  <g id="dial-group" transform="translate(98,130)">
     <circle id="dial" cx="22.5" cy="22.5" r="22.5" class="surf-cont-highest" />
     <g id="dial-notches">
       <rect width="45" height="45" x="0" y="0" opacity="0" />
@@ -936,17 +936,17 @@
       <use id="tabbar-normal-bottom" href="#tab-normal-bottom" />
       <use id="tabbar-normal-bottomright" href="#tab-normal-bottomright" />
     </g>
+    <g id="g-tabframe" transform="translate(80)">
+      <rect id="tabframe-normal-topleft" width="1" height="1" x="0" y="0" class="surf-var" />
+      <rect id="tabframe-normal-top" width="16" height="1" x="1" y="0" class="surf-var" />
+      <rect id="tabframe-normal-topright" width="1" height="1" x="17" class="surf-var" y="0" />
+      <rect id="tabframe-normal-left" width="1" height="16" x="0" y="1" class="surf-var" />
+      <rect id="tabframe-normal-right" width="1" height="16" x="17" y="1" class="surf-var" />
+      <rect id="tabframe-normal-bottomleft" width="1" height="1" x="0" y="17" class="surf-var" />
+      <rect id="tabframe-normal-bottom" width="16" height="1" x="1" y="17" class="surf-var" />
+      <rect id="tabframe-normal-bottomright" width="1" height="1" x="17" y="17" class="surf-var" />
+    </g>
   </g>
-  <!-- 
-    <rect id="tabframe-normal-topleft" width="1" height="1" x="32" class="surf-var" />
-    <rect id="tabframe-normal-top" width="16" height="1" x="33" class="surf-var" />
-    <rect id="tabframe-normal-topright" width="1" height="1" x="49" class="surf-var" />
-    <rect id="tabframe-normal-left" width="1" height="16" x="32" y="1" class="surf-var" />
-    <rect id="tabframe-normal-right" width="1" height="16" x="49" y="1" class="surf-var" />
-    <rect id="tabframe-normal-bottomleft" width="1" height="1" x="32" y="17" class="surf-var" />
-    <rect id="tabframe-normal-bottom" width="16" height="1" x="33" y="17" class="surf-var" />
-    <rect id="tabframe-normal-bottomright" width="1" height="1" x="49" y="17" class="surf-var" /> 
-    -->
   <!-- <g id="g-mdi" transform="translate(0,88)">
     <g id="mdi-menu-normal">
       <rect width="20" height="20" fill="none" x="0" y="0" />
