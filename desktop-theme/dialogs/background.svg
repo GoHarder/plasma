@@ -87,7 +87,7 @@
     <rect id="clip-b" width="36" height="5.5" x="17.5" y="65.5" fill="url(#ag-b)" opacity="0.15" />
     <rect width="36" height="1" x="17.5" y="65.5" fill="url(#bg-b)" opacity="0.3" />
   </g>
-  <g id="shadow-bottomright">
+  <g id="-bottomright">
     <rect width="17.5" height="17.5" x="53.5" y="53.5" fill="none" />
     <path d="M 65.5 53.5 A 12 12 0 0 1 64.801 57.5 L 67 57.5 L 67 53.5 L 65.5 53.5 z" fill="url(#ag-r)"
       opacity="0.15" />
@@ -97,14 +97,14 @@
     <path d="M 65.439 54.5 A 12 12 0 0 1 53.5 65.5 L 53.5 66.5 A 12 12 0 0 0 65.5 54.5 L 65.439 54.5 z"
       fill="url(#bg-br)" opacity="0.3" />
   </g>
-  <rect id="shdow-hint-top-margin" width="2" height="5.5" x="33.5" y="0" fill="#ff00ff" />
-  <rect id="shdow-hint-left-margin" width="5.5" height="2" x="0" y="35.5" fill="#ff00ff" />
-  <rect id="shdow-hint-right-margin" width="5.5" height="2" x="65.5" y="33.5" fill="#ff00ff" />
-  <rect id="shdow-hint-bottom-margin" width="2" height="5.5" x="35.5" y="65.5" fill="#ff00ff" />
-  <rect id="shdow-hint-top-inset" width="2" height="5.5" x="35.5" y="0" fill="#00ff00" />
-  <rect id="shdow-hint-left-inset" width="5.5" height="2" x="0" y="33.5" fill="#00ff00" />
-  <rect id="shdow-hint-right-inset" width="5.5" height="2" x="65.5" y="35.5" fill="#00ff00" />
-  <rect id="shdow-hint-bottom-inset" width="2" height="5.5" x="33.5" y="65.5" fill="#00ff00" />
+  <rect id="shadow-hint-top-margin" width="2" height="5.5" x="33.5" y="0" fill="#ff00ff" />
+  <rect id="shadow-hint-left-margin" width="5.5" height="2" x="0" y="35.5" fill="#ff00ff" />
+  <rect id="shadow-hint-right-margin" width="5.5" height="2" x="65.5" y="33.5" fill="#ff00ff" />
+  <rect id="shadow-hint-bottom-margin" width="2" height="5.5" x="35.5" y="65.5" fill="#ff00ff" />
+  <rect id="shadow-hint-top-inset" width="2" height="5.5" x="35.5" y="0" fill="#00ff00" />
+  <rect id="shadow-hint-left-inset" width="5.5" height="2" x="0" y="33.5" fill="#00ff00" />
+  <rect id="shadow-hint-right-inset" width="5.5" height="2" x="65.5" y="35.5" fill="#00ff00" />
+  <rect id="shadow-hint-bottom-inset" width="2" height="5.5" x="33.5" y="65.5" fill="#00ff00" />
   <g transform="translate(0,71)">
     <path id="mask-topleft" d="m 17.5,6.5 a 14,14 0 0 0 -11,11 h 11 z" />
     <rect id="mask-top" width="36" height="12" x="17.5" y="5.5" />
