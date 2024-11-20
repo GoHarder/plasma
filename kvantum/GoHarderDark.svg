@@ -733,12 +733,12 @@
     <rect id="toolbar-separator" width="8" height="10" opacity="0" x="0" y="0" />
     <g id="toolbar-handle">
       <rect width="8" height="32" fill="none" x="0" y="0" />
-      <path d="m 2,8 h 4 v 4 H 2 Z m 0,6 h 4 v 4 H 2 Z m 0,6 h 4 v 4 H 2 Z" class="on-surf-var" />
+      <path d="m 2,8 h 4 v 4 H 2 Z m 0,6 h 4 v 4 H 2 Z m 0,6 h 4 v 4 H 2 Z" class="surf-var" />
     </g>
   </g>
   <g id="g-sizegrip" transform="translate(84,64)">
-    <use id="sizegrip-normal" xlink:href="#x-sizegrip" x="0" y="0" class="on-surf-var" />
-    <use id="sizegrip-focused" xlink:href="#x-sizegrip" x="8" y="0" class="on-surf" />
+    <use id="sizegrip-normal" xlink:href="#x-sizegrip" x="0" y="0" class="disabled-text" />
+    <use id="sizegrip-focused" xlink:href="#x-sizegrip" x="8" y="0" class="on-surf-var" />
   </g>
   <g id="g-itemview" transform="translate(0,130)">
     <g id="g-itemview-focused">
