@@ -76,7 +76,7 @@ tooltip_shadow_depth=6
 splitter_width=6
 
 # slider
-slider_width=4
+slider_width=6
 slider_handle_width=17
 slider_handle_length=17
 
@@ -378,14 +378,14 @@ frame=false
 
 # [ScrollbarTransientSlider]
 
-; [Slider]
-; inherits=PanelButtonTool
-; frame.element=slider
-; interior.element=slider
-; frame.top=2
-; frame.bottom=2
-; frame.left=2
-; frame.right=2
+[Slider]
+inherits=PanelButtonTool
+frame.element=slider
+interior.element=slider
+frame.top=3
+frame.bottom=3
+frame.left=3
+frame.right=3
 
 ; [SliderCursor]
 ; inherits=PanelButtonCommand
