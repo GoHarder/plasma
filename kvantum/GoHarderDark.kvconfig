@@ -81,7 +81,7 @@ slider_handle_width=17
 slider_handle_length=17
 
 # checkbox
-check_size=24
+check_size=20
 
 # rendering
 ; bluring=true
@@ -193,16 +193,23 @@ frame.expanded.right=1
 interior=true
 interior.element=button
 indicator.element=ar-1
-indicator.size=12
+indicator.size=10
 text.shadow=false
-text.margin=false
-text.iconspacing=4
+text.margin=true
+text.margin.top=0
+text.margin.bottom=0
+text.margin.left=3
+text.margin.right=3
+text.iconspacing=2
 text.normal.color=#d5e4f6
 text.focus.color=#d5e4f6
 text.press.color=#d5e4f6
 text.toggle.color=#c2c7cf
 
 [PanelButtonTool]
+inherits=PanelButtonCommand
+
+[ToolbarButton]
 inherits=PanelButtonCommand
 frame.element=tool-button
 frame.expanded.top=1
@@ -215,6 +222,7 @@ text.normal.color=#95ccff
 text.focus.color=#95ccff
 text.press.color=#95ccff
 text.toggle.color=#d5e4f6
+
 
 ; [Dock]
 ; inherits=PanelButtonTool
@@ -343,7 +351,7 @@ interior.element=tabbar
 indicator.element=sizegrip
 
 [Toolbar]
-inherits=PanelButtonTool
+inherits=ToolbarButton
 indicator.element=toolbar
 indicator.size=6
 frame=false
