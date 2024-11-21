@@ -434,26 +434,34 @@ frame.right=4
 ; indicator.element=splitter-grip
 ; indicator.size=16
 
-; [Menu]
-; inherits=PanelButtonTool
-; frame.element=menu
-; interior.element=menu
-; frame.top=4
-; frame.bottom=4
-; frame.left=8
-; frame.right=8
+[Menu]
+inherits=PanelButtonTool
+frame.element=menu
+interior.element=menu
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
+text.normal.color=#e2e2e5
+text.focus.color=#e2e2e5
+text.press.color=#e2e2e5
+text.toggle.color=#e2e2e5
 
-; [MenuItem]
-; inherits=PanelButtonTool
-; frame=true
-; interior.element=menuitem
-; frame.element=menuitem
-; indicator.element=menuitem
-; min_height=22
-; frame.top=1
-; frame.bottom=1
-; frame.left=8
-; frame.right=8
+[MenuItem]
+inherits=PanelButtonTool
+frame=true
+interior.element=menuitem
+frame.element=menuitem
+indicator.element=menuitem
+min_height=22
+frame.top=1
+frame.bottom=1
+frame.left=8
+frame.right=8
+text.normal.color=#e2e2e5
+text.focus.color=#e2e2e5
+text.press.color=#e2e2e5
+text.toggle.color=#e2e2e5
 
 # [MenuBar]
 
