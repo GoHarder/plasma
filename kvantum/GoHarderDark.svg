@@ -643,25 +643,25 @@
     <use id="arrow-up-normal" xlink:href="#x-up" x="14" y="0" class="on-surf-var" />
     <use id="arrow-left-normal" xlink:href="#x-left" x="28" y="0" class="on-surf-var" />
     <use id="arrow-right-normal" xlink:href="#x-right" x="42" y="0" class="on-surf-var" />
-    <use id="arrow-add-normal" xlink:href="#x-add" x="56" y="0" class="on-surf-var" />
+    <use id="arrow-plus-normal" xlink:href="#x-add" x="56" y="0" class="on-surf-var" />
     <use id="arrow-minus-normal" xlink:href="#x-minus" x="70" y="0" class="on-surf-var" />
     <use id="arrow-down-focused" xlink:href="#x-down" x="0" y="0" class="on-surf" />
     <use id="arrow-up-focused" xlink:href="#x-up" x="14" y="0" class="on-surf" />
     <use id="arrow-left-focused" xlink:href="#x-left" x="28" y="0" class="on-surf" />
     <use id="arrow-right-focused" xlink:href="#x-right" x="42" y="0" class="on-surf" />
-    <use id="arrow-add-focused" xlink:href="#x-add" x="56" y="0" class="on-surf" />
+    <use id="arrow-plus-focused" xlink:href="#x-add" x="56" y="0" class="on-surf" />
     <use id="arrow-minus-focused" xlink:href="#x-minus" x="70" y="0" class="on-surf" />
     <use id="arrow-down-pressed" xlink:href="#x-down" x="0" y="0" class="on-surf" />
     <use id="arrow-up-pressed" xlink:href="#x-up" x="14" y="0" class="on-surf" />
     <use id="arrow-left-pressed" xlink:href="#x-left" x="28" y="0" class="on-surf" />
     <use id="arrow-right-pressed" xlink:href="#x-right" x="42" y="0" class="on-surf" />
-    <use id="arrow-add-pressed" xlink:href="#x-add" x="56" y="0" class="on-surf" />
+    <use id="arrow-plus-pressed" xlink:href="#x-add" x="56" y="0" class="on-surf" />
     <use id="arrow-minus-pressed" xlink:href="#x-minus" x="70" y="0" class="on-surf" />
     <use id="arrow-down-disabled" xlink:href="#x-down" x="0" y="0" class="disabled-text" />
     <use id="arrow-up-disabled" xlink:href="#x-up" x="14" y="0" class="disabled-text" />
     <use id="arrow-left-disabled" xlink:href="#x-left" x="28" y="0" class="disabled-text" />
     <use id="arrow-right-disabled" xlink:href="#x-right" x="42" y="0" class="disabled-text" />
-    <use id="arrow-add-disabled" xlink:href="#x-add" x="56" y="0" class="disabled-text" />
+    <use id="arrow-plus-disabled" xlink:href="#x-add" x="56" y="0" class="disabled-text" />
     <use id="arrow-minus-disabled" xlink:href="#x-minus" x="70" y="0" class="disabled-text" />
   </g>
   <g id="g-lineedit" transform="translate(136,32)">
@@ -1054,65 +1054,14 @@
       <circle id="base" cx="13" cy="13" r="10" class="disabled-text" />
     </g>
   </g>
-  <!-- <g id="g-mdi" transform="translate(0,88)">
-    <g id="mdi-menu-normal">
-      <rect width="20" height="20" fill="none" x="0" y="0" />
-      <path d="m 1,16 v -2 h 18 v 2 z M 1,11 V 9 h 18 v 2 z M 1,6 V 4 h 18 v 2 z" class="on-surf-var" />
-    </g>
-    <use id="mdi-close-normal" xlink:href="#x-close" x="20" y="0" class="on-surf-var" />
-    <use id="mdi-maximize-normal" xlink:href="#x-maximize" x="40" y="0" class="on-surf-var" />
-    <use id="mdi-restore-normal" xlink:href="#x-restore" x="60" y="0" class="on-surf-var" />
-    <use id="mdi-minimize-normal" xlink:href="#x-minus" x="80" y="0" class="on-surf-var" />
-    <use id="mdi-shade-normal" xlink:href="#x-shade" x="100" y="0" class="on-surf-var" />
-    <use id="mdi-close-focused" xlink:href="#x-close" x="20" y="0" class="on-surf" />
-    <use id="mdi-maximize-focused" xlink:href="#x-maximize" x="40" y="0" class="on-surf" />
-    <use id="mdi-restore-focused" xlink:href="#x-restore" x="60" y="0" class="on-surf" />
-    <use id="mdi-minimize-focused" xlink:href="#x-minus" x="80" y="0" class="on-surf" />
-    <use id="mdi-shade-focused" xlink:href="#x-shade" x="100" y="0" class="on-surf" />
-    <use id="mdi-close-pressed" xlink:href="#x-close" x="20" y="0" class="on-surf" />
-    <use id="mdi-maximize-pressed" xlink:href="#x-maximize" x="40" y="0" class="on-surf" />
-    <use id="mdi-restore-pressed" xlink:href="#x-restore" x="60" y="0" class="on-surf" />
-    <use id="mdi-minimize-pressed" xlink:href="#x-minus" x="80" y="0" class="on-surf" />
-    <use id="mdi-shade-pressed" xlink:href="#x-shade" x="100" y="0" class="on-surf" />
-    <use id="mdi-close-disabled" xlink:href="#x-close" x="20" y="0" class="disabled-text" />
-    <use id="mdi-maximize-disabled" xlink:href="#x-maximize" x="40" y="0" class="disabled-text" />
-    <use id="mdi-restore-disabled" xlink:href="#x-restore" x="60" y="0" class="disabled-text" />
-    <use id="mdi-minimize-disabled" xlink:href="#x-minus" x="80" y="0" class="disabled-text" />
-    <use id="mdi-shade-disabled" xlink:href="#x-shade" x="100" y="0" class="disabled-text" />
+  <g id="g-splitter" transform="translate(208,32)">
+    <rect id="splitter-grip-normal" width="1" height="16" x="0" y="0" fill="none" />
+    <rect id="splitter-grip-pressed" width="1" height="16" x="0" y="0" fill="none" />
+    <rect id="splitter-grip-focused" width="1" height="16" x="0" y="0" fill="none" />
+    <rect id="splitter-normal" width="1" height="16" x="0" y="0" class="outline" />
+    <rect id="splitter-focused" width="1" height="16" x="1" y="0" class="sec" />
+    <rect id="splitter-pressed" width="1" height="16" x="2" y="0" class="sec" />
   </g>
-  -->
-  <!-- <g id="splitter-group" transform="translate(32,156)">
-    <use id="splitter-grip-normal" href="#grip" class="disabled-text" />
-    <use id="splitter-grip-pressed" href="#grip" opacity="0" />
-    <use id="splitter-grip-focused" href="#grip" opacity="0" />
-    <use id="splitter-normal-topleft" href="#splitter-tl" opacity="0" />
-    <use id="splitter-normal-top" href="#splitter-t" opacity="0" />
-    <use id="splitter-normal-topright" href="#splitter-tr" opacity="0" />
-    <use id="splitter-normal-left" href="#splitter-l" opacity="0" />
-    <use id="splitter-normal" href="#splitter-c" opacity="0" />
-    <use id="splitter-normal-right" href="#splitter-r" opacity="0" />
-    <use id="splitter-normal-bottomleft" href="#splitter-bl" opacity="0" />
-    <use id="splitter-normal-bottom" href="#splitter-b" opacity="0" />
-    <use id="splitter-normal-bottomright" href="#splitter-br" opacity="0" />
-    <use id="splitter-focused-topleft" href="#splitter-tl" x="4" class="outline" opacity="0.38" />
-    <use id="splitter-focused-top" href="#splitter-t" x="4" class="outline" opacity="0.38" />
-    <use id="splitter-focused-topright" href="#splitter-tr" x="4" class="outline" opacity="0.38" />
-    <use id="splitter-focused-left" href="#splitter-l" x="4" class="outline" opacity="0.38" />
-    <use id="splitter-focused" href="#splitter-c" x="4" class="outline" opacity="0.38" />
-    <use id="splitter-focused-right" href="#splitter-r" x="4" class="outline" opacity="0.38" />
-    <use id="splitter-focused-bottomleft" href="#splitter-bl" x="4" class="outline" opacity="0.38" />
-    <use id="splitter-focused-bottom" href="#splitter-b" x="4" class="outline" opacity="0.38" />
-    <use id="splitter-focused-bottomright" href="#splitter-br" x="4" class="outline" opacity="0.38" />
-    <use id="splitter-pressed-topleft" href="#splitter-tl" x="8" class="outline" />
-    <use id="splitter-pressed-top" href="#splitter-t" x="8" class="outline" />
-    <use id="splitter-pressed-topright" href="#splitter-tr" x="8" class="outline" />
-    <use id="splitter-pressed-left" href="#splitter-l" x="8" class="outline" />
-    <use id="splitter-pressed" href="#splitter-c" x="8" class="outline" />
-    <use id="splitter-pressed-right" href="#splitter-r" x="8" class="outline" />
-    <use id="splitter-pressed-bottomleft" href="#splitter-bl" x="8" class="outline" />
-    <use id="splitter-pressed-bottom" href="#splitter-b" x="8" class="outline" />
-    <use id="splitter-pressed-bottomright" href="#splitter-br" x="8" class="outline" />
-  </g> -->
   <g id="g-menu" transform="translate(156,101)">
     <path id="menu-normal-topleft" d="M 7,3 A 4,4 0 0 0 3,7 h 4 z" class="surf-cont" />
     <rect id="menu-normal-top" width="16" height="4" x="7" y="3" class="surf-cont" />
@@ -1392,13 +1341,13 @@
     </g>
   </g> -->
   <!-- MARK: Scroll Test -->
-  <!-- <rect id="groove-normal" width="8" height="13" class="on-surf-var" opacity="0.08" />
+  <rect id="groove-normal" width="8" height="13" class="on-surf-var" opacity="0.08" />
   <rect id="grip-normal" width="8" height="13" fill="none" />
   <rect id="grip-focused" width="8" height="13" fill="none" />
   <rect id="grip-pressed" width="8" height="13" fill="none" />
   <rect id="scrollbarslider-normal" width="8" height="13" class="on-surf-var" opacity="0.18" />
   <rect id="scrollbarslider-focused" width="8" height="13" class="on-surf-var" opacity="0.25" />
-  <rect id="scrollbarslider-pressed" width="8" height="13" class="on-surf-var" opacity="0.5" /> -->
+  <rect id="scrollbarslider-pressed" width="8" height="13" class="on-surf-var" opacity="0.5" />
   <!-- <g id="scroll-group" transform="translate(152,78)">
     <use id="groove-normal-topleft" href="#splitter-tl" class="outline-var" />
     <use id="groove-normal-top" href="#splitter-t" class="outline-var" />
@@ -1469,10 +1418,31 @@
   id="focus-bottom"
   id="focus-left"
   -->
-  <!-- 
-  <circle cx="13" cy="13" r="13" class="pri" opacity="0.08" />
-  <circle id="after" cx="13" cy="14" r="10.5" fill="url(#slide-agc)" opacity="0.15" />
-  <circle id="before" cx="13" cy="14" r="10" fill="url(#slide-bgc)" opacity="0.3" />
-  <circle id="base" cx="13" cy="13" r="10" class="pri" /> 
+  <!-- <g id="g-mdi" transform="translate(0,88)">
+    <g id="mdi-menu-normal">
+      <rect width="20" height="20" fill="none" x="0" y="0" />
+      <path d="m 1,16 v -2 h 18 v 2 z M 1,11 V 9 h 18 v 2 z M 1,6 V 4 h 18 v 2 z" class="on-surf-var" />
+    </g>
+    <use id="mdi-close-normal" xlink:href="#x-close" x="20" y="0" class="on-surf-var" />
+    <use id="mdi-maximize-normal" xlink:href="#x-maximize" x="40" y="0" class="on-surf-var" />
+    <use id="mdi-restore-normal" xlink:href="#x-restore" x="60" y="0" class="on-surf-var" />
+    <use id="mdi-minimize-normal" xlink:href="#x-minus" x="80" y="0" class="on-surf-var" />
+    <use id="mdi-shade-normal" xlink:href="#x-shade" x="100" y="0" class="on-surf-var" />
+    <use id="mdi-close-focused" xlink:href="#x-close" x="20" y="0" class="on-surf" />
+    <use id="mdi-maximize-focused" xlink:href="#x-maximize" x="40" y="0" class="on-surf" />
+    <use id="mdi-restore-focused" xlink:href="#x-restore" x="60" y="0" class="on-surf" />
+    <use id="mdi-minimize-focused" xlink:href="#x-minus" x="80" y="0" class="on-surf" />
+    <use id="mdi-shade-focused" xlink:href="#x-shade" x="100" y="0" class="on-surf" />
+    <use id="mdi-close-pressed" xlink:href="#x-close" x="20" y="0" class="on-surf" />
+    <use id="mdi-maximize-pressed" xlink:href="#x-maximize" x="40" y="0" class="on-surf" />
+    <use id="mdi-restore-pressed" xlink:href="#x-restore" x="60" y="0" class="on-surf" />
+    <use id="mdi-minimize-pressed" xlink:href="#x-minus" x="80" y="0" class="on-surf" />
+    <use id="mdi-shade-pressed" xlink:href="#x-shade" x="100" y="0" class="on-surf" />
+    <use id="mdi-close-disabled" xlink:href="#x-close" x="20" y="0" class="disabled-text" />
+    <use id="mdi-maximize-disabled" xlink:href="#x-maximize" x="40" y="0" class="disabled-text" />
+    <use id="mdi-restore-disabled" xlink:href="#x-restore" x="60" y="0" class="disabled-text" />
+    <use id="mdi-minimize-disabled" xlink:href="#x-minus" x="80" y="0" class="disabled-text" />
+    <use id="mdi-shade-disabled" xlink:href="#x-shade" x="100" y="0" class="disabled-text" />
+  </g>
   -->
 </svg>

@@ -73,7 +73,6 @@ PrimaryContainer = #95ccff + black at 70%
 onPrimaryContainer = #95ccff + white at 50%
 
 ## TODO
-- [ ] Check if busy widget works
-- [ ] Check glow bar
-- [ ] Adjust line color
-- [ ] Adjust view item color
+- [ ] Kvantum
+  - [ ] Tool buttons need arrows
+  - [ ] Increase line edit size
