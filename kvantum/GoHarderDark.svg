@@ -1379,6 +1379,15 @@
       <rect id="tooltip-shadow-hint-bottom" width="1" height="1.5" x="12" y="12.5" fill="#ff00ff" />
     </g>
   </g> -->
+
+  <rect id="groove-normal" width="8" height="13" class="on-surf-var" opacity="0.08" />
+  <rect id="grip-normal" width="8" height="13" fill="none" />
+  <rect id="grip-focused" width="8" height="13" fill="none" />
+  <rect id="grip-pressed" width="8" height="13" fill="none" />
+  <rect id="scrollbarslider-normal" width="8" height="13" class="on-surf-var" opacity="0.18" />
+  <rect id="scrollbarslider-focused" width="8" height="13" class="on-surf-var" opacity="0.25" />
+  <rect id="scrollbarslider-pressed" width="8" height="13" class="on-surf-var" opacity="0.5" />
+
   <!-- <g id="scroll-group" transform="translate(152,78)">
     <use id="groove-normal-topleft" href="#splitter-tl" class="outline-var" />
     <use id="groove-normal-top" href="#splitter-t" class="outline-var" />
@@ -1389,8 +1398,6 @@
     <use id="groove-normal-bottom" href="#splitter-b" class="outline-var" />
     <use id="groove-normal-bottomright" href="#splitter-br" class="outline-var" />
     <rect id="grip-normal" width="8" height="13" opacity="0" />
-    <rect id="grip-focused" width="8" height="13" opacity="0" />
-    <rect id="grip-pressed" width="8" height="13" opacity="0" />
     <g id="scrollbarslider-normal-group" transform="translate(4,0)">
       <use id="scrollbarslider-normal-topleft" href="#scroll-tl" class="on-surf" opacity="0.18" />
       <use id="scrollbarslider-normal-topright" href="#scroll-tr" class="on-surf" opacity="0.18" />

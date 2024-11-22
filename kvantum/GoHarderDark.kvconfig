@@ -293,12 +293,7 @@ text.focus.color=#e2e2e5
 # [DropDownButton]
 
 # [ToolboxTab]
-
-# [Tab]
-; text.normal.color=onSurface
-; text.focus.color=onSurface
-; text.press.color=onSurface
-; text.toggle.color=primary
+; Not used toolbox tabs are the same
 
 [Tab]
 frame=true
@@ -364,25 +359,18 @@ frame=false
 
 # [Scrollbar]
 
-; [ScrollbarGroove]
-; inherits=PanelButtonTool
-; interior=false
-; frame.element=groove
-; frame.top=1
-; frame.bottom=1
-; frame.left=1
-; frame.right=1
+[ScrollbarGroove]
+inherits=PanelButtonTool
+interior=false
+interior.element=groove
+frame=false
 
-; [ScrollbarSlider]
-; inherits=PanelButtonTool
-; frame.element=scrollbarslider
-; interior=false
-; frame.top=5
-; frame.bottom=5
-; frame.left=5
-; frame.right=5
-; indicator.element=grip
-; indicator.size=13
+[ScrollbarSlider]
+inherits=PanelButtonTool
+interior.element=scrollbarslider
+frame=false
+indicator.element=grip
+indicator.size=13
 
 # [ScrollbarTransientSlider]
 
