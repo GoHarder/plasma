@@ -92,33 +92,6 @@ opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidem
 
 scroll_width=14
 
-# window
-; window.color = surfaceContainerHigh
-; inactive.window.color = surfaceContainer
-; window.text.color = onSurface
-; inactive.window.text.color = onSurfaceVariant
-
-# base
-; base.color = surfaceContainer
-; alt.base.color = surfaceContainerLow
-; text.color = onSurface
-; inactive.text.color = onSurfaceVariant
-; disabled.text.color = onSurface 61
-
-# highlight
-; highlight.color = secondaryContainer
-; inactive.highlight.color = secondaryContainer bf
-; highlight.text.color = onSecondaryContainer
-; inactive.highlight.text.color = onSurfaceVariant
-
-# tooltip
-; tooltip.base.color = surfaceContainer
-; tooltip.text.color = onSurfaceVariant
-
-; # button
-; button.color = secondaryContainer
-; button.text.color = onSecondaryContainer
-
 # general
 ; light.color = outline
 ; mid.color=#424748
@@ -172,12 +145,6 @@ link.visited.color=#7eb0bd
 [Hacks]
 respect_darkness=true
 
-# [PanelButtonCommand]
-; text.normal.color = onSecondaryContainer
-; text.focus.color = onSecondaryContainer
-; text.press.color = onSecondaryContainer
-; text.toggle.color = onSurfaceVariant
-
 [PanelButtonCommand]
 frame=true
 frame.element=button
@@ -222,7 +189,6 @@ text.normal.color=#95ccff
 text.focus.color=#95ccff
 text.press.color=#95ccff
 text.toggle.color=#d5e4f6
-
 
 ; [Dock]
 ; inherits=PanelButtonTool
@@ -293,7 +259,7 @@ text.focus.color=#e2e2e5
 # [DropDownButton]
 
 # [ToolboxTab]
-; Not used toolbox tabs are the same
+; Not used 
 
 [Tab]
 frame=true
@@ -352,10 +318,13 @@ indicator.size=6
 frame=false
 
 # [ToolbarButton]
+; Not used 
 
 # [ToolbarComboBox]
+; Not used 
 
 # [ToolbarLineEdit]
+; Not used 
 
 # [Scrollbar]
 

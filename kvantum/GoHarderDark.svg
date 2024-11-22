@@ -31,7 +31,7 @@
     }
 
     .surf {
-      fill: #121416
+      fill: #121416;
     }
 
     .surf-cont-low {
@@ -63,7 +63,7 @@
     }
 
     .outline-var {
-      fill: #42474e
+      fill: #42474e;
     }
 
     .surf-var {
@@ -865,7 +865,7 @@
       <path d="m 30,38 a 8,8 0 0 0 8,-8 h -1 a 7,7 0 0 1 -7,7 z" class="outline" />
     </g>
   </g>
-  <g id="dial-group" transform="translate(98,130)">
+  <g id="g-dial" transform="translate(98,130)">
     <circle id="dial" cx="22.5" cy="22.5" r="22.5" class="surf-cont-highest" />
     <g id="dial-notches">
       <rect width="45" height="45" x="0" y="0" opacity="0" />
