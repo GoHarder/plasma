@@ -77,8 +77,8 @@ splitter_width=6
 
 # slider
 slider_width=6
-slider_handle_width=17
-slider_handle_length=17
+slider_handle_width=26
+slider_handle_length=26
 
 # checkbox
 check_size=20
@@ -395,10 +395,10 @@ frame.bottom=3
 frame.left=3
 frame.right=3
 
-; [SliderCursor]
-; inherits=PanelButtonCommand
-; frame=false
-; interior.element=slidercursor
+[SliderCursor]
+inherits=PanelButtonCommand
+frame=false
+interior.element=slidercursor
 
 [Progressbar]
 inherits=PanelButtonTool

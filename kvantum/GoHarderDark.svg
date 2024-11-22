@@ -1,5 +1,5 @@
-<svg width="224" height="224" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+<svg width="224" height="224" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
   <!-- viewBox="0 0 40 40" -->
   <style>
     .pri {
@@ -212,6 +212,16 @@
     <linearGradient xlink:href="#menu-bg" id="menu-bgb" x1="15" y1="24" x2="15" y2="28"
       gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#menu-bg" id="menu-bgbr" cx="23" cy="24" r="4" gradientUnits="userSpaceOnUse" />
+    <linearGradient id="slide-ag">
+      <stop stop-opacity="1" offset="0.857" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <radialGradient xlink:href="#slide-ag" id="slide-agc" cx="13" cy="14" r="10.5" gradientUnits="userSpaceOnUse" />
+    <linearGradient id="slide-bg">
+      <stop stop-opacity="1" offset="0.9" />
+      <stop stop-opacity="0" offset="1" />
+    </linearGradient>
+    <radialGradient xlink:href="#slide-bg" id="slide-bgc" cx="13" cy="14" r="10" gradientUnits="userSpaceOnUse" />
   </defs>
   <g id="g-button">
     <g id="g-button-normal">
@@ -1008,6 +1018,30 @@
     <rect id="slider-topglow-normal" width="4" height="16" fill="none" x="0" y="0" />
     <rect id="slider-bottomglow-normal" width="4" height="16" fill="none" x="0" y="0" />
   </g>
+  <g id="slidercursor-group" transform="translate(143,130)">
+    <g id="slidercursor-normal">
+      <circle cx="13" cy="13" r="13" fill="none" />
+      <circle cx="13" cy="14" r="10.5" fill="url(#slide-agc)" opacity="0.15" />
+      <circle cx="13" cy="14" r="10" fill="url(#slide-bgc)" opacity="0.3" />
+      <circle cx="13" cy="13" r="10" class="pri" />
+    </g>
+    <g id="slidercursor-focused" transform="translate(26)">
+      <circle cx="13" cy="14" r="10.5" fill="url(#slide-agc)" opacity="0.15" />
+      <circle cx="13" cy="14" r="10" fill="url(#slide-bgc)" opacity="0.3" />
+      <circle cx="13" cy="13" r="13" class="pri" opacity="0.08" />
+      <circle cx="13" cy="13" r="10" class="pri" />
+    </g>
+    <g id="slidercursor-pressed" transform="translate(0,26)">
+      <circle cx="13" cy="14" r="10.5" fill="url(#slide-agc)" opacity="0.15" />
+      <circle cx="13" cy="14" r="10" fill="url(#slide-bgc)" opacity="0.3" />
+      <circle cx="13" cy="13" r="13" class="pri" opacity="0.1" />
+      <circle cx="13" cy="13" r="10" class="pri" />
+    </g>
+    <g id="slidercursor-disabled" transform="translate(26,26)">
+      <circle cx="13" cy="13" r="13" fill="none" />
+      <circle id="base" cx="13" cy="13" r="10" class="disabled-text" />
+    </g>
+  </g>
   <!-- <g id="g-mdi" transform="translate(0,88)">
     <g id="mdi-menu-normal">
       <rect width="20" height="20" fill="none" x="0" y="0" />
@@ -1035,26 +1069,6 @@
     <use id="mdi-shade-disabled" xlink:href="#x-shade" x="100" y="0" class="disabled-text" />
   </g>
   -->
-  <!-- <g id="slidercursor-group" transform="translate(64,144)">
-    <g id="slidercursor-normal">
-      <rect width="17" height="17" x="0" y="0" opacity="0" />
-      <circle cx="8.5" cy="9.5" r="7" fill="url(#slider-bg)" opacity="0.3" />
-      <circle cx="8.5" cy="9.5" r="7.5" fill="url(#slider-ag)" opacity="0.15" />
-      <circle cx="8.5" cy="8.5" r="7" class="pri" />
-    </g>
-    <g id="slidercursor-focused" transform="translate(17)">
-      <rect width="17" height="17" x="0" y="0" opacity="0" />
-      <circle cx="8.5" cy="8.5" r="7" class="pri" />
-    </g>
-    <g id="slidercursor-pressed" transform="translate(0,17)">
-      <rect width="17" height="17" x="0" y="0" opacity="0" />
-      <circle cx="8.5" cy="8.5" r="6" class="pri" />
-    </g>
-    <g id="slidercursor-disabled" transform="translate(17,17)">
-      <rect width="17" height="17" x="0" y="0" opacity="0" />
-      <circle cx="8.5" cy="8.5" r="7" class="disabled-text" />
-    </g>
-  </g> -->
   <!-- <g id="splitter-group" transform="translate(32,156)">
     <use id="splitter-grip-normal" href="#grip" class="disabled-text" />
     <use id="splitter-grip-pressed" href="#grip" opacity="0" />
@@ -1436,5 +1450,11 @@
   id="focus-right"
   id="focus-bottom"
   id="focus-left"
+  -->
+  <!-- 
+  <circle cx="13" cy="13" r="13" class="pri" opacity="0.08" />
+  <circle id="after" cx="13" cy="14" r="10.5" fill="url(#slide-agc)" opacity="0.15" />
+  <circle id="before" cx="13" cy="14" r="10" fill="url(#slide-bgc)" opacity="0.3" />
+  <circle id="base" cx="13" cy="13" r="10" class="pri" /> 
   -->
 </svg>
