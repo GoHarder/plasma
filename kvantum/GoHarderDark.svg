@@ -212,12 +212,6 @@
     <linearGradient xlink:href="#menu-bg" id="menu-bgb" x1="15" y1="24" x2="15" y2="28"
       gradientUnits="userSpaceOnUse" />
     <radialGradient xlink:href="#menu-bg" id="menu-bgbr" cx="23" cy="24" r="4" gradientUnits="userSpaceOnUse" />
-    <radialGradient xlink:href="#menu-ag" id="radialGradient237" gradientUnits="userSpaceOnUse" cx="7" cy="9" r="5" />
-    <radialGradient xlink:href="#menu-ag" id="radialGradient238" gradientUnits="userSpaceOnUse" cx="23" cy="9" r="5" />
-    <linearGradient xlink:href="#menu-ag" id="linearGradient238" gradientUnits="userSpaceOnUse" x1="7" y1="17" x2="2"
-      y2="17" />
-    <linearGradient xlink:href="#menu-ag" id="linearGradient239" gradientUnits="userSpaceOnUse" x1="23" y1="17" x2="28"
-      y2="17" />
   </defs>
   <g id="g-button">
     <g id="g-button-normal">
@@ -1105,8 +1099,7 @@
     <path id="menu-normal-bottomright" d="m 23,27 a 4,4 0 0 0 4,-4 h -4 z" class="surf-cont" />
     <g id="menu-shadow-topleft">
       <rect width="7" height="7" x="0" y="0" fill="none" />
-      <path d="M 3.211,5.745 A 5,5 0 0 0 2.419,7 H 3 A 4,4 0 0 1 3.211,5.745 Z" fill="url(#menu-agtl)" opacity="0.15"
-        style="fill:url(#radialGradient237)" />
+      <path d="M 3.211,5.745 A 5,5 0 0 0 2.419,7 H 3 A 4,4 0 0 1 3.211,5.745 Z" fill="url(#menu-agtl)" opacity="0.15" />
       <use href="#menu-normal-topleft" />
     </g>
     <g id="menu-shadow-top">
@@ -1115,52 +1108,41 @@
     </g>
     <g id="menu-shadow-topright">
       <rect width="7" height="7" x="23" y="0" fill="none" />
-      <path d="M 26.8,5.751 A 4,4 0 0 1 27,7 h 0.582 A 5,5 0 0 0 26.8,5.751 Z" fill="url(#menu-agtr)" opacity="0.15"
-        style="fill:url(#radialGradient238)" />
+      <path d="M 26.8,5.751 A 4,4 0 0 1 27,7 h 0.582 A 5,5 0 0 0 26.8,5.751 Z" fill="url(#menu-agtr)" opacity="0.15" />
       <use href="#menu-normal-topright" />
     </g>
     <g id="menu-shadow-left">
       <rect width="3" height="16" x="0" y="7" fill="none" />
-      <path d="M 2.419,7 A 5,5 0 0 0 2,9 H 3 V 7 Z" fill="url(#menu-agtl)" opacity="0.15"
-        style="fill:url(#menu-agtl)" />
-      <rect width="1" height="14" x="2" y="9" fill="url(#menu-agl)" opacity="0.15"
-        style="fill:url(#linearGradient238)" />
+      <path d="M 2.419,7 A 5,5 0 0 0 2,9 H 3 V 7 Z" fill="url(#menu-agtl)" opacity="0.15" />
+      <rect width="1" height="14" x="2" y="9" fill="url(#menu-agl)" opacity="0.15" />
       <use href="#menu-normal-left" />
     </g>
     <g id="menu-shadow-right">
       <rect width="3" height="16" x="27" y="7" fill="none" />
-      <path d="m 27,7 v 2 h 1 A 5,5 0 0 0 27.582,7 Z" fill="url(#menu-agtr)" opacity="0.15"
-        style="fill:url(#menu-agtr)" />
-      <rect width="1" height="14" x="27" y="9" fill="url(#menu-agr)" opacity="0.15"
-        style="fill:url(#linearGradient239)" />
+      <path d="m 27,7 v 2 h 1 A 5,5 0 0 0 27.582,7 Z" fill="url(#menu-agtr)" opacity="0.15" />
+      <rect width="1" height="14" x="27" y="9" fill="url(#menu-agr)" opacity="0.15" />
       <use href="#menu-normal-right" />
     </g>
     <g id="menu-shadow-bottomleft">
       <rect width="7" height="7" x="0" y="23" fill="none" />
-      <path d="m 2,23 v 2 H 3.536 A 4,4 0 0 1 3,23 Z" fill="url(#menu-agl)" opacity="0.15"
-        style="fill:url(#menu-agl)" />
-      <path d="m 2,25 a 5,5 0 0 0 5,5 V 27 A 4,4 0 0 1 3.536,25 Z" fill="url(#menu-agbl)" opacity="0.15"
-        style="fill:url(#menu-agbl)" />
-      <path d="m 3,23 v 1 H 3.129 A 4,4 0 0 1 3,23 Z" fill="url(#menu-bgl)" opacity="0.3" style="fill:url(#menu-bgl)" />
-      <path d="m 3,24 a 4,4 0 0 0 4,4 V 27 A 4,4 0 0 1 3.129,24 Z" fill="url(#menu-bgbl)" opacity="0.3"
-        style="fill:url(#menu-bgbl)" />
+      <path d="m 2,23 v 2 H 3.536 A 4,4 0 0 1 3,23 Z" fill="url(#menu-agl)" opacity="0.15" />
+      <path d="m 2,25 a 5,5 0 0 0 5,5 V 27 A 4,4 0 0 1 3.536,25 Z" fill="url(#menu-agbl)" opacity="0.15" />
+      <path d="m 3,23 v 1 H 3.129 A 4,4 0 0 1 3,23 Z" fill="url(#menu-bgl)" opacity="0.3" />
+      <path d="m 3,24 a 4,4 0 0 0 4,4 V 27 A 4,4 0 0 1 3.129,24 Z" fill="url(#menu-bgbl)" opacity="0.3" />
       <use href="#menu-normal-bottomleft" />
     </g>
     <g id="menu-shadow-bottom">
       <rect width="16" height="3" x="7" y="27" fill="none" />
-      <rect width="16" height="3" x="7" y="27" fill="url(#menu-agb)" opacity="0.15" style="fill:url(#menu-agb)" />
-      <rect width="16" height="1" x="7" y="27" fill="url(#menu-bgb)" opacity="0.3" style="fill:url(#menu-bgb)" />
+      <rect width="16" height="3" x="7" y="27" fill="url(#menu-agb)" opacity="0.15" />
+      <rect width="16" height="1" x="7" y="27" fill="url(#menu-bgb)" opacity="0.3" />
       <use href="#menu-normal-bottom" />
     </g>
     <g id="menu-shadow-bottomright">
       <rect width="7" height="7" x="23" y="23" fill="none" />
-      <path d="m 27,23 a 4,4 0 0 1 -0.536,2 H 28 v -2 z" fill="url(#menu-agr)" opacity="0.15"
-        style="fill:url(#menu-agr)" />
-      <path d="M 26.464,25 A 4,4 0 0 1 23,27 v 3 a 5,5 0 0 0 5,-5 z" fill="url(#menu-agbr)" opacity="0.15"
-        style="fill:url(#menu-agbr)" />
-      <path d="m 27,23 a 4,4 0 0 1 -0.129,1 H 27 Z" fill="url(#menu-bgr)" opacity="0.3" style="fill:url(#menu-bgr)" />
-      <path d="M 26.871,24 A 4,4 0 0 1 23,27 v 1 a 4,4 0 0 0 4,-4 z" fill="url(#menu-bgbr)" opacity="0.3"
-        style="fill:url(#menu-bgbr)" />
+      <path d="m 27,23 a 4,4 0 0 1 -0.536,2 H 28 v -2 z" fill="url(#menu-agr)" opacity="0.15" />
+      <path d="M 26.464,25 A 4,4 0 0 1 23,27 v 3 a 5,5 0 0 0 5,-5 z" fill="url(#menu-agbr)" opacity="0.15" />
+      <path d="m 27,23 a 4,4 0 0 1 -0.129,1 H 27 Z" fill="url(#menu-bgr)" opacity="0.3" />
+      <path d="M 26.871,24 A 4,4 0 0 1 23,27 v 1 a 4,4 0 0 0 4,-4 z" fill="url(#menu-bgbr)" opacity="0.3" />
       <use href="#menu-normal-bottomright" />
     </g>
     <rect id="menu-shadow-hint-top" width="1" height="3" x="14.5" y="0" fill="#ff00ff" />
