@@ -1054,14 +1054,14 @@
       <circle id="base" cx="13" cy="13" r="10" class="disabled-text" />
     </g>
   </g>
-  <g id="g-splitter" transform="translate(208,32)">
+  <!-- <g id="g-splitter" transform="translate(208,32)">
     <rect id="splitter-grip-normal" width="1" height="16" x="0" y="0" fill="none" />
     <rect id="splitter-grip-pressed" width="1" height="16" x="0" y="0" fill="none" />
     <rect id="splitter-grip-focused" width="1" height="16" x="0" y="0" fill="none" />
     <rect id="splitter-normal" width="1" height="16" x="0" y="0" class="outline" />
     <rect id="splitter-focused" width="1" height="16" x="1" y="0" class="sec" />
     <rect id="splitter-pressed" width="1" height="16" x="2" y="0" class="sec" />
-  </g>
+  </g> -->
   <g id="g-menu" transform="translate(156,101)">
     <path id="menu-normal-topleft" d="M 7,3 A 4,4 0 0 0 3,7 h 4 z" class="surf-cont" />
     <rect id="menu-normal-top" width="16" height="4" x="7" y="3" class="surf-cont" />

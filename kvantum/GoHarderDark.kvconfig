@@ -388,12 +388,12 @@ frame.bottom=4
 frame.left=4
 frame.right=4
 
-[Splitter]
-inherits=PanelButtonTool
-interior.element=splitter
-frame=false
-indicator.element=splitter-grip
-indicator.size=16
+; [Splitter]
+; inherits=PanelButtonTool
+; interior.element=splitter
+; frame=false
+; indicator.element=splitter-grip
+; indicator.size=16
 
 [Menu]
 inherits=PanelButtonTool
