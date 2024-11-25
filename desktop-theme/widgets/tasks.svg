@@ -22,7 +22,7 @@
       }
     </style>
   </defs>
-  <g id="g-progress" display="none">
+  <g id="g-progress">
     <g id="progress-topleft" class="ColorScheme-PositiveText" fill="currentColor" opacity="0.61">
       <rect width="1" height="3" x="0" y="0" fill="none" />
       <rect width="3" height="3" x="1" y="0" />
