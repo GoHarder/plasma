@@ -87,7 +87,7 @@
     <rect id="clip-b" width="36" height="5.5" x="17.5" y="65.5" fill="url(#ag-b)" opacity="0.15" />
     <rect width="36" height="1" x="17.5" y="65.5" fill="url(#bg-b)" opacity="0.3" />
   </g>
-  <g id="-bottomright">
+  <g id="shadow-bottomright">
     <rect width="17.5" height="17.5" x="53.5" y="53.5" fill="none" />
     <path d="M 65.5 53.5 A 12 12 0 0 1 64.801 57.5 L 67 57.5 L 67 53.5 L 65.5 53.5 z" fill="url(#ag-r)"
       opacity="0.15" />
