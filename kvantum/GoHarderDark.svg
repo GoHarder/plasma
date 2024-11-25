@@ -132,6 +132,11 @@
       <rect width="10" height="10" fill="none" x="0" y="0" />
       <path d="M 0,7 5,2 10,7 Z" />
     </g>
+    <rect id="x-back-16" width="16" height="16" x="0" y="0" />
+    <path id="x-down-16" d="M 8,9.6 4.8,6.4 h 6.4 z" />
+    <path id="x-left-16" d="M 9.6,11.2 6.4,8 9.6,4.8 Z" />
+    <path id="x-right-16" d="M 6.4,11.2 V 4.8 L 9.6,8 Z" />
+    <path id="x-up-16" d="M 4.8,9.6 8,6.4 11.2,9.6 Z" />
     <!-- MARK: Shapes -->
     <path id="x-btn-tl" d="M 8,0 A 8,8 0 0 0 0,8 h 8 z" />
     <rect id="x-btn-t" width="16" height="8" x="8" y="0" />
@@ -1340,49 +1345,79 @@
       <rect id="tooltip-shadow-hint-bottom" width="1" height="1.5" x="12" y="12.5" fill="#ff00ff" />
     </g>
   </g> -->
-  <!-- MARK: Scroll Test -->
-  <rect id="groove-normal" width="8" height="13" class="on-surf-var" opacity="0.08" />
-  <rect id="grip-normal" width="8" height="13" fill="none" />
-  <rect id="grip-focused" width="8" height="13" fill="none" />
-  <rect id="grip-pressed" width="8" height="13" fill="none" />
-  <rect id="scrollbarslider-normal" width="8" height="13" class="on-surf-var" opacity="0.18" />
-  <rect id="scrollbarslider-focused" width="8" height="13" class="on-surf-var" opacity="0.25" />
-  <rect id="scrollbarslider-pressed" width="8" height="13" class="on-surf-var" opacity="0.5" />
-  <!-- <g id="scroll-group" transform="translate(152,78)">
-    <use id="groove-normal-topleft" href="#splitter-tl" class="outline-var" />
-    <use id="groove-normal-top" href="#splitter-t" class="outline-var" />
-    <use id="groove-normal-topright" href="#splitter-tr" class="outline-var" />
-    <use id="groove-normal-left" href="#splitter-l" class="outline-var" />
-    <use id="groove-normal-right" href="#splitter-r" class="outline-var" />
-    <use id="groove-normal-bottomleft" href="#splitter-bl" class="outline-var" />
-    <use id="groove-normal-bottom" href="#splitter-b" class="outline-var" />
-    <use id="groove-normal-bottomright" href="#splitter-br" class="outline-var" />
-    <rect id="grip-normal" width="8" height="13" opacity="0" />
-    <g id="scrollbarslider-normal-group" transform="translate(4,0)">
-      <use id="scrollbarslider-normal-topleft" href="#scroll-tl" class="on-surf" opacity="0.18" />
-      <use id="scrollbarslider-normal-topright" href="#scroll-tr" class="on-surf" opacity="0.18" />
-      <use id="scrollbarslider-normal-left" href="#scroll-l" class="on-surf" opacity="0.18" />
-      <use id="scrollbarslider-normal-right" href="#scroll-r" class="on-surf" opacity="0.18" />
-      <use id="scrollbarslider-normal-bottomleft" href="#scroll-bl" class="on-surf" opacity="0.18" />
-      <use id="scrollbarslider-normal-bottomright" href="#scroll-br" class="on-surf" opacity="0.18" />
+  <g id="g-scroll" transform="translate(0,174)">
+    <rect id="groove-normal" width="8" height="8" x="0" y="0" class="on-surf-var" opacity="0.08" />
+    <rect id="grip-normal" width="8" height="8" fill="none" x="0" y="0" />
+    <rect id="grip-focused" width="8" height="8" fill="none" x="0" y="0" />
+    <rect id="grip-pressed" width="8" height="8" fill="none" x="0" y="0" />
+    <rect id="scrollbarslider-normal" width="8" height="8" x="8" y="0" class="on-surf-var" opacity="0.18" />
+    <rect id="scrollbarslider-focused" width="8" height="8" x="0" y="8" class="on-surf-var" opacity="0.25" />
+    <rect id="scrollbarslider-pressed" width="8" height="8" x="8" y="8" class="on-surf-var" opacity="0.5" />
+    <g id="ar-2-up-normal" transform="translate(16)">
+      <use href="#x-back-16" fill="none" />
+      <use href="#x-up-16" class="on-surf-var" />
     </g>
-    <g id="scrollbarslider-focused-group" transform="translate(14,0)">
-      <use id="scrollbarslider-focused-topleft" href="#scroll-tl" class="on-surf" opacity="0.25" />
-      <use id="scrollbarslider-focused-topright" href="#scroll-tr" class="on-surf" opacity="0.25" />
-      <use id="scrollbarslider-focused-left" href="#scroll-l" class="on-surf" opacity="0.25" />
-      <use id="scrollbarslider-focused-right" href="#scroll-r" class="on-surf" opacity="0.25" />
-      <use id="scrollbarslider-focused-bottomleft" href="#scroll-bl" class="on-surf" opacity="0.25" />
-      <use id="scrollbarslider-focused-bottomright" href="#scroll-br" class="on-surf" opacity="0.25" />
+    <g id="ar-2-down-normal" transform="translate(32)">
+      <use href="#x-back-16" fill="none" />
+      <use href="#x-down-16" class="on-surf-var" />
     </g>
-    <g id="scrollbarslider-pressed-group" transform="translate(24,0)">
-      <use id="scrollbarslider-pressed-topleft" href="#scroll-tl" class="on-surf" opacity="0.5" />
-      <use id="scrollbarslider-pressed-topright" href="#scroll-tr" class="on-surf" opacity="0.5" />
-      <use id="scrollbarslider-pressed-left" href="#scroll-l" class="on-surf" opacity="0.5" />
-      <use id="scrollbarslider-pressed-right" href="#scroll-r" class="on-surf" opacity="0.5" />
-      <use id="scrollbarslider-pressed-bottomleft" href="#scroll-bl" class="on-surf" opacity="0.5" />
-      <use id="scrollbarslider-pressed-bottomright" href="#scroll-br" class="on-surf" opacity="0.5" />
+    <g id="ar-2-left-normal" transform="translate(48)">
+      <use href="#x-back-16" fill="none" />
+      <use href="#x-left-16" class="on-surf-var" />
     </g>
-  </g> -->
+    <g id="ar-2-right-normal" transform="translate(64)">
+      <use href="#x-back-16" fill="none" />
+      <use href="#x-right-16" class="on-surf-var" />
+    </g>
+    <g id="ar-2-up-focused" transform="translate(16)">
+      <use href="#x-back-16" class="on-surf-var" opacity="0.08" />
+      <use href="#x-up-16" class="on-surf-var" />
+    </g>
+    <g id="ar-2-down-focused" transform="translate(32)">
+      <use href="#x-back-16" class="on-surf-var" opacity="0.08" />
+      <use href="#x-down-16" class="on-surf-var" />
+    </g>
+    <g id="ar-2-left-focused" transform="translate(48)">
+      <use href="#x-back-16" class="on-surf-var" opacity="0.08" />
+      <use href="#x-left-16" class="on-surf-var" />
+    </g>
+    <g id="ar-2-right-focused" transform="translate(64)">
+      <use href="#x-back-16" class="on-surf-var" opacity="0.08" />
+      <use href="#x-right-16" class="on-surf-var" />
+    </g>
+    <g id="ar-2-up-pressed" transform="translate(16)">
+      <use href="#x-back-16" class="on-surf-var" opacity="0.1" />
+      <use href="#x-up-16" class="on-surf-var" />
+    </g>
+    <g id="ar-2-down-pressed" transform="translate(32)">
+      <use href="#x-back-16" class="on-surf-var" opacity="0.1" />
+      <use href="#x-down-16" class="on-surf-var" />
+    </g>
+    <g id="ar-2-left-pressed" transform="translate(48)">
+      <use href="#x-back-16" class="on-surf-var" opacity="0.1" />
+      <use href="#x-left-16" class="on-surf-var" />
+    </g>
+    <g id="ar-2-right-pressed" transform="translate(64)">
+      <use href="#x-back-16" class="on-surf-var" opacity="0.1" />
+      <use href="#x-right-16" class="on-surf-var" />
+    </g>
+    <g id="ar-2-up-disabled" transform="translate(16)">
+      <use href="#x-back-16" class="disabled-back" />
+      <use href="#x-up-16" class="disabled-text" />
+    </g>
+    <g id="ar-2-down-disabled" transform="translate(32)">
+      <use href="#x-back-16" class="disabled-back" />
+      <use href="#x-down-16" class="disabled-text" />
+    </g>
+    <g id="ar-2-left-disabled" transform="translate(48)">
+      <use href="#x-back-16" class="disabled-back" />
+      <use href="#x-left-16" class="disabled-text" />
+    </g>
+    <g id="ar-2-right-disabled" transform="translate(64)">
+      <use href="#x-back-16" class="disabled-back" />
+      <use href="#x-right-16" class="disabled-text" />
+    </g>
+  </g>
   <!-- <g id="menubaritem-group" transform="translate(152,94)">
     <g id="menubaritem-toggled-group">
       <use id="menubaritem-toggled-topleft" href="#head-tl" class="on-surf" opacity="0.08" />
@@ -1445,4 +1480,8 @@
     <use id="mdi-shade-disabled" xlink:href="#x-shade" x="100" y="0" class="disabled-text" />
   </g>
   -->
+  <!-- <use id="ar-1-up-disabled" href="#x-up" x="6" y="6" class="disabled-text" /> -->
+  <!-- <use id="ar-1-down-disabled" href="#x-down" x="6" y="16" class="disabled-text" /> -->
+  <!-- <use id="ar-1-left-disabled" href="#x-left" x="16" y="6" class="disabled-text" /> -->
+  <!-- <use id="ar-1-right-disabled" href="#x-right" x="16" y="16" class="disabled-text" /> -->
 </svg>

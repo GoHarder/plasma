@@ -258,6 +258,10 @@ text.focus.color=#e2e2e5
 
 # [DropDownButton]
 
+[IndicatorArrow]
+indicator.element=ar-2
+indicator.size=9
+
 # [ToolboxTab]
 ; Not used 
 
@@ -326,7 +330,9 @@ frame=false
 # [ToolbarLineEdit]
 ; Not used 
 
-# [Scrollbar]
+[Scrollbar]
+indicator.element=ar-2
+indicator.size=15
 
 [ScrollbarGroove]
 inherits=PanelButtonTool
