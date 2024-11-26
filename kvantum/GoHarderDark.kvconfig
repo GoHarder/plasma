@@ -92,12 +92,6 @@ opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidem
 
 scroll_width=16
 
-# general
-; light.color = outline
-; mid.color=#424748
-; mid.light.color = outlineVariant
-; dark.color=#121416
-
 [GeneralColors]
 # window
 window.color=#282a2d
@@ -145,6 +139,7 @@ link.visited.color=#7eb0bd
 [Hacks]
 respect_darkness=true
 
+; Primary Button
 [PanelButtonCommand]
 frame=true
 frame.element=button
@@ -173,9 +168,11 @@ text.focus.color=#d5e4f6
 text.press.color=#d5e4f6
 text.toggle.color=#c2c7cf
 
+; Secondary Button
 [PanelButtonTool]
 inherits=PanelButtonCommand
 
+; Buttons For toolbars
 [ToolbarButton]
 inherits=PanelButtonCommand
 frame.element=tool-button
@@ -190,11 +187,13 @@ text.focus.color=#95ccff
 text.press.color=#95ccff
 text.toggle.color=#d5e4f6
 
+; For a dock?
 ; [Dock]
 ; inherits=PanelButtonTool
 ; frame=false
 ; interior=false
 
+; Title of the dock widget?
 ; [DockTitle]
 ; inherits=PanelButtonTool
 ; frame=false
@@ -207,6 +206,7 @@ text.toggle.color=#d5e4f6
 ; text.margin.left=3
 ; text.margin.right=3
 
+; Indicators of a spin widget
 # [IndicatorSpinBox]
 
 [RadioButton]
@@ -225,6 +225,7 @@ text.margin.bottom=2
 text.margin.left=3
 text.margin.right=3
 
+; Generic focus frame
 # [Focus]
 
 [GenericFrame]
@@ -303,14 +304,14 @@ interior.element=tabbar
 
 # [TreeExpander]
 
-; [HeaderSection]
-; inherits=PanelButtonTool
-; interior.element=head
-; frame.element=head
-; frame.top=1
-; frame.bottom=1
-; frame.left=1
-; frame.right=1
+[HeaderSection]
+inherits=PanelButtonTool
+interior.element=head
+frame.element=head
+frame.top=1
+frame.bottom=1
+frame.left=1
+frame.right=1
 
 [SizeGrip]
 indicator.element=sizegrip

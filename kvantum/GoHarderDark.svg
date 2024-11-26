@@ -180,6 +180,15 @@
     <path id="x-slider-bl" d="M 3,22 A 3,3 0 0 1 0,19 h 3 z" />
     <rect id="x-slider-b" width="3" height="3" x="3" y="19" />
     <path id="x-slider-br" d="M 6,22 A 3,3 0 0 0 9,19 H 6 Z" />
+    <rect id="x-head-tl" width="1" height="1" />
+    <rect id="x-head-t" width="16" height="1" x="1" />
+    <rect id="x-head-tr" width="1" height="1" x="17" />
+    <rect id="x-head-l" width="1" height="16" y="1" />
+    <rect id="x-head-c" width="16" height="16" x="1" y="1" />
+    <rect id="x-head-r" width="1" height="16" x="17" y="1" />
+    <rect id="x-head-bl" width="1" height="1" y="17" />
+    <rect id="x-head-b" width="16" height="1" x="1" y="17" />
+    <rect id="x-head-br" width="1" height="1" x="17" y="17" />
     <path id="x-sizegrip"
       d="M 7,0 A 1,1 0 0 0 6,1 1,1 0 0 0 7,2 1,1 0 0 0 8,1 1,1 0 0 0 7,0 Z M 7,3 A 1,1 0 0 0 6,4 1,1 0 0 0 7,5 1,1 0 0 0 8,4 1,1 0 0 0 7,3 Z M 7,6 A 1,1 0 0 0 6,7 1,1 0 0 0 7,8 1,1 0 0 0 8,7 1,1 0 0 0 7,6 Z M 4,3 A 1,1 0 0 0 3,4 1,1 0 0 0 4,5 1,1 0 0 0 5,4 1,1 0 0 0 4,3 Z M 4,6 A 1,1 0 0 0 3,7 1,1 0 0 0 4,8 1,1 0 0 0 5,7 1,1 0 0 0 4,6 Z M 1,6 A 1,1 0 0 0 0,7 1,1 0 0 0 1,8 1,1 0 0 0 2,7 1,1 0 0 0 1,6 Z" />
     <path id="x-radio-unchk"
@@ -1172,110 +1181,110 @@
       <rect width="4" height="1" x="15.5" y="3.5" class="sec" />
     </g>
    -->
-  <!-- <g id="head-group" transform="translate(160,28)">
-    <g id="head-normal-group">
-      <use id="head-normal-topleft" href="#head-tl" class="surf-cont-highest" />
-      <use id="head-normal-top" href="#head-t" class="surf-cont-highest" />
-      <use id="head-normal-topright" href="#head-tr" class="surf-cont-highest" />
-      <use id="head-normal-left" href="#head-l" class="surf-cont-highest" />
-      <use id="head-normal" href="#head-c" class="surf-cont-highest" />
-      <use id="head-normal-right" href="#head-r" class="surf-cont-highest" />
-      <use id="head-normal-bottomleft" href="#head-bl" class="surf-cont-highest" />
-      <use id="head-normal-bottom" href="#head-b" class="surf-cont-highest" />
-      <use id="head-normal-bottomright" href="#head-br" class="surf-cont-highest" />
+  <g id="g-header" transform="translate(0,190)">
+    <g id="g-head-normal">
+      <use id="head-normal-topleft" href="#x-head-tl" fill="none" />
+      <use id="head-normal-top" href="#x-head-t" fill="none" />
+      <use id="head-normal-topright" href="#x-head-tr" fill="none" />
+      <use id="head-normal-left" href="#x-head-l" fill="none" />
+      <use id="head-normal" href="#x-head-c" fill="none" />
+      <use id="head-normal-right" href="#x-head-r" fill="none" />
+      <use id="head-normal-bottomleft" href="#x-head-bl" fill="none" />
+      <use id="head-normal-bottom" href="#x-head-b" fill="none" />
+      <use id="head-normal-bottomright" href="#x=head-br" fill="none" />
     </g>
-    <g id="head-focused-group" transform="translate(18)">
+    <g id="g-head-focused" transform="translate(18)">
       <g id="head-focused-topleft">
         <use href="#head-normal-topleft" />
-        <use href="#head-normal-topleft" class="on-surf" opacity="0.08" />
+        <use href="#x-head-tl" class="on-surf" opacity="0.08" />
       </g>
       <g id="head-focused-top">
         <use href="#head-normal-top" />
-        <use href="#head-t" class="on-surf" opacity="0.08" />
+        <use href="#x-head-t" class="on-surf" opacity="0.08" />
       </g>
       <g id="head-focused-topright">
         <use href="#head-normal-topright" />
-        <use href="#head-tr" class="on-surf" opacity="0.08" />
+        <use href="#x-head-tr" class="on-surf" opacity="0.08" />
       </g>
       <g id="head-focused-left">
         <use href="#head-normal-left" />
-        <use href="#head-l" class="on-surf" opacity="0.08" />
+        <use href="#x-head-l" class="on-surf" opacity="0.08" />
       </g>
       <g id="head-focused">
         <use href="#head-normal" />
-        <use href="#head-c" class="on-surf" opacity="0.08" />
+        <use href="#x-head-c" class="on-surf" opacity="0.08" />
       </g>
       <g id="head-focused-right">
         <use href="#head-normal-right" />
-        <use href="#head-r" class="on-surf" opacity="0.08" />
+        <use href="#x-head-r" class="on-surf" opacity="0.08" />
       </g>
       <g id="head-focused-bottomleft">
         <use href="#head-normal-bottomleft" />
-        <use href="#head-bl" class="on-surf" opacity="0.08" />
+        <use href="#x-head-bl" class="on-surf" opacity="0.08" />
       </g>
       <g id="head-focused-bottom">
         <use href="#head-normal-bottom" />
-        <use href="#head-b" class="on-surf" opacity="0.08" />
+        <use href="#x-head-b" class="on-surf" opacity="0.08" />
       </g>
       <g id="head-focused-bottomright">
         <use href="#head-normal-bottomright" />
-        <use href="#head-br" class="on-surf" opacity="0.08" />
+        <use href="#x-head-br" class="on-surf" opacity="0.08" />
       </g>
     </g>
-    <g id="head-pressed-group" transform="translate(0,18)">
+    <g id="g-head-pressed" transform="translate(36)">
       <g id="head-pressed-topleft">
         <use href="#head-normal-topleft" />
-        <use href="#head-tl" class="on-surf" opacity="0.1" />
+        <use href="#x-head-tl" class="on-surf" opacity="0.1" />
       </g>
       <g id="head-pressed-top">
         <use href="#head-normal-top" />
-        <use href="#head-t" class="on-surf" opacity="0.1" />
+        <use href="#x-head-t" class="on-surf" opacity="0.1" />
       </g>
       <g id="head-pressed-topright">
         <use href="#head-normal-topright" />
-        <use href="#head-tr" class="on-surf" opacity="0.1" />
+        <use href="#x-head-tr" class="on-surf" opacity="0.1" />
       </g>
       <g id="head-pressed-left">
         <use href="#head-normal-left" />
-        <use href="#head-l" class="on-surf" opacity="0.1" />
+        <use href="#x-head-l" class="on-surf" opacity="0.1" />
       </g>
       <g id="head-pressed">
         <use href="#head-normal" />
-        <use href="#head-c" class="on-surf" opacity="0.1" />
+        <use href="#x-head-c" class="on-surf" opacity="0.1" />
       </g>
       <g id="head-pressed-right">
         <use href="#head-normal-right" />
-        <use href="#head-r" class="on-surf" opacity="0.1" />
+        <use href="#x-head-r" class="on-surf" opacity="0.1" />
       </g>
       <g id="head-pressed-bottomleft">
         <use href="#head-normal-bottomleft" />
-        <use href="#head-bl" class="on-surf" opacity="0.1" />
+        <use href="#x-head-bl" class="on-surf" opacity="0.1" />
       </g>
       <g id="head-pressed-bottom">
         <use href="#head-normal-bottom" />
-        <use href="#head-b" class="on-surf" opacity="0.1" />
+        <use href="#x-head-b" class="on-surf" opacity="0.1" />
       </g>
       <g id="head-pressed-bottomright">
         <use href="#head-normal-bottomright" />
-        <use href="#head-br" class="on-surf" opacity="0.1" />
+        <use href="#x-head-br" class="on-surf" opacity="0.1" />
       </g>
     </g>
-    <g id="head-toggled-group" transform="translate(18,18)">
-      <use id="head-toggled-topleft" href="#head-tl" class="sec-cont" />
-      <use id="head-toggled-top" href="#head-t" class="sec-cont" />
-      <use id="head-toggled-topright" href="#head-tr" class="sec-cont" />
-      <use id="head-toggled-left" href="#head-l" class="sec-cont" />
-      <use id="head-toggled" href="#head-c" class="sec-cont" />
-      <use id="head-toggled-right" href="#head-r" class="sec-cont" />
-      <use id="head-toggled-bottomleft" href="#head-bl" class="sec-cont" />
-      <use id="head-toggled-bottom" href="#head-b" class="sec-cont" />
-      <use id="head-toggled-bottomright" href="#head-br" class="sec-cont" />
+    <g id="head-toggled-group" transform="translate(54)">
+      <use id="head-toggled-topleft" href="#x-head-tl" class="sec-cont" />
+      <use id="head-toggled-top" href="#x-head-t" class="sec-cont" />
+      <use id="head-toggled-topright" href="#x-head-tr" class="sec-cont" />
+      <use id="head-toggled-left" href="#x-head-l" class="sec-cont" />
+      <use id="head-toggled" href="#x-head-c" class="sec-cont" />
+      <use id="head-toggled-right" href="#x-head-r" class="sec-cont" />
+      <use id="head-toggled-bottomleft" href="#x-head-bl" class="sec-cont" />
+      <use id="head-toggled-bottom" href="#x-head-b" class="sec-cont" />
+      <use id="head-toggled-bottomright" href="#x-head-br" class="sec-cont" />
     </g>
     <g id="header-separator">
-      <rect width="5" height="10" opacity="0" />
-      <rect width="1" height="10" x="4" class="outline" />
+      <rect width="5" height="10" fill="none" x="0" y="0" />
+      <rect width="1" height="10" x="4" class="outline" y="0" />
     </g>
-  </g> -->
+  </g>
   <!-- <g id="tooltip-group" transform="translate(152,64)">
     <path id="tooltip-normal-topleft" d="M 4.5,0.5 a 4,4 0 0 0 -4,4 h 4 z" class="surf" />
     <rect id="tooltip-normal-top" width="16" height="4" x="4.5" y="0.5" class="surf" />
@@ -1484,4 +1493,13 @@
   <!-- <use id="ar-1-down-disabled" href="#x-down" x="6" y="16" class="disabled-text" /> -->
   <!-- <use id="ar-1-left-disabled" href="#x-left" x="16" y="6" class="disabled-text" /> -->
   <!-- <use id="ar-1-right-disabled" href="#x-right" x="16" y="16" class="disabled-text" /> -->
+  <use id="tab-topleft-focus" href="#x-tab-tl" fill="green" />
+  <use id="tab-top-focus" href="#x-tab-t" fill="green" />
+  <use id="tab-topright-focus" href="#x-tab-tr" fill="green" />
+  <use id="tab-left-focus" href="#x-tab-l" fill="green" />
+  <!-- <use id="tab-normal" href="#x-tab-c" fill="green" /> -->
+  <use id="tab-right-focus" href="#x-tab-r" fill="green" />
+  <use id="tab-bottomleft-focus" href="#x-tab-bl" fill="green" />
+  <use id="tab-bottom-focus" href="#x-tab-b" fill="green" />
+  <use id="tab-bottomright-focus" href="#x-tab-br" fill="green" />
 </svg>
