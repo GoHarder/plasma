@@ -130,6 +130,7 @@ function getConfigTokens(colors: FileData) {
     { key: 'button.text.color', color: tokens.onSecondaryContainer },
 
     { key: '# general', color: '' },
+    { key: 'light.color', color: tokens.outline },
     { key: 'mid.color', color: tokens.surfaceVariant },
     { key: 'mid.light.color', color: tokens.outlineVariant },
     { key: 'dark.color', color: tokens.surface },
@@ -148,7 +149,7 @@ function getConfigTokens(colors: FileData) {
   ];
 }
 
-function getCss(colors: FileData) {
+function _getCss(colors: FileData) {
   const tokens = getBaseTokens(colors);
 
   return [
