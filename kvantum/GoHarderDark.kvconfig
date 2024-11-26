@@ -303,14 +303,14 @@ interior.element=tabbar
 
 # [TreeExpander]
 
-; [HeaderSection]
-; inherits=PanelButtonTool
-; interior.element=head
-; frame.element=head
-; frame.top=1
-; frame.bottom=1
-; frame.left=1
-; frame.right=1
+[HeaderSection]
+inherits=PanelButtonTool
+interior.element=head
+frame.element=head
+frame.top=1
+frame.bottom=1
+frame.left=1
+frame.right=1
 
 [SizeGrip]
 indicator.element=sizegrip
