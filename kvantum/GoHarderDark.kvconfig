@@ -92,12 +92,6 @@ opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidem
 
 scroll_width=14
 
-# general
-; light.color = outline
-; mid.color=#424748
-; mid.light.color = outlineVariant
-; dark.color=#121416
-
 [GeneralColors]
 # window
 window.color=#282a2d

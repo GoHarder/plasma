@@ -129,6 +129,11 @@ function getConfigTokens(colors: FileData) {
     { key: 'button.color', color: tokens.secondaryContainer },
     { key: 'button.text.color', color: tokens.onSecondaryContainer },
 
+    { key: '# general', color: '' },
+    { key: 'mid.color', color: tokens.surfaceVariant },
+    { key: 'mid.light.color', color: tokens.outlineVariant },
+    { key: 'dark.color', color: tokens.surface },
+
     { key: '# [PanelButtonCommand]', color: '' },
     { key: 'text.normal.color', color: tokens.onSecondaryContainer },
     { key: 'text.focus.color', color: tokens.onSecondaryContainer },
