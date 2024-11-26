@@ -145,6 +145,7 @@ link.visited.color=#7eb0bd
 [Hacks]
 respect_darkness=true
 
+; Primary Button
 [PanelButtonCommand]
 frame=true
 frame.element=button
@@ -173,9 +174,11 @@ text.focus.color=#d5e4f6
 text.press.color=#d5e4f6
 text.toggle.color=#c2c7cf
 
+; Secondary Button
 [PanelButtonTool]
 inherits=PanelButtonCommand
 
+; Buttons For toolbars
 [ToolbarButton]
 inherits=PanelButtonCommand
 frame.element=tool-button
@@ -190,11 +193,13 @@ text.focus.color=#95ccff
 text.press.color=#95ccff
 text.toggle.color=#d5e4f6
 
+; For a dock?
 ; [Dock]
 ; inherits=PanelButtonTool
 ; frame=false
 ; interior=false
 
+; Title of the dock widget?
 ; [DockTitle]
 ; inherits=PanelButtonTool
 ; frame=false
@@ -207,6 +212,7 @@ text.toggle.color=#d5e4f6
 ; text.margin.left=3
 ; text.margin.right=3
 
+; Indicators of a spin widget
 # [IndicatorSpinBox]
 
 [RadioButton]
@@ -225,6 +231,7 @@ text.margin.bottom=2
 text.margin.left=3
 text.margin.right=3
 
+; Generic focus frame
 # [Focus]
 
 [GenericFrame]

@@ -1493,4 +1493,13 @@
   <!-- <use id="ar-1-down-disabled" href="#x-down" x="6" y="16" class="disabled-text" /> -->
   <!-- <use id="ar-1-left-disabled" href="#x-left" x="16" y="6" class="disabled-text" /> -->
   <!-- <use id="ar-1-right-disabled" href="#x-right" x="16" y="16" class="disabled-text" /> -->
+  <use id="tab-topleft-focus" href="#x-tab-tl" fill="green" />
+  <use id="tab-top-focus" href="#x-tab-t" fill="green" />
+  <use id="tab-topright-focus" href="#x-tab-tr" fill="green" />
+  <use id="tab-left-focus" href="#x-tab-l" fill="green" />
+  <!-- <use id="tab-normal" href="#x-tab-c" fill="green" /> -->
+  <use id="tab-right-focus" href="#x-tab-r" fill="green" />
+  <use id="tab-bottomleft-focus" href="#x-tab-bl" fill="green" />
+  <use id="tab-bottom-focus" href="#x-tab-b" fill="green" />
+  <use id="tab-bottomright-focus" href="#x-tab-br" fill="green" />
 </svg>
