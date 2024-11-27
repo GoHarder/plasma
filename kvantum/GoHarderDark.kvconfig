@@ -90,7 +90,7 @@ opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidem
 
 ; MARK: popup_blurring
 
-scroll_width=16
+scroll_width=15
 
 [GeneralColors]
 # window
