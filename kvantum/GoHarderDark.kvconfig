@@ -142,7 +142,7 @@ respect_darkness=true
 ; Primary Button
 [PanelButtonCommand]
 frame=true
-frame.element=button
+frame.element=btn-1
 frame.expansion=40
 frame.top=8
 frame.bottom=8
@@ -171,17 +171,20 @@ text.toggle.color=#c2c7cf
 ; Secondary Button
 [PanelButtonTool]
 inherits=PanelButtonCommand
+frame.element=btn-2
+interior.element=btn-2
+indicator.element=ar-2
+text.normal.color=#c2c7cf
+text.focus.color=#c2c7cf
+text.press.color=#c2c7cf
+text.toggle.color=#d5e4f6
 
 ; Buttons For toolbars
 [ToolbarButton]
 inherits=PanelButtonCommand
-frame.element=tool-button
-frame.expanded.top=1
-frame.expanded.bottom=1
-frame.expanded.left=1
-frame.expanded.right=1
-interior.element=tool-button
-indicator.element=arrow
+frame.element=btn-3
+interior.element=btn-3
+indicator.element=ar-3
 text.normal.color=#95ccff
 text.focus.color=#95ccff
 text.press.color=#95ccff
@@ -210,15 +213,19 @@ text.toggle.color=#d5e4f6
 # [IndicatorSpinBox]
 
 [RadioButton]
-inherits=PanelButtonTool
+inherits=PanelButtonCommand
 interior.element=radio
 text.margin.top=2
 text.margin.bottom=2
 text.margin.left=3
 text.margin.right=3
+text.normal.color=#e2e2e5
+text.focus.color=#e2e2e5
+text.press.color=#e2e2e5
+text.toggle.color=#e2e2e5
 
 [CheckBox]
-inherits=PanelButtonTool
+inherits=RadioButton
 interior.element=checkbox
 text.margin.top=2
 text.margin.bottom=2
@@ -247,6 +254,7 @@ frame.bottom=4
 frame.left=4
 frame.right=4
 interior=false
+indicator.element=ar-4
 indicator.size=12
 text.shadow=false
 text.margin=true
@@ -305,13 +313,19 @@ interior.element=tabbar
 # [TreeExpander]
 
 [HeaderSection]
-inherits=PanelButtonTool
+inherits=PanelButtonCommand
 interior.element=head
+indicator.element=ar-2
 frame.element=head
 frame.top=1
 frame.bottom=1
 frame.left=1
 frame.right=1
+text.margin=true
+text.margin.top=2
+text.margin.bottom=2
+text.margin.left=3
+text.margin.right=3
 
 [SizeGrip]
 indicator.element=sizegrip
@@ -332,7 +346,7 @@ frame=false
 ; Not used 
 
 [Scrollbar]
-indicator.element=ar-2
+indicator.element=ar-5
 indicator.size=15
 
 [ScrollbarGroove]
