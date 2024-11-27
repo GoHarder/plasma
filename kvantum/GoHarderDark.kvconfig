@@ -90,7 +90,7 @@ opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidem
 
 ; MARK: popup_blurring
 
-scroll_width=14
+scroll_width=15
 
 [GeneralColors]
 # window
@@ -260,8 +260,8 @@ text.focus.color=#e2e2e5
 # [DropDownButton]
 
 [IndicatorArrow]
-indicator.element=ar-2
-indicator.size=9
+indicator.element=arrow
+indicator.size=10
 
 # [ToolboxTab]
 ; Not used 
