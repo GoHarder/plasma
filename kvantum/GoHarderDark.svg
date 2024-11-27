@@ -137,6 +137,8 @@
     <path id="x-left-16" d="M 9.6,11.2 6.4,8 9.6,4.8 Z" />
     <path id="x-right-16" d="M 6.4,11.2 V 4.8 L 9.6,8 Z" />
     <path id="x-up-16" d="M 4.8,9.6 8,6.4 11.2,9.6 Z" />
+    <path id="x-grip"
+      d="M 2,16 Q 1.175,16 0.588,15.413 0,14.825 0,14 0,13.175 0.588,12.588 1.175,12 2,12 2.825,12 3.413,12.588 4,13.175 4,14 4,14.825 3.413,15.413 2.825,16 2,16 Z M 2,10 Q 1.175,10 0.588,9.413 0,8.825 0,8 0,7.175 0.588,6.588 1.175,6 2,6 2.825,6 3.413,6.588 4,7.175 4,8 4,8.825 3.413,9.413 2.825,10 2,10 Z M 2,4 Q 1.175,4 0.588,3.413 0,2.825 0,2 0,1.175 0.588,0.588 1.175,0 2,0 2.825,0 3.413,0.588 4,1.175 4,2 4,2.825 3.413,3.413 2.825,4 2,4 Z" />
     <!-- MARK: Shapes -->
     <path id="x-btn-tl" d="M 8,0 A 8,8 0 0 0 0,8 h 8 z" />
     <rect id="x-btn-t" width="16" height="8" x="8" y="0" />
@@ -189,6 +191,15 @@
     <rect id="x-head-bl" width="1" height="1" y="17" />
     <rect id="x-head-b" width="16" height="1" x="1" y="17" />
     <rect id="x-head-br" width="1" height="1" x="17" y="17" />
+    <path id="x-split-tl" d="M 1,0 a 1,1 0 0 0 -1,1 h 1 z" />
+    <rect id="x-split-t" width="2" height="1" x="1" y="0" />
+    <path id="x-split-tr" d="m 3,0 a 1,1 0 0 1 1,1 h -1 z" />
+    <rect id="x-split-l" width="1" height="14" x="0" y="1" />
+    <rect id="x-split-c" width="2" height="14" x="1" y="1" />
+    <rect id="x-split-r" width="1" height="14" x="3" y="1" />
+    <path id="x-split-bl" d="M 1,16 a 1,1 0 0 1 -1,-1 h 1 z" />
+    <rect id="x-split-b" width="2" height="1" x="1" y="15" />
+    <path id="x-split-br" d="m 3,16 a 1,1 0 0 0 1,-1 h -1 z" />
     <path id="x-sizegrip"
       d="M 7,0 A 1,1 0 0 0 6,1 1,1 0 0 0 7,2 1,1 0 0 0 8,1 1,1 0 0 0 7,0 Z M 7,3 A 1,1 0 0 0 6,4 1,1 0 0 0 7,5 1,1 0 0 0 8,4 1,1 0 0 0 7,3 Z M 7,6 A 1,1 0 0 0 6,7 1,1 0 0 0 7,8 1,1 0 0 0 8,7 1,1 0 0 0 7,6 Z M 4,3 A 1,1 0 0 0 3,4 1,1 0 0 0 4,5 1,1 0 0 0 5,4 1,1 0 0 0 4,3 Z M 4,6 A 1,1 0 0 0 3,7 1,1 0 0 0 4,8 1,1 0 0 0 5,7 1,1 0 0 0 4,6 Z M 1,6 A 1,1 0 0 0 0,7 1,1 0 0 0 1,8 1,1 0 0 0 2,7 1,1 0 0 0 1,6 Z" />
     <path id="x-radio-unchk"
@@ -1225,14 +1236,42 @@
       <circle id="base" cx="13" cy="13" r="10" class="disabled-text" />
     </g>
   </g>
-  <!-- <g id="g-splitter" transform="translate(208,32)">
-    <rect id="splitter-grip-normal" width="1" height="16" x="0" y="0" fill="none" />
-    <rect id="splitter-grip-pressed" width="1" height="16" x="0" y="0" fill="none" />
-    <rect id="splitter-grip-focused" width="1" height="16" x="0" y="0" fill="none" />
-    <rect id="splitter-normal" width="1" height="16" x="0" y="0" class="outline" />
-    <rect id="splitter-focused" width="1" height="16" x="1" y="0" class="sec" />
-    <rect id="splitter-pressed" width="1" height="16" x="2" y="0" class="sec" />
-  </g> -->
+  <g id="g-splitter" transform="translate(144,104)">
+    <use id="splitter-grip-normal" href="#x-grip" class="surf-var" />
+    <use id="splitter-grip-pressed" href="#x-grip" fill="none" />
+    <use id="splitter-grip-focused" href="#x-grip" fill="none" />
+    <use id="splitter-normal-topleft" href="#x-split-tl" fill="none" />
+    <use id="splitter-normal-top" href="#x-split-t" fill="none" />
+    <use id="splitter-normal-topright" href="#x-split-tr" fill="none" />
+    <use id="splitter-normal-left" href="#x-split-l" fill="none" />
+    <use id="splitter-normal" href="#x-split-c" fill="none" />
+    <use id="splitter-normal-right" href="#x-split-r" fill="none" />
+    <use id="splitter-normal-bottomleft" href="#x-split-bl" fill="none" />
+    <use id="splitter-normal-bottom" href="#x-split-b" fill="none" />
+    <use id="splitter-normal-bottomright" href="#x-split-br" fill="none" />
+    <g id="g-splitter-focused" transform="translate(4)">
+      <use id="splitter-focused-topleft" href="#x-split-tl" class="outline-var" />
+      <use id="splitter-focused-top" href="#x-split-t" class="outline-var" />
+      <use id="splitter-focused-topright" href="#x-split-tr" class="outline-var" />
+      <use id="splitter-focused-left" href="#x-split-l" class="outline-var" />
+      <use id="splitter-focused" href="#x-split-c" class="outline-var" />
+      <use id="splitter-focused-right" href="#x-split-r" class="outline-var" />
+      <use id="splitter-focused-bottomleft" href="#x-split-bl" class="outline-var" />
+      <use id="splitter-focused-bottom" href="#x-split-b" class="outline-var" />
+      <use id="splitter-focused-bottomright" href="#x-split-br" class="outline-var" />
+    </g>
+    <g id="g277" transform="translate(8)">
+      <use id="splitter-pressed-topleft" href="#x-split-tl" class="sec" />
+      <use id="splitter-pressed-top" href="#x-split-t" class="sec" />
+      <use id="splitter-pressed-topright" href="#x-split-tr" class="sec" />
+      <use id="splitter-pressed-left" href="#x-split-l" class="sec" />
+      <use id="splitter-pressed" href="#x-split-c" class="sec" />
+      <use id="splitter-pressed-right" href="#x-split-r" class="sec" />
+      <use id="splitter-pressed-bottomleft" href="#x-split-bl" class="sec" />
+      <use id="splitter-pressed-bottom" href="#x-split-b" class="sec" />
+      <use id="splitter-pressed-bottomright" href="#x-split-br" class="sec" />
+    </g>
+  </g>
   <g id="g-menu" transform="translate(45,168)">
     <path id="menu-normal-topleft" d="M 7,3 A 4,4 0 0 0 3,7 h 4 z" class="surf-cont" />
     <rect id="menu-normal-top" width="16" height="4" x="7" y="3" class="surf-cont" />
