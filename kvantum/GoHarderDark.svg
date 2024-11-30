@@ -1240,7 +1240,7 @@
       <use id="splitter-focused-bottom" href="#x-split-b" class="outline-var" />
       <use id="splitter-focused-bottomright" href="#x-split-br" class="outline-var" />
     </g>
-    <g id="g277" transform="translate(8)">
+    <g id="g-splitter-pressed" transform="translate(8)">
       <use id="splitter-pressed-topleft" href="#x-split-tl" class="sec" />
       <use id="splitter-pressed-top" href="#x-split-t" class="sec" />
       <use id="splitter-pressed-topright" href="#x-split-tr" class="sec" />
