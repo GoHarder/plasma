@@ -490,15 +490,15 @@ frame.bottom=15
 frame.left=15
 frame.right=15
 
-; [ToolTip]
-; inherits=GenericFrame
-; frame.top=4
-; frame.bottom=4
-; frame.left=4
-; frame.right=4
-; interior=true
-; text.margin=0
-; interior.element=tooltip
-; frame.element=tooltip
+[ToolTip]
+inherits=GenericFrame
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
+interior=true
+text.margin=0
+interior.element=tooltip
+frame.element=tooltip
 
 # [Window]
