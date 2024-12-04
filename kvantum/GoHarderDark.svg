@@ -1615,7 +1615,7 @@
   id="focus-bottom"
   id="focus-left"
   -->
-  <!-- <g id="g-mdi" transform="translate(0,88)">
+  <g id="g-mdi" transform="translate(80,186)">
     <g id="mdi-menu-normal">
       <rect width="20" height="20" fill="none" x="0" y="0" />
       <path d="m 1,16 v -2 h 18 v 2 z M 1,11 V 9 h 18 v 2 z M 1,6 V 4 h 18 v 2 z" class="on-surf-var" />
@@ -1641,9 +1641,4 @@
     <use id="mdi-minimize-disabled" xlink:href="#x-minus" x="80" y="0" class="disabled-text" />
     <use id="mdi-shade-disabled" xlink:href="#x-shade" x="100" y="0" class="disabled-text" />
   </g>
-  -->
-  <!-- <use id="ar-1-up-disabled" href="#x-up" x="6" y="6" class="disabled-text" /> -->
-  <!-- <use id="ar-1-down-disabled" href="#x-down" x="6" y="16" class="disabled-text" /> -->
-  <!-- <use id="ar-1-left-disabled" href="#x-left" x="16" y="6" class="disabled-text" /> -->
-  <!-- <use id="ar-1-right-disabled" href="#x-right" x="16" y="16" class="disabled-text" /> -->
 </svg>
