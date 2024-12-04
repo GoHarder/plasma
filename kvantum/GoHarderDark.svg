@@ -934,7 +934,6 @@
     <rect id="toolbar-separator" width="8" height="10" opacity="0" x="0" y="0" />
     <g id="toolbar-handle">
       <rect width="8" height="32" fill="none" x="0" y="0" />
-      <!-- <path d="m 2,8 h 4 v 4 H 2 Z m 0,6 h 4 v 4 H 2 Z m 0,6 h 4 v 4 H 2 Z" class="surf-var" /> -->
       <path
         d="m 3,8 h 2 v 2 H 3 Z m 0,3.5 h 2 v 2 H 3 Z M 3,15 h 2 v 2 H 3 Z m 0,3.5 h 2 v 2 H 3 Z M 3,22 h 2 v 2 H 3 Z"
         class="surf-var" />
@@ -1072,7 +1071,7 @@
         <use id="x-tab-nor-brba" href="#x-tab-br" class="surf" />
         <rect id="x-tab-nor-brbo" width="2" height="1" x="18" y="19" class="surf-var" />
       </g>
-      <use id="tab-close-normal" href="#x-close" x="0" class="on-surf" />
+      <use id="tab-close-normal" href="#x-close" x="0" class="on-surf-var" />
     </g>
     <g id="g-tab-focused" transform="translate(20)">
       <g id="tab-focused-topleft">
@@ -1239,15 +1238,15 @@
     </g>
   </g>
   <g id="g-menu" transform="translate(70,148)">
-    <path id="menu-normal-topleft" d="M 7,3 A 4,4 0 0 0 3,7 h 4 z" class="surf-cont" />
-    <rect id="menu-normal-top" width="16" height="4" x="7" y="3" class="surf-cont" />
-    <path id="menu-normal-topright" d="m 23,3 a 4,4 0 0 1 4,4 h -4 z" class="surf-cont" />
-    <rect id="menu-normal-left" width="4" height="16" x="3" y="7" class="surf-cont" />
-    <rect id="menu-normal" width="16" height="16" x="7" y="7" class="surf-cont" />
-    <rect id="menu-normal-right" width="4" height="16" x="23" y="7" class="surf-cont" />
-    <path id="menu-normal-bottomleft" d="M 7,27 A 4,4 0 0 1 3,23 h 4 z" class="surf-cont" />
-    <rect id="menu-normal-bottom" width="16" height="4" x="7" y="23" class="surf-cont" />
-    <path id="menu-normal-bottomright" d="m 23,27 a 4,4 0 0 0 4,-4 h -4 z" class="surf-cont" />
+    <path id="menu-normal-topleft" d="M 7,3 A 4,4 0 0 0 3,7 h 4 z" class="surf-cont-high" />
+    <rect id="menu-normal-top" width="16" height="4" x="7" y="3" class="surf-cont-high" />
+    <path id="menu-normal-topright" d="m 23,3 a 4,4 0 0 1 4,4 h -4 z" class="surf-cont-high" />
+    <rect id="menu-normal-left" width="4" height="16" x="3" y="7" class="surf-cont-high" />
+    <rect id="menu-normal" width="16" height="16" x="7" y="7" class="surf-cont-high" />
+    <rect id="menu-normal-right" width="4" height="16" x="23" y="7" class="surf-cont-high" />
+    <path id="menu-normal-bottomleft" d="M 7,27 A 4,4 0 0 1 3,23 h 4 z" class="surf-cont-high" />
+    <rect id="menu-normal-bottom" width="16" height="4" x="7" y="23" class="surf-cont-high" />
+    <path id="menu-normal-bottomright" d="m 23,27 a 4,4 0 0 0 4,-4 h -4 z" class="surf-cont-high" />
     <g id="menu-shadow-topleft">
       <rect width="7" height="7" x="0" y="0" fill="none" />
       <path d="M 3.211,5.745 A 5,5 0 0 0 2.419,7 H 3 A 4,4 0 0 1 3.211,5.745 Z" fill="url(#menu-agtl)" opacity="0.15" />
@@ -1326,34 +1325,32 @@
       <rect width="32" height="8" opacity="0" x="0" y="0" />
       <rect width="32" height="1" y="3.5" class="surf-var" x="0" />
     </g>
-  </g>
-  <!-- 
-    <g id="menuitem-tearoff-normal">
-      <rect width="20" height="8" fill="none" />
+    <g id="menuitem-tearoff-normal" transform="translate(0,30)">
+      <rect width="20" height="8" fill="none" x="0" y="0" />
       <rect width="4" height="1" x="0.5" y="3.5" class="surf-var" />
       <rect width="4" height="1" x="5.5" y="3.5" class="surf-var" />
       <rect width="4" height="1" x="10.5" y="3.5" class="surf-var" />
       <rect width="4" height="1" x="15.5" y="3.5" class="surf-var" />
     </g>
-    <g id="menuitem-tearoff-focused" transform="translate(0,8)">
-      <rect width="20" height="8" fill="none" />
-      <rect width="4" height="1" x="0.5" y="3.5" class="sec" />
-      <rect width="4" height="1" x="5.5" y="3.5" class="sec" />
-      <rect width="4" height="1" x="10.5" y="3.5" class="sec" />
-      <rect width="4" height="1" x="15.5" y="3.5" class="sec" />
+    <g id="menuitem-tearoff-focused" transform="translate(20,30)">
+      <rect width="20" height="8" fill="none" x="0" y="0" />
+      <rect width="4" height="1" x="0.5" y="3.5" class="on-surf-var" />
+      <rect width="4" height="1" x="5.5" y="3.5" class="on-surf-var" />
+      <rect width="4" height="1" x="10.5" y="3.5" class="on-surf-var" />
+      <rect width="4" height="1" x="15.5" y="3.5" class="on-surf-var" />
     </g>
-   -->
+  </g>
   <g id="g-header" transform="translate(132,148)">
     <g id="g-head-normal">
-      <use id="head-normal-topleft" href="#x-head-tl" fill="none" />
-      <use id="head-normal-top" href="#x-head-t" fill="none" />
-      <use id="head-normal-topright" href="#x-head-tr" fill="none" />
-      <use id="head-normal-left" href="#x-head-l" fill="none" />
-      <use id="head-normal" href="#x-head-c" fill="none" />
-      <use id="head-normal-right" href="#x-head-r" fill="none" />
-      <use id="head-normal-bottomleft" href="#x-head-bl" fill="none" />
-      <use id="head-normal-bottom" href="#x-head-b" fill="none" />
-      <use id="head-normal-bottomright" href="#x=head-br" fill="none" />
+      <use id="head-normal-topleft" href="#x-head-tl" class="outline" />
+      <use id="head-normal-top" href="#x-head-t" class="outline" />
+      <use id="head-normal-topright" href="#x-head-tr" class="outline" />
+      <use id="head-normal-left" href="#x-head-l" class="outline" />
+      <use id="head-normal" href="#x-head-c" fill="surf-cont" />
+      <use id="head-normal-right" href="#x-head-r" class="outline" />
+      <use id="head-normal-bottomleft" href="#x-head-bl" class="outline" />
+      <use id="head-normal-bottom" href="#x-head-b" class="outline" />
+      <use id="head-normal-bottomright" href="#x-head-br" class="outline" />
     </g>
     <g id="g-head-focused" transform="translate(18)">
       <g id="head-focused-topleft">
@@ -1432,15 +1429,15 @@
       </g>
     </g>
     <g id="head-toggled-group" transform="translate(54)">
-      <use id="head-toggled-topleft" href="#x-head-tl" class="sec-cont" />
-      <use id="head-toggled-top" href="#x-head-t" class="sec-cont" />
-      <use id="head-toggled-topright" href="#x-head-tr" class="sec-cont" />
-      <use id="head-toggled-left" href="#x-head-l" class="sec-cont" />
+      <use id="head-toggled-topleft" href="#x-head-tl" class="outline" />
+      <use id="head-toggled-top" href="#x-head-t" class="outline" />
+      <use id="head-toggled-topright" href="#x-head-tr" class="outline" />
+      <use id="head-toggled-left" href="#x-head-l" class="outline" />
       <use id="head-toggled" href="#x-head-c" class="sec-cont" />
-      <use id="head-toggled-right" href="#x-head-r" class="sec-cont" />
-      <use id="head-toggled-bottomleft" href="#x-head-bl" class="sec-cont" />
-      <use id="head-toggled-bottom" href="#x-head-b" class="sec-cont" />
-      <use id="head-toggled-bottomright" href="#x-head-br" class="sec-cont" />
+      <use id="head-toggled-right" href="#x-head-r" class="outline" />
+      <use id="head-toggled-bottomleft" href="#x-head-bl" class="outline" />
+      <use id="head-toggled-bottom" href="#x-head-b" class="outline" />
+      <use id="head-toggled-bottomright" href="#x-head-br" class="outline" />
     </g>
     <g id="header-separator">
       <rect width="5" height="10" fill="none" x="0" y="0" />
