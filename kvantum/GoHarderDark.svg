@@ -940,8 +940,8 @@
     </g>
   </g>
   <g id="g-sizegrip" transform="translate(212,32)">
-    <use id="sizegrip-normal" xlink:href="#x-sizegrip" x="0" y="0" class="on-surf-var" />
-    <use id="sizegrip-focused" xlink:href="#x-sizegrip" x="8" y="0" class="on-surf-var" />
+    <use id="sizegrip-normal" xlink:href="#x-sizegrip" x="0" y="0" class="outline" />
+    <use id="sizegrip-focused" xlink:href="#x-sizegrip" x="8" y="0" class="outline" />
   </g>
   <g id="g-itemview" transform="translate(136,80)">
     <g id="g-itemview-focused">

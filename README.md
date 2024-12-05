@@ -74,7 +74,6 @@ onPrimaryContainer = #95ccff + white at 50%
 
 ## TODO
 - [ ] Kvantum
-  - [X] Tool buttons need arrows
   - [ ] Increase line edit size
 - [ ] Widgets
   - [ ] Darken line edit background.

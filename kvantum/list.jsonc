@@ -70,14 +70,6 @@
       "lineedit-focused-bottomright"
     ]
   },
-  "arrow": {
-    "plus": ["arrow-plus-normal", "arrow-plus-focused", "arrow-plus-pressed", "arrow-plus-disabled"],
-    "minus": ["arrow-minus-normal", "arrow-minus-focused", "arrow-minus-pressed", "arrow-minus-disabled"],
-    "up": ["arrow-up-normal", "arrow-up-focused", "arrow-up-pressed", "arrow-up-disabled"],
-    "down": ["arrow-down-normal", "arrow-down-focused", "arrow-down-pressed", "arrow-down-disabled"],
-    "right": ["arrow-right-normal", "arrow-right-focused", "arrow-right-pressed", "arrow-right-disabled"],
-    "left": ["arrow-left-normal", "arrow-left-focused", "arrow-left-pressed", "arrow-left-disabled"]
-  },
   "dock": ["dock-normal", "dock-focused"],
   "tab": {
     "tear": "tab-tear"
@@ -116,32 +108,5 @@
     ]
   },
   "titlebar": ["titlebar-normal", "titlebar-focused"],
-  "tooltip": {
-    "normal": [
-      "tooltip-normal-topleft",
-      "tooltip-normal-top",
-      "tooltip-normal-topright",
-      "tooltip-normal-left",
-      "tooltip-normal",
-      "tooltip-normal-right",
-      "tooltip-normal-bottomleft",
-      "tooltip-normal-bottom",
-      "tooltip-normal-bottomright"
-    ],
-    "shadow": {
-      "self": [
-        "tooltip-shadow-topleft",
-        "tooltip-shadow-top",
-        "tooltip-shadow-topright",
-        "tooltip-shadow-left",
-        "tooltip-shadow-right",
-        "tooltip-shadow-bottomleft",
-        "tooltip-shadow-bottom",
-        "tooltip-shadow-bottomright"
-      ],
-      "hint": ["tooltip-shadow-hint-top", "tooltip-shadow-hint-left", "tooltip-shadow-hint-right", "tooltip-shadow-hint-bottom"]
-    }
-  },
-  "header": "header-separator",
   "focus": ["focus-top", "focus-left", "focus-right", "focus-bottom"]
 }
