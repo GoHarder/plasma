@@ -394,39 +394,39 @@
     <g id="g-btn-2-focused" transform="translate(32)">
       <g id="btn-2-focused-topleft">
         <use xlink:href="#btn-2-normal-topleft" />
-        <use xlink:href="#x-btn-tl" class="sec-cont" opacity="0.08" />
+        <use xlink:href="#x-btn-tl" class="sec" opacity="0.08" />
       </g>
       <g id="btn-2-focused-top">
         <use xlink:href="#btn-2-normal-top" />
-        <use xlink:href="#x-btn-t" class="sec-cont" opacity="0.08" />
+        <use xlink:href="#x-btn-t" class="sec" opacity="0.08" />
       </g>
       <g id="btn-2-focused-topright">
         <use xlink:href="#btn-2-normal-topright" />
-        <use xlink:href="#x-btn-tr" class="sec-cont" opacity="0.08" />
+        <use xlink:href="#x-btn-tr" class="sec" opacity="0.08" />
       </g>
       <g id="btn-2-focused-left">
         <use xlink:href="#btn-2-normal-left" />
-        <use xlink:href="#x-btn-l" class="sec-cont" opacity="0.08" />
+        <use xlink:href="#x-btn-l" class="sec" opacity="0.08" />
       </g>
       <g id="btn-2-focused">
         <use xlink:href="#btn-2-normal" />
-        <use xlink:href="#x-btn-c" class="sec-cont" opacity="0.08" />
+        <use xlink:href="#x-btn-c" class="sec" opacity="0.08" />
       </g>
       <g id="btn-2-focused-right">
         <use xlink:href="#btn-2-normal-right" />
-        <use xlink:href="#x-btn-r" class="sec-cont" opacity="0.08" />
+        <use xlink:href="#x-btn-r" class="sec" opacity="0.08" />
       </g>
       <g id="btn-2-focused-bottomleft">
         <use xlink:href="#btn-2-normal-bottomleft" />
-        <use xlink:href="#x-btn-bl" class="sec-cont" opacity="0.08" />
+        <use xlink:href="#x-btn-bl" class="sec" opacity="0.08" />
       </g>
       <g id="btn-2-focused-bottom">
         <use xlink:href="#btn-2-normal-bottom" />
-        <use xlink:href="#x-btn-b" class="sec-cont" opacity="0.08" />
+        <use xlink:href="#x-btn-b" class="sec" opacity="0.08" />
       </g>
       <g id="btn-2-focused-bottomright">
         <use xlink:href="#btn-2-normal-bottomright" />
-        <use xlink:href="#x-btn-br" class="sec-cont" opacity="0.08" />
+        <use xlink:href="#x-btn-br" class="sec" opacity="0.08" />
       </g>
       <use id="ar-2-up-focused" href="#x-up" x="6" y="6" class="on-surf-var" />
       <use id="ar-2-down-focused" href="#x-down" x="6" y="16" class="on-surf-var" />
@@ -436,39 +436,39 @@
     <g id="g-btn-2-pressed" transform="translate(64)">
       <g id="btn-2-pressed-topleft">
         <use xlink:href="#btn-2-normal-topleft" />
-        <use xlink:href="#x-btn-tl" class="sec-cont" opacity="0.1" />
+        <use xlink:href="#x-btn-tl" class="sec" opacity="0.1" />
       </g>
       <g id="btn-2-pressed-top">
         <use xlink:href="#btn-2-normal-top" />
-        <use xlink:href="#x-btn-t" class="sec-cont" opacity="0.1" />
+        <use xlink:href="#x-btn-t" class="sec" opacity="0.1" />
       </g>
       <g id="btn-2-pressed-topright">
         <use xlink:href="#btn-2-normal-topright" />
-        <use xlink:href="#x-btn-tr" class="sec-cont" opacity="0.1" />
+        <use xlink:href="#x-btn-tr" class="sec" opacity="0.1" />
       </g>
       <g id="btn-2-pressed-left">
         <use xlink:href="#btn-2-normal-left" />
-        <use xlink:href="#x-btn-l" class="sec-cont" opacity="0.08" />
+        <use xlink:href="#x-btn-l" class="sec" opacity="0.08" />
       </g>
       <g id="btn-2-pressed">
         <use xlink:href="#btn-2-normal" />
-        <use xlink:href="#x-btn-c" class="sec-cont" opacity="0.1" />
+        <use xlink:href="#x-btn-c" class="sec" opacity="0.1" />
       </g>
       <g id="btn-2-pressed-right">
         <use xlink:href="#btn-2-normal-right" />
-        <use xlink:href="#x-btn-r" class="sec-cont" opacity="0.1" />
+        <use xlink:href="#x-btn-r" class="sec" opacity="0.1" />
       </g>
       <g id="btn-2-pressed-bottomleft">
         <use xlink:href="#btn-2-normal-bottomleft" />
-        <use xlink:href="#x-btn-bl" class="sec-cont" opacity="0.1" />
+        <use xlink:href="#x-btn-bl" class="sec" opacity="0.1" />
       </g>
       <g id="btn-2-pressed-bottom">
         <use xlink:href="#btn-2-normal-bottom" />
-        <use xlink:href="#x-btn-b" class="sec-cont" opacity="0.1" />
+        <use xlink:href="#x-btn-b" class="sec" opacity="0.1" />
       </g>
       <g id="btn-2-pressed-bottomright">
         <use xlink:href="#btn-2-normal-bottomright" />
-        <use xlink:href="#x-btn-br" class="sec-cont" opacity="0.1" />
+        <use xlink:href="#x-btn-br" class="sec" opacity="0.1" />
       </g>
       <use id="ar-2-up-pressed" href="#x-up" x="6" y="6" class="on-surf-var" />
       <use id="ar-2-down-pressed" href="#x-down" x="6" y="16" class="on-surf-var" />
@@ -1238,15 +1238,15 @@
     </g>
   </g>
   <g id="g-menu" transform="translate(70,148)">
-    <path id="menu-normal-topleft" d="M 7,3 A 4,4 0 0 0 3,7 h 4 z" class="surf-cont-high" />
-    <rect id="menu-normal-top" width="16" height="4" x="7" y="3" class="surf-cont-high" />
-    <path id="menu-normal-topright" d="m 23,3 a 4,4 0 0 1 4,4 h -4 z" class="surf-cont-high" />
-    <rect id="menu-normal-left" width="4" height="16" x="3" y="7" class="surf-cont-high" />
-    <rect id="menu-normal" width="16" height="16" x="7" y="7" class="surf-cont-high" />
-    <rect id="menu-normal-right" width="4" height="16" x="23" y="7" class="surf-cont-high" />
-    <path id="menu-normal-bottomleft" d="M 7,27 A 4,4 0 0 1 3,23 h 4 z" class="surf-cont-high" />
-    <rect id="menu-normal-bottom" width="16" height="4" x="7" y="23" class="surf-cont-high" />
-    <path id="menu-normal-bottomright" d="m 23,27 a 4,4 0 0 0 4,-4 h -4 z" class="surf-cont-high" />
+    <path id="menu-normal-topleft" d="M 7,3 A 4,4 0 0 0 3,7 h 4 z" class="surf" />
+    <rect id="menu-normal-top" width="16" height="4" x="7" y="3" class="surf" />
+    <path id="menu-normal-topright" d="m 23,3 a 4,4 0 0 1 4,4 h -4 z" class="surf" />
+    <rect id="menu-normal-left" width="4" height="16" x="3" y="7" class="surf" />
+    <rect id="menu-normal" width="16" height="16" x="7" y="7" class="surf" />
+    <rect id="menu-normal-right" width="4" height="16" x="23" y="7" class="surf" />
+    <path id="menu-normal-bottomleft" d="M 7,27 A 4,4 0 0 1 3,23 h 4 z" class="surf" />
+    <rect id="menu-normal-bottom" width="16" height="4" x="7" y="23" class="surf" />
+    <path id="menu-normal-bottomright" d="m 23,27 a 4,4 0 0 0 4,-4 h -4 z" class="surf" />
     <g id="menu-shadow-topleft">
       <rect width="7" height="7" x="0" y="0" fill="none" />
       <path d="M 3.211,5.745 A 5,5 0 0 0 2.419,7 H 3 A 4,4 0 0 1 3.211,5.745 Z" fill="url(#menu-agtl)" opacity="0.15" />
@@ -1342,15 +1342,15 @@
   </g>
   <g id="g-header" transform="translate(132,148)">
     <g id="g-head-normal">
-      <use id="head-normal-topleft" href="#x-head-tl" class="outline" />
-      <use id="head-normal-top" href="#x-head-t" class="outline" />
-      <use id="head-normal-topright" href="#x-head-tr" class="outline" />
-      <use id="head-normal-left" href="#x-head-l" class="outline" />
-      <use id="head-normal" href="#x-head-c" fill="surf-cont" />
-      <use id="head-normal-right" href="#x-head-r" class="outline" />
-      <use id="head-normal-bottomleft" href="#x-head-bl" class="outline" />
-      <use id="head-normal-bottom" href="#x-head-b" class="outline" />
-      <use id="head-normal-bottomright" href="#x-head-br" class="outline" />
+      <use id="head-normal-topleft" href="#x-head-tl" class="surf-var" />
+      <use id="head-normal-top" href="#x-head-t" class="surf-var" />
+      <use id="head-normal-topright" href="#x-head-tr" class="surf-var" />
+      <use id="head-normal-left" href="#x-head-l" class="surf-var" />
+      <use id="head-normal" href="#x-head-c" class="surf-cont" />
+      <use id="head-normal-right" href="#x-head-r" class="surf-var" />
+      <use id="head-normal-bottomleft" href="#x-head-bl" class="surf-var" />
+      <use id="head-normal-bottom" href="#x-head-b" class="surf-var" />
+      <use id="head-normal-bottomright" href="#x-head-br" class="surf-var" />
     </g>
     <g id="g-head-focused" transform="translate(18)">
       <g id="head-focused-topleft">
@@ -1429,31 +1429,30 @@
       </g>
     </g>
     <g id="head-toggled-group" transform="translate(54)">
-      <use id="head-toggled-topleft" href="#x-head-tl" class="outline" />
-      <use id="head-toggled-top" href="#x-head-t" class="outline" />
-      <use id="head-toggled-topright" href="#x-head-tr" class="outline" />
-      <use id="head-toggled-left" href="#x-head-l" class="outline" />
+      <use id="head-toggled-topleft" href="#x-head-tl" class="surf-var" />
+      <use id="head-toggled-top" href="#x-head-t" class="surf-var" />
+      <use id="head-toggled-topright" href="#x-head-tr" class="surf-var" />
+      <use id="head-toggled-left" href="#x-head-l" class="surf-var" />
       <use id="head-toggled" href="#x-head-c" class="sec-cont" />
-      <use id="head-toggled-right" href="#x-head-r" class="outline" />
-      <use id="head-toggled-bottomleft" href="#x-head-bl" class="outline" />
-      <use id="head-toggled-bottom" href="#x-head-b" class="outline" />
-      <use id="head-toggled-bottomright" href="#x-head-br" class="outline" />
+      <use id="head-toggled-right" href="#x-head-r" class="surf-var" />
+      <use id="head-toggled-bottomleft" href="#x-head-bl" class="surf-var" />
+      <use id="head-toggled-bottom" href="#x-head-b" class="surf-var" />
+      <use id="head-toggled-bottomright" href="#x-head-br" class="surf-var" />
     </g>
     <g id="header-separator">
-      <rect width="5" height="10" fill="none" x="0" y="0" />
-      <rect width="1" height="10" x="4" class="outline" y="0" />
+      <rect width="1" height="10" x="0" y="0" class="surf-var" />
     </g>
   </g>
   <g id="g-tooltip" transform="translate(204,148)">
-    <path id="tooltip-normal-topleft" d="M 7,3 A 4,4 0 0 0 3,7 h 4 z" class="inv-surf" />
-    <rect id="tooltip-normal-top" width="16" height="4" x="7" y="3" class="inv-surf" />
-    <path id="tooltip-normal-topright" d="m 23,3 a 4,4 0 0 1 4,4 h -4 z" class="inv-surf" />
-    <rect id="tooltip-normal-left" width="4" height="16" x="3" y="7" class="inv-surf" />
-    <rect id="tooltip-normal" width="16" height="16" x="7" y="7" class="inv-surf" />
-    <rect id="tooltip-normal-right" width="4" height="16" x="23" y="7" class="inv-surf" />
-    <path id="tooltip-normal-bottomleft" d="M 7,27 A 4,4 0 0 1 3,23 h 4 z" class="inv-surf" />
-    <rect id="tooltip-normal-bottom" width="16" height="4" x="7" y="23" class="inv-surf" />
-    <path id="tooltip-normal-bottomright" d="m 23,27 a 4,4 0 0 0 4,-4 h -4 z" class="inv-surf" />
+    <path id="tooltip-normal-topleft" d="M 7,3 A 4,4 0 0 0 3,7 h 4 z" class="surf-cont-highest" />
+    <rect id="tooltip-normal-top" width="16" height="4" x="7" y="3" class="surf-cont-highest" />
+    <path id="tooltip-normal-topright" d="m 23,3 a 4,4 0 0 1 4,4 h -4 z" class="surf-cont-highest" />
+    <rect id="tooltip-normal-left" width="4" height="16" x="3" y="7" class="surf-cont-highest" />
+    <rect id="tooltip-normal" width="16" height="16" x="7" y="7" class="surf-cont-highest" />
+    <rect id="tooltip-normal-right" width="4" height="16" x="23" y="7" class="surf-cont-highest" />
+    <path id="tooltip-normal-bottomleft" d="M 7,27 A 4,4 0 0 1 3,23 h 4 z" class="surf-cont-highest" />
+    <rect id="tooltip-normal-bottom" width="16" height="4" x="7" y="23" class="surf-cont-highest" />
+    <path id="tooltip-normal-bottomright" d="m 23,27 a 4,4 0 0 0 4,-4 h -4 z" class="surf-cont-highest" />
     <g id="tooltip-shadow-topleft">
       <rect width="7" height="7" x="0" y="0" fill="none" />
       <path d="M 3.211,5.745 A 5,5 0 0 0 2.419,7 H 3 A 4,4 0 0 1 3.211,5.745 Z" fill="url(#menu-agtl)" opacity="0.15" />

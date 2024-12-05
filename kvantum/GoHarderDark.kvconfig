@@ -115,7 +115,7 @@ highlight.text.color=#d5e4f6
 inactive.highlight.text.color=#c2c7cf
 
 # tooltip
-tooltip.base.color=#1e2022
+tooltip.base.color=#333538
 tooltip.text.color=#c2c7cf
 
 # button
