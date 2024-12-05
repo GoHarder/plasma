@@ -1,0 +1,31 @@
+[
+  { "key": ".pri", "fill": "primary" },
+  { "key": ".on-pri", "fill": "onPrimary" },
+  { "key": ".pri-cont", "fill": "primaryContainer" },
+  { "key": ".on-pri-cont", "fill": "onPrimaryContainer" },
+
+  { "key": ".sec", "fill": "secondary" },
+  { "key": ".sec-cont", "fill": "secondaryContainer" },
+  { "key": ".on-sec-cont", "fill": "onSecondaryContainer" },
+
+  { "key": ".surf", "fill": "surface" },
+
+  { "key": ".surf-cont-low", "fill": "surfaceContainerLow" },
+  { "key": ".surf-cont", "fill": "surfaceContainer" },
+  { "key": ".surf-cont-high", "fill": "surfaceContainerHigh" },
+  { "key": ".surf-cont-highest", "fill": "surfaceContainerHighest" },
+
+  { "key": ".on-surf", "fill": "onSurface" },
+  { "key": ".on-surf-var", "fill": "onSurfaceVariant" },
+
+  { "key": ".outline", "fill": "outline" },
+  { "key": ".outline-var", "fill": "outlineVariant" },
+
+  { "key": ".inv-surf", "fill": "inverseSurface" },
+  { "key": ".on-inv-surf", "fill": "inverseOnSurface" },
+
+  { "key": ".surf-var", "fill": "surfaceVariant" },
+
+  { "key": ".disabled-back", "fill": "onSurface", "opacity": "0.12" },
+  { "key": ".disabled-text", "fill": "onSurface", "opacity": "0.38" }
+]

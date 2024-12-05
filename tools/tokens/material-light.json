@@ -1,0 +1,60 @@
+{
+  "primary": "primary-40",
+  "onPrimary": "primary-100",
+  "primaryContainer": "primary-90",
+  "onPrimaryContainer": "primary-10",
+
+  "secondary": "secondary-40",
+  "onSecondary": "secondary-100",
+  "secondaryContainer": "secondary-90",
+  "onSecondaryContainer": "secondary-10",
+
+  "tertiary": "tertiary-40",
+  "onTertiary": "tertiary-100",
+  "tertiaryContainer": "tertiary-90",
+  "onTertiaryContainer": "tertiary-10",
+
+  "surfaceDim": "neutral-87",
+  "surface": "neutral-98",
+  "surfaceBright": "neutral-98",
+
+  "surfaceContainerLowest": "neutral-100",
+  "surfaceContainerLow": "neutral-96",
+  "surfaceContainer": "neutral-94",
+  "surfaceContainerHigh": "neutral-92",
+  "surfaceContainerHighest": "neutral-90",
+
+  "onSurface": "neutral-10",
+  "onSurfaceVariant": "neutralVariant-30",
+
+  "outline": "neutralVariant-50",
+  "outlineVariant": "neutralVariant-80",
+
+  "inverseSurface": "neutral-20",
+  "inverseOnSurface": "neutral-95",
+  "inversePrimary": "primary-80",
+
+  "background": "neutral-98",
+  "onBackground": "neutral-10",
+
+  "surfaceTint": "primary-40",
+  "surfaceVariant": "neutralVariant-90",
+
+  "primaryFixed": "primary-90",
+  "primaryFixedDim": "primary-80",
+  "onPrimaryFixed": "primary-10",
+  "onPrimaryFixedVariant": "primary-30",
+
+  "secondaryFixed": "secondary-90",
+  "secondaryFixedDim": "secondary-80",
+  "onSecondaryFixed": "secondary-10",
+  "onSecondaryFixedVariant": "secondary-30",
+
+  "tertiaryFixed": "tertiary-90",
+  "tertiaryFixedDim": "tertiary-80",
+  "onTertiaryFixed": "tertiary-10",
+  "onTertiaryFixedVariant": "tertiary-30",
+
+  "scrim": "neutral-0",
+  "shadow": "neutral-0"
+}

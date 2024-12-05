@@ -1,0 +1,90 @@
+[
+  { "key": "# window" },
+  { "key": "window.color", "color": "surfaceContainerHigh" },
+  { "key": "inactive.window.color", "color": "surfaceContainer" },
+  { "key": "window.text.color", "color": "onSurface" },
+  { "key": "inactive.window.text.color", "color": "onSurfaceVariant" },
+
+  { "key": "# base" },
+  { "key": "base.color", "color": "surfaceContainerLow" },
+  { "key": "alt.base.color", "color": "surface" },
+  { "key": "; inactive.base.color" },
+  { "key": "; inactive.alt.base.color" },
+  { "key": "text.color", "color": "onSurface" },
+  { "key": "inactive.text.color", "color": "onSurfaceVariant" },
+  { "key": "disabled.text.color", "color": "onSurface", "opacity": "61" },
+
+  { "key": "# highlight" },
+  { "key": "highlight.color", "color": "secondaryContainer" },
+  { "key": "inactive.highlight.color", "color": "secondaryContainer", "opacity": "bf" },
+  { "key": "highlight.text.color", "color": "onSecondaryContainer" },
+  { "key": "inactive.highlight.text.color", "color": "onSurfaceVariant" },
+
+  { "key": "# tooltip" },
+  { "key": "tooltip.base.color", "color": "surfaceContainerHighest" },
+  { "key": "tooltip.text.color", "color": "onSurfaceVariant" },
+
+  { "key": "# button" },
+  { "key": "button.color", "color": "secondaryContainer" },
+  { "key": "button.text.color", "color": "onSecondaryContainer" },
+
+  { "key": "# general" },
+  { "key": "light.color", "color": "outline" },
+  { "key": "mid.color", "color": "surfaceVariant" },
+  { "key": "mid.light.color", "color": "outlineVariant" },
+  { "key": "dark.color", "color": "surface" },
+
+  "# progress indicator",
+  "progress.indicator.text.color=#e2e2e5",
+  "progress.inactive.indicator.text.color=#c2c7cf",
+
+  "# link",
+  "link.color=#a7edff",
+  "link.visited.color=#7eb0bd",
+
+  { "key": "# [PanelButtonCommand]" },
+  { "key": "text.normal.color", "color": "onSecondaryContainer" },
+  { "key": "text.focus.color", "color": "onSecondaryContainer" },
+  { "key": "text.press.color", "color": "onSecondaryContainer" },
+  { "key": "text.toggle.color", "color": "onSurfaceVariant" },
+
+  { "key": "# [PanelButtonTool]" },
+  { "key": "text.normal.color", "color": "onSurfaceVariant" },
+  { "key": "text.focus.color", "color": "onSurfaceVariant" },
+  { "key": "text.press.color", "color": "onSurfaceVariant" },
+  { "key": "text.toggle.color", "color": "onSecondaryContainer" },
+
+  { "key": "# [ToolbarButton]" },
+  { "key": "text.normal.color", "color": "primary" },
+  { "key": "text.focus.color", "color": "primary" },
+  { "key": "text.press.color", "color": "primary" },
+  { "key": "text.toggle.color", "color": "onSecondaryContainer" },
+
+  { "key": "# [RadioButton]" },
+  { "key": "text.normal.color", "color": "onSurface" },
+  { "key": "text.focus.color", "color": "onSurface" },
+  { "key": "text.press.color", "color": "onSurface" },
+  { "key": "text.toggle.color", "color": "onSurface" },
+
+  { "key": "# [LineEdit]" },
+  { "key": "text.normal.color", "color": "onSurface" },
+  { "key": "text.focus.color", "color": "onSurface" },
+
+  { "key": "# [Tab]" },
+  { "key": "text.normal.color", "color": "onSurfaceVariant" },
+  { "key": "text.focus.color", "color": "onSurfaceVariant" },
+  { "key": "text.press.color", "color": "onSurfaceVariant" },
+  { "key": "text.toggle.color", "color": "primary" },
+
+  { "key": "# [Menu]" },
+  { "key": "text.normal.color", "color": "onSurface" },
+  { "key": "text.focus.color", "color": "onSurface" },
+  { "key": "text.press.color", "color": "onSurface" },
+  { "key": "text.toggle.color", "color": "onSurface" },
+
+  { "key": "# [MenuItem]" },
+  { "key": "text.normal.color", "color": "onSurface" },
+  { "key": "text.focus.color", "color": "onSurface" },
+  { "key": "text.press.color", "color": "onSurface" },
+  { "key": "text.toggle.color", "color": "onSurface" }
+]

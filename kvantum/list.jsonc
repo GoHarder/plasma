@@ -1,0 +1,147 @@
+{
+  "button": {
+    "normal": [
+      "button-normal-topleft",
+      "button-normal-top",
+      "button-normal-topright",
+      "button-normal-left",
+      "button-normal",
+      "button-normal-right",
+      "button-normal-bottomleft",
+      "button-normal-bottom",
+      "button-normal-bottomright"
+    ],
+    "focused": [
+      "button-focused-topleft",
+      "button-focused-top",
+      "button-focused-topright",
+      "button-focused-left",
+      "button-focused",
+      "button-focused-right",
+      "button-focused-bottomleft",
+      "button-focused-bottom",
+      "button-focused-bottomright"
+    ],
+    "toggled": [
+      "button-toggled-topleft",
+      "button-toggled-top",
+      "button-toggled-topright",
+      "button-toggled-left",
+      "button-toggled",
+      "button-toggled-right",
+      "button-toggled-bottomleft",
+      "button-toggled-bottom",
+      "button-toggled-bottomright"
+    ],
+    "pressed": [
+      "button-pressed-topleft",
+      "button-pressed-top",
+      "button-pressed-topright",
+      "button-pressed-left",
+      "button-pressed",
+      "button-pressed-right",
+      "button-pressed-bottom",
+      "button-pressed-bottomleft",
+      "button-pressed-bottomright"
+    ],
+    "default": ["button-default-indicator"]
+  },
+  "lineedit": {
+    "normal": [
+      "lineedit-normal-topleft",
+      "lineedit-normal-top",
+      "lineedit-normal-topright",
+      "lineedit-normal-left",
+      "lineedit-normal",
+      "lineedit-normal-right",
+      "lineedit-normal-bottomleft",
+      "lineedit-normal-bottom",
+      "lineedit-normal-bottomright"
+    ],
+    "focused": [
+      "lineedit-focused-topleft",
+      "lineedit-focused-top",
+      "lineedit-focused-topright",
+      "lineedit-focused-left",
+      "lineedit-focused",
+      "lineedit-focused-right",
+      "lineedit-focused-bottomleft",
+      "lineedit-focused-bottom",
+      "lineedit-focused-bottomright"
+    ]
+  },
+  "arrow": {
+    "plus": ["arrow-plus-normal", "arrow-plus-focused", "arrow-plus-pressed", "arrow-plus-disabled"],
+    "minus": ["arrow-minus-normal", "arrow-minus-focused", "arrow-minus-pressed", "arrow-minus-disabled"],
+    "up": ["arrow-up-normal", "arrow-up-focused", "arrow-up-pressed", "arrow-up-disabled"],
+    "down": ["arrow-down-normal", "arrow-down-focused", "arrow-down-pressed", "arrow-down-disabled"],
+    "right": ["arrow-right-normal", "arrow-right-focused", "arrow-right-pressed", "arrow-right-disabled"],
+    "left": ["arrow-left-normal", "arrow-left-focused", "arrow-left-pressed", "arrow-left-disabled"]
+  },
+  "dock": ["dock-normal", "dock-focused"],
+  "tab": {
+    "tear": "tab-tear"
+  },
+  "mdi": {
+    "menu": "mdi-menu-normal",
+    "maximize": ["mdi-maximize-normal", "mdi-maximize-focused", "mdi-maximize-pressed", "mdi-maximize-disabled"],
+    "restore": ["mdi-restore-normal", "mdi-restore-focused", "mdi-restore-pressed", "mdi-restore-disabled"],
+    "close": ["mdi-close-normal", "mdi-close-focused", "mdi-close-pressed", "mdi-close-disabled"],
+    "minimize": ["mdi-minimize-pressed", "mdi-minimize-disabled", "mdi-minimize-focused", "mdi-minimize-normal"],
+    "shade": ["mdi-shade-pressed", "mdi-shade-disabled", "mdi-shade-normal", "mdi-shade-focused"]
+  },
+  "menuitem-tearoff": ["menuitem-tearoff-normal", "menuitem-tearoff-focused"],
+  "menubaritem": {
+    "pressed": [
+      "menubaritem-pressed-topleft",
+      "menubaritem-pressed-top",
+      "menubaritem-pressed-topright",
+      "menubaritem-pressed-left",
+      "menubaritem-pressed",
+      "menubaritem-pressed-right",
+      "menubaritem-pressed-bottomleft",
+      "menubaritem-pressed-bottom",
+      "menubaritem-pressed-bottomright"
+    ],
+    "toggled": [
+      "menubaritem-toggled-top",
+      "menubaritem-toggled-topright",
+      "menubaritem-toggled-topleft",
+      "menubaritem-toggled-left",
+      "menubaritem-toggled",
+      "menubaritem-toggled-right",
+      "menubaritem-toggled-bottomleft",
+      "menubaritem-toggled-bottom",
+      "menubaritem-toggled-bottomright"
+    ]
+  },
+  "titlebar": ["titlebar-normal", "titlebar-focused"],
+  "tooltip": {
+    "normal": [
+      "tooltip-normal-topleft",
+      "tooltip-normal-top",
+      "tooltip-normal-topright",
+      "tooltip-normal-left",
+      "tooltip-normal",
+      "tooltip-normal-right",
+      "tooltip-normal-bottomleft",
+      "tooltip-normal-bottom",
+      "tooltip-normal-bottomright"
+    ],
+    "shadow": {
+      "self": [
+        "tooltip-shadow-topleft",
+        "tooltip-shadow-top",
+        "tooltip-shadow-topright",
+        "tooltip-shadow-left",
+        "tooltip-shadow-right",
+        "tooltip-shadow-bottomleft",
+        "tooltip-shadow-bottom",
+        "tooltip-shadow-bottomright"
+      ],
+      "hint": ["tooltip-shadow-hint-top", "tooltip-shadow-hint-left", "tooltip-shadow-hint-right", "tooltip-shadow-hint-bottom"]
+    }
+  },
+  "header": "header-separator",
+  "focus": ["focus-top", "focus-left", "focus-right", "focus-bottom"]
+}

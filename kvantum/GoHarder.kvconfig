@@ -83,8 +83,8 @@ window.text.color=#1a1c1e
 inactive.window.text.color=#42474e
 
 # base
-base.color=#eeedf1
-alt.base.color=#f3f3f6
+base.color=#f3f3f6
+alt.base.color=#f9f9fc
 ; inactive.base.color
 ; inactive.alt.base.color
 text.color=#1a1c1e
@@ -98,18 +98,18 @@ highlight.text.color=#0e1d2a
 inactive.highlight.text.color=#42474e
 
 # tooltip
-tooltip.base.color=#eeedf1
+tooltip.base.color=#e2e2e5
 tooltip.text.color=#42474e
 
 # button
-button.color=#f3f3f6
-button.text.color=#00639a
+button.color=#d5e4f6
+button.text.color=#0e1d2a
 
 # general
 light.color=#72777f
-mid.color=#424748
+mid.color=#dee3eb
 mid.light.color=#c2c7cf
-dark.color=#121416
+dark.color=#f9f9fc
 
 # progress indicator
 progress.indicator.text.color=#e2e2e5
@@ -145,10 +145,10 @@ text.margin.bottom=2
 text.margin.left=4
 text.margin.right=4
 text.iconspacing=4
-text.normal.color=#00639a
-text.focus.color=#00639a
-text.press.color=#00639a
-text.toggle.color=#003353
+text.normal.color=#0e1d2a
+text.focus.color=#0e1d2a
+text.press.color=#0e1d2a
+text.toggle.color=#42474e
 
 [PanelButtonTool]
 inherits=PanelButtonCommand

@@ -1,5 +1,6 @@
 {
   "imports": {
+    "@std/cli": "jsr:@std/cli@^1.0.7",
     "xml-js": "npm:xml-js@^1.6.11"
   },
   "fmt": {
