@@ -1,51 +1,4 @@
 {
-  "button": {
-    "normal": [
-      "button-normal-topleft",
-      "button-normal-top",
-      "button-normal-topright",
-      "button-normal-left",
-      "button-normal",
-      "button-normal-right",
-      "button-normal-bottomleft",
-      "button-normal-bottom",
-      "button-normal-bottomright"
-    ],
-    "focused": [
-      "button-focused-topleft",
-      "button-focused-top",
-      "button-focused-topright",
-      "button-focused-left",
-      "button-focused",
-      "button-focused-right",
-      "button-focused-bottomleft",
-      "button-focused-bottom",
-      "button-focused-bottomright"
-    ],
-    "toggled": [
-      "button-toggled-topleft",
-      "button-toggled-top",
-      "button-toggled-topright",
-      "button-toggled-left",
-      "button-toggled",
-      "button-toggled-right",
-      "button-toggled-bottomleft",
-      "button-toggled-bottom",
-      "button-toggled-bottomright"
-    ],
-    "pressed": [
-      "button-pressed-topleft",
-      "button-pressed-top",
-      "button-pressed-topright",
-      "button-pressed-left",
-      "button-pressed",
-      "button-pressed-right",
-      "button-pressed-bottom",
-      "button-pressed-bottomleft",
-      "button-pressed-bottomright"
-    ],
-    "default": ["button-default-indicator"]
-  },
   "lineedit": {
     "normal": [
       "lineedit-normal-topleft",
@@ -71,17 +24,7 @@
     ]
   },
   "dock": ["dock-normal", "dock-focused"],
-  "tab": {
-    "tear": "tab-tear"
-  },
-  "mdi": {
-    "menu": "mdi-menu-normal",
-    "maximize": ["mdi-maximize-normal", "mdi-maximize-focused", "mdi-maximize-pressed", "mdi-maximize-disabled"],
-    "restore": ["mdi-restore-normal", "mdi-restore-focused", "mdi-restore-pressed", "mdi-restore-disabled"],
-    "close": ["mdi-close-normal", "mdi-close-focused", "mdi-close-pressed", "mdi-close-disabled"],
-    "minimize": ["mdi-minimize-pressed", "mdi-minimize-disabled", "mdi-minimize-focused", "mdi-minimize-normal"],
-    "shade": ["mdi-shade-pressed", "mdi-shade-disabled", "mdi-shade-normal", "mdi-shade-focused"]
-  },
+  "tab": "tab-tear",
   "menuitem-tearoff": ["menuitem-tearoff-normal", "menuitem-tearoff-focused"],
   "menubaritem": {
     "pressed": [
