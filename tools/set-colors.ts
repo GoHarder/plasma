@@ -123,6 +123,8 @@ type ConfigLine = {
 
 type ConfigLines = (ConfigLine | string)[];
 
+type CssLine = { key: string; fill: keyof MatObjTokens; opacity?: string };
+
 // MARK: Constants
 // -------------------------------------------------------------------------
 
@@ -173,47 +175,22 @@ async function getConfigTokens(tokens: Awaited<ReturnType<typeof getBaseTokens>>
   }
 }
 
-// function _getCss(colors: FileData) {
-//   const tokens = getBaseTokens(colors);
+async function getCss(tokens: Awaited<ReturnType<typeof getBaseTokens>>) {
+  const fileData = await Deno.readTextFile(`${tokenDir}/k-css.json`);
+  const lines: CssLine[] = JSON.parse(fileData);
 
-//   return [
-//     { key: '.pri', fill: tokens.primary },
-//     { key: '.on-pri', fill: tokens.onPrimary },
-//     { key: '.pri-cont', fill: tokens.primaryContainer },
-//     { key: '.on-pri-cont', fill: tokens.onPrimaryContainer },
+  for (const line of lines) {
+    if (typeof line === 'string') continue;
 
-//     { key: '.sec', fill: tokens.secondary },
-//     { key: '.sec-cont', fill: tokens.secondaryContainer },
-//     { key: '.on-sec-cont', fill: tokens.onSecondaryContainer },
+    let str = `${line.key} { fill: ${tokens[line.fill]};`;
 
-//     { key: '.surf', fill: tokens.surface },
+    if (line.opacity) str += ` opacity: ${line.opacity};`;
 
-//     { key: '.surf-cont-low', fill: tokens.surfaceContainerLow },
-//     { key: '.surf-cont', fill: tokens.surfaceContainer },
-//     { key: '.surf-cont-high', fill: tokens.surfaceContainerHigh },
-//     { key: '.surf-cont-highest', fill: tokens.surfaceContainerHighest },
+    str += ' }';
 
-//     { key: '.on-surf', fill: tokens.onSurface },
-//     { key: '.on-surf-var', fill: tokens.onSurfaceVariant },
-
-//     { key: '.outline', fill: tokens.outline },
-//     { key: '.outline-var', fill: tokens.outlineVariant },
-
-//     { key: '.inv-surf', fill: tokens.inverseSurface },
-//     { key: '.on-inv-surf', fill: tokens.inverseOnSurface },
-
-//     { key: '.surf-var', fill: tokens.surfaceVariant },
-
-//     { key: '.disabled-back', fill: tokens.onSurface, opacity: '0.12' },
-//     { key: '.disabled-text', fill: tokens.onSurface, opacity: '0.38' },
-//   ];
-// }
-
-// MARK: Constants
-// -------------------------------------------------------------------------
-
-// MARK: Main
-// -------------------------------------------------------------------------
+    console.log(str);
+  }
+}
 
 async function main() {
   const light = !args.dark;
@@ -229,7 +206,7 @@ async function main() {
   }
 
   if (args.css) {
-    console.log('go fuck yourself');
+    await getCss(baseTokens);
     return;
   }
 

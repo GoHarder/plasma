@@ -10,6 +10,14 @@
         fill: #ffffff;
       }
 
+      .pri-cont {
+        fill: #cee5ff;
+      }
+
+      .on-pri-cont {
+        fill: #001d32;
+      }
+
       .sec {
         fill: #51606f;
       }
@@ -19,7 +27,7 @@
       }
 
       .on-sec-cont {
-        fill: #d5e4f6;
+        fill: #0e1d2a;
       }
 
       .surf {
@@ -51,28 +59,32 @@
       }
 
       .outline {
-        fill: #76777a;
+        fill: #72777f;
       }
 
       .outline-var {
-        fill: #42474e;
-      }
-
-      .surf-var {
-        fill: #dee3eb;
+        fill: #c2c7cf;
       }
 
       .inv-surf {
         fill: #2f3033;
       }
 
+      .on-inv-surf {
+        fill: #f0f0f4;
+      }
+
+      .surf-var {
+        fill: #dee3eb;
+      }
+
       .disabled-back {
-        fill: #2f3033;
+        fill: #1a1c1e;
         opacity: 0.12;
       }
 
       .disabled-text {
-        fill: #2f3033;
+        fill: #1a1c1e;
         opacity: 0.38;
       }
     </style>
