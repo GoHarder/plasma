@@ -36,12 +36,27 @@ left_tabs=true
 group_toolbar_buttons=true
 ; toolbar_item_spacing=0 < is 0 because of group_toolbar_buttons
 ; toolbar_interior_spacing=0
+; toolbar_separator_thickness=2
+; center_toolbar_handle=false
+; slim_toolbars=false
+; toolbutton_style=0
+
+# dialogs
+; dialog_button_layout=0
+
+# header
+; spread_header=false
+
+# menubar
+; menubar_mouse_tracking=true
+; merge_menubar_with_toolbar=false
 
 # progressbar
 spread_progressbar=true
-progressbar_thickness=4
+progressbar_thickness=6
 
 # menu
+; scrollable_menu=true
 spread_menuitems=true
 menu_separator_height=8
 ; submenu_overlap=0
@@ -61,9 +76,9 @@ tooltip_shadow_depth=6
 splitter_width=6
 
 # slider
-slider_width=4
-slider_handle_width=17
-slider_handle_length=17
+slider_width=6
+slider_handle_width=26
+slider_handle_length=26
 
 # checkbox
 check_size=20
@@ -73,7 +88,9 @@ check_size=20
 composite=true
 opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,VirtualBoxVM,trojita,dragon,digikam,lyx
 
-scroll_width=10
+; MARK: popup_blurring
+
+scroll_width=15
 
 [GeneralColors]
 # window
@@ -122,83 +139,100 @@ link.visited.color=#7eb0bd
 [Hacks]
 respect_darkness=true
 
+; Primary Button
 [PanelButtonCommand]
 frame=true
-frame.element=button
-; frame.expansion=40
+frame.element=btn-1
+frame.expansion=40
 frame.top=8
 frame.bottom=8
 frame.left=8
 frame.right=8
-frame.expanded.top=3
-frame.expanded.bottom=3
-frame.expanded.left=3
-frame.expanded.right=3
+frame.expanded.top=1
+frame.expanded.bottom=1
+frame.expanded.left=1
+frame.expanded.right=1
 interior=true
-interior.element=button
+interior.element=btn-1
 indicator.element=ar-1
 indicator.size=10
 text.shadow=false
 text.margin=true
-text.margin.top=2
-text.margin.bottom=2
-text.margin.left=4
-text.margin.right=4
-text.iconspacing=4
+text.margin.top=0
+text.margin.bottom=0
+text.margin.left=3
+text.margin.right=3
+text.iconspacing=2
 text.normal.color=#0e1d2a
 text.focus.color=#0e1d2a
 text.press.color=#0e1d2a
 text.toggle.color=#42474e
 
+; Secondary Button
 [PanelButtonTool]
 inherits=PanelButtonCommand
-frame.element=tool-button
-frame.expanded.top=1
-frame.expanded.bottom=1
-frame.expanded.left=1
-frame.expanded.right=1
-interior.element=tool-button
-indicator.element=arrow
+frame.element=btn-2
+interior.element=btn-2
+indicator.element=ar-2
+text.normal.color=#42474e
+text.focus.color=#42474e
+text.press.color=#42474e
+text.toggle.color=#0e1d2a
+
+; Buttons For toolbars
+[ToolbarButton]
+inherits=PanelButtonCommand
+frame.element=btn-3
+interior.element=btn-3
+indicator.element=ar-2
 text.normal.color=#00639a
 text.focus.color=#00639a
 text.press.color=#00639a
-text.toggle.color=#003353
+text.toggle.color=#0e1d2a
 
-[Dock]
-inherits=PanelButtonTool
-frame=false
-interior=false
+; For a dock?
+; [Dock]
+; inherits=PanelButtonTool
+; frame=false
+; interior=false
 
-[DockTitle]
-inherits=PanelButtonTool
-frame=false
-interior=true
-interior.element=dock
-text.focus.color=white
-text.bold=true
-text.margin.top=2
-text.margin.bottom=2
-text.margin.left=3
-text.margin.right=3
+; Title of the dock widget?
+; [DockTitle]
+; inherits=PanelButtonTool
+; frame=false
+; interior=true
+; interior.element=dock
+; text.focus.color=white
+; text.bold=true
+; text.margin.top=2
+; text.margin.bottom=2
+; text.margin.left=3
+; text.margin.right=3
 
+; Indicators of a spin widget
 # [IndicatorSpinBox]
 
 [RadioButton]
-inherits=PanelButtonTool
+inherits=PanelButtonCommand
 interior.element=radio
 text.margin.top=2
 text.margin.bottom=2
 text.margin.left=3
 text.margin.right=3
+text.normal.color=#1a1c1e
+text.focus.color=#1a1c1e
+text.press.color=#1a1c1e
+text.toggle.color=#1a1c1e
 
 [CheckBox]
-inherits=PanelButtonTool
+inherits=RadioButton
 interior.element=checkbox
 text.margin.top=2
 text.margin.bottom=2
 text.margin.left=3
 text.margin.right=3
 
+; Generic focus frame
 # [Focus]
 
 [GenericFrame]
@@ -212,11 +246,6 @@ interior=true
 interior.element=common
 text.margin=false
 
-; [LineEdit]
-; inherits=PanelButtonTool
-; frame.element=lineedit
-; interior=false
-; text.toggle.color=#e2e2e5
 [LineEdit]
 frame=true
 frame.element=lineedit
@@ -225,6 +254,7 @@ frame.bottom=4
 frame.left=4
 frame.right=4
 interior=false
+indicator.element=ar-4
 indicator.size=12
 text.shadow=false
 text.margin=true
@@ -232,27 +262,39 @@ text.margin.top=4
 text.margin.bottom=4
 text.margin.left=4
 text.margin.right=4
-text.normal.color=#e2e2e5
-text.focus.color=#e2e2e5
+text.normal.color=#1a1c1e
+text.focus.color=#1a1c1e
 
 # [DropDownButton]
 
+[IndicatorArrow]
+indicator.element=arrow
+indicator.size=10
+
 # [ToolboxTab]
+; Not used 
 
 [Tab]
-inherits=PanelButtonCommand
-interior.element=tab
+frame=true
 frame.element=tab
-indicator.element=tab
-text.margin.top=4
-text.margin.bottom=4
-text.margin.left=4
-text.margin.right=4
+frame.top=2
+frame.bottom=2
+frame.left=2
+frame.right=2
+interior=true
+interior.element=tab
+indicator.size=12
+text.shadow=false
+text.margin=true
+text.margin.top=8
+text.margin.bottom=8
+text.margin.left=8
+text.margin.right=8
 text.iconspacing=4
-text.normal.color=#c2c7cf
-text.focus.color=#95ccff
-text.press.color=#e2e2e5
-text.toggle.color=#95ccff
+text.normal.color=#42474e
+text.focus.color=#42474e
+text.press.color=#42474e
+text.toggle.color=#00639a
 
 [TabFrame]
 inherits=GenericFrame
@@ -264,57 +306,59 @@ frame.right=1
 interior.element=common
 
 [TabBarFrame]
-inherits=TabFrame
-frame=true
+inherits=Tab
 frame.element=tabbar
-interior=false
-text.shadow=false
+interior.element=tabbar
 
 # [TreeExpander]
 
 [HeaderSection]
-inherits=PanelButtonTool
+inherits=PanelButtonCommand
 interior.element=head
+indicator.element=ar-2
 frame.element=head
 frame.top=1
 frame.bottom=1
 frame.left=1
 frame.right=1
+text.margin=true
+text.margin.top=2
+text.margin.bottom=2
+text.margin.left=3
+text.margin.right=3
 
 [SizeGrip]
 indicator.element=sizegrip
 
 [Toolbar]
-inherits=PanelButtonTool
+inherits=ToolbarButton
 indicator.element=toolbar
 indicator.size=6
 frame=false
 
 # [ToolbarButton]
+; Not used 
 
 # [ToolbarComboBox]
+; Not used 
 
 # [ToolbarLineEdit]
+; Not used 
 
-# [Scrollbar]
+[Scrollbar]
+indicator.element=ar-5
+indicator.size=15
 
 [ScrollbarGroove]
 inherits=PanelButtonTool
 interior=false
-frame.element=groove
-frame.top=1
-frame.bottom=1
-frame.left=1
-frame.right=1
+interior.element=groove
+frame=false
 
 [ScrollbarSlider]
 inherits=PanelButtonTool
-frame.element=scrollbarslider
-interior=false
-frame.top=5
-frame.bottom=5
-frame.left=5
-frame.right=5
+interior.element=scrollbarslider
+frame=false
 indicator.element=grip
 indicator.size=13
 
@@ -324,10 +368,10 @@ indicator.size=13
 inherits=PanelButtonTool
 frame.element=slider
 interior.element=slider
-frame.top=2
-frame.bottom=2
-frame.left=2
-frame.right=2
+frame.top=3
+frame.bottom=3
+frame.left=3
+frame.right=3
 
 [SliderCursor]
 inherits=PanelButtonCommand
@@ -338,10 +382,10 @@ interior.element=slidercursor
 inherits=PanelButtonTool
 frame.element=progress
 interior=false
-frame.top=2
-frame.bottom=2
-frame.left=2
-frame.right=2
+frame.top=3
+frame.bottom=3
+frame.left=3
+frame.right=3
 text.focus.color=white
 text.bold=true
 
@@ -350,16 +394,20 @@ inherits=PanelButtonTool
 frame=true
 frame.element=progress-pattern
 interior=false
-frame.top=2
-frame.bottom=2
-frame.left=2
-frame.right=2
+frame.top=3
+frame.bottom=3
+frame.left=3
+frame.right=3
 
 [ItemView]
 inherits=PanelButtonTool
 text.margin=false
-frame=false
+frame.element=itemview
 interior.element=itemview
+frame.top=4
+frame.bottom=4
+frame.left=4
+frame.right=4
 
 [Splitter]
 inherits=PanelButtonTool
@@ -378,8 +426,12 @@ frame.element=menu
 interior.element=menu
 frame.top=4
 frame.bottom=4
-frame.left=8
-frame.right=8
+frame.left=4
+frame.right=4
+text.normal.color=#1a1c1e
+text.focus.color=#1a1c1e
+text.press.color=#1a1c1e
+text.toggle.color=#1a1c1e
 
 [MenuItem]
 inherits=PanelButtonTool
@@ -392,32 +444,36 @@ frame.top=1
 frame.bottom=1
 frame.left=8
 frame.right=8
+text.normal.color=#1a1c1e
+text.focus.color=#1a1c1e
+text.press.color=#1a1c1e
+text.toggle.color=#1a1c1e
 
 # [MenuBar]
 
-[MenuBarItem]
-inherits=PanelButtonTool
-interior.element=menubaritem
-frame.element=menubaritem
-frame.top=1
-frame.bottom=1
-frame.left=1
-frame.right=1
-text.margin.top=2
-text.margin.bottom=2
+; [MenuBarItem]
+; inherits=PanelButtonTool
+; interior.element=menubaritem
+; frame.element=menubaritem
+; frame.top=1
+; frame.bottom=1
+; frame.left=1
+; frame.right=1
+; text.margin.top=2
+; text.margin.bottom=2
 
-[TitleBar]
-inherits=PanelButtonTool
-frame=false
-interior.element=titlebar
-indicator.size=12
-indicator.element=mdi
-text.normal.color=black
-text.focus.color=white
-text.margin.top=2
-text.margin.bottom=2
-text.margin.left=3
-text.margin.right=3
+; [TitleBar]
+; inherits=PanelButtonTool
+; frame=false
+; interior.element=titlebar
+; indicator.size=12
+; indicator.element=mdi
+; text.normal.color=black
+; text.focus.color=white
+; text.margin.top=2
+; text.margin.bottom=2
+; text.margin.left=3
+; text.margin.right=3
 
 [ComboBox]
 inherits=LineEdit
@@ -426,14 +482,13 @@ inherits=LineEdit
 inherits=GenericFrame
 frame=true
 frame.element=group
-interior=true
-interior.element=group
+interior=false
 text.shadow=false
 text.margin=0
-frame.top=11
-frame.bottom=11
-frame.left=11
-frame.right=11
+frame.top=15
+frame.bottom=15
+frame.left=15
+frame.right=15
 
 [ToolTip]
 inherits=GenericFrame
