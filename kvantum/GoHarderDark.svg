@@ -919,15 +919,15 @@
     </g>
   </g>
   <g id="g-common" transform="translate(192)">
-    <use id="common-normal-topleft" href="#x-btn-tl" class="surf-cont" />
-    <use id="common-normal-top" href="#x-btn-t" class="surf-cont" />
-    <use id="common-normal-topright" href="#x-btn-tr" class="surf-cont" />
-    <use id="common-normal-left" href="#x-btn-l" class="surf-cont" />
-    <use id="common-normal" href="#x-btn-c" class="surf-cont" />
-    <use id="common-normal-right" href="#x-btn-r" class="surf-cont" />
-    <use id="common-normal-bottomleft" href="#x-btn-bl" class="surf-cont" />
-    <use id="common-normal-bottom" href="#x-btn-b" class="surf-cont" />
-    <use id="common-normal-bottomright" href="#x-btn-br" class="surf-cont" />
+    <use id="common-normal-topleft" href="#x-btn-tl" class="surf-cont-low" />
+    <use id="common-normal-top" href="#x-btn-t" class="surf-cont-low" />
+    <use id="common-normal-topright" href="#x-btn-tr" class="surf-cont-low" />
+    <use id="common-normal-left" href="#x-btn-l" class="surf-cont-low" />
+    <use id="common-normal" href="#x-btn-c" class="surf-cont-low" />
+    <use id="common-normal-right" href="#x-btn-r" class="surf-cont-low" />
+    <use id="common-normal-bottomleft" href="#x-btn-bl" class="surf-cont-low" />
+    <use id="common-normal-bottom" href="#x-btn-b" class="surf-cont-low" />
+    <use id="common-normal-bottomright" href="#x-btn-br" class="surf-cont-low" />
   </g>
   <g id="g-toolbar" transform="translate(224)">
     <use id="toolbar-normal" href="#x-btn-c" class="surf-cont-high" />
@@ -1238,15 +1238,15 @@
     </g>
   </g>
   <g id="g-menu" transform="translate(70,148)">
-    <path id="menu-normal-topleft" d="M 7,3 A 4,4 0 0 0 3,7 h 4 z" class="surf" />
-    <rect id="menu-normal-top" width="16" height="4" x="7" y="3" class="surf" />
-    <path id="menu-normal-topright" d="m 23,3 a 4,4 0 0 1 4,4 h -4 z" class="surf" />
-    <rect id="menu-normal-left" width="4" height="16" x="3" y="7" class="surf" />
-    <rect id="menu-normal" width="16" height="16" x="7" y="7" class="surf" />
-    <rect id="menu-normal-right" width="4" height="16" x="23" y="7" class="surf" />
-    <path id="menu-normal-bottomleft" d="M 7,27 A 4,4 0 0 1 3,23 h 4 z" class="surf" />
-    <rect id="menu-normal-bottom" width="16" height="4" x="7" y="23" class="surf" />
-    <path id="menu-normal-bottomright" d="m 23,27 a 4,4 0 0 0 4,-4 h -4 z" class="surf" />
+    <path id="menu-normal-topleft" d="M 7,3 A 4,4 0 0 0 3,7 h 4 z" class="surf-cont" />
+    <rect id="menu-normal-top" width="16" height="4" x="7" y="3" class="surf-cont" />
+    <path id="menu-normal-topright" d="m 23,3 a 4,4 0 0 1 4,4 h -4 z" class="surf-cont" />
+    <rect id="menu-normal-left" width="4" height="16" x="3" y="7" class="surf-cont" />
+    <rect id="menu-normal" width="16" height="16" x="7" y="7" class="surf-cont" />
+    <rect id="menu-normal-right" width="4" height="16" x="23" y="7" class="surf-cont" />
+    <path id="menu-normal-bottomleft" d="M 7,27 A 4,4 0 0 1 3,23 h 4 z" class="surf-cont" />
+    <rect id="menu-normal-bottom" width="16" height="4" x="7" y="23" class="surf-cont" />
+    <path id="menu-normal-bottomright" d="m 23,27 a 4,4 0 0 0 4,-4 h -4 z" class="surf-cont" />
     <g id="menu-shadow-topleft">
       <rect width="7" height="7" x="0" y="0" fill="none" />
       <path d="M 3.211,5.745 A 5,5 0 0 0 2.419,7 H 3 A 4,4 0 0 1 3.211,5.745 Z" fill="url(#menu-agtl)" opacity="0.15" />

@@ -100,8 +100,8 @@ window.text.color=#e2e2e5
 inactive.window.text.color=#c2c7cf
 
 # base
-base.color=#1e2022
-alt.base.color=#1a1c1e
+base.color=#1a1c1e
+alt.base.color=#121416
 ; inactive.base.color
 ; inactive.alt.base.color
 text.color=#e2e2e5
