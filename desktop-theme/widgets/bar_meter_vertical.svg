@@ -54,7 +54,7 @@
   <rect id="bar-active-bottomleft" width="3" height="3" x="9" y="6" class="ColorScheme-ButtonHover"
     fill="currentColor" />
   <rect id="bar-active-bottom" width="3" height="3" x="12" y="6" class="ColorScheme-ButtonHover" fill="currentColor" />
-  <rect id="bar-active-bottomright" width="3" height="3" x="6" y="6" class="ColorScheme-ButtonHover"
+  <rect id="bar-active-bottomright" width="3" height="3" x="15" y="6" class="ColorScheme-ButtonHover"
     fill="currentColor" />
   <rect id="hint-bar-size" width="6" height="6" x="0" y="9" fill="#ff0000" />
 </svg>

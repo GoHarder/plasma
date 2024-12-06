@@ -313,9 +313,8 @@ interior.element=tabbar
 # [TreeExpander]
 
 [HeaderSection]
-inherits=PanelButtonCommand
+inherits=PanelButtonTool
 interior.element=head
-indicator.element=ar-2
 frame.element=head
 frame.top=1
 frame.bottom=1
@@ -462,12 +461,12 @@ text.toggle.color=#e2e2e5
 ; text.margin.top=2
 ; text.margin.bottom=2
 
-; [TitleBar]
-; inherits=PanelButtonTool
-; frame=false
-; interior.element=titlebar
-; indicator.size=12
-; indicator.element=mdi
+[TitleBar]
+inherits=PanelButtonTool
+frame=false
+interior.element=titlebar
+indicator.size=12
+indicator.element=mdi
 ; text.normal.color=black
 ; text.focus.color=white
 ; text.margin.top=2

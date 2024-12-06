@@ -9,44 +9,44 @@
   <!-- outline -->
   <g id="base-topleft">
     <rect width="4" height="4" x="0" y="0" fill="none" />
-    <path d="M 4,1 a 3,3 0 0 0 -3,3 h 3 Z" class="ColorScheme-Background" fill="currentColor" opacity="0.6" />
+    <path d="M 4,1 a 3,3 0 0 0 -3,3 h 3 Z" class="ColorScheme-Background" fill="currentColor" opacity="0.7" />
     <path d="M 4,0.5 a 3.5,3.5 0 0 0 -3.5,3.5 h 1 a 2.5,2.5 0 0 1 2.5,-2.5 Z" fill="#8c9198" />
   </g>
   <g id="base-top">
     <rect width="16" height="4" x="4" y="0" fill="none" />
-    <rect width="16" height="3" x="4" y="1" class="ColorScheme-Background" fill="currentColor" opacity="0.6" />
+    <rect width="16" height="3" x="4" y="1" class="ColorScheme-Background" fill="currentColor" opacity="0.7" />
     <rect width="16" height="1" x="4" y="0.5" fill="#8c9198" />
   </g>
   <g id="base-topright">
     <rect width="4" height="4" x="20" y="0" fill="none" />
-    <path d="M 20,1 a 3,3 0 0 1 3,3 h -3 Z" class="ColorScheme-Background" fill="currentColor" opacity="0.6" />
+    <path d="M 20,1 a 3,3 0 0 1 3,3 h -3 Z" class="ColorScheme-Background" fill="currentColor" opacity="0.7" />
     <path d="M 20,0.5 A 3.5,3.5 0 0 1 23.5,4 h -1 A 2.5,2.5 0 0 0 20,1.5 Z" fill="#8c9198" />
   </g>
   <g id="base-left">
     <rect width="4" height="16" x="0" y="4" fill="none" />
-    <rect width="3" height="16" x="1" y="4" class="ColorScheme-Background" fill="currentColor" opacity="0.6" />
+    <rect width="3" height="16" x="1" y="4" class="ColorScheme-Background" fill="currentColor" opacity="0.7" />
     <rect width="1" height="16" x="0.5" y="4" fill="#8c9198" />
   </g>
   <rect id="base-center" width="16" height="16" x="4" y="4" class="ColorScheme-Background" fill="currentColor"
-    opacity="0.6" />
+    opacity="0.7" />
   <g id="base-right">
     <rect width="4" height="16" x="20" y="4" fill="none" />
-    <rect width="3" height="16" x="20" y="4" class="ColorScheme-Background" fill="currentColor" opacity="0.6" />
+    <rect width="3" height="16" x="20" y="4" class="ColorScheme-Background" fill="currentColor" opacity="0.7" />
     <rect width="1" height="16" x="22.5" y="4" fill="#8c9198" />
   </g>
   <g id="base-bottomleft">
     <rect width="4" height="4" x="0" y="20" fill="none" />
-    <path d="M 1,20 a 3,3 0 0 0 3,3 v -3 Z" class="ColorScheme-Background" fill="currentColor" opacity="0.6" />
+    <path d="M 1,20 a 3,3 0 0 0 3,3 v -3 Z" class="ColorScheme-Background" fill="currentColor" opacity="0.7" />
     <path d="M 0.5,20 A 3.5,3.5 0 0 0 4,23.5 v -1 A 2.5,2.5 0 0 1 1.5,20 Z" fill="#8c9198" />
   </g>
   <g id="base-bottom">
     <rect width="16" height="4" x="4" y="20" fill="none" />
-    <rect width="16" height="3" x="4" y="20" class="ColorScheme-Background" fill="currentColor" opacity="0.6" />
+    <rect width="16" height="3" x="4" y="20" class="ColorScheme-Background" fill="currentColor" opacity="0.7" />
     <rect width="16" height="1" x="4" y="22.5" fill="#8c9198" />
   </g>
   <g id="base-bottomright">
     <rect width="4" height="4" x="20" y="20" fill="none" />
-    <path d="M 23,20 a 3,3 0 0 1 -3,3 v -3 Z" class="ColorScheme-Background" fill="currentColor" opacity="0.6" />
+    <path d="M 23,20 a 3,3 0 0 1 -3,3 v -3 Z" class="ColorScheme-Background" fill="currentColor" opacity="0.7" />
     <path d="M 23.5,20 A 3.5,3.5 0 0 1 20,23.5 v -1 A 2.5,2.5 0 0 0 22.5,20 Z" fill="#8c9198" />
   </g>
   <rect id="base-hint-top-margin" width="2" height="8" x="11" y="0" fill="#4e9a06" />
