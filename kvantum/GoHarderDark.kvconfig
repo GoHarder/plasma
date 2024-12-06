@@ -1,6 +1,6 @@
 [%General]
 author=Gregory Harder
-comment=Official Go Harder theme for Kvantum
+comment=A theme for Kvantum
 ; respect_DE=true
 ; x11drag=true
 ; alt_mnemonic=true
@@ -79,18 +79,42 @@ splitter_width=6
 slider_width=6
 slider_handle_width=26
 slider_handle_length=26
+; tickless_slider_handle_size=20
 
 # checkbox
 check_size=20
 
+# groupbox
+; groupbox_top_label=false
+
+# scrollbar
+scroll_width=15
+; scroll_min_extent=36
+; center_scrollbar_indicator=false
+; scroll_arrows=true
+
+; TODO: 12-06-2024 11:51 AM Test these
+; scrollbar_in_view=false
+; transient_scrollbar=false
+; transient_groove=false
+
+# tree
+; TODO: 12-06-2024 11:51 AM Test this
+; tree_branch_line=false
+
 # rendering
-; bluring=true
+; blurring=true
+; popup_blurring=true < Is tied to burring setting
 composite=true
 opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidemux,avidemux2_qt4,avidemux3_qt4,avidemux3_qt5,kamoso,QtCreator,VirtualBox,VirtualBoxVM,trojita,dragon,digikam,lyx
+; contrast=1
+; intensity=1
+; saturation=1
+animate_states=true
+; no_inactiveness=false
+; no_window_pattern=false
 
-; MARK: popup_blurring
-
-scroll_width=15
+; MARK: Next setting tooltip_delay
 
 [GeneralColors]
 # window
@@ -266,13 +290,14 @@ text.normal.color=#e2e2e5
 text.focus.color=#e2e2e5
 
 # [DropDownButton]
+; TODO: 12-06-2024 12:06 PM Test this
 
 [IndicatorArrow]
 indicator.element=arrow
 indicator.size=10
 
 # [ToolboxTab]
-; Not used 
+; TODO: 12-06-2024 12:08 PM See what this is
 
 [Tab]
 frame=true
@@ -334,9 +359,10 @@ inherits=ToolbarButton
 indicator.element=toolbar
 indicator.size=6
 frame=false
-
-# [ToolbarButton]
-; Not used 
+text.margin.top=2
+text.margin.bottom=2
+text.margin.left=0
+text.margin.right=0
 
 # [ToolbarComboBox]
 ; Not used 
@@ -362,6 +388,7 @@ indicator.element=grip
 indicator.size=13
 
 # [ScrollbarTransientSlider]
+; Not used
 
 [Slider]
 inherits=PanelButtonTool
@@ -450,7 +477,7 @@ text.toggle.color=#e2e2e5
 
 # [MenuBar]
 
-; [MenuBarItem]
+# [MenuBarItem]
 ; inherits=PanelButtonTool
 ; interior.element=menubaritem
 ; frame.element=menubaritem
