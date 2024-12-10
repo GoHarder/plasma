@@ -215,9 +215,9 @@ text.press.color=#95ccff
 text.toggle.color=#d5e4f6
 
 ; For a dock?
-; [Dock]
-; inherits=PanelButtonTool
-; frame=false
+[Dock]
+inherits=PanelButtonCommand
+frame=false
 ; interior=false
 
 ; Title of the dock widget?
