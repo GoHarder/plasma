@@ -1607,8 +1607,10 @@
     <rect id="titlebar-focused" width="16" height="4" class="surf-cont-highest" x="0" y="0" />
     <rect id="titlebar-normal" width="16" height="4" y="4" class="surf-cont-high" x="0" />
   </g>
-  <rect id="dock-focused" width="16" height="4" class="surf-cont-highest" />
-  <rect id="dock-normal" width="16" height="4" y="4" class="surf-cont-high" />
+  <g id="g-dock" transform="translate(138,104)">
+    <rect id="dock-focused" width="16" height="4" class="surf-cont-highest" x="0" y="0" />
+    <rect id="dock-normal" width="16" height="4" y="4" class="surf-cont-high" x="0" />
+  </g>
   <!--   
   id="tab-tear"
   id="focus-top"

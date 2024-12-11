@@ -154,7 +154,7 @@ dark.color=#121416
 
 # progress indicator
 progress.indicator.text.color=#e2e2e5
-progress.inactive.indicator.text.color=#c2c7cf
+progress.inactive.indicator.text.color=#e2e2e5
 
 # link
 link.color=#a7edff
@@ -218,8 +218,8 @@ text.toggle.color=#d5e4f6
 [Dock]
 inherits=PanelButtonCommand
 frame=false
-; interior=false
 
+; TODO: 12-11-2024 1:16 PM - Test this
 ; Title of the dock widget?
 ; [DockTitle]
 ; inherits=PanelButtonTool

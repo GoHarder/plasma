@@ -940,8 +940,8 @@
     </g>
   </g>
   <g id="g-sizegrip" transform="translate(212,32)">
-    <use id="sizegrip-normal" xlink:href="#x-sizegrip" x="0" y="0" class="on-surf-var" />
-    <use id="sizegrip-focused" xlink:href="#x-sizegrip" x="8" y="0" class="on-surf-var" />
+    <use id="sizegrip-normal" xlink:href="#x-sizegrip" x="0" y="0" class="outline" />
+    <use id="sizegrip-focused" xlink:href="#x-sizegrip" x="8" y="0" class="outline" />
   </g>
   <g id="g-itemview" transform="translate(136,80)">
     <g id="g-itemview-focused">
@@ -1327,17 +1327,17 @@
     </g>
     <g id="menuitem-tearoff-normal" transform="translate(0,30)">
       <rect width="20" height="8" fill="none" x="0" y="0" />
-      <rect width="4" height="1" x="0.5" y="3.5" class="surf-var" />
-      <rect width="4" height="1" x="5.5" y="3.5" class="surf-var" />
-      <rect width="4" height="1" x="10.5" y="3.5" class="surf-var" />
-      <rect width="4" height="1" x="15.5" y="3.5" class="surf-var" />
+      <rect width="3" height="1" x="1" y="3.5" class="surf-var" />
+      <rect width="3" height="1" x="6" y="3.5" class="surf-var" />
+      <rect width="3" height="1" x="11" y="3.5" class="surf-var" />
+      <rect width="3" height="1" x="16" y="3.5" class="surf-var" />
     </g>
     <g id="menuitem-tearoff-focused" transform="translate(20,30)">
       <rect width="20" height="8" fill="none" x="0" y="0" />
-      <rect width="4" height="1" x="0.5" y="3.5" class="on-surf-var" />
-      <rect width="4" height="1" x="5.5" y="3.5" class="on-surf-var" />
-      <rect width="4" height="1" x="10.5" y="3.5" class="on-surf-var" />
-      <rect width="4" height="1" x="15.5" y="3.5" class="on-surf-var" />
+      <rect width="3" height="1" x="1" y="3.5" class="on-surf-var" />
+      <rect width="3" height="1" x="6" y="3.5" class="on-surf-var" />
+      <rect width="3" height="1" x="11" y="3.5" class="on-surf-var" />
+      <rect width="3" height="1" x="16" y="3.5" class="on-surf-var" />
     </g>
   </g>
   <g id="g-header" transform="translate(132,148)">
@@ -1603,10 +1603,14 @@
       <use id="menubaritem-pressed-bottomright" href="#head-br" class="sec-cont" />
     </g>
   </g> -->
-  <!-- <rect id="titlebar-focused" width="16" height="4" class="surf-cont-highest" /> -->
-  <!-- <rect id="titlebar-normal" width="16" height="4" y="4" class="surf-cont-high" /> -->
-  <!-- <rect id="dock-focused" width="16" height="4" class="surf-cont-highest" /> -->
-  <!-- <rect id="dock-normal" width="16" height="4" y="4" class="surf-cont-high" /> -->
+  <g id="g-titlebar" transform="translate(104,114)">
+    <rect id="titlebar-focused" width="16" height="4" class="surf-cont-highest" x="0" y="0" />
+    <rect id="titlebar-normal" width="16" height="4" y="4" class="surf-cont-high" x="0" />
+  </g>
+  <g id="g-dock" transform="translate(138,104)">
+    <rect id="dock-focused" width="16" height="4" class="surf-cont-highest" x="0" y="0" />
+    <rect id="dock-normal" width="16" height="4" y="4" class="surf-cont-high" x="0" />
+  </g>
   <!--   
   id="tab-tear"
   id="focus-top"
