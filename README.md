@@ -112,14 +112,10 @@ onPrimaryContainer = #95ccff + white at 50%
   - [ ] text color
   - [ ] size
   - [ ] margin
-- [ ] RadioButton
-  - [ ] color
-  - [ ] text color
-  - [ ] size
-  - [ ] margin
+- [x] RadioButton
 - [ ] CheckBox
-  - [ ] color
-  - [ ] text color
+  - [x] color
+  - [x] text color
   - [ ] size
   - [ ] margin
 - [ ] GenericFrame
@@ -137,11 +133,7 @@ onPrimaryContainer = #95ccff + white at 50%
   - [ ] text color
   - [ ] size
   - [ ] margin
-- [ ] Tab
-  - [ ] color
-  - [ ] text color
-  - [ ] size
-  - [ ] margin
+- [x] Tab
 - [ ] TabFrame
   - [ ] color
   - [ ] text color
@@ -159,9 +151,7 @@ onPrimaryContainer = #95ccff + white at 50%
   - [ ] margin
 - [ ] SizeGrip
   - [ ] color
-  - [ ] text color
   - [ ] size
-  - [ ] margin
 - [ ] Toolbar
   - [ ] color
   - [ ] text color
