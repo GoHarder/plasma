@@ -73,7 +73,172 @@ PrimaryContainer = #95ccff + black at 70%
 onPrimaryContainer = #95ccff + white at 50%
 
 ## TODO
-- [ ] Kvantum
-  - [ ] Increase line edit size
-- [ ] Widgets
-  - [ ] Darken line edit background.
+
+### Kvantum
+
+#### Create
+- [ ] Set up config options
+- [ ] DockTitle
+- [ ] IndicatorSpinBox
+- [ ] Focus
+- [ ] DropDownButton
+- [ ] ToolboxTab
+- [ ] TreeExpander
+- [ ] ToolbarComboBox
+- [ ] ToolbarLineEdit
+- [ ] ScrollbarTransientSlider
+- [ ] MenuBar
+- [ ] MenuBarItem
+- [ ] Window
+
+#### Review
+- [ ] PanelButtonCommand
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] PanelButtonTool
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] ToolbarButton
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] Dock
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] RadioButton
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] CheckBox
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] GenericFrame
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] LineEdit
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] IndicatorArrow
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] Tab
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] TabFrame
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] TabBarFrame
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] HeaderSection
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] SizeGrip
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] Toolbar
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] Scrollbar
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] ScrollbarGroove
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] ScrollbarSlider
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] Slider
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] SliderCursor
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] Progressbar
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] ProgressbarContents
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] ItemView
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] Splitter
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] Menu
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] MenuItem
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] TitleBar
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] ComboBox
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] GroupBox
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] ToolTip
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
