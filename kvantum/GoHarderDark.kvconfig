@@ -94,8 +94,8 @@ scroll_width=15
 ; scroll_arrows=true
 
 ; TODO: 12-06-2024 11:51 AM Test these
-; scrollbar_in_view=false
-; transient_scrollbar=false
+; scrollbar_in_view=true
+transient_scrollbar=true
 ; transient_groove=false
 
 # tree
