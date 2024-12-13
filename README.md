@@ -88,7 +88,7 @@ onPrimaryContainer = #95ccff + white at 50%
 - [ ] ToolbarLineEdit
 - [ ] ScrollbarTransientSlider
 - [ ] MenuBar
-- [ ] MenuBarItem
+- [x] MenuBarItem
 - [ ] Window
 
 #### Review

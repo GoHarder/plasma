@@ -1579,30 +1579,30 @@
       <use href="#x-right-16" class="disabled-text" />
     </g>
   </g>
-  <!-- <g id="menubaritem-group" transform="translate(152,94)">
-    <g id="menubaritem-toggled-group">
-      <use id="menubaritem-toggled-topleft" href="#head-tl" class="on-surf" opacity="0.08" />
-      <use id="menubaritem-toggled-top" href="#head-t" class="on-surf" opacity="0.08" />
-      <use id="menubaritem-toggled-topright" href="#head-tr" class="on-surf" opacity="0.08" />
-      <use id="menubaritem-toggled-left" href="#head-l" class="on-surf" opacity="0.08" />
-      <use id="menubaritem-toggled" href="#head-c" class="on-surf" opacity="0.08" />
-      <use id="menubaritem-toggled-right" href="#head-r" class="on-surf" opacity="0.08" />
-      <use id="menubaritem-toggled-bottomleft" href="#head-bl" class="on-surf" opacity="0.08" />
-      <use id="menubaritem-toggled-bottom" href="#head-b" class="on-surf" opacity="0.08" />
-      <use id="menubaritem-toggled-bottomright" href="#head-br" class="on-surf" opacity="0.08" />
+  <g id="g-menubaritem" transform="translate(0,216)">
+    <g id="g-menubaritem-toggled">
+      <use id="menubaritem-toggled-topleft" xlink:href="#x-itemview-tl" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-top" xlink:href="#x-itemview-t" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-topright" xlink:href="#x-itemview-tr" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-left" xlink:href="#x-itemview-l" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled" xlink:href="#x-itemview-c" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-right" xlink:href="#x-itemview-r" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-bottomleft" xlink:href="#x-itemview-bl" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-bottom" xlink:href="#x-itemview-b" class="on-surf" opacity="0.08" />
+      <use id="menubaritem-toggled-bottomright" xlink:href="#x-itemview-br" class="on-surf" opacity="0.08" />
     </g>
-    <g id="menubaritem-pressed-group" transform="translate(18)">
-      <use id="menubaritem-pressed-topleft" href="#head-tl" class="sec-cont" />
-      <use id="menubaritem-pressed-top" href="#head-t" class="sec-cont" />
-      <use id="menubaritem-pressed-topright" href="#head-tr" class="sec-cont" />
-      <use id="menubaritem-pressed-left" href="#head-l" class="sec-cont" />
-      <use id="menubaritem-pressed" href="#head-c" class="sec-cont" />
-      <use id="menubaritem-pressed-right" href="#head-r" class="sec-cont" />
-      <use id="menubaritem-pressed-bottomleft" href="#head-bl" class="sec-cont" />
-      <use id="menubaritem-pressed-bottom" href="#head-b" class="sec-cont" />
-      <use id="menubaritem-pressed-bottomright" href="#head-br" class="sec-cont" />
+    <g id="g-menubaritem-pressed" transform="translate(24)">
+      <use id="menubaritem-pressed-topleft" xlink:href="#x-itemview-tl" class="sec-cont" />
+      <use id="menubaritem-pressed-top" xlink:href="#x-itemview-t" class="sec-cont" />
+      <use id="menubaritem-pressed-topright" xlink:href="#x-itemview-tr" class="sec-cont" />
+      <use id="menubaritem-pressed-left" xlink:href="#x-itemview-l" class="sec-cont" />
+      <use id="menubaritem-pressed" xlink:href="#x-itemview-c" class="sec-cont" />
+      <use id="menubaritem-pressed-right" xlink:href="#x-itemview-r" class="sec-cont" />
+      <use id="menubaritem-pressed-bottomleft" xlink:href="#x-itemview-bl" class="sec-cont" />
+      <use id="menubaritem-pressed-bottom" xlink:href="#x-itemview-b" class="sec-cont" />
+      <use id="menubaritem-pressed-bottomright" xlink:href="#x-itemview-br" class="sec-cont" />
     </g>
-  </g> -->
+  </g>
   <g id="g-titlebar" transform="translate(104,114)">
     <rect id="titlebar-focused" width="16" height="4" class="surf-cont-highest" x="0" y="0" />
     <rect id="titlebar-normal" width="16" height="4" y="4" class="surf-cont-high" x="0" />
