@@ -478,15 +478,10 @@ text.toggle.color=#e2e2e5
 # [MenuBar]
 
 [MenuBarItem]
-inherits=PanelButtonTool
+inherits=ItemView
 interior.element=menubaritem
 frame.element=menubaritem
-frame.top=1
-frame.bottom=1
-frame.left=1
-frame.right=1
-text.margin.top=2
-text.margin.bottom=2
+frame.expansion=0
 
 [TitleBar]
 inherits=PanelButtonTool
