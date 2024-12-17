@@ -77,7 +77,7 @@ onPrimaryContainer = #95ccff + white at 50%
 ### Kvantum
 
 #### Create
-- [ ] Set up config options
+- [x] Set up config options
 - [ ] DockTitle
 - [ ] IndicatorSpinBox
 - [ ] Focus
@@ -88,7 +88,6 @@ onPrimaryContainer = #95ccff + white at 50%
 - [ ] ToolbarLineEdit
 - [ ] ScrollbarTransientSlider
 - [ ] MenuBar
-- [x] MenuBarItem
 - [ ] Window
 
 #### Review
@@ -113,19 +112,11 @@ onPrimaryContainer = #95ccff + white at 50%
   - [ ] size
   - [ ] margin
 - [x] RadioButton
-- [ ] CheckBox
+- [x] CheckBox
+- [x] GenericFrame
+- [ ] LineEdit
   - [x] color
   - [x] text color
-  - [ ] size
-  - [ ] margin
-- [ ] GenericFrame
-  - [ ] color
-  - [ ] text color
-  - [ ] size
-  - [ ] margin
-- [ ] LineEdit
-  - [ ] color
-  - [ ] text color
   - [ ] size
   - [ ] margin
 - [ ] IndicatorArrow
@@ -228,6 +219,11 @@ onPrimaryContainer = #95ccff + white at 50%
   - [ ] size
   - [ ] margin
 - [ ] ToolTip
+  - [ ] color
+  - [ ] text color
+  - [ ] size
+  - [ ] margin
+- [ ] MenuBarItem
   - [ ] color
   - [ ] text color
   - [ ] size

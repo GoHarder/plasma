@@ -63,10 +63,12 @@ menu_separator_height=8
 menu_shadow_depth=6
 ; menu_blur_radius=2
 ; reduce_menu_opacity=0
+; submenu_delay=0
 
 # tooltip
 tooltip_shadow_depth=6
 ; tooltip_blur_radius=2
+; tooltip_delay=0
 
 # window
 ; translucent_window=true
@@ -93,14 +95,23 @@ scroll_width=15
 ; center_scrollbar_indicator=false
 ; scroll_arrows=true
 
-; TODO: 12-06-2024 11:51 AM Test these
+; TODO: 12-15-2024 3:34 PM - Set a transient scrollbar style
 ; scrollbar_in_view=true
 transient_scrollbar=true
 ; transient_groove=false
 
 # tree
-; TODO: 12-06-2024 11:51 AM Test this
 ; tree_branch_line=false
+
+# layout
+; layout_spacing=2 
+; layout_margin=4
+
+# icons
+; small_icon_size=16
+; large_icon_size=32
+; button_icon_size=16
+; toolbar_icon_size=16
 
 # rendering
 ; blurring=true
@@ -113,8 +124,11 @@ opaque=kaffeine,kmplayer,subtitlecomposer,kdenlive,vlc,smplayer,smplayer2,avidem
 animate_states=true
 ; no_inactiveness=false
 ; no_window_pattern=false
+; fill_rubberband=false
+; remove_extra_frames=false
+dark_titlebar=true
 
-; MARK: Next setting tooltip_delay
+; MARK: Next setting 
 
 [GeneralColors]
 # window
