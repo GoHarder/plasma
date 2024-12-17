@@ -72,6 +72,10 @@ outlineVariant = #282a2d + white at 15%
 PrimaryContainer = #95ccff + black at 70%
 onPrimaryContainer = #95ccff + white at 50%
 
+slider track size 4px
+
+slider knob size 20px
+
 ## TODO
 
 ### Kvantum
