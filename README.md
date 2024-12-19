@@ -187,26 +187,10 @@ slider knob size 20px
   - [ ] text color
   - [ ] size
   - [ ] margin
-- [ ] ItemView
-  - [ ] color
-  - [ ] text color
-  - [ ] size
-  - [ ] margin
-- [ ] Splitter
-  - [ ] color
-  - [ ] text color
-  - [ ] size
-  - [ ] margin
-- [ ] Menu
-  - [ ] color
-  - [ ] text color
-  - [ ] size
-  - [ ] margin
-- [ ] MenuItem
-  - [ ] color
-  - [ ] text color
-  - [ ] size
-  - [ ] margin
+- [x] ItemView
+- [x] Splitter
+- [x] Menu
+- [x] MenuItem
 - [ ] TitleBar
   - [ ] color
   - [ ] text color
@@ -217,11 +201,7 @@ slider knob size 20px
   - [ ] text color
   - [ ] size
   - [ ] margin
-- [ ] GroupBox
-  - [ ] color
-  - [ ] text color
-  - [ ] size
-  - [ ] margin
+- [x] GroupBox
 - [ ] ToolTip
   - [ ] color
   - [ ] text color
