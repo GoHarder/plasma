@@ -167,11 +167,7 @@ slider knob size 20px
   - [ ] text color
   - [ ] size
   - [ ] margin
-- [ ] Slider
-  - [ ] color
-  - [ ] text color
-  - [ ] size
-  - [ ] margin
+- [x] Slider
 - [ ] SliderCursor
   - [ ] color
   - [ ] text color
