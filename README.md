@@ -165,11 +165,7 @@ onPrimaryContainer = #95ccff + white at 50%
   - [ ] margin
 - [x] Slider
 - [x] SliderCursor
-- [ ] Progressbar
-  - [ ] color
-  - [ ] text color
-  - [ ] size
-  - [ ] margin
+- [x] Progressbar
 - [x] ProgressbarContents
 - [x] ItemView
 - [x] Splitter
