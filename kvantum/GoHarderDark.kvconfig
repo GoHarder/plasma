@@ -53,7 +53,7 @@ group_toolbar_buttons=true
 
 # progressbar
 spread_progressbar=true
-progressbar_thickness=6
+progressbar_thickness=4
 
 # menu
 ; scrollable_menu=true
@@ -422,10 +422,10 @@ interior.element=slidercursor
 inherits=PanelButtonTool
 frame.element=progress
 interior=false
-frame.top=3
-frame.bottom=3
-frame.left=3
-frame.right=3
+frame.top=2
+frame.bottom=2
+frame.left=2
+frame.right=2
 text.focus.color=white
 text.bold=true
 

@@ -72,10 +72,6 @@ outlineVariant = #282a2d + white at 15%
 PrimaryContainer = #95ccff + black at 70%
 onPrimaryContainer = #95ccff + white at 50%
 
-slider track size 4px
-
-slider knob size 20px
-
 ## TODO
 
 ### Kvantum
@@ -168,21 +164,13 @@ slider knob size 20px
   - [ ] size
   - [ ] margin
 - [x] Slider
-- [ ] SliderCursor
-  - [ ] color
-  - [ ] text color
-  - [ ] size
-  - [ ] margin
+- [x] SliderCursor
 - [ ] Progressbar
   - [ ] color
   - [ ] text color
   - [ ] size
   - [ ] margin
-- [ ] ProgressbarContents
-  - [ ] color
-  - [ ] text color
-  - [ ] size
-  - [ ] margin
+- [x] ProgressbarContents
 - [x] ItemView
 - [x] Splitter
 - [x] Menu
