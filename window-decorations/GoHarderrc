@@ -46,7 +46,7 @@ RightButtons=HIAX
 Shadow=true
 
 # Decoration on top (0), left (1), right (2), or bottom (3) (default: 0)
-DecorationPositon=0
+DecorationPosition=0
 
 [Layout]
 
