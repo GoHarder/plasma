@@ -1,0 +1,39 @@
+<svg width="68" height="68" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Background {
+        color: #2e2e2e;
+      }
+    </style>
+    <rect id="box" width="24" height="34" x="5" y="0" fill="none" />
+    <path id="icon-1"
+      d="m 19.4,17 1.6,1.6 v 1.2 h -3.4 v 3.8 l -0.6,0.6 -0.6,-0.6 v -3.8 H 13 v -1.2 l 1.6,-1.6 v -4.4 H 13.8 V 11.4 h 6.4 v 1.2 h -0.8 z M 14.7,18.6 h 4.6 l -1.1,-1.1 v -4.9 H 15.8 v 4.9 z m 2.3,0 z" />
+    <path id="icon-2"
+      d="m 20.2,11.4 v 1.2 h -0.8 v 5.117 l -1.2,-1.2 v -3.917 h -2.4 v 1.517 l -1.5,-1.5 -0.5,-0.517 v -0.7 z m -3.2,12.8 -0.6,-0.6 v -3.8 h -3.4 v -1.2 l 1.6,-1.6 V 16.293 L 10.5,12.2 l 0.85,-0.85 11.3,11.317 -0.85,0.85 -3.7,-3.717 h -0.5 v 3.8 z m -2.3,-5.6 h 2.2 l -1.1,-1.1 z m 2.283,-3.2 z m -1.183,2.1 z" />
+    <rect id="border" width="22" height="22" x="6" y="6" rx="5" />
+  </defs>
+  <g id="active-center">
+    <use href="#box" />
+    <use href="#icon-1" class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="inactive-center">
+    <use href="#box" />
+    <use href="#icon-1" class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="hover-center" transform="translate(34)">
+    <use href="#box" />
+    <use href="#icon-1" class="ColorScheme-Text" fill="currentColor" />
+    <use href="#border" class="ColorScheme-Text" fill="currentColor" opacity="0.08" />
+  </g>
+  <g id="pressed-center" transform="translate(0,34)">
+    <use href="#box" />
+    <use href="#icon-2" class="ColorScheme-Text" fill="currentColor" />
+    <use href="#border" class="ColorScheme-Text" fill="currentColor" opacity="0.1" />
+  </g>
+  <g id="deactivated-center" transform="translate(34,34)">
+    <use href="#box" />
+    <use href="#border" class="ColorScheme-Text" fill="currentColor" opacity="0.12" />
+    <use href="#icon-1" class="ColorScheme-Text" fill="currentColor" opacity="0.38" />
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg width="68" height="68" viewBox="0 0 68 68" version="1.1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Background {
+        color: #2e2e2e;
+      }
+    </style>
+    <rect id="box" width="24" height="34" x="5" y="0" fill="none" />
+    <path id="icon"
+      d="m 16.133,19 q 0,-1.2 0.242,-1.792 0.242,-0.592 1.008,-1.258 0.717,-0.617 0.967,-0.992 0.25,-0.375 0.25,-0.842 0,-0.633 -0.45,-1.042 -0.45,-0.408 -1.15,-0.408 -0.617,0 -1.083,0.383 -0.467,0.383 -0.667,1.05 l -1.6,-0.667 q 0.35,-1.1 1.275,-1.767 Q 15.85,11 17,11 q 1.483,0 2.417,0.858 0.933,0.858 0.933,2.208 0,0.7 -0.308,1.275 -0.308,0.575 -1.108,1.325 -0.683,0.633 -0.842,1.008 -0.158,0.375 -0.175,1.325 z m 0.867,3.6 q -0.5,0 -0.85,-0.35 -0.35,-0.35 -0.35,-0.85 0,-0.5 0.35,-0.85 0.35,-0.35 0.85,-0.35 0.5,0 0.85,0.35 0.35,0.35 0.35,0.85 0,0.5 -0.35,0.85 -0.35,0.35 -0.85,0.35 z" />
+    <rect id="border" width="22" height="22" x="6" y="6" rx="5" />
+  </defs>
+  <g id="active-center">
+    <use href="#box" />
+    <use href="#icon" class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="inactive-center">
+    <use href="#box" />
+    <use href="#icon" class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="hover-center" transform="translate(34)">
+    <use href="#box" />
+    <use href="#icon" class="ColorScheme-Text" fill="currentColor" />
+    <use href="#border" class="ColorScheme-Text" fill="currentColor" opacity="0.08" />
+  </g>
+  <g id="pressed-center" transform="translate(0,34)">
+    <use href="#box" />
+    <use href="#icon" class="ColorScheme-Text" fill="currentColor" />
+    <use href="#border" class="ColorScheme-Text" fill="currentColor" opacity="0.1" />
+  </g>
+  <g id="deactivated-center" transform="translate(34,34)">
+    <use href="#box" />
+    <use href="#border" class="ColorScheme-Text" fill="currentColor" opacity="0.12" />
+    <use href="#icon" class="ColorScheme-Text" fill="currentColor" opacity="0.38" />
+  </g>
+</svg>
