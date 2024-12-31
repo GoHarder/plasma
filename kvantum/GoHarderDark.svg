@@ -1,6 +1,6 @@
 <svg width="254" height="254" viewBox="0 0 254 254" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink"
   xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
-  <!-- viewBox="0 0 40 40" -->
+  <!-- viewBox="0 0 254 254" -->
   <style>
     .pri {
       fill: #95ccff;
@@ -167,21 +167,21 @@
     <path id="x-itemview-bl" d="M 4,24 A 4,4 0 0 1 0,20 h 4 z" />
     <rect id="x-itemview-b" width="16" height="4" x="4" y="20" />
     <path id="x-itemview-br" d="m 20,24 a 4,4 0 0 0 4,-4 h -4 z" />
-    <rect id="x-prog-tl" width="3" height="3" x="0" y="0" />
-    <rect id="x-prog-t" width="16" height="3" x="3" y="0" />
-    <rect id="x-prog-tr" width="3" height="3" x="19" y="0" />
-    <rect id="x-prog-bl" width="3" height="3" x="0" y="3" />
-    <rect id="x-prog-b" width="16" height="3" x="3" y="3" />
-    <rect id="x-prog-br" width="3" height="3" x="19" y="3" />
-    <path id="x-slider-tl" d="M 3,0 A 3,3 0 0 0 0,3 h 3 z" />
-    <rect id="x-slider-t" width="3" height="3" x="3" y="0" />
-    <path id="x-slider-tr" d="M 6,0 A 3,3 0 0 1 9,3 H 6 Z" />
-    <rect id="x-slider-l" width="3" height="16" x="0" y="3" />
-    <rect id="x-slider-c" width="3" height="16" x="3" y="3" />
-    <rect id="x-slider-r" width="3" height="16" x="6" y="3" />
-    <path id="x-slider-bl" d="M 3,22 A 3,3 0 0 1 0,19 h 3 z" />
-    <rect id="x-slider-b" width="3" height="3" x="3" y="19" />
-    <path id="x-slider-br" d="M 6,22 A 3,3 0 0 0 9,19 H 6 Z" />
+    <path id="x-prog-tl" d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" />
+    <rect id="x-prog-t" width="16" height="2" x="2" y="0" />
+    <path id="x-prog-tr" d="M 18,0 a 2,2 0 0 1 2,2 h -2 z" />
+    <path id="x-prog-bl" d="M 2,4 a 2,2 0 0 1 -2,-2 h 2 z" />
+    <rect id="x-prog-b" width="16" height="2" x="2" y="2" />
+    <path id="x-prog-br" d="M 18,4 a 2,2 0 0 0 2,-2 h -2 z" />
+    <path id="x-slider-tl" d="M 2,0 a 2,2 0 0 0 -2,2 h 2 z" />
+    <rect id="x-slider-t" width="2" height="2" x="2" y="0" />
+    <path id="x-slider-tr" d="M 4,0 a 2,2 0 0 1 2,2 h -2 Z" />
+    <rect id="x-slider-l" width="2" height="16" x="0" y="2" />
+    <rect id="x-slider-c" width="2" height="16" x="2" y="2" />
+    <rect id="x-slider-r" width="2" height="16" x="4" y="2" />
+    <path id="x-slider-bl" d="M 2,20 a 2,2 0 0 1 -2,-2 h 2 z" />
+    <rect id="x-slider-b" width="2" height="2" x="2" y="18" />
+    <path id="x-slider-br" d="M 4,20 a 2,2 0 0 0 2,-2 h -2 Z" />
     <rect id="x-head-tl" width="1" height="1" x="0" y="0" />
     <rect id="x-head-t" width="16" height="1" x="1" y="0" />
     <rect id="x-head-tr" width="1" height="1" x="17" y="0" />
@@ -1162,7 +1162,7 @@
       <use id="slider-normal-bottom" href="#x-slider-b" class="sec-cont" />
       <use id="slider-normal-bottomright" href="#x-slider-br" class="sec-cont" />
     </g>
-    <g id="slider-toggled-group" transform="translate(9)">
+    <g id="slider-toggled-group" transform="translate(6)">
       <use id="slider-toggled-topleft" href="#x-slider-tl" class="pri" />
       <use id="slider-toggled-top" href="#x-slider-t" class="pri" />
       <use id="slider-toggled-topright" href="#x-slider-tr" class="pri" />
