@@ -1,0 +1,32 @@
+<svg width="90" height="90" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg"
+  xmlns:svg="http://www.w3.org/2000/svg">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text {
+        color: #e2e2e5;
+      }
+    </style>
+    <path id="icon" d="M 16.1,27.3 V 17.7 h 12.8 v 9.6 z m 1.2,-1.2 H 27.7 V 20.1 H 17.3 Z" />
+    <rect id="back" width="45" height="34" x="0" y="5.5" />
+  </defs>
+  <g id="active-center">
+    <use href="#back" fill="none" />
+    <use href="#icon" class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="inactive-center">
+    <use href="#back" fill="none" />
+    <use href="#icon" class="ColorScheme-Text" fill="currentColor" />
+  </g>
+  <g id="hover-center" transform="translate(45,0)">
+    <use href="#icon" class="ColorScheme-Text" fill="currentColor" />
+    <use href="#back" class="ColorScheme-NegativeText" fill="currentColor" opacity="0.08" />
+  </g>
+  <g id="pressed-center" transform="translate(0,45)">
+    <use href="#icon" class="ColorScheme-Text" fill="currentColor" />
+    <use href="#back" class="ColorScheme-Text" fill="currentColor" opacity="0.1" />
+  </g>
+  <g id="deactivated-center" transform="translate(45,45)">
+    <use href="#back" class="ColorScheme-Text" fill="currentColor" opacity="0.12" />
+    <use href="#icon" class="ColorScheme-Text" fill="currentColor" opacity="0.38" />
+  </g>
+</svg>
